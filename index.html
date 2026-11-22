@@ -711,6 +711,28 @@ var EXPIRED=[
 /* -- 子节：消息条目 -- */
 /* 字段顺序：[标题, 分类, 日期, 时段, 热度, 状态, 说明, 链接, 截止日]；条目按分享批次分组，最新批次在最前 */
 var ITEMS=[
+/* -- 11-22 网页动效 · 晚上 -- */
+["OpenMotion——开源版 Claude Motion：参考视频一键还原成可改的 HTML 动效","网页动效","11-22","晚","高","有效","OpenDesign 出品（Apache 2.0，约 1.5 万星）：给它一段参考视频加自家品牌素材，Agent 会拆解镜头、按 300 多份 Motion.md 配方用 HTML/CSS/JS 重建整段动效，时间轴可改、能导出 MP4，支持 Claude Code、Codex 等 22 个 Agent；可直接导入 HyperFrames 项目接着改。注意：出图配音要走自己的模型 Key，生成类模型费用自理。","https://github.com/nexu-io/openmotion",""],
+["Open-Motion——浏览器里跑的开源版 Alight Motion","网页动效","11-22","晚","中","有效","免费开源（MIT，仅 35 星，冷门）：不用安装，浏览器打开就是一台动效剪辑器——时间轴关键帧、缓动曲线编辑、矢量路径、3D 变换与图层编辑齐全，手机端触屏优先，还能装成 PWA。注意：仍是早期原型，部分功能与导出还在完善中。","https://github.com/Hada45/Open-Motion",""],
+["AniCraft——纯 Rust 重写的开源版 Adobe Animate","网页动效","11-22","晚","中","有效","ArtCraft 团队出品（Apache 2.0，约 500 星）：舞台、时间轴、关键帧、经典与形状补间、洋葱皮、元件库一应俱全，能直接打开 .fla/.xfl 老文件，导出 Lottie、HTML Canvas、GIF 与精灵表；桌面端与浏览器 WebAssembly 都能跑，还带 MCP 服务器让 Agent 帮你画。注意：早期 alpha 版，ActionScript 与部分补间导入还在补。","https://github.com/storytold/anicraft",""],
+/* -- 11-22 前沿追踪 · 晚场 -- */
+["pi-H3 1.0——2 步生成 MiniMax H3 视频，跳过 VAE 解码","前沿追踪","11-22","晚","高","有效","斯坦福与 Luma 团队 11 月 21 日发布 pi-H3 1.0：把 MiniMax H3 蒸馏到 2–4 步采样，最后一步直接预测像素、跳过视频 VAE 解码；单张 B200 上 5 秒 HD 视频 3.8 秒生成（比播放还快），音画同步；权重、推理代码与 ComfyUI 支持已开源。注意：训练代码尚未发布；速度为作者自测。","https://hanshengchen.com/blog/pi-h3/",""],
+["AMD Nitro-P——无 VAE 的像素空间文生图，一步出图每秒 90 张","前沿追踪","11-22","晚","高","有效","AMD 11 月 20 日发布 Nitro-P：像素空间文生图模型，不用 VAE、直接在像素空间生成；GenEval 0.88（512px），一步蒸馏版在单张 MI300X 上每秒 90 张；权重与完整训练代码全部开源。注意：吞吐与分数均为 AMD 自测（MI300X、batch 32）。","https://rocm.blogs.amd.com/artificial-intelligence/nitro-p/README.html",""],
+["SoduWork——团队多 Agent 引擎：一个干活、一个评审、最后人签收","前沿追踪","11-22","晚","高","有效","MDiRi 11 月 16 日正式开源发布：自托管的团队 Agent 引擎，一个 harness 干活、另一个按验收标准评审，交付须由需求方本人签收；接 Pi、OpenCode、Codex、DeepSeek Harness 等 9 种运行时，MIT 开源，现约 6.6K 星。注意：公开测试版，生产使用前先评估；仓库 10 月 29 日已公开。","https://github.com/mdiri-ai/SoduWork",""],
+/* -- 11-22 设计素材（晚场） -- */
+["IconMCP——AI 智能体持续绘制的图标库，1.3 万+图标可逛着挑","设计素材","11-22","晚","中","有效","由 AI 智能体持续绘制的图标库，现 13,326 个图标、58 个图标集，可在第一人称地图里逛着挑图标，另有“Use in your agent”入口供编程助手调用；浏览无需登录。注意：首页未标明授权协议，商用前请先到站内确认授权。","https://iconmcp.com",""],
+["Animdock——浏览器里的免费动效模板 + 免版税素材 + 59 个本地工具","设计素材","11-22","晚","中","有效","11 月 13 日上线的浏览器免费创意工具箱：28 个程序化动效模板（粒子、动态字体、星空等）可调参导出 MP4/WebM/PNG，另有 13,984 个免版税图片、透明 PNG 与音效，及 59 个本地运行的图片/视频/音频/PDF 小工具；全免费、免注册、无水印。注意：图库素材为 AI 生成。","https://animdock.com",""],
+["Mesh Gradient Studio——11 月 3 日上线的动效渐变背景工具，15 种风格可导出视频或代码","设计素材","11-22","晚","中","有效","浏览器里做会动的渐变背景：15 种风格、58 个预设，拖色点、叠 8 层混合模式，导出 PNG、CSS、实时 HTML 嵌入或 MP4 短片；编辑器全免费免注册，免费档含 5 秒 720p 带水印短片，Pro（$8/月）解锁 4K 与去水印。","https://meshgradientstudio.com/",""],
+["Gradient Generator（utils.sbs）——11 月 21 日上线的极简免费渐变工具，本地运行","设计素材","11-22","晚","中","有效","线性/径向两种渐变，调颜色、角度即出可复制的 CSS，也可导出 JSON 或配色，全部本地运算、免注册不上传文件。注意：功能较基础，仅双色渐变。","https://utils.sbs/tools/gradient-generator",""],
+/* -- 11-22 学习成长 · 晚 -- */
+["Compiler Design Master Track——Binary Dose 11 月 1 日上线的免费编译原理课","学习成长","11-22","晚","中","有效","8 个模块从词法分析、语法分析、语义分析一路讲到三地址码、代码优化与目标代码生成，配可视化解析表与数学推导，100% 免费","https://binarydose.in/coredose/compiler",""],
+["Vibecoding: Introduction to Applied AI——SIGCSE Virtual 2026（11 月 12–15 日）发表的开放课程","学习成长","11-22","晚","中","有效","免费教材 + 讲义 + 每章配套实验，CC BY-NC 4.0 协议，从写需求规格、搭全栈应用到批判性评估 AI 生成的代码，教“认真做产品”的 Vibe Coding，不是无脑粘贴","https://algoarena.net/textbook",""],
+["Learn Harness Engineering——免费开源（MIT）的 Harness 工程课","学习成长","11-22","晚","中","有效","14 讲 + 8 个实战项目，教给 AI 编程助手搭建环境、状态管理、验证与控制机制，让它在真实仓库里可靠干活；8 月新增 Claude Code、Codex、Pi、DeepSeek 四家前沿 Harness 拆解，含简体中文等 15 种语言","https://github.com/walkinglabs/learn-harness-engineering",""],
+/* -- 11-22 排版网站 · 晚场 -- */
+["Open Foundry——开源字体策展站，每款字体都是满屏大字试排","排版网站","11-22","晚","中","有效","只收开源字体的策展站：Work Sans、Inter、EB Garamond、League Gothic 等每款都配满屏大字试排，输入自己的文字可直接预览、调字号行距字距；全部 SIL OFL 免费商用，适合找干净好用的开源字体、学字体怎么陈列。","https://open-foundry.com/",""],
+["Collletttivo——米兰开源字库，15 个插画故事讲字体","排版网站","11-22","晚","中","有效","2017 年成立的米兰开源字库：Apfel Grotezk、Coconat、Sinistre 等十余款字体全部 OFL 免费；最特别的是《Type Tales》——15 个插画故事，每篇只用一款字体排，边读故事边感受这款字的性格，适合看字体叙事怎么做。","https://www.collletttivo.it/typefaces",""],
+["Bold Monday——荷兰独立字库，Nitti Mostro 与像素字体 Puffin Arcade","排版网站","11-22","晚","中","有效","2008 年成立的荷兰独立字库：近 40 款字体个个带点怪脾气——Nitti Mostro 的渐变铬面大字、Puffin Arcade 的像素街机字、Brando 的当代衬线，每款都有完整 PDF 试排样本；适合找有性格的标题字、看独立字库怎么做试排。","https://www.boldmonday.com/typefaces",""],
+["中文排版需求——W3C 的中文排版规则总汇，标点禁则直排一次讲清","排版网站","11-22","晚","中","有效","W3C 中文布局任务组写的中文排版需求：标点放哪、禁则怎么处理、直排横排有何不同、各地繁简规则差在哪，英/简/繁三语对照、配图讲解；做中文页面排版前翻一遍，比凭感觉调字距靠谱得多。注意：仍是工作草案，会持续更新。","https://www.w3.org/TR/clreq/",""],
 /* -- 11-22 设计素材（中午） -- */
 ["Doodle Icons——203 个免费手绘动画 SVG 图标，笔画自己画出来还会抖","设计素材","11-22","中午","高","有效","11 月 8 日上线：203 个手绘图标全是 MIT 免费商用，笔画先自己画出来、再像老动画一样一直轻微抖动，纯 SVG 滤镜实现、不用 JS；可下载静态 SVG、透明 PNG 或动画 SVG，也能 npm 安装或走 shadcn。注意：更多 1708 个图标是 Pro 版，一次付费 $39（前 100 名）/$69，无订阅。","https://doodle.oreoui.com/",""],
 ["Inter Mono 1.611——Inter 的等宽版，代码与终端用，另有电视字幕风彩色版","设计素材","11-22","中午","中","有效","11 月 17 日 v1.611：Inter 的非官方等宽改编，约 3000 字符（拉丁/希腊/西里尔、箭头与制表符），1 l I | 与 0 O 区分清楚、无连字，适合代码与终端；另有电视字幕风彩色版。OFL 1.1 免费商用。注意：仅正体与斜体、无粗体；项目 11 月 10 日才建库，非常新；非官方改编，与 Inter 项目无关。","https://github.com/Joyouou/inter-mono",""],
@@ -1272,6 +1294,10 @@ var CAT_ORDER=["免费资源","网页动效","排版网站","YouTube 选题","�
 
 /* 子分类映射：按标题归类，未在表中列出的按大类兜底（见 SUB_FALLBACK） */
 var SUBCAT={
+"Open Foundry——开源字体策展站，每款字体都是满屏大字试排":"开源字体",
+"Collletttivo——米兰开源字库，15 个插画故事讲字体":"独立字库",
+"Bold Monday——荷兰独立字库，Nitti Mostro 与像素字体 Puffin Arcade":"独立字库",
+"中文排版需求——W3C 的中文排版规则总汇，标点禁则直排一次讲清":"中文排版",
 "Overlap Type":"独立字库",
 "Too Much Type":"实验字体",
 "Arcane Type":"独立字库",
