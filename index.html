@@ -559,7 +559,7 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-si
     </div>
   </div>
   <div class="page-meta">
-    <span class="range-chip">2026-11-16 → 11-21 · 整理于 11-21</span>
+    <span class="range-chip">2026-11-16 → 11-22 · 整理于 11-22</span>
   </div>
 </div>
 
@@ -598,7 +598,7 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-si
         </div>
       </div>
       <div class="filter-grid">
-        <label class="fl">日期<select id="f-date"><option value="">全部日期</option><option value="11-16">11 月 16 日</option><option value="11-17">11 月 17 日</option><option value="11-18">11 月 18 日</option><option value="11-19">11 月 19 日</option><option value="11-20">11 月 20 日</option></select></label>
+        <label class="fl">日期<select id="f-date"><option value="">全部日期</option><option value="11-16">11 月 16 日</option><option value="11-17">11 月 17 日</option><option value="11-18">11 月 18 日</option><option value="11-19">11 月 19 日</option><option value="11-20">11 月 20 日</option><option value="11-21">11 月 21 日</option><option value="11-22">11 月 22 日</option></select></label>
         <label class="fl">时段<select id="f-period"><option value="">全部时段</option><option>早</option><option>中午</option><option>晚</option></select></label>
         <label class="fl">状态<select id="f-status"><option value="">全部状态</option><option>有效</option><option>即将过期</option><option>已过期</option><option>地区限定</option><option>待确认</option><option>未核实</option></select></label>
         <label class="fl">热度<select id="f-heat"><option value="">全部热度</option><option>高</option><option>中</option><option>低</option></select></label>
@@ -675,7 +675,7 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-si
 <div class="expired-list" id="expired"></div>
 
 <!-- ====== 板块：页脚 ====== -->
-<footer>数据范围：2026-11-16 ～ 2026-11-21 的实际分享记录 · 链接均为原始分享链接</footer>
+<footer>数据范围：2026-11-16 ～ 2026-11-22 的实际分享记录 · 链接均为原始分享链接</footer>
 </div>
 <button id="toTop" type="button" aria-label="回到顶部">↑</button>
 <div id="toast" role="status"></div>
@@ -711,6 +711,62 @@ var EXPIRED=[
 /* -- 子节：消息条目 -- */
 /* 字段顺序：[标题, 分类, 日期, 时段, 热度, 状态, 说明, 链接, 截止日]；条目按分享批次分组，最新批次在最前 */
 var ITEMS=[
+/* -- 11-22 前沿追踪 · 早场 -- */
+["微软 MAI Code 2 与 Code 2 Flash 上线 GitHub Copilot（11-17）","前沿追踪","11-22","早","高","有效","微软 Ignite 发布的自研编程模型：日常企业编码任务，官方称四项基准平均达到 GPT-6.1 Sol 的 98%、Claude Opus 5.5 的 96%，价格分别约为 40% 与 5%；轻量版 Flash 免费档也能用。注意：性价比按 5 折促销价计算（至 2027 年 5 月 17 日），基准为微软自测、未经独立复现。","https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",""],
+["Google 发布 Stitch Loop：7×24 小时盯着你的产品自动修 bug（11-18）","前沿追踪","11-22","早","高","有效","Google Labs 的常驻产品 Agent：接 GitHub 与线上指标，找问题、给方案，在隔离沙箱里写修复并开 PR 等人审核，修完继续盯指标防回落；内置安全、延迟、无障碍三条循环。注意：实验阶段、全球候补名单，Google AI Ultra 用户优先。","https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",""],
+["Docker 换新品牌、押注 Agent 信任层：Sandboxes 与 AI Governance 上线（11-19）","前沿追踪","11-22","早","中","有效","Docker 称“容器隔离的是工作负载，Agent 是行动者”，推出微型虚拟机隔离的 Docker Sandboxes 与 AI Governance：管 Agent 能访问哪里、能调哪些 MCP 工具、每一步审计留痕。注意：组织级治理需单独订阅、价格未公开。","https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/",""],
+/* -- 11-22 设计素材（早场） -- */
+["Vazirmatn Soft 1.0：波斯/阿拉伯圆角可变字体，字宽不变直接替换","设计素材","11-22","早","中","有效","11 月 20 日发布：把 Vazirmatn 的菱形点改成圆点、笔画端点与外角全部磨圆，字宽与间距不变，可直接替换原字体不断行；9 个字重加 100–900 可变版，另有界面版与纯阿拉伯文版；SIL OFL 1.1 免费商用。","https://github.com/truthofmatthew/vazirmatn-soft",""],
+["Mixweight V4：浏览器里逐字混搭可变字重，导出到 Adobe 仍是活字","设计素材","11-22","早","中","有效","在浏览器里按字母逐个调可变字体的字重实例，自动对齐 x 高并调整间距，可导出脚本在 Illustrator/InDesign/Photoshop 里重建为可编辑文字，也可导出 PNG；MIT 协议免费免安装，需用 Chrome 或 Edge 打开。","https://mixweight.pages.dev/",""],
+["Icon Monks：6054 个原创图标 × 6 种粗细，MIT 免费商用","设计素材","11-22","早","高","有效","31 个分类的原创 SVG 图标库，每个图标都有 Thin 到 Duotone 六种粗细；可复制 SVG 或导出 PNG/WebP/PDF，也支持 React、Vue、Flutter、SwiftUI 与 Android 包；MIT 协议免费商用、无需注册。","https://www.iconmonks.co/",""],
+["Loci 1.000：45° 倒角的硬朗大写展示字体","设计素材","11-22","早","中","有效","全部大写字母、数字与标点都用等宽折线加 45° 倒角画成、没有一条曲线，适合标题、徽标与 HUD 界面计数器；11 月 17 日首发，单字重；SIL OFL 1.1 免费商用。","https://github.com/yang-yibinn/loci-font/releases/tag/v1.000",""],
+/* -- 11-22 排版网站 · 早场 -- */
+["Chinese Type Archive","排版网站","11-22","早","中","有效","Parsons 团队做的中文排版开放数据库：800 多条中文字体、概念与资源记录，中英双语，可按字体、历史、术语检索；查一款中文字体的来历或找中文排版术语解释时，比零散搜文章快得多。","https://www.chinesetypearchive.com/",""],
+["Font of the Month Club","排版网站","11-22","早","中","有效","字体设计师 David Jonathan Ross 每月寄一款实验性新字体：从科幻感的 Gigawarp 到源自 1920 年代地图字体的 Lithographer Text，每款都配一篇讲灵感来源与笔画取舍的设计手记；看一款字体从草图长成什么样、学展示字体怎么做叙事，最好的连载。","https://fontofthemonth.club/",""],
+/* -- 11-22 科学可视化 · 早场 -- */
+["Lenses, Mirrors & Optical Instruments：免费互动光学实验，逐条描三条主光线","科学可视化","11-22","早","高","有效","11 月 15 日刚更新到 v1.2 的免费互动光学实验：逐条描三条主光线，看凹凸面镜与会聚发散透镜成的像是实是虚、正倒大小，实像能拖屏接住、虚像只能用眼睛找；另有验光配镜的 Eye Lab 和自搭放大镜、显微镜、三种望远镜与相机的 Instruments 标签页，免安装免账号，还能下载单个 942KB 的 HTML 文件离线用，CC BY-NC-SA 许可。","https://glidepathscience.org/simulations/lenses-mirrors-instruments/",""],
+["VisionVix 3D DNA 模拟器：浏览器里拖着转、拉开看复制全过程","科学可视化","11-22","早","高","有效","免费 3D DNA 双螺旋模拟器，浏览器里直接玩：36 个碱基对按 Watson-Crick 实测尺寸建模，拖着转、拉开看复制全过程，解旋酶解开双链、聚合酶逐个补碱基，还能故意插一个错碱基看修复酶揪出来改掉，另有 DNA 到蛋白质、从染色体一路放大到单个碱基对的缩放模式，可输入自己的碱基序列重建双链。进站后点 3D Cell Lab 里的 3D DNA Double Helix。","https://visionvix.world/",""],
+["ShramkoGSFPV：开源浏览器 FPV 无人机模拟器，1300 多个真实扫描场景可飞","科学可视化","11-22","早","中","有效","开源免费的浏览器 FPV 无人机模拟器，MIT 协议：把 SuperSplat 上 1300 多个真实 3D 高斯泼溅扫描场景变成可飞的场地，房间、街道、花园都有真实碰撞体素墙，撞上去会炸机翻滚；飞控按 Betaflight 4.5.1 的速率曲线与 PID 建模，可粘贴自己的 Betaflight CLI 参数，接 EdgeTX 遥控器、手柄、触屏或键盘，支持地球/月球/火星/零重力，需支持 WebGPU 的浏览器。","https://gsfpv.flyreelstudio.eu",""],
+/* -- 11-22 学习成长 · 早 -- */
+["Warp Learn：免费学造“软件工厂”，让 AI 编程助手组成自我改进的开发流水线","学习成长","11-22","早","高","有效","Warp 11 月 19 日推出的免费实操课，教你把单个编程助手升级成能协调分工、验证结果、度量表现并自我改进的“软件工厂”：从接 issue、写规格、评估合并风险到自动修 bug；前两个单元已上线，第三单元讲度量与改进。","https://www.warp.dev/blog/warp-learn-software-factory-course",""],
+["Vibe Coding for Beginners：零基础免费学 Vibe Coding，不用注册就能上","学习成长","11-22","早","高","有效","11 月刚更新的免费课，零基础也能跟：20 个测验、60 个动手练习、10 个项目，教你选 AI 编程工具、写能落地的提示词、用检查清单把网站发到免费托管上，还讲了 2025–2026 年真实泄露事故里的安全教训；学完可免费拿证书。注意：Claude Code 需付费版 Claude 账号，其他工具均有免费档。","https://vibecodeschool.com/courses/vibe-coding-for-beginners",""],
+["Aalto 大学 Python 科学计算免费课：11 月 24–26 日直播，NumPy 到 Pandas 三天讲透","学习成长","11-22","早","中","有效","阿尔托大学 11 月 24–26 日每天 10:00（欧洲中部时间）在线直播的免费课，讲 NumPy、SciPy、Matplotlib、Pandas 等科学计算核心库，面向有 Python 基础的研究者；Twitch 上不用注册就能看，注册可参加练习与实时答疑。","https://www.aalto.fi/en/events/python-for-scientific-computing-24-26112026",""],
+["LearnHarness：1.1 万星开源 AI 家教桌面应用，先测你懂多少再一步步教","学习成长","11-22","早","高","有效","10 月上线、11 月 20 日冲上 GitHub 学习类热门的开源桌面应用（AGPL-3.0，1.1 万星）：AI 先摸清你对每个知识点的理解边界，再按依赖关系规划课程，一步步教、随时修补误解，学过的内容沉淀成知识图谱跨会话复用；无订阅、数据存本机。注意：模型费用自理，需自带 API Key、Claude Code 或本地模型。","https://github.com/amosblomqvist/learnharness",""],
+/* -- 11-22 YouTube 选题 · 早 -- */
+["Railway 免费档——不用绑卡，每月 $1 额度部署应用，还能免注册开 2 核云主机 60 分钟","YouTube 选题","11-22","早","高","有效","拍法：打开 docs.railway.com/pricing/free-plan 核对免费档（每月 $1 额度长期有效、免绑卡，1 个项目最多 3 个服务），实测部署一个应用；再演示 ssh railway.new 免注册开一台 2 核 2GB 免费 Linux 云主机 60 分钟（每天每 IP 限 3 台）。注意：免费服务闲置 5–10 分钟会休眠、无自定义域名与定时任务；新账号另有 30 天 $5 一次性试用，别和每月 $1 长期额度混淆。","https://docs.railway.com/pricing/free-plan",""],
+["claude-mem——11.9 万星开源插件，让 Claude Code 记住你做的每个项目","YouTube 选题","11-22","早","高","有效","拍法：按 github.com/thedotmack/claude-mem 的说明装到 Claude Code / Cursor / Codex 上，演示边干活边记笔记、下个会话接着上文走，还能全文搜索过往项目记录。注意：记忆默认存本机；云端 observer 要绑卡开 30 天试用，到期不续会回落到自带方案，也可以全程用自己的 Key 或本地模型不走云端。","https://github.com/thedotmack/claude-mem",""],
+["Hermes Agent——会自我进化的 AI Agent：做完任务自动生成技能，越用越懂你","YouTube 选题","11-22","早","高","有效","拍法：按 github.com/NousResearch/hermes-agent（MIT，26.5 万星）部署，演示内置学习闭环——做完复杂任务自动生成技能、跨会话搜索过往对话，接 Telegram / Discord / CLI，可跑在 5 美元 VPS 上。注意：本体开源免费，模型费用自理；可选的 Nous Portal 订阅是另外收费的一站式服务，别说成免费。","https://github.com/NousResearch/hermes-agent",""],
+["Native Screen——免费开源录屏神器：录完自动剪出带缩放和字幕的演示视频","YouTube 选题","11-22","早","高","有效","拍法：从 nativescreen.app 下载，录一段操作演示它自动生成带缩放、平滑光标、本机字幕的多轨时间线，支持模糊标注与横竖屏一键切换，还能让 Claude 等 Agent 通过 MCP 录制剪辑。注意：GitHub 安装包未签名，Windows 首次安装会弹 SmartScreen 警告，微软商店版已签名无警告；Windows 10/11 与 macOS 均可用。","https://nativescreen.app/",""],
+/* -- 11-22 黑科技工具 · 早场 -- */
+["claude-mem：给编程助手装上跨会话记忆","黑科技工具","11-22","早","高","有效","给 Claude Code、Codex、Cursor、OpenCode 等编程助手装跨会话记忆的开源插件（Apache-2.0，11.9 万星）：边干活边记笔记，下个会话直接接着上文走，还能全文搜过往项目记录，记忆默认存本机、可关匿名统计。注意：云端 observer 需绑卡开通 30 天试用，到期不续订会回落到自带方案；也可以全程用自己的 Key 或本地模型，不走云端。","https://github.com/thedotmack/claude-mem",""],
+["AiSOC：零 API Key 的开源 AI 安全运营中心","黑科技工具","11-22","早","高","有效","开源自托管 AI 安全运营中心（MIT，7,300 星）：本地大模型做告警分流，7,400 条规则库里近 3,000 条可直接执行，MITRE ATT&CK 调查与每一步决策都有可回放记录，还能当 MCP 服务器接 Claude、Cursor。注意：完整部署要 Docker、约 8GB 内存与 20GB 磁盘，首次运行会下载约 2GB 本地模型；无 API Key、零费用。","https://github.com/beenuar/AiSOC",""],
+["chrome-devtools-mcp：Chrome 官方的 DevTools MCP 服务器","黑科技工具","11-22","早","高","有效","Chrome 官方出的 DevTools MCP 服务器（Apache-2.0，5.9 万星）：让 Claude、Cursor、Copilot 等编程助手直接操控真 Chrome——录性能 trace、看网络请求与控制台、截图、自动操作，还附带调试技能包。注意：默认会上报使用统计（可加 --no-usage-statistics 关掉）；它会把浏览器内容暴露给 MCP 客户端，别在敏感页面上用。","https://github.com/ChromeDevTools/chrome-devtools-mcp",""],
+["Worktrunk：让 git worktree 像分支一样好用的 CLI","黑科技工具","11-22","早","中","有效","给并行 AI Agent 准备的 git worktree 管理 CLI（MIT/Apache-2.0，1.3 万星）：wt switch 一条命令建分支、开 worktree、起 Claude，多个 Agent 各干各的互不踩；还带合并流程、CI 状态与构建缓存共享。免费开源，macOS/Linux 用 Homebrew，Windows 走 winget（装成 git-wt）。","https://github.com/max-sixty/worktrunk",""],
+/* -- 11-22 免费资源（早场） -- */
+["CodeRabbit 开源赞助——公开仓库免费 AI 代码评审","免费资源","11-22","早","高","有效","GitHub / GitLab 市场装上即用，公开仓库的 AI 代码评审永久免费，不用申请、不用绑卡；含低质 AI 投稿检测、分流看板、Change Stack 与安全评审，近 30 天已审 54 万个 PR。注意：仅限公开仓库，私有仓库要付费（Essentials $24/人/月起）。","https://www.coderabbit.ai/oss",""],
+["Railway 免费档——每月 $1 额度部署应用，不用绑卡","免费资源","11-22","早","高","有效","新账号先领 30 天试用（一次性 $5），之后每月 $1 免费额度长期有效，免绑卡；1 个项目最多 3 个服务，Postgres / Redis / MySQL / Mongo 一键部署。更可以直接 ssh railway.new 免注册开一台 2 核 2GB 的免费 Linux 云主机玩 60 分钟（Claude Code 等已预装），每天每个 IP 限 3 台。注意：免费服务闲置 5–10 分钟会休眠，无自定义域名与定时任务；未绑 GitHub 验证的试用账号可能有出站网络限制。","https://docs.railway.com/pricing/free-plan",""],
+["TinyFish 联网搜索与抓取 API——永久免费档，创业计划每月 $100","免费资源","11-22","早","中","有效","给 AI Agent 用的联网搜索（TinySearch）与网页抓取（TinyFetch）API 人人免费：默认每分钟 30 次搜索、150 个 URL；另有创业计划：独立未上线团队申请 Tier 1，每月 $100 钱包额度连发 6 个月，搜索/抓取限速翻 4 倍。注意：创业计划要申请、按周审核，不保证通过，需验证过的公司邮箱域名；钱包额度当月不用不结转。","https://www.tinyfish.ai/blog/tinyfish-for-startups",""],
+["NLP Cloud 免费档——免绑卡试用全部预训练模型","免费资源","11-22","早","中","有效","自然语言处理 API 平台，$0 免费档不用绑卡，可试全部预训练模型（摘要、分类、词向量、语音转写、GPT-OSS 120B / LLaMA 3.1 405B 等大模型），2 个并行请求。注意：官方直言免费档吞吐“非常有限”，仅限开发测试、不能用于生产，每个应用/网站/IP 限 1 个免费档；按量付费档送的 $15 额度要绑卡才给，别混淆。","https://nlpcloud.com/de/pricing.html",""],
+["Kilo Code 开源赞助计划——开源项目免费拿企业版席位与额度","免费资源","11-22","早","中","有效","开源编程 Agent Kilo Code 的赞助计划：Seed 档 5 个企业版席位 + 自动代码评审，Growth 档 15 席位 + 每月 $20–100 额度，Premier 档 25 席位 + 每月 $200 额度；各档都含免费模型通道。注意：要申请、滚动审核，不保证通过；须公开仓库 + 开源许可证 + 开启公开 PR 代码评审，并同意被放进官方展示。","https://kilo.ai/oss",""],
+/* -- 11-22 视频创作 · 早场 -- */
+["BananaV 0.3.0：免费开源 Rust 剪辑器","视频创作","11-22","早","高","有效","免费开源 Rust 剪辑器（GPL v3，11 月 10 日发布 0.3.0）：120+ 特效、51 个音频效果、VST 2/3 与 OFX 插件、ACES 1.3 调色，4K 流畅回放；新版首次上 macOS（实验版），Windows 10/11 有安装包。注意：安装包暂未签名，Windows 首次安装会弹 SmartScreen 警告。","https://bananav-editor.github.io/",""],
+["Native Screen：免费开源录屏 + 演示剪辑器","视频创作","11-22","早","高","有效","免费开源录屏 + 演示剪辑器（MIT，11 月 13 日上线）：录完自动生成带缩放、平滑光标、本机字幕的多轨时间线演示，支持模糊、标注、背景替换，可横竖屏一键切换；Windows 10/11 与 macOS 均可用，还能让 Claude 等 Agent 通过 MCP 录制剪辑。注意：GitHub 安装包未签名，微软商店版已签名无警告。","https://nativescreen.app/",""],
+["FFmpeg Batch AV Converter 3.3.0：免费开源 Windows 版 FFmpeg 图形界面","视频创作","11-22","早","中","有效","免费开源 Windows 版 FFmpeg 图形界面（LGPL，11 月 19 日发布 3.3.0）：拖放批量转码，支持 AV1/H.265/NVENC/ProRes 等，可烧字幕、剪切拼接、抓 M3U8 与 YouTube 链接；新版修了 yt-dlp 解析 YouTube 歌单失败与安装后设置丢失的问题。","https://ffmpeg-batch.sourceforge.io/",""],
+["H3 Editor 0.13.0：ComfyUI 里的 MiniMax H3 时间线剪辑器","视频创作","11-22","早","中","有效","ComfyUI 里的 MiniMax H3 时间线剪辑器（GPL-3.0，11 月 19 日发布 0.13.0）：不用连节点，用文字写分镜就能出片并在时间线上剪辑拼接、加音乐旁白，还能让 Agent 写分镜；约 110 星，项目很新。注意：首次用需下载约 54GB 模型，INT8 权重建议 24GB 以上显存；MiniMax H3 权重有社区授权地区限制，商用前先确认。","https://github.com/igorls/comfyui-h3-editor",""],
+/* -- 11-22 前端·AI · 早场 -- */
+["Claude Computer Use 进入 Team 与 Enterprise 测试","前端·AI","11-22","早","高","有效","Anthropic 11 月 20 日发布说明：Claude 的 Computer Use 进入 Team 和 Enterprise 计划测试，Claude 能看屏幕、在管理员允许的桌面应用里操作，默认关闭、仅组织 Owner 可开启，正逐步向各组织推出。","https://support.claude.com/en/articles/12138966-release-notes",""],
+["ChatGPT Space 向 Plus 用户全球推出","前端·AI","11-22","早","中","有效","OpenAI 11 月 20 日起向 18 岁以上 Plus 用户全球推出 ChatGPT Space：页面、幻灯片、图片与上传文件有了共享协作空间，可邀请他人一起编辑，取代侧栏的 Library；同期手机端新布局开始向 Pro 用户推出，个人助手 dots 有了独立标签页。","https://fourweekmba.com/ai-this-week-in-ai-apps-5-changes-to-claude-chatgpt-gemini/",""],
+["HTML-in-Canvas 随 Chrome 157 正式发布","前端·AI","11-22","早","中","有效","Chrome 157（11 月 3 日）让 canvas 里能画真正的 HTML 元素：给 canvas 加 content=\"drawable\"，2D、WebGL 与 WebGPU 场景都能直接渲染可交互的 HTML，可做 3D 书页、视频控件等；已提交 WHATWG HTML 标准，Firefox 与 Safari 暂不支持。","https://www.theregister.com/devops/2026/11/16/html-in-canvas-ships-and-could-make-the-web-a-lot-more-creativeand-a-lot-stupider/5310135",""],
+/* -- 11-22 AI 实战 · 早场 -- */
+["ECC——Agent Harness 性能优化系统：72 个 Agent + 328 个技能","AI 实战","11-22","早","高","有效","MIT 开源（30.8 万星），给 Claude Code、Codex、Qoder、Cursor、OpenCode 等编程助手装一套工程系统：先规划再动手、测试验证、换新上下文复核、把经验沉淀成可复用技能，附 AgentShield 安全扫描与记忆/持续学习。注意：开源本体永久免费，私有仓库托管版 ECC Pro 从 $19/席/月起。","https://github.com/affaan-m/ECC",""],
+["Hermes Agent——会自我进化的 AI Agent","AI 实战","11-22","早","高","有效","Nous Research 出品（MIT，26.5 万星）：内置学习闭环，做完复杂任务自动生成技能并在使用中自我改进，跨会话搜索过往对话、越用越了解你；接 Telegram、Discord、Slack、WhatsApp、Signal 与 CLI，内置定时任务，可跑在 5 美元 VPS 上。注意：本体开源免费，模型费用自理；可选 Nous Portal 订阅一站式包模型与工具网关。","https://github.com/NousResearch/hermes-agent",""],
+["FLUX.2 [dev] 无 GPU 实战：Cloudflare Workers AI 上跑 320 亿参数生图模型","AI 实战","11-22","早","中","有效","11 月 21 日教程：黑森林 FLUX.2 [dev] 本地跑要约 54GB 显存，Cloudflare 11 月 20 日把它搬上 Workers AI，一次 HTTPS 请求就能出图；教程给完整 Python 客户端，支持多图参考保持角色一致、JSON 结构化提示词与精确取色，调用前先算价。注意：每天免费 10,000 Neurons（约 2 张 1024 图），超出约 $0.041/张按量计费；作者说明客户端仅用本地 mock 跑通、未实跑真接口。","https://aifrontierpost.com/articles/flux-2-dev-cloudflare-workers-ai-tutorial/",""],
+["Echo——自托管声音克隆工作室 + 会说话的 3D 数字人","AI 实战","11-22","早","中","有效","11 月 21 日实战教程：一段 20–30 秒录音就能克隆音色，全程 CPU 跑、不用 GPU 与付费语音 API，Docker 一条命令起服务，3D 虚拟人按音频口型同步说话，附同意确认与限速等防滥用设计。注意：默认 YourTTS 仅支持英/法/葡语且模型为 CC BY-NC-ND（非商用）；可选 XTTS-v2 支持中文等 17 种语言，但需另装语言包、中文实测未经作者验证；AI 写稿需自配 OpenRouter Key（按量计费）。","https://dev.to/jbcanillo/i-built-a-self-hosted-voice-cloning-studio-with-a-talking-3d-avatar-12b2",""],
+/* -- 11-22 网页动效 · 早上 -- */
+["The Light","网页动效","11-22","早","中","有效","Mariusz Mitkow 2026-11-19 的 WebGPU 实验：空房间里一盏小灯，15 万块大小不一的立方体碎片围着它缓缓旋转成环；移动灯光，碎片就被推开、又被无形边界拦住；计算着色器驱动物理，配自定义景深、柔和阴影与尘雾，尘土地面从上方打光。Three.js + TSL，全程浏览器实时渲染。","https://www.mesh3d.gallery/experiment/the-light",""],
+["Wisp — 会说话的粒子脸","网页动效","11-22","早","高","有效","Attila Sztankovics 2026-11-19 的实验：聊天 AI 长出了一张脸——10 万颗发光粒子钉在自定义 blendshape 头模上，浮在金色尘雾里跟随鼠标；点麦克风说话，它会张嘴回话、口型按字符时间戳对齐（公开演示用浏览器语音 API，口型略粗）。Three.js + WebGPU。注意：与 11-19 分享过的免费资源 WispOS（一句话做游戏）不是同一个东西。","https://www.mesh3d.gallery/experiment/wisp",""],
+["Sylva","网页动效","11-22","早","中","有效","MengTo 的互动 Three.js 风景习作：程序化生成的苔藓树根穿过一幅编辑风自然保护主题 Hero，桌面端多达 25 万片实例化苔藓随指针拨开、拖出花粉轨迹；弹簧导航坞带贴近放大，液态金属按钮是沙盒 WebGL2 实验；整页只有一个 index.html、零外部请求，带 reduced-motion 路径。","https://github.com/MengTo/sylva",""],
+["threejs-architecture-effects","网页动效","11-22","早","中","有效","给 Codex / Claude Code / Cursor 的开源 Agent Skill（MIT，748 星）：让 Agent 生成一座会自己动工的 Three.js 古建——砖层、木构、斗拱、叠檐按 0–1 时间轴逐件拼装，可播放、暂停、倒放、拖动 scrub，还能环绕缩放、切飞檐与石狮特写；附带钟楼完整示例与 Vite 启动器，无需付费模型与 API key。","https://github.com/lhlGitHub/threejs-architecture-effects",""],
 /* -- 11-21 YouTube 选题（晚场） -- */
 ["Google Flow——每天免费做 5 条 AI 视频：Veo 3.1 Lite 不用订阅不用绑卡","YouTube 选题","11-21","晚","高","有效","登录 flow.google.com 用个人 Google 账号，选 Veo 3.1 Lite，每条 4–8 秒 720p 短片只要 10 credits，每天免费 50 credits、最多做 5 条，额度每天刷新、不结转。注意：高峰时段（约 UTC 14:00–17:00）免费账号可能无法生成；12 月 5 日起 Veo 3.1 Fast/Quality 与 Omni Flash 1.1 从 Flow 退役，只剩 Lite；印度、韩国、越南地区免费导出会强制加水印。","https://flow.google.com",""],
 ["GitHub Codespaces 免费档——GitHub 每月白送 120 小时云端电脑：浏览器里直接写代码","YouTube 选题","11-21","晚","中","有效","个人 GitHub 免费账号每月自带 120 core-hours 计算 + 15 GB 存储，仓库一点即开完整 VS Code 云端环境。注意：按核数计费（120 core-hours 相当于 2 核机器 60 小时）；组织与企业账号没有免费额度；没绑卡的账号用完额度会被暂停使用、不会自动扣费，已绑卡的超额后按量计费（2 核 $0.18/小时），建议在设置里设支出上限防扣费。","https://docs.github.com/en/billing/concepts/product-billing/github-codespaces",""],
@@ -1157,12 +1213,24 @@ var ITEMS=[
 var STATUS_CLASS={"有效":"b-valid","即将过期":"b-soon","已过期":"b-expired","待确认":"b-pending","未核实":"b-unverified","地区限定":"b-region"};
 var HEAT_CLASS={"高":"heat-high","中":"heat-mid","低":"heat-low"};
 var HEAT_VAL={"高":3,"中":2,"低":1};
-var TODAY=new Date(2026,10,21); /* 基准日（页面整理日）：2026-11-21，所有到期计算以此为准 */
+var TODAY=new Date(2026,10,22); /* 基准日（页面整理日）：2026-11-22，所有到期计算以此为准 */
 var CAT_COLOR={"免费资源":"#000000","网页动效":"#404040","排版网站":"#595959","YouTube 选题":"#8b5cf6","前端·AI":"#262626","AI 实战":"#ec4899","黑科技工具":"#be185d","视频创作":"#9333ea","科学可视化":"#0070f3","学习成长":"#6d28d9","设计素材":"#d946ef","前沿追踪":"#ef4444"};
 var CAT_ORDER=["免费资源","网页动效","排版网站","YouTube 选题","前端·AI","AI 实战","黑科技工具","视频创作","科学可视化","学习成长","设计素材","前沿追踪"];
 
 /* 子分类映射：按标题归类，未在表中列出的按大类兜底（见 SUB_FALLBACK） */
 var SUBCAT={
+"Warp Learn：免费学造“软件工厂”，让 AI 编程助手组成自我改进的开发流水线":"免费课程平台",
+"Vibe Coding for Beginners：零基础免费学 Vibe Coding，不用注册就能上":"编程学习与刷题",
+"Aalto 大学 Python 科学计算免费课：11 月 24–26 日直播，NumPy 到 Pandas 三天讲透":"编程学习与刷题",
+"LearnHarness：1.1 万星开源 AI 家教桌面应用，先测你懂多少再一步步教":"免费课程平台",
+"claude-mem：给编程助手装上跨会话记忆":"GitHub 开源神器",
+"AiSOC：零 API Key 的开源 AI 安全运营中心":"隐私安全工具",
+"chrome-devtools-mcp：Chrome 官方的 DevTools MCP 服务器":"浏览器插件",
+"Worktrunk：让 git worktree 像分支一样好用的 CLI":"效率神器",
+"BananaV 0.3.0：免费开源 Rust 剪辑器":"剪辑工具与插件预设",
+"Native Screen：免费开源录屏 + 演示剪辑器":"屏幕录制与截图",
+"FFmpeg Batch AV Converter 3.3.0：免费开源 Windows 版 FFmpeg 图形界面":"剪辑工具与插件预设",
+"H3 Editor 0.13.0：ComfyUI 里的 MiniMax H3 时间线剪辑器":"剪辑工具与插件预设",
 "Gravity Sandbox":"在线实验室与模拟器",
 "Orrery Space":"太空与天文开放数据",
 "MATTER 2.9":"在线实验室与模拟器",
@@ -1400,6 +1468,9 @@ var SUBCAT={
 "Slanted 新闻":"字体社群与杂志",
 "TypeRoom":"字体社群与杂志",
 "Axis-Praxis":"排版工具",
+"微软 MAI Code 2 与 Code 2 Flash 上线 GitHub Copilot（11-17）":"AI 资讯与技术周刊",
+"Google 发布 Stitch Loop：7×24 小时盯着你的产品自动修 bug（11-18）":"AI 资讯与技术周刊",
+"Docker 换新品牌、押注 Agent 信任层：Sandboxes 与 AI Governance 上线（11-19）":"AI 资讯与技术周刊",
 "Qwen4-Max 正式发布":"AI 资讯与技术周刊",
 "退役日历":"AI 资讯与技术周刊",
 "Anthropic 新工具与 IPO 传闻":"AI 资讯与技术周刊",
@@ -1417,7 +1488,7 @@ var STATUS_CLASS={"有效":"b-valid","即将过期":"b-soon","已过期":"b-expi
 var STATUS_COLOR={"有效":"#000000","即将过期":"#ef4444","已过期":"#d4d4d4","待确认":"#8b5cf6","未核实":"#a3a3a3","地区限定":"#404040"};
 var HEAT_CLASS={"高":"heat-high","中":"heat-mid","低":"heat-low"};
 var HEAT_VAL={"高":3,"中":2,"低":1};
-var TODAY=new Date(2026,10,21); /* 基准日（页面整理日）：2026-11-21，所有到期计算以此为准 */
+var TODAY=new Date(2026,10,22); /* 基准日（页面整理日）：2026-11-22，所有到期计算以此为准 */
 var CAT_COLOR={"免费资源":"#000000","网页动效":"#404040","排版网站":"#595959","YouTube 选题":"#8b5cf6","前端·AI":"#262626","AI 实战":"#ec4899","黑科技工具":"#be185d","视频创作":"#9333ea","科学可视化":"#0070f3","学习成长":"#6d28d9","设计素材":"#d946ef","前沿追踪":"#ef4444"};
 var CAT_ORDER=["免费资源","网页动效","排版网站","YouTube 选题","前端·AI","AI 实战","黑科技工具","视频创作","科学可视化","学习成长","设计素材","前沿追踪"];
 /* 子分类全量清单：即使暂无条目，也会出现在子分类筛选中 */
@@ -1505,7 +1576,7 @@ function updateHeroMeta(){
   var spark=CAT_ORDER.map(function(c){var n=DATA.filter(function(x){return x.cat===c;}).length; return '<i style="height:'+Math.max(12,Math.round(n/maxCat*100))+'%;background:'+CAT_COLOR[c]+'" title="'+esc(c)+' '+n+'"></i>';}).join("");
   var nearest=DATA.filter(function(x){return x.dlDays!==null&&x.dlDays>=0;}).sort(function(a,b){return a.dlDays-b.dlDays;})[0];
   document.getElementById("kpis").innerHTML=
-    '<div class="kpi dark"><span class="klab">TOTAL · 消息总数</span><span class="knum">'+DATA.length+'</span><div class="spark">'+spark+'</div><span class="ksub">'+CAT_ORDER.length+' 个大类的分布 · 11-16 ～ 11-20</span></div>'
+    '<div class="kpi dark"><span class="klab">TOTAL · 消息总数</span><span class="knum">'+DATA.length+'</span><div class="spark">'+spark+'</div><span class="ksub">'+CAT_ORDER.length+' 个大类的分布 · 11-16 ～ 11-22</span></div>'
     +'<div class="kpi ok kpi-btn" data-kpi="valid" role="button" tabindex="0" aria-pressed="false"><span class="klab">ACTIVE · 有效</span><div class="ring-row"><svg class="ring" viewBox="0 0 56 56"><circle class="track" cx="28" cy="28" r="24" fill="none" stroke-width="6"/><circle class="val" cx="28" cy="28" r="24" fill="none" stroke-width="6" stroke-linecap="round" stroke-dasharray="'+C.toFixed(1)+'" stroke-dashoffset="'+off.toFixed(1)+'" transform="rotate(-90 28 28)"/><text x="28" y="33" text-anchor="middle" font-size="13">'+validPct+'%</text></svg><div><span class="knum" style="font-size:28px">'+valid+'</span><div class="ksub" style="padding-top:2px">条仍可正常使用</div></div></div><span class="ksub">有效率 '+validPct+'%，其余为限时 / 待确认 / 未核实</span></div>'
     +'<div class="kpi warn kpi-btn" data-kpi="soon-status" role="button" tabindex="0" aria-pressed="false"><span class="klab">EXPIRING · 即将过期</span><span class="knum">'+soon+'</span><span class="ksub">条限时项在倒计时中，见下方到期雷达</span></div>'
     +'<div class="kpi danger kpi-btn" data-kpi="due7" role="button" tabindex="0" aria-pressed="false"><span class="klab">DUE ≤ 7D · 一周内到期</span><span class="knum">'+due7+'</span><span class="ksub">'+(nearest?('最近：'+esc(nearest.title)+' · '+(nearest.dlDays===0?'今天到期':'还剩 '+nearest.dlDays+' 天')):'暂无')+'</span></div>'
@@ -1556,7 +1627,7 @@ function updateHeroMeta(){
   var tot=DATA.length||1;
   var pN=function(d,p){return DATA.filter(function(x){return x.date===d&&x.period===p;}).length;};
   var dayTot=function(d){return pN(d,"早")+pN(d,"中午")+pN(d,"晚");};
-  var days=["11-16","11-17","11-18","11-19","11-20"];
+  var days=["11-16","11-17","11-18","11-19","11-20","11-21","11-22"];
   var maxDay=1; days.forEach(function(d){ if(dayTot(d)>maxDay) maxDay=dayTot(d); });
   document.getElementById("heatPanel").innerHTML=
     '<div class="heat-stack"><i style="width:'+(hN("高")/tot*100)+'%;background:var(--ink)"></i><i style="width:'+(hN("中")/tot*100)+'%;background:#8b5cf6"></i><i style="width:'+(hN("低")/tot*100)+'%;background:#a3a3a3"></i></div>'
@@ -1954,8 +2025,8 @@ function calendarHtml(){
     for(var i=0;i<startDow;i++) cells+='<span></span>';
     for(var dnum=1;dnum<=days;dnum++){
       var key=y+"-"+("0"+m).slice(-2)+"-"+("0"+dnum).slice(-2);
-      var hasMsg=(m===11&&(dnum===16||dnum===17||dnum===18||dnum===19||dnum===20));
-      var cls="cal-day"+(hasMsg?" has":"")+(dlDays[dnum]?" dl":"")+(key==="2026-11-20"?" today":"");
+      var hasMsg=(m===11&&(dnum===16||dnum===17||dnum===18||dnum===19||dnum===20||dnum===21||dnum===22));
+      var cls="cal-day"+(hasMsg?" has":"")+(dlDays[dnum]?" dl":"")+(key==="2026-11-22"?" today":"");
       cells+='<button type="button" class="'+cls+'" data-day="'+key+'">'+dnum+(hasMsg?'<span class="dot"></span>':"")+(dlDays[dnum]?'<span class="dot dl-dot"></span>':"")+'</button>';
     }
     return '<div class="cal"><h3>'+title+'<span class="mono">'+y+'-'+("0"+m).slice(-2)+'</span></h3><div class="cal-grid">'+cells+'</div><p class="cal-legend">绿点 = 有消息的日期（11-16 / 11-17 / 11-18 / 11-19 / 11-20）· 琥珀点 / 边框 = 有截止日 · 红框 = 今天（11-20）· 点任意日期按该日筛选，再点一次清除。</p></div>';
