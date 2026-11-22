@@ -711,6 +711,39 @@ var EXPIRED=[
 /* -- 子节：消息条目 -- */
 /* 字段顺序：[标题, 分类, 日期, 时段, 热度, 状态, 说明, 链接, 截止日]；条目按分享批次分组，最新批次在最前 */
 var ITEMS=[
+/* -- 11-22 YouTube 选题 · 晚 -- */
+["Cerebellum Labs——新账号送 $5 额度，永不过期","YouTube 选题","11-22","晚","中","有效","建议标题「新账号白拿 $5 永久额度，自己部署大模型当免费 API 用」。拍法：注册领 $5，在控制台导入 Hugging Face 开源权重或选 Qwen3.5 等现成底座部署，改两行代码把 OpenAI SDK 的 base_url 指过去就能调。注意额度用完后按 token 计费才需绑卡，闲置不花钱，模型最大 70B。","https://cerebellumlabs.ai",""],
+["Mockreel——免费把录屏套进 3D 手机，浏览器里直接出 4K 样机视频","YouTube 选题","11-22","晚","中","有效","建议标题「录屏免费套进 3D 手机，浏览器里直接出 4K 样机视频」。拍法：把录屏或截图拖进浏览器，选 iPhone / Pixel / iPad / MacBook 等机型，调背景灯光运镜、加标题缩放，导出最高 4K 的 MP4。注意全程本机渲染不上传、免注册无水印，桌面 Chrome / Edge 打开效果最好。","https://www.producthunt.com/products/mockreel",""],
+["caveman——12 万星开源神器，让 AI 编程助手少说废话","YouTube 选题","11-22","晚","高","有效","建议标题「12 万星神器：让 AI 编程助手少说废话，一整个会话省三成 token」。拍法：一条命令 npx @caveman-ai/cli@latest 装到 Claude Code / Codex / Cursor 等 30 多种助手，演示同一任务前后 token 对比与回答变短。注意整会话输入 token 减约 33% 是项目自测，思考 token 不省；免费开源，用自己的订阅或 Key。","https://github.com/JuliusBrussee/caveman",""],
+["Orbitae——浏览器里的 3D 量子显微镜","YouTube 选题","11-22","晚","中","有效","建议标题「浏览器里的 3D 量子显微镜：氢原子轨道按真实方程算给你看」。拍法：打开在线演示，拖着转 1–36 号元素的轨道概率云，按相位双色看，还能导出 .cube 文件进 PyMOL 或 VMD。注意需支持 WebGL 的浏览器，AGPL 开源免费。","https://amurlaniakea.github.io/orbitae/",""],
+/* -- 11-22 科学可视化 · 晚场 -- */
+["Orbitae——11 月 12 日发布的开源 3D 量子显微镜","科学可视化","11-22","晚","中","有效","氢原子精确轨道、1–36 号元素、生物医学离子与小分子的分子轨道，都按真实薛定谔方程与 Hartree-Fock 算出来再画成两万多个点的概率云，拖着转、按相位双色看，还能导出 .cube 文件进 PyMOL 或 VMD；纯 WebGL 零第三方库，界面英文/西班牙语可切换，AGPL 开源免费。","https://amurlaniakea.github.io/orbitae/",""],
+["Orbital Congestion Simulator——17 岁学生做的开源免费 3D 轨道拥堵图","科学可视化","11-22","晚","中","有效","2.8 万多个在轨卫星与碎片实时画在地球周围，按近地/中/地球同步/高椭圆轨道与卫星、空间站、碎片筛选，可搜任意目标查编号与业余无线电频率；未来 24 小时近距离接近预警、即将发射列表与铱星碰撞等历史事件都在一页上，支持中文界面。","https://orbital-congestion.vercel.app/",""],
+["OpenPith——浏览器里的科学实验室合集","科学可视化","11-22","晚","中","有效","物理、化学、生物、地理 62 个实验室、305 个实验全部免费免注册，中英双语：氢原子 3d 电子云、晶体生长、细胞图谱、双缝干涉、卫星轨道都是实时算出来的活模型，拖滑块改条件、读数图表跟着变；每个实验有独立链接可直接投屏。","https://openpith.com/",""],
+/* -- 11-22 黑科技工具 · 晚场 -- */
+["Univer——3.1 万星的开源 Office SDK：把表格文档幻灯片嵌进自己的产品","黑科技工具","11-22","晚","高","有效","开源 Office SDK（Apache-2.0，约 3.1 万星）：把表格、文档、幻灯片、关系表、画布与 PDF 的编辑、公式计算与协作嵌进自己的产品或 Agent 工作流，Facade API 让应用与 Agent 直接读写内容，还有无头模式可离线批量处理文件。注意：开源核心免费，商业版 Web 插件、服务端 SDK 与 AI SDK 扩展需另外授权，XLSX 导入导出属商业版能力。","https://github.com/dream-num/univer",""],
+["Modern Web Guidance——Chrome 官方的现代 Web 开发技能：让编程助手别再写过时代码","黑科技工具","11-22","晚","高","有效","Google Chrome 官方出的编程助手技能包（Apache-2.0，约 1 万星）：262 条现代 Web 特性指南（容器查询、锚点定位、Popover、View Transitions、内置 AI 等），一条 npx 命令装进 Claude Code、Cursor 等，还能 legacy-scan 扫描代码库里的过时写法。注意：技能本身免费，跑编程助手要走自己的模型额度。","https://github.com/GoogleChrome/modern-web-guidance-src",""],
+["Auto Ontology——NVIDIA 开源的数据 Agent 语义层：问营收先对齐口径再给 SQL","黑科技工具","11-22","晚","高","有效","NVIDIA 开源的 Python 框架（Apache-2.0，约 1.4 万星）：自动从企业数据库元数据生成本体知识图谱，Agent 问业务问题时先按统一口径解析指标、查表关联，再生成可验证的 SQL 并附上推导步骤，支持 MCP、CLI 与 API。注意：需 Docker 与自备 NVIDIA API Key 才能跑，面向数据团队，个人可先用自带示例库试。","https://github.com/NVIDIA/auto-ontology",""],
+["Mockreel——免费把录屏套进 3D 手机：浏览器里直接出 4K 样机视频","黑科技工具","11-22","晚","中","有效","11 月 19 日上线的免费浏览器工具（Product Hunt 新品）：把录屏或截图丢进 3D iPhone、Pixel、iPad、MacBook 或手表，调背景、灯光与运镜、加标题与缩放，导出最高 4K 的 MP4；全程本机渲染、不上传、不注册、无水印。注意：最好用桌面版 Chrome 或 Edge 打开。","https://www.producthunt.com/products/mockreel",""],
+/* -- 11-22 免费资源（晚场） -- */
+["Murf 创业孵化计划——初创公司免费领 $1500 语音 API 额度 3 个月","免费资源","11-22","晚","中","有效","Murf 创业孵化计划给早期初创 $1500 免费 API 额度（约 5000 万字符），做 AI 配音与语音合成。注意：要申请——成立 10 年内、100 人以下、有正常运转的公司官网与真实 API 用途，1–2 天内出审核结果；超额按 $0.03/千字符计费，3 个月后转按量付费。","https://murf.ai/startup-program",""],
+["Runway Builders 计划——种子到 C 轮初创免费领最高 50 万 API 额度","免费资源","11-22","晚","中","有效","Seed 至 Series C 初创申请 Runway Builders，可领最高 50 万免费 API 额度（约值 $5000），另解锁最高档 Tier 5 速率与 Characters 实时视频对话 API。注意：要申请、按公司情况审批；额度为一次性赠送。","https://runway.com/product/builders",""],
+["Cerebellum Labs——新账号送 $5 额度，永不过期","免费资源","11-22","晚","中","有效","11 月 19 日上线的 Cerebellum Cloud，把自己的开源模型权重导进去就得到 OpenAI 兼容接口，按 token 计费、闲置不花钱；新账号注册即领 $5 免费额度，永不过期。注意：额度用完后按量充值才需绑卡；模型最大 70B。","https://cerebellumlabs.ai",""],
+["Wiro 学生计划——在校生领 $200 额度，有效期 12 个月","免费资源","11-22","晚","中","有效","一个 Key 调 1000 多个图、视频、音频、3D 与语言模型，在校生（本科/硕士/博士均可）用学校邮箱注册后在应用内申请，人工审核约 2 个工作日，通过后发兑换码，$200 额度 12 个月内有效。注意：不用绑卡、不用转售额度；额度为一次性。","https://wiro.ai/student",""],
+/* -- 11-22 前端·AI · 晚场 -- */
+["OpenAI Daybreak 安全 Agent 双产品——红队自动渗透 + 防御工厂自动打补丁","前端·AI","11-22","晚","高","有效","11 月 12 日发布：Red Team 用多 Agent 协调测 Web 应用、验证漏洞是否真能利用并复测补丁，Defense Factory 接入仓库、把扫描与红队发现追踪成可合并的补丁 PR，人工审过才合入；11 月 17 日北约等机构已公开采用。注意：均为早期接入/预览，未公布价格，77% ExploitGym 分数为厂商自报、未经独立验证。","https://www.trebsec.com/briefs/2026-11-13-openai-daybreak-security-agents.html",""],
+["GitHub Event Streams 进入预览：Agent 不用再轮询等 PR 反馈","前端·AI","11-22","晚","高","有效","11 月 17 日发布：订阅一个 PR 后保持连接，评审提交、新提交、合并冲突、合并/关闭与检查套件状态变化都会主动推送，不用公开 webhook 端点，本机跑的 Agent 也能收到；gh 2.105.0 加了 gh event listen 一条命令等事件。注意：预览需加 waitlist，订阅 24 小时过期、事件不回放。","https://github.blog/changelog/2026-11-17-github-event-streams-is-now-in-preview/",""],
+["React Virtualized 10.0——时隔多年的大版本，全面 TypeScript 化","前端·AI","11-22","晚","中","有效","11 月 8 日发布：源码全改 TypeScript、组件全部重写为函数组件 + Hooks，自带类型定义，不再需要 @types/react-virtualized；要求 React 18+，深层导入与 UMD 构建取消，AutoSizer 拆成独立包、WindowScroller 移除。注意：升级有 30 处破坏性变更，迁移前先看官方迁移指南。","https://github.com/bvaughn/react-virtualized/blob/master/CHANGELOG.md",""],
+/* -- 11-22 视频创作 · 晚上 -- */
+["VideoUltra v0.1——免费开源 React 剪辑器组件，浏览器里直接能试","视频创作","11-22","晚","中","有效","今天 11 月 22 日刚发布 v0.1 的免费开源视频编辑器（MIT）：一个 React/Next.js 组件，剪辑、字幕、绿幕、关键帧、HEVC/AV1 导出齐全，全程浏览器本地跑、素材不上传，手机桌面都能用，附在线演示可直接试。注意：主要是给开发者嵌进自己网站的组件（刚发布、0 星），不是开箱即用的桌面剪辑器。","https://github.com/Ultranmus/video-ultra",""],
+["OpenRoll 0.2.1 beta——免费开源本地剪辑器，CapCut 风格还能让 Agent 帮你剪","视频创作","11-22","晚","中","有效","免费开源本地剪辑器（GPL-3.0，11 月 11 日）：CapCut 风格磁吸时间线，本机语音转字幕、自动剪静音、背景移除、竖屏重构、ProRes 导出，无账号无水印无订阅，Windows/macOS/Linux 都能用；还能让 Claude Code 等 Agent 通过 MCP 帮你剪。注意：安装包未签名，首次打开会弹系统警告。","https://openroll.dev/",""],
+["Timeline Studio 1.0.9——免费开源浏览器 AI 剪辑器，字幕配音配乐人声分离全在本机","视频创作","11-22","晚","高","有效","免费开源浏览器 AI 剪辑器（MIT，约 1000 星）：不用安装，浏览器里就是多轨时间线，Whisper 本机字幕、AI 配音、AI 配乐、人声分离、数字人，素材不上传；附 Agent Skill 可让编程助手按时间线协议帮你剪。注意：重度 AI 功能需支持 WebGPU 的 Chromium 浏览器；11 月 7–13 日仍在高频更新。","https://github.com/MartinDelophy/ai-video-editor",""],
+["Subtitle Edit 5.5.0 beta 1——免费开源字幕编辑器，新版能抹掉视频里烧死的硬字幕","视频创作","11-22","晚","中","有效","免费开源字幕编辑器（MIT，1.5 万星）：11 月 8 日首个 5.5 测试版新增 Video OCR，可把视频里烧死的硬字幕用 AI 修复抹掉（框选区域）；另有 WhisperX 语音转字幕、字幕与音频自动对齐，Windows/macOS/Linux 都能用。注意：仍是 beta 版，正式版未出。","https://github.com/SubtitleEdit/subtitleedit",""],
+/* -- 11-22 AI 实战 · 晚上 -- */
+["caveman——让编程助手少说废话、少读冗余，整会话省 token","AI 实战","11-22","晚","高","有效","开源技能 + 本地代理（Apache-2.0，约 12.2 万星）：输出改成短句、日志/JSON/CSV 等工具输出先压缩再进模型，代码、命令与报错原文不动；v4.0 起六件套还带自动选模型、网页压缩与免费的 Caveman Code 终端 Agent，支持 Claude Code、Codex、Gemini 等 30 多种助手。注意：整会话输入 token 减约 33% 为项目自测，思考 token 不省；免费开源，用自己的订阅或 Key。","https://github.com/JuliusBrussee/caveman",""],
+["Superpowers——给编程助手装一套完整开发方法论：先想清楚再动手","AI 实战","11-22","晚","高","有效","Agent 技能框架 + 软件开发方法论（MIT，约 32.4 万星）：先头脑风暴问清需求、再写设计与分步计划，然后子 Agent 按 TDD 分工干活、逐任务评审收尾，支持 Claude Code 官方插件市场、Codex、Cursor、Gemini 等 20 多种助手。注意：技能本身免费，跑助手要走自己的模型额度。","https://github.com/obra/superpowers",""],
+["inference-optimisation-skill——手把手调快本地大模型推理的 Agent 技能","AI 实战","11-22","晚","中","有效","本地 LLM 推理调优技能（MIT，11 月 16 日新建，约 1.8 千星）：先算理论速度上限、再一次只改一个变量、对照组交错实测，覆盖解码、推测解码、预填充、KV 缓存与首 token 延迟，附 bench.py/ceiling.py 实测脚本，Claude Code 等助手直接可用。注意：仓库很新、只有一次提交，提速数字均为作者在自有硬件上的实测；本地跑模型仍需自备 GPU。","https://github.com/sybil-solutions/inference-optimisation-skill",""],
+["Cloudflare Clairic——发票提取不用生成文本：按字段表直接返回带类型的数值","AI 实战","11-22","晚","高","有效","Cloudflare 10 月 19 日发布的提取模型（Workers AI 预览）：不用生成文本，直接按你给的字段表返回带类型的数值——发票号、到期日、总金额、联系人列表，还附置信度与 p_null，缺失字段返回 null 而不是瞎编；官方文档含完整 Worker/Python/curl 发票提取示例。注意：预览阶段、按量计费，12 月 1 日前输入 $0.10/百万 token，之后 $0.24。","https://developers.cloudflare.com/workers-ai/models/clairic/",""],
 /* -- 11-22 网页动效 · 晚上 -- */
 ["OpenMotion——开源版 Claude Motion：参考视频一键还原成可改的 HTML 动效","网页动效","11-22","晚","高","有效","OpenDesign 出品（Apache 2.0，约 1.5 万星）：给它一段参考视频加自家品牌素材，Agent 会拆解镜头、按 300 多份 Motion.md 配方用 HTML/CSS/JS 重建整段动效，时间轴可改、能导出 MP4，支持 Claude Code、Codex 等 22 个 Agent；可直接导入 HyperFrames 项目接着改。注意：出图配音要走自己的模型 Key，生成类模型费用自理。","https://github.com/nexu-io/openmotion",""],
 ["Open-Motion——浏览器里跑的开源版 Alight Motion","网页动效","11-22","晚","中","有效","免费开源（MIT，仅 35 星，冷门）：不用安装，浏览器打开就是一台动效剪辑器——时间轴关键帧、缓动曲线编辑、矢量路径、3D 变换与图层编辑齐全，手机端触屏优先，还能装成 PWA。注意：仍是早期原型，部分功能与导出还在完善中。","https://github.com/Hada45/Open-Motion",""],
@@ -1294,6 +1327,14 @@ var CAT_ORDER=["免费资源","网页动效","排版网站","YouTube 选题","�
 
 /* 子分类映射：按标题归类，未在表中列出的按大类兜底（见 SUB_FALLBACK） */
 var SUBCAT={
+"Univer——3.1 万星的开源 Office SDK：把表格文档幻灯片嵌进自己的产品":"GitHub 开源神器",
+"Modern Web Guidance——Chrome 官方的现代 Web 开发技能：让编程助手别再写过时代码":"GitHub 开源神器",
+"Auto Ontology——NVIDIA 开源的数据 Agent 语义层：问营收先对齐口径再给 SQL":"GitHub 开源神器",
+"Mockreel——免费把录屏套进 3D 手机：浏览器里直接出 4K 样机视频":"效率神器",
+"caveman——让编程助手少说废话、少读冗余，整会话省 token":"AI 编程助手",
+"Superpowers——给编程助手装一套完整开发方法论：先想清楚再动手":"AI 编程助手",
+"inference-optimisation-skill——手把手调快本地大模型推理的 Agent 技能":"本地部署大模型",
+"Cloudflare Clairic——发票提取不用生成文本：按字段表直接返回带类型的数值":"AI 搜索与知识库",
 "Open Foundry——开源字体策展站，每款字体都是满屏大字试排":"开源字体",
 "Collletttivo——米兰开源字库，15 个插画故事讲字体":"独立字库",
 "Bold Monday——荷兰独立字库，Nitti Mostro 与像素字体 Puffin Arcade":"独立字库",
