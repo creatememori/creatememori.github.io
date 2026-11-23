@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
+<meta name="msvalidate.01" content="73DE294C14F753C6212D63B40540875A">
 <link rel="icon" href="data:,">
 <title>创忆录</title>
 <style>
@@ -711,6 +712,15 @@ var EXPIRED=[
 /* -- 子节：消息条目 -- */
 /* 字段顺序：[标题, 分类, 日期, 时段, 热度, 状态, 说明, 链接, 截止日]；条目按分享批次分组，最新批次在最前 */
 var ITEMS=[
+/* -- 11-23 AI 实战 · 中午 -- */
+["Linger——本机跑 125B 个人 Agent，记忆与主动提醒全在本地","AI 实战","11-23","中","中","有效","11 月 10 日发布的开源个人 Agent，桌面端一键装机（Windows/macOS/Linux 均有安装包），自研 PolyStrata 引擎号称 12GB 显存跑 125B 的 Qwen3.8-Flash-Next，邮件/日历/聊天沉淀成本地知识库、还会主动提醒待办。注意：速度与跑分均为官方自测且多为模拟档位，真实机器可能更慢；许可证是带附加条件的自定义开源许可，非标准 Apache 2.0。","https://github.com/simplexai-labs/linger",""],
+["Lemo-Opuscar——不用视频模型，Claude Code 写代码拍短片，99 种风格任选","AI 实战","11-23","中","高","有效","Claude Code 技能加风格库，Agent 用 Canvas/WebGL 逐帧画、免费采样库配乐、TTS 旁白、ffmpeg 合成，不用视频生成模型也不用现成素材；11 月 12 日刚扩到 99 种风格，还能把自家品牌色改成专属风格。注意：需 Claude Code 付费订阅或 API（实测一部短片约 30–60 分钟、API 约 6 美元），风格针对 Claude Opus 5.5 调校、换模型效果不保证。","https://github.com/lemomo-ai/lemo-opuscar",""],
+["OpenMausBot——把 Claude/Codex/Grok 变成聊天列表里的机器人小队","AI 实战","11-23","中","高","有效","开源聊天式 Agent 壳（Apache 2.0，有 Windows 安装包），每个机器人都是本机上真实跑的 Claude/Codex/Grok CLI，各有模型、人设、电脑与接的应用，危险操作先弹审批卡；记录与密钥都留在本机。注意：用的是你已有的订阅、不另收模型费，但云端桌面是付费服务；让机器人在本机上操作前先确认好审批设置。","https://github.com/milind-soni/OpenMausBot",""],
+["dsh-our-free-model——给 DeepSeek Harness 装免费模型：DeepSeek V4.1 Flash、Kimi K3 免登录即用","AI 实战","11-23","中","高","有效","DeepSeek 开源 Agent 框架 dsh 的插件，需先装 dsh；装上就能在模型菜单里直接用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，不用注册与 API Key，还带本地 OpenAI 兼容网关、Claude Code/Codex 也能接。注意：免费额度来自 OpenCode Zen 与 Kilo 的上游公开配额、按出口 IP 限流，撞限流默认冷却 6 小时，上游 10 月底已收紧过一次、可用性不保证；上游可能记录提示词改进服务，别发敏感内容；别装 npm 上那个同名裸包（第三方改动版）。","https://github.com/Ebony-Vinyl/dsh-our-free-model",""],
+/* -- 11-23 网页动效 · 中午 -- */
+["水墨武侠客栈——可走进去的 three.js 江湖小站","网页动效","11-23","中","中","有效","水墨风武侠客栈做成可探索的互动网站，动画角色在店里走动，点心蒸笼能动手挪位置，配乐与美术由 AI 协作完成；论坛帖内附演示站与 4 分钟制作手记。","https://discourse.threejs.org/t/an-ink-wash-wuxia-inn-as-an-interactive-three-js-website/97214",""],
+["Daniel Henrique 野兽派作品集——会动的物理墙与水洼倒影","网页动效","11-23","中","中","有效","野兽派个人站本身就是动效实验室，Matter.js + PixiJS 的物理墙、GLSL 水洼倒影、复古 3D 电视，项目像黑胶唱片一样滚动切换，Framer Motion + Lenis 稳 60fps。","https://creative-brutalist-app.vercel.app/",""],
+["Songs of Hyrule——浏览器里吹响时之笛陶笛","网页动效","11-23","中","中","有效","键盘或触屏按键吹出原版音色，吹对旋律自动识别《时之笛》《梅祖拉的假面》的 21 首曲子并记进歌本，陶笛随按键起伏摆动、松开带回弹；香草 Three.js + TypeScript 三天做成，代码开源。","https://ocarina.thibaut-lefrancois.com",""],
 /* -- 11-23 设计素材 · 早场 -- */
 ["Xmind 1.001——Xmind 官方字体上架 Google Fonts 的可变界面无衬线","设计素材","11-23","早","中","有效","字重 100–900 正斜体全套，拉丁、希腊、西里尔共 109 种语言，几何与人文主义之间，界面、网站与幻灯片都适用；SIL OFL 1.1 免费商用。","https://fonts.google.com/specimen/Xmind",""],
 ["Generative Icons——1161 个免费动画 UI 图标，描述一句话就能现生成同风格新图标","设计素材","11-23","早","中","有效","LottieFiles 发布的 1161 个免费动画 UI 图标，MIT 可商用：每个图标都是原生 dotLottie 矢量文件，亮/强两种动效 × 描边/实心/双色三种风格，颜色粗细运行时任意改；描述一句话就能按同一风格现生成缺失的图标，也可让编程助手走 MCP/REST API 直接取用。注意：生成新图标需登录免费 LottieFiles 账号。","https://generativeicons.com",""],
