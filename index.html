@@ -2193,7 +2193,7 @@ function syncNavHeight(){
   var tot=DATA.length||1;
   var pN=function(d,p){return DATA.filter(function(x){return x.date===d&&x.period===p;}).length;};
   var dayTot=function(d){return pN(d,"早")+pN(d,"中午")+pN(d,"晚");};
-  var days=["11-16","11-17","11-18","11-19","11-20","11-21","11-22"];
+  var days=DATE_LIST.slice();
   var maxDay=1; days.forEach(function(d){ if(dayTot(d)>maxDay) maxDay=dayTot(d); });
   document.getElementById("heatPanel").innerHTML=
     '<div class="heat-stack"><i style="width:'+(hN("高")/tot*100)+'%;background:var(--ink)"></i><i style="width:'+(hN("中")/tot*100)+'%;background:#8b5cf6"></i><i style="width:'+(hN("低")/tot*100)+'%;background:#a3a3a3"></i></div>'
