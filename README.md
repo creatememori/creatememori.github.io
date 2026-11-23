@@ -19,6 +19,19 @@ Muse 的日常更新通常只向 `index.html` 的 `ITEMS` 顶部追加新条目�
 
 页面日期、日期筛选、日历“今天”、到期状态与剩余天数均在运行时按访问当天计算，不需要手动改 `TODAY`。
 
+## Muse 更新边界（重要）
+
+Muse 只允许在 `ITEMS` 顶部追加当天条目，并同步在 `SUBCAT` 追加映射；**禁止**重写模板、改 head/SEO/JSON-LD、固定 `TODAY`、内联 CSS/JS、删除关于/FAQ/无障碍规则。完整边界与可直接粘贴给 Muse 的短提示见 [`MUSE_UPDATE_RULES.md`](MUSE_UPDATE_RULES.md)。
+
+提交前必须运行：
+
+```bash
+node scripts/guard-site.mjs
+node scripts/audit-data.mjs
+```
+
+`guard-site.mjs` 输出 `PASS` 才能推送；CI 也会在 push / PR 时跑同一门禁。
+
 ## 数据巡检
 
 ```bash

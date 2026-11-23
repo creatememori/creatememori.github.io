@@ -2,6 +2,7 @@
 <html lang="zh-CN" data-theme="auto">
 <head>
 <meta charset="utf-8">
+<!-- MUSE:APPEND-ONLY 自动更新只允许在 ITEMS 顶部追加当天条目并同步 SUBCAT；禁止重写模板、改 head/SEO、固定日期、内联 CSS/JS、删除关于/FAQ/无障碍规则。提交前运行 node scripts/guard-site.mjs。详见 MUSE_UPDATE_RULES.md。 -->
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <meta name="msvalidate.01" content="73DE294C14F753C6212D63B40540875A">
@@ -911,6 +912,7 @@ var EXPIRED=[
 
 /* -- 子节：消息条目 -- */
 /* 字段顺序：[标题, 分类, 日期, 时段, 热度, 状态, 说明, 链接, 截止日]；条目按分享批次分组，最新批次在最前 */
+/* MUSE:APPEND-ONLY 只在本数组顶部追加；不要整份替换 ITEMS，不要动模板与日期逻辑。提交前运行 node scripts/guard-site.mjs。 */
 var ITEMS=[
 /* -- 11-23 YouTube 选题 · 晚 -- */
 ["Paperspace Gradient 免费档——$0 免费 GPU 笔记本练手机器学习","YouTube 选题","11-23","晚","高","有效","建议标题「$0 白嫖 GPU 笔记本：Paperspace 免费档练机器学习」。拍法：注册 Gradient 免费档（$0），浏览器打开 Jupyter 笔记本用免费 GPU 实例跑模型训练/推理，演示 5GB 持久存储与约 6 小时单次时长。注意：免费档项目须设为公开；超出免费实例按小时计费，只开免费实例；是否需绑卡以注册页为准。","https://www.paperspace.com/pricing",""],
