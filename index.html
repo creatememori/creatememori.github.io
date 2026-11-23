@@ -711,6 +711,61 @@ var EXPIRED=[
 /* -- 子节：消息条目 -- */
 /* 字段顺序：[标题, 分类, 日期, 时段, 热度, 状态, 说明, 链接, 截止日]；条目按分享批次分组，最新批次在最前 */
 var ITEMS=[
+/* -- 11-23 设计素材 · 早场 -- */
+["Xmind 1.001——Xmind 官方字体上架 Google Fonts 的可变界面无衬线","设计素材","11-23","早","中","有效","字重 100–900 正斜体全套，拉丁、希腊、西里尔共 109 种语言，几何与人文主义之间，界面、网站与幻灯片都适用；SIL OFL 1.1 免费商用。","https://fonts.google.com/specimen/Xmind",""],
+["Generative Icons——1161 个免费动画 UI 图标，描述一句话就能现生成同风格新图标","设计素材","11-23","早","中","有效","LottieFiles 发布的 1161 个免费动画 UI 图标，MIT 可商用：每个图标都是原生 dotLottie 矢量文件，亮/强两种动效 × 描边/实心/双色三种风格，颜色粗细运行时任意改；描述一句话就能按同一风格现生成缺失的图标，也可让编程助手走 MCP/REST API 直接取用。注意：生成新图标需登录免费 LottieFiles 账号。","https://generativeicons.com",""],
+["Fontzie 1.0——在任意真实网页上直接试字体、再导出 CSS 的 Chrome 扩展","设计素材","11-23","早","中","有效","点选元素或写选择器，换 Google Fonts、Fontshare、已装字体或自带字体文件，调字重、可变轴与行高，所见即所得；满意后导出 CSS 或 Tailwind v4；MIT 免费、免注册、无账号。","https://fontzie.app",""],
+["DailyWallPix——2200+ 张免费高清手机与桌面壁纸，每天上新","设计素材","11-23","早","中","有效","自然、城市、太空、动漫、AMOLED 纯黑等 40 多个合集，按分类、颜色、风格与设备筛选，一键下载、无需注册、无水印。注意：站内未明确商用授权说明，宜作个人手机/桌面壁纸使用。","https://dailywallpix.com",""],
+/* -- 11-23 前沿追踪 · 早场 -- */
+["Xing4.1-Preview——中国电信开源 285B MoE，1M 上下文、专为 Agent 编码而生","前沿追踪","11-23","早","高","有效","11 月 23 日发布：中国电信星辰 AGI 实验室把 Xing4.1-Preview 开源上架，285B 总参数、每 token 只激活 17B，MLA+DSA 架构、原生 1M 上下文，专为 Agent 编码与长程任务设计；Apache 2.0 协议，llama.cpp、SGLang、vLLM 均已支持。注意：官方称基准分数随正式技术报告再公布，跑分暂无；权重约 521GB，本地跑需约 8×80GB 卡。","https://huggingface.co/XingChen-AGI/Xing4.1-Preview",""],
+["OpenAI 首席科学家长文：困惑度是衡量前沿模型的新标尺","前沿追踪","11-23","早","高","有效","11 月 22 日发布：OpenAI 首席科学家 Jakub Pachocki 首次公开内部预训练困惑度曲线（GPT-3.5 约 0.99、GPT-4 约 0.91、最新模型已低于 0.8），提出以困惑度为行业共同上限指标、未达监测里程碑前不越线；Altman 称这是 OpenAI 近期最重要的发布。注意：这是提议而非承诺，各家数据集不同、暂无可直接横向比较的口径。","https://openai.com/index/perplexity-and-intelligence",""],
+["Sarvam-105B-1711——印度开源 105B 新检查点，工具调用大涨、4-bit 版单卡可跑","前沿追踪","11-23","早","高","有效","11 月 22 日发布：印度 Sarvam 的 105B MoE 新检查点，指令遵循 IFBench 从 32.5 涨到 82.5、工具调用 Tau2 达 85.5，印度语言套件 79.1；65GB 的 NVFP4 版单张 RTX PRO 6000 工作站 GPU 可跑，混合价 $0.15/百万 tokens。注意：分数均为厂商自测，对标 Gemini 3.5 Flash-Lite 同档、推理硬题仍落后。","https://www.sarvam.ai/blogs/sarvam-105b-1711",""],
+["LingSante-3.1-flash——蚂蚁开源 560B 医疗模型，MIT 协议、1M 上下文","前沿追踪","11-23","早","中","有效","11 月 22 日发布：蚂蚁 inclusionAI 开源的医疗 MoE，560B 总参数、每 token 激活 25B，1M 上下文，专做医疗推理、循证深研与长程医疗任务，另有 124B 多模态兄弟版；SGLang、vLLM 首日即支持。注意：厂商自测称医疗职业行为仅次于 GPT-6 Astra，分数为自报；仅供研究评估，不能用于诊断开药。","https://huggingface.co/inclusionAI/LingSante-3.1-flash",""],
+/* -- 11-23 排版网站 · 早 -- */
+["Displaay——捷克独立字库，站内可直接在线试字、拼自己的可变字体","排版网站","11-23","早","中","有效","布拉格字库 Displaay，2026 年新出了 Panell、Cassette 等多款字体；站内 Tester 能在线试字，Editor 可用字形交替与字重/对比度拼出自己的定制版，全套字体可免费下载完整试用版。","https://displaay.net/",""],
+["Underware——荷兰老牌实验字库，字体会写字、会动、会发光","排版网站","11-23","早","中","有效","1999 年成立的 Underware 做的字体都带点玩法——给微软做的 Kermit 是能随时间书写的“可写字体”，新作 Herby 是可打字、可手写、可拉伸的全息字体；站里还有字体电台 Typeradio 和一堆讲座小册子。","https://www.underware.nl/",""],
+["求字体网——截图识中文字体，顺带查版权能不能商用","排版网站","11-23","早","中","有效","上传海报截图或直接粘贴，就能认出中/英/日/韩字体并给出相似款；每款字体都标了授权范围，免费商用专区按小红书标题、电商横幅、国潮书法等场景分好类。","https://www.qiuziti.com/",""],
+["LettError——会自己乱动的“随机字体”鼻祖，三十年实验字库","排版网站","11-23","早","中","有效","Erik van Blokland 与 Just van Rossum 的 LettError，Beowolf 每次打印字形都会随机抖动，Federal 复刻美钞雕刻字体；新站 11 月还在更新 Principia 等可变宽度新字体，并声明“全站不用 AI”。","https://letterror.com/",""],
+/* -- 11-23 科学可视化 · 早场 -- */
+["Black Hole Simulator——免费浏览器黑洞模拟器，逐像素算引力透镜","科学可视化","11-23","早","中","有效","11 月 17 日随 esolab 太空天文新分类上线：逐像素按广义相对论光线方程算引力透镜，拖动黑洞扫过星空、自己的照片甚至摄像头画面，看背景弯成爱因斯坦环；下方还有黑洞计算器，输入任意质量算史瓦西半径、光子球、潮汐力与霍金蒸发时间。","https://esolab.co.jp/en/tools/black-hole/",""],
+["Velxio——免费开源在线电路与单片机模拟器","科学可视化","11-23","早","中","有效","11 月 11 日上线的免费开源在线电路与单片机模拟器：浏览器里直接写 Arduino/ESP32 固件跑真实芯片仿真，ngspice-WASM 每秒约 60 次解算模拟电路，35 块开发板横跨 6 种 CPU 架构，全部本地运行不用装软件。注意：模拟器本身永久免费，部分高级板子（STM32、树莓派 Linux）与 AI 功能需付费。","https://velxio.dev",""],
+/* -- 11-23 学习成长 · 早 -- */
+["Gemini Notebook 免费教材库——Google 官宣数百本教材免费加进笔记本","学习成长","11-23","早","高","有效","Google 10 月 29 日官宣，Gemini Notebook（原 NotebookLM）新增数百本免费教材，来自 OpenStax、Open Textbook Library 与 S Chand Publishing，加入笔记本后所有回答都以该教材为依据、带引用与原文链接，还能一键转成学习指南、测验与闪卡。注意：免费版每个笔记本最多 50 个来源；教材以美印教材为主。","https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/",""],
+["Coddy——免费互动学编程，20 多门语言边写边练","学习成长","11-23","早","高","有效","2026 年 10 月上线的免费互动编程学习平台，Python、JavaScript、SQL 等 20 多门语言，短课加随堂写代码加 AI 提示，网页与手机 App 同步，结课证书免费。注意：全部课程免费，但每天有能量上限，Pro 解除上限。","https://coddy.tech/landing",""],
+["SyntaxCache——凭记忆默写代码语法的间隔重复练习","学习成长","11-23","早","中","有效","凭记忆默写代码语法的间隔重复练习，Python、JavaScript、SQL、GDScript、Rust 共 1800 多道题，覆盖推导式、装饰器、async/await、所有权等高频语法，练的是手写出来而不是认出来，另有算法模板与设计模式题。注意：免费档每天 10 题、全部内容开放，Pro 解除每日上限。","https://www.syntaxcache.com/",""],
+/* -- 11-23 YouTube 选题 · 早 -- */
+["Lightning AI——免绑卡领 GPU 小时，免费档 1 个 Studio 全天候跑","YouTube 选题","11-23","早","高","有效","建议标题「免绑卡白嫖 GPU 算力：Lightning AI 免费档 50 小时实测」。拍法：注册免绑卡领 1 个免费 CPU Studio 全天候跑 + 5 额度，绑卡再加 25 额度，共约 50 小时中断式 GPU（T4 / L4 / A100 / H100 按秒计费），演示跑一个推理任务并核对账单 0 元。注意：不绑卡只有 5 额度，完整 30 额度需绑卡才拿满；额度 12 个月过期。","https://lightning.ai/pricing/",""],
+["Modal Starter——每月 $30 免费算力跑 GPU/CPU","YouTube 选题","11-23","早","中","有效","建议标题「每月 $30 免费算力跑 GPU：Modal 免费档不用绑卡」。拍法：注册 Starter 档 $0/月，每月 $30 免费算力额度跑 GPU/CPU 函数与沙箱，演示部署一个函数并核对账单。注意：Model API 按 token 计费、不含在免费额度内；超 $30 后按量计费，建议设预算上限。","https://modal.com/pricing",""],
+["Handy——免费离线语音转文字，按快捷键说话就粘贴进任意输入框","YouTube 选题","11-23","早","高","有效","建议标题「免费离线语音转文字：按快捷键说话，文字直接粘贴进任意输入框」。拍法：GitHub 下载 Handy（MIT，3.9 万星），按住快捷键说话，本地 Whisper/Parakeet 模型转写后直接粘贴进任意输入框，全程不上云，演示断网也能用。注意：首次使用需下载本地模型；以管理员身份运行的应用无法粘贴，需同样以管理员身份运行 Handy。","https://github.com/cjpais/Handy",""],
+["taste-skill——给编程助手装审美，12 万星","YouTube 选题","11-23","早","高","有效","建议标题「给 AI 编程助手装上审美：12 万星 taste-skill，官网做到 figma 级」。拍法：一条命令 npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\" 装到 Claude Code / Cursor / Codex，演示同一需求前后对比：一套设计系统、一屏一节、真实照片。注意：需 Node 22+ 与 Chrome/Edge/Chromium，不用 API Key。","https://github.com/leonxlnx/taste-skill",""],
+/* -- 11-23 黑科技工具 · 早场 -- */
+["Handy——免费离线语音转文字，按快捷键说话就粘贴进任意输入框","黑科技工具","11-23","早","高","有效","免费开源的离线语音转文字工具（MIT，3.9 万星）：按住快捷键说话，本地 Whisper/Parakeet 模型转写后直接粘贴进任意输入框，全程不上云；Windows/macOS/Linux 通用，Windows 可 winget 安装。注意：首次使用需下载本地模型；以管理员身份运行的应用无法粘贴，需同样以管理员身份运行 Handy。","https://github.com/cjpais/Handy",""],
+["WaitFeed——等 Agent 干活时，终端里刷 Hacker News 与 GitHub Trending","黑科技工具","11-23","早","高","有效","11 月 20 日上线的免费开源小工具：Agent 干活等待时，在终端里直接刷 Hacker News、Reddit、GitHub Trending、Dev.to 与自订 RSS，不占 Agent 的 token、不碰上下文；100% 本地运行，无需账号与 API Key，一条 npx waitfeed init 即用，支持 Claude Code、OpenCode 与 Antigravity。","https://www.producthunt.com/products/waitfeed-2",""],
+["Browser Use 1.0——浏览器 Agent 推倒重来：24 个工具砍成 1 个 Python REPL，直连 CDP","黑科技工具","11-23","早","高","有效","11 月 10 日发布的 1.0 正式版（12 万星，MIT）：删掉约 13.7 万行代码、80% 库重写，Agent 不再从固定动作菜单里选，改写 Python 在持久 REPL 里直连 Chrome DevTools Protocol；官方基准称同模型得分最高 +33 分、成本降 2.7–5.2 倍（厂商自测，仅供参考）。注意：默认走官方云端浏览器与网关（按量计费），想免费跑需自备模型 + 本地 Chromium。","https://browser-use.com/posts/browser-use-1-0",""],
+["Sure——自己搭的免费个人记账：Maybe Finance 社区复活版，数据全在自己手里","黑科技工具","11-23","早","中","有效","开源个人记账应用（AGPL-3.0，1.7 万星），已停更的 Maybe Finance 社区复活版：记账、资产、预算与报表齐全，浏览器、macOS 桌面与手机端都能用。注意：需 Docker 自托管、无免费托管版，数据全在自己服务器上，适合愿意自己搭的用户。","https://github.com/we-promise/sure",""],
+/* -- 11-23 免费资源 · 早场 -- */
+["Zoom AI Launchpad——创业公司最高领 $15 万语音 AI 额度","免费资源","11-23","早","高","有效","11 月 10 日新推出的创业资助计划：按阶段给 $5,000 / $50,000 / $150,000 三档 Zoom AI Services 额度，做语音转写、翻译、摘要、语音 Agent 等；全球初创可申请，滚动审核。注意：要申请、名额有限；额度自发放起 12 个月有效。","https://zoom.ai/ai-launchpad",""],
+["Modal Starter 免费档——每月 $30 免费算力跑 GPU/CPU","免费资源","11-23","早","高","有效","云端 serverless 算力平台，Starter 档 $0/月，每月含 $30 免费算力额度，可跑 GPU/CPU 函数与沙箱，100 个容器、10 路 GPU 并发，每月 1 TiB 免费出站流量。注意：Model API 按 token 计费、不含在免费额度内；超 $30 后按量计费，建议设预算上限。","https://modal.com/pricing",""],
+["Lightning AI 免费档——免绑卡领 GPU 小时，1 个免费 Studio 24/7 跑","免费资源","11-23","早","中","有效","PyTorch Lightning 团队的云端 AI 开发平台，免费档免绑卡：1 个免费 CPU Studio 全天候跑（每 4 小时重启一次）；注册送 5 额度，绑卡再加 25，共 30 额度约合 50 小时中断式 GPU（T4 / L4 / A100 / H100 等按秒计费）。注意：不绑卡只有 5 额度；额度 12 个月过期。","https://lightning.ai/pricing/",""],
+["LiveKit 创业计划——语音/视频 AI 初创最高领 $23K 额度","免费资源","11-23","早","中","有效","实时音视频平台的创业计划：Scale 计划免 1 年（约 $6,000）+ $10,000 云额度 + 7 家推理伙伴各 $1,000（Deepgram、AssemblyAI、Fish Audio、Rime、Inworld、Gradium、Gemma 4 31B）。注意：要申请——语音/视频/物理 AI 为核心产品、50 人以下、融资低于 $500 万且 Pre-A；额度 12 个月有效，结账领码时需绑卡。","https://livekit.com/startups",""],
+["Northflank 免费沙箱——免绑卡，每月 $20 资源额度常驻不休眠","免费资源","11-23","早","中","有效","云托管平台的免费沙箱：每月最高 $20 资源额度，含 2 个服务、2 个定时任务与 1 个数据库，常驻不休眠；另可接 1 个自带云集群（最高 12 vCPU / 48 GB）。注意：免费档不含 GPU、自动扩缩容与高可用，超额度后按量计费。","https://northflank.com/pricing",""],
+/* -- 11-23 视频创作 · 早场 -- */
+["VEED AI——写句话就能剪短视频的 AI 剪辑 Agent，免费版导出无水印","视频创作","11-23","早","高","有效","11 月 18 日发布的 AI 视频剪辑 Agent：上传素材、贴产品页链接或只给一句话想法，它自动剪出短视频，加多语字幕、标题、品牌元素与结尾卡，网页与手机 App 都能用，免费版导出无水印。注意：免费额度上限与付费档官方未公开。","https://www.veed.io/newsroom/veed-ai-video-editing-agent",""],
+["Tellers——免费给 Claude Code / Codex 用的视频剪辑 Skill，本地预览导出 MP4","视频创作","11-23","早","中","有效","免费给 Claude Code / Codex 用的视频剪辑 Skill：跟 Agent 说句话就能剪，本地浏览器实时预览、可上手微调时间线，导出 MP4；无需注册、无需安装剪辑器。注意：播放器与 Skill 免费，Agent 自身的用量另计；云端存储与生成是付费服务。","https://tellers.ai/skills",""],
+["MoreFrame——双屏录制加剪辑一次搞定，免费版 1080p 导出无水印","视频创作","11-23","早","中","有效","11 月 10 日上线的双屏录制+剪辑工具（Mac/Windows）：一次录屏幕加第二个窗口，各成独立片段，内置时间线、500+ 动效、自动字幕与 Smart Zoom，免费版 1080p 导出无水印、无需账号。Pro $39.99/年解锁 4K 导出与 MCP 驱动剪辑。","https://www.producthunt.com/products/moreframe/launches/moreframe-2",""],
+["CaptureFlow——免费开源录屏，停录即得分享链接","视频创作","11-23","早","中","有效","免费开源录屏工具（AGPL-3.0，11 月 14 日 Product Hunt 上线）：Chrome 插件录屏，停录即得分享链接，带自动字幕、章节与评论，还能让 AI Agent 通过 MCP 自己录演示。注意：托管版免费额度为前 25 条录制，之后 Light $5/人/月起；也可 Docker 自托管全免费。macOS 桌面端尚需自行编译。","https://docs.captureflow.dev/",""],
+/* -- 11-23 前端·AI · 早场 -- */
+["Gemini 4 Hydrogen：给 Agent 干活的高速执行模型","前端·AI","11-23","早","高","有效","Google 11 月 12 日发布 Gemini 4 Hydrogen：面向日常编码与 Agent 工作流的高速模型，100 万上下文、$1.50/$7.50 每百万 tokens；官方称 Terminal-Bench 4.1 达 57%（3.8 Flash 为 18.2%）、速度快 2.5 倍，Antigravity 里新增 Orchestrator 可在同一会话内自动切换 Carbon 与 Hydrogen。注意：基准均为 Google 自测。","https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/?ref=thehype.news",""],
+["OpenAI Agents SDK v1.0.0-alpha.1：Codex 成了可选模型提供方","前端·AI","11-23","早","中","有效","11 月 20 日首个 1.0 预览：Python Agents SDK 可直接用 Codex 作模型提供方，CodexProvider 按 run 选择，轮子内嵌 Codex Core（Rust）无需另起 app-server；沿用 SDK 的工具、审批与沙箱设置。注意：alpha 预览，预编译轮子只在 GitHub Releases 提供、不上 PyPI。","https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.1",""],
+["Kiro IDE 1.5.11：远程 SSH、Dev Container 与云端会话","前端·AI","11-23","早","中","有效","Kiro 11 月 20 日更新：IDE 可连自己的 Linux 机器（SSH）、在仓库 Dev Container 里开项目，或直接打开云端会话，编辑器留本机、文件终端与 Agent 跑在远端，断开后 Agent 继续干活；企业版云端会话可接 VPC。","https://kiro.dev/changelog/ide/",""],
+/* -- 11-23 AI 实战 · 早场 -- */
+["taste-skill——给编程助手装审美的 Agent Skill","AI 实战","11-23","早","高","有效","给编程助手装审美的 Agent Skill（Leonxlnx/taste-skill，MIT，120,134 星，v2.5.1）：让 Claude Code、Codex、Cursor 按 figma.com、x.ai 级标准做公司官网——一套设计系统、一屏一节、真实照片与真实产品 UI，着色器与滚动特效只给科技/游戏类页面，交付前在真实浏览器里逐项检查并过终审门。安装：npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\"。注意：需 Node 22+ 与 Chrome/Edge/Chromium，不用 API Key。","https://github.com/leonxlnx/taste-skill",""],
+["NVIDIA SkillSpector——装技能前先安检的扫描器","AI 实战","11-23","早","高","有效","装技能前先安检的扫描器（NVIDIA/skillspector，Apache-2.0，27,305 星，v2.13.4）：技能带着你的文件、Token 与 Shell 权限跑，研究显示 31,132 个技能里 26.1% 含漏洞、5.2% 疑似恶意；它用 71 种模式扫提示词注入、数据外泄、提权、供应链等 17 类风险，给 0–100 分与「可装/谨慎/别装」结论，--no-llm 可纯本地离线扫。安装：uv tool install git+https://github.com/NVIDIA/skillspector.git。注意：默认第二阶段会把文件内容发给模型分析，无 Key 或不想外发时加 --no-llm。","https://github.com/NVIDIA/skillspector",""],
+["awesome-gamedev-agent-skills——让编程助手写游戏的 79 个技能包","AI 实战","11-23","早","中","有效","让编程助手写游戏的 79 个技能包（gamedev-skills/awesome-gamedev-agent-skills，Apache-2.0，10,354 星，v2.0.0）：覆盖 Godot、Unity、Unreal、Roblox、three.js、Phaser 等 12 个引擎，路由器按项目文件识别引擎、按任务只加载两三个相关技能，全部按官方文档写并锁定当前版本（Godot 4.7.2、Unity 6.3 LTS、Unreal 5.8 等）。安装：npx skills add gamedev-skills/awesome-gamedev-agent-skills。注意：需 Node.js 22.20+；技能装太多会挤占上下文，单引擎开发只装 router + 对应引擎包更稳。","https://github.com/gamedev-skills/awesome-gamedev-agent-skills",""],
+["Elephant-Goldfish Model——先写设计、再让没参与讨论的 Agent 冷审的插件","AI 实战","11-23","早","中","有效","Google 开源的「先写设计、再让没参与讨论的 Agent 冷审」插件（google/elephant-goldfish-model，Apache-2.0，22,165 星）：大象（长会话、握有全部上下文）跟你头脑风暴并逐节写设计文档，金鱼（全新子会话、只看文档与引用的代码）分五阶段冷审，专抓没写进文档的默认假设与实现风险，通过后才动手写代码。安装：claude plugin marketplace add google/elephant-goldfish-model，再 claude plugin install egm@egm。注意：仓库声明不是 Google 官方支持产品；冷审依赖 Agent 能开全新子会话，Claude Code 需 2.1.271+。","https://github.com/google/elephant-goldfish-model",""],
+/* -- 11-23 网页动效 · 早上 -- */
+["islandcn——开源 iOS 灵动岛 React 组件，活动状态收进顶部伸缩小药丸","网页动效","11-23","早","高","有效","上传/计时/通话/打车/音乐等活动状态收进顶部一个会伸缩的小药丸，每个尺寸、圆角、弹簧参数都是逐帧对照真机录像拟合的；shadcn 一行安装 npx shadcn@latest add https://islandcn.dev/r/island-core.json，源码拷进项目。MIT 开源，2026-11-14 发布，369 stars。","https://islandcn.dev",""],
+["Gargantua——浏览器里能玩的《星际穿越》黑洞","网页动效","11-23","早","高","有效","开小飞船绕黑洞收集数据，赶在地球时间耗尽前回到 Endurance 号；吸积盘与引力透镜是逐像素光线步进 Schwarzschild 曲率的自定义 shader，越靠近扭曲越强。React + Three.js + Vite，开源。注意：作者自述中端手机会掉帧，桌面 Chrome 稳 60fps。","https://discourse.threejs.org/t/gargantua-playable-interstellar-black-hole-in-browser-three-js-react/96784",""],
 /* -- 11-22 YouTube 选题 · 晚 -- */
 ["Cerebellum Labs——新账号送 $5 额度，永不过期","YouTube 选题","11-22","晚","中","有效","建议标题「新账号白拿 $5 永久额度，自己部署大模型当免费 API 用」。拍法：注册领 $5，在控制台导入 Hugging Face 开源权重或选 Qwen3.5 等现成底座部署，改两行代码把 OpenAI SDK 的 base_url 指过去就能调。注意额度用完后按 token 计费才需绑卡，闲置不花钱，模型最大 70B。","https://cerebellumlabs.ai",""],
 ["Mockreel——免费把录屏套进 3D 手机，浏览器里直接出 4K 样机视频","YouTube 选题","11-22","晚","中","有效","建议标题「录屏免费套进 3D 手机，浏览器里直接出 4K 样机视频」。拍法：把录屏或截图拖进浏览器，选 iPhone / Pixel / iPad / MacBook 等机型，调背景灯光运镜、加标题缩放，导出最高 4K 的 MP4。注意全程本机渲染不上传、免注册无水印，桌面 Chrome / Edge 打开效果最好。","https://www.producthunt.com/products/mockreel",""],
@@ -1327,6 +1382,13 @@ var CAT_ORDER=["免费资源","网页动效","排版网站","YouTube 选题","�
 
 /* 子分类映射：按标题归类，未在表中列出的按大类兜底（见 SUB_FALLBACK） */
 var SUBCAT={
+"Gemini Notebook 免费教材库——Google 官宣数百本教材免费加进笔记本":"免费电子书与论文库",
+"Coddy——免费互动学编程，20 多门语言边写边练":"免费课程平台",
+"SyntaxCache——凭记忆默写代码语法的间隔重复练习":"编程学习与刷题",
+"Handy——免费离线语音转文字，按快捷键说话就粘贴进任意输入框":"效率神器",
+"WaitFeed——等 Agent 干活时，终端里刷 Hacker News 与 GitHub Trending":"摸鱼神器",
+"Browser Use 1.0——浏览器 Agent 推倒重来：24 个工具砍成 1 个 Python REPL，直连 CDP":"GitHub 开源神器",
+"Sure——自己搭的免费个人记账：Maybe Finance 社区复活版，数据全在自己手里":"隐私安全工具",
 "Univer——3.1 万星的开源 Office SDK：把表格文档幻灯片嵌进自己的产品":"GitHub 开源神器",
 "Modern Web Guidance——Chrome 官方的现代 Web 开发技能：让编程助手别再写过时代码":"GitHub 开源神器",
 "Auto Ontology——NVIDIA 开源的数据 Agent 语义层：问营收先对齐口径再给 SQL":"GitHub 开源神器",
