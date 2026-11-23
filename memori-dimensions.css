@@ -13,6 +13,8 @@
 .facet-chip:focus-visible{box-shadow:0 0 0 3px var(--ring)}
 .dimtag{display:inline-flex;align-items:center;min-height:20px;padding:0 7px;border:1px solid var(--line2);border-radius:999px;background:var(--surface2);color:var(--ink2);font-size:10.5px;font-weight:500;letter-spacing:.01em;white-space:nowrap}
 @media(max-width:640px){
+  /* 手机工具栏宽度有限：隐藏被挤成细条的已选胶囊，筛选按钮上的数字与结果行仍显示筛选状态，面板内可逐项取消 */
+  .tb-chips{display:none!important}
   .facet-head{margin-bottom:2px}
   .facet-row{flex-direction:column;gap:4px;margin-top:8px}
   .facet-label{width:auto;padding-top:0;font-size:10.5px}
