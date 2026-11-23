@@ -566,16 +566,6 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-si
   </div>
 </div>
 
-<!-- ====== 板块：数据分类 ====== -->
-<section class="head-cats" aria-label="数据分类">
-  <div class="hc-head"><h2 class="cats-title">数据分类</h2><span class="tag">CATEGORIES</span><span class="hint">点选大类与子分类，下方列表即时筛选</span><button type="button" class="cats-toggle" id="catsToggle" aria-expanded="true">收起 ▴</button></div>
-  <button type="button" class="cats-summary" id="catsSummary" aria-expanded="false" aria-label="展开分类面板"><span class="cs-label">分类</span><span class="cs-sep">·</span><span class="cs-name" id="csName">全部</span><span class="cs-count" id="csCount"></span><span class="cs-chev" aria-hidden="true">⌄</span></button>
-  <div class="chip-row" id="catChips"></div>
-  <div class="chip-row" id="subChips"></div>
-  <button type="button" class="sub-expand hidden" id="subExpand">展开全部子分类 ▾</button>
-  <div class="hc-meta" id="heroMeta"></div>
-</section>
-
 <!-- ====== 板块：工具栏与筛选面板 ====== -->
 <div id="deckSentinel" aria-hidden="true"></div>
 <div class="toolbar" id="panel">
@@ -1878,8 +1868,10 @@ themeBtn.addEventListener("click",function(){
 /* ====== 板块：页头统计与指标带 ====== */
 function cntStatus(st){return DATA.filter(function(x){return x.status===st;}).length;}
 function updateHeroMeta(){
+  var el=document.getElementById("heroMeta");
+  if(!el) return;
   var subCount=taxonomySubCount();
-  document.getElementById("heroMeta").innerHTML=
+  el.innerHTML=
     '<span class="hchip"><b>'+DATA.length+'</b> 条消息</span>'
     +'<span class="hchip"><b>'+CAT_ORDER.length+'</b> 大类 · <b>'+subCount+'</b> 子分类</span>'
     +'<span class="hchip"><b>'+cntStatus("有效")+'</b> 条当前有效</span>';
@@ -2048,42 +2040,11 @@ function gotoList(){
   var el=document.getElementById("allHead");
   if(el) el.scrollIntoView({behavior:"smooth",block:"start"});
 }
-var subExpanded=false;
+/* 页头分类胶囊面板已移除，分类筛选统一由筛选面板中的大类 / 子分类下拉承担 */
+function syncCatChips(){}
 function syncSubControls(){
   var subs=subsFor(F.cat);
   subSel.innerHTML='<option value="">全部子分类</option>'+subs.map(function(s){return '<option'+(s===F.sub?" selected":"")+'>'+esc(s)+'</option>';}).join("");
-  var sc=document.getElementById("subChips");
-  var MAXC=10, showSubs=subs;
-  if(subs.length>MAXC&&!subExpanded){
-    showSubs=subs.slice(0,MAXC);
-    if(F.sub&&showSubs.indexOf(F.sub)<0) showSubs.push(F.sub);
-  }
-  sc.innerHTML='<button type="button" class="chip'+(F.sub===""?" on":"")+'" data-sub="">全部子分类</button>'+showSubs.map(function(s){
-    var n=DATA.filter(function(x){return x.sub===s&&(!F.cat||x.cat===F.cat);}).length;
-    return '<button type="button" class="chip'+(F.sub===s?" on":"")+'" data-sub="'+esc(s)+'"><span class="dot" style="background:'+(CAT_COLOR[F.cat]||"#888")+'"></span>'+esc(s)+' <span class="n">'+n+'</span></button>';
-  }).join("");
-  var exBtn=document.getElementById("subExpand");
-  if(subs.length>MAXC){
-    exBtn.classList.remove("hidden");
-    exBtn.textContent=subExpanded?"收起子分类 ▴":"展开全部 "+subs.length+" 个子分类 ▾";
-  } else {
-    exBtn.classList.add("hidden");
-  }
-  Array.prototype.forEach.call(sc.querySelectorAll(".chip"),function(ch){
-    ch.addEventListener("click",function(){ F.sub=ch.getAttribute("data-sub"); syncSubControls(); render(); collapseCatsMobile(); gotoList(); });
-  });
-}
-document.getElementById("subExpand").addEventListener("click",function(){
-  subExpanded=!subExpanded; syncSubControls();
-});
-function syncCatChips(){
-  document.getElementById("catChips").innerHTML='<button type="button" class="chip'+(F.cat===""?" on":"")+'" data-cat="">全部 <span class="n">'+DATA.length+'</span></button>'+CAT_ORDER.map(function(c){
-    var n=DATA.filter(function(x){return x.cat===c;}).length;
-    return '<button type="button" class="chip'+(F.cat===c?" on":"")+'" data-cat="'+esc(c)+'"><span class="dot" style="background:'+CAT_COLOR[c]+'"></span>'+esc(c)+' <span class="n">'+n+'</span></button>';
-  }).join("");
-  Array.prototype.forEach.call(document.querySelectorAll("#catChips .chip"),function(ch){
-    ch.addEventListener("click",function(){ F.cat=ch.getAttribute("data-cat"); F.sub=""; catSel.value=F.cat; syncCatChips(); syncSubControls(); render(); collapseCatsMobile(); gotoList(); });
-  });
 }
 function periodRank(p){return p==="晚"?3:(p==="中午"?2:1);}
 function filtered(){
