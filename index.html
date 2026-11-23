@@ -7,6 +7,7 @@
 <meta name="msvalidate.01" content="73DE294C14F753C6212D63B40540875A">
 <meta name="description" content="创忆录（消息汇总）是每日更新的资源精选看板，汇总免费资源、AI 实战教程、黑科技工具、网页动效组件、排版设计网站，按日期、分类、热度与到期状态整理，帮你快速找到仍然有效的好东西。">
 <link rel="icon" href="data:,">
+<link rel="stylesheet" href="memori-dimensions.css">
 <title>创忆录 · 消息汇总看板 — 免费资源、AI 实战、黑科技工具与网页动效每日精选</title>
 <style>
 /* ====== 板块：样式表 ====== */
@@ -184,7 +185,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,[t
 .tb-filter-btn.open:hover{opacity:1}
 .tb-filter-btn.open .mf-chev{transform:rotate(180deg)}
 #deckSentinel{height:1px}
-.deck-filters{display:none;position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);width:min(600px,calc(100vw - 24px));background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 16px 40px rgba(0,0,0,.12);padding:16px;z-index:50;max-height:min(72vh,580px);overflow-y:auto}
+.deck-filters{display:none;position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);width:min(600px,calc(100vw - 24px));background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 16px 40px rgba(0,0,0,.12);padding:16px;z-index:50;max-height:min(80vh,680px);overflow-y:auto}
 .deck-filters.open{display:block;animation:panelIn .18s ease-out}
 @keyframes panelIn{from{opacity:0;margin-top:-5px}to{opacity:1;margin-top:0}}
 .panel-views{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-bottom:12px;padding-right:30px;border-bottom:1px solid var(--line)}
@@ -587,7 +588,7 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-si
         <button data-view="calendar" type="button">日历</button>
       </div>
       <div class="tb-chips" id="tbChips" aria-live="polite"></div>
-      <button class="tb-filter-btn" id="moreBtn" type="button" aria-expanded="false" aria-controls="deckFilters"><span id="moreBtnLabel">筛选</span><svg class="mf-chev" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 5.25L7 9.25L11 5.25" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="tb-filter-btn" id="moreBtn" type="button" aria-expanded="false" aria-controls="deckFilters" aria-label="筛选：内容类型、使用场景与角色" title="筛选：内容类型、使用场景与角色"><span id="moreBtnLabel">筛选</span><svg class="mf-chev" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 5.25L7 9.25L11 5.25" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
     </div>
     <div class="deck-filters" id="deckFilters">
       <button type="button" class="panel-close" id="panelClose" aria-label="关闭筛选面板（不应用本次更改）">×</button>
@@ -2699,5 +2700,6 @@ function moreGo(kind){
 /* 初始化：渲染分类标签、子分类控件与消息列表 */
 syncCatChips(); syncSubControls(); render();
 </script>
+<script src="memori-dimensions.js?v=20261124"></script>
 </body>
 </html>

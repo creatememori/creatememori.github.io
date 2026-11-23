@@ -1,0 +1,22 @@
+/* 创忆录 · 内容类型 / 使用场景 / 角色 三维筛选 */
+.facet-block{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.facet-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.facet-kicker{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;color:var(--ink3);font-weight:600}
+.facet-hint{font-size:11px;color:var(--ink3);letter-spacing:.01em}
+.facet-row{display:flex;align-items:flex-start;gap:10px;margin-top:9px}
+.facet-label{flex:none;width:56px;padding-top:5px;font-size:11px;line-height:1.3;color:var(--ink2);font-weight:500;letter-spacing:.02em}
+.facet-chips{display:flex;flex-wrap:wrap;gap:4px;min-width:0}
+.facet-chip{appearance:none;-webkit-appearance:none;display:inline-flex;align-items:center;justify-content:center;min-height:25px;padding:2px 9px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink2);font-size:11.5px;font-weight:500;line-height:1.35;letter-spacing:.01em;white-space:nowrap;transition:border-color .15s,color .15s,background .15s,transform .1s}
+.facet-chip:hover{border-color:var(--ink);color:var(--ink)}
+.facet-chip:active{transform:scale(.96)}
+.facet-chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.facet-chip:focus-visible{box-shadow:0 0 0 3px var(--ring)}
+.dimtag{display:inline-flex;align-items:center;min-height:20px;padding:0 7px;border:1px solid var(--line2);border-radius:999px;background:var(--surface2);color:var(--ink2);font-size:10.5px;font-weight:500;letter-spacing:.01em;white-space:nowrap}
+@media(max-width:640px){
+  .facet-head{margin-bottom:2px}
+  .facet-row{flex-direction:column;gap:4px;margin-top:8px}
+  .facet-label{width:auto;padding-top:0;font-size:10.5px}
+  .facet-chips{gap:3px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+  .facet-chips::-webkit-scrollbar{display:none}
+  .facet-chip{min-height:23px;padding:1px 6px;font-size:10.5px;flex:none}
+}
