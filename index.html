@@ -713,6 +713,63 @@ var EXPIRED=[
 /* -- 子节：消息条目 -- */
 /* 字段顺序：[标题, 分类, 日期, 时段, 热度, 状态, 说明, 链接, 截止日]；条目按分享批次分组，最新批次在最前 */
 var ITEMS=[
+/* -- 11-23 YouTube 选题 · 晚 -- */
+["Paperspace Gradient 免费档——$0 免费 GPU 笔记本练手机器学习","YouTube 选题","11-23","晚","高","有效","建议标题「$0 白嫖 GPU 笔记本：Paperspace 免费档练机器学习」。拍法：注册 Gradient 免费档（$0），浏览器打开 Jupyter 笔记本用免费 GPU 实例跑模型训练/推理，演示 5GB 持久存储与约 6 小时单次时长。注意：免费档项目须设为公开；超出免费实例按小时计费，只开免费实例；是否需绑卡以注册页为准。","https://www.paperspace.com/pricing",""],
+["DigitalPlat FreeDomain——免费领 .dpdns.org / .us.kg 这类域名","YouTube 选题","11-23","晚","高","有效","建议标题「免费领域名不用花钱：.dpdns.org / .us.kg 免绑卡注册实测」。拍法：邮箱验证 + GitHub KYC 后免费注册一个 .dpdns.org 或 .us.kg 域名（每个账号默认 1 个），接 Cloudflare 免费 DNS 指向自己的站，全程演示续期也免费。注意：共享后缀、无 SLA、无客服，重要项目别只押这一处。","https://domain.digitalplat.org",""],
+["unkernel——真正的 Linux 内核编译成 WebAssembly，浏览器里 1 秒不到开出一个 Linux","YouTube 选题","11-23","晚","高","有效","建议标题「浏览器里 1 秒开出一个真 Linux：unkernel 实测」。拍法：打开 unkernel.dev，约 10MB 下载后 1 秒内进入 Alpine shell，演示 apk 装包、联网与持久磁盘，也可 npx unkernel 在终端跑。注意：需较新浏览器（Chrome/Edge 137+、Firefox 153+）；Debian 镜像另需下载。","https://github.com/pithings/unkernel",""],
+["Agent Desktop——不用截屏，让 Agent 直接操作桌面应用","YouTube 选题","11-23","晚","高","有效","建议标题「不用截屏，Agent 直接操作你的桌面应用：Vercel Agent Desktop 实测」。拍法：装 Vercel Labs 的 Agent Desktop CLI，让 Agent 读系统无障碍树返回带编号的 JSON，按编号点按、输入，操作完再快照复核，演示它在 macOS/Windows/Linux 上操作真实应用。注意：快照与剪贴板可能含私人桌面内容，别放进公开日志。","https://github.com/vercel-labs/agent-desktop",""],
+/* -- 11-23 黑科技工具 · 晚场 -- */
+["unkernel——真正的 Linux 内核编译成 WebAssembly，浏览器里 1 秒不到开出一个 Linux","黑科技工具","11-23","晚","高","有效","真正的 Linux 内核编译成单个 WebAssembly 模块（GPL-2.0，约 1247 星，11 月 12 日建库）：带真实 MMU，打开 unkernel.dev 约 10MB 下载后 1 秒内进入 Alpine shell，apk 装包、联网、持久磁盘都能用，也可 npx unkernel 在终端跑。注意：需较新浏览器（Chrome/Edge 137+、Firefox 153+）；Debian 镜像另需下载。","https://github.com/pithings/unkernel",""],
+["fast-anything——只把最慢的 5% 函数改写成 Rust，实录调用验算通过才启用","黑科技工具","11-23","晚","高","有效","11 月 21 日建库的开源工具（MIT，约 2695 星）：先给 Python、Node、Ruby 等 13 种语言的应用画像，找出最耗时的函数，再让编程助手只把这几个函数移植成 Rust，并用实录的真实调用回放验算一致才启用，一条命令可逆。注意：思路与 11 月 20 日分享的 rust-anything 相近，但支持语言更多、带实录验证；需自备 Rust 工具链与编程助手额度。","https://github.com/EL4CTEO/fast-anything",""],
+["mobile-agent-testers——20 个 AI 测试员同时在 20 台手机上测你的 App，用 GitHub 免费 Runner","黑科技工具","11-23","晚","中","有效","11 月 16 日建库、今日登 Product Hunt（MIT，约 1151 星）：20 个 Claude Code Agent 各自在一台 iOS 模拟器或 Android 模拟器上按人设探索你的 App，找断掉的流程、缺失翻译、超大字号下的布局问题并附截图出报告。注意：GitHub Runner 对公开仓库免费，但模型用量自付（每台手机约 0.15–0.55 美元，或走自己的 Claude 订阅）。","https://github.com/pierridotite/mobile-agent-testers",""],
+["google-qr-sms-helper——把 Google 强制扫码验证一键降级回 6 位短信验证码的 Chrome 插件","黑科技工具","11-23","晚","中","有效","免费开源 Chrome 插件（MIT，约 3967 星）：Google 桌面端登录强制扫码验证时，一键降级回传统的 6 位短信验证码流程，对 Antigravity、Gemini CLI 这类工具登录被卡扫码时尤其有用。注意：未上架 Chrome 应用店，需手动加载已解压的扩展；走 UA 伪装与私有接口，Google 改版后可能失效。","https://github.com/havenicec/google-qr-sms-helper",""],
+/* -- 11-23 科学可视化 · 晚场 -- */
+["Sand——超写实沙粒模拟器","科学可视化","11-23","晚","中","有效","11月11日登上 Hacker News（436 分）的免费 WebGL2 沙盘，10 万–46 万颗沙粒在显卡上实时模拟、按真实重力 9.81 m/s² 运动；五种沙子（河流、海滩、沙漠、火山、珊瑚）各有不同手感，手指推、手机倾斜滑动、摇晃打散都能玩，免安装免账号。注意：部分用户反馈手机上帧率偏低、音效一般。","https://av.github.io/safe-sand/",""],
+["Physics Playground——浏览器里的力学实验场","科学可视化","11-23","晚","中","有效","11月11日更新的免费互动物理模拟，抛射炮可调角度 5–85°、初速、重力与空气阻力，实时画出轨迹预测、打靶计分；单摆模拟可调摆长、摆角、重力与阻尼，自动测周期、画速度矢量与轨迹。浏览器直接玩，另可下载 39KB 单文件离线用。","https://2d-creator.itch.io/physics-playground-interactive-simulations",""],
+["Phys-In——跟着费曼讲义玩物理","科学可视化","11-23","晚","中","有效","按《费曼物理学讲义》章节组织的免费本科交互模拟集，近 50 个实验全可调变量：开普勒定律、牛顿炮弹、双缝干涉、多普勒效应、布朗运动、傅里叶级数拨弦等；10 月 31 日发到 r/Physics，仓库 11 月 7 日更新，开源免费。","https://physin.org/",""],
+["Veylora——免费互动科学实验室","科学可视化","11-23","晚","中","有效","10 大学科分支、95 个 live 模拟器，渗透压、抛体运动、月相、酸碱反应、地球分层都在浏览器里直接动手调变量、看结果，每个实验带原理讲解与小测，免费免注册。注意：站内未见公开的上线时间标注，本场未对它做新品日期断言。","https://veyloralab.tech/",""],
+/* -- 11-23 免费资源 · 晚 -- */
+["Paperspace Gradient 免费档——$0 免费 GPU 笔记本练手机器学习","免费资源","11-23","晚","中","有效","Gradient 免费档 $0，含免费 GPU 实例（多家指南称入门实例为 M4000，单次最长约 6 小时）、5GB 持久存储，浏览器里跑 Jupyter 笔记本练模型、跑推理。注意：免费档项目须设为公开；超出免费实例按小时计费，记得只开免费实例；是否需绑卡各家说法不一，以注册页为准。","https://www.paperspace.com/pricing",""],
+["DigitalPlat FreeDomain——免费领 .dpdns.org / .us.kg 这类域名","免费资源","11-23","晚","高","有效","非营利项目 FreeDomain，免费注册 .dpdns.org、.us.kg、.qzz.io、.xx.kg、.qd.je 后缀的域名（每个账号默认 1 个），免绑卡，续期也免费；注册后自备 DNS（可接 Cloudflare 免费 DNS）指向自己的站。注意：共享后缀、无 SLA、无客服，重要项目别只押这一处；注册需邮箱验证 + GitHub KYC（不用传证件）。","https://domain.digitalplat.org",""],
+/* -- 11-23 前端·AI · 晚 -- */
+["Expo Simulators——让 Agent 自己验证移动端改动，云端 iOS/Android 模拟器上线","前端·AI","11-23","晚","高","有效","11 月 12 日正式发布：Agent、CI 或同事不用 Mac 也能一键开云端 iOS 模拟器或 Android 模拟器，装包、点按、跑流程全程录像截图记日志，改完直接把录屏贴进 PR 当验收证据；每个会话独占一台虚拟机，并行不打架。注意：按分钟计费，iOS 与 Android 均 0.10 美元/分钟，付费计划每月含 60 分钟（至 2027 年）。","https://expo.dev/blog/introducing-expo-simulators-cloud-simulators-built-for-agents",""],
+["Uizze UI Taste——给编程 Agent 补“审美”，专治千篇一律的 AI 味界面","前端·AI","11-23","晚","高","有效","免费开源技能（Apache-2.0）：先定设计合同、再参考 80 万+真实产品界面做布局与层级、最后过一道完工门禁才算做完，专治仪表盘壳子加卡片网格加假数据那套 AI 味 UI；另有免费 MCP 可一键查界面是否“AI 味过重”并给具体修改意见。注意：技能本身免费免账号，完整版 80 万界面实时搜索与审计需付费 MCP。","https://uizze.com",""],
+["Edge Prompt API 进入 origin trial：生产网站可直接调用内置 Aion 模型","前端·AI","11-23","晚","中","有效","微软 11 月 19 日宣布 Aion Instruct 正式 GA 后，Edge 的 Prompt API 同步进入 origin trial：注册 token 的生产网站能直接在页面代码里调用设备内置的 2.3B 端侧模型，做摘要、起草、结构化提取，全程不上云；Chrome 的 Gemini Nano 已有稳定 Prompt API，Edge 这次跟上，背后模型还是 MIT 开源权重。注意：模型本体（Aion 1.0）11 月 21 日已在前沿追踪分享过，本条是 GA 与浏览器 API 上线的新进展；Decisions API 仍在 Canary 预览。","https://aiagentupdate.com/post/aion-instruct-ga-2026-11-23",""],
+/* -- 11-23 视频创作 · 晚上 -- */
+["Openside——开源免费的浏览器录制工作室","视频创作","11-23","晚","高","有效","开源免费的浏览器录制工作室（MIT 协议，Riverside + Loom 平替，11 月 16 日上线 Product Hunt）：播客、访谈、通话直接在浏览器里录，每人独立音视频轨道、本地录制不怕网差，内置 Loom 风格录屏（屏幕+摄像头合成、可分享链接）。注意：自托管完全免费（接自己的 LiveKit + Cloudflare R2 密钥）；托管版免费演示限 720p、15 分钟、2 人且带水印，Pro 托管 $8.99/月。","https://openside.pro/",""],
+["PointerStudio 1.0.9——免费 Windows 录屏+剪辑一体工具","视频创作","11-23","晚","中","有效","免费 Windows 录屏+剪辑一体工具：跟随鼠标自动变焦（点哪放大哪）、高级感背景与圆角边框、本机自动生成英文字幕、时间线剪辑，导出 MP4 无水印、无时长限制；11 月新版长视频秒开、字幕可分段生成。注意：目前仅支持 Windows 10/11，官方称 Pro 付费版在计划中，现阶段全部功能免费。","https://pointerstudio.app/",""],
+["YouArt Desktop App——桌面端 AI 创作搭档","视频创作","11-23","晚","高","有效","桌面端 AI 创作搭档（11 月 12 日 Product Hunt 当日第 2，349 票）：把本地文件与 Slack、Gmail、GitHub 上下文拉到同一画布，用电脑操作直接驱动 After Effects、CapCut、Blender 等真实软件，从发布视频到长视频剪辑全程包办；可接自己的 API Key，智能路由选最便宜的模型出片。注意：免费账号有试用额度（桌面端送 50 积分），生成按 credits 计费、免费输出可能带水印，付费版约 $8/月起（按年付）。","https://youart.ai/",""],
+/* -- 11-23 AI 实战 · 晚上 -- */
+["Billion Context——一个会话跑几周、十万上下文就够的压缩代理","AI 实战","11-23","晚","高","有效","本地压缩代理 bili，坐在编程助手与模型 API 之间，模型自己把聊完的对话折成可还原的分层摘要，一个会话能跑几周、累计数十亿 tokens，100K 上下文就够，支持 Claude Code、Codex、DSH 等 20+ 客户端；8,237 stars，MIT 加一条署名附加条款。注意：官方称省 5 倍 tokens，但独立实测显示整个会话总输入只省约 12.5%，短会话反而可能更贵，长会话再用。","https://github.com/ranxianglei/billion-context",""],
+["Agent Desktop——不用截屏，让 Agent 直接操作桌面应用","AI 实战","11-23","晚","高","有效","Vercel Labs 的电脑操作 CLI：读系统无障碍树返回带编号的 JSON，Agent 按编号点按、输入，操作完再快照复核，不用截屏、不猜像素；macOS、Windows、Linux 通用，另有 MCP 与 C 库；Apache-2.0，26,262 stars。注意：快照与剪贴板可能含私人桌面内容，别放进公开日志。","https://github.com/vercel-labs/agent-desktop",""],
+["Claude Video——给 Claude Code 装上看视频的能力，/watch 一句搞定","AI 实战","11-23","晚","高","有效","开源 /watch 技能（MIT，21,595 stars）：把视频链接或本地文件变成带时间戳的逐帧画面加字幕文本交给 Claude，问“30 秒处发生了什么”直接答；本地引擎免费不用 Key（需 ffmpeg、yt-dlp），也可接免费 Google AI Studio Key 走 Gemini 引擎。注意：只在 Claude Code、Codex 等本地 Agent 里可用，Claude Chat 与 Cowork 不支持。","https://github.com/bradautomates/claude-video",""],
+["Stitch Skills——Google Stitch 官方技能包：设计稿与代码双向跑","AI 实战","11-23","晚","中","有效","Google Labs 的 Stitch 技能包（Apache-2.0，12,101 stars）：设计、构建、工具三组共 16 个技能，文字或图片生成界面、代码转设计稿、设计稿转 React/React Native 组件，还能用 Remotion 把项目做成漫游视频。注意：需先配好 Stitch MCP 才能用；仓库声明不是 Google 官方支持产品。","https://github.com/google-labs-code/stitch-skills",""],
+/* -- 11-23 网页动效 · 晚上 -- */
+["huashu-art-motion——用代码让画动起来的艺术动画 Skill","网页动效","11-23","晚","高","有效","36 种艺术风格 × 9 种解说语法：交给 Claude、Codex 等 Agent，一句口播就能用代码画出梵高、莫奈、8-bit 等风格的动画，带拆解、配乐与成片验收脚本；MIT 开源，7.5k stars。","https://github.com/alchaincyf/huashu-art-motion",""],
+["Our Special World——开车穿过挂满照片的 3D 小城","网页动效","11-23","晚","中","有效","最多 20 张照片挂在小城的大屏幕上，配着音乐开车逛过去，也可一键自动导览；整座城连播放器打进一个 HTML 文件。注意：示例小城免费，定制自己的照片世界一次 £14.99。","https://ourspecialworld.com",""],
+["Music Visualizer——10 种随音乐起舞的可视化风格","网页动效","11-23","晚","中","有效","浏览器里的音乐可视化：10 种音频反应风格，本地音频、麦克风或系统声音都能接，低音、中音、高音分别驱动画面；液态玻璃那款用了 Three.js 全屏 GLSL。","https://musicvisualizer.co/",""],
+["Stovetop——浏览器里真能做饭的 3D 厨房","网页动效","11-23","晚","中","有效","Three.js 做的小型烹饪游戏：燃气灶加食谱，爆米花、煎蛋、煎饼、意面、牛排五道菜，火候、油、水、火焰实时模拟，没人告诉你步骤，烧糊甚至点着油都由你。注意：首次加载约 22MB。","https://frustum.me/play/stovetop/",""],
+["SoloMotion——浏览器里就能用的开源动效工作室","网页动效","11-23","晚","高","有效","时间轴、关键帧、贝塞尔曲线、运动路径全套，导出 MP4/WebM/GIF/Lottie/PDF/PNG；2026-11-22 刚开源（AGPL-3.0），免登录打开就能做。源码：github.com/solocreates/solomotion。","https://open.solomotion.app",""],
+["Orbital Mechanics Sandbox——浏览器里的引力 N 体轨道沙盒","网页动效","11-23","晚","高","有效","三颗天体沿 8 字形轨道互相追逐，6 种积分方法（Leapfrog、RK4、Wisdom-Holman、IAS15、Euler、Symplectic Euler）可切换对比，预设拉格朗日等边、毕达哥拉斯三体、蝴蝶 I/II/III 等十几种，还有能量/角动量误差实时诊断；高中生作者的作品，three.js 论坛 2026-11-14。","https://arnav2deopura-blip.github.io/Orbital-Mechnaics-Sandbox/#/",""],
+/* -- 11-23 前沿追踪 · 晚 -- */
+["WALL-OSS-1.0——具身智能原生 VLA 基础模型，312 个真实机器人任务零样本成功率 55.1%","前沿追踪","11-23","晚","高","有效","11 月 23 日发布：X Square Robot 推出原生视觉-语言-动作（VLA）基础模型，视觉、语言与机器人动作从预训练起联合学习而非事后微调，基于 Qwen3.5，312 个评估员自由指定的真实机器人任务零样本成功率 55.1%；另有 Lite（4B）与 Nano（2B）小版本及 XR Harness 智能体框架。注意：代码与权重官方称“即将开源”，目前尚未放出。","https://x2robot.com/blogs/wall-oss-1-en/",""],
+["GLM-5.4——智谱新一代编程旗舰模型上线，补上视觉能力、上下文 1M","前沿追踪","11-23","晚","高","有效","11 月 23 日上线：智谱 Z.ai 把 GLM-5.4 全量开放给 Coding Plan 订阅用户，接替纯文本的 GLM-5.3 成为订阅计划旗舰；新增视觉输入（可直接贴报错截图），上下文 1M（Claude Code 里选 glm-5.4[1m]），V2/V3/Team 计划周用量额度提升 50%，基于 Loop Transformer 架构。注意：官方尚未公布参数量、跑分与 API 定价，也无开源权重时间表。","https://technode.com/2026/11/23/zhipu-rolls-out-glm-5-4-with-vision-and-million-token-context/",""],
+["黎曼猜想证明获 Lean 与 Mathlib 联合声明认证通过","前沿追踪","11-23","晚","高","有效","11 月 21 日：Lean FRO 与 Mathlib Initiative 发布联合声明，认证 Anthropic 数学家 Levent Alpöge 在 Claude 协助下给出的黎曼猜想形式化证明正确——证明的定理与 Mathlib 中经专家审核的 RiemannHypothesis 表述一致，17 万模块编译通过、多方独立复现，多个独立证明检查器（含 Lean 官方内核）均接受。这是 11 月 21 日看板“尚未最终确认”条目的后续进展。注意：人类可读的经典证明重构仍在撰写中，另有一篇 PhilArchive 质疑待回应，尚非传统同行评审。","https://leanprover-community.github.io/blog/",""],
+/* -- 11-23 设计素材（晚场） -- */
+["Typestash 0.3.0——自托管字体库","设计素材","11-23","晚","中","有效","一条 Docker 命令把整套字体库搬上服务器或 NAS，任意浏览器打开即有图库预览、可变轴试字体、字形表、8 字体并排对比与收藏；字体文件原地不动、无账号无追踪，MIT 免费开源。注意：目前只做浏览管理，还不能把字体装进系统或当 Web Font 用","https://typestash.j47.in",""],
+["IconSaga——5517 个免费图标 × 3 种风格","设计素材","11-23","晚","中","有效","可在线改颜色、粗细与动效，一键复制进 PPT、Word、Figma；另有 MCP 服务器，Claude、Codex、Cursor 用一句话就能按品牌色取图，支持中文等 10 种语言搜索。注意：免费版商用需保留一行署名「Icons by IconSaga · iconsaga.com」，去署名需 Pro（8 美元/月）；未登录每天 30 次 AI 调用","https://iconsaga.com",""],
+["BioCartoon——免费开源生物插画库","设计素材","11-23","晚","中","有效","把 NIH BioArt、Bioicons、SciDraw、Servier 等 9 个来源近 2 万张插画汇成一个可搜数据库，网页版、桌面版、命令行与 MCP 都能用，每张图都标明授权与署名行，可按 CC0/公有领域筛选免署名素材。注意：各图保留原来源授权，CC BY/CC BY-SA 的仍需署名；做论文配图很合适","https://www.biocartoon.com",""],
+["Christoffel 1768 1.0——1768 年 Enschedé 印张复刻的 9 款 Van Dijck 字体","设计素材","11-23","晚","中","有效","按真实印张逐字平均重建，另有带油墨晕染的 Impression 版，罗马体、斜体与黑体俱全，OFL 1.1 免费商用。注意：字母不全、无数字，仅适合做旧排版与标题，不能当正文字体用","https://github.com/nathanmsolomon/christoffel-1768",""],
+/* -- 11-23 学习成长 · 晚 -- */
+["哈佛 CS50 2026——25 小时免费上完哈佛计算机导论，新增 AI 专题","学习成长","11-23","晚","高","有效","哈佛最受欢迎的计算机导论课 2026 版，freeCodeCamp 已搬上 YouTube：25 小时从 Scratch、C、Python、SQL 一路讲到 Flask 与网络安全，新增一整节 AI 对计算机科学的影响；David J. Malan 主讲，零基础可看，全程免费。","https://www.freecodecamp.org/news/harvard-cs50-2026-free-computer-science-university-course/",""],
+["freeCodeCamp 渗透测试速成课——2.5 小时学黑客怎么攻破系统","学习成长","11-23","晚","中","有效","11 月 3 日发布的免费课：Declan Middleton 主讲，在 Parrot OS 里用 Nmap 扫网段、Dirsearch/FFuF 枚举目录、Burp Suite 拦截改包做文件上传攻击，再用 Bash/Python 写自动化侦察脚本，全程对着专用 CTF 靶机实操；YouTube 免费看。","https://www.freecodecamp.org/news/learn-real-world-penetration-testing-hands-on-ethical-hacking-crash-course/",""],
+["OpenKoto——开源 AI 外语阅读器，拿自己喜欢的内容学语言","学习成长","11-23","晚","中","有效","开源免费（Apache 2.0）的 AI 外语学习应用：导入 PDF、EPUB、歌词、新闻等任何感兴趣的内容，点词查义、语法解析、生词本间隔重复，支持 100+ 种语言；桌面端 Mac/Windows/Linux 本地运行，iOS 版刚上架 App Store。注意：AI 讲解需自备 API Key。","https://github.com/hikariming/openkoto",""],
+["freeCodeCamp 向量数据库入门课——1.5 小时从数学讲到 ChromaDB 实战","学习成长","11-23","晚","中","有效","11 月 3 日发布的免费课：从向量、余弦相似度、token 化讲起，到 Gemini 生成嵌入、PCA 三维可视化，再讲 IVF/HNSW 索引原理，最后用 ChromaDB 搭一个按语义搜东西的完整项目；零基础可看，YouTube 免费看。","https://www.freecodecamp.org/news/learn-vector-databases-for-beginners-embeddings-similarity-search-chromadb/",""],
+/* -- 11-23 排版网站 · 晚 -- */
+["Swiss Typefaces","排版网站","11-23","晚","中","有效","瑞士老牌独立字库，Suisse、SangBleu、Euclid 等经典字体都出自它家；首页就是一整面字体动态幻灯片，排版本身就是瑞士国际主义风格的活样本，适合看字体怎么在真实版式里呼吸。","https://swisstypefaces.com/",""],
+["The Designers Foundry","排版网站","11-23","晚","中","有效","新西兰当代字库，Cards 可变字体一个文件塞进 96 种样式，WIP Fonts Folder 还能先试用未完成字体；站内每款字体都配了真实应用案例，挑标题字体很有参考价值。","https://www.thedesignersfoundry.com/",""],
+["NaN","排版网站","11-23","晚","中","有效","柏林实验字库，字体都带点怪脾气：NaN Jaune 像融化的奶酪、Holo 是《银翼杀手》味的可变无衬线；新作 NaN Gothic 一个家族 288 个样式，还带阿拉伯文。","https://nan.xyz/",""],
+["Maxitype","排版网站","11-23","晚","中","有效","瑞士协作字库平台，收了 Frutiger 1979 年的电传打字机字体 Teletext、涂鸦大师 Cornbread 的手写体；小而精，适合看字体背后的故事和实验玩法。","https://maxitype.com/",""],
 /* -- 11-23 前沿追踪 · 中午 -- */
 ["LocalAI 5.0——开源本地 AI 引擎大版本更新，桌面应用 + 原生 Windows 支持","前沿追踪","11-23","中午","高","有效","11 月 18 日发布 5.0、11 月 20 日跟进 5.0.1：新增桌面应用（macOS/Linux）、Projects 项目制、Files 文件页、Office 文档插件与 Python 沙箱，聊天改跑服务端、关标签页也继续干活；5.0.1 补上原生 Windows 支持与 ROCm 增强，OpenAI/Anthropic 兼容 API，MIT 开源约 5 万星。注意：桌面应用首批只有 macOS 与 Linux 版，Windows 走原生服务端或 Docker。","https://localai.io/blog/localai-5-0/",""],
 ["KoboldCpp v1.125——单文件本地跑模型新增原生音频模型与 MCP","前沿追踪","11-23","中午","高","有效","11 月 22 日发布：原生支持 Kokoro TTS、Qwen3ASR/SenseVoice 语音识别与逐词对齐，内置联网搜索桥接成 MCP 工具可供模型调用；新支持 Inkling 2 Mini 与 Xing 4.0 等新模型，还能把闲置显卡共享给志愿网络 BeaverNet。AGPL-3.0 开源，Windows 有一键包。注意：密码保护行为收紧，旧参数 --whispermodel 改名 --transcribemodel，升级前留意。","https://github.com/LostRuins/koboldcpp/releases/latest",""],
@@ -1441,6 +1498,10 @@ var CAT_ORDER=["免费资源","网页动效","排版网站","YouTube 选题","�
 
 /* 子分类映射：按标题归类，未在表中列出的按大类兜底（见 SUB_FALLBACK） */
 var SUBCAT={
+"Billion Context——一个会话跑几周、十万上下文就够的压缩代理":"AI 编程助手",
+"Agent Desktop——不用截屏，让 Agent 直接操作桌面应用":"AI 编程助手",
+"Claude Video——给 Claude Code 装上看视频的能力，/watch 一句搞定":"AI 搜索与知识库",
+"Stitch Skills——Google Stitch 官方技能包：设计稿与代码双向跑":"AI 编程助手",
 "Gemini Notebook 免费教材库——Google 官宣数百本教材免费加进笔记本":"免费电子书与论文库",
 "Coddy——免费互动学编程，20 多门语言边写边练":"免费课程平台",
 "SyntaxCache——凭记忆默写代码语法的间隔重复练习":"编程学习与刷题",
