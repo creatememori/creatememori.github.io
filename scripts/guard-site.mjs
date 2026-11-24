@@ -96,7 +96,10 @@ const visibleText = html
   .trim();
 check('静态可见文字不少于 1200 字符', visibleText.length >= 1200, `chars=${visibleText.length}`);
 
-check('HTML 体积未回涨到 800KB', size('index.html') <= 800000, `bytes=${size('index.html')}`);
+check('HTML 体积未超 2MB（静态 HTML 架构，见 MUSE_UPDATE_RULES.md）', size('index.html') <= 2000000, `bytes=${size('index.html')}`);
+
+const staticCards = count(html, /<article class="card">/g);
+check('静态 HTML 卡片数与 ITEMS 一致（Bing SEO）', staticCards >= itemCount, `cards=${staticCards} items=${itemCount}`);
 
 check('viewTabs 为 group', /id="viewTabs"[^>]*role="group"/.test(html));
 check('筛选面板为 dialog', /id="deckFilters"[^>]*role="dialog"/.test(html));
