@@ -3653,6 +3653,13 @@ function moreGo(kind){
 })();
 
 /* 初始化：渲染分类标签、子分类控件与消息列表 */
+(function(){
+  /* 支持 /library.html?q=关键词 直接带入搜索，供站内与 SearchAction 使用 */
+  try{
+    var q=new URLSearchParams(window.location.search).get("q");
+    if(q){ F.q=q; document.getElementById("f-q").value=q; }
+  }catch(e){}
+})();
 syncCatChips(); syncSubControls(); render();
 </script>
 <script src="memori-dimensions.js?v=20261124"></script>
