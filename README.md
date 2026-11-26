@@ -15,6 +15,7 @@
 - `scripts/build-seo.mjs`：读取 `library.html`，重建分类页、每日页、RSS、sitemap、demo 数据
 - `scripts/audit-data.mjs`：数据巡检与外链健康检查
 - `scripts/guard-site.mjs`：发布门禁
+- `scripts/indexnow.mjs`：把 sitemap 中的 URL 提交给 IndexNow（Bing 等）
 - `MUSE_UPDATE_RULES.md`：内容更新边界
 - `CNAME`：`creatememori.blog`
 
@@ -47,7 +48,7 @@ node scripts/audit-data.mjs --links
 
 1. 打开 `https://creatememori.blog/sitemap.xml`、`robots.txt`、`feed.xml` 确认 200；
 2. 在 Google Search Console / Bing Webmaster 重新提交 sitemap，并对首页、资源库、更新日志请求抓取；
-3. 需要时用 IndexNow 推送 `https://creatememori.blog/` 与 `/library.html`。
+3. 需要时用 IndexNow 推送 `https://creatememori.blog/` 与 `/library.html`；工作流在 push 和定时任务成功构建后会调用 `scripts/indexnow.mjs`，自动提交 sitemap 里的 27 个 URL（Google 不使用 IndexNow，仍需在 Search Console 提交 sitemap）。
 
 ## 域名说明
 

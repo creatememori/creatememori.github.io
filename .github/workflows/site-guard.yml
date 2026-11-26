@@ -39,6 +39,10 @@ jobs:
       - name: Guard site
         run: node scripts/guard-site.mjs
 
+      - name: Ping IndexNow
+        if: github.event_name != 'pull_request'
+        run: node scripts/indexnow.mjs
+
       - name: Commit generated pages
         if: github.event_name != 'pull_request'
         run: |

@@ -44,6 +44,7 @@ const required = [
   'scripts/build-seo.mjs',
   'scripts/audit-data.mjs',
   'scripts/guard-site.mjs',
+  'scripts/indexnow.mjs',
   'c/index.html',
   'updates/index.html',
   'a3d282fd8fba43b3967247aa12d24f33.txt',
