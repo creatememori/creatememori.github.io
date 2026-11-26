@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="创忆录 AI 实战分类收录 106 条模型、API、Agent 与自动化工作流；重点记录门槛、额度、部署条件与真实限制，方便判断能不能落地。">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0C0B11">
+<link rel="canonical" href="https://creatememori.blog/c/ai-workflows.html">
+<link rel="icon" href="/logo.png">
+<link rel="apple-touch-icon" href="/logo.png">
+<link rel="alternate" type="application/rss+xml" title="创忆录更新日志" href="https://creatememori.blog/feed.xml">
+<link rel="stylesheet" href="/seo.css">
+<title>AI 实战｜106 条可复现的模型、Agent 与自动化工作流 · 创忆录</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="创忆录 MEMORI">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="AI 实战｜106 条可复现的模型、Agent 与自动化工作流 · 创忆录">
+<meta property="og:description" content="创忆录 AI 实战分类收录 106 条模型、API、Agent 与自动化工作流；重点记录门槛、额度、部署条件与真实限制，方便判断能不能落地。">
+<meta property="og:url" content="https://creatememori.blog/c/ai-workflows.html">
+<meta property="og:image" content="https://creatememori.blog/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="创忆录 MEMORI：免费资源、AI 工具与设计灵感库">
+<meta property="article:modified_time" content="2026-11-26T12:00:00+08:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI 实战｜106 条可复现的模型、Agent 与自动化工作流 · 创忆录">
+<meta name="twitter:description" content="创忆录 AI 实战分类收录 106 条模型、API、Agent 与自动化工作流；重点记录门槛、额度、部署条件与真实限制，方便判断能不能落地。">
+<meta name="twitter:image" content="https://creatememori.blog/og-cover.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://creatememori.blog/#organization","name":"创忆录 MEMORI","alternateName":"创忆录","url":"https://creatememori.blog/","logo":{"@type":"ImageObject","url":"https://creatememori.blog/logo.png","width":128,"height":128},"sameAs":["https://github.com/creatememori/creatememori.github.io"]},{"@type":"WebSite","@id":"https://creatememori.blog/#website","url":"https://creatememori.blog/","name":"创忆录 MEMORI","alternateName":"创忆录","inLanguage":"zh-CN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://creatememori.blog/library.html?q={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://creatememori.blog/#organization"}},{"@type":"CollectionPage","@id":"https://creatememori.blog/c/ai-workflows.html#webpage","url":"https://creatememori.blog/c/ai-workflows.html","name":"AI 实战｜106 条可复现的模型、Agent 与自动化工作流 · 创忆录","description":"创忆录 AI 实战分类收录 106 条模型、API、Agent 与自动化工作流；重点记录门槛、额度、部署条件与真实限制，方便判断能不能落地。","isPartOf":{"@id":"https://creatememori.blog/#website"},"inLanguage":"zh-CN","dateModified":"2026-11-26T12:00:00+08:00","primaryImageOfPage":{"@type":"ImageObject","url":"https://creatememori.blog/og-cover.png","width":1200,"height":630},"about":[{"@type":"Thing","name":"AI 实战"},{"@type":"Thing","name":"AI 编程助手"},{"@type":"Thing","name":"AI 工作流自动化"},{"@type":"Thing","name":"AI 搜索与知识库"},{"@type":"Thing","name":"AI 绘画/视频/音乐生成"},{"@type":"Thing","name":"本地部署大模型"},{"@type":"Thing","name":"AI 配音与声音克隆"}],"mainEntity":{"@id":"https://creatememori.blog/c/ai-workflows.html#items"},"isAccessibleForFree":true},{"@type":"ItemList","@id":"https://creatememori.blog/c/ai-workflows.html#items","name":"AI 实战资源列表","numberOfItems":106,"itemListOrder":"https://schema.org/ItemListOrderDescending","itemListElement":[{"@type":"ListItem","position":1,"name":"Airbot——会先给你发消息的 AI 首席幕僚：WhatsApp/iMessage 里待命，半夜翻邮箱日历和 CRM，早上把要紧事连同写好的跟进、会议准备一起推给你，点一下批准才发出","url":"https://creatememori.blog/c/ai-workflows.html#i-b7fa9f0638"},{"@type":"ListItem","position":2,"name":"Hai——替你打电话的 AI 助手：发文字说明要办的事，先批方案再拨号，全程任何语言都行","url":"https://creatememori.blog/c/ai-workflows.html#i-79750ee904"},{"@type":"ListItem","position":3,"name":"CodeRabbit Verify——让 AI 替你把每个 PR 真跑一遍再合：公开 Beta 免费","url":"https://creatememori.blog/c/ai-workflows.html#i-d3da3da996"},{"@type":"ListItem","position":4,"name":"Statefold——合上笔记本，编程 Agent 还在云端继续干活：领 3 美元免费算力免绑卡","url":"https://creatememori.blog/c/ai-workflows.html#i-aa870df4ff"},{"@type":"ListItem","position":5,"name":"Pi 1.6.1——12.4 万星的开源终端编程 Agent：极简可拆，15+ 模型随便接","url":"https://creatememori.blog/c/ai-workflows.html#i-5fc1bb4f67"},{"@type":"ListItem","position":6,"name":"HeyGen Avatar 6——会按台词做手势的数字人：原生 2K，一张照片开口说话","url":"https://creatememori.blog/c/ai-workflows.html#i-b519e1d1cd"},{"@type":"ListItem","position":7,"name":"可灵 4.0 实测——一张图加一段参考视频，30 秒一镜到底还带声音","url":"https://creatememori.blog/c/ai-workflows.html#i-3df42521bb"},{"@type":"ListItem","position":8,"name":"LocalCodeForge——本地跑 30B 模型写 C# 代码：规划、写码、编译、修错全在本机","url":"https://creatememori.blog/c/ai-workflows.html#i-316a468e5a"},{"@type":"ListItem","position":9,"name":"SteerLatch——让 ChatGPT/Claude 直接操作你授权的电脑：文件、桌面、终端都能动","url":"https://creatememori.blog/c/ai-workflows.html#i-86f925af6d"},{"@type":"ListItem","position":10,"name":"MWT Voice——免费离线 AI 配音 + 声音克隆：三种引擎、不用账号不用联网","url":"https://creatememori.blog/c/ai-workflows.html#i-6bf38d2698"},{"@type":"ListItem","position":11,"name":"Viktor Code——不只懂你的代码库，还懂整个公司：Slack 里的 AI 员工","url":"https://creatememori.blog/c/ai-workflows.html#i-31dd874a77"},{"@type":"ListItem","position":12,"name":"Clam AI——把 Gmail 安全地交给 AI 助手：只给它看你允许的那部分","url":"https://creatememori.blog/c/ai-workflows.html#i-3e74a1d463"},{"@type":"ListItem","position":13,"name":"Reverb-TTS——297M 参数的声音克隆：3 秒录音克隆音色，浏览器里就能跑","url":"https://creatememori.blog/c/ai-workflows.html#i-71b3f064ad"},{"@type":"ListItem","position":14,"name":"Skills over MCP——MCP 服务器现在能给 Claude 发技能了：11 月 24 日官宣公开 Beta","url":"https://creatememori.blog/c/ai-workflows.html#i-772acbac5e"},{"@type":"ListItem","position":15,"name":"MR Office——开源 Office 编辑器 + MCP：让 Claude、Cursor 直接改真实 Word/Excel/PPT","url":"https://creatememori.blog/c/ai-workflows.html#i-3c4afec77e"},{"@type":"ListItem","position":16,"name":"XERJ Query-1——本地搜索新玩法：不问大模型，把问题编译成小程序在事实库上跑","url":"https://creatememori.blog/c/ai-workflows.html#i-b3f19606e0"},{"@type":"ListItem","position":17,"name":"Fleetify——开源多 Agent 指挥中心：Claude Code、Codex、OpenCode 同屏跑","url":"https://creatememori.blog/c/ai-workflows.html#i-663d9a34d7"},{"@type":"ListItem","position":18,"name":"Granular——给非程序员的 AI 工作台：老板 Agent 带队，Claude/Codex/Gemini 一起干活","url":"https://creatememori.blog/c/ai-workflows.html#i-5647fb474b"},{"@type":"ListItem","position":19,"name":"Jane Street agent_skills——量化巨头开源内部 Agent 技能：苏格拉底式家教先问后教","url":"https://creatememori.blog/c/ai-workflows.html#i-9c4e0fbdf3"},{"@type":"ListItem","position":20,"name":"Archify——让编程助手把代码库画成交互架构图：9.9 万星的 Agent 技能","url":"https://creatememori.blog/c/ai-workflows.html#i-57f490c11e"},{"@type":"ListItem","position":21,"name":"ThinkRail——JetBrains 孵化的 Agent IDE：规格图让 Agent 越用越懂你的项目","url":"https://creatememori.blog/c/ai-workflows.html#i-c6591709bc"},{"@type":"ListItem","position":22,"name":"Claude Ship——Anthropic 11 月 23 日发布：三个 Agent 接管 PR，从审代码、修 CI 到按策略放行","url":"https://creatememori.blog/c/ai-workflows.html#i-86fd67acd1"},{"@type":"ListItem","position":23,"name":"DreamCoder——浏览器里的平铺窗口编程 harness：多 Agent 聊天、终端、评审同屏跑","url":"https://creatememori.blog/c/ai-workflows.html#i-40b0bc8000"},{"@type":"ListItem","position":24,"name":"llmfit——一句话告诉你：这台电脑能跑哪些开源大模型","url":"https://creatememori.blog/c/ai-workflows.html#i-c99853de17"}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://creatememori.blog/"},{"@type":"ListItem","position":2,"name":"资源库","item":"https://creatememori.blog/library.html"},{"@type":"ListItem","position":3,"name":"AI 实战","item":"https://creatememori.blog/c/ai-workflows.html"}]}]}</script>
+</head>
+<body style="--accent:#6B5BD6">
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="site-head">
+  <div class="shell head-in">
+    <a class="brand" href="/" aria-label="创忆录首页">
+      <img src="/logo.png" alt="创忆录标志" width="30" height="30">
+      <span><strong>创忆录</strong><small>MEMORI ARCHIVE</small></span>
+    </a>
+    <nav class="site-nav" aria-label="页面导航">
+      <a href="/library.html">资源库</a>
+      <a href="/c/">分类</a>
+      <a href="/updates/">更新日志</a>
+    </nav>
+    <a class="head-cta" href="/library.html">进入资源库 <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main id="main"><div class="shell">
+<nav class="breadcrumbs" aria-label="面包屑"><a href="/">首页</a><span aria-hidden="true">/</span><a href="/library.html">资源库</a><span aria-hidden="true">/</span><a href="/c/ai-workflows.html">AI 实战</a></nav>
+<section class="page-hero">
+  <span class="kicker">AI IN PRACTICE</span>
+  <h1>AI 实战｜106 条可复现的模型、Agent 与工作流</h1>
+  <p class="lede">可复现的模型、API、Agent 与工作流，重点记录门槛、额度、部署条件与坑。</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><strong>106</strong><span>条收录</span></div>
+    <div class="hero-stat"><strong>6</strong><span>个在用子分类</span></div>
+    <div class="hero-stat"><strong>11-26</strong><span>最近收录</span></div>
+    <div class="hero-stat"><strong>11-16 → 11-26</strong><span>数据范围</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-head"><h2>这个分类在收什么</h2></div>
+  <div class="prose"><p>这里收的是能动手的 AI：模型、API、Agent 框架、自动化工作流、提示词方法和本地部署方案。每一条尽量保留运行条件、额度、依赖和失败边界。</p><p>适合独立开发者、内容创作者与小团队。先做最小验证，再谈规模化；涉及数据、隐私和付费调用时，先算清成本与权限，别让一次演示变成长期账单。</p></div>
+  <div class="subcloud" aria-label="子分类分布"><span>AI 编程助手 <b>72</b></span><span>AI 工作流自动化 <b>10</b></span><span>AI 搜索与知识库 <b>9</b></span><span>AI 绘画/视频/音乐生成 <b>5</b></span><span>本地部署大模型 <b>5</b></span><span>AI 配音与声音克隆 <b>5</b></span></div>
+  <div class="note-list"><div class="note-item"><b>01</b><span>先用最小任务验证输入、输出和失败情况</span></div><div class="note-item"><b>02</b><span>核对额度、速率限制、数据去向与商用条款</span></div><div class="note-item"><b>03</b><span>把提示词、模型版本和依赖固定下来再复用</span></div></div>
+</section>
+<section class="section">
+  <div class="section-head"><h2>最新收录</h2><p class="note"><a href="/library.html#allHead">去资源库筛选 ↗</a></p></div>
+  <div class="latest-list"><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://www.producthunt.com/products/airbots" target="_blank" rel="noopener noreferrer">Airbot——会先给你发消息的 AI 首席幕僚：WhatsApp/iMessage 里待命，半夜翻邮箱日历和 CRM，早上把要紧事连同写好的跟进、会议准备一起推给你，点一下批准才发出</a><span>AI 实战</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://www.producthunt.com/products/hai-4" target="_blank" rel="noopener noreferrer">Hai——替你打电话的 AI 助手：发文字说明要办的事，先批方案再拨号，全程任何语言都行</a><span>AI 实战</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://www.coderabbit.ai/blog/introducing-coderabbit-verify" target="_blank" rel="noopener noreferrer">CodeRabbit Verify——让 AI 替你把每个 PR 真跑一遍再合：公开 Beta 免费</a><span>AI 实战</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://www.producthunt.com/products/statefold-2" target="_blank" rel="noopener noreferrer">Statefold——合上笔记本，编程 Agent 还在云端继续干活：领 3 美元免费算力免绑卡</a><span>AI 实战</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener noreferrer">Pi 1.6.1——12.4 万星的开源终端编程 Agent：极简可拆，15+ 模型随便接</a><span>AI 实战</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://heygen.com/models/heygen-avatar-6" target="_blank" rel="noopener noreferrer">HeyGen Avatar 6——会按台词做手势的数字人：原生 2K，一张照片开口说话</a><span>AI 实战</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://www.zaowu.world/ai-dry/20261123090000-1795395975.html" target="_blank" rel="noopener noreferrer">可灵 4.0 实测——一张图加一段参考视频，30 秒一镜到底还带声音</a><span>AI 实战</span></div><div class="latest-row"><time datetime="2026-11-25">11-25</time><a href="https://www.everydev.ai/tools/localcodeforge" target="_blank" rel="noopener noreferrer">LocalCodeForge——本地跑 30B 模型写 C# 代码：规划、写码、编译、修错全在本机</a><span>AI 实战</span></div></div>
+</section>
+<section class="section">
+  <div class="section-head"><h2>全部条目</h2><p class="note">共 106 条 · 按日期从新到旧</p></div>
+  <div class="item-grid"><article class="item-card" id="i-b7fa9f0638">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 工作流自动化</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://www.producthunt.com/products/airbots" target="_blank" rel="noopener noreferrer">Airbot——会先给你发消息的 AI 首席幕僚：WhatsApp/iMessage 里待命，半夜翻邮箱日历和 CRM，早上把要紧事连同写好的跟进、会议准备一起推给你，点一下批准才发出</a></h3>
+  <p>11 月 25 日 Product Hunt 上线、当日第 2 名：Airspeed 的个人 AI 首席幕僚，住在 WhatsApp 和 iMessage 里，不用学新应用；接 Gmail/Outlook、日历、Slack、Salesfor…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.producthunt.com/products/airbots" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-79750ee904">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 工作流自动化</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://www.producthunt.com/products/hai-4" target="_blank" rel="noopener noreferrer">Hai——替你打电话的 AI 助手：发文字说明要办的事，先批方案再拨号，全程任何语言都行</a></h3>
+  <p>11 月 25 日 Product Hunt 上线：日本札幌独立开发者做的电话代办助手，专治“订餐厅、约诊所必须打电话”的难题——发文字说清需求，先看方案、批准后它再拨号，办完把结果用文字报回来；任何语言、任何接受电话预订的商家都行，对听障…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.producthunt.com/products/hai-4" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-d3da3da996">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://www.coderabbit.ai/blog/introducing-coderabbit-verify" target="_blank" rel="noopener noreferrer">CodeRabbit Verify——让 AI 替你把每个 PR 真跑一遍再合：公开 Beta 免费</a></h3>
+  <p>11 月 18 日公开 Beta：CodeRabbit 新推的 Agent 化应用测试——在 PR 里评论 @coderabbitai verify，它按提交、源码、已有测试与文档生成测试场景，在沙箱里把应用真跑起来点一遍，把结果连同录屏截…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.coderabbit.ai/blog/introducing-coderabbit-verify" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-aa870df4ff">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://www.producthunt.com/products/statefold-2" target="_blank" rel="noopener noreferrer">Statefold——合上笔记本，编程 Agent 还在云端继续干活：领 3 美元免费算力免绑卡</a></h3>
+  <p>11 月 25 日 Product Hunt 上线：独立开发者单人 3 个月、1900 次提交做出来的云端沙箱——每个任务独占一台云电脑，Codex、Claude Code、OpenCode、Pi 或 Gemini CLI 任选其一，用自己…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.producthunt.com/products/statefold-2" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-5fc1bb4f67">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener noreferrer">Pi 1.6.1——12.4 万星的开源终端编程 Agent：极简可拆，15+ 模型随便接</a></h3>
+  <p>11 月 25 日发布 v1.6.1：Earendil Works 的开源终端编程 Agent（MIT，约 12.4 万星），统一 LLM API、Agent 运行时与终端界面三件套都能单独拿来用，接 15 家以上模型商，交互式 CLI、打…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/earendil-works/pi" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-b519e1d1cd">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 绘画/视频/音乐生成</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://heygen.com/models/heygen-avatar-6" target="_blank" rel="noopener noreferrer">HeyGen Avatar 6——会按台词做手势的数字人：原生 2K，一张照片开口说话</a></h3>
+  <p>11 月 17 日发布：HeyGen 新一代音频驱动数字人模型，读懂台词含义再配手势（数数、指方向、按情绪做表情），不再循环固定动作；原生 2K 输出，一张照片加可选 30 秒视频就能建个人数字人，单条可连续生成 25–28 分钟；盲测 A…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://heygen.com/models/heygen-avatar-6" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-3df42521bb">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 绘画/视频/音乐生成</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://www.zaowu.world/ai-dry/20261123090000-1795395975.html" target="_blank" rel="noopener noreferrer">可灵 4.0 实测——一张图加一段参考视频，30 秒一镜到底还带声音</a></h3>
+  <p>11 月 23 日实测：快手可灵 4.0（10 月 15 日全量开放）一次直出最长 30 秒、720p/1080p、带立体声对白音效音乐，中间不切镜头；全能参考一次可挂 15 个文件（10 图+5 视频+3 音频），用 @点名锁定人物长相、…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.zaowu.world/ai-dry/20261123090000-1795395975.html" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-316a468e5a">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">本地部署大模型</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://www.everydev.ai/tools/localcodeforge" target="_blank" rel="noopener noreferrer">LocalCodeForge——本地跑 30B 模型写 C# 代码：规划、写码、编译、修错全在本机</a></h3>
+  <p>11 月 24 日上线的 MIT 开源编程 Agent 内核，Qwen3-Coder-A3B 30B 模型经 Ollama 在自己 GPU 上跑，代码不出本机；多文件规划、写码、dotnet 编译、定位修错、失败自动回滚一条龙，附本地看板看…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.everydev.ai/tools/localcodeforge" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-86f925af6d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 工作流自动化</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://www.steerlatch.com/" target="_blank" rel="noopener noreferrer">SteerLatch——让 ChatGPT/Claude 直接操作你授权的电脑：文件、桌面、终端都能动</a></h3>
+  <p>11 月 25 日登上 Product Hunt：一个 OAuth 保护的 MCP 连接把助手接到你授权的 Mac/Windows 电脑上，读写文件、看屏幕、动鼠标键盘、跑受控命令；每台电脑须本地先授权，手机上随时一键 STOP、按助手分权…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.steerlatch.com/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-6bf38d2698">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 配音与声音克隆</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://www.producthunt.com/products/mwt-voice" target="_blank" rel="noopener noreferrer">MWT Voice——免费离线 AI 配音 + 声音克隆：三种引擎、不用账号不用联网</a></h3>
+  <p>免费离线语音工作室，Kitten TTS、Kokoro TTS、Pocket TTS 三个引擎一次装好：打字生成自然语音、换音色、用 Pocket TTS 克隆自己的声音，还能剪音频、转 MP3/WAV、从视频提音频；模型下载一次后全程离线…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.producthunt.com/products/mwt-voice" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-31dd874a77">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 工作流自动化</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://viktor.com/" target="_blank" rel="noopener noreferrer">Viktor Code——不只懂你的代码库，还懂整个公司：Slack 里的 AI 员工</a></h3>
+  <p>11 月 25 日 Product Hunt 上线：别的编程助手只读仓库，Viktor 接入 Slack/Teams/邮箱与 9800+ 工具（Notion、Linear、Stripe、GitHub 等），在自己的云端电脑上写代码、跑流程，…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://viktor.com/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-3e74a1d463">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 工作流自动化</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://useclam.ai/" target="_blank" rel="noopener noreferrer">Clam AI——把 Gmail 安全地交给 AI 助手：只给它看你允许的那部分</a></h3>
+  <p>11 月 24 日 Product Hunt 上线：Gmail 只接 Clam、不直接接 Agent，你用大白话给每个 Agent 写一条 Shell 规则（能读旅行邮件、能起草、绝不发），每次请求都过确定性 Cedar 策略检查，邮件内容…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://useclam.ai/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-71b3f064ad">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 配音与声音克隆</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://huggingface.co/software-mansion/Reverb-TTS" target="_blank" rel="noopener noreferrer">Reverb-TTS——297M 参数的声音克隆：3 秒录音克隆音色，浏览器里就能跑</a></h3>
+  <p>Software Mansion 11 月 20 日开源的零样本克隆 TTS：3–10 秒录音加逐字稿即可克隆音色，7 种语言（暂无中文），MiniMax 榜单字错率 0.96% 排第一，比 4.95B 的 Fish S2 Pro 还准；浏…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://huggingface.co/software-mansion/Reverb-TTS" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-772acbac5e">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 工作流自动化</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://claude.com/resources/articles/skills-over-mcp-tasks-and-more" target="_blank" rel="noopener noreferrer">Skills over MCP——MCP 服务器现在能给 Claude 发技能了：11 月 24 日官宣公开 Beta</a></h3>
+  <p>Anthropic 11 月 24 日官宣：Skills over MCP 进入公开 Beta，MCP 服务器除了给工具，还能随工具附上用法技能（分步工作流、最佳实践），Claude 按需加载、不用另装；同批 Tasks（长任务后台跑）与 …</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://claude.com/resources/articles/skills-over-mcp-tasks-and-more" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-3c4afec77e">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 工作流自动化</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://github.com/XinaTian/MROffice" target="_blank" rel="noopener noreferrer">MR Office——开源 Office 编辑器 + MCP：让 Claude、Cursor 直接改真实 Word/Excel/PPT</a></h3>
+  <p>11 月 10 日建库、半个月约 3,800 星的开源办公套件（AGPL-3.0）：文档/表格/幻灯片/PDF/代码六个编辑器全开源，MCP 服务器让 Claude、ChatGPT、Cursor、Codex 直接创建、打开、编辑并导出真实 …</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/XinaTian/MROffice" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-b3f19606e0">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 搜索与知识库</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://github.com/xerj-org/xerj" target="_blank" rel="noopener noreferrer">XERJ Query-1——本地搜索新玩法：不问大模型，把问题编译成小程序在事实库上跑</a></h3>
+  <p>本地 AI 搜索引擎 XERJ 随 rc.101 推出 Query-1：把问题写成一段小程序，在你自己的事实库上查、比、数，220 毫秒出答案，不建 embedding、不用 GPU、离线 4 核 CPU 就能跑；160 题实测答对 124…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/xerj-org/xerj" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-663d9a34d7">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/fleetifydev/fleetify" target="_blank" rel="noopener noreferrer">Fleetify——开源多 Agent 指挥中心：Claude Code、Codex、OpenCode 同屏跑</a></h3>
+  <p>11 月 16 日建库、11 月 24 日登 Product Hunt：免费开源桌面应用（Apache-2.0，Rust + Tauri），Claude Code、Codex、OpenCode 等 10 个编程 Agent 同窗并行，每个任…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/fleetifydev/fleetify" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-5647fb474b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 工作流自动化</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://granular.build/" target="_blank" rel="noopener noreferrer">Granular——给非程序员的 AI 工作台：老板 Agent 带队，Claude/Codex/Gemini 一起干活</a></h3>
+  <p>11 月 24 日登 Product Hunt：Mac 与 Windows 桌面应用，接自己的 Claude、Codex 或 Gemini 订阅（也可用 API Key、Ollama 本地模型），Boss Agent 拆任务派给多个 Wor…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://granular.build/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-9c4e0fbdf3">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/janestreet/agent_skills" target="_blank" rel="noopener noreferrer">Jane Street agent_skills——量化巨头开源内部 Agent 技能：苏格拉底式家教先问后教</a></h3>
+  <p>11 月 3 日建库、现 1.15 万星：Jane Street 把内部日常用的 Agent 技能开源（MIT），首个技能 socratic-tutor 把 LLM 变成严格家教——先诊断水平、再按 0–5 级技能图一次只问一个问题、带间隔…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/janestreet/agent_skills" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-57f490c11e">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/tt-a1i/archify" target="_blank" rel="noopener noreferrer">Archify——让编程助手把代码库画成交互架构图：9.9 万星的 Agent 技能</a></h3>
+  <p>2026 年 4 月发布、现 9.9 万星、v3.3.0：给 Claude Code、Codex、Cursor、OpenCode 装的开源技能（Apache-2.0），一句话让 Agent 把想法、方案或整个代码库画成可交互 HTML 架构…</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/tt-a1i/archify" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-c6591709bc">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/JetBrains/thinkrail" target="_blank" rel="noopener noreferrer">ThinkRail——JetBrains 孵化的 Agent IDE：规格图让 Agent 越用越懂你的项目</a></h3>
+  <p>JetBrains 孵化器开源项目（Apache-2.0，约 8,425 星）：以 pi 编程助手为核心的 Agent IDE，规格驱动开发——SPEC.md 图谱随代码演进、Agent 跨会话不断线；git worktree 隔离工作区让…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/JetBrains/thinkrail" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-86fd67acd1">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://claude.com/resources/articles/introducing-claude-ship" target="_blank" rel="noopener noreferrer">Claude Ship——Anthropic 11 月 23 日发布：三个 Agent 接管 PR，从审代码、修 CI 到按策略放行</a></h3>
+  <p>11 月 23 日发布（beta）：Code Review 审 PR 并多重验证发现、PR Steward 修 failing CI 与合并冲突、Claude Approvals 按团队写在仓库里的策略文件自动放行常规改动；个人在 Clau…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://claude.com/resources/articles/introducing-claude-ship" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-40b0bc8000">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://www.dreamcoder.ai" target="_blank" rel="noopener noreferrer">DreamCoder——浏览器里的平铺窗口编程 harness：多 Agent 聊天、终端、评审同屏跑</a></h3>
+  <p>Mastering Emacs 作者 Mickey Petersen 11 月 20 日发布：浏览器里的 AI 编程 harness，平铺窗口管理器把多个 Agent 聊天、终端、代码评审并排同屏，小地图一眼看各 Agent 进度；自带工具…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.dreamcoder.ai" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-c99853de17">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">本地部署大模型</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/AlexsJones/llmfit" target="_blank" rel="noopener noreferrer">llmfit——一句话告诉你：这台电脑能跑哪些开源大模型</a></h3>
+  <p>检测本机 CPU/内存/显卡后，按适配度、速度、质量、上下文给数百个开源模型打分排名（MIT，约 39,271 星）：交互式 TUI、Web 界面与 API 三种用法，支持 Ollama、llama.cpp、MLX、LM Studio 等本…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/AlexsJones/llmfit" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-90d3b6f43a">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/emilkowalski/skills" target="_blank" rel="noopener noreferrer">Emil Kowalski skills——Vercel/Linear 设计工程师的动效品味技能包，近 20 个技能专治 Agent 的动效低级错误</a></h3>
+  <p>Sonner 作者、曾在 Vercel 与 Linear 任职的 Emil Kowalski 把多年动效经验写成 Agent 技能：进场该用 ease-out 而非 ease-in、半透明阴影而非实色边框等细节都有规则，含审稿、审计、找动效…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/emilkowalski/skills" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-6dca93a00a">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener noreferrer">Matt Pocock skills——33 万星的真工程 Agent 技能：先问清楚再动手，27 个技能覆盖需求、TDD、查 bug 与代码评审</a></h3>
+  <p>TypeScript 名师 Matt Pocock 公开自己日常用的 27 个 Agent 技能（MIT，33.1 万星）：核心是 grill-me/grill-with-docs——动手前先像面试官一样追问需求、对齐术语并沉淀进 GLOS…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-60d82282ad">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/shadcn/improve" target="_blank" rel="noopener noreferrer">shadcn/improve——让最强模型审代码、便宜模型动手：9 类并行审计只出方案不改代码</a></h3>
+  <p>shadcn/ui 作者的 Agent 技能（MIT，1.2 万星）：贵模型负责理解代码库、按正确性/安全/性能/测试等 9 类并行审计并写出自包含执行方案，便宜模型按方案动手；技能本身只写 plans/ 文件夹、绝不改源码，/improv…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/shadcn/improve" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-400013af57">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener noreferrer">Agent-Reach——给 Agent 装上全网眼睛：一个 CLI 读 X、Reddit、YouTube、B 站、小红书，不用买平台 API</a></h3>
+  <p>开源 Python CLI（MIT，11.4 万星）：一条命令给 Claude Code、Cursor 等 Agent 接上 X、Reddit、YouTube、GitHub、B 站、小红书、V2EX、雪球等平台的搜索与阅读能力，B 站/Yo…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-86fba5442f">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/ranxianglei/billion-context" target="_blank" rel="noopener noreferrer">Billion Context——一个会话跑几周、十万上下文就够的压缩代理</a></h3>
+  <p>本地压缩代理 bili，坐在编程助手与模型 API 之间，模型自己把聊完的对话折成可还原的分层摘要，一个会话能跑几周、累计数十亿 tokens，100K 上下文就够，支持 Claude Code、Codex、DSH 等 20+ 客户端；8,…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/ranxianglei/billion-context" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-a30d3d892d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/vercel-labs/agent-desktop" target="_blank" rel="noopener noreferrer">Agent Desktop——不用截屏，让 Agent 直接操作桌面应用</a></h3>
+  <p>Vercel Labs 的电脑操作 CLI：读系统无障碍树返回带编号的 JSON，Agent 按编号点按、输入，操作完再快照复核，不用截屏、不猜像素；macOS、Windows、Linux 通用，另有 MCP 与 C 库；Apache-2.…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/vercel-labs/agent-desktop" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f127551a71">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 搜索与知识库</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/bradautomates/claude-video" target="_blank" rel="noopener noreferrer">Claude Video——给 Claude Code 装上看视频的能力，/watch 一句搞定</a></h3>
+  <p>开源 /watch 技能（MIT，21,595 stars）：把视频链接或本地文件变成带时间戳的逐帧画面加字幕文本交给 Claude，问“30 秒处发生了什么”直接答；本地引擎免费不用 Key（需 ffmpeg、yt-dlp），也可接免费 …</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/bradautomates/claude-video" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-6bd5892513">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/google-labs-code/stitch-skills" target="_blank" rel="noopener noreferrer">Stitch Skills——Google Stitch 官方技能包：设计稿与代码双向跑</a></h3>
+  <p>Google Labs 的 Stitch 技能包（Apache-2.0，12,101 stars）：设计、构建、工具三组共 16 个技能，文字或图片生成界面、代码转设计稿、设计稿转 React/React Native 组件，还能用 Rem…</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/google-labs-code/stitch-skills" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-8ebe681ea4">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/simplexai-labs/linger" target="_blank" rel="noopener noreferrer">Linger——本机跑 125B 个人 Agent，记忆与主动提醒全在本地</a></h3>
+  <p>11 月 10 日发布的开源个人 Agent，桌面端一键装机（Windows/macOS/Linux 均有安装包），自研 PolyStrata 引擎号称 12GB 显存跑 125B 的 Qwen3.8-Flash-Next，邮件/日历/聊天…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/simplexai-labs/linger" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4539681a29">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/lemomo-ai/lemo-opuscar" target="_blank" rel="noopener noreferrer">Lemo-Opuscar——不用视频模型，Claude Code 写代码拍短片，99 种风格任选</a></h3>
+  <p>Claude Code 技能加风格库，Agent 用 Canvas/WebGL 逐帧画、免费采样库配乐、TTS 旁白、ffmpeg 合成，不用视频生成模型也不用现成素材；11 月 12 日刚扩到 99 种风格，还能把自家品牌色改成专属风格。…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/lemomo-ai/lemo-opuscar" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-e7cc2f7d3b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/milind-soni/OpenMausBot" target="_blank" rel="noopener noreferrer">OpenMausBot——把 Claude/Codex/Grok 变成聊天列表里的机器人小队</a></h3>
+  <p>开源聊天式 Agent 壳（Apache 2.0，有 Windows 安装包），每个机器人都是本机上真实跑的 Claude/Codex/Grok CLI，各有模型、人设、电脑与接的应用，危险操作先弹审批卡；记录与密钥都留在本机。注意：用的是…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/milind-soni/OpenMausBot" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-341dc19a3d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/Ebony-Vinyl/dsh-our-free-model" target="_blank" rel="noopener noreferrer">dsh-our-free-model——给 DeepSeek Harness 装免费模型：DeepSeek V4.1 Flash、Kimi K3 免登录即用</a></h3>
+  <p>DeepSeek 开源 Agent 框架 dsh 的插件，需先装 dsh；装上就能在模型菜单里直接用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，不用注册与 API Key，还带本地 OpenAI 兼容网关、Clau…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/Ebony-Vinyl/dsh-our-free-model" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-c9dba149dc">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/leonxlnx/taste-skill" target="_blank" rel="noopener noreferrer">taste-skill——给编程助手装审美的 Agent Skill</a></h3>
+  <p>给编程助手装审美的 Agent Skill（Leonxlnx/taste-skill，MIT，120,134 星，v2.5.1）：让 Claude Code、Codex、Cursor 按 figma.com、x.ai 级标准做公司官网——一…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/leonxlnx/taste-skill" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-eae5db6c59">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/NVIDIA/skillspector" target="_blank" rel="noopener noreferrer">NVIDIA SkillSpector——装技能前先安检的扫描器</a></h3>
+  <p>装技能前先安检的扫描器（NVIDIA/skillspector，Apache-2.0，27,305 星，v2.13.4）：技能带着你的文件、Token 与 Shell 权限跑，研究显示 31,132 个技能里 26.1% 含漏洞、5.2% …</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/NVIDIA/skillspector" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-99a89a44db">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/gamedev-skills/awesome-gamedev-agent-skills" target="_blank" rel="noopener noreferrer">awesome-gamedev-agent-skills——让编程助手写游戏的 79 个技能包</a></h3>
+  <p>让编程助手写游戏的 79 个技能包（gamedev-skills/awesome-gamedev-agent-skills，Apache-2.0，10,354 星，v2.0.0）：覆盖 Godot、Unity、Unreal、Roblox、t…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/gamedev-skills/awesome-gamedev-agent-skills" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f75426153d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/google/elephant-goldfish-model" target="_blank" rel="noopener noreferrer">Elephant-Goldfish Model——先写设计、再让没参与讨论的 Agent 冷审的插件</a></h3>
+  <p>Google 开源的「先写设计、再让没参与讨论的 Agent 冷审」插件（google/elephant-goldfish-model，Apache-2.0，22,165 星）：大象（长会话、握有全部上下文）跟你头脑风暴并逐节写设计文档，金…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/google/elephant-goldfish-model" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-07442919df">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener noreferrer">caveman——让编程助手少说废话、少读冗余，整会话省 token</a></h3>
+  <p>开源技能 + 本地代理（Apache-2.0，约 12.2 万星）：输出改成短句、日志/JSON/CSV 等工具输出先压缩再进模型，代码、命令与报错原文不动；v4.0 起六件套还带自动选模型、网页压缩与免费的 Caveman Code 终端…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-cc12d6c400">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/obra/superpowers" target="_blank" rel="noopener noreferrer">Superpowers——给编程助手装一套完整开发方法论：先想清楚再动手</a></h3>
+  <p>Agent 技能框架 + 软件开发方法论（MIT，约 32.4 万星）：先头脑风暴问清需求、再写设计与分步计划，然后子 Agent 按 TDD 分工干活、逐任务评审收尾，支持 Claude Code 官方插件市场、Codex、Cursor、…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/obra/superpowers" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-da387aac31">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">本地部署大模型</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/sybil-solutions/inference-optimisation-skill" target="_blank" rel="noopener noreferrer">inference-optimisation-skill——手把手调快本地大模型推理的 Agent 技能</a></h3>
+  <p>本地 LLM 推理调优技能（MIT，11 月 16 日新建，约 1.8 千星）：先算理论速度上限、再一次只改一个变量、对照组交错实测，覆盖解码、推测解码、预填充、KV 缓存与首 token 延迟，附 bench.py/ceiling.py …</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/sybil-solutions/inference-optimisation-skill" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-35bd17f815">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 搜索与知识库</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://developers.cloudflare.com/workers-ai/models/clairic/" target="_blank" rel="noopener noreferrer">Cloudflare Clairic——发票提取不用生成文本：按字段表直接返回带类型的数值</a></h3>
+  <p>Cloudflare 10 月 19 日发布的提取模型（Workers AI 预览）：不用生成文本，直接按你给的字段表返回带类型的数值——发票号、到期日、总金额、联系人列表，还附置信度与 p_null，缺失字段返回 null 而不是瞎编；官…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://developers.cloudflare.com/workers-ai/models/clairic/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-783258e73b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener noreferrer">impeccable——给编程助手装上设计品味：24 条命令治好“AI 味”界面</a></h3>
+  <p>防“AI 味”的开源设计技能包（Apache-2.0，约 11.5 万星）：24 条命令（polish/bolder/critique/audit 等）让 Claude Code、Cursor、Codex 等编程助手写出的界面不再是千篇一律…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-b1c34c9f87">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/Nutlope/hallmark" target="_blank" rel="noopener noreferrer">hallmark——Together AI 的防“AI 味”设计技能：50 套主题 + 三档质量门</a></h3>
+  <p>Together AI 出品的开源设计技能（MIT，约 5.9 万星）：50 套主题材质各带一张成品图，配 755 张开源授权实拍照片；建站先定主题再按三档质量门把关（底线绝不放行、惯性默认拦截、收尾只做细节），最后在真实浏览器里 8 种宽…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/Nutlope/hallmark" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-7b766e20f9">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/openai/codex-security" target="_blank" rel="noopener noreferrer">Codex Security——OpenAI 官方代码安全扫描 CLI：扫漏洞、给补丁、验修复</a></h3>
+  <p>OpenAI 官方的代码安全扫描工具（Apache-2.0，约 1.4 万星）：cs scan 一条命令扫仓库、给漏洞定级、生成补丁并验证修复结果，还能起草 SECURITY.md、保存威胁模型、接 GitHub Action 定时扫；支持…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/openai/codex-security" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-566e7af10d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">本地部署大模型</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener noreferrer">MiniMind——两小时从 0 训出自己的 64M 大模型：预训练到 RLHF 全手写</a></h3>
+  <p>中文开源 LLM 从 0 复现教程（Apache-2.0，约 6.8 万星）：预训练、SFT、LoRA、RLHF（DPO）、RLAIF（PPO/GRPO）、工具调用与 Agentic RL 全链路代码均用 PyTorch 原生手写；SFT …</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f9eece4791">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">ECC——Agent Harness 性能优化系统：72 个 Agent + 328 个技能</a></h3>
+  <p>MIT 开源（30.8 万星），给 Claude Code、Codex、Qoder、Cursor、OpenCode 等编程助手装一套工程系统：先规划再动手、测试验证、换新上下文复核、把经验沉淀成可复用技能，附 AgentShield 安全扫…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-ab75d6b74b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer">Hermes Agent——会自我进化的 AI Agent</a></h3>
+  <p>Nous Research 出品（MIT，26.5 万星）：内置学习闭环，做完复杂任务自动生成技能并在使用中自我改进，跨会话搜索过往对话、越用越了解你；接 Telegram、Discord、Slack、WhatsApp、Signal 与 C…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-12d459d033">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://aifrontierpost.com/articles/flux-2-dev-cloudflare-workers-ai-tutorial/" target="_blank" rel="noopener noreferrer">FLUX.2 [dev] 无 GPU 实战：Cloudflare Workers AI 上跑 320 亿参数生图模型</a></h3>
+  <p>11 月 21 日教程：黑森林 FLUX.2 [dev] 本地跑要约 54GB 显存，Cloudflare 11 月 20 日把它搬上 Workers AI，一次 HTTPS 请求就能出图；教程给完整 Python 客户端，支持多图参考保持…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://aifrontierpost.com/articles/flux-2-dev-cloudflare-workers-ai-tutorial/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-2f19c34796">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://dev.to/jbcanillo/i-built-a-self-hosted-voice-cloning-studio-with-a-talking-3d-avatar-12b2" target="_blank" rel="noopener noreferrer">Echo——自托管声音克隆工作室 + 会说话的 3D 数字人</a></h3>
+  <p>11 月 21 日实战教程：一段 20–30 秒录音就能克隆音色，全程 CPU 跑、不用 GPU 与付费语音 API，Docker 一条命令起服务，3D 虚拟人按音频口型同步说话，附同意确认与限速等防滥用设计。注意：默认 YourTTS 仅…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://dev.to/jbcanillo/i-built-a-self-hosted-voice-cloning-studio-with-a-talking-3d-avatar-12b2" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-75f3aa7484">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://github.com/google/skills" target="_blank" rel="noopener noreferrer">Google 官方 Agent Skills</a></h3>
+  <p>Google 官方出的 Agent Skills 技能库（Apache-2.0，24,498 星），Google Cloud、Gemini、Genkit、GKE 等 200 多个官方技能，一条命令 npx skills add google…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/google/skills" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-44be0347c3">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noopener noreferrer">Graphify</a></h3>
+  <p>把代码库变成可查询的知识图谱（Apache-2.0，151,397 星），在编程助手里敲 /graphify 就能把整个项目（代码、文档、PDF、图片）映射成知识图谱，本地 AST 解析、不用向量库，查依赖、追调用链直接出图；支持 Clau…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-b483fc941d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://github.com/jamiepine/voicebox" target="_blank" rel="noopener noreferrer">Voicebox</a></h3>
+  <p>本地 AI 语音工作室（MIT，61,031 星），声音克隆、听写输入、多轨故事配音全在本机跑，8 个 TTS 引擎、23 种语言，几秒音频就能克隆音色，还能给 Claude Code 等 Agent 接上 MCP、让它用你克隆的声音说话。…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/jamiepine/voicebox" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-81d84e1c97">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://github.com/alibaba/open-code-review" target="_blank" rel="noopener noreferrer">阿里 Open Code Review</a></h3>
+  <p>阿里开源的 AI 代码审查 CLI（Apache-2.0，54,937 星），确定性管线 + LLM Agent 混合架构，行级精确定位问题，内置空指针、线程安全、XSS、SQL 注入等多语言规则；ocr review 审改动、ocr sc…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/alibaba/open-code-review" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-2210379bee">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://github.com/stablyai/orca" target="_blank" rel="noopener noreferrer">Orca——开源并行多 Agent 编程环境</a></h3>
+  <p>把 Claude Code、Codex 等编程助手各放进独立 git worktree 并排跑，同一任务可发给多个 Agent 比结果、只合入优胜者，还能用手机远程盯进度；MIT 开源，13.1 万星，最新 v1.4.263（11 月 18…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/stablyai/orca" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-55dfe65e37">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer">Cloudflare security-audit-skill——一条命令把 Claude Code/Codex 变成安全审计员</a></h3>
+  <p>六阶段流程（侦察、覆盖式 hunting、对抗验证、结构化 findings.json、独立复核、报告），发现漏洞的 Agent 与验证的不是同一个；MIT 开源，7.6 万星，11 月第二波涨星登顶 GitHub 趋势。注意：只审计不修代…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-a4e420e9a8">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 配音与声音克隆</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://github.com/microsoft/VibeVoice" target="_blank" rel="noopener noreferrer">VibeVoice——微软开源语音 AI 家族</a></h3>
+  <p>ASR 一次转录 60 分钟长音频，带说话人区分与时间戳，支持 50+ 语言，已集成进 Hugging Face Transformers，还有无 GPU 也能跑的 CPU 版；MIT 开源，5.7 万星。注意：长对话 TTS-1.5B 的…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/microsoft/VibeVoice" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-33033992fa">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">本地部署大模型</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://aiblog.jasonead.com/blog/2026/11/15/run-llms-locally-november-2026/" target="_blank" rel="noopener noreferrer">《Run LLMs Locally in November 2026》本地部署大模型实战教程（11 月 15 日）</a></h3>
+  <p>Ollama/LM Studio/llama.cpp/vLLM 四种跑手怎么选、显存数学（模型文件+KV 缓存+开销）、Ollama 上下文默认只有 4K 的坑与提到 64K 的方法、接 Continue/Cline/Cursor、测 to…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://aiblog.jasonead.com/blog/2026/11/15/run-llms-locally-november-2026/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-232878afde">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener noreferrer">VoiceStudio：免费本地版 ElevenLabs，声音克隆/配音/视频配音一站式</a></h3>
+  <p>开源本地 AI 语音工作室：声音克隆、按描述设计音色、视频配音、听写转录、有声书，全部在本机跑、不用账号；11 月 GitHub 涨星最快的 AI 项目，现 11.5 万星，AGPL-3.0 免费。注意：默认模型权重为 CC-BY-NC（非…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4dea72a3d2">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://aifrontierpost.com/articles/pr-agent-ai-code-review-tutorial/" target="_blank" rel="noopener noreferrer">PR-Agent 实战：让 AI 审你的 PR，本地 Ollama 零成本跑通</a></h3>
+  <p>开源 AI 代码审查工具刚被原公司 Qodo 捐给社区（仓库迁至 The-PR-Agent/pr-agent），v0.50.0；教程手把手教你接本地 Ollama（qwen3:0.6b）零成本审真实 PR，还能生成 PR 描述、提改进建议、…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://aifrontierpost.com/articles/pr-agent-ai-code-review-tutorial/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-6cad618046">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://cwyz.com/tutorials/openfilm-ai-agent-edit-video-en" target="_blank" rel="noopener noreferrer">OpenFilm：让 AI Agent 按网页写法做视频，错了只改一处</a></h3>
+  <p>10 月开源的免费视频工具：Agent 把视频写成网页逐帧渲染，改一处不用重抽；配 Studio 可视化编辑器，点文字直接改、导出 1080p MP4/字幕/剪辑时间线，附 3 条可直接复制的提示词。与已分享的 HyperFrames 同属…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://cwyz.com/tutorials/openfilm-ai-agent-edit-video-en" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-024dfb1baf">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://platform.baichuan-ai.com/prices" target="_blank" rel="noopener noreferrer">百川智能新用户 80 元 API 赠金</a></h3>
+  <p>注册百川开放平台新账号送 80 元赠金，约合 1000 万 Baichuan2-Turbo tokens，有效期 3 个月，免绑卡，OpenAI 兼容接口。限制：一次性赠金，用完或 3 个月到期后按量计费，不是永久免费。</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://platform.baichuan-ai.com/prices" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-e0731974f6">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://developer.amd.com/cloud-credit/" target="_blank" rel="noopener noreferrer">AMD Token Lab 免费 API</a></h3>
+  <p>加入免费的 AMD AI 开发者计划即可领 10 点 Token Lab 积分，30 天有效（可再延 15 天），免绑卡、免信用卡申请，OpenAI 兼容接口，可调 Gemma 4 31B、DeepSeek V4 Flash、Qwen3.8…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://developer.amd.com/cloud-credit/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-a11dfcc1a4">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://www.braintrust.dev/articles/how-to-cut-llm-costs-with-model-routing" target="_blank" rel="noopener noreferrer">Braintrust Starter 免费档</a></h3>
+  <p>LLM 评测与可观测平台 Starter 档 $0/月，免绑卡，每月含 $10 模型额度、1GB 处理数据、1 万次评分，不限用户数与项目数，适合给自己的 AI 应用做评测和追踪。限制：每月额度不结转，超量按 $4/GB、$2.50/千次评…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.braintrust.dev/articles/how-to-cut-llm-costs-with-model-routing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-a6e64eb6b6">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://requesty.ai/pricing" target="_blank" rel="noopener noreferrer">Requesty 免费档 — LLM 统一网关，每天 200 次免费模型调用，免绑卡</a></h3>
+  <p>免费档可调用全部免费模型，带路由、缓存、自动兜底和用量分析，OpenAI 兼容接口，注册即用。限制：每天上限 200 次请求，仅限免费模型；付费模型需按量付费（模型价 +5%）。</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://requesty.ai/pricing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f86cbda505">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 绘画/视频/音乐生成</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://www.jidan.si/free/365-envato-minimax-h3-unlimited-free-video" target="_blank" rel="noopener noreferrer">Envato 免费账号 24 小时不限次数生成 MiniMax H3 视频</a></h3>
+  <p>免费账号也能不限次数用 MiniMax H3 生成 AI 视频，不用买订阅；可传图作首帧生成动画，也可直接用文字描述生成。限制：仅 24 小时，北京时间 11 月 19 日 21:00 至 11 月 20 日 21:00，今晚 21:00 …</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-expired">已过期</span><span class="deadline">截止 2026-11-20</span><a class="source-link" href="https://www.jidan.si/free/365-envato-minimax-h3-unlimited-free-video" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-53ca4d1b72">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 搜索与知识库</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://vercel.com/changelog/parallel-web-search-is-free-on-ai-gateway-and-eve-through-january-31" target="_blank" rel="noopener noreferrer">Vercel AI Gateway：Parallel 联网搜索 fast 模式免费至 2027 年 1 月 31 日</a></h3>
+  <p>在 Vercel AI Gateway 上用 Parallel 做联网搜索，fast 模式免费到 2027 年 1 月 31 日，不用单独申请 Parallel API Key，默认开启零数据保留；eve 智能体里已默认用它做内置联网搜索。…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><span class="deadline">截止 2027-01-31</span><a class="source-link" href="https://vercel.com/changelog/parallel-web-search-is-free-on-ai-gateway-and-eve-through-january-31" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-87e95dab6b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://creatememori.blog/library.html#allHead" target="_blank" rel="noopener noreferrer">Claude Code 2.1.328</a></h3>
+  <p>11 月 19 日发布。（vibestacklab 二级转述，未逐字核对官方公告）</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">未核实</span><a class="source-link" href="https://creatememori.blog/library.html#allHead" target="_blank" rel="noopener noreferrer">在资源库查看 ↗</a></div>
+</article><article class="item-card" id="i-f9e710971a">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://creatememori.blog/library.html#allHead" target="_blank" rel="noopener noreferrer">Gemini 4 Neon 上线 Antigravity</a></h3>
+  <p>11 月 18 日博客宣布 Gemini 4 Neon 上线 Antigravity，CLI 1.5.12 也已加上。（vibestacklab 二级转述，未逐字核对官方公告）</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">未核实</span><a class="source-link" href="https://creatememori.blog/library.html#allHead" target="_blank" rel="noopener noreferrer">在资源库查看 ↗</a></div>
+</article><article class="item-card" id="i-abd326f9d5">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://creatememori.blog/library.html#allHead" target="_blank" rel="noopener noreferrer">Gemini CLI 0.69.0</a></h3>
+  <p>新版加入每日 token 热力图。（vibestacklab 二级转述，未逐字核对官方公告）另：Azure o1/o3 已于 11 月 19 日退役，按微软退役表切到 gpt-5.6-sol / terra。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">未核实</span><a class="source-link" href="https://creatememori.blog/library.html#allHead" target="_blank" rel="noopener noreferrer">在资源库查看 ↗</a></div>
+</article><article class="item-card" id="i-7ddd374898">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://autoclaw.zhipuai.cn/blog/news/M11W3/" target="_blank" rel="noopener noreferrer">智谱 AutoClaw 第三周 1 亿 Token</a></h3>
+  <p>11 月 16 日 00:00 至 11 月 22 日 23:59，登录 AutoClaw 客户端即领 100M Tokens（相当于 1 万积分），每账号限领一次；第二周还是 5000 万，这周国内翻倍到 1 亿。限制：奖励与活动在 11…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-expired">已过期</span><span class="deadline">截止 2026-11-22</span><a class="source-link" href="https://autoclaw.zhipuai.cn/blog/news/M11W3/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-addb521e9c">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://maas.xfyun.cn/" target="_blank" rel="noopener noreferrer">讯飞星辰 MaaS Spark-X2.6 送 10 亿 tokens</a></h3>
+  <p>讯飞星辰 MaaS 官网首页“常用功能”栏写明“Spark-X2.6 赋能开发者零门槛领取 10 亿 tokens 免费额度”，注册并实名认证后在模型广场开通 Spark-X2.6、建 API Key 领取。限制：额度仅限 Spark-X2…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://maas.xfyun.cn/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-3b76f26b67">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://docs.exaone.ai" target="_blank" rel="noopener noreferrer">LG K-EXAONE 2.5 免费 API</a></h3>
+  <p>LG 11 月 9 日开放的 750B 参数旗舰模型 API，目前免费，在 EXAONE API Platform 注册领 API Key，OpenAI 兼容接口，模型名 k-exaone_v2.5。限制：仅限非商业用途；纯文本、韩英双语；…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://docs.exaone.ai" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-fb8ce3722e">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 工作流自动化</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://www.apify.com/pricing" target="_blank" rel="noopener noreferrer">Apify</a></h3>
+  <p>每月 $5 免费平台用量，免绑卡。网页抓取/自动化平台，免费档每月给 $5 预付用量，可跑 Apify Store 里的现成抓取工具或自己的 Actor（比如抓网页、爬商品、转 Markdown）。领法：注册免费账号即可，每月自动续 $5。…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.apify.com/pricing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-a26616d443">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://www.ainews.tech/blog/chatgpt-pro-api-credits-pick-the-org-first" target="_blank" rel="noopener noreferrer">ChatGPT Pro 每月 $100 API 调用额度</a></h3>
+  <p>需付费 Pro 订阅，不是人人免费。10 月 28 日起，付费 ChatGPT Pro（$100/$200/$500 三档）每月可领等额 API 额度（$100/$200/$500），Business 按席位也有（标准席 $20、高级席 $…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.ainews.tech/blog/chatgpt-pro-api-credits-pick-the-org-first" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-5d9dc6e197">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://wisp-os.com/beta/" target="_blank" rel="noopener noreferrer">WispOS</a></h3>
+  <p>免费 AI 游戏制作器，公开测试版免费下载。说一句话就能让 AI 帮你做游戏、改游戏，还能直接投到它自带的应用商店里；Mac/Windows 都有，手机端也能连，无广告、不追踪。领法：官网直接下载，不用邀请码。限制：它本身不带 AI——要接…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://wisp-os.com/beta/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-3262ced2a7">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://apinex.bond/models?group=free" target="_blank" rel="noopener noreferrer">APInex 免费模型组</a></h3>
+  <p>23 个模型免费调，含 GLM-5.3、Gemini 4 Hydrogen、Kimi K3、Qwen3.8-Max、DeepSeek V4 系列等，OpenAI 兼容接口。领法：注册账号后在控制台建 API Key，模型选 free 组。限…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://apinex.bond/models?group=free" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4a464e2e10">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 工作流自动化</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://webscraping.ai/" target="_blank" rel="noopener noreferrer">WebScraping.AI</a></h3>
+  <p>每月 2000 API credits 免费，免绑卡。传一个 URL 就能拿回渲染后的 HTML、纯文本或 AI 提取的结构化 JSON，代理、浏览器渲染、验证码都由它处理，还有托管 MCP 可直接接 Claude/Cursor。限制：每月…</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://webscraping.ai/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-762a26f0be">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 搜索与知识库</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://microlink.io/text" target="_blank" rel="noopener noreferrer">Microlink</a></h3>
+  <p>免费 API Key 每天 25 次请求，免绑卡。给一个 URL 就返回去噪后的正文、Markdown、元数据，还能截图、转 PDF、转文档，JS 渲染后的内容也能抓，适合做 RAG 的网页内容摄入或链接预览。限制：免费档每天 25 次，含…</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://microlink.io/text" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-3b6859c23c">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://www.gradually.ai/en/changelogs/codex-cli/" target="_blank" rel="noopener noreferrer">Codex CLI 0.170.0</a></h3>
+  <p>11 月 18 日发布：TUI 里加了 WebRTC 实时语音通话；MCP OAuth 凭据竞态、沙箱权限等问题修了一批。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.gradually.ai/en/changelogs/codex-cli/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-e157526a2d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://docs.cohere.com/docs/rate-limits" target="_blank" rel="noopener noreferrer">Cohere 免费试用 API Key</a></h3>
+  <p>注册即送，每月 1,000 次免费调用，官方文档未提信用卡要求，可用全部模型与 API（聊天、嵌入、重排、语音转写等），适合测试与概念验证。限制：仅限测试/概念验证、不能用于生产；每分钟另有限速（聊天 20 次/分钟、2,000 token…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://docs.cohere.com/docs/rate-limits" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-29e5e70c69">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://windsurf.com/pricing" target="_blank" rel="noopener noreferrer">Windsurf（现为 Devin）免费版</a></h3>
+  <p>$0 免费档：轻量 agent 用量 + 有限模型，代码内联编辑与 Tab 补全不限量。限制：agent 用量为轻量档、模型有限，前沿模型与云端 agent 需 $20/月 Pro。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://windsurf.com/pricing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-3ae37cca47">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://www.greptile.com/pricing" target="_blank" rel="noopener noreferrer">Greptile Starter 免费版</a></h3>
+  <p>个人开发者免费，每月 50 credits，不限仓库数，AI 代码评审：基础评审 1 credit/次。限制：仅限 1 名活跃开发者；开源项目可免费，早期创业公司每月 500 credits 领 6 个月。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.greptile.com/pricing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f1af1269d6">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 绘画/视频/音乐生成</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://pollinations.ai" target="_blank" rel="noopener noreferrer">Pollinations.ai</a></h3>
+  <p>完全免费的 AI 生图 + 文本 API：不用注册、不用 API Key、不用绑卡，拼个 URL 就能出图（https://image.pollinations.ai/prompt/你的描述），文本走 https://text.pollin…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://pollinations.ai" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-29fb6d3063">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://www.workbuddy.cn" target="_blank" rel="noopener noreferrer">腾讯混元 Hy4 flash</a></h3>
+  <p>11 月 16 日新发布的模型，在 WorkBuddy 客户端里限时免费到 11 月 30 日前：升级客户端、把模型切到 Hy4 flash，倍率显示 0.00x 就是不扣积分。限制：只在 WorkBuddy 客户端内免费，不是 API 额…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><span class="deadline">截止 限时免费到 2026-11-30</span><a class="source-link" href="https://www.workbuddy.cn" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-2b4dc8cf9f">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://docs.qoder.cn/events/100credits" target="_blank" rel="noopener noreferrer">Qoder CN 每天领 100 Credits</a></h3>
+  <p>阿里 Qoder CN 桌面端每天 10:00 开新一轮，主动领 100 通用 Credits，每笔 30 天有效、没用完可以跨天攒着用。领法：桌面端左下角用量面板 → 礼物图标。限制：仅限桌面端领取（领完可在 IDE / 插件 / CLI…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><span class="deadline">截止 每日领取 · 结束时间另行公告</span><a class="source-link" href="https://docs.qoder.cn/events/100credits" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-de484bc7f2">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.ai21.com/pricing/" target="_blank" rel="noopener noreferrer">AI21 Labs</a></h3>
+  <p>新账号 $10 试用金，免绑卡，Jamba 系列 API 试用；官方两处口径冲突：定价页 7 天、文档页 3 个月，按 7 天规划；用完或到期后续用要绑卡。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-expired">已过期</span><span class="deadline">截止 按 7 天规划，约 11-23/24</span><a class="source-link" href="https://www.ai21.com/pricing/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-efe655cf57">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 搜索与知识库</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://jina.ai/" target="_blank" rel="noopener noreferrer">Jina AI</a></h3>
+  <p>新 API Key 送 1000 万免费 tokens，覆盖搜索、向量、重排；仅限非商用（CC-BY-NC）；有效期页面未写明，领完就用。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://jina.ai/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-1f7d8cbcd7">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.scaleway.com/en/pricing/model-as-a-service/" target="_blank" rel="noopener noreferrer">Scaleway Generative APIs</a></h3>
+  <p>前 100 万 tokens + 60 分钟转写免费（GLM、Qwen、Mistral、DeepSeek 等，OpenAI 兼容）；免费档本身不强制绑卡，但完整速率限制需绑卡 + KYC；开户页是否先要求支付方式以注册页实际显示为准。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.scaleway.com/en/pricing/model-as-a-service/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-7dc357a760">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 搜索与知识库</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://docs.voyageai.com/docs/pricing" target="_blank" rel="noopener noreferrer">Voyage AI</a></h3>
+  <p>每个现役模型各送 2 亿免费 tokens（voyage-4 系列、rerank-3 等），注册建 Key 即有，免绑卡；不绑卡速率限制很低（约每分钟 3 次、1 万 tokens）；不适用于 Batch API 和 voyage-3 等老…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://docs.voyageai.com/docs/pricing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-10b2113a4f">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 配音与声音克隆</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits" target="_blank" rel="noopener noreferrer">Fish Audio S2.1-Pro Free</a></h3>
+  <p>旗舰 TTS 模型 $0，83 种语言，API 里 model 写 s2.1-pro-free 即按 $0 计费；仅限开发测试，无 SLA；model 名写错会静默按付费版 $15/百万字节计费；另有网页免费档每月 8,000 credit…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-soon">即将过期</span><span class="deadline">截止 免费到 2026-11-30</span><a class="source-link" href="https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-3edd1f857d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.perchai.app/pricing" target="_blank" rel="noopener noreferrer">Perch AI Starter</a></h3>
+  <p>编程智能体，每月 20,000 PT 托管模型用量（约 $20），免绑卡，每月按 UTC 自然月重置；免费模型轮换含 Laguna S 2.1、DeepSeek V4.1 Flash、GLM 5.3 Flash，另加 Qwen 3.8 Ma…</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-expired">已过期</span><span class="deadline">截止 Qwen 3.8 Max 至 2026-11-20</span><a class="source-link" href="https://www.perchai.app/pricing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f05ea141ad">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 搜索与知识库</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://you.com/pricing" target="_blank" rel="noopener noreferrer">You.com 联网搜索 API</a></h3>
+  <p>MCP 方式每天 100 次免费搜索，无需 API Key、无需账号、无需信用卡；注册再送 $10 API 额度（约 2,000 次搜索），验证账号另加 $90，免绑卡；注册额度 60 天有效，用完返回 402。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><span class="deadline">截止 注册额度 60 天有效</span><a class="source-link" href="https://you.com/pricing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-544804c478">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 搜索与知识库</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://tavily.com/pricing" target="_blank" rel="noopener noreferrer">Tavily</a></h3>
+  <p>给 AI agent / RAG 用的联网搜索 API，每月 1,000 免费 credits，免绑卡，每月 1 号重置，用完只停不停扣；学生可免费升级。</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tavily.com/pricing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f7e5acd909">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://akashml.com" target="_blank" rel="noopener noreferrer">AkashML</a></h3>
+  <p>新账号 $100 免费 token 额度，去中心化 GPU 开源模型推理，OpenAI/Anthropic 双兼容，可接 Claude Code、Cursor；一次性额度，免费档只覆盖 Playground 内部分模型。</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://akashml.com" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-ff51075c76">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://inference.dahl.global" target="_blank" rel="noopener noreferrer">Dahl Inference</a></h3>
+  <p>注册送前 1 亿 tokens 免费，OpenAI 兼容，含 MiniMax-M2.7 等；额度用完转按量付费；小众服务，别传敏感内容。</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://inference.dahl.global" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-6206d0f50f">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 绘画/视频/音乐生成</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.tripo3d.ai/pricing" target="_blank" rel="noopener noreferrer">Tripo AI</a></h3>
+  <p>文生/图生 3D：新账号首次建 API Key 送 2,000 免费 credits（约 $20），另有 Studio 每月 200 credits；免绑卡；领前别先建 Key；免费档模型公开、CC BY 4.0 不可商用。</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.tripo3d.ai/pricing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-5bae57d18e">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://www.inceptionlabs.ai/blog/mercury-2-10x-free-tokens" target="_blank" rel="noopener noreferrer">Inception Mercury 2</a></h3>
+  <p>新建 API Key 送 1 亿免费 tokens（从 1000 万上调），免费档限速提高 10 倍；一次性额度。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.inceptionlabs.ai/blog/mercury-2-10x-free-tokens" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-8fb2c88c40">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://www.nscale.com/blog/introducing-nscale-serverless-inference-scalable-ai-without-infrastructure-hassles" target="_blank" rel="noopener noreferrer">Nscale</a></h3>
+  <p>新用户 $5 免费推理额度（GLM-5.3、Kimi K2.5 等），OpenAI 兼容；一次性，领额度免绑卡，用完需绑卡充值（最低 $5）。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.nscale.com/blog/introducing-nscale-serverless-inference-scalable-ai-without-infrastructure-hassles" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-409d4971f2">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://docs.maritaca.ai/en/precos" target="_blank" rel="noopener noreferrer">Maritaca S5-free</a></h3>
+  <p>巴西厂商 11-16 刚上线的推广，注册 API 后调用 S5-free 不计费，纯文本；葡语优先模型。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-soon">即将过期</span><span class="deadline">截止 限时推广，随时下线</span><a class="source-link" href="https://docs.maritaca.ai/en/precos" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-bc55b85044">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 配音与声音克隆</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://developers.heygen.com/docs/models/heygen-voice" target="_blank" rel="noopener noreferrer">HeyGen Voice Turbo</a></h3>
+  <p>模型 heygen-voice-1-turbo-free，11 月 30 日前调用 $0，免绑卡，39 种语言 + 即时克隆；共享容量，忙时 429，每分钟 30 次。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-soon">即将过期</span><span class="deadline">截止 2026-11-30，之后 $4/百万字符</span><a class="source-link" href="https://developers.heygen.com/docs/models/heygen-voice" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-0c91bdf582">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://kiro.dev/students/" target="_blank" rel="noopener noreferrer">Kiro for Students</a></h3>
+  <p>在读大学生每月 1000 credits 免费一年（约 $20/月 Pro 档额度），学校邮箱经 SheerID 验证；仅限官方名单内大学（约 174 所）；一年后自动降回每月 50 credits。</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://kiro.dev/students/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-dc939f22d6">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://llm7.io/" target="_blank" rel="noopener noreferrer">LLM7.io</a></h3>
+  <p>每天 10 万 tokens 免费 API，OpenAI 兼容，含 GLM-5.3-Flash、DeepSeek V4 Flash 等；限速 60 次/分钟；免费档不含 Function Calling、JSON Mode。</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://llm7.io/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-aa7b968be3">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/ai-workflows.html">AI 实战</a><span class="tag tag-sub">AI 编程助手</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://novita.ai/pricing" target="_blank" rel="noopener noreferrer">Novita Apodex 1.1 Mini</a></h3>
+  <p>35B MoE 开源权重模型，输入输出 $0，256K 上下文；官方明确是上线推广价、不是永久免费承诺。</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-soon">即将过期</span><span class="deadline">截止 推广价，随时结束</span><a class="source-link" href="https://novita.ai/pricing" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article></div>
+</section>
+<section class="section">
+  <div class="section-head"><h2>继续按主题浏览</h2></div>
+  <div class="related-grid"><a class="related-card" href="/c/frontier.html"><small>FRONTIER</small><strong>前沿追踪</strong><span>66 条收录</span></a><a class="related-card" href="/c/frontend-ai.html"><small>FRONTEND × AI</small><strong>前端·AI</strong><span>67 条收录</span></a><a class="related-card" href="/c/learning.html"><small>LEARNING</small><strong>学习成长</strong><span>61 条收录</span></a></div>
+  <p style="margin-top:18px"><a class="all-link" href="/c/">查看全部分类 <span aria-hidden="true">→</span></a></p>
+</section>
+</div></main>
+<footer class="site-foot">
+  <div class="shell">
+    <div class="foot-main">
+      <div>
+        <div class="foot-brand">
+          <img src="/logo-light.png" alt="创忆录标志" width="46" height="46">
+          <div><strong>创忆录</strong><small>MEMORI ARCHIVE</small></div>
+        </div>
+        <p>把今天的好资源，存成明天还能用的记忆。免费额度、AI 工具、网页动效、排版、设计、视频与前沿情报，按主题持续归档。</p>
+      </div>
+      <div class="foot-links">
+        <div><strong>站内</strong><a href="/">介绍页</a><a href="/library.html">资源库</a><a href="/c/">分类索引</a><a href="/updates/">更新日志</a><a href="https://creatememori.blog/feed.xml">RSS 订阅</a></div>
+        <div><strong>热门分类</strong><a href="/c/web-motion.html">网页动效</a><a href="/c/ai-workflows.html">AI 实战</a><a href="/c/design-assets.html">设计素材</a><a href="/c/free-resources.html">免费资源</a><a href="/c/frontier.html">前沿追踪</a><a href="/c/video-creation.html">视频创作</a></div>
+        <div><strong>关于</strong><a href="https://github.com/creatememori/creatememori.github.io" target="_blank" rel="noopener noreferrer">GitHub 仓库</a><a href="/library.html#aboutHeading">关于资源库</a><a href="/library.html#allHead">全部条目</a></div>
+      </div>
+    </div>
+    <div class="foot-cats" aria-label="全部分类"><a href="/c/free-resources.html">免费资源</a><a href="/c/web-motion.html">网页动效</a><a href="/c/typography.html">排版网站</a><a href="/c/youtube-topics.html">YouTube 选题</a><a href="/c/frontend-ai.html">前端·AI</a><a href="/c/ai-workflows.html">AI 实战</a><a href="/c/tools.html">黑科技工具</a><a href="/c/video-creation.html">视频创作</a><a href="/c/sci-vis.html">科学可视化</a><a href="/c/learning.html">学习成长</a><a href="/c/design-assets.html">设计素材</a><a href="/c/frontier.html">前沿追踪</a></div>
+    <div class="foot-base"><span>© 2026 创忆录 · MEMORI ARCHIVE</span><span>数据来自资源库 · 分类页与更新日志由构建脚本生成</span></div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,20 +1,53 @@
-name: Site guard
+name: Build archive pages
 
 on:
   push:
     branches: [main]
   pull_request:
   workflow_dispatch:
+  schedule:
+    # 每天 08:15（北京时间）重建一次，刷新到期状态与“今天”相关页面
+    - cron: '15 0 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-pages-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  guard:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - name: Run site guard
+          node-version: 22
+
+      - name: Build derived pages
+        run: node scripts/build-seo.mjs
+
+      - name: Audit data
+        run: node scripts/audit-data.mjs
+
+      - name: Guard site
         run: node scripts/guard-site.mjs
+
+      - name: Commit generated pages
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "MEMORI Builder"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html library.html c updates feed.xml sitemap.xml robots.txt demo-data.js 404.html
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: rebuild archive pages [skip ci]"
+          git push

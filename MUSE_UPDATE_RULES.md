@@ -1,59 +1,48 @@
-# Muse 更新守则（硬约束）
+# Muse 更新守则（统一站点版）
 
-> 本文件是 `https://creatememori.github.io/` 的自动更新边界。Muse 或任何自动更新在修改 `index.html` 前必须先读本文件。违反以下任一条，`node scripts/guard-site.mjs` 会 FAIL，禁止推送。
+> 本文件约束 `https://creatememori.blog/` 的日常内容更新。Muse 或任何自动更新在改文件前必须先读本文件。
 >
-> `index.html` 内的 `MUSE:APPEND-ONLY` 标记是模板级提醒；不要删除或改写该标记。
+> 站点已合并：`index.html` 是介绍页，`library.html` 是资源库与**唯一事实源**；分类页、更新日志、每日页、RSS、sitemap 与 `demo-data.js` 都是构建产物，不要手改。
 
 ## 允许的动作
 
-1. **只追加**：在 `index.html` 的 `ITEMS` 数组顶部追加当天的新条目，保持现有 9 字段顺序：标题、分类、日期、时段、热度、状态、说明、链接、截止日。
-2. **同步追加**：在 `SUBCAT` 顶部为当天新标题追加子分类映射；没有新子分类时，不要重排整张表。
-3. **保留历史**：不删除、不改写已有条目；重复标题保留，并依赖页面自动加“跨类收录”标签。
-4. **新增日期/子分类**：允许因为当天数据新增日期或子分类，但不得把旧日期、旧子分类从数据里删掉。
-5. **静态 HTML 同步（2026-11-24 起，Bing SEO）**：`#viewRoot` 内含与 `ITEMS` 一一对应的静态 HTML 卡片（`<article class="card">`，标题带链接、说明、分类/日期/时段/热度/状态），供搜索引擎索引；JS 加载后 `render()` 会接管为交互视图。**每次追加条目后，必须同步更新静态 HTML**（重新生成全部卡片，或按相同顺序在顶部追加新卡片），保持卡片数与 `ITEMS` 条目数一致；`guard-site.mjs` 会校验两者数量。只改 `ITEMS` 不改静态 HTML 会导致新条目搜不到，视为未完成同步。
+1. **只追加数据**：在 `library.html` 的 `ITEMS` 顶部追加当天条目，保持 9 字段顺序：标题、分类、日期、时段、热度、状态、说明、链接、截止日。
+2. **同步子分类**：在 `library.html` 的 `SUBCAT` 顶部为新标题追加映射；没有新子分类时不要重排整张表。缺失时构建会回退到 `SUB_FALLBACK`，但显式映射更准确。
+3. **同步静态卡片**：`#viewRoot` 内是供搜索引擎和无 JS 环境读取的静态 HTML 卡片，数量必须与 `ITEMS` 一致。追加条目后，按相同顺序在顶部追加对应卡片；不要只改数据不改静态卡片。
+4. **重建派生页面**：每次数据变更后运行 `node scripts/build-seo.mjs`，由脚本重新生成 `c/`、`updates/`、`feed.xml`、`sitemap.xml`、`demo-data.js`、`404.html`，并刷新主题索引、范围标签与更新时间。
+5. **保留历史**：不删除、不改写已有条目；重复标题保留，页面会显示“跨类收录”。允许新增日期/子分类，不得把旧日期、旧子分类从数据里删掉。
+6. **内容局部修正**：可以修条目的标题、说明、链接、分类；不要借“优化”重写整页模板。
 
-## 静态 HTML 架构（2026-11-24，用户要求 Bing 能索引）
+## 静态 HTML 架构
 
-- 条目数据仍以 `ITEMS` JS 数组为唯一事实来源；静态 HTML 是它在构建时生成的快照，只读，不参与筛选/搜索/分页逻辑。
-- 静态卡片格式：`<article class="card"><h3><a href="链接">标题</a></h3><p>说明</p><p class="meta">分类 · 子分类 · 日期 · 时段 · 热度 · 状态（· 截止日）</p></article>`；无链接条目标题为纯文本。
-- 静态卡片内的状态/剩余天数按构建日换算（与运行时逻辑一致）；JS 加载后会按访问当天重新计算并渲染，静态快照不影响运行时正确性。
-- 体积上限：静态 HTML 使文件增至约 0.9MB，`guard-site.mjs` 的体积上限已放宽至 2MB；若文件逼近 2MB，需先做单源重构（静态 HTML 为唯一数据源、JS 改读 DOM）再继续追加，不要直接删静态 HTML。
-- 同步工具：`~/workspace/board-live/convert.py`（读暂存板导出、追加 ITEMS+SUBCAT、重生成静态 HTML、写出新 index.html）；每次同步后按 guard 逐项核对再推送。
+- `ITEMS` 是唯一事实来源；`#viewRoot` 静态卡片是发布快照，只读，不参与筛选/搜索/分页。
+- 卡片格式：`<article class="card"><h3><a href="链接">标题</a></h3><p>说明</p><p class="meta">分类 · 子分类 · 日期 · 时段 · 热度 · 状态（· 截止日）</p></article>`；无链接条目标题为纯文本。
+- 静态卡片里的状态与剩余天数按构建日换算；JS 加载后会按访问当天重算，静态快照不影响运行时正确性。
+- 文件体积上限 3 MB；当前约 1.25 MB。接近上限时先讨论架构，不要直接删静态卡片。
 
 ## 绝对不要做
 
-- 不要整份重写 `index.html`，不要“重构”“统一格式”“精简模板”“重排代码”。
-- 不要改 `<head>` 的 title、description、canonical、OG/Twitter、JSON-LD、robots、theme-color、favicon。
-- 不要把 `var TODAY=new Date(); TODAY.setHours(0,0,0,0);` 改成固定日期（例如 `new Date(2026,10,23)`）。
-- 不要改日期筛选、日历“今天”、统计图柱和状态派生逻辑；它们必须运行时按访问当天计算。
+- 不要整份重写 `library.html` 或 `index.html`，不要“重构”“统一格式”“精简模板”“重排代码”。
+- 不要把分类页、每日页、`feed.xml`、`sitemap.xml` 当成源文件手改；它们会被下一次构建覆盖。
+- 不要改 canonical 到 `creatememori.github.io`，不要再引入第二个规范域。唯一 canonical 是 `https://creatememori.blog/`。
+- 不要删除 `index.html` 的介绍页定位、`library.html` 的资源库定位、分类页、更新日志、RSS、sitemap、404、CNAME 或 `.nojekyll`。
+- 不要把 `var TODAY=new Date(); TODAY.setHours(0,0,0,0);` 改成固定日期；日期筛选、日历“今天”、到期状态必须运行时计算。
 - 不要把 `memori-dimensions.css` / `memori-dimensions.js` 内联成 `data:` 或 base64；不要移除外部 CSS/JS 引用。
-- 不要删除“关于这个看板”、FAQ、12 类范围、介绍站回链、skip link、筛选面板焦点管理、aria 属性、`scroll-margin-top`。
-- 不要改 12 个一级分类、内容类型/使用场景/角色三维筛选、黑白极简 + 粉色强调的视觉。
-- 不要替换 `logo.png`、`og-cover.png`、`robots.txt`、`sitemap.xml`、IndexNow key 的语义；更新 sitemap 时只改 `lastmod`，不要删 URL。
-- 不要把 706 条历史数据整体替换成“当天 20 条”；只追加，不覆盖。
-- 不要删除 `#viewRoot` 内的静态 HTML 卡片（Bing SEO 依赖它）；不要把静态卡片改回空容器。
-
-## 关键词：允许与禁止
-
-允许词：`追加`、`append`、`ITEMS.unshift`、`SUBCAT`、`当天条目`、`数据巡检`、`guard`。
-
-禁止词：`重写`、`重构`、`统一`、`整理全页`、`精简`、`优化模板`、`inline`、`base64`、`data URI`、`固定日期`、`日期基准改为`、`删除关于`、`移除 FAQ`、`替换 head`、`合并 CSS`、`全量替换 ITEMS`。
-
-判断口径：
-
-- “优化”只允许指条目的文案、链接、分类局部修正，不允许指模板、head、CSS/JS、日期逻辑。
-- “统一日期”是危险词；日期由 `TODAY` 和 `DATE_LIST` 运行时生成，不做全局替换。
-- “精简”是危险词；页面注释、空行、无障碍属性、静态介绍都应保留。
+- 不要删除关于、FAQ、12 类范围、skip link、筛选面板焦点管理、aria 属性、`scroll-margin-top`。
+- 不要改 12 个一级分类；新增分类需要同时补 `CATEGORY_META`、导航和 guard，属于结构性变更，先讨论。
+- 不要替换 `logo.png`、`logo-light.png`、`og-cover.png`、`robots.txt`、IndexNow key 的语义。
+- 不要把历史数据整体替换成“当天 20 条”；只追加，不覆盖。
 
 ## 提交前门禁
 
 ```bash
-node scripts/guard-site.mjs
+node scripts/build-seo.mjs
 node scripts/audit-data.mjs
+node scripts/guard-site.mjs
 ```
 
-`guard-site.mjs` 必须输出 `PASS`；若 FAIL，按提示恢复，不要强行提交。
+`guard-site.mjs` 必须输出 `PASS`；CI 也会在 push / PR 时跑同样的构建与门禁。若 FAIL，按提示修正，不要强行提交。
 
 ## 可直接贴给 Muse 的短提示
 
-> 只追加：在 `ITEMS` 顶部追加当天条目，并同步 `SUBCAT`，同时同步更新 `#viewRoot` 内的静态 HTML 卡片（卡片数须与 ITEMS 一致）。不要重写/重构/精简/统一/内联模板；不要改 head、SEO、JSON-LD、TODAY、日期状态逻辑、关于/FAQ、CSS/JS、无障碍与移动端规则；不要删静态 HTML 卡片。保留 12 分类、三维筛选、黑白极简 + 粉色强调。提交前必须运行 `node scripts/guard-site.mjs`，PASS 才能推送。
+> 只追加：在 `library.html` 的 `ITEMS` 顶部追加当天条目，同步 `SUBCAT`，并在 `#viewRoot` 顶部追加同序静态卡片（卡片数须与 ITEMS 一致）。然后运行 `node scripts/build-seo.mjs && node scripts/audit-data.mjs && node scripts/guard-site.mjs`。不要重写模板、不要手改生成页、不要把 canonical 改回 github.io、不要固定 TODAY、不要删介绍页/分类页/更新日志/RSS。

@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="创忆录网页动效分类收录 102 条 CSS 动画、滚动叙事、SVG、Canvas 与 WebGL 实验；优先保留能拆结构、能看源码、能落到项目里的案例。">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0C0B11">
+<link rel="canonical" href="https://creatememori.blog/c/web-motion.html">
+<link rel="icon" href="/logo.png">
+<link rel="apple-touch-icon" href="/logo.png">
+<link rel="alternate" type="application/rss+xml" title="创忆录更新日志" href="https://creatememori.blog/feed.xml">
+<link rel="stylesheet" href="/seo.css">
+<title>网页动效｜102 条 CSS、滚动叙事与 WebGL 交互灵感 · 创忆录</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="创忆录 MEMORI">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="网页动效｜102 条 CSS、滚动叙事与 WebGL 交互灵感 · 创忆录">
+<meta property="og:description" content="创忆录网页动效分类收录 102 条 CSS 动画、滚动叙事、SVG、Canvas 与 WebGL 实验；优先保留能拆结构、能看源码、能落到项目里的案例。">
+<meta property="og:url" content="https://creatememori.blog/c/web-motion.html">
+<meta property="og:image" content="https://creatememori.blog/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="创忆录 MEMORI：免费资源、AI 工具与设计灵感库">
+<meta property="article:modified_time" content="2026-11-26T12:00:00+08:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="网页动效｜102 条 CSS、滚动叙事与 WebGL 交互灵感 · 创忆录">
+<meta name="twitter:description" content="创忆录网页动效分类收录 102 条 CSS 动画、滚动叙事、SVG、Canvas 与 WebGL 实验；优先保留能拆结构、能看源码、能落到项目里的案例。">
+<meta name="twitter:image" content="https://creatememori.blog/og-cover.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://creatememori.blog/#organization","name":"创忆录 MEMORI","alternateName":"创忆录","url":"https://creatememori.blog/","logo":{"@type":"ImageObject","url":"https://creatememori.blog/logo.png","width":128,"height":128},"sameAs":["https://github.com/creatememori/creatememori.github.io"]},{"@type":"WebSite","@id":"https://creatememori.blog/#website","url":"https://creatememori.blog/","name":"创忆录 MEMORI","alternateName":"创忆录","inLanguage":"zh-CN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://creatememori.blog/library.html?q={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://creatememori.blog/#organization"}},{"@type":"CollectionPage","@id":"https://creatememori.blog/c/web-motion.html#webpage","url":"https://creatememori.blog/c/web-motion.html","name":"网页动效｜102 条 CSS、滚动叙事与 WebGL 交互灵感 · 创忆录","description":"创忆录网页动效分类收录 102 条 CSS 动画、滚动叙事、SVG、Canvas 与 WebGL 实验；优先保留能拆结构、能看源码、能落到项目里的案例。","isPartOf":{"@id":"https://creatememori.blog/#website"},"inLanguage":"zh-CN","dateModified":"2026-11-26T12:00:00+08:00","primaryImageOfPage":{"@type":"ImageObject","url":"https://creatememori.blog/og-cover.png","width":1200,"height":630},"about":[{"@type":"Thing","name":"网页动效"},{"@type":"Thing","name":"其他动效"},{"@type":"Thing","name":"动效库与组件"},{"@type":"Thing","name":"WebGPU 实验"},{"@type":"Thing","name":"Three.js / WebGPU 场景"},{"@type":"Thing","name":"动画与演示工具"},{"@type":"Thing","name":"互动游戏"}],"mainEntity":{"@id":"https://creatememori.blog/c/web-motion.html#items"},"isAccessibleForFree":true},{"@type":"ItemList","@id":"https://creatememori.blog/c/web-motion.html#items","name":"网页动效资源列表","numberOfItems":102,"itemListOrder":"https://schema.org/ItemListOrderDescending","itemListElement":[{"@type":"ListItem","position":1,"name":"motion-prompt——264 个动效与镜头运镜的名字词典：每个名字都附一段会动的样品","url":"https://creatememori.blog/c/web-motion.html#i-8648b97523"},{"@type":"ListItem","position":2,"name":"Pixel Worlds——6 个控件里各住一个像素小世界：输密码筑城堡，按住删除键有龙喷火","url":"https://creatememori.blog/c/web-motion.html#i-ac86f17fa9"},{"@type":"ListItem","position":3,"name":"NERV-UI——EVA 指挥中心风的 React 组件库：48 个组件，仪表盘一秒变 MAGI 作战室","url":"https://creatememori.blog/c/web-motion.html#i-6aece8429e"},{"@type":"ListItem","position":4,"name":"Sochen Motion——动漫风动效库：速度线、冲击帧、标题砸场，全部可逐帧 scrub","url":"https://creatememori.blog/c/web-motion.html#i-7ef09e656d"},{"@type":"ListItem","position":5,"name":"mrdoob Codevember 2026——Three.js 作者每天一个 WebGPU 实验：30 天画廊已上线 17 天","url":"https://creatememori.blog/c/web-motion.html#i-4c44da977b"},{"@type":"ListItem","position":6,"name":"Bang Motion——把编程助手变成动效设计师的 Agent 技能：开口、动效排版、解说片","url":"https://creatememori.blog/c/web-motion.html#i-327fe8ead8"},{"@type":"ListItem","position":7,"name":"NVIDIA MotionBricks——实时生成角色动作的开源模型：15000 FPS、2 毫秒延迟","url":"https://creatememori.blog/c/web-motion.html#i-c44fad6373"},{"@type":"ListItem","position":8,"name":"Freeze Out——浏览器里免费打的第一人称 4v4 雪球大战","url":"https://creatememori.blog/c/web-motion.html#i-cff063a3b6"},{"@type":"ListItem","position":9,"name":"data-anim——不用写一行 JS，给 HTML 加 data 属性就有动效","url":"https://creatememori.blog/c/web-motion.html#i-7cd96f6d75"},{"@type":"ListItem","position":10,"name":"Ding——会“变形”的 Toast 通知库","url":"https://creatememori.blog/c/web-motion.html#i-1498a547ec"},{"@type":"ListItem","position":11,"name":"Wanim——把 3Blue1Brown 的 Manim 动画直接搬进浏览器跑","url":"https://creatememori.blog/c/web-motion.html#i-79be6002d7"},{"@type":"ListItem","position":12,"name":"Rubber Hose UI——11 个控件全是 1930 年代卡通角色：点按钮会被揍出星星","url":"https://creatememori.blog/c/web-motion.html#i-c310f47b62"},{"@type":"ListItem","position":13,"name":"Night Nabbers——扮浣熊夜里偷蛋的免费 3D 潜行游戏：16 人同街联机","url":"https://creatememori.blog/c/web-motion.html#i-4af522d356"},{"@type":"ListItem","position":14,"name":"Ink Studio——像素风高斯泼溅工具箱：捏模型、做木偶动画、跑物理","url":"https://creatememori.blog/c/web-motion.html#i-9f0832fe50"},{"@type":"ListItem","position":15,"name":"NeuralSpecOcean——浏览器里的物理海洋模拟：三层光谱波浪 + GPU 浅水求解器","url":"https://creatememori.blog/c/web-motion.html#i-8ea6fa0d89"},{"@type":"ListItem","position":16,"name":"TheMark Studio——浏览器里给产品贴牌的免费 3D 工作室","url":"https://creatememori.blog/c/web-motion.html#i-683def6b83"},{"@type":"ListItem","position":17,"name":"WindTwin——浏览器里的风电场数字孪生：点一台风机走完维修全流程","url":"https://creatememori.blog/c/web-motion.html#i-f484b2d040"},{"@type":"ListItem","position":18,"name":"SHAKY v2.0——怀旧 Flash 风的 3D WebGL 游乐场","url":"https://creatememori.blog/c/web-motion.html#i-e3078483af"},{"@type":"ListItem","position":19,"name":"Dardo——飞镖把一行字钉在布上的工作室官网","url":"https://creatememori.blog/c/web-motion.html#i-4f93f4825e"},{"@type":"ListItem","position":20,"name":"Revideo——用 TypeScript 写 2D 动效视频的开源框架","url":"https://creatememori.blog/c/web-motion.html#i-f53a0bddb4"},{"@type":"ListItem","position":21,"name":"Mathias Adolfsson 2026——弧形轮播 + 酒桶画廊，整个作品集是一个会呼吸的 WebGPU 场景","url":"https://creatememori.blog/c/web-motion.html#i-210ff23f50"},{"@type":"ListItem","position":22,"name":"three-fluid-fx——给 Three.js 加流体动效的即插即用求解器：鼠标拖出墨迹、烟雾与霓虹","url":"https://creatememori.blog/c/web-motion.html#i-4c1b2512de"},{"@type":"ListItem","position":23,"name":"Motion Canvas——用 TypeScript 生成器写动画：3Blue1Brown 风格讲解动画的开源利器","url":"https://creatememori.blog/c/web-motion.html#i-bfc08ec4ca"},{"@type":"ListItem","position":24,"name":"Lampjack——浏览器里的 VJ 打碟台","url":"https://creatememori.blog/c/web-motion.html#i-993abc5327"}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://creatememori.blog/"},{"@type":"ListItem","position":2,"name":"资源库","item":"https://creatememori.blog/library.html"},{"@type":"ListItem","position":3,"name":"网页动效","item":"https://creatememori.blog/c/web-motion.html"}]}]}</script>
+</head>
+<body style="--accent:#3D7BFF">
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="site-head">
+  <div class="shell head-in">
+    <a class="brand" href="/" aria-label="创忆录首页">
+      <img src="/logo.png" alt="创忆录标志" width="30" height="30">
+      <span><strong>创忆录</strong><small>MEMORI ARCHIVE</small></span>
+    </a>
+    <nav class="site-nav" aria-label="页面导航">
+      <a href="/library.html">资源库</a>
+      <a href="/c/">分类</a>
+      <a href="/updates/">更新日志</a>
+    </nav>
+    <a class="head-cta" href="/library.html">进入资源库 <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main id="main"><div class="shell">
+<nav class="breadcrumbs" aria-label="面包屑"><a href="/">首页</a><span aria-hidden="true">/</span><a href="/library.html">资源库</a><span aria-hidden="true">/</span><a href="/c/web-motion.html">网页动效</a></nav>
+<section class="page-hero">
+  <span class="kicker">WEB MOTION</span>
+  <h1>网页动效｜102 条可复用的交互、滚动与 WebGL 灵感</h1>
+  <p class="lede">CSS、滚动叙事、SVG、Canvas 与 WebGL 的交互实验，优先收能拆结构、能看源码、能落到项目里的。</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><strong>102</strong><span>条收录</span></div>
+    <div class="hero-stat"><strong>10</strong><span>个在用子分类</span></div>
+    <div class="hero-stat"><strong>11-26</strong><span>最近收录</span></div>
+    <div class="hero-stat"><strong>11-16 → 11-26</strong><span>数据范围</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-head"><h2>这个分类在收什么</h2></div>
+  <div class="prose"><p>网页动效很容易停在“看起来很酷”。这个分类更关心另一件事：它能不能被拆成结构、看懂实现、放进自己的页面。包括 CSS 动画、滚动叙事、Three.js/WebGL、SVG 路径、Canvas 粒子与交互装置。</p><p>适合前端、设计与创意开发一起看。先看性能与移动端降级，再决定要不要抄；商用前确认素材、字体与代码许可，别把演示当成可直接上线的成品。</p></div>
+  <div class="subcloud" aria-label="子分类分布"><span>其他动效 <b>33</b></span><span>动效库与组件 <b>16</b></span><span>WebGPU 实验 <b>13</b></span><span>Three.js / WebGPU 场景 <b>10</b></span><span>动画与演示工具 <b>4</b></span><span>互动游戏 <b>4</b></span><span>沉浸式个人站 <b>3</b></span><span>粒子与交互艺术 <b>3</b></span><span>神经渲染实验 <b>2</b></span><span>在线实验室与模拟器 <b>2</b></span></div>
+  <div class="note-list"><div class="note-item"><b>01</b><span>先看移动端降级、性能和减少动态效果设置</span></div><div class="note-item"><b>02</b><span>把视觉拆成层级、时间轴与触发条件，再谈复刻</span></div><div class="note-item"><b>03</b><span>商用前核对代码、字体、模型与素材授权</span></div></div>
+</section>
+<section class="section">
+  <div class="section-head"><h2>最新收录</h2><p class="note"><a href="/library.html#allHead">去资源库筛选 ↗</a></p></div>
+  <div class="latest-list"><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://github.com/showheyohtaki/motion-prompt" target="_blank" rel="noopener noreferrer">motion-prompt——264 个动效与镜头运镜的名字词典：每个名字都附一段会动的样品</a><span>网页动效</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://github.com/finktheartist/pixel-worlds" target="_blank" rel="noopener noreferrer">Pixel Worlds——6 个控件里各住一个像素小世界：输密码筑城堡，按住删除键有龙喷火</a><span>网页动效</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://mdrbx.github.io/nerv-ui/" target="_blank" rel="noopener noreferrer">NERV-UI——EVA 指挥中心风的 React 组件库：48 个组件，仪表盘一秒变 MAGI 作战室</a><span>网页动效</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://sochen.dev/motion" target="_blank" rel="noopener noreferrer">Sochen Motion——动漫风动效库：速度线、冲击帧、标题砸场，全部可逐帧 scrub</a><span>网页动效</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://mrdoob.github.io/codevember-2026/" target="_blank" rel="noopener noreferrer">mrdoob Codevember 2026——Three.js 作者每天一个 WebGPU 实验：30 天画廊已上线 17 天</a><span>网页动效</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://github.com/bangtutorial/bang-motion" target="_blank" rel="noopener noreferrer">Bang Motion——把编程助手变成动效设计师的 Agent 技能：开口、动效排版、解说片</a><span>网页动效</span></div><div class="latest-row"><time datetime="2026-11-26">11-26</time><a href="https://nvlabs.github.io/motionbricks/" target="_blank" rel="noopener noreferrer">NVIDIA MotionBricks——实时生成角色动作的开源模型：15000 FPS、2 毫秒延迟</a><span>网页动效</span></div><div class="latest-row"><time datetime="2026-11-25">11-25</time><a href="https://newkrok.com/gamer-zone/freeze-out" target="_blank" rel="noopener noreferrer">Freeze Out——浏览器里免费打的第一人称 4v4 雪球大战</a><span>网页动效</span></div></div>
+</section>
+<section class="section">
+  <div class="section-head"><h2>全部条目</h2><p class="note">共 102 条 · 按日期从新到旧</p></div>
+  <div class="item-grid"><article class="item-card" id="i-8648b97523">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动画与演示工具</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://github.com/showheyohtaki/motion-prompt" target="_blank" rel="noopener noreferrer">motion-prompt——264 个动效与镜头运镜的名字词典：每个名字都附一段会动的样品</a></h3>
+  <p>10 月 14 日建库：264 个动效、运镜、UI 与网页特效的名字做成词典，每个名字配一段会动的样品、一句话释义与向 AI 提问的例句；中英日西繁五种语言对照，装上 Agent 技能后在图库里点选样品就能直接发给 AI 照做。注意：2,5…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/showheyohtaki/motion-prompt" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-ac86f17fa9">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://github.com/finktheartist/pixel-worlds" target="_blank" rel="noopener noreferrer">Pixel Worlds——6 个控件里各住一个像素小世界：输密码筑城堡，按住删除键有龙喷火</a></h3>
+  <p>11 月 10 日发布：Sakuga VFX 与 Rubber Hose UI 同作者的新作，6 个普通控件里各住一个用代码画出的像素小世界——输密码时城堡随密码强度长高，按住删除键有龙喷火，Agent 状态行是一位正在思考的巫师；零依赖、…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/finktheartist/pixel-worlds" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-6aece8429e">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://mdrbx.github.io/nerv-ui/" target="_blank" rel="noopener noreferrer">NERV-UI——EVA 指挥中心风的 React 组件库：48 个组件，仪表盘一秒变 MAGI 作战室</a></h3>
+  <p>EVA 新世纪福音战士 MAGI 指挥中心风的 React 组件库：48 个组件、18 个示例页，扫描线、闪烁与仪表盘一应俱全，装上就是指挥室；npm 包 @mdrbx/nerv-ui 1.0.8，MIT 开源。注意：非官方授权的同人风格，…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://mdrbx.github.io/nerv-ui/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-7ef09e656d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://sochen.dev/motion" target="_blank" rel="noopener noreferrer">Sochen Motion——动漫风动效库：速度线、冲击帧、标题砸场，全部可逐帧 scrub</a></h3>
+  <p>动漫风动效库：速度线、冲击帧、快切闪光、抖动天空、胶片颗粒、飘落纸片与动感文字共 8 种效果，纯 TypeScript 零依赖；每帧只取决于时间、参数与种子，可逐帧 scrub、倒放，网页上调好的效果逐帧导出视频一模一样；在线 Playgr…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://sochen.dev/motion" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4c44da977b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://mrdoob.github.io/codevember-2026/" target="_blank" rel="noopener noreferrer">mrdoob Codevember 2026——Three.js 作者每天一个 WebGPU 实验：30 天画廊已上线 17 天</a></h3>
+  <p>Three.js 作者 Ricardo Cabello 的 11 月每日实验：每天按一个词做一个 WebGPU 创意编程小品，画廊已上线 17 天（折叠、破碎、熔化、星盘、苔藓、锈蚀、海带……），点开即玩，源码 MIT 开源。注意：需支持 …</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://mrdoob.github.io/codevember-2026/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-327fe8ead8">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动画与演示工具</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://github.com/bangtutorial/bang-motion" target="_blank" rel="noopener noreferrer">Bang Motion——把编程助手变成动效设计师的 Agent 技能：开口、动效排版、解说片</a></h3>
+  <p>开源 Agent 技能（MIT，约 3000 星）：装进 Claude Code、Codex、Gemini CLI 或 Cursor 后，一句话就能让 Agent 做出 15–120 秒的浏览器动态图形——产品开口、SaaS 演示、动效排版…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/bangtutorial/bang-motion" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-c44fad6373">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">神经渲染实验</span></div><time datetime="2026-11-26">11-26</time></div>
+  <h3><a href="https://nvlabs.github.io/motionbricks/" target="_blank" rel="noopener noreferrer">NVIDIA MotionBricks——实时生成角色动作的开源模型：15000 FPS、2 毫秒延迟</a></h3>
+  <p>NVIDIA 的 SIGGRAPH 2026 实时动作生成模型：35 万段动捕训练出的单一网络，以约 15000 FPS、2 毫秒延迟连续生成走、跑、跳、坐、翻越等动作；Smart Primitives 像搭积木一样拼导航与互动，无需重训；…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://nvlabs.github.io/motionbricks/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-cff063a3b6">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">Three.js / WebGPU 场景</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://newkrok.com/gamer-zone/freeze-out" target="_blank" rel="noopener noreferrer">Freeze Out——浏览器里免费打的第一人称 4v4 雪球大战</a></h3>
+  <p>浏览器里免费打的第一人称 4v4 雪球大战：雪球按真实抛物线飞，轻点速发、按住蓄力打更远，爆头算双倍、三中变冰块；深冻、占山头、拉雪橇三种模式 × 8 张冬日地图，手机、键盘、手柄都能玩，免下载免注册。注意：three.js WebGPU …</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://newkrok.com/gamer-zone/freeze-out" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-7cd96f6d75">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://ryo-manba.github.io/data-anim/" target="_blank" rel="noopener noreferrer">data-anim——不用写一行 JS，给 HTML 加 data 属性就有动效</a></h3>
+  <p>不用写一行 JS，给 HTML 加 data 属性就有动效：30 多种内置动画（淡入、滑动、缩放、弹跳等），滚动、加载、点击、悬停四种触发，不到 3KB、零依赖，还自带防闪烁与减动效支持。注意：Show HN 新库，附在线演练场。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://ryo-manba.github.io/data-anim/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-1498a547ec">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://ding.yusufcengiz.dev" target="_blank" rel="noopener noreferrer">Ding——会“变形”的 Toast 通知库</a></h3>
+  <p>会“变形”的 Toast 通知库：新通知不是往上叠，而是用弹簧物理在原地把上一条“变”成下一条，中断动画也能保持动量；React、Svelte 5、Vue 3 与原生 JS 都能用，零依赖、MIT 开源。注意：11 月 23 日 Show …</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://ding.yusufcengiz.dev" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-79be6002d7">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://wanim.org/playground" target="_blank" rel="noopener noreferrer">Wanim——把 3Blue1Brown 的 Manim 动画直接搬进浏览器跑</a></h3>
+  <p>把 3Blue1Brown 的 Manim 动画直接搬进浏览器跑：不用装 Pyodide、包体小 20 倍，Python 代码几乎不用改就能在线跑，还能给动画加滑杆、开关让读者自己拨着玩，分享出去就是可交互的链接。注意：目前只支持 Mani…</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://wanim.org/playground" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-c310f47b62">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://github.com/finktheartist/rubber-hose-ui" target="_blank" rel="noopener noreferrer">Rubber Hose UI——11 个控件全是 1930 年代卡通角色：点按钮会被揍出星星</a></h3>
+  <p>11 个普通表单控件画成 1930 年代橡皮管卡通角色：按钮是个红圆顶，被按会挨一拳冒星星、变黑眼圈；滑杆是长号，拉快了会吹出 TOOT!；每个控件都是零依赖的单个文件，底层仍是真实表单控件，支持键盘与无障碍；MIT 开源，npx shad…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/finktheartist/rubber-hose-ui" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4af522d356">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">Three.js / WebGPU 场景</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://nightnabbers.com" target="_blank" rel="noopener noreferrer">Night Nabbers——扮浣熊夜里偷蛋的免费 3D 潜行游戏：16 人同街联机</a></h3>
+  <p>浏览器里免费玩的 3D 潜行偷窃游戏：扮浣熊躲过巡逻的狗与探照灯，偷走门廊上的蛋、带回巢穴孵出 90 种“垃圾小伙伴”；6 种模式、20 个浣熊英雄，支持 16 人同街联机或单人打 Bot；three.js WebGL2，手机也能玩，免下载…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://nightnabbers.com" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-9f0832fe50">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://github.com/siliconjungle/shapeshift-labs-ink-studio" target="_blank" rel="noopener noreferrer">Ink Studio——像素风高斯泼溅工具箱：捏模型、做木偶动画、跑物理</a></h3>
+  <p>像素风高斯泼溅创作工具箱：用 SDF 雕刻实体再烘成像素风泼溅，内置木偶动画系统、粒子与物理模拟，场景可写成 JS 或 JSON；浏览器里 WebGL2 实时渲染，也能在 Node 里离线出图，还能导出 GLB；MIT 开源，11 月 16…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/siliconjungle/shapeshift-labs-ink-studio" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-8ea6fa0d89">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">在线实验室与模拟器</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://bgbg108555.github.io/NeuralSpecOcean/" target="_blank" rel="noopener noreferrer">NeuralSpecOcean——浏览器里的物理海洋模拟：三层光谱波浪 + GPU 浅水求解器</a></h3>
+  <p>three.js 论坛 11 月新帖：三层光谱波浪叠加 512×256 GPU 浅水求解器，近岸涌浪、泡沫回流、水下折射与焦散全是实时 GLSL，连物理神经网络都在浏览器里现训现用；MIT 开源，附源码、白皮书与 2.14MB 单文件离线版…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://bgbg108555.github.io/NeuralSpecOcean/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-683def6b83">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">Three.js / WebGPU 场景</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://themarkstudio.online/" target="_blank" rel="noopener noreferrer">TheMark Studio——浏览器里给产品贴牌的免费 3D 工作室</a></h3>
+  <p>咖啡杯、包装盒、易拉罐、箱式货车等现成 3D 样机，贴上自己的 Logo、颜色与文字，直接导出 4K PNG 或 .glb，也能导入自己的 .glb 模型；React + Three.js，全程本地运行、不用注册、不用上传。注意：FBX/O…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://themarkstudio.online/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f484b2d040">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">在线实验室与模拟器</span></div><time datetime="2026-11-25">11-25</time></div>
+  <h3><a href="https://windtwin.nourtin.com/" target="_blank" rel="noopener noreferrer">WindTwin——浏览器里的风电场数字孪生：点一台风机走完维修全流程</a></h3>
+  <p>three.js 论坛新作：点一台风机看模拟故障，跟着工单走完「告警→派单→维修车开过去→修复恢复」全流程，还能展开到 750 台风机的整场视图，带实时图表与运营中心；Three.js + TypeScript + Vite。注意：演示原型…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://windtwin.nourtin.com/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-e3078483af">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">互动游戏</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://myshaky.com" target="_blank" rel="noopener noreferrer">SHAKY v2.0——怀旧 Flash 风的 3D WebGL 游乐场</a></h3>
+  <p>10 多个原创小游戏与互动玩具串在一个传送门里，滚动会穿过 GSAP 驱动的荣誉漩涡，还有按生日算的 366 色能量占卜；Three.js + 自定义 GLSL + Web Audio，手机也能玩。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://myshaky.com" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4f93f4825e">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">Three.js / WebGPU 场景</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://dardo.studio/" target="_blank" rel="noopener noreferrer">Dardo——飞镖把一行字钉在布上的工作室官网</a></h3>
+  <p>开场一支飞镖飞进靶心，滚动时飞镖继续飞，把“good design has a point”钉到一块 three.js 布料模拟的布上，落点还会绽开小破洞；站内另有 960 种组合的模块化置物架 3D 配置器，不下载任何模型文件、配置可导出…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://dardo.studio/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f53a0bddb4">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动画与演示工具</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/midrender/revideo" target="_blank" rel="noopener noreferrer">Revideo——用 TypeScript 写 2D 动效视频的开源框架</a></h3>
+  <p>Motion Canvas 的 fork，改成可当库用的渲染引擎，场景就是普通 TS 生成器函数，带无头渲染 API 与浏览器实时预览组件，适合批量生成视频；MIT 协议，约 4200 星。注意：2025 年中后维护放缓，适合实验与内部工具…</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/midrender/revideo" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-210ff23f50">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://mathiasadolfsson.dev/" target="_blank" rel="noopener noreferrer">Mathias Adolfsson 2026——弧形轮播 + 酒桶画廊，整个作品集是一个会呼吸的 WebGPU 场景</a></h3>
+  <p>Codrops 11 月 5 日文章：作品集全站只有一个全屏 WebGPU 场景，项目排在 180 度椭圆弧上，点开后同一块网格从弧线展平成案例页背景；案例里的画廊是竖向无限列，滚快了会弯成酒桶。Nuxt + Three.js WebGPU…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://mathiasadolfsson.dev/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4c1b2512de">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://three-fluid-fx.artcreativecode.com/" target="_blank" rel="noopener noreferrer">three-fluid-fx——给 Three.js 加流体动效的即插即用求解器：鼠标拖出墨迹、烟雾与霓虹</a></h3>
+  <p>Artem Korenevych 的即插即用 2D 流体求解器：鼠标拖动就能在现有 Three.js 场景上画彩色墨迹、烟雾与霓虹轨迹，还能把流体当遮罩揭示底层图片、或让速度场扭曲画面，带 GPGPU 粒子；WebGL/GLSL 与 Web…</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://three-fluid-fx.artcreativecode.com/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-bfc08ec4ca">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动画与演示工具</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://github.com/motion-canvas/motion-canvas" target="_blank" rel="noopener noreferrer">Motion Canvas——用 TypeScript 生成器写动画：3Blue1Brown 风格讲解动画的开源利器</a></h3>
+  <p>用 TypeScript 生成器写动画的 2D 动效库，配实时预览编辑器，专做信息类矢量动画并与配音对齐，3Blue1Brown 风格讲解视频的平替工具链；MIT 开源、2 万星。注意：2022 年的老库，11 月 17 日再登 GitHu…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/motion-canvas/motion-canvas" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-993abc5327">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://lampjack.app/" target="_blank" rel="noopener noreferrer">Lampjack——浏览器里的 VJ 打碟台</a></h3>
+  <p>43 个 WGSL shader 场景全由 WebGPU 实时生成，没有现成视频循环；低音、节拍、能量能像接线一样任意接到推、色相、速度等参数上，还能自动跟音乐切场景、最多带 4 路输出。注意：免费版每天 10 分钟（注册后 20 分钟），…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://lampjack.app/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-5f8d4b84f4">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://palindrome-of-a-fall.vercel.app/" target="_blank" rel="noopener noreferrer">Palindrome of a Fall——往下滚是坠落、往上滚是飞翔的互动 WebGL 倒叙诗</a></h3>
+  <p>同一首诗顺读是崩塌、倒读是飞升，3.8 万点粒子云随滚动散开下沉，触底后配色从冷青翻成鎏金、人物长出翅膀；GSAP + Lenis + 自定义 GLSL，源码开源。</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://palindrome-of-a-fall.vercel.app/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-2a57cf2b4d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://www.prodiam.co.za/oldest/" target="_blank" rel="noopener noreferrer">Deep-Time Diamond——一颗钻石 30 亿年的滚动编年史</a></h3>
+  <p>从地幔深处到切割台，同一网格用 morph target 从原石变切磨好的圆钻，折射率 2.42 的物理材质实时算出火彩；GSAP 时间线 + Lenis，源码 MIT 开源可直接改成自己的滚动故事。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.prodiam.co.za/oldest/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-eac4581e74">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-24">11-24</time></div>
+  <h3><a href="https://rhyflitzer.freaxnx01.ch/" target="_blank" rel="noopener noreferrer">Rhyflitzer——在真实瑞士小镇里开车的浏览器赛车游戏</a></h3>
+  <p>OpenStreetMap 的道路建筑 + swisstopo 真实地形，20 辆车、漂移氮气、5 种镜头，还能下车走路、进楼坐电梯、开直升机和蒸汽火车；纯 three.js + 原生 JS、无构建步骤。</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://rhyflitzer.freaxnx01.ch/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-72ed3ad156">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://github.com/alchaincyf/huashu-art-motion" target="_blank" rel="noopener noreferrer">huashu-art-motion——用代码让画动起来的艺术动画 Skill</a></h3>
+  <p>36 种艺术风格 × 9 种解说语法：交给 Claude、Codex 等 Agent，一句口播就能用代码画出梵高、莫奈、8-bit 等风格的动画，带拆解、配乐与成片验收脚本；MIT 开源，7.5k stars。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/alchaincyf/huashu-art-motion" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-e1cdee0545">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://ourspecialworld.com" target="_blank" rel="noopener noreferrer">Our Special World——开车穿过挂满照片的 3D 小城</a></h3>
+  <p>最多 20 张照片挂在小城的大屏幕上，配着音乐开车逛过去，也可一键自动导览；整座城连播放器打进一个 HTML 文件。注意：示例小城免费，定制自己的照片世界一次 £14.99。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://ourspecialworld.com" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-6e44382b15">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://musicvisualizer.co/" target="_blank" rel="noopener noreferrer">Music Visualizer——10 种随音乐起舞的可视化风格</a></h3>
+  <p>浏览器里的音乐可视化：10 种音频反应风格，本地音频、麦克风或系统声音都能接，低音、中音、高音分别驱动画面；液态玻璃那款用了 Three.js 全屏 GLSL。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://musicvisualizer.co/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-24e3bc35b2">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://frustum.me/play/stovetop/" target="_blank" rel="noopener noreferrer">Stovetop——浏览器里真能做饭的 3D 厨房</a></h3>
+  <p>Three.js 做的小型烹饪游戏：燃气灶加食谱，爆米花、煎蛋、煎饼、意面、牛排五道菜，火候、油、水、火焰实时模拟，没人告诉你步骤，烧糊甚至点着油都由你。注意：首次加载约 22MB。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://frustum.me/play/stovetop/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-526c31379a">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://open.solomotion.app" target="_blank" rel="noopener noreferrer">SoloMotion——浏览器里就能用的开源动效工作室</a></h3>
+  <p>时间轴、关键帧、贝塞尔曲线、运动路径全套，导出 MP4/WebM/GIF/Lottie/PDF/PNG；2026-11-22 刚开源（AGPL-3.0），免登录打开就能做。源码：github.com/solocreates/solomoti…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://open.solomotion.app" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-8c6522e360">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://arnav2deopura-blip.github.io/Orbital-Mechnaics-Sandbox/#/" target="_blank" rel="noopener noreferrer">Orbital Mechanics Sandbox——浏览器里的引力 N 体轨道沙盒</a></h3>
+  <p>三颗天体沿 8 字形轨道互相追逐，6 种积分方法（Leapfrog、RK4、Wisdom-Holman、IAS15、Euler、Symplectic Euler）可切换对比，预设拉格朗日等边、毕达哥拉斯三体、蝴蝶 I/II/III 等十几种…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://arnav2deopura-blip.github.io/Orbital-Mechnaics-Sandbox/#/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-7a2374725b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://discourse.threejs.org/t/an-ink-wash-wuxia-inn-as-an-interactive-three-js-website/97214" target="_blank" rel="noopener noreferrer">水墨武侠客栈——可走进去的 three.js 江湖小站</a></h3>
+  <p>水墨风武侠客栈做成可探索的互动网站，动画角色在店里走动，点心蒸笼能动手挪位置，配乐与美术由 AI 协作完成；论坛帖内附演示站与 4 分钟制作手记。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://discourse.threejs.org/t/an-ink-wash-wuxia-inn-as-an-interactive-three-js-website/97214" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-2ff2640373">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://creative-brutalist-app.vercel.app/" target="_blank" rel="noopener noreferrer">Daniel Henrique 野兽派作品集——会动的物理墙与水洼倒影</a></h3>
+  <p>野兽派个人站本身就是动效实验室，Matter.js + PixiJS 的物理墙、GLSL 水洼倒影、复古 3D 电视，项目像黑胶唱片一样滚动切换，Framer Motion + Lenis 稳 60fps。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://creative-brutalist-app.vercel.app/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f806d321d9">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://ocarina.thibaut-lefrancois.com" target="_blank" rel="noopener noreferrer">Songs of Hyrule——浏览器里吹响时之笛陶笛</a></h3>
+  <p>键盘或触屏按键吹出原版音色，吹对旋律自动识别《时之笛》《梅祖拉的假面》的 21 首曲子并记进歌本，陶笛随按键起伏摆动、松开带回弹；香草 Three.js + TypeScript 三天做成，代码开源。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://ocarina.thibaut-lefrancois.com" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-b95c6144b2">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://islandcn.dev" target="_blank" rel="noopener noreferrer">islandcn——开源 iOS 灵动岛 React 组件，活动状态收进顶部伸缩小药丸</a></h3>
+  <p>上传/计时/通话/打车/音乐等活动状态收进顶部一个会伸缩的小药丸，每个尺寸、圆角、弹簧参数都是逐帧对照真机录像拟合的；shadcn 一行安装 npx shadcn@latest add https://islandcn.dev/r/isla…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://islandcn.dev" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4b0b67e61d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-23">11-23</time></div>
+  <h3><a href="https://discourse.threejs.org/t/gargantua-playable-interstellar-black-hole-in-browser-three-js-react/96784" target="_blank" rel="noopener noreferrer">Gargantua——浏览器里能玩的《星际穿越》黑洞</a></h3>
+  <p>开小飞船绕黑洞收集数据，赶在地球时间耗尽前回到 Endurance 号；吸积盘与引力透镜是逐像素光线步进 Schwarzschild 曲率的自定义 shader，越靠近扭曲越强。React + Three.js + Vite，开源。注意：作…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://discourse.threejs.org/t/gargantua-playable-interstellar-black-hole-in-browser-three-js-react/96784" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-257d239a08">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/nexu-io/openmotion" target="_blank" rel="noopener noreferrer">OpenMotion——开源版 Claude Motion：参考视频一键还原成可改的 HTML 动效</a></h3>
+  <p>OpenDesign 出品（Apache 2.0，约 1.5 万星）：给它一段参考视频加自家品牌素材，Agent 会拆解镜头、按 300 多份 Motion.md 配方用 HTML/CSS/JS 重建整段动效，时间轴可改、能导出 MP4，支…</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/nexu-io/openmotion" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-7af80c59f7">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/Hada45/Open-Motion" target="_blank" rel="noopener noreferrer">Open-Motion——浏览器里跑的开源版 Alight Motion</a></h3>
+  <p>免费开源（MIT，仅 35 星，冷门）：不用安装，浏览器打开就是一台动效剪辑器——时间轴关键帧、缓动曲线编辑、矢量路径、3D 变换与图层编辑齐全，手机端触屏优先，还能装成 PWA。注意：仍是早期原型，部分功能与导出还在完善中。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/Hada45/Open-Motion" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-2e0a412ef3">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/storytold/anicraft" target="_blank" rel="noopener noreferrer">AniCraft——纯 Rust 重写的开源版 Adobe Animate</a></h3>
+  <p>ArtCraft 团队出品（Apache 2.0，约 500 星）：舞台、时间轴、关键帧、经典与形状补间、洋葱皮、元件库一应俱全，能直接打开 .fla/.xfl 老文件，导出 Lottie、HTML Canvas、GIF 与精灵表；桌面端与…</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/storytold/anicraft" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-3635546049">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/the-light" target="_blank" rel="noopener noreferrer">The Light</a></h3>
+  <p>Mariusz Mitkow 2026-11-19 的 WebGPU 实验：空房间里一盏小灯，15 万块大小不一的立方体碎片围着它缓缓旋转成环；移动灯光，碎片就被推开、又被无形边界拦住；计算着色器驱动物理，配自定义景深、柔和阴影与尘雾，尘土…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/the-light" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-65801c2766">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/wisp" target="_blank" rel="noopener noreferrer">Wisp — 会说话的粒子脸</a></h3>
+  <p>Attila Sztankovics 2026-11-19 的实验：聊天 AI 长出了一张脸——10 万颗发光粒子钉在自定义 blendshape 头模上，浮在金色尘雾里跟随鼠标；点麦克风说话，它会张嘴回话、口型按字符时间戳对齐（公开演示用…</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/wisp" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-3881238d40">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/MengTo/sylva" target="_blank" rel="noopener noreferrer">Sylva</a></h3>
+  <p>MengTo 的互动 Three.js 风景习作：程序化生成的苔藓树根穿过一幅编辑风自然保护主题 Hero，桌面端多达 25 万片实例化苔藓随指针拨开、拖出花粉轨迹；弹簧导航坞带贴近放大，液态金属按钮是沙盒 WebGL2 实验；整页只有一个…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/MengTo/sylva" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-cdb1eb16c8">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-22">11-22</time></div>
+  <h3><a href="https://github.com/lhlGitHub/threejs-architecture-effects" target="_blank" rel="noopener noreferrer">threejs-architecture-effects</a></h3>
+  <p>给 Codex / Claude Code / Cursor 的开源 Agent Skill（MIT，748 星）：让 Agent 生成一座会自己动工的 Three.js 古建——砖层、木构、斗拱、叠檐按 0–1 时间轴逐件拼装，可播放、暂…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/lhlGitHub/threejs-architecture-effects" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-b85abdda7a">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://github.com/LukyVj/distortion-wave" target="_blank" rel="noopener noreferrer">distortion-wave</a></h3>
+  <p>LukyVj 2026-11-12 开源的零依赖 WebGL2 库，给任意 DOM 元素加扭曲波纹转场——点一下按钮，一道带透镜模糊和彩色边缘的波就从触点漾开，把旧界面带进新界面；另有 electric、pixel、glass、burn 等…</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/LukyVj/distortion-wave" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-b149b5716d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://rain.julienrenau.com/" target="_blank" rel="noopener noreferrer">Raindrop 雨滴</a></h3>
+  <p>Julien Renau 2026-11-13 的 WebGL 实验，以一滴雨的第一视角穿过体积云层：云雾折射、雾中森林，最后落在一片叶子上，全程实时渲染。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://rain.julienrenau.com/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4aa18fdfe8">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://ttillberg.github.io/codevember-2026/12/" target="_blank" rel="noopener noreferrer">Feather 蜂鸟</a></h3>
+  <p>Theo Tillberg Codevember 2026 第 12 天作品（2026-11-12）：程序化虹彩羽毛的蜂鸟，翅膀扇动、可互动停栖、动态光照，Three.js + WebGL，源码 MIT 开源。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://ttillberg.github.io/codevember-2026/12/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f62e84ee7a">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://spite.github.io/codevember-2026/9" target="_blank" rel="noopener noreferrer">Membrane：会呼吸的有机薄膜</a></h3>
+  <p>Three.js 大神 thespite 的 Codevember 2026 第 9 天作品：整张有机薄膜用自定义顶点着色器实时起伏、呼吸，点 Randomize 换一副形态、Pause 定格细看。纯 Three.js，无模型无贴图。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://spite.github.io/codevember-2026/9" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-644b30f444">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://spite.github.io/codevember-2026/3" target="_blank" rel="noopener noreferrer">Melt：正在融化的 3D 形态</a></h3>
+  <p>同样出自 thespite 的 Codevember 2026 第 3 天：一个实时融化的 three.js 演示，形态像被加热一样缓慢塌软、流动，Randomize 可换一坨重新融。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://spite.github.io/codevember-2026/3" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-5f72223bba">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://tympanus.net/Demos/SeamTransitions/" target="_blank" rel="noopener noreferrer">Seam Transitions：页面接缝会自己裂开</a></h3>
+  <p>Codrops 2026-10-30，crnacura 的 WebGL 滚动研究：Hero 与下方的接缝不再是死直线，滚动时它会碎裂、抽丝、龟裂鎏金或洇墨，四种缝法各配一个 demo，仓库开源 MIT，思路可直接搬进自己的滚动页。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/Demos/SeamTransitions/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-207e2ea0c6">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://patch.gg/blendi/watercolour" target="_blank" rel="noopener noreferrer">Watercolour：走过的地方才被水彩上色</a></h3>
+  <p>@blendi 2026-11-13 发布在 Patch 上的 three.js 世界：开场整幅画面只是铅笔素描，你走过的地方水彩才一笔笔洇开——从脚下漫出、顺着树干爬上树梢、顺着溪流淌走，画过的地方就一直留着。代码 MIT、美术 CC0，…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://patch.gg/blendi/watercolour" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-be3c5a696d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/10/26/animating-agents-gsap-animaxxing/" target="_blank" rel="noopener noreferrer">Animaxxing：用 AI Agent 给网站加动效的实战教程</a></h3>
+  <p>Codrops 2026-10-26 — 把 GSAP 官方 Agent Skills 和 Animaxxing Skills 装进编程助手，先写一份 MOTION.md 定动效性格，再让 Agent 照着做「动效博物馆」：标题每个词自己表…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/10/26/animating-agents-gsap-animaxxing/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-02e09465e3">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/cave" target="_blank" rel="noopener noreferrer">Cave</a></h3>
+  <p>mesh3d 2026-11-18 收录 — 一句“pov，你被困在洞穴里”开场，滚动带你下潜穿过钟乳石、走进阳光从洞顶漏进来的积水大厅，光柱打在水面苔藓石堆上的一簇绿水晶，角落小 HUD 实时显示深度、光线与章节。Three.js + N…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/cave" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-9a89f45560">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/particleflow" target="_blank" rel="noopener noreferrer">ParticleFlow</a></h3>
+  <p>mesh3d 2026-11-18 收录 — 成千上万个白色与青柠色小胶囊在深蓝地面上涌动，沿着 Lorenz、Rössler 等 8 种混沌吸引子的轨迹画出流动形态，点按钮切换阵型、按住空格炸出一波彩色。Three.js，1.6 MB。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/particleflow" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-473c131c92">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">其他动效</span></div><time datetime="2026-11-21">11-21</time></div>
+  <h3><a href="https://github.com/nilbuild/stick-scene" target="_blank" rel="noopener noreferrer">stick-scene：会呼吸眨眼的小火柴人</a></h3>
+  <p>零依赖的 &lt;stick-scene&gt; Web Component：画布里的小火柴人会呼吸、眨眼，滚动进入视口、点击、悬停时做动作；配套 skill 让编程助手按产品功能自动生成场景，附 64 个演示。MIT 开源，11 月 18 日发布，做…</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/nilbuild/stick-scene" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-9d4cbdd993">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/kelp" target="_blank" rel="noopener noreferrer">Kelp</a></h3>
+  <p>Codevember 2026 第 17 天作品，海带在水下摇曳的 Three.js + WebGPU 实验，整站仅 0.6 MB。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/kelp" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-2f3c49af64">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGL 悬停效果</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://tympanus.net/Demos/LookbookHoverEffects/" target="_blank" rel="noopener noreferrer">Lookbook Hover Effects</a></h3>
+  <p>Codrops 2026-10-31 的 8 组 WebGL 悬停效果，带液态玻璃扭曲。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/Demos/LookbookHoverEffects/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-95411b0c67">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://gregpuzzles1.github.io/codevember-2026/20/" target="_blank" rel="noopener noreferrer">Codevember 2026 Day 20：A Little Light Within</a></h3>
+  <p>今天刚出的第 20 天作品，茧里藏着一个发光的小世界，点开看看里面有什么。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://gregpuzzles1.github.io/codevember-2026/20/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-b994250d7b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://github.com/finktheartist/sakuga-vfx" target="_blank" rel="noopener noreferrer">Sakuga VFX</a></h3>
+  <p>12 个像动漫作画一样的 UI 控件：按钮按下去会压扁、回弹时炸开冲击波还带「ドン!」拟声字，开关、滑块、进度条各有自己的 squash &amp; stretch 弹簧反应；每个控件就一个文件、零依赖，支持 shadcn 安装，在线演示见 htt…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/finktheartist/sakuga-vfx" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-9cf22260c6">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://github.com/effect-atlas/effect-atlas" target="_blank" rel="noopener noreferrer">Effect Atlas</a></h3>
+  <p>50 个纯 JavaScript 网页动效合集（滚动、悬停、光标、转场、文字、Three.js 都有），每个效果一个独立文件夹、打开 index.html 就能试，文件头还写了给 AI 编程助手看的接入说明，整段复制给 AI 就能装进自己的…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/effect-atlas/effect-atlas" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-8168afc342">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效排版</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/11/10/kinetic-typography-gsap/" target="_blank" rel="noopener noreferrer">滚动动效排版：逐词出现、按朗读节奏滚动的 Kinetic Typography</a></h3>
+  <p>Codrops 2026-11-10 — GSAP + ScrollTrigger + SlowMo 控制时序，文字像朗读一样逐词浮现，VHS 复古风 demo，附完整源码</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/11/10/kinetic-typography-gsap/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-a9bd9f24fc">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效排版</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/10/13/scroll-driven-ghost-trails/" target="_blank" rel="noopener noreferrer">滚动幽灵轨迹排版</a></h3>
+  <p>Codrops 2026-10-13 — 字母弯曲变形、描边副本拖出幽灵轨迹，滚动时逐字连成路径，Canvas 2D + GSAP + Three.js，还带可玩的交互字母表</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/10/13/scroll-driven-ghost-trails/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f191f6de2c">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">落地页动效</span></div><time datetime="2026-11-20">11-20</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/10/09/architecture-studio-astro-gsap/" target="_blank" rel="noopener noreferrer">极简建筑工作室落地页</a></h3>
+  <p>Codrops 2026-10-09 — Astro + GSAP + Lenis，像素格转场、图片像素揭示，极简设计配像素风动效，代码结构清晰可直接借鉴</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/10/09/architecture-studio-astro-gsap/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-21dd955f31">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">实验影像与装置</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/09/02/breaking-the-frame-building-a-real-time-datamosh-effect-with-three-js/" target="_blank" rel="noopener noreferrer">Datamosh 实时故障艺术</a></h3>
+  <p>Codrops 2026-09-02：用 Three.js 把视频编码的“丢关键帧”做成实时特效，按空格或点按切镜头时旧画面会被拖成液态故障残影，附完整 shader 代码，学 WebGL 反馈循环的绝佳范本。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/09/02/breaking-the-frame-building-a-real-time-datamosh-effect-with-three-js/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-62fe75d7b2">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">Three.js / WebGPU 场景</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/02/10/building-an-endless-procedural-snake-with-three-js-and-webgl/" target="_blank" rel="noopener noreferrer">Endless Procedural Snake</a></h3>
+  <p>Codrops 2026-02-10：3D 蛇追着鼠标游动，路径由 seek/orbit/coil/wander 四种转向力实时拼成无限贝塞尔曲线，身体是 GPU 实例化的鳞片，思路可以直接借去做别的生物运动。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/02/10/building-an-endless-procedural-snake-with-three-js-and-webgl/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-02918ef70b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">Three.js / WebGPU 场景</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/03/18/building-seamless-3d-transitions-with-webflow-gsap-and-three-js/" target="_blank" rel="noopener noreferrer">Webflow + GSAP + Three.js 无缝 3D 转场</a></h3>
+  <p>Codrops 2026-03-18：手绘风 3D 模型常驻画布、页面不刷新，Barba.js 换页时 GSAP 推着相机在模型间滑动，导航像在同一个空间里穿行，含完整 Vite 工程。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/03/18/building-seamless-3d-transitions-with-webflow-gsap-and-three-js/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-d61527ed7b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">Three.js / WebGPU 场景</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://gregpuzzles1.github.io/codevember-2026/19/" target="_blank" rel="noopener noreferrer">Erosion</a></h3>
+  <p>Codevember Day 19（今天刚出）：一座会风化的小山丘地貌延时片，降雨、阳光、时间流速都能调，无人机视角环绕，Three.js。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://gregpuzzles1.github.io/codevember-2026/19/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-879bbc3222">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://motion-primitives.com/" target="_blank" rel="noopener noreferrer">Motion Primitives</a></h3>
+  <p>开源的动效组件库，33 个可直接复制粘贴的组件：磁吸按钮、倾斜卡片、滚动数字、变形弹窗、渐进模糊等，基于 Motion + Tailwind，MIT 协议。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://motion-primitives.com/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-d8ef1f6b0f">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://gregpuzzles1.github.io/codevember-2026/18/" target="_blank" rel="noopener noreferrer">Newton&#39;s Cradle — Codevember Day 18</a></h3>
+  <p>可交互的牛顿摆，Three.js 做的，360° 任意角度看，球数、速度都能调，点一下发射，看钢球来回撞击的物理感很解压。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://gregpuzzles1.github.io/codevember-2026/18/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-6f7601c33b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://gregpuzzles1.github.io/codevember-2026/16/" target="_blank" rel="noopener noreferrer">Spore — Codevember Day 16</a></h3>
+  <p>一颗孢子长成蘑菇的完整生命周期，点大孢子看它一步步展开，鼠标移动可 3D 探索，配文像一本微型自然图鉴。Three.js。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://gregpuzzles1.github.io/codevember-2026/16/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-e414bbf0f7">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://mesh3d.gallery/experiment/type" target="_blank" rel="noopener noreferrer">Type</a></h3>
+  <p>每敲一个键，就掉一枚立体机械键帽进窗口，堆在底部、鼠标拨弄会翻滚，Enter 还能让键帽翻面；8 套以老电脑命名的配色（BBC Micro、Commodore 64、Famicom……），WebGPU + WGSL 实时渲染。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://mesh3d.gallery/experiment/type" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-5cb556d445">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-19">11-19</time></div>
+  <h3><a href="https://gregpuzzles1.github.io/codevember-2026/13/" target="_blank" rel="noopener noreferrer">Labyrinth — Codevember Day 13</a></h3>
+  <p>圆形花园迷宫，一条石径绕着中心转几圈通向长椅，小人会自己走进去坐下、再原路走出来，拖动可环视，静悄悄的很治愈。Three.js。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://gregpuzzles1.github.io/codevember-2026/13/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-99fbf9dc02">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">互动游戏</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://www.mesh3d.gallery/website/long-hoang-lyo" target="_blank" rel="noopener noreferrer">Long Hoang 坦克作品集</a></h3>
+  <p>作品集做成一局可玩的坦克游戏（mesh3d #026）。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/website/long-hoang-lyo" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-e719aeabe9">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">Three.js / WebGPU 场景</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://www.mesh3d.gallery/website/clipo" target="_blank" rel="noopener noreferrer">Clipo 贴纸吉祥物</a></h3>
+  <p>贴纸吉祥物主题的落地页（mesh3d #026）。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/website/clipo" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-816a56dfa5">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">滚动叙事场景</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://www.mesh3d.gallery/website/mosaic" target="_blank" rel="noopener noreferrer">Mosaic</a></h3>
+  <p>用滚动叙事讲 Shamir 密钥分片的 scrollytelling（mesh3d #026）。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/website/mosaic" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-0d2938034e">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/" target="_blank" rel="noopener noreferrer">Codrops 形状感知 ASCII 渲染器</a></h3>
+  <p>不只按亮度查表：每格六点采样加 95 字形 GPU 搜索，把 3D 物体印成带边缘的 ASCII，Three.js 教程含完整代码。</p>
+  <div class="item-foot"><span>晚 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-107fd55c02">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">互动装置与体感</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://mesh3d.gallery/experiment/record-player" target="_blank" rel="noopener noreferrer">Record Player</a></h3>
+  <p>Guillermo Rauch 做的黑胶唱机物理模拟：把 1924 年的《蓝色狂想曲》真的“刻”进唱片纹路里，再由模拟唱针读出来播放，实时显示转速、循轨误差和针压，还能故意把唱针推跑偏听走音；切割、压制、播放三部分源码全开源，纯 WebGL…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://mesh3d.gallery/experiment/record-player" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-9db05bb7d4">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">沉浸式个人站</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/10/06/yichen-xie-portfolio/" target="_blank" rel="noopener noreferrer">Yichen Xie 的作品集</a></h3>
+  <p>首页就是一片会动的液态气泡：细线圆圈像 metaball 一样柔和相接、慢慢漂移，点一下弹一下、双击戳破（碎成 72–180 颗粒子飞散），拖动还能自己画新泡泡；纯 JS + WebGL2、一个 draw call 画完全部气泡，弹簧物理让…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/10/06/yichen-xie-portfolio/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-41b1981c89">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">Three.js / WebGPU 场景</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/07/10/the-sleepers-creating-an-atmospheric-webgl-experience-with-lightweight-techniques/" target="_blank" rel="noopener noreferrer">The Sleepers</a></h3>
+  <p>Bruno Simon Three.js 挑战赛的氛围感 WebGL 短片，厉害在全是轻量打法：漩涡转场、onBeforeCompile 做的垂直雾效加噪声流动、Blender 反向外壳描边、无限滚动城市只用 3×3 动态网格复用一块地形；…</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/07/10/the-sleepers-creating-an-atmospheric-webgl-experience-with-lightweight-techniques/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-854d64cc8a">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">Three.js / WebGPU 场景</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://www.mesh3d.gallery/website/neuroform" target="_blank" rel="noopener noreferrer">Neuroform</a></h3>
+  <p>可穿戴呼吸器官网：滚动时把滤芯拆成三层圆盘（预滤网、静电蜂窝、碳编织），灰尘花粉颗粒逐层被拦下、变成干净空气；还有 X 光骨架视角与超大 condensed 字体划过。Three.js + WebGPU + GSAP + Lenis。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/website/neuroform" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-caac684bee">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">互动游戏</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://gregpuzzles1.github.io/codevember-2026/17/" target="_blank" rel="noopener noreferrer">Kelp Courier</a></h3>
+  <p>Codevember Day 17 小游戏：操控一条小鱼穿过摇曳的海藻林送信，钻空隙、捡珍珠、穿过金环交货，鼠标/触屏/键盘都能游，还有轻音乐。Three.js，昨天刚出。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://gregpuzzles1.github.io/codevember-2026/17/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-1e6ae41e20">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">沉浸式个人站</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://www.mesh3d.gallery/website/dominik-fojcik" target="_blank" rel="noopener noreferrer">Dominik Fojcik</a></h3>
+  <p>设计工程师的作品集：开场是体素柱拼成的本人肖像、像 CRT 信号一样闪烁，滚动时镜头飞过曲面作品屏、机器人手臂装电路板的工厂线、蓝色楼群峡谷，最后落在红灯笼小巷的联系方式。Three.js + Astro + Lenis。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/website/dominik-fojcik" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4145f4f3ad">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">沉浸式漫游</span></div><time datetime="2026-11-18">11-18</time></div>
+  <h3><a href="https://mirages.nrly.fun" target="_blank" rel="noopener noreferrer">Mirages</a></h3>
+  <p>玻璃球里的作品集：淡蓝湖面漂着透明玻璃球，每个球里装着一件 3D 作品，滚动推进镜头、点开一个球会放大到全屏；中央大球里是雪山日落与湖畔小屋。Three.js + WebGPU。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://mirages.nrly.fun" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-750107259b">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/11/17/cloth-posters-webgpu/" target="_blank" rel="noopener noreferrer">布料海报无限轮播（WebGPU）</a></h3>
+  <p>Codrops 2026-11-17 当天新文：轮播里每张海报都是一块布，滚动时从中间被拽着走、边缘向后垂落，点一张会把它从布带里提起来展开详情页，连文字都跟着布一起折；25×33 粒子 XPBD 布料模拟，静止时零绘制调用，源码在文内。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/11/17/cloth-posters-webgpu/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-90afd4e95d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">神经渲染实验</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/utsubo-neural-cheetah" target="_blank" rel="noopener noreferrer">Utsubo Neural Cheetah</a></h3>
+  <p>猎豹脑袋是一个 150KB 的小神经网络在浏览器里实时“画”出来的：跟着鼠标转头、眨眼，2.9 万根毛发逐根画线，还能一键看渲染管线；WebGPU 跑 60fps。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/utsubo-neural-cheetah" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4cb52a3359">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">粒子与交互艺术</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/volumes" target="_blank" rel="noopener noreferrer">Volumes</a></h3>
+  <p>25 万颗哑光灰小球堆成的雕塑，鼠标划过表面会被“撕开”，露出底下藏着的粉色或青色，随后小球又慢慢归位；底部链接能把整团质量从一个几何体“倒”进下一个；致敬 Maxim Zhestkov 的同名艺术短片。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/volumes" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-254c55e1fa">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">粒子与交互艺术</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/dandelion" target="_blank" rel="noopener noreferrer">Dandelion</a></h3>
+  <p>一朵蒲公英，约 2 万个实例化部件一根根搭出来的绒球，镜头从能数清绒毛的特写慢慢拉远到整朵花；页面只有一句 make a wish and blow，吹一下种子就随风飘散。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/dandelion" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-2e89dde1c6">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/codevember-2026-moss" target="_blank" rel="noopener noreferrer">Codevember 2026: Moss</a></h3>
+  <p>Mr.doob 的 Codevember 第五件作品：一块裹满厚厚苔藓的石头悬在苔藓林地上，苔藓一片叶子一片叶子长出来，萤火虫漂浮；点一下能推它一把；Three.js + WebGPU，0.8 MB。</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/codevember-2026-moss" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-d01c382fe9">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/webgpu-pumpkin" target="_blank" rel="noopener noreferrer">WebGPU Pumpkin</a></h3>
+  <p>万圣节南瓜灯：雾中山丘、满月、光秃树枝与飘起的火星，按住能把烛火吹灭，还能在空白南瓜上自己刻图案，重新点亮后刻痕透光。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/webgpu-pumpkin" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-f896e7a81f">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">粒子与交互艺术</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/obscurial" target="_blank" rel="noopener noreferrer">Obscurial</a></h3>
+  <p>黑暗房间里悬着一颗苍白粒子构成的参差球体，里面红光脉动；按住拖动能把外壳撕开一道深红漩涡，松手后慢慢合拢。</p>
+  <div class="item-foot"><span>中午 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/obscurial" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-4da804ac6c">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">滚动叙事场景</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/rain-drop" target="_blank" rel="noopener noreferrer">Rain Drop</a></h3>
+  <p>化身一滴雨：点一下开始坠落，滚动带着雨滴出云层、掠过拼布田野和雾中森林，往回滚还能升回去；角落 HUD 实时显示高度、速度与 9 个阶段；Three.js + GSAP，零模型零贴图。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/rain-drop" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-45ceb3fc09">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">互动游戏</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/ocean-run" target="_blank" rel="noopener noreferrer">Ocean Run</a></h3>
+  <p>水下赛鱼游戏：15 条鱼、8 条赛道，捡小鱼、躲障碍、甩开巨鲨，或跑三圈竞速；还有双人分屏和 8 回合锦标赛；焦散与雾效是手写 GLSL。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/ocean-run" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-ba26cb8d65">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">沉浸式漫游</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/infinity-castle" target="_blank" rel="noopener noreferrer">Infinity Castle</a></h3>
+  <p>《鬼灭之刃》无限城同人漫步：穿过灯笼门、地板打开坠入城内，沿障子走廊、悬空栈道前行，还有一间重力翻转的房间；6 位上弦藏在城里。</p>
+  <div class="item-foot"><span>早 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/infinity-castle" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-377ee2f684">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">WebGPU 实验</span></div><time datetime="2026-11-17">11-17</time></div>
+  <h3><a href="https://www.mesh3d.gallery/experiment/codevember-2026-tangle" target="_blank" rel="noopener noreferrer">Codevember 2026: Tangle</a></h3>
+  <p>Mr.doob 的 Codevember 第四件作品：五根彩色编织绳不断垂下、盘绕打结堆成绳堆，还能抓起一根拖过绳堆；Three.js + WebGPU，整件只有 0.6 MB。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://www.mesh3d.gallery/experiment/codevember-2026-tangle" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-a9546ae8e4">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/10/18/real-folds-real-fire/" target="_blank" rel="noopener noreferrer">paperlab</a></h3>
+  <p>React 纸张库：把纸做成真实几何体，弯折按真实弧长保真，12 种行为，还能用摄像头手势点火烧纸；官网现为付费 Pro（$24 一次性），先读免费 Codrops 文章。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/10/18/real-folds-real-fire/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-cebd31de6d">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">实验影像与装置</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://tympanus.net/codrops/2026/11/13/they-are-coming/" target="_blank" rel="noopener noreferrer">They Are Coming</a></h3>
+  <p>浏览器实时渲染 Three.js/WebGL 画面，投影到手工胶合板立方体上做 techno 演出宣传片；15 个 GLSL 特效卡在 145 BPM 节拍网格上。</p>
+  <div class="item-foot"><span>晚 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://tympanus.net/codrops/2026/11/13/they-are-coming/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-be66ee2fac">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">互动装置与体感</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://synfield.space/" target="_blank" rel="noopener noreferrer">Synfield</a></h3>
+  <p>20 个光与声音的互动世界：拨动光之弦、张开手掌让星云散开、搅动上千粒子；鼠标/触屏/手势都能玩，摄像头只在本地跑。</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://synfield.space/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-6fc63404d5">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">沉浸式个人站</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://felixrieseberg.com/" target="_blank" rel="noopener noreferrer">Felix Rieseberg 主页</a></h3>
+  <p>Anthropic Claude 工程师的个人站本身就是一张 Three.js 3D 书桌：键盘操作，C 用电脑、M 放 CD 机、Z 缩放电视，还有 lo-fi 模式。</p>
+  <div class="item-foot"><span>中午 · 高热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://felixrieseberg.com/" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-cf2eb09728">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://github.com/andrisgauracs/LiteRT.js-Mocap" target="_blank" rel="noopener noreferrer">LiteRT.js-Mocap</a></h3>
+  <p>浏览器里跑全身动捕：摄像头 → MediaPipe 33 个关键点 → Three.js 角色实时跟动，全程本地离线，可导出 BVH 进 Blender；43 star 小众仓库。</p>
+  <div class="item-foot"><span>中午 · 低热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://github.com/andrisgauracs/LiteRT.js-Mocap" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-da4452452f">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://flipbook-foundry.pages.dev" target="_blank" rel="noopener noreferrer">Flipbook Foundry</a></h3>
+  <p>字体字形火柴人动画库，93 个动作 / 2614 帧，npm 可装，React/Svelte/原生；2026-11-14 才被报道，GitHub 仅 1 star，够冷门。</p>
+  <div class="item-foot"><span>早 · 低热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://flipbook-foundry.pages.dev" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article><article class="item-card" id="i-8e88ed7c58">
+  <div class="item-head"><div class="tags"><a class="tag" href="/c/web-motion.html">网页动效</a><span class="tag tag-sub">动效库与组件</span></div><time datetime="2026-11-16">11-16</time></div>
+  <h3><a href="https://codepen.io/challenges/2026/november" target="_blank" rel="noopener noreferrer">CodePen 2026 年 11 月挑战</a></h3>
+  <p>本周主题 animation-timeline，纯 CSS 做滚动驱动动画；10 月底刚全浏览器 Baseline 可用。</p>
+  <div class="item-foot"><span>早 · 中热度</span><span class="status status-ok">有效</span><a class="source-link" href="https://codepen.io/challenges/2026/november" target="_blank" rel="noopener noreferrer">原始来源 ↗</a></div>
+</article></div>
+</section>
+<section class="section">
+  <div class="section-head"><h2>继续按主题浏览</h2></div>
+  <div class="related-grid"><a class="related-card" href="/c/frontend-ai.html"><small>FRONTEND × AI</small><strong>前端·AI</strong><span>67 条收录</span></a><a class="related-card" href="/c/design-assets.html"><small>DESIGN ASSETS</small><strong>设计素材</strong><span>74 条收录</span></a><a class="related-card" href="/c/sci-vis.html"><small>SCIENCE VIS</small><strong>科学可视化</strong><span>65 条收录</span></a></div>
+  <p style="margin-top:18px"><a class="all-link" href="/c/">查看全部分类 <span aria-hidden="true">→</span></a></p>
+</section>
+</div></main>
+<footer class="site-foot">
+  <div class="shell">
+    <div class="foot-main">
+      <div>
+        <div class="foot-brand">
+          <img src="/logo-light.png" alt="创忆录标志" width="46" height="46">
+          <div><strong>创忆录</strong><small>MEMORI ARCHIVE</small></div>
+        </div>
+        <p>把今天的好资源，存成明天还能用的记忆。免费额度、AI 工具、网页动效、排版、设计、视频与前沿情报，按主题持续归档。</p>
+      </div>
+      <div class="foot-links">
+        <div><strong>站内</strong><a href="/">介绍页</a><a href="/library.html">资源库</a><a href="/c/">分类索引</a><a href="/updates/">更新日志</a><a href="https://creatememori.blog/feed.xml">RSS 订阅</a></div>
+        <div><strong>热门分类</strong><a href="/c/web-motion.html">网页动效</a><a href="/c/ai-workflows.html">AI 实战</a><a href="/c/design-assets.html">设计素材</a><a href="/c/free-resources.html">免费资源</a><a href="/c/frontier.html">前沿追踪</a><a href="/c/video-creation.html">视频创作</a></div>
+        <div><strong>关于</strong><a href="https://github.com/creatememori/creatememori.github.io" target="_blank" rel="noopener noreferrer">GitHub 仓库</a><a href="/library.html#aboutHeading">关于资源库</a><a href="/library.html#allHead">全部条目</a></div>
+      </div>
+    </div>
+    <div class="foot-cats" aria-label="全部分类"><a href="/c/free-resources.html">免费资源</a><a href="/c/web-motion.html">网页动效</a><a href="/c/typography.html">排版网站</a><a href="/c/youtube-topics.html">YouTube 选题</a><a href="/c/frontend-ai.html">前端·AI</a><a href="/c/ai-workflows.html">AI 实战</a><a href="/c/tools.html">黑科技工具</a><a href="/c/video-creation.html">视频创作</a><a href="/c/sci-vis.html">科学可视化</a><a href="/c/learning.html">学习成长</a><a href="/c/design-assets.html">设计素材</a><a href="/c/frontier.html">前沿追踪</a></div>
+    <div class="foot-base"><span>© 2026 创忆录 · MEMORI ARCHIVE</span><span>数据来自资源库 · 分类页与更新日志由构建脚本生成</span></div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,141 +1,190 @@
 #!/usr/bin/env node
 /**
- * 创忆录资源站更新门禁。
- * 目的：防止 Muse 或其他自动更新在追加 ITEMS 时重写模板、固定日期、
- * 内联 CSS/JS、删除 SEO/无障碍/静态介绍。
+ * 创忆录统一站点发布门禁。
+ *
+ * 检查范围：
+ *   - library.html 是唯一数据源，静态卡片与 ITEMS 数量一致
+ *   - 首页、资源库、分类页、更新页、RSS、sitemap 的 canonical / 内链 / 文件齐全
+ *   - 不允许回到 github.io 双 canonical
  *
  * 运行：node scripts/guard-site.mjs
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const filePath = (name) => path.join(root, name);
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const SITE = 'https://creatememori.blog';
+const filePath = (name) => path.join(ROOT, name);
 const exists = (name) => fs.existsSync(filePath(name));
 const read = (name) => fs.readFileSync(filePath(name), 'utf8');
-const size = (name) => fs.statSync(filePath(name)).size;
-const has = (haystack, needle) => haystack.indexOf(needle) !== -1;
 const count = (text, re) => (text.match(re) || []).length;
 
 const checks = [];
 const check = (name, ok, detail = '') => checks.push({ name, ok: !!ok, detail });
+const fail = (name, detail = '') => check(name, false, detail);
 
 const required = [
   'index.html',
-  'memori-dimensions.css',
-  'memori-dimensions.js',
+  'library.html',
+  'seo.css',
   'logo.png',
+  'logo-light.png',
   'og-cover.png',
   'robots.txt',
   'sitemap.xml',
+  'feed.xml',
+  '404.html',
+  'CNAME',
+  'demo-data.js',
   '.nojekyll',
   'README.md',
   'MUSE_UPDATE_RULES.md',
+  'scripts/build-seo.mjs',
   'scripts/audit-data.mjs',
-  'a3d282fd8fba43b3967247aa12d24f33.txt'
+  'scripts/guard-site.mjs',
+  'c/index.html',
+  'updates/index.html',
+  'a3d282fd8fba43b3967247aa12d24f33.txt',
 ];
 required.forEach((name) => check(`必需文件：${name}`, exists(name)));
 
-const html = read('index.html');
-const css = read('memori-dimensions.css');
-const js = read('memori-dimensions.js');
+const library = read('library.html');
+const landing = read('index.html');
 const robots = read('robots.txt');
 const sitemap = read('sitemap.xml');
+const feed = read('feed.xml');
+const demo = read('demo-data.js');
+const cname = read('CNAME').trim();
 const readme = read('README.md');
 const rules = read('MUSE_UPDATE_RULES.md');
-const keyName = 'a3d282fd8fba43b3967247aa12d24f33.txt';
-const key = read(keyName).trim();
 
-const title = '创忆录 MEMORI｜免费资源、信息差与创作灵感每日更新';
-const description = '创忆录是每日更新的免费资源与信息差情报库，收录免费额度、限时机会、前沿工具、AI 实战、网页动效与设计素材，按分类、状态、热度筛选，帮你快速找到仍然有效的好东西。';
+const itemsMatch = library.match(/var ITEMS=(\[[\s\S]*?\n\]);/);
+const catMatch = library.match(/var CAT_ORDER=(\[[^\]]*\]);/);
+const subMatch = library.match(/var SUBCAT=\{([\s\S]*?)\n\};/);
+const fallbackMatch = library.match(/var SUB_FALLBACK=(\{.*?\});/);
+if (!itemsMatch || !catMatch || !subMatch) {
+  fail('数据源结构', 'library.html 缺少 ITEMS / CAT_ORDER / SUBCAT');
+}
+let items = [];
+let categories = [];
+let subMap = {};
+let fallbackMap = {};
+try {
+  if (itemsMatch) items = vm.runInNewContext(itemsMatch[1]);
+  if (catMatch) categories = vm.runInNewContext(catMatch[1]);
+  if (subMatch) subMap = vm.runInNewContext(`({${subMatch[1]}})`);
+  if (fallbackMatch) fallbackMap = vm.runInNewContext(`(${fallbackMatch[1]})`);
+} catch (error) {
+  fail('数据源解析', error.message);
+}
+const total = items.length;
+const staticCards = count(library, /<article class="card">/g);
+const subCount = new Set(items.map((item) => `${item[1]}/${subMap[item[0]] || fallbackMap[item[1]] || '其他'}`)).size;
 
-check('MUSE:APPEND-ONLY 标记至少 2 处', count(html, /MUSE:APPEND-ONLY/g) >= 2, `count=${count(html, /MUSE:APPEND-ONLY/g)}`);
-check('HTML lang', has(html, '<html lang="zh-CN"'));
-check('title 未变', has(html, `<title>${title}</title>`));
-check('description 未变', has(html, `<meta name="description" content="${description}">`));
-check('canonical 未变', has(html, '<link rel="canonical" href="https://creatememori.github.io/">'));
-check('OG 封面未变', has(html, '<meta property="og:image" content="https://creatememori.github.io/og-cover.png">'));
-check('JSON-LD @graph', has(html, '<script type="application/ld+json">') && has(html, '"@graph"'));
-check('JSON-LD FAQPage', has(html, '"@type": "FAQPage"'));
-check('外部 CSS 引用', has(html, '<link rel="stylesheet" href="memori-dimensions.css'));
-check('外部 JS 引用', has(html, '<script src="memori-dimensions.js'));
+check('数据源：至少 900 条', total >= 900, `items=${total}`);
+check('数据源：12 个一级分类', categories.length === 12, `categories=${categories.length}`);
+check('数据源：静态卡片与 ITEMS 一致', staticCards === total, `cards=${staticCards} items=${total}`);
+check('数据源：唯一事实源标记', library.includes('MUSE:DATA-SOURCE'), 'MUSE:DATA-SOURCE');
+check('数据源：使用 DATA-ONLY 边界', library.includes('MUSE:DATA-ONLY'), 'MUSE:DATA-ONLY');
 
-const dataImages = [html, css, js].reduce((n, text) => n + count(text, /data:image/g), 0);
-check('无 data:image / base64 内联', dataImages === 0, `count=${dataImages}`);
+check('资源库 canonical', library.includes('<link rel="canonical" href="https://creatememori.blog/library.html">'));
+check('资源库 H1 含创忆录', /<h1 class="brand-name">创忆录/.test(library));
+check('资源库标题含资源库', /<title>创忆录资源库｜\d+ 条/.test(library), 'title');
+check('资源库主题索引', library.includes('id="topicIndex"') && library.includes('BUILD:TOPIC-GRID:START'));
+check('资源库分类入口 12 个', count(library, /<a class="topic-card"/g) === 12, `count=${count(library, /<a class="topic-card"/g)}`);
+check('资源库 RSS 发现链接', library.includes('rel="alternate" type="application/rss+xml"'));
 
-const dynamicToday = count(html, /var TODAY=new Date\(\); TODAY\.setHours\(0,0,0,0\);/g);
-check('TODAY 运行时动态（至少 2 处）', dynamicToday >= 2, `count=${dynamicToday}`);
-check('TODAY 未被固定为年份', !/var TODAY=new Date\(20\d{2}/.test(html));
-check('未写死 2026-10-22 基准日', !/new Date\(2026,\s*10,\s*22\)/.test(html));
+check('介绍页 canonical', landing.includes('<link rel="canonical" href="https://creatememori.blog/">'));
+check('介绍页标题', /<title>创忆录 MEMORI｜免费资源、AI 工具与设计灵感库<\/title>/.test(landing));
+check('介绍页类别入口 12 个', count(landing, /<div class="feature-proof category-proof"[\s\S]*?<\/div>/g) === 1 && count(landing, /<a href="\/c\/[^"]+">/g) >= 12, `count=${count(landing, /<a href="\/c\/[^"]+">/g)}`);
+check('介绍页不把 github.io 当入口', !landing.includes('href="https://creatememori.github.io/'), 'old entry link');
+check('介绍页 RSS 发现链接', landing.includes('rel="alternate" type="application/rss+xml"'));
 
-check('syncDateMeta 存在', has(html, 'function syncDateMeta('));
-check('calendarHtml 存在', has(html, 'function calendarHtml('));
-check('statsHtml 存在', has(html, 'function statsHtml('));
-check('taxonomySubCount 存在', has(html, 'function taxonomySubCount('));
-check('subsFor 存在', has(html, 'function subsFor('));
-check('热度面板使用 DATE_LIST', has(html, 'var days=DATE_LIST.slice();'));
-
-const expectedCats = ['免费资源', '网页动效', '排版网站', 'YouTube 选题', '前端·AI', 'AI 实战', '黑科技工具', '视频创作', '科学可视化', '学习成长', '设计素材', '前沿追踪'];
-const catMatch = html.match(/var CAT_ORDER=\[([^\]]*)\];/);
-const categories = catMatch ? [...catMatch[1].matchAll(/"([^"]+)"/g)].map((m) => m[1]) : [];
-check('12 个一级分类未变', categories.length === 12 && expectedCats.every((cat) => categories.includes(cat)), `count=${categories.length}`);
-
-const itemsStart = html.indexOf('var ITEMS=[');
-const itemsEnd = html.indexOf('var SUBCAT={');
-const itemsRegion = itemsStart !== -1 && itemsEnd > itemsStart ? html.slice(itemsStart, itemsEnd) : '';
-const itemCount = count(itemsRegion, /^\s*\["/gm);
-check('ITEMS 条目数不少于 618', itemCount >= 618, `count=${itemCount}`);
-
-const visibleText = html
-  .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-  .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-  .replace(/<[^>]+>/g, ' ')
-  .replace(/&[a-z#0-9]+;/gi, ' ')
-  .replace(/\s+/g, ' ')
-  .trim();
-check('静态可见文字不少于 1200 字符', visibleText.length >= 1200, `chars=${visibleText.length}`);
-
-check('HTML 体积未超 2MB（静态 HTML 架构，见 MUSE_UPDATE_RULES.md）', size('index.html') <= 2000000, `bytes=${size('index.html')}`);
-
-const staticCards = count(html, /<article class="card">/g);
-check('静态 HTML 卡片数与 ITEMS 一致（Bing SEO）', staticCards >= itemCount, `cards=${staticCards} items=${itemCount}`);
-
-check('viewTabs 为 group', /id="viewTabs"[^>]*role="group"/.test(html));
-check('筛选面板为 dialog', /id="deckFilters"[^>]*role="dialog"/.test(html));
-check('panelClose 存在', has(html, 'id="panelClose"'));
-check('aboutHeading 存在', has(html, 'id="aboutHeading"'));
-check('skip link 存在', has(html, 'class="skip-link"'));
-check('可见 FAQ 存在', has(html, '创忆录是什么？'));
-check('aria-pressed 逻辑存在', has(js, 'aria-pressed') || has(html, 'aria-pressed'));
-check('未回退为 tablist', !has(html, 'role="tablist"'));
-check('logo 使用外部文件', has(html, 'src="logo.png"') || has(html, 'href="logo.png"'));
-
-check('robots 指向 sitemap', has(robots, 'User-agent: *') && has(robots, 'Sitemap: https://creatememori.github.io/sitemap.xml'));
-check('sitemap 含首页', has(sitemap, '<urlset') && has(sitemap, '<loc>https://creatememori.github.io/</loc>'));
-check('sitemap 含 OG 图', has(sitemap, 'og-cover.png'));
-check('IndexNow key 内容正确', key === keyName.replace(/\.txt$/, ''), `content=${key}`);
-check('logo 尺寸合理', size('logo.png') > 1000 && size('logo.png') < 20000, `bytes=${size('logo.png')}`);
-check('OG 封面尺寸合理', size('og-cover.png') > 50000 && size('og-cover.png') < 400000, `bytes=${size('og-cover.png')}`);
-check('CSS 未被异常放大', size('memori-dimensions.css') < 100000, `bytes=${size('memori-dimensions.css')}`);
-check('JS 未被异常放大', size('memori-dimensions.js') < 100000, `bytes=${size('memori-dimensions.js')}`);
-check('README 指向更新守则', has(readme, 'MUSE_UPDATE_RULES.md') && has(readme, 'guard-site.mjs'));
-check('更新守则包含 APPEND-ONLY', has(rules, 'APPEND-ONLY') && has(rules, 'guard-site.mjs'));
-check('CSS 粉色强调未变', has(css, '#db2777') || has(css, 'var(--accent)'));
-
-const failed = checks.filter((c) => !c.ok);
-const passed = checks.length - failed.length;
-console.log(`\nSite guard: ${passed} passed, ${failed.length} failed`);
-console.log(`items=${itemCount}  staticText=${visibleText.length}  htmlBytes=${size('index.html')}`);
-checks.forEach((c) => {
-  if (!c.ok || process.argv.includes('--verbose')) {
-    console.log(`${c.ok ? 'PASS' : 'FAIL'} ${c.name}${c.detail ? ` (${c.detail})` : ''}`);
+const categoryFiles = categories.map((name) => {
+  const slug = {
+    '免费资源': 'free-resources', '网页动效': 'web-motion', '排版网站': 'typography',
+    'YouTube 选题': 'youtube-topics', '前端·AI': 'frontend-ai', 'AI 实战': 'ai-workflows',
+    '黑科技工具': 'tools', '视频创作': 'video-creation', '科学可视化': 'sci-vis',
+    '学习成长': 'learning', '设计素材': 'design-assets', '前沿追踪': 'frontier',
+  }[name];
+  return slug ? `c/${slug}.html` : null;
+});
+categoryFiles.forEach((name) => {
+  if (!name) return;
+  check(`分类页：${name}`, exists(name));
+  if (exists(name)) {
+    const page = read(name);
+    check(`分类页 canonical：${name}`, page.includes('<link rel="canonical" href="https://creatememori.blog/'));
   }
 });
+check('分类索引页', exists('c/index.html'));
 
+const updateFiles = [...new Set(items.map((item) => {
+  const match = String(item[2]).match(/^(\d{1,2})-(\d{1,2})$/);
+  if (!match) return null;
+  return `updates/${new Date().getFullYear()}-${match[1].padStart(2, '0')}-${match[2].padStart(2, '0')}.html`;
+}).filter(Boolean))];
+updateFiles.forEach((name) => check(`更新日页：${name}`, exists(name)));
+check('更新日志索引', exists('updates/index.html'));
+
+check('CNAME', cname === 'creatememori.blog', `value=${cname}`);
+check('robots 指向 blog sitemap', robots.includes('Sitemap: https://creatememori.blog/sitemap.xml'));
+check('robots 不再指向 github.io', !robots.includes('creatememori.github.io'));
+check('sitemap 是 urlset', sitemap.includes('<urlset') && sitemap.includes('</urlset>'));
+check('sitemap 含首页和资源库', sitemap.includes('<loc>https://creatememori.blog/</loc>') && sitemap.includes('<loc>https://creatememori.blog/library.html</loc>'));
+check('sitemap 含分类索引和更新日志', sitemap.includes('<loc>https://creatememori.blog/c/</loc>') && sitemap.includes('<loc>https://creatememori.blog/updates/</loc>'));
+check('sitemap 含 12 个分类', categoryFiles.filter(Boolean).every((name) => sitemap.includes(`<loc>https://creatememori.blog/${name}</loc>`)), `files=${categoryFiles.length}`);
+check('sitemap 含全部更新日', updateFiles.every((name) => sitemap.includes(`<loc>https://creatememori.blog/${name}</loc>`)), `days=${updateFiles.length}`);
+check('sitemap URL 数 >= 27', count(sitemap, /<url>/g) >= 27, `count=${count(sitemap, /<url>/g)}`);
+const latestDate = items.reduce((latest, item) => {
+  const match = String(item[2]).match(/^(\d{1,2})-(\d{1,2})$/);
+  if (!match) return latest;
+  const iso = `${new Date().getFullYear()}-${match[1].padStart(2, '0')}-${match[2].padStart(2, '0')}`;
+  return iso > latest ? iso : latest;
+}, '');
+check('sitemap 含最新数据日期', sitemap.includes(`<lastmod>${latestDate}</lastmod>`), `latest=${latestDate}`);
+
+check('RSS 根节点', feed.startsWith('<?xml') && feed.includes('<rss version="2.0"'));
+check('RSS 条目 50 条', count(feed, /<item>/g) === Math.min(50, total), `count=${count(feed, /<item>/g)}`);
+check('RSS 指向更新日志', feed.includes('<link>https://creatememori.blog/updates/</link>'));
+check('RSS 含 atom:self', feed.includes('rel="self"'));
+
+let demoMeta = null;
+try {
+  const match = demo.match(/window\.MEMORI_DEMO = ([\s\S]*);/);
+  demoMeta = JSON.parse(match[1]);
+} catch (error) {
+  fail('demo-data 解析', error.message);
+}
+check('demo-data 条数', demoMeta?.meta?.total === total, `demo=${demoMeta?.meta?.total} total=${total}`);
+check('demo-data 演示 96 条', demoMeta?.items?.length === 96, `demoItems=${demoMeta?.items?.length}`);
+check('demo-data 分类带 slug', demoMeta?.meta?.categories?.every((entry) => entry.slug), 'categories');
+
+check('IndexNow key 内容正确', read('a3d282fd8fba43b3967247aa12d24f33.txt').trim() === 'a3d282fd8fba43b3967247aa12d24f33');
+check('logo 外部文件', library.includes('src="logo.png"') || library.includes('href="logo.png"'));
+check('OG 封面存在尺寸', exists('og-cover.png'));
+check('seo.css 可读', exists('seo.css') && read('seo.css').length > 1000);
+check('README 指向新构建流程', readme.includes('build-seo.mjs') && readme.includes('guard-site.mjs'));
+check('更新守则指向新构建流程', rules.includes('build-seo.mjs') && rules.includes('guard-site.mjs'));
+check('更新守则说明唯一事实源', rules.includes('library.html') && rules.includes('唯一事实源'));
+check('资源库体积合理', library.length > 500000 && library.length < 3000000, `chars=${library.length}`);
+check('介绍页体积合理', landing.length > 50000 && landing.length < 300000, `chars=${landing.length}`);
+check('404 为 noindex', read('404.html').includes('name="robots" content="noindex,follow"'));
+
+const failed = checks.filter((entry) => !entry.ok);
+const passed = checks.length - failed.length;
+console.log(`\nSite guard: ${passed} passed, ${failed.length} failed`);
+console.log(`items=${total} categories=${categories.length} subcategories=${subCount} staticCards=${staticCards} sitemapUrls=${count(sitemap, /<url>/g)}`);
+checks.forEach((entry) => {
+  if (!entry.ok || process.argv.includes('--verbose')) {
+    console.log(`${entry.ok ? 'PASS' : 'FAIL'} ${entry.name}${entry.detail ? ` (${entry.detail})` : ''}`);
+  }
+});
 if (failed.length) {
-  console.error(`\nFAIL: ${failed.length} 项更新边界被破坏。请按 MUSE_UPDATE_RULES.md 恢复后再提交。`);
+  console.error(`\nFAIL: ${failed.length} 项发布门禁未通过。先运行 node scripts/build-seo.mjs，再按 MUSE_UPDATE_RULES.md 修正。`);
   process.exitCode = 1;
 } else {
-  console.log('\nPASS: 更新边界完整。');
+  console.log('\nPASS: 统一站点结构完整，可以发布。');
 }
