@@ -653,7 +653,7 @@ const categoryPage = (data, meta, count) => {
   }));
   const canonical = `${SITE}${categoryHref(meta.name)}`;
   const description = fill(meta.desc, { count });
-  const modified = createdAt(latest[0]?.dateIso || data.latest.dateIso, latest[0]?.period || '晚');
+  const modified = data.sourceUpdated;
   currentCategory = meta.name;
   const breadcrumbs = [['首页', '/'], ['资源库', '/library.html'], [meta.name, categoryHref(meta.name)]];
   const body = `<div class="shell">
@@ -776,13 +776,13 @@ ${breadcrumbHtml([['首页', '/'], ['资源库', '/library.html'], ['分类索�
         description,
         isPartOf: { '@id': `${SITE}/#website` },
         inLanguage: 'zh-CN',
-        dateModified: data.latest.dateIso,
+        dateModified: data.sourceUpdated,
         hasPart: data.categoryCounts.map((entry) => ({ '@id': `${SITE}${categoryHref(entry.name)}#webpage` })),
       },
       breadcrumbObject([['首页', '/'], ['资源库', '/library.html'], ['分类索引', '/c/']]),
     ],
   };
-  return pageShell({ title: '创忆录分类索引｜12 个主题方向 · 免费资源、AI、设计与前沿', description, canonical, body, jsonld, modified: data.latest.dateIso, ogType: 'website' });
+  return pageShell({ title: '创忆录分类索引｜12 个主题方向 · 免费资源、AI、设计与前沿', description, canonical, body, jsonld, modified: data.sourceUpdated, ogType: 'website' });
 };
 
 const dayCard = (day) => {
@@ -844,7 +844,7 @@ ${breadcrumbHtml([['首页', '/'], ['资源库', '/library.html'], ['更新日�
         description,
         isPartOf: { '@id': `${SITE}/#website` },
         inLanguage: 'zh-CN',
-        dateModified: data.latest.dateIso,
+        dateModified: data.sourceUpdated,
         mainEntity: { '@id': `${canonical}#days` },
       },
       {
@@ -863,7 +863,7 @@ ${breadcrumbHtml([['首页', '/'], ['资源库', '/library.html'], ['更新日�
       breadcrumbObject([['首页', '/'], ['资源库', '/library.html'], ['更新日志', '/updates/']]),
     ],
   };
-  return pageShell({ title: `创忆录更新日志｜${totalDays} 个更新日、${data.total} 条收录`, description, canonical, body, jsonld, modified: data.latest.dateIso, ogType: 'website' });
+  return pageShell({ title: `创忆录更新日志｜${totalDays} 个更新日、${data.total} 条收录`, description, canonical, body, jsonld, modified: data.sourceUpdated, ogType: 'website' });
 };
 
 const dailyPage = (data, day, index) => {
