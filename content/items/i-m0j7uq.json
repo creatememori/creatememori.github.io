@@ -1,5 +1,10 @@
 {
   "summary": "18 岁以上在校生经 Goodstack 验证学生身份后，免费领一个标准价 .com 域名 + AI 建站套餐（含电商功能），免 3 年、无需信用卡，多数 48 小时内批复。",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2022/04/21/01/52/14/97767754_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

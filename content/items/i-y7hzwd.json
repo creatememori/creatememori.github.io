@@ -1,5 +1,10 @@
 {
   "summary": "排版爱好者的在线论坛，认字体、问排版问题、聊字体设计的老牌社区，帖子很活跃，遇到认不出的字体来这里问最快。",
+  "cover": {
+    "src": "https://typography.guru/uploads/monthly_2022_04/simple-tg.png.48e98943d7dd3608956f99936e3486a6.png",
+    "alt": "Typography.Guru 的官方预览图",
+    "credit": "typography.guru"
+  },
   "blocks": [
     {
       "type": "lead",

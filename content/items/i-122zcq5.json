@@ -1,5 +1,10 @@
 {
   "summary": "Codrops 2026-11-10 — GSAP + ScrollTrigger + SlowMo 控制时序，文字像朗读一样逐词浮现，VHS 复古风 demo，附完整源码",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/7cc4d318-7621-43ee-b943-e344927eb6b2.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

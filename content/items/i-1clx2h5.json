@@ -1,5 +1,10 @@
 {
   "summary": "11 月 19 日上线的免费浏览器工具（Product Hunt 新品）：把录屏或截图丢进 3D iPhone、Pixel、iPad、MacBook 或手表，调背景、灯光与运镜、加标题与缩放…",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/c19d5d8c-b514-43aa-a3cd-15f688c9aeeb.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "11 月 23 日权重上架 Hugging Face：百度 280B 总参数、每 token 激活 14B 的 MoE 模型，1M 上下文，Apache 2.0 开源权重（BF16/FP8）…",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/baidu/ERNIE-5.5-Flash-Preview-BF16.png",
+    "alt": "ERNIE 5.5 Flash Preview——百度 280B 开源权重上架，1M 上下文 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

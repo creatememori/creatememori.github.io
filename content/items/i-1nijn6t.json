@@ -1,5 +1,10 @@
 {
   "summary": "教 coding agent 写现代 Web 的技能包；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/02e5aa26-94c9-4cda-8c6f-b86c02d55e0f.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

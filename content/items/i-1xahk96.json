@@ -1,5 +1,10 @@
 {
   "summary": "Google 异步编程 Agent Jules 免费档：每天 15 个任务、最多 3 个并行，把 GitHub 仓库克隆进云端虚拟机写代码、改完直接开 PR，用 Google 账号加 Git…",
+  "cover": {
+    "src": "https://www.gstatic.com/labs-code/labs-logo.svg",
+    "alt": "Google Jules 免费档——每天 15 个异步编程任务，免绑卡 的官方预览图",
+    "credit": "jules.google.com"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "英国纽卡斯尔的独立字库：首页黑白极简，73 个字体家族一字排开、每个名字都用自家字体呈现，目录本身就是 specimen；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/8673a450-6845-47ef-b3de-89f8339793f9.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

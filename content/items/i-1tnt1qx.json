@@ -1,5 +1,10 @@
 {
   "summary": "浏览器里的五轨时间线剪辑器（9 月 27 日上线，11 月 21 日更新）：视频、叠加层、音乐、旁白、文字各占一轨，滑块拖动即打关键帧，AI 直接在时间线上工作（静帧转动图、镜头延展、衔接两…",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/17362488-e60a-4a94-b55e-728f61c4b9eb.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

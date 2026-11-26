@@ -1,5 +1,10 @@
 {
   "summary": "11 月 22 日发布：蚂蚁 inclusionAI 开源的医疗 MoE，560B 总参数、每 token 激活 25B，1M 上下文，专做医疗推理、循证深研与长程医疗任务，另有 124B …",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/inclusionAI/LingSante-3.1-flash.png",
+    "alt": "LingSante-3.1-flash——蚂蚁开源 560B 医疗模型，MIT 协议、1M 上下文 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

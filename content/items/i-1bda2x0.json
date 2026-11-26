@@ -1,5 +1,10 @@
 {
   "summary": "OpenAI 兼容接口，aiven-model 路由本身免费使用，不用绑卡；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2024/03/07/16/46/59/116699766_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

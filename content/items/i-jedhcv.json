@@ -1,5 +1,10 @@
 {
   "summary": "2002 年起的字评网站，评字体与字体书，还有年度「Typefaces of …」盘点。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/3391843b-1ba6-4875-806c-42feb7928009.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

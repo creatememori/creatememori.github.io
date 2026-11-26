@@ -1,5 +1,10 @@
 {
   "summary": "工程师的交互式科普长文站，每篇都是可动手玩的物理/数学游乐场，写博客想做“可玩的长文”必看。",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2024/05/23/19/12/42/118981631_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

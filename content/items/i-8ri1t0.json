@@ -1,5 +1,10 @@
 {
   "summary": "Gradient 免费档 $0，含免费 GPU 实例（多家指南称入门实例为 M4000，单次最长约 6 小时）、5GB 持久存储，浏览器里跑 Jupyter 笔记本练模型、跑推理。",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2020/03/08/13/49/05/79973568_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

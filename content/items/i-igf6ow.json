@@ -1,5 +1,10 @@
 {
   "summary": "一个快捷键从任何应用里弹出，敲回车存任务、下划线写笔记、问号问 AI、问号加感叹号连屏幕一起发问；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/e91361ac-8b12-41ce-8777-ed3ca6a7585a.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "Blender 里的 AI 助手：可视化聊天工作台里直接对话查场景、建模、调材质、找素材、导出，还能组多智能体团队分工，带审批与撤销；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/7bb698d2-1356-4955-a23b-f310f344ceb2.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

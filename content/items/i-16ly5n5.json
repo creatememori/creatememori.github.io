@@ -1,5 +1,10 @@
 {
   "summary": "历史最久的字体组织之一，站上正开 TDC73 全球竞赛征稿（主题 “Be Bold, Be Seen”，早鸟截止 2027-01-22）；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/bc309ed7-d224-4bac-abf5-0e6a1a7c2232.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

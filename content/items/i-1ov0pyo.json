@@ -1,5 +1,10 @@
 {
   "summary": "免费当代字体目录，163 款独立设计师字体全部可商用，网格/列表两种浏览方式，按无衬线/衬线/等宽/展示体分类，淘冷门好字体的快捷入口。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/eb0e9e6c-2f45-4046-b36d-cf6ebeb13436.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

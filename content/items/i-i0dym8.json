@@ -1,5 +1,10 @@
 {
   "summary": "建议标题「画完图自己检查改错：商汤开源 8B 多模态模型实测」。",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/sensenova/SenseNova-U1.6-8B-MoT.png",
+    "alt": "SenseNova U1.6——商汤开源 8B 统一多模态模型，画完图自己检查改错 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "2.8 万多个在轨卫星与碎片实时画在地球周围，按近地/中/地球同步/高椭圆轨道与卫星、空间站、碎片筛选，可搜任意目标查编号与业余无线电频率；",
+  "cover": {
+    "src": "https://orbital-congestion.vercel.app/og-image.png",
+    "alt": "Orbital Congestion Simulator——17 岁学生做的开源免费 3D 轨道拥堵图 的官方预览图",
+    "credit": "orbital-congestion.vercel.app"
+  },
   "blocks": [
     {
       "type": "lead",

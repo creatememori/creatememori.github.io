@@ -1,5 +1,10 @@
 {
   "summary": "今天到期的免费窗口：蚂蚁百灵 Ling-3.2-flash 免费窗口约今明两天结束（官方只写“前两周”、没给硬日期，以控制台为准）；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/b1a6eb90-b759-4e3d-8c64-5c6a844aa567.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

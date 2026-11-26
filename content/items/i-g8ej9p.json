@@ -1,5 +1,10 @@
 {
   "summary": "首页就是一片会动的液态气泡：细线圆圈像 metaball 一样柔和相接、慢慢漂移，点一下弹一下、双击戳破（碎成 72–180 颗粒子飞散），拖动还能自己画新泡泡；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2024/02/22/18/07/49/116289073_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

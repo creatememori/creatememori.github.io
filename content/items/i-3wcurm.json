@@ -1,5 +1,10 @@
 {
   "summary": "Codrops 2026-10-09 — Astro + GSAP + Lenis，像素格转场、图片像素揭示，极简设计配像素风动效，代码结构清晰可直接借鉴",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2024/07/12/22/09/39/120469046_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

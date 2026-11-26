@@ -1,5 +1,10 @@
 {
   "summary": "字重 100–900 正斜体全套，拉丁、希腊、西里尔共 109 种语言，几何与人文主义之间，界面、网站与幻灯片都适用；",
+  "cover": {
+    "src": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png",
+    "alt": "Xmind 1.001——Xmind 官方字体上架 Google Fonts 的可变界面无衬线 的官方预览图",
+    "credit": "fonts.google.com"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "挑标题/正文/等宽三角色、可变字体轴实时调、流式字号阶梯，界面预览里直接比对，最后导出 CSS、Tailwind 与设计令牌；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/16595605-98fc-4736-aa16-ac787e8373b4.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

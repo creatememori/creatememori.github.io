@@ -1,5 +1,10 @@
 {
   "summary": "Windows 未来的系统级端侧小模型，MIT 开源：2.29B 参数、32K 上下文，专为本机文档理解、改写、问答优化；",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/microsoft/Aion-1.0-Instruct-2.3B.png",
+    "alt": "微软开源 Aion 1.0 Instruct 2.3B 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

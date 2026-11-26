@@ -1,5 +1,10 @@
 {
   "summary": "11 月 14 日 Product Hunt 上线：丢素材或一句话简介，Agent 选镜头、写脚本、剪出带字幕配乐旁白的成片，之后可在时间线上手动拖标题改开头。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/8d9e2d65-c034-4c71-9531-56ae2f3e663e.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

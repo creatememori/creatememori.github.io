@@ -1,5 +1,10 @@
 {
   "summary": "每天免费 50 credits 做 AI 视频，不用订阅、不用绑卡：选 Veo 3.1 Lite，每条 4–8 秒 720p 短片只要 10 credits，每天最多做 5 条；",
+  "cover": {
+    "src": "https://www.gstatic.com/aitestkitchen/website/flow/social/og-flow-1200x627.png",
+    "alt": "Google Flow——每天免费 50 credits 做 AI 视频 的官方预览图",
+    "credit": "flow.google.com"
+  },
   "blocks": [
     {
       "type": "lead",

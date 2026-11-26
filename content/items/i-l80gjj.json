@@ -1,5 +1,10 @@
 {
   "summary": "11 月 24 日 Product Hunt 上线：把跑在 Herdr 里的编程 Agent 连起来，不用 SSH 就能在手机上看到各台机器上的 Agent 在干什么；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/9ca4424c-2bad-4cf2-ae9f-eb28ffd9cd6c.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

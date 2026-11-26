@@ -1,5 +1,10 @@
 {
   "summary": "免费开源 Windows 版 FFmpeg 图形界面（LGPL，11 月 19 日发布 3.3.0）：拖放批量转码，支持 AV1/H.265/NVENC/ProRes 等，可烧字幕、剪切拼接…",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2020/12/04/00/46/14/86075839_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

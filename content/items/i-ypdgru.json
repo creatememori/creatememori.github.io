@@ -1,5 +1,10 @@
 {
   "summary": "11 月 17 日正式发布，macOS 与 Windows 可用，Work 与 Code 合进一个桌面应用，可在本地仓库或云端沙箱里跑编码任务，Git worktree 并行改动、内置终端与…",
+  "cover": {
+    "src": "https://docs.mistral.ai/og/en/resources/release-notes/image.png",
+    "alt": "Mistral Vibe Desktop——编程助手搬上桌面，本地仓库与云端沙箱同框 的官方预览图",
+    "credit": "docs.mistral.ai"
+  },
   "blocks": [
     {
       "type": "lead",

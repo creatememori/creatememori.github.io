@@ -1,5 +1,10 @@
 {
   "summary": "11 月 14 日 Product Hunt 上线：输公司域名，不用注册、不用装任何东西，约 1 分钟出 Ward Score，查邮件伪造、泄露密码、仿冒域名、过期证书、网站已知漏洞等 19…",
+  "cover": {
+    "src": "https://www.wardsec.io/en/opengraph-image/portada?ba81f63d1c9c850a",
+    "alt": "Ward——免费查公司安全漏洞：输域名 1 分钟出评分与修复清单 的官方预览图",
+    "credit": "ward-pearl.vercel.app"
+  },
   "blocks": [
     {
       "type": "lead",

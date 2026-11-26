@@ -1,5 +1,10 @@
 {
   "summary": "保加利亚字库，Nexa、Intro、Mont 等畅销字体出自这里，有免费字体专区和排版术语页；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2016/03/26/15/57/20/56017546_p1.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

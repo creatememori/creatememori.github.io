@@ -1,5 +1,10 @@
 {
   "summary": "不用截图也能认字体：回答“有没有衬线”“Q 的尾巴长什么样”这类特征问题，一步步缩小到具体字体，适合只记得字长什么样、却叫不出名字的时候。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/f7ff5eea-45b1-4b92-b8a0-77f643d62ac7.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "巴西厂商 11-16 刚上线的推广，注册 API 后调用 S5-free 不计费，纯文本；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2023/05/30/16/11/30/108572312_p0.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

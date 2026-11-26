@@ -1,5 +1,10 @@
 {
   "summary": "是什么：讯飞星辰 MaaS 模型广场，Spark-X2.6 模型 10 亿 tokens 免费额度。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/db3b34f5-9686-4d17-8b81-715d03eb03d0.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

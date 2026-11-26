@@ -1,5 +1,10 @@
 {
   "summary": "汇聚 100 多家全球顶尖独立字库的联盟平台，Adobe Originals、Neville Brody 的 Brody Fonts 都在这里；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2023/09/24/00/02/56/111976994_p1.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

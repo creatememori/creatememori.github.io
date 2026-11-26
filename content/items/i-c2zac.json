@@ -1,0 +1,51 @@
+{
+  "summary": "11 月 25 日发布：英伟达把文本大模型的结构直接用于生图，Nemotron-Labs-VisualCreation 框架的光栅生图组件，30B 总参、每 token 激活 3B；",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nvidia/Nemotron-Labs-Image-30B-A3B.png",
+    "alt": "NVIDIA Nemotron-Labs-Image-30B-A3B——英伟达开源权重的大语言模型式生图模型：30B 总参/3B 激活，GenEval 92.86、BizGenEval 86.0 超 GPT Image 2；注意仅限非商业研究与评估 的官方预览图",
+    "credit": "huggingface.co"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 25 日发布：英伟达把文本大模型的结构直接用于生图，Nemotron-Labs-VisualCreation 框架的光栅生图组件，30B 总参、每 token 激活 3B；自报 GenEval 92.86、长文本渲染 LongTextBench 97.98，BizGenEval 86.0 高于 GPT Image 2 的 83.2（均为厂商口径）；权重免费下载，但 NVIDIA License 仅限非商业研究与评估。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "自报 GenEval 92.86、长文本渲染 LongTextBench 97.98，BizGenEval 86.0 高于 GPT Image 2 的 83.2（均为厂商口径）；",
+        "权重免费下载，但 NVIDIA License 仅限非商业研究与评估。",
+        "归类在「前沿追踪 / Hugging Face 论文速递」，11-26 晚收录。",
+        "原始入口在 huggingface.co，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前沿更新最容易被“首发”“最强”“颠覆”带走。这个分类保留发布日期、来源和官方口径，把“已经发生的事实”和“厂商自报的数字”分开写。 这条具体落在「Hugging Face 论文速递」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合开发者、研究者与内容创作者做趋势判断。先看论文、代码和可复现实验，再看二手解读；涉及跑分、价格和可用范围时，回到原始页面核对。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先看原始论文、仓库或官方博客，不看二手摘要",
+        "02 区分厂商自报、第三方复现与社区反馈",
+        "03 记录发布日期与版本，避免旧闻当新闻"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前沿追踪」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

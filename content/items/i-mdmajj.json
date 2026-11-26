@@ -1,5 +1,10 @@
 {
   "summary": "字体新发现日报站，每天更新：179 条发现全是新出炉的免费字体与字体工具（如可变字体、字体子集化工具），每条带一句话点评与来源链接；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/11099803-9efe-4499-8a17-6228167fb7e9.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

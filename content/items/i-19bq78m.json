@@ -1,5 +1,10 @@
 {
   "summary": "1224 个免费小图标 × 5 种风格（描边、实心、双色描边、双色实心、对比），24×24 网格、currentColor 着色，可复制 SVG、下载 16–512 PNG 或复制 Reac…",
+  "cover": {
+    "src": "https://dooicons.vercel.app/og.png",
+    "alt": "dooicons——1224 个免费小图标 × 5 种风格，另有免费 MCP 服务器 的官方预览图",
+    "credit": "dooicons.vercel.app"
+  },
   "blocks": [
     {
       "type": "lead",

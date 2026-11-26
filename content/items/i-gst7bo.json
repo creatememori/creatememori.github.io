@@ -1,5 +1,10 @@
 {
   "summary": "Software Mansion 11 月 20 日开源的零样本克隆 TTS：3–10 秒录音加逐字稿即可克隆音色，7 种语言（暂无中文），MiniMax 榜单字错率 0.96% 排第一，比…",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/software-mansion/Reverb-TTS.png",
+    "alt": "Reverb-TTS——297M 参数的声音克隆：3 秒录音克隆音色，浏览器里就能跑 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

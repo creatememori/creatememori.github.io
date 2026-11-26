@@ -1,5 +1,10 @@
 {
   "summary": "可托管 2 个 ZeroGPU Space 做 Gradio 演示，不用绑卡。",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/docs/hub/spaces-zerogpu.png",
+    "alt": "Hugging Face ZeroGPU——免费账号每天 5 分钟 RTX Pro 6000 Blackwell GPU（48GB 显存） 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

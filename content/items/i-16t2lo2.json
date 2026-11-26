@@ -1,5 +1,10 @@
 {
   "summary": "约合 40 小时 Nano 虚拟机（2 核 4GB），可同时开 10 台，浏览器沙箱不耗积分；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/c6175d18-c4da-4f81-8ac9-7d26eabd42a1.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

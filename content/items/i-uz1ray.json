@@ -1,5 +1,10 @@
 {
   "summary": "11 月 17 日发布：HeyGen 新一代音频驱动数字人模型，读懂台词含义再配手势（数数、指方向、按情绪做表情），不再循环固定动作；",
+  "cover": {
+    "src": "https://cdn.sanity.io/images/pdhqcmb1/production/2789b327ede1f3ba3e222d14a268b2289cd05296-3840x2160.png?fit=max&fm=png",
+    "alt": "HeyGen Avatar 6——会按台词做手势的数字人：原生 2K，一张照片开口说话 的官方预览图",
+    "credit": "heygen.com"
+  },
   "blocks": [
     {
       "type": "lead",

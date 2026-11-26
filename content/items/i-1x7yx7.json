@@ -1,5 +1,10 @@
 {
   "summary": "Claude Whiteboards/Sheets/Data 工具、Claude Meetings 进 Google Meet、IPO 定 11 月 19 日纳斯达克挂牌（代码 ANT）。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/e7db6c74-b0ad-4424-ab02-11f828721b90.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

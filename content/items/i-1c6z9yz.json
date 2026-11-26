@@ -1,5 +1,10 @@
 {
   "summary": "英伟达周五暴跌 14.01% 至约 $125.5，单日蒸发约 $4910 亿，连续第 7 个交易日下跌，较 10 月 6 日高点 $239.24 跌约 48%；",
+  "cover": {
+    "src": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2F5129cc85e67acf9267c99f604e89668cf96e455d-1290x860.jpg&w=1200&op=resize",
+    "alt": "英伟达暴跌 14%，SEC 被曝查账 的官方预览图",
+    "credit": "fool.com"
+  },
   "blocks": [
     {
       "type": "lead",

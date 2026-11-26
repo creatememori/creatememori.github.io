@@ -1,5 +1,10 @@
 {
   "summary": "11 月 5 日发布：不再等你发问，而是接管一项持续性工作，在 Perplexity Computer 里用你的工具、文件与记忆主动推进，还能多个 teammate 分工协作、进 Slack…",
+  "cover": {
+    "src": "https://frontend-cdn.perplexity.ai/_agi_assets/og/perplexity-default-v1.jpg",
+    "alt": "Perplexity Teammates——常驻 AI 协作者，接管持续性工作 的官方预览图",
+    "credit": "perplexity.ai"
+  },
   "blocks": [
     {
       "type": "lead",

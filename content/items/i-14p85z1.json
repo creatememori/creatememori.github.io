@@ -1,5 +1,10 @@
 {
   "summary": "11 月 25 日 Product Hunt 上线：独立开发者单人 3 个月、1900 次提交做出来的云端沙箱——每个任务独占一台云电脑，Codex、Claude Code、OpenCode…",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/38e56f72-11d5-4e8b-86aa-2399c4aeed49.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

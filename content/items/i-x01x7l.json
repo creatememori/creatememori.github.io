@@ -1,5 +1,10 @@
 {
   "summary": "免费从入门到精通的 AI Agent 课：理论 + smolagents、LangGraph、LlamaIndex 实战 + 挑战赛，完成作业可免费拿结课证书，无截止期限；",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/learn/agents-course/unit0/introduction.png",
+    "alt": "Hugging Face AI Agents Course：免费学做 AI Agent 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "日内瓦独立字库，Theinhardt、Plain 等当代经典都出自它家；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/f85fd39e-ce43-4f29-9b61-848f6ab329a3.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

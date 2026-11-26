@@ -1,5 +1,10 @@
 {
   "summary": "专为阿拉伯、印度等复杂文字设计，可变字体实时 OpenType 预览，AI 助手用自然语言写 Python 脚本批量改字形，还能云端多人协作；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/ee0249e3-c263-4ab4-b32a-138c5262d0de.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "女性与非二元字体设计师的社群博客，从文化、语言与性别视角聊字体；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2022/05/31/15/31/20/98731712_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

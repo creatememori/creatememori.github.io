@@ -1,5 +1,10 @@
 {
   "summary": "建议标题「免费给客户交片：每月 5 次传输、单文件 5GB，客户下载不用注册」。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/268720f2-ff63-4d46-a37b-001bab7c1b9f.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

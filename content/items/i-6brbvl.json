@@ -1,5 +1,10 @@
 {
   "summary": "建议标题：免费开源 AI 助手还不用联网，文件全留本机。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/9fd4bc89-a093-4087-b9a6-59ff79d978f6.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

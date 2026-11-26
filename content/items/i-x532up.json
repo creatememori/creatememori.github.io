@@ -1,5 +1,10 @@
 {
   "summary": "three.js 论坛新作：点一台风机看模拟故障，跟着工单走完「告警→派单→维修车开过去→修复恢复」全流程，还能展开到 750 台风机的整场视图，带实时图表与运营中心；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/f7c357d2-1dc0-446c-9c69-51bcc4c93335.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

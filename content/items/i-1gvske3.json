@@ -1,5 +1,10 @@
 {
   "summary": "Anthropic 预期今天纳斯达克上市（代码 ANT）：发行价区间 $70–$78，825M 股 Class A；",
+  "cover": {
+    "src": "https://trustloud.com/wp-content/uploads/2026/11/101-anthropic-ipo-date-featured-1.png",
+    "alt": "Anthropic 预期今日纳斯达克上市（ANT） 的官方预览图",
+    "credit": "trustloud.com"
+  },
   "blocks": [
     {
       "type": "lead",

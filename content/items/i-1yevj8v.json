@@ -1,5 +1,10 @@
 {
   "summary": "11 月 24 日发布：200 多套开源图标库一次搜到，SVG、React 组件或 CSS 直接导出；",
+  "cover": {
+    "src": "https://chameleonicons.com/og/card.png",
+    "alt": "Chameleon Icons——200+ 开源图标库合一，缺的图标按原风格 AI 补齐 的官方预览图",
+    "credit": "chameleonicons.com"
+  },
   "blocks": [
     {
       "type": "lead",

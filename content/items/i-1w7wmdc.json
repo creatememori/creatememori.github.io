@@ -1,5 +1,10 @@
 {
   "summary": "京东官方定价页：团队版 ¥0/用户/月限时免费，每席位 10000 积分，含智能体自主编码与代码预测补全、团队管理与统一计费。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/b68b60a8-393d-4f7d-acc9-e923fe213be5.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

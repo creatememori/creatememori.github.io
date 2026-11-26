@@ -1,5 +1,10 @@
 {
   "summary": "模型 heygen-voice-1-turbo-free，11 月 30 日前调用 $0，免绑卡，39 种语言 + 即时克隆；",
+  "cover": {
+    "src": "https://heygen-1fa696a7.mintlify.site/_mintlify/api/og/v2?division=Voice+models&title=HeyGen+Voice&description=Compare+HeyGen+Voice%2C+Turbo%2C+and+Turbo+Free.+Try+public+voices%2C+create+instant+or+professional+clones%2C+and+generate+completed+or+streaming+speech.&theme=806bfcae4fd50c26d3779ac8&signature=38d6ff3f15854c0eec6a558e37041c917ae1f3461599f239d5a97d0145150438",
+    "alt": "HeyGen Voice Turbo 的官方预览图",
+    "credit": "developers.heygen.com"
+  },
   "blocks": [
     {
       "type": "lead",

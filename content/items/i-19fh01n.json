@@ -1,5 +1,10 @@
 {
   "summary": "注册送前 1 亿 tokens 免费，OpenAI 兼容，含 MiniMax-M2.7 等；",
+  "cover": {
+    "src": "https://inference.dahl.global/og-image-en.png",
+    "alt": "Dahl Inference 的官方预览图",
+    "credit": "inference.dahl.global"
+  },
   "blocks": [
     {
       "type": "lead",

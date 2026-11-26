@@ -1,5 +1,10 @@
 {
   "summary": "11 月 11 日发布：Agent 用 JSON 描述界面（表单、卡片、选择器），App 用自家组件原生渲染；",
+  "cover": {
+    "src": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_iu9r44iu9r.2e16d0ba.fill-1200x600.jpg",
+    "alt": "A2UI 1.0——Google 生成式 UI 开放协议首个稳定版：Agent 不再只回文字，直接回界面 的官方预览图",
+    "credit": "developers.googleblog.com"
+  },
   "blocks": [
     {
       "type": "lead",

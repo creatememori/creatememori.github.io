@@ -1,5 +1,10 @@
 {
   "summary": "浏览器实时渲染 Three.js/WebGL 画面，投影到手工胶合板立方体上做 techno 演出宣传片；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/52fa3408-8624-4a1d-8417-54852b220555.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

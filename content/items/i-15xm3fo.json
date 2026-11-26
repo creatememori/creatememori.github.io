@@ -1,5 +1,10 @@
 {
   "summary": "首个纯强化学习后训练的开源 Agent 模型：基于 Qwen3.8-27B，仅用 1200 个长程任务、144 张 H200 训 18 天，Terminal-Bench 4.1 从 5.6%…",
+  "cover": {
+    "src": "https://cdn-uploads.huggingface.co/production/uploads/6aeabf9f2efd990530425e58/faP4Su889q_DIgN3wmU9M.png",
+    "alt": "RadixArk 发布 DaisyRose-27B 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

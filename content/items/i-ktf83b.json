@@ -1,5 +1,10 @@
 {
   "summary": "2007 年起只做影视片头字幕的档案站：从《怪奇物语》的 Benguiat 浮动大字到 Saul Bass 的经典片头，每篇都配设计师访谈讲字体与动效怎么定调；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/78669584-d76e-4401-b0a3-9d48d5d91eb7.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

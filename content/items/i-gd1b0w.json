@@ -1,5 +1,10 @@
 {
   "summary": "11 月 25 日正式版上架 Hugging Face：KRAFTON 从零自研的 30B-A4B MoE（每 token 只激活 4.3B），线性注意力 + MoE 混合架构，Apache…",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/KRAFTON/Raon-1-mini.png",
+    "alt": "KRAFTON Raon-1-mini 正式版——游戏公司自研 30B 开源模型：AIME 96.7，单张 5090 能跑 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

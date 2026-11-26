@@ -1,5 +1,10 @@
 {
   "summary": "一句话变 3D 模型，2000 免费额度免绑卡；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2025/01/20/02/13/54/126388684_p0.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

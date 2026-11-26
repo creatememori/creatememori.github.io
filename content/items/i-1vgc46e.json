@@ -1,5 +1,10 @@
 {
   "summary": "注册 Kiro 的万圣节黑客松 Kiroween 2026，在 Resources 页填表申请，一次性领 4000 credits（约值 Pro 档 4 个月）。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/7cba1bfd-1e9d-4ccd-9519-4f523eb3af60.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "11 月 24 日发布，基于 Qwen3.8 27B 的三元权重（每权重 1.76 bit），5.93GB 体积、262K 上下文，Apache 2.0 开源；",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/prism-ml/Ternary-Bonsai-2.5-27B-GGUF.png",
+    "alt": "Ternary Bonsai 2.5 27B——PrismML 发布三元量化 Agent 模型：5.9GB 跑出接近满血的工具调用能力 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

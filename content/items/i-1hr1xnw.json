@@ -1,5 +1,10 @@
 {
   "summary": "DesignCourse 的免费视频速成课：先做品牌 Logo 与视觉识别，再为一家虚拟健身公司做整套 UI/UX，含 AI 生成素材与 Hero、功能区等页面实操，Class Centra…",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/9e6305af-d476-4358-84d6-a9595e9b118f.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

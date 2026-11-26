@@ -1,5 +1,10 @@
 {
   "summary": "新 API Key 送 1000 万免费 tokens，覆盖搜索、向量、重排；",
+  "cover": {
+    "src": "https://jina.ai/og/page.png?title=Your+Search+Foundation%2C+Supercharged.&subtitle=Embeddings%2C+rerankers%2C+web+reader%2C+deepsearch%2C+small+language+models.+Search+AI+for+multilingual+and+multimodal+data.",
+    "alt": "Jina AI 的官方预览图",
+    "credit": "jina.ai"
+  },
   "blocks": [
     {
       "type": "lead",

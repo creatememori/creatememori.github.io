@@ -1,5 +1,10 @@
 {
   "summary": "11 月 23 日 Product Hunt 上榜的 AI 3D 工作室：一段文字或一张参考图生成带 UV 与 PBR 贴图的分割 3D 模型，可导出 GLB、FBX、OBJ、USDZ 丢进…",
+  "cover": {
+    "src": "https://hydrilla.ai/og/hydrilla.png",
+    "alt": "Hydrilla——AI 文生 3D 模型：每月免费 100 credits，免绑卡可商用 的官方预览图",
+    "credit": "hydrilla.ai"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "免费 Web 服务 + Postgres + Key Value + 静态站，每月 750 实例小时，免绑卡，超量只停不停扣；",
+  "cover": {
+    "src": "https://render.com/docs/free/opengraph-image?v=60396cb",
+    "alt": "Render 免费档 的官方预览图",
+    "credit": "render.com"
+  },
   "blocks": [
     {
       "type": "lead",

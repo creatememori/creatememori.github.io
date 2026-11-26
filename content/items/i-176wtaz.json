@@ -1,5 +1,10 @@
 {
   "summary": "独立字体铸造厂，首页就是字体样张墙：每款字体用自身字形做超大标题、配经典 pangram 试排句与应用案例，还有 Pangram Academy 的字体知识文章；",
+  "cover": {
+    "src": "http://pangrampangram.com/cdn/shop/files/SM_Sharing_Image.jpg?v=1746838589",
+    "alt": "Pangram Pangram 的官方预览图",
+    "credit": "pangrampangram.com"
+  },
   "blocks": [
     {
       "type": "lead",

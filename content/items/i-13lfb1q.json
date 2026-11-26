@@ -1,5 +1,10 @@
 {
   "summary": "英伟达 11 月 20 日开源 Nemotron-Labs-Sigma，首个大规模连续扩散语言模型家族：3B/8B 共 14 个检查点，在 16 维连续嵌入空间里去噪生成文本而非逐词预测；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/9368c1a3-bec9-463e-9765-77fbe9a4c99f.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

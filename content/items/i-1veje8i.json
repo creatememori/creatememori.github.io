@@ -1,5 +1,10 @@
 {
   "summary": "2008 年成立的荷兰独立字库：近 40 款字体个个带点怪脾气——Nitti Mostro 的渐变铬面大字、Puffin Arcade 的像素街机字、Brando 的当代衬线，每款都有完整 …",
+  "cover": {
+    "src": "https://www.boldmonday.com/images/shareimage.png",
+    "alt": "Bold Monday——荷兰独立字库，Nitti Mostro 与像素字体 Puffin Arcade 的官方预览图",
+    "credit": "boldmonday.com"
+  },
   "blocks": [
     {
       "type": "lead",

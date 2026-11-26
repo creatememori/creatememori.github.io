@@ -1,5 +1,10 @@
 {
   "summary": "托管版 Agent 记忆，Claude Code、Cursor、Codex 等 34 个工具一次登录即接通，不用装 Docker、不用配 API Key；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2025/12/23/00/09/42/138921998_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

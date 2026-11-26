@@ -1,5 +1,10 @@
 {
   "summary": "18 个 NASA 开放 API 的实时数据站：每日天文图、今日过境小行星、太阳耀斑与空间天气、火箭发射倒计时、ISS 实时位置、DSCOVR 地球全景与 6473 颗已确认系外行星；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/a28d573a-541a-400c-a737-607e6e051f1f.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

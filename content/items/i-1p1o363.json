@@ -1,5 +1,10 @@
 {
   "summary": "11 月 14 日上线的 Android 免费应用：16 节课从 40 个韩文字母、笔画描红讲到音节块、27 种收尾辅音拼读规则（为什么 밥이 读成 바비），再到读真实招牌与菜单，每课带测验…",
+  "cover": {
+    "src": "https://play-lh.googleusercontent.com/njN9KSWzx327dC7EB9yeCMLD5X3rottaCbgrwJ-GBxS6cxhQsDMbR-I96rYLkhxSGSo2GjZlkkmnoNzFWTW9=s0-br30",
+    "alt": "Hangul Lab——16 节免费韩文认读课：从 40 个字母读到真实招牌菜单 的官方预览图",
+    "credit": "play.google.com"
+  },
   "blocks": [
     {
       "type": "lead",

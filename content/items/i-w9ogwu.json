@@ -1,5 +1,10 @@
 {
   "summary": "讯飞星辰 MaaS 官网首页“常用功能”栏写明“Spark-X2.6 赋能开发者零门槛领取 10 亿 tokens 免费额度”，注册并实名认证后在模型广场开通 Spark-X2.6、建 AP…",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/71284360-c673-4d12-a8c2-3606bac26b30.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

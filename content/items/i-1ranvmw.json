@@ -1,5 +1,10 @@
 {
   "summary": "Baseten 11 月 21 日发布两个基于 Gemma 4 的开源决策模型：bison-1（31B dense）在 Artificial Analysis 决策指数 v2.1 以 76 …",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/70bdc256-49e6-4ab9-85c2-e837eac947c1.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

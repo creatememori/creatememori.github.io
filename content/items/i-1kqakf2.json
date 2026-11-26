@@ -1,5 +1,10 @@
 {
   "summary": "11 月 23 日登 Show HN：自研 JS 运行时 + WebGPU 算子，Qwen、Llama、Phi3 等小模型与多模态模型直接在浏览器里推理，支持结构化输出与投机解码；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2022/07/25/22/03/58/99993344_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

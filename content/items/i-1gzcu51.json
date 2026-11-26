@@ -1,5 +1,10 @@
 {
   "summary": "同一首诗顺读是崩塌、倒读是飞升，3.8 万点粒子云随滚动散开下沉，触底后配色从冷青翻成鎏金、人物长出翅膀；",
+  "cover": {
+    "src": "https://palindrome-of-a-fall.vercel.app/social/og-1200x630.jpg",
+    "alt": "Palindrome of a Fall——往下滚是坠落、往上滚是飞翔的互动 WebGL 倒叙诗 的官方预览图",
+    "credit": "palindrome-of-a-fall.vercel.app"
+  },
   "blocks": [
     {
       "type": "lead",

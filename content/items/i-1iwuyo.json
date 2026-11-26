@@ -1,5 +1,10 @@
 {
   "summary": "在浏览器里按字母逐个调可变字体的字重实例，自动对齐 x 高并调整间距，可导出脚本在 Illustrator/InDesign/Photoshop 里重建为可编辑文字，也可导出 PNG；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/a5379a8b-371a-4727-8d23-682f18fb0f1c.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

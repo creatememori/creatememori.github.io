@@ -1,5 +1,10 @@
 {
   "summary": "MCP 方式每天 100 次免费搜索，无需 API Key、无需账号、无需信用卡；",
+  "cover": {
+    "src": "https://cdn.you.com/marketing/og-ydc-updated.jpg",
+    "alt": "You.com 联网搜索 API 的官方预览图",
+    "credit": "you.com"
+  },
   "blocks": [
     {
       "type": "lead",

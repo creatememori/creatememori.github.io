@@ -1,5 +1,10 @@
 {
   "summary": "@blendi 2026-11-13 发布在 Patch 上的 three.js 世界：开场整幅画面只是铅笔素描，你走过的地方水彩才一笔笔洇开——从脚下漫出、顺着树干爬上树梢、顺着溪流淌走，…",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/3b537fc1-f759-4499-870a-93ae9aaff9ea.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "英国曼彻斯特字库，百余款字体按家族陈列、可按风格筛选，另有 F37× 实验系列（Marbles、Bezier 等，把贝塞尔节点本身做成字形），适合找怪字体、看实验排版。",
+  "cover": {
+    "src": "https://f37.com/og-default.png",
+    "alt": "F37 Foundry 的官方预览图",
+    "credit": "f37.com"
+  },
   "blocks": [
     {
       "type": "lead",

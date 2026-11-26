@@ -1,5 +1,10 @@
 {
   "summary": "Codrops 2026-10-30，crnacura 的 WebGL 滚动研究：Hero 与下方的接缝不再是死直线，滚动时它会碎裂、抽丝、龟裂鎏金或洇墨，四种缝法各配一个 demo，仓库开…",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2023/01/27/17/49/28/104850784_p0.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

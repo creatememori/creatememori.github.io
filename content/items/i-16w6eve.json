@@ -1,5 +1,10 @@
 {
   "summary": "11 月 19 日发布。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/b73684e3-3ec6-4638-869d-67f1b4fffc37.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

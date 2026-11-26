@@ -1,5 +1,10 @@
 {
   "summary": "11 月 21 日 Product Hunt 上线、11 月 24 日刚更新到 0.5.2 的终端编程 Agent：npm i -g @builditomi/cli 装完就能在仓库里读代码、…",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2021/02/27/00/00/08/88070710_p0.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

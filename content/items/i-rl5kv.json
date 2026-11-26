@@ -1,5 +1,10 @@
 {
   "summary": "11 月 6 日发布：Bun 直接转译 TS 测试文件，不用 Babel；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/c0b0f785-87eb-4730-a1bd-10f87c3c46c8.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

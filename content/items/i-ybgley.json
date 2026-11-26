@@ -1,5 +1,10 @@
 {
   "summary": "《Web Typography》作者 Richard Rutter 的排版专栏：流式排版、faux 粗体怎么修、可变字体子集化、连字符与断字，篇篇都是能直接抄进 CSS 的实操；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/2a8d652d-a9df-4f27-9134-8ab2abcf1894.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

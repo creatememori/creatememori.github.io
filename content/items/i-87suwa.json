@@ -1,5 +1,10 @@
 {
   "summary": "建议标题「3 秒录音克隆你的声音，还能在浏览器里跑：开源 TTS 实测」。",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/software-mansion/Reverb-TTS.png",
+    "alt": "Reverb-TTS——297M 参数的声音克隆：3 秒录音克隆音色，浏览器里就能跑 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

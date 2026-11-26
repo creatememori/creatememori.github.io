@@ -1,5 +1,10 @@
 {
   "summary": "11 月 11 日更新的 2D 粒子物理实验室，浏览器直接玩：倒物质、调 12 个物理参数（压强、内聚、电荷、键合等），看同一套规则长出气态、液态与晶体，最高 6.4 万粒子，附相态实时读数。",
+  "cover": {
+    "src": "https://img.itch.zone/aW1nLzMyMDkwMDI5LnBuZw==/original/umUk8E.png",
+    "alt": "MATTER 2.9 的官方预览图",
+    "credit": "arcnovaofficial.itch.io"
+  },
   "blocks": [
     {
       "type": "lead",

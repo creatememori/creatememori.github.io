@@ -1,5 +1,10 @@
 {
   "summary": "11 月 2 日发布的全新字体合集：无衬线、衬线、展示、等宽 4 组共 36 款可变字体，每款字重 100–900，SIL OFL 1.1 免费商用。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/38e24989-d988-47fd-955c-3ae172109eb7.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

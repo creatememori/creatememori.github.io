@@ -1,5 +1,10 @@
 {
   "summary": "前 100 万 tokens + 60 分钟转写免费（GLM、Qwen、Mistral、DeepSeek 等，OpenAI 兼容）；",
+  "cover": {
+    "src": "https://www.scaleway.com/scaleway-og.jpg",
+    "alt": "Scaleway Generative APIs 的官方预览图",
+    "credit": "scaleway.com"
+  },
   "blocks": [
     {
       "type": "lead",

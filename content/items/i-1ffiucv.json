@@ -1,5 +1,10 @@
 {
   "summary": "Science Buddy 的免费生物游戏：从间期长细胞、复制 DNA 开始，拖染色体排到赤道板、连纺锤丝、把姐妹染色单体分向两极，最后胞质分裂、用两个子细胞补好组织缺口；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/53c22d5e-6f6b-4b16-aee3-df9c0864ea4b.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

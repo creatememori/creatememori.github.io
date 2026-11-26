@@ -1,5 +1,10 @@
 {
   "summary": "只收可商用免费字体的老牌精选库，每款都人工筛过授权，还自带 Webfont 生成器与字体识别工具，找免费商用字体先来这逛最省心。",
+  "cover": {
+    "src": "https://www.fontsquirrel.com/presentation/theme_site/images/social_media_default.jpg",
+    "alt": "Font Squirrel 的官方预览图",
+    "credit": "fontsquirrel.com"
+  },
   "blocks": [
     {
       "type": "lead",

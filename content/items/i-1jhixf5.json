@@ -1,5 +1,10 @@
 {
   "summary": "11 月 9 日 Product Hunt 上线的 AI 演示文稿工具：贴一段笔记、传一份文档或一句话想法，审大纲、挑主题就出一套可编辑的 PPT，还能一次对比同一页的多个设计方案，也可接 …",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/8a533129-3f4a-494c-860a-492f6f485038.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

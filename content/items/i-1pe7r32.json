@@ -1,5 +1,10 @@
 {
   "summary": "11-20 最新：ANT 盘前一度跌超 7% 至 90 美元附近，首日收 $97.17 的涨幅回吐近半；",
+  "cover": {
+    "src": "https://images.financialexpressdigital.com/2026/11/Anthropic_stocks.jpg",
+    "alt": "Anthropic 上市次日回落，盘前一度跌超 7% 的官方预览图",
+    "credit": "financialexpress.com"
+  },
   "blocks": [
     {
       "type": "lead",

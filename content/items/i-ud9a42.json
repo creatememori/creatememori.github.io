@@ -1,5 +1,10 @@
 {
   "summary": "11 月 23 日上架 Hugging Face 的 MIT 开源权重，124B 总参数、每 token 激活 5.5B，图文视频多模态、上下文最高 1M；",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/inclusionAI/Ling-3.2-air.png",
+    "alt": "Ling-3.2-air——蚂蚁百灵 124B 开源多模态 MoE，每 token 只激活 5.5B 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

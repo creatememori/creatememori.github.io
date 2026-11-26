@@ -1,5 +1,10 @@
 {
   "summary": "一个能“摸到”的四维宇宙：四维球面展开在屏幕上，拖动就是在四维里旋转，声音也跟着你的手走，three.js WebGPU + Web Audio，两天搭出来的实验小品。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/9e5d6c0e-e486-41e9-85b2-103635a64a93.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

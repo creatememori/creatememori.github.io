@@ -1,5 +1,10 @@
 {
   "summary": "（11 月 17 日发布，11 月 21 日登 Product Hunt 日榜第 5）说清要找什么样的人/公司/产品，它返回结构化列表，匹配准确率与召回各升约 20%；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/bedb9d33-46b8-4674-b543-42b786d8dd67.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

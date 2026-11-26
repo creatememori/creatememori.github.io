@@ -1,5 +1,10 @@
 {
   "summary": "ETH 苏黎世联邦理工学生做的免费 N-body 引力模拟器，C++ 编译成 WebAssembly、Barnes-Hut 八叉树加速，6000 个天体仍能跑满 60Hz；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/b261b886-39ed-4c03-88c9-b0d2d5710c72.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

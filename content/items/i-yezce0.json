@@ -1,5 +1,10 @@
 {
   "summary": "WorkBuddy 客户端限免至 11 月 30 日（限时，绝不能当永久免费推）。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/c59cd711-87c2-4fa2-b3d6-971bcd624c4d.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

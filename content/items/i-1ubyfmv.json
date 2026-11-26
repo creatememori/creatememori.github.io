@@ -1,5 +1,10 @@
 {
   "summary": "Anthropic 上市首日收 $97.17，较 $83 发行价涨 17%，开盘 $111.50，盘中市值一度破 $2 万亿，收盘约 $1.76 万亿；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/755b7982-5579-4e05-bf41-29e8ae9e75dc.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "11 月 18 日发布的 AI 视频剪辑 Agent：上传素材、贴产品页链接或只给一句话想法，它自动剪出短视频，加多语字幕、标题、品牌元素与结尾卡，网页与手机 App 都能用，免费版导出无水…",
+  "cover": {
+    "src": "https://cdn.prod.website-files.com/616e938268c8f0a92cb2b540/6afddf3456fab7082154e317_veed-ai-newsroom-og-v3.png",
+    "alt": "VEED AI——写句话就能剪短视频的 AI 剪辑 Agent，免费版导出无水印 的官方预览图",
+    "credit": "veed.io"
+  },
   "blocks": [
     {
       "type": "lead",

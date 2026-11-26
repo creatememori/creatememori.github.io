@@ -1,5 +1,10 @@
 {
   "summary": "韩国乡村社区发布的免费韩文展示字体，v0.5（11 月 4 日）：2350 个常用韩文音节，笔画粗直、适合招牌与海报标题；",
+  "cover": {
+    "src": "https://beyondvillage.kr/font/og.jpg",
+    "alt": "BeyondVillage Font——免费韩文展示字体，商用免费、无需署名 的官方预览图",
+    "credit": "beyondvillage.kr"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "免费桌面 App，把安卓手机搬上电脑：USB 或 Wi-Fi 直连，无需 Root、不用装驱动和 SDK，可投屏操控、收发短信通知、传文件、备份联系人短信照片，还能安全卸载预装应用；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/5d292d34-6d1d-43f2-af36-dbe6da3b68c4.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

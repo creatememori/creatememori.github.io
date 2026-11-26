@@ -1,5 +1,10 @@
 {
   "summary": "Product Hunt 今日第一：给视频画 3D 涂鸦的相机 App，走几步拍一段，在空中、墙上或地面画线，线条钉在原地不动，还能环绕 3D 视角回看、导出竖版视频；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/d21508de-d131-4534-811c-e0def115f69e.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "瑞典字库，首页是满屏大字试排：每款字体都配真实文案段落和 OpenType 特性开关（连字、旧式数字、大小写变体），选字时直接看它在长文里的样子最直观。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/55c823e3-de66-4bde-99dd-dcb73aeb8ed4.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

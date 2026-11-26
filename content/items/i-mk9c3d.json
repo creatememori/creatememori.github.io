@@ -1,5 +1,10 @@
 {
   "summary": "独立小字库，约 84 款零售字体，衬线、无衬线、手写、黑体都有，不少是可变字体，站内可直接试打、免费下载试用版，挑个性字体时值得逛。",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2025/05/03/00/00/26/129960715_p1.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "11月11日更新的免费互动物理模拟，抛射炮可调角度 5–85°、初速、重力与空气阻力，实时画出轨迹预测、打靶计分；",
+  "cover": {
+    "src": "https://img.itch.zone/aW1nLzI4Mjg2MTYzLnBuZw==/original/sd%2Fkm9.png",
+    "alt": "Physics Playground——浏览器里的力学实验场 的官方预览图",
+    "credit": "2d-creator.itch.io"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "11 月 24 日 Product Hunt 上线：每个项目一个 Kin，自动记录 Agent 对话与决策，下次不用再重复解释；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/95e7545a-6369-4cf4-a0fa-89305c206576.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

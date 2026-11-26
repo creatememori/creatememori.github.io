@@ -1,5 +1,10 @@
 {
   "summary": "每概念配可拖动的交互实验、自动批改习题与 NumPy 实战项目，视频引用 3Blue1Brown 与 MIT 18.06，全程免费免注册。",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2017/01/08/04/15/18/60830160_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

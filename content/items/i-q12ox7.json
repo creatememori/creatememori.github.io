@@ -1,5 +1,10 @@
 {
   "summary": "Docker 称“容器隔离的是工作负载，Agent 是行动者”，推出微型虚拟机隔离的 Docker Sandboxes 与 AI Governance：管 Agent 能访问哪里、能调哪些 …",
+  "cover": {
+    "src": "https://www.docker.com/app/uploads/brand/social/docker-og-default.png",
+    "alt": "Docker 换新品牌、押注 Agent 信任层：Sandboxes 与 AI Governance 上线（11-19） 的官方预览图",
+    "credit": "docker.com"
+  },
   "blocks": [
     {
       "type": "lead",

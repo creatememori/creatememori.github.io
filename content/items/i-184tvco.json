@@ -1,5 +1,10 @@
 {
   "summary": "OpenAI 11 月 19 日把全双工语音模型 GPT-Live-1.1 上架 API：能边听边说、随时被打断，多语言发音与口音一致性更好；",
+  "cover": {
+    "src": "https://cdn.prod.website-files.com/6a0f028de6df6a6fd88c3f89/6affcd6d3ce0211f2ee9d571_6affcd6c9aee901578d67071_gpt-live-1-1-launches-full-duplex-voice-ai.avif",
+    "alt": "OpenAI GPT-Live-1.1 上架 API 的官方预览图",
+    "credit": "emergent.sh"
+  },
   "blocks": [
     {
       "type": "lead",

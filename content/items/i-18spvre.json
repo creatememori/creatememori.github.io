@@ -1,5 +1,10 @@
 {
   "summary": "11 月 23 日发布：中国电信星辰 AGI 实验室把 Xing4.1-Preview 开源上架，285B 总参数、每 token 只激活 17B，MLA+DSA 架构、原生 1M 上下文，…",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/XingChen-AGI/Xing4.1-Preview.png",
+    "alt": "Xing4.1-Preview——中国电信开源 285B MoE，1M 上下文、专为 Agent 编码而生 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "11 月 23 日 Product Hunt 上线：键盘优先的私信收件箱，接 Claude 或 ChatGPT 后自动分类、打标签、设跟进、跨 App 起草回复，AI 权限分读/起草/整理/…",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/af3ed407-c947-44b2-a744-f0bea6e773c8.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "11 月 20 日发布的 Inkling 2 Mini 研究版，Apache 2.0 开源权重，26.4B 参数、每 token 激活 3.4B，中间 12 层共享权重可循环 1–5 次，循…",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/thinkingmachines/TML-d24-varloop-research.png",
+    "alt": "TML-d24-varloop-research——Thinking Machines 开源可变循环研究模型，同一权重 1–5 档算力任选 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

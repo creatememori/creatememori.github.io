@@ -1,5 +1,10 @@
 {
   "summary": "运营 20 年的免费图库 9 月 15 日彻底重建上线：下载不再需要注册，免费商用、无需署名，坚持只收真人摄影与插画、不收纯 AI 生成图。",
+  "cover": {
+    "src": "https://freerangestock.com/images/Freerange-Stock.jpg",
+    "alt": "Freerange Stock：免费图库全新改版，免注册下载 的官方预览图",
+    "credit": "freerangestock.com"
+  },
   "blocks": [
     {
       "type": "lead",

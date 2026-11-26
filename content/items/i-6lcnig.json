@@ -1,5 +1,10 @@
 {
   "summary": "免费虚拟化学实验台：23 份试卷（5 份 2021–2025 剑桥真题 + 18 份练习卷），每份 3 道大题；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2024/12/20/00/00/57/125339793_p2.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

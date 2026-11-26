@@ -1,5 +1,10 @@
 {
   "summary": "免费建站全家桶：Web 服务 + 数据库 + 静态站，750 实例小时/月。",
+  "cover": {
+    "src": "https://render.com/docs/free/opengraph-image?v=60396cb",
+    "alt": "选题：Render 免费档 的官方预览图",
+    "credit": "render.com"
+  },
   "blocks": [
     {
       "type": "lead",

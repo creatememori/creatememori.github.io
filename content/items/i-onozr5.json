@@ -1,5 +1,10 @@
 {
   "summary": "11 月 24 日刚发到 three.js 论坛的免费单文件天文模拟：日心黄道、60.2° 银河螺旋、7.5 万颗恒星的银河系三档视角一键切换，看太阳系拖着螺旋轨迹以约 230km/s 穿过…",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2021/06/14/00/00/17/90539255_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

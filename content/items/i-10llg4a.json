@@ -1,5 +1,10 @@
 {
   "summary": "线性/径向两种渐变，调颜色、角度即出可复制的 CSS，也可导出 JSON 或配色，全部本地运算、免注册不上传文件。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/474c9c0f-11ef-4c6f-9d7b-2407d971665d.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

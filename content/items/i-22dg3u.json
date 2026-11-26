@@ -1,5 +1,10 @@
 {
   "summary": "与 Anthropic 合作的免费 MCP 课：从协议原理、架构到端到端实战与部署，学完能自己做接外部数据与工具的 AI 应用；",
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/learn/mcp-course/unit0/introduction.png",
+    "alt": "Hugging Face MCP Course：与 Anthropic 合出的免费 MCP 课 的官方预览图",
+    "credit": "huggingface.co"
+  },
   "blocks": [
     {
       "type": "lead",

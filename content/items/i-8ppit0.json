@@ -1,5 +1,10 @@
 {
   "summary": "11 月 24 日上线的 MIT 开源编程 Agent 内核，Qwen3-Coder-A3B 30B 模型经 Ollama 在自己 GPU 上跑，代码不出本机；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/60b49f8e-6aa7-43c8-a27e-50bf6799e226.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

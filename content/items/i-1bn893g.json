@@ -1,5 +1,10 @@
 {
   "summary": "11 月 23 日发布：X Square Robot 推出原生视觉-语言-动作（VLA）基础模型，视觉、语言与机器人动作从预训练起联合学习而非事后微调，基于 Qwen3.5，312 个评估员…",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/876a7a67-d3de-405c-943f-11232e99f8c8.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

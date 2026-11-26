@@ -1,5 +1,10 @@
 {
   "summary": "免费在线配色测试工具：转和声色轮，配色实时套用到像素风游戏世界、网站、App 与品牌模板上看效果，带 WCAG 对比度与色盲预览，可导出 CSS、Tailwind 与 Aseprite 格式；",
+  "cover": {
+    "src": "https://img.itch.zone/aW1nLzMyNDIyMjI5LmdpZg==/original/gtTJO8.gif",
+    "alt": "Palette Playtest 的官方预览图",
+    "credit": "canchimai.itch.io"
+  },
   "blocks": [
     {
       "type": "lead",

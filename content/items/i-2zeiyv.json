@@ -1,5 +1,10 @@
 {
   "summary": "11 月 25 日小鹏 AI Day：图灵具身智能架构 VLA 3.0（认知/实时决策/物理执行三系统）+ 通用人形机器人 IRON 首秀，76 自由度、1500+ 触觉点、三颗图灵芯片 2…",
+  "cover": {
+    "src": "https://s-cdn.xpeng.com/commoncms/prod/2026-11-25/c4c0a69170df4faa97f6111a4cdcc7b0.jpg?name=news261125",
+    "alt": "小鹏 IRON 人形机器人首秀——图灵具身智能架构 VLA 3.0 发布：76 自由度、1500+ 触觉点，2027 年量产 的官方预览图",
+    "credit": "xpeng.com"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "21 万+ 张人工审核的 AI 生成图片（照片、插画、3D 渲染），按类型与版式筛选、语义搜索，每天上新；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/5a4d952e-df98-4023-af10-8f67dd2f78f6.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

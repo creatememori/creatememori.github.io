@@ -1,5 +1,10 @@
 {
   "summary": "统计学家 Nathan Yau 做了快 20 年的数据可视化博客，每天更新，用图表讲日常话题（作息随年龄怎么变、民调误差、赌博成瘾时间线），是“数据也能讲故事”的视觉标杆。",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2025/11/18/18/20/54/137617142_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "Bruno Simon Three.js 挑战赛的氛围感 WebGL 短片，厉害在全是轻量打法：漩涡转场、onBeforeCompile 做的垂直雾效加噪声流动、Blender 反向外壳描边…",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2019/02/14/17/16/04/73177340_p0.jpg",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

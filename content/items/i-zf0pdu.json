@@ -1,5 +1,10 @@
 {
   "summary": "11 月 2 日发布的免费落沙化学沙盒：260 种元素、近 400 个反应，每颗像素都是粒子——沙子堆积、水流动、火蔓延，岩浆遇水变黑曜石、铁放水里慢慢生锈；",
+  "cover": {
+    "src": "https://img.itch.zone/aW1nLzMxNzM1ODY2LnBuZw==/original/i7Za0C.png",
+    "alt": "Alchemisand——落沙化学沙盒：260 种元素、近 400 个反应，浏览器里随便混随便炸 的官方预览图",
+    "credit": "omrane-el-it.itch.io"
+  },
   "blocks": [
     {
       "type": "lead",

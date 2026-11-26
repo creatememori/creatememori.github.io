@@ -1,5 +1,10 @@
 {
   "summary": "德国老牌排版杂志 Slanted 的每日更新栏目，2004 年创刊至今，专发字体、书籍装帧与实验排版的新作与展讯（首页偏商店，入口直接走新闻页）。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/00f02871-f5d1-4703-8f81-61f0676e7e67.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

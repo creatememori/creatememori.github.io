@@ -1,5 +1,10 @@
 {
   "summary": "1984 年创立的传奇数字字库，Mrs Eaves、Lo-Res 等经典字体出自这里，五款字体被 MoMA 收藏；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/e591b6da-7214-4ab6-8d8f-bffdc5d7d3cb.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "11月19日发布的新一代图像生成与精修模型：原生 4K 输出（4096×4096，不经过放大），一次只改一处细节、多轮编辑不跑偏；",
+  "cover": {
+    "src": "https://storage.googleapis.com/ideogram-static/website/images/ba16d402d8d0b906.jpeg",
+    "alt": "Ideogram 4.6 的官方预览图",
+    "credit": "ideogram.ai"
+  },
   "blocks": [
     {
       "type": "lead",

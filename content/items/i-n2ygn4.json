@@ -1,5 +1,10 @@
 {
   "summary": "做过《卫报》改版的 Paul Barnes 与 Christian Schwartz 创立的字库，Graphik、Canela、Druk、Publico 都出自这里；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/770cafb8-452f-493d-a969-0400c869f049.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "氢原子精确轨道、1–36 号元素、生物医学离子与小分子的分子轨道，都按真实薛定谔方程与 Hartree-Fock 算出来再画成两万多个点的概率云，拖着转、按相位双色看，还能导出 .cube …",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/0ee115f1-f407-4092-80dd-934c6878d67c.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "新版加入每日 token 热力图。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/a201649f-9efa-477c-87aa-4839f1d6d284.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "Chrome 157（11 月 3 日）让 canvas 里能画真正的 HTML 元素：给 canvas 加 content=\"drawable\"，2D、WebGL 与 WebGPU 场景都…",
+  "cover": {
+    "src": "https://image.theregister.com/5310183.jpg?imageId=5310183&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "alt": "HTML-in-Canvas 随 Chrome 157 正式发布 的官方预览图",
+    "credit": "theregister.com"
+  },
   "blocks": [
     {
       "type": "lead",

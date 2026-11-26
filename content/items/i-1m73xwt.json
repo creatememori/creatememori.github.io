@@ -1,5 +1,10 @@
 {
   "summary": "建议标题「输个域名，1 分钟免费查出你网站的 19 项安全漏洞」。",
+  "cover": {
+    "src": "https://www.wardsec.io/en/opengraph-image/portada?ba81f63d1c9c850a",
+    "alt": "Ward——免费查公司安全漏洞：输域名 1 分钟出评分与修复清单 的官方预览图",
+    "credit": "ward-pearl.vercel.app"
+  },
   "blocks": [
     {
       "type": "lead",

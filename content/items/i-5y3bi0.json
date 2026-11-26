@@ -1,5 +1,10 @@
 {
   "summary": "11 月 20 日登 Product Hunt 的 GitHub 治理层：给每个开发者、团队或 AI Agent 只开指定目录的权限，其余代码看不到；",
+  "cover": {
+    "src": "https://i.pixiv.re/img-original/img/2024/07/31/19/44/50/121052250_p0.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：lolicon.app，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

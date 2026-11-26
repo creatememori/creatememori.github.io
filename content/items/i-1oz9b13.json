@@ -1,5 +1,10 @@
 {
   "summary": "每道笔画恰好两个喷嘴线宽，打印凸字、刻字几乎零填充碎料，小/中/大三种尺寸 × 凸字/刻字/通透刻字共 9 个 TTF；",
+  "cover": {
+    "src": "https://printago.io/images/bead/bead-sample.svg",
+    "alt": "Bead——为 3D 打印而生的免费字体，11 月 19 日发布 的官方预览图",
+    "credit": "printago.io"
+  },
   "blocks": [
     {
       "type": "lead",

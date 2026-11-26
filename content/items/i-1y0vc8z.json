@@ -1,5 +1,10 @@
 {
   "summary": "建议标题：一句话生成 3D 模型还能商用，每月免费 100 额度免绑卡实测。",
+  "cover": {
+    "src": "https://hydrilla.ai/og/hydrilla.png",
+    "alt": "Hydrilla——AI 文生 3D 模型：每月免费 100 credits，免绑卡可商用 的官方预览图",
+    "credit": "hydrilla.ai"
+  },
   "blocks": [
     {
       "type": "lead",

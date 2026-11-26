@@ -1,5 +1,10 @@
 {
   "summary": "11 月 23 日发布，Google DeepMind 用 Gemini 4 Agent 团队改进经典量子算法：惯性约束聚变模拟成本降 11.8 倍、所需纠错量子比特从 5650 降至 43…",
+  "cover": {
+    "src": "https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w1200-h630-n-nu-rw",
+    "alt": "DeepMind Gemini 4 Agent 团队：量子算法成本大降，Lean 形式化验证 的官方预览图",
+    "credit": "deepmind.google"
+  },
   "blocks": [
     {
       "type": "lead",

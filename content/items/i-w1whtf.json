@@ -1,5 +1,10 @@
 {
   "summary": "11 月 10 日发布的体素地球沙盒 Alpha 版，浏览器里免费玩：13 公里长的体素海岸小镇上空可自造雷暴、龙卷风、暴雪与洪水，还能按真实撞击方程（Collins、Melosh & Ma…",
+  "cover": {
+    "src": "https://img.itch.zone/aW1nLzMyNzk2MTcyLmdpZg==/original/91N%2BeK.gif",
+    "alt": "Tempest Earth Voxel Lab 的官方预览图",
+    "credit": "digital-scientist.itch.io"
+  },
   "blocks": [
     {
       "type": "lead",

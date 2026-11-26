@@ -1,5 +1,10 @@
 {
   "summary": "11 月 9 日 Show HN 的免费浏览器电磁模拟器：摆偶极子、环形天线、相控阵，调振幅相位频率，实时看电场、磁场与能量流如何辐射、干涉与衍射；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/594e76ff-acfb-4e72-a8e6-6347caf83976.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

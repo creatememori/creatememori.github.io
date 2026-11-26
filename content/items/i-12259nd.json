@@ -1,5 +1,10 @@
 {
   "summary": "旗舰语音合成 0 元调用，但只剩 13 天（限时到 11-30，绝不能当永久免费推）；",
+  "cover": {
+    "src": "https://hanabiaiinc.mintlify.site/_mintlify/api/og/v2?division=Models+%26+Pricing&title=Pricing+%26+Rate+Limits&description=Understand+Fish+Audio+pricing+plans%2C+usage+costs%2C+and+API+rate+limits&theme=61fce384ffd542cc270fb190&signature=67d4750b3d2deedc4aabe427b957ff094446b79a06aa085f72804fb4504f2e57",
+    "alt": "选题：Fish Audio S2.1-Pro Free 的官方预览图",
+    "credit": "docs.fish.audio"
+  },
   "blocks": [
     {
       "type": "lead",

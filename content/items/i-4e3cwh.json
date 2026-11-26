@@ -1,5 +1,10 @@
 {
   "summary": "OpenStreetMap 的道路建筑 + swisstopo 真实地形，20 辆车、漂移氮气、5 种镜头，还能下车走路、进楼坐电梯、开直升机和蒸汽火车；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/a534dc1a-0309-4e8b-983e-dd6b24231b58.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

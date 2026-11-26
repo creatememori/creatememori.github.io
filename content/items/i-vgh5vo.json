@@ -1,5 +1,10 @@
 {
   "summary": "瑞士协作字库平台，收了 Frutiger 1979 年的电传打字机字体 Teletext、涂鸦大师 Cornbread 的手写体；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/41ce6c53-1600-4a57-a6ed-ab6344575f2a.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

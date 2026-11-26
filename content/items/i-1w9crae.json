@@ -1,5 +1,10 @@
 {
   "summary": "免费教材 + 讲义 + 每章配套实验，CC BY-NC 4.0 协议，从写需求规格、搭全栈应用到批判性评估 AI 生成的代码，教“认真做产品”的 Vibe Coding，不是无脑粘贴",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/2e4ae376-256d-4fa7-a6d3-d277096bced6.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

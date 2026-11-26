@@ -1,5 +1,10 @@
 {
   "summary": "免费开源录屏工具（AGPL-3.0，11 月 14 日 Product Hunt 上线）：Chrome 插件录屏，停录即得分享链接，带自动字幕、章节与评论，还能让 AI Agent 通过 M…",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/87a6b14c-69e6-44d4-ac89-e1726dc326b2.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

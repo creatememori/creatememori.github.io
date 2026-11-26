@@ -1,5 +1,10 @@
 {
   "summary": "阿里 Qwen 旗舰 2026-11-16 发布：2.4T MoE、每 token 激活 71B、1M 上下文、$1.50/$4.50 每百万 tokens，API-only，Max 档无开…",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/1b0de689-9060-4400-86dc-73200105a6ca.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

@@ -1,5 +1,10 @@
 {
   "summary": "11 月 18 日公开 Beta：CodeRabbit 新推的 Agent 化应用测试——在 PR 里评论 @coderabbitai verify，它按提交、源码、已有测试与文档生成测试场…",
+  "cover": {
+    "src": "https://www.coderabbit.ai/content/assets/introducing-coderabbit-verify/meta-image.png",
+    "alt": "CodeRabbit Verify——让 AI 替你把每个 PR 真跑一遍再合：公开 Beta 免费 的官方预览图",
+    "credit": "coderabbit.ai"
+  },
   "blocks": [
     {
       "type": "lead",

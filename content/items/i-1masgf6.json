@@ -1,5 +1,10 @@
 {
   "summary": "元数据、全部字形、Unicode 覆盖、OpenType 特性、可变字体轴、授权与健康评分，全程本地解析、文件不上传；",
+  "cover": {
+    "src": "https://onlinefontviewer.com/og-image.png",
+    "alt": "Online Font Viewer——拖字体文件进浏览器看个底朝天 的官方预览图",
+    "credit": "onlinefontviewer.com"
+  },
   "blocks": [
     {
       "type": "lead",

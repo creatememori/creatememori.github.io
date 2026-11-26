@@ -1,5 +1,10 @@
 {
   "summary": "Rachel Andrew 做的 CSS Grid 教程站，几十个版式示例都带可直接看的代码与效果说明，从命名网格区到自动放置一一拆开讲；",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/f5b96524-89f4-4c7c-b59a-6bf46168a23b.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",

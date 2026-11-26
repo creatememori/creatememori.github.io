@@ -1,5 +1,10 @@
 {
   "summary": "11 月 21 日上线的免费浏览器打碟课：两台虚拟黑胶唱机加混音台，21 节短课从混音、听拍对速、EQ 到搓盘、组一套演出曲目全覆盖；",
+  "cover": {
+    "src": "https://www.backspindj.com/og.jpg",
+    "alt": "Backspin——浏览器里学打碟：21 节免费课，真黑胶唱机+混音台零基础练手 的官方预览图",
+    "credit": "backspin-dj.web.app"
+  },
   "blocks": [
     {
       "type": "lead",

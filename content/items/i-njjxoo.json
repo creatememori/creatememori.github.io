@@ -1,5 +1,10 @@
 {
   "summary": "一键生成字体搭配方案的工具，基于深度学习从标题、正文、强调三层给配字组合，点一下换一套。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/224bd160-391d-492f-b6c5-00f282c49593.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
   "blocks": [
     {
       "type": "lead",
