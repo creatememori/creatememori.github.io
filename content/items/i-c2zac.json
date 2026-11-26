@@ -1,5 +1,5 @@
 {
-  "summary": "11 月 25 日发布：英伟达把文本大模型的结构直接用于生图，Nemotron-Labs-VisualCreation 框架的光栅生图组件，30B 总参、每 token 激活 3B；",
+  "summary": "英伟达把文本大模型的结构直接用于生图：30B 总参、每 token 只激活 3B，自报 GenEval 92.86、长文本渲染 97.98，权重免费下载，但仅限非商业研究与评估。",
   "cover": {
     "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nvidia/Nemotron-Labs-Image-30B-A3B.png",
     "alt": "NVIDIA Nemotron-Labs-Image-30B-A3B——英伟达开源权重的大语言模型式生图模型：30B 总参/3B 激活，GenEval 92.86、BizGenEval 86.0 超 GPT Image 2；注意仅限非商业研究与评估 的官方预览图",
@@ -8,44 +8,42 @@
   "blocks": [
     {
       "type": "lead",
-      "text": "11 月 25 日发布：英伟达把文本大模型的结构直接用于生图，Nemotron-Labs-VisualCreation 框架的光栅生图组件，30B 总参、每 token 激活 3B；自报 GenEval 92.86、长文本渲染 LongTextBench 97.98，BizGenEval 86.0 高于 GPT Image 2 的 83.2（均为厂商口径）；权重免费下载，但 NVIDIA License 仅限非商业研究与评估。"
+      "text": "11 月 25 日，英伟达发布 Nemotron-Labs-Image-30B-A3B：把文本大模型的结构直接搬到生图上。这是一个自回归的光栅生图模型，30B 总参数、每 token 只激活 3B，由 Nemotron 3 Nano 初始化；配套的视觉 tokenizer 约 6.42 亿参数。它是 Nemotron-Labs-VisualCreation 框架里先生图的部分，权重免费下载。"
     },
     {
       "type": "highlights",
       "title": "先看这几点",
       "items": [
-        "自报 GenEval 92.86、长文本渲染 LongTextBench 97.98，BizGenEval 86.0 高于 GPT Image 2 的 83.2（均为厂商口径）；",
-        "权重免费下载，但 NVIDIA License 仅限非商业研究与评估。",
-        "归类在「前沿追踪 / Hugging Face 论文速递」，11-26 晚收录。",
-        "原始入口在 huggingface.co，收录时标记为「有效」。"
+        "自回归生图：像语言模型一样逐 token 生成，再由 tokenizer 解码成图。",
+        "自报 GenEval 92.86、长文本渲染 LongTextBench 97.98。",
+        "BizGenEval 86.0，高于 GPT Image 2 的 83.2（均为厂商口径）。",
+        "配套思路叫 Pixel as Code：光栅图与可编辑结构共用一套接口。",
+        "NVIDIA License 仅限非商业研究与评估，商用不在授权内。"
       ]
     },
     {
       "type": "paragraph",
-      "text": "前沿更新最容易被“首发”“最强”“颠覆”带走。这个分类保留发布日期、来源和官方口径，把“已经发生的事实”和“厂商自报的数字”分开写。 这条具体落在「Hugging Face 论文速递」，不是单独的一条链接，而是放回主题脉络里一起看。"
+      "text": "它真正想做的比“再生一张图”大一圈：VisualCreation 框架的目标是把图片、网页、演示文稿、文档、图表都当成“可交付的视觉制品”，光栅外观与 SVG、HTML、CSS 这类可编辑结构走同一套生成、渲染与检查流程。首批只放出了生图组件与 tokenizer，负责结构化出图的 VisionCode 与整套 harness 还要等法律 clearance 之后才发布。"
     },
     {
       "type": "paragraph",
-      "text": "适合开发者、研究者与内容创作者做趋势判断。先看论文、代码和可复现实验，再看二手解读；涉及跑分、价格和可用范围时，回到原始页面核对。"
+      "text": "适合生图模型的研究者与评测者：想验证自回归路线在长文本渲染、信息图这类任务上的表现，或对比它与扩散路线的差异，可以直接下载权重跑。只想找个免费生图工具出图的人别走错门：它没有在线试用，推理示例就要 4 张 H100 80GB，而且许可明确排除了商业用途。"
     },
     {
       "type": "steps",
       "title": "怎么用",
       "items": [
-        "01 先看原始论文、仓库或官方博客，不看二手摘要",
-        "02 区分厂商自报、第三方复现与社区反馈",
-        "03 记录发布日期与版本，避免旧闻当新闻"
+        "先读模型页的结果表，分清哪些是这一个生图组件的分数、哪些是整套框架的分数。",
+        "准备 Linux、Python 3.12 与 CUDA 13.0 的环境，确认 4 张 H100 可见。",
+        "用 hf download 拉整个仓库，含 32 个 safetensors 分片与 tokenizer 目录。",
+        "按官方示例跑 infer.py，先出一张 1024 图验证流程，再改提示词。"
       ]
     },
     {
       "type": "callout",
       "tone": "warn",
       "title": "别忽略这一条",
-      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
-    },
-    {
-      "type": "paragraph",
-      "text": "如果这条和你的项目相关，建议先把它放进「前沿追踪」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+      "text": "两点要分清：第一，评测不是全线领先，GenEval2 65.43 低于 GPT Image 2 的 81.00，Qwen-Image-Bench 52.46 也低于对方的 65.23，标题里的数字要结合完整表格看；第二，许可只覆盖非商业研究与评估，权重免费下载不等于可以商用，框架其余组件也还没发布。"
     }
   ]
 }
