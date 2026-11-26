@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "MEMORI Builder"
           git config user.email "actions@users.noreply.github.com"
-          git add index.html library.html items content/items c updates feed.xml sitemap.xml robots.txt demo-data.js 404.html seo.css README.md MUSE_UPDATE_RULES.md DETAILS_WRITING_RULES.md
+          git add index.html library.html items content/items content/covers.json c updates feed.xml sitemap.xml robots.txt demo-data.js 404.html seo.css README.md MUSE_UPDATE_RULES.md DETAILS_WRITING_RULES.md
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
             exit 0

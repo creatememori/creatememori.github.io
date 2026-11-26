@@ -1316,11 +1316,51 @@ const updateLanding = (data) => {
   const proof = data.categoryCounts
     .map((entry) => `<a href="${categoryHref(entry.name)}">${esc(entry.name)}<b>${entry.count}</b></a>`)
     .join('');
-  return source
+  /* 2026-11-27 滞后修复：介绍页其余硬编码数字也随构建更新，否则 JSON-LD 与无 demo-data 时的 fallback
+     会一直停留在旧快照（此前仅 categoryProof 与 modified_time 被更新）。data.dates 按日期倒序，
+     首个为最新日、末个为最早日。以下替换均在模式不匹配时静默无操作，不会因模板微调而报错。 */
+  const activePct = data.total ? Math.round((data.active / data.total) * 100) : 0;
+  const rangeEnd = data.dates[0]?.date?.short || '';
+  const rangeStart = data.dates[data.dates.length - 1]?.date?.short || '';
+  const rangeLabel = rangeStart && rangeEnd
+    ? `2026.${rangeStart.replace('-', '.')}—${rangeEnd.replace('-', '.')}`
+    : null;
+  let updated = source
     .replace(/(<div class="feature-proof category-proof" id="categoryProof">)[\s\S]*?(<\/div>)/, `$1${proof}$2`)
     .replace(/(<meta property="article:modified_time" content=")[^"]+(">)/, `$1${data.sourceUpdated}$2`)
     .replace(/(<meta property="og:updated_time" content=")[^"]+(">)/, `$1${data.sourceUpdated}$2`)
-    .replace(/("dateModified": ")[^"]+(")/, `$1${data.sourceUpdated}$2`);
+    .replace(/("dateModified": ")[^"]+(")/, `$1${data.sourceUpdated}$2`)
+    /* JSON-LD FAQ 文案里的「全站 N 条」（2 处），搜索引擎直接读它 */
+    .replace(/全站 \d+ 条/g, `全站 ${data.total} 条`)
+    /* 首屏 SSR 数字（运行时 renderStats 会再覆盖一遍，构建先写对，爬虫不跑 JS 也能看到正确数字） */
+    .replace(/(id="noticeTotal">)\d+</, `$1${data.total}<`)
+    .replace(/(id="noticeActive">)\d+</, `$1${data.active}<`)
+    .replace(/(id="noticeShort">)\d+</, `$1${data.total}<`)
+    .replace(/(id="badgeTotal">)\d+</, `$1${data.total}<`)
+    .replace(/(id="metricTotal">)\d+</, `$1${data.total}<`)
+    .replace(/(id="metricPct">)\d+%</, `$1${activePct}%<`)
+    .replace(/(id="metricActive">)\d+</, `$1${data.active}<`)
+    .replace(/(id="faqTotal">)\d+</, `$1${data.total}<`)
+    .replace(/(id="faqAllTotal">)\d+</, `$1${data.total}<`)
+    /* demo-data.js 加载失败时的 fallbackData：总数/有效/占比/子分类/时间范围/分类计数 */
+    .replace(/(sourceUpdated: ')[^']+(')/, `$1${data.sourceUpdated}$2`)
+    .replace(/(total: )\d+(,)/, `$1${data.total}$2`)
+    .replace(/(active: )\d+(,)/, `$1${data.active}$2`)
+    .replace(/(activePct: )\d+(,)/, `$1${activePct}$2`)
+    .replace(/(subCount: )\d+(,)/, `$1${data.subCount}$2`)
+    .replace(/(rangeEnd: ')[^']+(')/, `$1${rangeEnd}$2`)
+    .replace(/(rangeStart: ')[^']+(')/, `$1${rangeStart}$2`);
+  if (rangeLabel) {
+    updated = updated.replace(/(id="noticeRange">)2026\.11\.16—[^<]+</, `$1${rangeLabel}<`);
+  }
+  for (const entry of data.categoryCounts) {
+    const name = entry.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    updated = updated.replace(
+      new RegExp(`(\\{ name:'${name}', count:)\\d+( \\})`),
+      `$1${entry.count}$2`,
+    );
+  }
+  return updated;
 };
 
 const cleanGeneratedDir = (dir, keep) => {
