@@ -1137,7 +1137,8 @@ const cleanGeneratedDir = (dir, keep) => {
 
 const main = () => {
   const data = readData();
-  data.sourceUpdated = gitUpdated(latestTimestamp(data.items));
+  /* 用最新一条内容的时间作为页面修改时间，避免“构建提交”本身反复触发下一次构建提交 */
+  data.sourceUpdated = latestTimestamp(data.items);
   const changed = [];
 
   const categoryFiles = new Set(data.categoryCounts.map((entry) => `c/${CATEGORY_META[entry.name].slug}.html`));
