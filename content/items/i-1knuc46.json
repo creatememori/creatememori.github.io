@@ -1,0 +1,51 @@
+{
+  "summary": "务必自查：微软 agent-framework 的 PyPI 1.26.1 / 1.26.2 两版被投毒。",
+  "cover": {
+    "src": "https://www.datocms-assets.com/75231/1794951224-threat-update-purple-wireframe_custom.jpeg?fm=webp",
+    "alt": "微软 agent-framework PyPI 投毒自查（1.26.1 / 1.26.2） 的官方预览图",
+    "credit": "wiz.io"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "务必自查：微软 agent-framework 的 PyPI 1.26.1 / 1.26.2 两版被投毒。11 月 17 日 20:35 / 21:08 UTC 发布，约 21:20 UTC 下架。两版都在 site-packages 放 .pth 文件（agent_framework_meta.pth / af_runtime_diag.pth），Python 每次启动就运行窃取器，即使从不 import 该包；窃取目标包括 Azure、AWS、GitHub、OpenAI、Hugging Face、Foundry 等环境变量与凭证文件，1.26.2 还会偷 GitHub Actions OIDC token。安全版是 1.26.0。装过任一恶意版的机器 / CI / 容器要按凭证已泄露处理、轮换密钥，并锁定 agent-framework==1.26.0 重建环境。自查：pip show agent-framework；检查 site-packages 有没有上述两个 .pth 文件。另见 JFrog https://research.jfrog.com/post/agent-framework-hijack/ ；Aikido https://www.aikido.dev/blog/two-malicious-agent-framework-releases-hit-pypi-in-33-minutes。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "11 月 17 日 20:35 / 21:08 UTC 发布，约 21:20 UTC 下架。",
+        "两版都在 site-packages 放 .pth 文件（agent_framework_meta.pth / af_runtime_diag.pth），Python 每次启动就运行窃取器，即使从不 import 该包；",
+        "归类在「前端·AI / 安全与版本更新」，11-19 早收录。",
+        "原始入口在 wiz.io，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「安全与版本更新」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先定位它改变的是开发、构建、测试还是部署",
+        "02 看维护者、Issue 活跃度与最小可复现示例",
+        "03 生产接入前准备回滚、权限与成本边界"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

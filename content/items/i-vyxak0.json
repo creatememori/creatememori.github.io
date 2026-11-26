@@ -1,0 +1,51 @@
+{
+  "summary": "11 月 22 日发布的新书：860 页、36 章 + 5 附录，从 print() 讲到 NumPy、Pandas 3.x、生物统计、Scikit-Learn 流水线与 PyTorch（T…",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/702950590dc3063b7c217d6e43a0ddf2f8e85f69a55fae9e67bf55ca681abc05/sharukh01621/first-line-to-first-paper",
+    "alt": "From First Line to First Paper——860 页开源教材：从第一行 Python 写到能发论文的深度学习 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 22 日发布的新书：860 页、36 章 + 5 附录，从 print() 讲到 NumPy、Pandas 3.x、生物统计、Scikit-Learn 流水线与 PyTorch（Transformer、LoRA），配 182 个一一对应的 Google Colab 练习本与带自动批改的 sharukh-tutor 包，另有 Zenodo 永久 DOI；正文 CC BY-NC-SA、代码 MIT，全免费。注意：个人作者首版、刚发布仅 2 天，内容体量为作者自述口径。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "正文 CC BY-NC-SA、代码 MIT，全免费。",
+        "注意：个人作者首版、刚发布仅 2 天，内容体量为作者自述口径。",
+        "归类在「学习成长 / 免费电子书与论文库」，11-24 中午收录。",
+        "原始入口在 github.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "不是所有“免费课”都值得花时间。这个分类优先收结构完整、能跟着做、有练习或项目产出的学习资料，并尽量标出难度、语言、时长和前置要求。 这条具体落在「免费电子书与论文库」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合想补一项具体技能的人。先定一个可交付的小目标，再选课；看大纲、更新时间和作业，不要只收藏标题。学完把结果做成可展示的作品，比看完进度条更重要。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先看大纲、更新时间与是否带练习",
+        "02 确认语言、难度、时长和前置要求",
+        "03 用一个可交付的小项目检验学习结果"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「学习成长」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

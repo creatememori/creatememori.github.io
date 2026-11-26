@@ -1,0 +1,51 @@
+{
+  "summary": "开源 Python CLI（MIT，11.4 万星）：一条命令给 Claude Code、Cursor 等 Agent 接上 X、Reddit、YouTube、GitHub、B 站、小红书、…",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/b9c04bd0c73e539186d51689765b0dd7a14c1873a99465663bbca80f9d3b4b92/Panniantong/Agent-Reach",
+    "alt": "Agent-Reach——给 Agent 装上全网眼睛：一个 CLI 读 X、Reddit、YouTube、B 站、小红书，不用买平台 API 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "开源 Python CLI（MIT，11.4 万星）：一条命令给 Claude Code、Cursor 等 Agent 接上 X、Reddit、YouTube、GitHub、B 站、小红书、V2EX、雪球等平台的搜索与阅读能力，B 站/YouTube 字幕、播客转文字也能拿，agent-reach doctor 一键查各渠道状态。安装：按仓库 README 的 install.md 指引从 GitHub 安装。注意：切勿从 PyPI 装同名包（那是另一个项目）；部分渠道需登录（复用 Chrome 登录态，建议用小号），转文字需自备 Groq/OpenAI Key；走的是非官方免费路径，留意各平台规则。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "安装：按仓库 README 的 install.md 指引从 GitHub 安装。",
+        "注意：切勿从 PyPI 装同名包（那是另一个项目）；",
+        "归类在「AI 实战 / AI 编程助手」，11-24 早收录。",
+        "原始入口在 github.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这里收的是能动手的 AI：模型、API、Agent 框架、自动化工作流、提示词方法和本地部署方案。每一条尽量保留运行条件、额度、依赖和失败边界。 这条具体落在「AI 编程助手」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合独立开发者、内容创作者与小团队。先做最小验证，再谈规模化；涉及数据、隐私和付费调用时，先算清成本与权限，别让一次演示变成长期账单。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先用最小任务验证输入、输出和失败情况",
+        "02 核对额度、速率限制、数据去向与商用条款",
+        "03 把提示词、模型版本和依赖固定下来再复用"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「AI 实战」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

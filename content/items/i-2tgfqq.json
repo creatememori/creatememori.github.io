@@ -1,0 +1,51 @@
+{
+  "summary": "Anthropic 数学家 Levent Alpöge 称在 Claude 协助下证明了黎曼猜想与广义黎曼猜想，形式化证明用 Lean 写成，约 25 万页；",
+  "cover": {
+    "src": "https://static.scientificamerican.com/dam/asset/cee10388-a264-4ba7-b944-7f0a8daf537d/riemann.jpg?m=1795217260.215&w=1200",
+    "alt": "Claude 辅助证明黎曼猜想？尚未最终确认 的官方预览图",
+    "credit": "scientificamerican.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Anthropic 数学家 Levent Alpöge 称在 Claude 协助下证明了黎曼猜想与广义黎曼猜想，形式化证明用 Lean 写成，约 25 万页；MIT 的 Andrew Sutherland 等人已用 Lean 独立重编，Scientific American 称“几乎肯定是对的”。但要说清：尚未最终确认——还差一轮对照检查（确认代码没有调换命题定义、多核独立编译），通常几小时内有结果，别当已证实转述。来源：Scientific American 两篇 + DataCamp。另：斯坦福 Ravi Vakil 同日贴出 Alessandro Masullo 的人类版 GRH 草稿。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "MIT 的 Andrew Sutherland 等人已用 Lean 独立重编，Scientific American 称“几乎肯定是对的”。",
+        "但要说清：尚未最终确认——还差一轮对照检查（确认代码没有调换命题定义、多核独立编译），通常几小时内有结果，别当已证实转述。",
+        "归类在「前端·AI / 其他动态」，11-21 早收录。",
+        "原始入口在 scientificamerican.com，收录时标记为「未核实」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「其他动态」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先定位它改变的是开发、构建、测试还是部署",
+        "02 看维护者、Issue 活跃度与最小可复现示例",
+        "03 生产接入前准备回滚、权限与成本边界"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

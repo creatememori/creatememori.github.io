@@ -1,0 +1,51 @@
+{
+  "summary": "微软 11 月 19 日宣布 Aion Instruct 正式 GA 后，Edge 的 Prompt API 同步进入 origin trial：注册 token 的生产网站能直接在页面代码…",
+  "cover": {
+    "src": "https://aiagentupdate.com/assets/memes/aion-instruct-ga-2026-11-23.webp",
+    "alt": "Edge Prompt API 进入 origin trial：生产网站可直接调用内置 Aion 模型 的官方预览图",
+    "credit": "aiagentupdate.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "微软 11 月 19 日宣布 Aion Instruct 正式 GA 后，Edge 的 Prompt API 同步进入 origin trial：注册 token 的生产网站能直接在页面代码里调用设备内置的 2.3B 端侧模型，做摘要、起草、结构化提取，全程不上云；Chrome 的 Gemini Nano 已有稳定 Prompt API，Edge 这次跟上，背后模型还是 MIT 开源权重。注意：模型本体（Aion 1.0）11 月 21 日已在前沿追踪分享过，本条是 GA 与浏览器 API 上线的新进展；Decisions API 仍在 Canary 预览。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "Chrome 的 Gemini Nano 已有稳定 Prompt API，Edge 这次跟上，背后模型还是 MIT 开源权重。",
+        "注意：模型本体（Aion 1.0）11 月 21 日已在前沿追踪分享过，本条是 GA 与浏览器 API 上线的新进展；",
+        "归类在「前端·AI / 其他动态」，11-23 晚收录。",
+        "原始入口在 aiagentupdate.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「其他动态」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先定位它改变的是开发、构建、测试还是部署",
+        "02 看维护者、Issue 活跃度与最小可复现示例",
+        "03 生产接入前准备回滚、权限与成本边界"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

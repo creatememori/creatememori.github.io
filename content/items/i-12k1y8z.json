@@ -1,0 +1,51 @@
+{
+  "summary": "开源 AI 代码审查工具刚被原公司 Qodo 捐给社区（仓库迁至 The-PR-Agent/pr-agent），v0.50.0；",
+  "cover": {
+    "src": "https://aifrontierpost.com/articles/pr-agent-ai-code-review-tutorial/cover.webp",
+    "alt": "PR-Agent 实战：让 AI 审你的 PR，本地 Ollama 零成本跑通 的官方预览图",
+    "credit": "aifrontierpost.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "开源 AI 代码审查工具刚被原公司 Qodo 捐给社区（仓库迁至 The-PR-Agent/pr-agent），v0.50.0；教程手把手教你接本地 Ollama（qwen3:0.6b）零成本审真实 PR，还能生成 PR 描述、提改进建议、接 GitHub Action 自动审。注意：本地小模型审得浅、结构对内容弱，换大模型或托管模型效果更好；走 GitHub 自动审需模型 API Key（按量计费）。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "教程手把手教你接本地 Ollama（qwen3:0.6b）零成本审真实 PR，还能生成 PR 描述、提改进建议、接 GitHub Action 自动审。",
+        "注意：本地小模型审得浅、结构对内容弱，换大模型或托管模型效果更好；",
+        "归类在「AI 实战 / AI 编程助手」，11-21 早收录。",
+        "原始入口在 aifrontierpost.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这里收的是能动手的 AI：模型、API、Agent 框架、自动化工作流、提示词方法和本地部署方案。每一条尽量保留运行条件、额度、依赖和失败边界。 这条具体落在「AI 编程助手」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合独立开发者、内容创作者与小团队。先做最小验证，再谈规模化；涉及数据、隐私和付费调用时，先算清成本与权限，别让一次演示变成长期账单。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先用最小任务验证输入、输出和失败情况",
+        "02 核对额度、速率限制、数据去向与商用条款",
+        "03 把提示词、模型版本和依赖固定下来再复用"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「AI 实战」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

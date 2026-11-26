@@ -1,0 +1,51 @@
+{
+  "summary": "建议标题「Docker Desktop 平替还自带免费内网穿透：Rust 写的轻量容器运行时」。",
+  "cover": {
+    "src": "https://repository-images.githubusercontent.com/1443186633/b37f603b-1346-40e2-a425-c96c9b52ccc3",
+    "alt": "kiri——Rust 写的轻量容器运行时：Docker Desktop 平替，还自带免费 ngrok 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "建议标题「Docker Desktop 平替还自带免费内网穿透：Rust 写的轻量容器运行时」。拍法：Apache-2.0 开源容器运行时 kiri（约 1.3 万星），完整兼容 Docker Engine API，docker CLI、Compose、buildx 原样可用，还能一键起单节点 k8s 与 Linux 虚拟机；kiri share 一条命令把本地端口发成公开 HTTPS 链接，免费 ngrok 平替。注意：项目仅 3 周大、仍在 beta；Kiri Share 需 GitHub 登录开 Kiri Cloud 账号，套餐额度未公布。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "拍法：Apache-2.0 开源容器运行时 kiri（约 1.3 万星），完整兼容 Docker Engine API，docker CLI、Compose、buildx 原样可用，还能一键起单节点 k8s 与 Linux 虚拟机；",
+        "kiri share 一条命令把本地端口发成公开 HTTPS 链接，免费 ngrok 平替。",
+        "归类在「YouTube 选题 / 系统优化与装机」，11-25 早收录。",
+        "原始入口在 github.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这个分类不整理“新闻摘要”，而是把一条资源翻译成内容：观众为什么会点开、开头怎么证明、过程中要展示什么、哪里最容易翻车。每条都尽量附一个可用的标题方向。 这条具体落在「系统优化与装机」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合做工具测评、AI 教程、设计拆解与科技解释类内容的人。先验证再拍，别把厂商口径直接念成结论；涉及价格、额度和截止日时，拍前再核对一次。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先亲手跑通，再决定是测评、教程还是观点",
+        "02 开头给结果或冲突，中段展示过程与限制",
+        "03 价格、额度、截止日拍前复核，注明官方口径"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「YouTube 选题」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

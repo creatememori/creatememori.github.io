@@ -1,0 +1,51 @@
+{
+  "summary": "给编程助手装审美的 Agent Skill（Leonxlnx/taste-skill，MIT，120,134 星，v2.5.1）：让 Claude Code、Codex、Cursor 按 f…",
+  "cover": {
+    "src": "https://repository-images.githubusercontent.com/1162099055/0a968964-fdca-4781-853b-84afc2bc2d31",
+    "alt": "taste-skill——给编程助手装审美的 Agent Skill 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "给编程助手装审美的 Agent Skill（Leonxlnx/taste-skill，MIT，120,134 星，v2.5.1）：让 Claude Code、Codex、Cursor 按 figma.com、x.ai 级标准做公司官网——一套设计系统、一屏一节、真实照片与真实产品 UI，着色器与滚动特效只给科技/游戏类页面，交付前在真实浏览器里逐项检查并过终审门。安装：npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\"。注意：需 Node 22+ 与 Chrome/Edge/Chromium，不用 API Key。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "安装：npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\"。",
+        "注意：需 Node 22+ 与 Chrome/Edge/Chromium，不用 API Key。",
+        "归类在「AI 实战 / AI 编程助手」，11-23 早收录。",
+        "原始入口在 github.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这里收的是能动手的 AI：模型、API、Agent 框架、自动化工作流、提示词方法和本地部署方案。每一条尽量保留运行条件、额度、依赖和失败边界。 这条具体落在「AI 编程助手」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合独立开发者、内容创作者与小团队。先做最小验证，再谈规模化；涉及数据、隐私和付费调用时，先算清成本与权限，别让一次演示变成长期账单。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先用最小任务验证输入、输出和失败情况",
+        "02 核对额度、速率限制、数据去向与商用条款",
+        "03 把提示词、模型版本和依赖固定下来再复用"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「AI 实战」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "summary": "Google 11 月 12 日发布 Gemini 4 Hydrogen：面向日常编码与 Agent 工作流的高速模型，100 万上下文、$1.50/$7.50 每百万 tokens；",
+  "cover": {
+    "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+    "alt": "Gemini 4 Hydrogen：给 Agent 干活的高速执行模型 的官方预览图",
+    "credit": "blog.google"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Google 11 月 12 日发布 Gemini 4 Hydrogen：面向日常编码与 Agent 工作流的高速模型，100 万上下文、$1.50/$7.50 每百万 tokens；官方称 Terminal-Bench 4.1 达 57%（3.8 Flash 为 18.2%）、速度快 2.5 倍，Antigravity 里新增 Orchestrator 可在同一会话内自动切换 Carbon 与 Hydrogen。注意：基准均为 Google 自测。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "官方称 Terminal-Bench 4.1 达 57%（3.8 Flash 为 18.2%）、速度快 2.5 倍，Antigravity 里新增 Orchestrator 可在同一会话内自动切换 Carbon 与 Hydrogen。",
+        "注意：基准均为 Google 自测。",
+        "归类在「前端·AI / 其他动态」，11-23 早收录。",
+        "原始入口在 blog.google，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「其他动态」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先定位它改变的是开发、构建、测试还是部署",
+        "02 看维护者、Issue 活跃度与最小可复现示例",
+        "03 生产接入前准备回滚、权限与成本边界"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

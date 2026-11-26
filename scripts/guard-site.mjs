@@ -45,6 +45,11 @@ const required = [
   'scripts/audit-data.mjs',
   'scripts/guard-site.mjs',
   'scripts/indexnow.mjs',
+  'scripts/seed-details.mjs',
+  'scripts/fetch-covers.mjs',
+  'content/items',
+  'items',
+  'DETAILS_WRITING_RULES.md',
   'c/index.html',
   'updates/index.html',
   'a3d282fd8fba43b3967247aa12d24f33.txt',
@@ -60,6 +65,16 @@ const demo = read('demo-data.js');
 const cname = read('CNAME').trim();
 const readme = read('README.md');
 const rules = read('MUSE_UPDATE_RULES.md');
+
+const hashText = (value) => {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return (hash >>> 0).toString(36);
+};
+const itemId = (item) => `i-${hashText(`${item[0]}|${item[2]}|${item[3]}|${item[1]}`)}`;
 
 const itemsMatch = library.match(/var ITEMS=(\[[\s\S]*?\n\]);/);
 const catMatch = library.match(/var CAT_ORDER=(\[[^\]]*\]);/);
@@ -162,6 +177,38 @@ try {
 check('demo-data 条数', demoMeta?.meta?.total === total, `demo=${demoMeta?.meta?.total} total=${total}`);
 check('demo-data 演示 96 条', demoMeta?.items?.length === 96, `demoItems=${demoMeta?.items?.length}`);
 check('demo-data 分类带 slug', demoMeta?.meta?.categories?.every((entry) => entry.slug), 'categories');
+check('demo-data 每条带详情地址', demoMeta?.items?.every((entry) => /^\/items\/[^/]+\.html$/.test(entry.detail || '')), 'detail path');
+
+const detailIds = items.map(itemId);
+const detailJsonNames = fs.readdirSync(filePath('content/items')).filter((name) => name.endsWith('.json'));
+const detailPageNames = fs.readdirSync(filePath('items')).filter((name) => name.endsWith('.html'));
+check('详情 JSON 数量与 ITEMS 一致', detailJsonNames.length === total, `json=${detailJsonNames.length} items=${total}`);
+check('详情 HTML 数量与 ITEMS 一致', detailPageNames.length === total, `pages=${detailPageNames.length} items=${total}`);
+let missingDetailPages = 0;
+let badDetailCanonical = 0;
+let badDetailArticle = 0;
+let fallbackDetailPages = 0;
+for (const id of detailIds) {
+  if (!exists(`items/${id}.html`)) {
+    missingDetailPages += 1;
+    continue;
+  }
+  const page = read(`items/${id}.html`);
+  if (!page.includes(`<link rel="canonical" href="https://creatememori.blog/items/${id}.html">`)) badDetailCanonical += 1;
+  if (!page.includes('"@type":"Article"') || !page.includes('<h1>')) badDetailArticle += 1;
+  if (page.includes('当前详情内容尚未补充')) fallbackDetailPages += 1;
+}
+check('详情页文件全部存在', missingDetailPages === 0, `missing=${missingDetailPages}`);
+check('详情页 canonical 全部正确', badDetailCanonical === 0, `bad=${badDetailCanonical}`);
+check('详情页 Article 结构化数据全部存在', badDetailArticle === 0, `bad=${badDetailArticle}`);
+check('详情页没有退化为占位页', fallbackDetailPages === 0, `fallback=${fallbackDetailPages}`);
+check('sitemap 含全部详情页', count(sitemap, /<loc>https:\/\/creatememori\.blog\/items\//g) === total, `count=${count(sitemap, /<loc>https:\/\/creatememori\.blog\/items\//g)}`);
+check('sitemap URL 数 >= 976', count(sitemap, /<url>/g) >= 976, `count=${count(sitemap, /<url>/g)}`);
+check('RSS 条目指向详情页', count(feed, /<link>https:\/\/creatememori\.blog\/items\//g) === Math.min(50, total), `count=${count(feed, /<link>https:\/\/creatememori\.blog\/items\//g)}`);
+check('资源库静态卡片链接详情页', count(library, /<a class="item-desc-link" href="\/items\//g) === total, `count=${count(library, /<a class="item-desc-link" href="\/items\//g)}`);
+check('资源库 JS 详情映射', library.includes('id:itemIdFromItem') && library.includes('function detailHref'), 'detailHref');
+check('介绍页演示卡链接详情页', landing.includes('item.detail') && landing.includes('archive-desc"><a href='), 'landing detail');
+check('详情页样式存在', read('seo.css').includes('.detail-hero') && read('seo.css').includes('.detail-callout'), 'seo.css');
 
 check('IndexNow key 内容正确', read('a3d282fd8fba43b3967247aa12d24f33.txt').trim() === 'a3d282fd8fba43b3967247aa12d24f33');
 check('logo 外部文件', library.includes('src="logo.png"') || library.includes('href="logo.png"'));

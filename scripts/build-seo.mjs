@@ -18,15 +18,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
-import crypto from 'node:crypto';
-import { execSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://creatememori.blog';
 const LIBRARY_FILE = path.join(ROOT, 'library.html');
 const LANDING_FILE = path.join(ROOT, 'index.html');
+const ITEMS_DIR = path.join(ROOT, 'items');
+const DETAILS_DIR = path.join(ROOT, 'content', 'items');
 const DEMO_PER_CATEGORY = 8;
+const DETAIL_BLOCK_TYPES = new Set(['lead', 'paragraph', 'highlights', 'steps', 'callout', 'quote', 'image', 'gallery']);
 
 const now = new Date();
 const cstToday = new Date(now.getTime() + 8 * 3600 * 1000);
@@ -368,10 +369,17 @@ const statusClass = (status) => {
   return 'ok';
 };
 
-const itemId = (item) => `i-${crypto.createHash('sha1')
-  .update(`${item.title}|${item.date}|${item.period}|${item.cat}`)
-  .digest('hex')
-  .slice(0, 10)}`;
+const hashText = (value) => {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return (hash >>> 0).toString(36);
+};
+
+const itemId = (item) => `i-${hashText(`${item.title}|${item.date}|${item.period}|${item.cat}`)}`;
+const itemHref = (item) => `/items/${item.id}.html`;
 
 const latestOf = (items) => [...items].sort((a, b) => (b.dateObj - a.dateObj)
   || (PERIOD_RANK[b.period] - PERIOD_RANK[a.period])
@@ -470,17 +478,39 @@ const readData = () => {
   };
 };
 
-const gitUpdated = (fallback) => {
-  try {
-    const value = execSync('git log -1 --format=%cI -- library.html', {
-      cwd: ROOT,
-      encoding: 'utf8',
-      stdio: ['ignore', 'pipe', 'ignore'],
-    }).trim();
-    if (value) return value;
-  } catch {}
-  return fallback;
+const readDetails = () => {
+  const details = new Map();
+  if (!fs.existsSync(DETAILS_DIR)) return details;
+  for (const name of fs.readdirSync(DETAILS_DIR)) {
+    if (!name.endsWith('.json')) continue;
+    const id = name.slice(0, -5);
+    try {
+      const detail = JSON.parse(fs.readFileSync(path.join(DETAILS_DIR, name), 'utf8'));
+      if (detail && typeof detail === 'object') details.set(id, detail);
+    } catch (error) {
+      console.warn(`详情 JSON 解析失败：${name} / ${error.message}`);
+    }
+  }
+  return details;
 };
+
+const fallbackDetail = (item) => ({
+  summary: item.desc.slice(0, 90),
+  blocks: [
+    { type: 'lead', text: item.desc },
+    { type: 'paragraph', text: `这条内容收录在「${item.cat} / ${item.sub}」。当前详情内容尚未补充，先保留原始来源供核对。` },
+  ],
+});
+
+const detailText = (detail) => (detail?.blocks || [])
+  .flatMap((block) => {
+    if (block.type === 'highlights' || block.type === 'steps') return [...(block.title ? [block.title] : []), ...(block.items || [])];
+    if (block.type === 'gallery') return [...(block.images || []).flatMap((image) => [image.alt || '', image.caption || ''])];
+    return [block.text || '', block.title || '', block.source || '', block.caption || ''];
+  })
+  .join(' ');
+
+const countChinese = (value) => (String(value).match(/[\u4e00-\u9fff]/g) || []).length;
 
 const createdAt = (date, period = '晚') => `${date}T${PERIOD_TIME[period] || '20:00:00'}+08:00`;
 const latestTimestamp = (items) => {
@@ -534,7 +564,7 @@ const breadcrumbHtml = (entries) => `<nav class="breadcrumbs" aria-label="面包
   .map(([name, url], index) => `${index ? '<span aria-hidden="true">/</span>' : ''}<a href="${esc(url)}">${esc(name)}</a>`)
   .join('')}</nav>`;
 
-const pageShell = ({ title, description, canonical, body, jsonld, modified, published, ogType = 'website', robots = 'index,follow,max-image-preview:large' }) => {
+const pageShell = ({ title, description, canonical, body, jsonld, modified, published, ogType = 'website', robots = 'index,follow,max-image-preview:large', image = ogImage, imageAlt = '创忆录 MEMORI：免费资源、AI 工具与设计灵感库' }) => {
   const safeJson = jsonld ? JSON.stringify(jsonld).replace(/</g, '\\u003c') : '';
   const canonicalTag = canonical ? `<link rel="canonical" href="${esc(canonical)}">` : '';
   const dateTags = [
@@ -561,15 +591,15 @@ ${canonicalTag}
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${esc(canonical || `${SITE}/`)}">
-<meta property="og:image" content="${ogImage}">
+<meta property="og:image" content="${esc(image)}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="创忆录 MEMORI：免费资源、AI 工具与设计灵感库">
+<meta property="og:image:alt" content="${esc(imageAlt)}">
 ${dateTags}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(description)}">
-<meta name="twitter:image" content="${ogImage}">
+<meta name="twitter:image" content="${esc(image)}">
 ${jsonld ? `<script type="application/ld+json">${safeJson}</script>` : ''}
 </head>
 <body style="--accent:${CATEGORY_META[currentCategory]?.accent || '#7C5CFF'}">
@@ -622,11 +652,11 @@ const itemFooter = (item) => {
 };
 
 const renderItem = (item, limit = 132, withId = true) => {
-  const url = item.url || `${SITE}/library.html#allHead`;
+  const detail = itemHref(item);
   return `<article class="item-card"${withId ? ` id="${item.id}"` : ''}>
   <div class="item-head"><div class="tags"><a class="tag" href="${categoryHref(item.cat)}">${esc(item.cat)}</a><span class="tag tag-sub">${esc(item.sub)}</span></div><time datetime="${item.dateIso}">${esc(item.date)}</time></div>
-  <h3><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></h3>
-  <p>${esc(truncate(item.desc, limit))}</p>
+  <h3><a href="${detail}">${esc(item.title)}</a></h3>
+  <p><a class="item-desc-link" href="${detail}">${esc(truncate(item.desc, limit))}</a></p>
   ${itemFooter(item)}
 </article>`;
 };
@@ -634,11 +664,164 @@ const renderItem = (item, limit = 132, withId = true) => {
 const renderItemGrid = (items, limit = 132, withId = true) => `<div class="item-grid">${items.map((item) => renderItem(item, limit, withId)).join('')}</div>`;
 
 const latestList = (items) => `<div class="latest-list">${items.map((item) => {
-  const url = item.url || `${SITE}/library.html#allHead`;
-  return `<div class="latest-row"><time datetime="${item.dateIso}">${esc(item.date)}</time><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a><span>${esc(item.cat)}</span></div>`;
+  return `<div class="latest-row"><time datetime="${item.dateIso}">${esc(item.date)}</time><a href="${itemHref(item)}">${esc(item.title)}</a><span>${esc(item.cat)}</span></div>`;
 }).join('')}</div>`;
 
 const sectionHead = (title, note = '') => `<div class="section-head"><h2>${esc(title)}</h2>${note ? `<p class="note">${note}</p>` : ''}</div>`;
+
+const detailImage = (image, className = 'detail-figure') => {
+  if (!image?.src) return '';
+  return `<figure class="${className}">
+  <img src="${esc(image.src)}" alt="${esc(image.alt || '资源预览图')}" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  ${(image.caption || image.credit) ? `<figcaption>${image.caption ? esc(image.caption) : ''}${image.credit ? `<span>${esc(image.credit)}</span>` : ''}</figcaption>` : ''}
+</figure>`;
+};
+
+const renderDetailBlock = (block) => {
+  if (!block || !DETAIL_BLOCK_TYPES.has(block.type)) return '';
+  if (block.type === 'lead') return `<p class="detail-lead">${esc(block.text)}</p>`;
+  if (block.type === 'paragraph') return `<p>${esc(block.text)}</p>`;
+  if (block.type === 'highlights') {
+    const items = (block.items || []).filter(Boolean);
+    if (!items.length) return '';
+    return `<section class="detail-block detail-highlights">
+      ${block.title ? `<h2>${esc(block.title)}</h2>` : ''}
+      <ul>${items.map((entry) => `<li>${esc(entry)}</li>`).join('')}</ul>
+    </section>`;
+  }
+  if (block.type === 'steps') {
+    const items = (block.items || []).filter(Boolean);
+    if (!items.length) return '';
+    return `<section class="detail-block detail-steps">
+      ${block.title ? `<h2>${esc(block.title)}</h2>` : ''}
+      <ol>${items.map((entry) => `<li>${esc(entry)}</li>`).join('')}</ol>
+    </section>`;
+  }
+  if (block.type === 'callout') {
+    const tone = ['info', 'tip', 'warn'].includes(block.tone) ? block.tone : 'tip';
+    return `<aside class="detail-callout callout-${tone}">
+      <small>${esc(block.title || (tone === 'warn' ? '注意' : tone === 'info' ? '背景' : '提示'))}</small>
+      <p>${esc(block.text)}</p>
+    </aside>`;
+  }
+  if (block.type === 'quote') {
+    return `<blockquote class="detail-quote"><p>${esc(block.text)}</p>${block.source ? `<footer>${esc(block.source)}</footer>` : ''}</blockquote>`;
+  }
+  if (block.type === 'image') return detailImage(block);
+  if (block.type === 'gallery') {
+    const images = (block.images || []).filter((image) => image?.src);
+    if (!images.length) return '';
+    return `<div class="detail-gallery">${images.map((image) => detailImage(image, 'detail-gallery-item')).join('')}</div>`;
+  }
+  return '';
+};
+
+const detailRelated = (data, item, detail) => {
+  const related = data.normalized.filter((row) => row.id !== item.id && (row.sub === item.sub || row.cat === item.cat)).slice(0, 4);
+  return related.map((row) => `<a class="detail-related-card" href="${itemHref(row)}">
+    <small>${esc(row.cat)} · ${esc(row.sub)}</small>
+    <strong>${esc(row.title)}</strong>
+    <span>${esc(row.date)} · ${esc(row.heat)}热度</span>
+  </a>`).join('');
+};
+
+const itemPage = (data, item, detail) => {
+  const canonical = `${SITE}${itemHref(item)}`;
+  const sourceUrl = item.url || `${SITE}/library.html#allHead`;
+  const summary = String(detail.summary || item.desc || item.title).trim();
+  const title = `${item.title}｜${item.cat} · 创忆录`;
+  const cover = detail.cover?.src ? detail.cover : null;
+  const coverSrc = cover?.src ? (cover.src.startsWith('http') ? cover.src : `${SITE}${cover.src}`) : `${SITE}/og-cover.png`;
+  const blocks = (detail.blocks || []).map(renderDetailBlock).filter(Boolean).join('\n');
+  currentCategory = item.cat;
+  const body = `<div class="shell detail-shell">
+${breadcrumbHtml([['首页', '/'], ['资源库', '/library.html'], [item.cat, categoryHref(item.cat)], [item.title, itemHref(item)]])}
+<article class="detail-wrap">
+  <header class="detail-hero">
+    <div class="detail-kicker"><a href="${categoryHref(item.cat)}">${esc(item.cat)}</a><span>${esc(item.sub)}</span><em>MEMORI DETAIL / ${String(item.index + 1).padStart(3, '0')}</em></div>
+    <h1>${esc(item.title)}</h1>
+    <p class="detail-summary">${esc(summary)}</p>
+    <div class="detail-meta">
+      <span class="status status-${statusClass(item.status)}">${esc(item.status)}</span>
+      <span>${esc(item.date)} · ${esc(item.period)}</span>
+      <span>${esc(item.heat)}热度</span>
+      ${item.deadline ? `<span>截止 ${esc(item.deadline)}</span>` : ''}
+      <a href="${esc(sourceUrl)}" target="_blank" rel="noopener noreferrer">原始来源 ↗</a>
+    </div>
+  </header>
+  ${cover ? detailImage(cover, 'detail-cover') : `<div class="detail-art" aria-hidden="true"><span>${esc(item.cat)}</span><b>${esc(item.sub)}</b><small>ARCHIVE / ${String(item.index + 1).padStart(3, '0')}</small></div>`}
+  <div class="detail-columns">
+    <div class="detail-content">${blocks || `<p class="detail-lead">${esc(item.desc)}</p>`}</div>
+    <aside class="detail-aside">
+      <div class="detail-aside-card">
+        <small>收录信息</small>
+        <strong>${esc(item.cat)} · ${esc(item.sub)}</strong>
+        <p>${esc(item.date)} ${esc(item.period)}批次收录。详情页由结构化内容生成，原始入口和最新限制以来源页为准。</p>
+        <a href="${esc(sourceUrl)}" target="_blank" rel="noopener noreferrer">打开原始来源 ↗</a>
+      </div>
+      <div class="detail-aside-card">
+        <small>同主题继续看</small>
+        <div class="detail-related">${detailRelated(data, item, detail)}</div>
+        <a class="all-link" href="${categoryHref(item.cat)}">回到「${esc(item.cat)}」分类 <span aria-hidden="true">→</span></a>
+      </div>
+    </aside>
+  </div>
+  <nav class="detail-bottom" aria-label="详情页导航">
+    <a href="/library.html">← 返回资源库</a>
+    <a href="${categoryHref(item.cat)}">继续看 ${esc(item.cat)} →</a>
+  </nav>
+</article>
+</div>`;
+  const jsonld = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      ORGANIZATION,
+      WEBSITE,
+      {
+        '@type': 'Article',
+        '@id': `${canonical}#article`,
+        headline: item.title,
+        description: summary,
+        datePublished: createdAt(item.dateIso, item.period),
+        dateModified: data.sourceUpdated,
+        author: { '@id': `${SITE}/#organization` },
+        publisher: { '@id': `${SITE}/#organization` },
+        image: coverSrc,
+        mainEntityOfPage: canonical,
+        articleSection: item.cat,
+        keywords: [item.cat, item.sub, item.heat].filter(Boolean),
+        isPartOf: { '@id': `${SITE}/#website` },
+      },
+      breadcrumbObject([['首页', '/'], ['资源库', '/library.html'], [item.cat, categoryHref(item.cat)], [item.title, itemHref(item)]]),
+    ],
+  };
+  return pageShell({
+    title,
+    description: truncate(summary, 150),
+    canonical,
+    body,
+    jsonld,
+    modified: data.sourceUpdated,
+    published: createdAt(item.dateIso, item.period),
+    ogType: 'article',
+    image: coverSrc,
+    imageAlt: cover?.alt || `${item.title} 预览图`,
+  });
+};
+
+const renderStaticCard = (item) => {
+  const detail = itemHref(item);
+  const meta = [
+    item.cat,
+    item.sub,
+    item.date,
+    item.period,
+    item.heat,
+    item.status,
+    item.deadline ? `截止 ${item.deadline}` : '',
+  ].filter(Boolean).join(' · ');
+  return `<article class="card"><h3><a href="${detail}">${esc(item.title)}</a></h3><p><a class="item-desc-link" href="${detail}">${esc(item.desc)}</a></p><p class="meta">${esc(meta)}</p></article>`;
+};
 
 const categoryPage = (data, meta, count) => {
   const items = data.normalized.filter((item) => item.cat === meta.name);
@@ -975,6 +1158,12 @@ const buildSitemap = (data) => {
       changefreq: 'monthly',
       priority: '0.6',
     })),
+    ...data.normalized.map((item) => ({
+      loc: itemHref(item),
+      lastmod: item.dateIso,
+      changefreq: 'monthly',
+      priority: '0.7',
+    })),
   ];
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -1004,7 +1193,7 @@ const buildFeed = (data) => {
   <image><url>${SITE}/logo.png</url><title>创忆录 MEMORI</title><link>${SITE}/</link></image>
   <atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml"/>
 ${items.map((item) => {
-    const link = `${SITE}/updates/${item.dateIso}.html#${item.id}`;
+    const link = `${SITE}${itemHref(item)}`;
     const pub = new Date(createdAt(item.dateIso, item.period)).toUTCString();
     const desc = String(item.desc || '').replace(/]]>/g, ']]&gt;');
     return `  <item>
@@ -1042,6 +1231,7 @@ const buildDemoData = (data) => {
       if (usedTitles.has(item.key)) continue;
       usedTitles.add(item.key);
       picked.push({
+        id: item.id,
         title: item.title,
         cat: item.cat,
         sub: item.sub,
@@ -1053,6 +1243,7 @@ const buildDemoData = (data) => {
         url: item.url,
         deadline: item.deadline,
         deadlineDays: item.deadlineDays,
+        detail: itemHref(item),
       });
       if (picked.length === DEMO_PER_CATEGORY) break;
     }
@@ -1101,7 +1292,7 @@ const save = (relativePath, content, changed) => {
 const updateTopicGrid = (data) => {
   const source = fs.readFileSync(LIBRARY_FILE, 'utf8');
   const grid = data.categoryCounts.map((entry) => `<a class="topic-card" href="${categoryHref(entry.name)}"><span>${esc(entry.name)}</span><b>${entry.count}</b></a>`).join('\n    ');
-  const updated = source
+  let updated = source
     .replace(/<!-- BUILD:TOPIC-GRID:START -->[\s\S]*?<!-- BUILD:TOPIC-GRID:END -->/, `<!-- BUILD:TOPIC-GRID:START -->\n    ${grid}\n    <!-- BUILD:TOPIC-GRID:END -->`)
     .replace(/(<span class="range-chip">)[\s\S]*?(<\/span>)/, `$1${data.dates[data.dates.length - 1]?.date.short || '—'} → ${data.latest.date} · 持续更新$2`)
     .replace(/(<span id="footRange">)[\s\S]*?(<\/span>)/, `$1数据范围：${data.dates[data.dates.length - 1]?.date.short || '—'} ～ ${data.latest.date} 的实际分享记录$2`)
@@ -1109,6 +1300,12 @@ const updateTopicGrid = (data) => {
     .replace(/(<meta property="article:modified_time" content=")[^"]+(">)/, `$1${data.sourceUpdated}$2`)
     .replace(/(<meta property="og:updated_time" content=")[^"]+(">)/, `$1${data.sourceUpdated}$2`)
     .replace(/("dateModified": ")[^"]+(")/, `$1${data.sourceUpdated}$2`);
+
+  const staticCards = data.normalized.map(renderStaticCard).join('');
+  const staticBlock = /<div id="viewRoot"><div class="cards">[\s\S]*?<\/div><\/div>\s*<nav class="pager" id="pager"/;
+  if (staticBlock.test(updated)) {
+    updated = updated.replace(staticBlock, `<div id="viewRoot"><div class="cards">${staticCards}</div></div>\n<nav class="pager" id="pager"`);
+  }
   return updated;
 };
 
@@ -1139,7 +1336,15 @@ const main = () => {
   const data = readData();
   /* 用最新一条内容的时间作为页面修改时间，避免“构建提交”本身反复触发下一次构建提交 */
   data.sourceUpdated = latestTimestamp(data.items);
+  data.details = readDetails();
   const changed = [];
+
+  const itemFiles = new Set(data.items.map((item) => `items/${item.id}.html`));
+  cleanGeneratedDir('items', itemFiles);
+  for (const item of data.items) {
+    const detail = data.details.get(item.id) || fallbackDetail(item);
+    save(`items/${item.id}.html`, itemPage(data, item, detail), changed);
+  }
 
   const categoryFiles = new Set(data.categoryCounts.map((entry) => `c/${CATEGORY_META[entry.name].slug}.html`));
   categoryFiles.add('c/index.html');
@@ -1165,8 +1370,9 @@ const main = () => {
   const landing = updateLanding(data);
   if (landing !== null) save('index.html', landing, changed);
 
-  console.log(`Built ${data.total} items / ${data.categories.length} categories / ${data.dates.length} days.`);
+  console.log(`Built ${data.total} items / ${data.categories.length} categories / ${data.dates.length} days / ${data.total} detail pages.`);
   console.log(`Latest ${data.latest.dateIso}; active ${data.active}; subcategories ${data.subCount}; sourceUpdated ${data.sourceUpdated}.`);
+  console.log(`Detail JSON ${data.details.size}; sitemap ${data.total + data.categoryCounts.length + data.dates.length + 4} URLs.`);
   console.log(`Changed ${changed.length} files${changed.length ? `: ${changed.join(', ')}` : ''}.`);
 };
 

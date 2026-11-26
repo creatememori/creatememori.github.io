@@ -1,0 +1,50 @@
+{
+  "summary": "11 月 25 日发布：JetBrains 开源编程模型 Mellum2.1 的直答版，同架构 12B MoE（每 token 激活 2.5B），不输出思维链，Agent 任务 token …",
+  "cover": {
+    "src": "https://blog.jetbrains.com/wp-content/uploads/2026/11/mellum2.1-instruct-cover-2560x1440-jetbrains-nvidia-1.png",
+    "alt": "Mellum2.1 Instruct——JetBrains 发布开源编程模型：不写思考过程直接给答案，SWE-bench 40.4% 的官方预览图",
+    "credit": "blog.jetbrains.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 25 日发布：JetBrains 开源编程模型 Mellum2.1 的直答版，同架构 12B MoE（每 token 激活 2.5B），不输出思维链，Agent 任务 token 量比 Thinking 版少约 45%；SWE-bench Verified 40.4%（厂商自测，较上代翻倍），Apache 2.0 开源，Hugging Face 有 GGUF 本地版。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "SWE-bench Verified 40.4%（厂商自测，较上代翻倍），Apache 2.0 开源，Hugging Face 有 GGUF 本地版。",
+        "归类在「前沿追踪 / Hugging Face 论文速递」，11-26 早收录。",
+        "原始入口在 blog.jetbrains.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前沿更新最容易被“首发”“最强”“颠覆”带走。这个分类保留发布日期、来源和官方口径，把“已经发生的事实”和“厂商自报的数字”分开写。 这条具体落在「Hugging Face 论文速递」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合开发者、研究者与内容创作者做趋势判断。先看论文、代码和可复现实验，再看二手解读；涉及跑分、价格和可用范围时，回到原始页面核对。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先看原始论文、仓库或官方博客，不看二手摘要",
+        "02 区分厂商自报、第三方复现与社区反馈",
+        "03 记录发布日期与版本，避免旧闻当新闻"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前沿追踪」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

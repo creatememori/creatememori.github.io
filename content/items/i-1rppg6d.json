@@ -1,0 +1,51 @@
+{
+  "summary": "11 月 23 日发布：装上 nitro 依赖就能用 Nitro v3（Nuxt 5 的服务端引擎）先行迁移，约 170 页基准应用首页吞吐 +33%、千链接页 +44%；",
+  "cover": {
+    "src": "https://nuxt.com/_og/d/c_Docs.takumi%2Cheadline_Updates%2Ctitle_Nuxt%2BChangelog%2Cdescription_Discover%2Bthe%2Blatest%2Breleases%2Bfrom%2BNuxt%2Band%2Bthe%2Bofficial%2Bmodules.%2Cp_Ii9jaGFuZ2Vsb2ci%2Cs_C2V2jNU2osskvozF.png",
+    "alt": "Nuxt 4.7.0——可提前试 Nitro v3，还能把页面功能直接开放给浏览器里的 AI Agent 的官方预览图",
+    "credit": "nuxt.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 23 日发布：装上 nitro 依赖就能用 Nitro v3（Nuxt 5 的服务端引擎）先行迁移，约 170 页基准应用首页吞吐 +33%、千链接页 +44%；实验性 WebMCP：函数加个 @tool 注释就向浏览器内 Agent 开放成工具，Agent 只能点用户能点的东西；SSR 吞吐 +19%、水合阻塞时间 -35%、服务端产物 -43%，runtimeConfig 可用 Zod/ArkType/Valibot 做 schema 校验，缺环境变量启动即报错；另修 3 个安全问题，建议升级。注意：Nitro v3 与 WebMCP 均为实验性，别上生产；性能数字为官方自测口径。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "实验性 WebMCP：函数加个 @tool 注释就向浏览器内 Agent 开放成工具，Agent 只能点用户能点的东西；",
+        "SSR 吞吐 +19%、水合阻塞时间 -35%、服务端产物 -43%，runtimeConfig 可用 Zod/ArkType/Valibot 做 schema 校验，缺环境变量启动即报错；",
+        "归类在「前端·AI / 其他动态」，11-25 中午收录。",
+        "原始入口在 nuxt.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「其他动态」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先定位它改变的是开发、构建、测试还是部署",
+        "02 看维护者、Issue 活跃度与最小可复现示例",
+        "03 生产接入前准备回滚、权限与成本边界"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

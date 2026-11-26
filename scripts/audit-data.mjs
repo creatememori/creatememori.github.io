@@ -15,6 +15,8 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FILE = path.join(ROOT, 'library.html');
+const DETAILS_DIR = path.join(ROOT, 'content', 'items');
+const ITEMS_DIR = path.join(ROOT, 'items');
 const html = fs.readFileSync(FILE, 'utf8');
 
 const errors = [];
@@ -51,6 +53,91 @@ if (items.length !== categories.reduce((sum, name) => sum + items.filter((item) 
 
 const staticCards = (html.match(/<article class="card">/g) || []).length;
 if (staticCards !== items.length) fail(`静态卡片 ${staticCards} 条，与 ITEMS ${items.length} 条不一致；JS 不可用时会缺内容`);
+
+const hashText = (value) => {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return (hash >>> 0).toString(36);
+};
+const itemId = (item) => `i-${hashText(`${String(item[0])}|${String(item[2])}|${String(item[3])}|${String(item[1])}`)}`;
+const DETAIL_TYPES = new Set(['lead', 'paragraph', 'highlights', 'steps', 'callout', 'quote', 'image', 'gallery']);
+const countChinese = (value) => (String(value).match(/[\u4e00-\u9fff]/g) || []).length;
+const detailFiles = fs.existsSync(DETAILS_DIR) ? fs.readdirSync(DETAILS_DIR).filter((name) => name.endsWith('.json')) : [];
+const detailPageFiles = fs.existsSync(ITEMS_DIR) ? fs.readdirSync(ITEMS_DIR).filter((name) => name.endsWith('.html')) : [];
+let thinDetails = 0;
+let badDetailShape = 0;
+let missingDetailPages = 0;
+let missingDetails = 0;
+let detailImageIssues = 0;
+let minDetailChars = Infinity;
+const detailIds = new Set();
+
+for (const item of items) {
+  const id = itemId(item);
+  const detailPath = path.join(DETAILS_DIR, `${id}.json`);
+  const pagePath = path.join(ITEMS_DIR, `${id}.html`);
+  if (!fs.existsSync(detailPath)) {
+    missingDetails += 1;
+    continue;
+  }
+  if (!fs.existsSync(pagePath)) missingDetailPages += 1;
+  if (detailIds.has(id)) fail(`详情 ID 重复：${id}`);
+  detailIds.add(id);
+  let detail;
+  try {
+    detail = JSON.parse(fs.readFileSync(detailPath, 'utf8'));
+  } catch (error) {
+    fail(`详情 JSON 解析失败：${id} / ${error.message}`);
+    continue;
+  }
+  if (!detail.summary || String(detail.summary).length < 8) {
+    badDetailShape += 1;
+    fail(`详情摘要过短：${id}`);
+  }
+  if (!Array.isArray(detail.blocks) || detail.blocks.length < 3) {
+    badDetailShape += 1;
+    fail(`详情内容块不足 3 个：${id}`);
+  }
+  const text = (detail.blocks || []).flatMap((block) => {
+    if (block.type === 'highlights' || block.type === 'steps') return [block.title || '', ...(block.items || [])];
+    if (block.type === 'gallery') return (block.images || []).flatMap((image) => [image.alt || '', image.caption || '']);
+    return [block.title || '', block.text || '', block.source || '', block.caption || ''];
+  }).join(' ');
+  if (countChinese(text) < 350) {
+    thinDetails += 1;
+    fail(`详情正文不足 350 个中文字符：${id}（${countChinese(text)}）`);
+  }
+  minDetailChars = Math.min(minDetailChars, countChinese(text));
+  const raw = fs.readFileSync(detailPath, 'utf8');
+  if (/<script|<style|<iframe|javascript:/i.test(raw)) {
+    badDetailShape += 1;
+    fail(`详情 JSON 包含不允许的 HTML/JavaScript：${id}`);
+  }
+  for (const block of detail.blocks || []) {
+    if (!DETAIL_TYPES.has(block.type)) {
+      badDetailShape += 1;
+      fail(`详情块类型不允许：${id} / ${block.type}`);
+    }
+    if ((block.type === 'image' || block.type === 'gallery') && block.src === undefined && !block.images) {
+      detailImageIssues += 1;
+    }
+  }
+  if (detail.cover && (!detail.cover.src || !detail.cover.alt)) {
+    detailImageIssues += 1;
+    fail(`详情封面缺少 src/alt：${id}`);
+  }
+}
+
+if (detailFiles.length !== items.length) fail(`详情 JSON ${detailFiles.length} 个，与 ITEMS ${items.length} 条不一致`);
+if (detailPageFiles.length !== items.length) fail(`详情 HTML ${detailPageFiles.length} 个，与 ITEMS ${items.length} 条不一致`);
+if (missingDetails) fail(`${missingDetails} 条没有详情 JSON`);
+if (missingDetailPages) fail(`${missingDetailPages} 条没有详情 HTML`);
+if (thinDetails) fail(`${thinDetails} 条详情正文不满足 350 字`);
+if (badDetailShape) fail(`${badDetailShape} 条详情结构不符合 block 规范`);
+if (detailImageIssues) fail(`${detailImageIssues} 条详情图片字段不完整`);
 
 const titleKeys = new Set();
 let duplicateTitles = 0;
@@ -93,6 +180,7 @@ const earliest = dated[dated.length - 1];
 
 const urlCount = items.filter((item) => item[7]).length;
 console.log(`library.html：${items.length} 条，${categories.length} 类，${subKeys.size} 个子分类，${staticCards} 张静态卡片。`);
+console.log(`详情页：${detailFiles.length} 个 JSON / ${detailPageFiles.length} 个 HTML；正文最短 ${Number.isFinite(minDetailChars) ? minDetailChars : 0} 字。`);
 console.log(`日期范围：${earliest ? earliest.item[2] : '—'} → ${latest ? latest.item[2] : '—'}；带原始链接 ${urlCount} 条。`);
 
 if (warnings.length) {

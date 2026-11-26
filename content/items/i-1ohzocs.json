@@ -1,0 +1,51 @@
+{
+  "summary": "Anthropic 11 月 23 日深夜在 GitHub formal-math 仓库发布：内部研究版 Claude 独立发现并写出 70 页论文《VP ≠ VNP over every …",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/7a7e29c6545daf81a6d5076ad151d93077b12179aa973a59f40050b1415aa8da/anthropics/formal-math",
+    "alt": "Claude 声称证明 VP ≠ VNP：P vs NP 代数版 47 年猜想，70 页论文 + 7.3 万行 Lean 证明 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Anthropic 11 月 23 日深夜在 GitHub formal-math 仓库发布：内部研究版 Claude 独立发现并写出 70 页论文《VP ≠ VNP over every field》，唯一作者署名 Claude，另附约 7.3 万行 Lean 4 形式化证明（324 个文件），Lean 内核与独立核 nanoda 双重校验通过。注意：未核实——仓库明言尚无人类数学家检查过证明，Lean 只验证步骤、不验证形式化陈述与声称结论是否一致；Anthropic 亦明确这不解决 P vs NP。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "注意：未核实——仓库明言尚无人类数学家检查过证明，Lean 只验证步骤、不验证形式化陈述与声称结论是否一致；",
+        "Anthropic 亦明确这不解决 P vs NP。",
+        "归类在「前沿追踪 / AI 资讯与技术周刊」，11-24 晚收录。",
+        "原始入口在 github.com，收录时标记为「未核实」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前沿更新最容易被“首发”“最强”“颠覆”带走。这个分类保留发布日期、来源和官方口径，把“已经发生的事实”和“厂商自报的数字”分开写。 这条具体落在「AI 资讯与技术周刊」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合开发者、研究者与内容创作者做趋势判断。先看论文、代码和可复现实验，再看二手解读；涉及跑分、价格和可用范围时，回到原始页面核对。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先看原始论文、仓库或官方博客，不看二手摘要",
+        "02 区分厂商自报、第三方复现与社区反馈",
+        "03 记录发布日期与版本，避免旧闻当新闻"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前沿追踪」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

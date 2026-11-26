@@ -1,0 +1,3347 @@
+{
+  "i-1dayq9g": {
+    "src": "https://assets.claude.com/faac348155bf01d5c59ab38cbd05294eb2fa8197.jpg",
+    "alt": "Anthropic Messages API 迁 Rust——Claude 一周写完核心路径，每请求 CPU 降 70%、首字延迟降 20% 的官方预览图",
+    "credit": "anthropic.com"
+  },
+  "i-13uh2er": {
+    "src": "https://freecode.sh/brand/freecode-chromatic-v1.png",
+    "alt": "freecode——免费 AI 编程 Agent：不用 API Key、不用订阅、不用绑卡，赞助商出推理费 的官方预览图",
+    "credit": "freecode.sh"
+  },
+  "i-sn4jfp": {
+    "src": "https://opengraph.githubassets.com/31eb786dfadc022a49512045fc39c394991fd94a31b049f1056fafc4abe1d54c/klim-type-foundry/hinting-diff",
+    "alt": "hinting-diff 0.2——Klim 出品的字体微调对比工具：两个版本字体逐字渲染对照 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1df9nuf": {
+    "src": "https://cdn.prod.website-files.com/69654e88dce9154b5f12070c/6b06969eaa676efee9932eb7_cms-og-image.webp",
+    "alt": "Together AI Hurdle——开源 Agent 评测库：让 Claude Code/Codex 反复跑你的 API，乱花钱的操作直接判失败 的官方预览图",
+    "credit": "together.ai"
+  },
+  "i-opg37w": {
+    "src": "https://ar13x3.github.io/halation/assets/social-preview.jpg",
+    "alt": "Halation——免费开源动效渐变背景工具，玻璃质感 + 无缝循环视频 的官方预览图",
+    "credit": "ar13x3.github.io"
+  },
+  "i-vy6b4z": {
+    "src": "https://kineticicon.com/og/home.png",
+    "alt": "KineticIcon——27.8 万开源图标一键变动效，铃铛会摇、电池会充 的官方预览图",
+    "credit": "kineticicon.com"
+  },
+  "i-tcy83i": {
+    "src": "https://paulspythoncourse.com/og.png",
+    "alt": "Paul's Python Course——浏览器里免费学 Python：116 个项目，从第一行 print() 写到手搓迷你 GPT 的官方预览图",
+    "credit": "paulspythoncourse.com"
+  },
+  "i-1weybkf": {
+    "src": "https://opengraph.githubassets.com/31e168db0a73e86fa738d69b4910fce3878f20b4f3378533503d8870c4a78243/zed-industries/gpui",
+    "alt": "GPUI 独立成库——Zed 的 GPU 界面框架终于单飞，2.2k 星开局 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-thm3dq": {
+    "src": "https://studeli.com/opengraph-image.png",
+    "alt": "Studeli 设计基础课——8 课免费学设计：视觉元素、格式塔、色彩、版式与排版 的官方预览图",
+    "credit": "studeli.com"
+  },
+  "i-nxiv39": {
+    "src": "https://opengraph.githubassets.com/8aff0aacac38652c3ee23be77488cccd47d903c16b39afdf53858570ff028589/openclaw/openclaw/releases/tag/v2026.11.10",
+    "alt": "OpenClaw 2026.11.10——开源 Agent 新版：深度研究默认开，记忆与浏览器接管齐上 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-wj723w": {
+    "src": "https://claude.com/resources/articles/install-as-app/opengraph-image/og",
+    "alt": "Claude “Install as app” beta——Claude 做的 artifact 一键变 Mac/Windows 桌面应用 的官方预览图",
+    "credit": "claude.com"
+  },
+  "i-i36gwu": {
+    "src": "https://rida.dev/og/blog/bypassing-ios-safari-60-fps-limit.png",
+    "alt": "iOS Safari 120Hz 绕过——不用改系统设置，网页动画也能跑满 ProMotion 的官方预览图",
+    "credit": "rida.dev"
+  },
+  "i-1e7okax": {
+    "src": "https://shobfree.com/og-image.png",
+    "alt": "Variable Font Explorer——最多同时打开 4 款可变字体并排比 的官方预览图",
+    "credit": "shobfree.com"
+  },
+  "i-i0sexb": {
+    "src": "https://freecode.sh/brand/freecode-chromatic-v1.png",
+    "alt": "freecode——免费 AI 编程 Agent：不用 API Key、不用订阅、不用绑卡，赞助商出推理费 的官方预览图",
+    "credit": "freecode.sh"
+  },
+  "i-jed6gs": {
+    "src": "https://opengraph.githubassets.com/2a4b7a8bfcc74c1e4f5765d093f9c3b5c0c365e5c148fd946f833c89357a30c0/suren19113/agent-huddle",
+    "alt": "Huddle——屏幕角落的小窗口，盯着每个 Claude Code 会话：哪个在等你批，一眼看到 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-d5ihn4": {
+    "src": "https://opengraph.githubassets.com/c340865b6fb125b0b2eb87015e7afbfaa4c0a27ad4ba3b5b65cca821aa3c9482/lgarbayo/product-walkthrough-video",
+    "alt": "product-walkthrough-video——把产品仓库变成 2–5 分钟讲解视频的 Claude Code 技能 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-997p6g": {
+    "src": "https://thinkodile.com/opengraph-image.png?ba1872791d416a74",
+    "alt": "Particles in Motion——冻冰、化水、煮沸，亲手看粒子怎么动 的官方预览图",
+    "credit": "thinkodile.com"
+  },
+  "i-1x4d82o": {
+    "src": "https://opengraph.githubassets.com/7348217d0ba83271df02b8119191fc3ab260d824961a0bb17450555b000ca0d8/showheyohtaki/motion-prompt",
+    "alt": "motion-prompt——264 个动效与镜头运镜的名字词典：每个名字都附一段会动的样品 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1ku0rcm": {
+    "src": "https://lingonibble.com/og-cover.jpg",
+    "alt": "LingoNibble——免费学 7 门语言：CEFR A1–B2.2 课程 + AI 情景对话练开口 的官方预览图",
+    "credit": "lingonibble.com"
+  },
+  "i-zc5lpk": {
+    "src": "https://opengraph.githubassets.com/5ea80e653a9fd401b85e996abf2d6ebe679c9ec8d39e5fd63d8d48ff5638c797/finktheartist/pixel-worlds",
+    "alt": "Pixel Worlds——6 个控件里各住一个像素小世界：输密码筑城堡，按住删除键有龙喷火 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1d7ezjv": {
+    "src": "https://mdrbx.github.io/nerv-ui/social-preview.png",
+    "alt": "NERV-UI——EVA 指挥中心风的 React 组件库：48 个组件，仪表盘一秒变 MAGI 作战室 的官方预览图",
+    "credit": "mdrbx.github.io"
+  },
+  "i-131tfm8": {
+    "src": "https://screenbuddy.xyz/social/screenbuddy-windows-2026-10.jpg",
+    "alt": "ScreenBuddy——Windows 与 Mac 录屏剪辑一体机：自动变焦、丝滑光标、3D 运镜与本机字幕 的官方预览图",
+    "credit": "screenbuddy.xyz"
+  },
+  "i-1ahwv85": {
+    "src": "https://blog.jetbrains.com/wp-content/uploads/2026/11/mellum2.1-instruct-cover-2560x1440-jetbrains-nvidia-1.png",
+    "alt": "Mellum2.1 Instruct——JetBrains 发布开源编程模型：不写思考过程直接给答案，SWE-bench 40.4% 的官方预览图",
+    "credit": "blog.jetbrains.com"
+  },
+  "i-14ke7k8": {
+    "src": "https://www.colorsandfonts.com/openGraph/fb.png",
+    "alt": "Colors & Fonts——免费配色全家桶：色板、网格渐变、动效着色器与字体搭配一次齐 的官方预览图",
+    "credit": "colorsandfonts.com"
+  },
+  "i-f9ncxa": {
+    "src": "https://opengraph.githubassets.com/f6b1b3530c7e0dfeba0ee6fe8275786c80f8b6eff460d1134403056c2aff4982/xwmx/font",
+    "alt": "font——命令行装卸字体：Google Fonts、Fontshare、Homebrew 一行命令装好还能干净卸载 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1s4nku0": {
+    "src": "https://opengraph.githubassets.com/406d011c2d781697b4a7c2c928b3da365c7d8748f09afb44d8c829e3f9ce7951/micfong-z/micfong-sans-math",
+    "alt": "Micfong Sans Math 0.10——Plex 风数学字体，Typst 与 LaTeX 的公式终于能配 Plex 正文 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-u30vmo": {
+    "src": "http://sveltekit-prerender/images/thumbnail.png",
+    "alt": "Fluid Type Scale Calculator——输两组基准字号与屏幕宽度，一键生成整套 clamp() 流式字号变量 的官方预览图",
+    "credit": "fluid-type-scale.com"
+  },
+  "i-60korv": {
+    "src": "https://geopatternlab.com/og/reaction-diffusion.jpg",
+    "alt": "GeoPatternLab 反应-扩散模拟器——手绘图灵花纹 的官方预览图",
+    "credit": "geopatternlab.com"
+  },
+  "i-803m70": {
+    "src": "https://www.zeyaddeeb.com/og?title=Which+Way+It+Turns&section=Experiments",
+    "alt": "Which Way It Turns——漏水水车里的洛伦兹混沌 的官方预览图",
+    "credit": "zeyaddeeb.com"
+  },
+  "i-eu6deb": {
+    "src": "https://www.eyemagazine.com/1200",
+    "alt": "Eye Magazine——国际平面设计杂志 Eye 的官网 的官方预览图",
+    "credit": "eyemagazine.com"
+  },
+  "i-rifjle": {
+    "src": "https://res.cloudinary.com/total-typescript/image/upload/v1777381841/skills-og_2x.jpg",
+    "alt": "AI Skills for Real Engineers——Matt Pocock 免费 7 课邮件课：不用啃文档也能把 AI 编程助手用出工程水准 的官方预览图",
+    "credit": "aihero.dev"
+  },
+  "i-go7lmm": {
+    "src": "https://www.smarttechacademy.org/images/og/og-default.jpg",
+    "alt": "SmartTech Academy——35+ 免费技术课：AI、编程、数据分析全免费，完课发可验证证书 的官方预览图",
+    "credit": "smarttechacademy.org"
+  },
+  "i-609f5s": {
+    "src": "https://opengraph.githubassets.com/7c6f25167e8b40a4811c1435b018881de5d6a4a2f7d451864ac2087ba84ecd75/earendil-works/pi",
+    "alt": "Pi 1.6.1——12.4 万星的开源终端编程 Agent：极简可拆，15+ 模型随便接 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-11hs03l": {
+    "src": "https://arlts.org/assets/img/og-cover-3b11d87a4e.jpg",
+    "alt": "ARLTS——非营利免费英语学习平台：牛津 5000 词练听写测验，全程免费免账号 的官方预览图",
+    "credit": "arlts.org"
+  },
+  "i-1y81a88": {
+    "src": "https://opengraph.githubassets.com/bce53b5c81860cee1d0e4122ba4573672ccd38687e2e6ab96c974e9cfdb9a9e7/tharun208/cloneguard",
+    "alt": "CloneGuard——跑陌生仓库的代码之前，先扫一遍有没有偷密钥的暗桩 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-hlgw2j": {
+    "src": "https://svelte.dev/blog/ten-years-of-svelte/card.png",
+    "alt": "Svelte 十周年官方回顾——自定义渲染器进入 experimental，Async Svelte 接近生产可用 的官方预览图",
+    "credit": "svelte.dev"
+  },
+  "i-1et7i48": {
+    "src": "https://www.vybe.build/assets/vybe-beta-og-image.png?v=1",
+    "alt": "Falcon by Vybe——免费竞品分析：贴个网址，出对手定价广告口碑报告 的官方预览图",
+    "credit": "vybe.build"
+  },
+  "i-ta6qh6": {
+    "src": "https://opengraph.githubassets.com/7c6f25167e8b40a4811c1435b018881de5d6a4a2f7d451864ac2087ba84ecd75/earendil-works/pi",
+    "alt": "Pi 1.6.1——12.4 万星的开源终端编程 Agent：极简可拆，15+ 模型随便接 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-g5x6t6": {
+    "src": "https://opengraph.githubassets.com/6138e65c6af00f74cc157c46bfb22c0d5b8668990d3024404d71ddc18431217e/styled-components/styled-components/releases/tag/styled-components%406.7.0",
+    "alt": "Styled Components 6.7.0——新增 configureServerStyles()，修复并发请求下 RSC 样式随机丢失 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-xgvf1b": {
+    "src": "https://mayorana.ch/en/apps/polishcast/opengraph-image",
+    "alt": "PolishCast——免费的录屏美化器：光标丝滑、点击自动变焦，导出 10 条视频免费 的官方预览图",
+    "credit": "mayorana.ch"
+  },
+  "i-k2c5ex": {
+    "src": "https://opengraph.githubassets.com/a155aec2ecee4e7dae6664fcbad46019c62986b27b7c98f1cf395efa14caa242/TanStack/query/discussions/12669",
+    "alt": "TanStack Query v6 路线图——ESM-only、最低 React 19，streamedQuery 转正 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1yz0jrx": {
+    "src": "https://cinemaai.ca/images/og/launch-script-free-launch-film-script-generator-cinemaai.webp",
+    "alt": "Launch Script——产品页粘贴进去，1 分钟拿到发布视频的六幕剧本与分镜表 的官方预览图",
+    "credit": "cinemaai.ca"
+  },
+  "i-1eexr2v": {
+    "src": "https://sochen.dev/opengraph-image",
+    "alt": "Sochen Motion——动漫风动效库：速度线、冲击帧、标题砸场，全部可逐帧 scrub 的官方预览图",
+    "credit": "sochen.dev"
+  },
+  "i-olxbky": {
+    "src": "https://opengraph.githubassets.com/c88164c808e4f728d3e7a8cd8e9a96da7d980c55f6cfe99a42b4af6cc828ce99/bangtutorial/bang-motion",
+    "alt": "Bang Motion——把编程助手变成动效设计师的 Agent 技能：开口、动效排版、解说片 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1iyt2od": {
+    "src": "https://www.testsprite.com/framerusercontent/images/hMEbxGbRjpi0xFeUtHcSz6AT93c.png",
+    "alt": "TestSprite 4.0——AI 测试员：每月免费 150 credits，改完代码自动全量回归 的官方预览图",
+    "credit": "testsprite.com"
+  },
+  "i-152wb1g": {
+    "src": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+    "alt": "Claude Opus 4.5——Anthropic 新旗舰今日发布，编码自称地表最强 的官方预览图",
+    "credit": "anthropic.com"
+  },
+  "i-3r77eq": {
+    "src": "https://opengraph.githubassets.com/d2510d8ed3bd5f55b6db1e09ddb0150892ce3699c82452a868b63a0c699910a0/embeddable-hq/mason-data",
+    "alt": "Mason——开源 Postgres 只读副本：分析查询不用改 SQL，千万行分组从 15.7 秒变 0.19 秒 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1ifyjno": {
+    "src": "https://clipfoxhq.com/og-image.jpg",
+    "alt": "ClipFox——长视频一键变 7 平台竖屏短片：AI 找高光、自动字幕，每月免费导出 3 条 的官方预览图",
+    "credit": "clipfoxhq.com"
+  },
+  "i-dygfgb": {
+    "src": "https://everdust.ai/og/play.jpg",
+    "alt": "Everdust——免费粒子宇宙：星系对撞、黑洞弯光、三体与双摆全在浏览器里实时跑 的官方预览图",
+    "credit": "everdust.ai"
+  },
+  "i-1i6k8oh": {
+    "src": "https://www.testsprite.com/framerusercontent/images/hMEbxGbRjpi0xFeUtHcSz6AT93c.png",
+    "alt": "TestSprite 4.0——AI 测试员：每月免费 150 credits，改完代码自动全量回归 的官方预览图",
+    "credit": "testsprite.com"
+  },
+  "i-1ce9m0b": {
+    "src": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+    "alt": "Claude Opus 4.5——Anthropic 新旗舰今日发布，编码/Agent/电脑使用自称地表最强 的官方预览图",
+    "credit": "anthropic.com"
+  },
+  "i-lz4vm": {
+    "src": "https://frwrd.to/@frwrd.to/og.png",
+    "alt": "frwrd.to——一句话让 AI 帮你做好 link-in-bio 页：按品牌配色排版，还能多语言自动翻译 的官方预览图",
+    "credit": "frwrd.to"
+  },
+  "i-og7axt": {
+    "src": "https://plurality.network/wp-content/uploads/2026/03/shared-memory-for-all-your-ai-2-2.png",
+    "alt": "AI Context Flow——一次保存，各家 AI 都记得：每天免费额度 + MCP 全含 的官方预览图",
+    "credit": "plurality.network"
+  },
+  "i-2k8i4w": {
+    "src": "https://tackshot.com/og.png",
+    "alt": "Tackshot——免费的网站反馈小部件：访客圈出问题截图，你直接收到带技术细节的报告 的官方预览图",
+    "credit": "tackshot.com"
+  },
+  "i-hjat99": {
+    "src": "https://plurality.network/wp-content/uploads/2026/03/shared-memory-for-all-your-ai-2-2.png",
+    "alt": "AI Context Flow——一次保存，各家 AI 都记得：每天免费额度 + MCP 全含 的官方预览图",
+    "credit": "plurality.network"
+  },
+  "i-1grymrf": {
+    "src": "https://repository-images.githubusercontent.com/1180325220/00d63fd3-5ed7-4882-acca-2e53c47de2c8",
+    "alt": "Recordly——免费开源的桌面录屏 + 演示剪辑器：自动变焦、光标美化、时间线一次搞定 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1ku1g1a": {
+    "src": "https://www.firefox.com/media/img/firefox/flare/og.4d50d9b1674b.png",
+    "alt": "Firefox 161——11 月 24 日发布，CSS random() 与类型化对象模型来了 的官方预览图",
+    "credit": "mozilla.org"
+  },
+  "i-ve7k8o": {
+    "src": "https://www.steerlatch.com/brand/steerlatch-banner.jpg",
+    "alt": "SteerLatch——让 ChatGPT/Claude 直接操作你授权的电脑：文件、桌面、终端都能动 的官方预览图",
+    "credit": "steerlatch.com"
+  },
+  "i-1mvowq7": {
+    "src": "https://www.freescreenrecord.com/icon-512.png",
+    "alt": "FSR Studio——免费免装的浏览器录屏工作室：无水印、不限时长、4K 导出 的官方预览图",
+    "credit": "freescreenrecord.com"
+  },
+  "i-rywkqt": {
+    "src": "https://ryo-manba.github.io/data-anim/og-image.png",
+    "alt": "data-anim——不用写一行 JS，给 HTML 加 data 属性就有动效 的官方预览图",
+    "credit": "ryo-manba.github.io"
+  },
+  "i-1dokfcj": {
+    "src": "https://ding.yusufcengiz.dev/social-preview.png",
+    "alt": "Ding——会“变形”的 Toast 通知库 的官方预览图",
+    "credit": "ding.yusufcengiz.dev"
+  },
+  "i-kzpm7k": {
+    "src": "https://opengraph.githubassets.com/564ea306b926a7c4980dedbbecdb24d56e9b76aab1f54059a64ad363fa73ef6e/fang2hou/Plemio",
+    "alt": "Plemio 0.1.1——IBM Plex 衍生的中日韩等宽编程字体，中日韩字符恰好两倍宽 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-hkdbn2": {
+    "src": "https://opengraph.githubassets.com/02900c06423829e63ceca053a59faa437306dadf9166ebaaff7879898b5e2262/ecelustka/astro-glyphcut",
+    "alt": "astro-glyphcut 0.2——Astro 构建时按实际用字裁剪字体，附漏字检查 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1mkqhre": {
+    "src": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+    "alt": "OpenAI GPT-6 蛋白设计——通用大模型首次湿实验做出能结合的蛋白：322 个设计 35 个命中 的官方预览图",
+    "credit": "openai.com"
+  },
+  "i-1pl20nc": {
+    "src": "https://opengraph.githubassets.com/a70c71c6766b785347d3cbfad972e32f8fad7b5596710d50af4e2f3dad0be7f7/serialexperimentsrio/bitroot",
+    "alt": "Bitroot 0.3——Aseprite 手绘的 5×13 像素等宽字体，小字号依然锐利 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-n4q84s": {
+    "src": "https://newkrok.com/gamer-zone/1200",
+    "alt": "Freeze Out——浏览器里免费打的第一人称 4v4 雪球大战 的官方预览图",
+    "credit": "newkrok.com"
+  },
+  "i-1smpbef": {
+    "src": "https://opengraph.githubassets.com/76692cecb7eb672dbd103292f687b4540fec9d6e30a2c1cc667646a65733b4bc/C0P1Fur/FontNest",
+    "alt": "FontNest 0.2——截图识字体，本地字库里找相似款、再对比收纳 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1u1qvi0": {
+    "src": "https://www.blockofbytes.com/static/favicon.ico",
+    "alt": "Block of Bytes——免费 Python 微学习平台 的官方预览图",
+    "credit": "blockofbytes.com"
+  },
+  "i-zmotjr": {
+    "src": "https://system-design-in-depth.vedgupta.in/assets/og/home.png",
+    "alt": "System Design in Depth——免费开源的互动系统设计教材 的官方预览图",
+    "credit": "system-design-in-depth.vedgupta.in"
+  },
+  "i-m0fam": {
+    "src": "https://www.xyztype.com/uploads/0822/71c8dfa0fc6fbaf5ee4098f4b1df76ed194ba78636319d8cb83aeecd3a8d6611/derived/4d6a701bfa585324d4c174b6d5db1902/og-xyz-type.png",
+    "alt": "XYZ Type 的官方预览图",
+    "credit": "xyztype.com"
+  },
+  "i-fxh6bc": {
+    "src": "https://mass-driver.com/static/seo/md-opengraph-misc.png",
+    "alt": "Mass-Driver 的官方预览图",
+    "credit": "mass-driver.com"
+  },
+  "i-1nnes51": {
+    "src": "https://i0.wp.com/technode.com/wp-content/uploads/2026/11/xiaodou-cover.jpg?fit=1920%2C1080&ssl=1",
+    "alt": "字节跳动小豆 Xiaodou——豆包个人 AI 助手开启邀请制公测：长期记忆 + 主动替你办事 的官方预览图",
+    "credit": "technode.com"
+  },
+  "i-uhvbqm": {
+    "src": "https://electrek.co/wp-content/uploads/sites/3/2026/11/Tesla-FSD-v15-update.jpeg?quality=82&strip=all&resize=1200,628",
+    "alt": "Tesla FSD v15——端到端智驾大升级：新视觉编码器 + 实时生成式 Reality View 的官方预览图",
+    "credit": "electrek.co"
+  },
+  "i-1qf2w7n": {
+    "src": "https://wordpalette.github.io/logo-black.png",
+    "alt": "WordPalette Generator——输入一个词或一张图，九步生成整套品牌系统 的官方预览图",
+    "credit": "wordpalette.github.io"
+  },
+  "i-z3nv7": {
+    "src": "https://www.graffitizer.com/og.png",
+    "alt": "Graffitizer——免费涂鸦字在线生成器 的官方预览图",
+    "credit": "graffitizer.com"
+  },
+  "i-1tbcbd8": {
+    "src": "https://assets.aihorde.net/promo/site.jpg",
+    "alt": "AI Horde——志愿者电脑凑成的免费 AI：图片和文字都能白嫖，不用注册不用绑卡 的官方预览图",
+    "credit": "aihorde.net"
+  },
+  "i-1ncq380": {
+    "src": "https://sfxmint.com/og.png",
+    "alt": "SFXMint——1.2 万+ CC0 音效库：免注册免署名可商用 的官方预览图",
+    "credit": "sfxmint.com"
+  },
+  "i-1akl8pe": {
+    "src": "https://fleeep.app/og.png",
+    "alt": "Fleeep——全免费的灵感笔记 App：语音自动转文字、照片里的字也能搜 的官方预览图",
+    "credit": "fleeep.app"
+  },
+  "i-1ffh3o": {
+    "src": "https://i.ytimg.com/vi/rCx4SCd4N-s/maxresdefault.jpg",
+    "alt": "freeCodeCamp Azure AI-901 认证备考课——4.5 小时免费学微软新版 AI 基础认证 的官方预览图",
+    "credit": "freecodecamp.org"
+  },
+  "i-lstbps": {
+    "src": "https://rosettatype.com/assets/img/sharing_image.png",
+    "alt": "Rosetta Type 的官方预览图",
+    "credit": "rosettatype.com"
+  },
+  "i-l44zs0": {
+    "src": "https://typefaces.pizza/src/images/logo.png",
+    "alt": "Pizza Typefaces 的官方预览图",
+    "credit": "typefaces.pizza"
+  },
+  "i-1642498": {
+    "src": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_0193.jpg",
+    "alt": "NovaSync——一页看尽实时天空：ISS 直播、太阳多波段、发射倒计时与空间天气 的官方预览图",
+    "credit": "novasync.dev"
+  },
+  "i-uiqv8t": {
+    "src": "https://periodicium.com/open-graph/en.png",
+    "alt": "Periodicium——免费互动元素周期表：属性热力图、发射光谱与原子搭建器，离线也能用 的官方预览图",
+    "credit": "periodicium.com"
+  },
+  "i-anmk2q": {
+    "src": "https://opengraph.githubassets.com/5cce93b1041f194436135f6acdeaa8d36c980e021e129b3038c0faf47a0f935a/almma-ai/pii-guard",
+    "alt": "Almma's PII Guard——发给 AI 聊天之前，先把隐私信息换成占位符的免费开源插件 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1rppg6d": {
+    "src": "https://nuxt.com/_og/d/c_Docs.takumi%2Cheadline_Updates%2Ctitle_Nuxt%2BChangelog%2Cdescription_Discover%2Bthe%2Blatest%2Breleases%2Bfrom%2BNuxt%2Band%2Bthe%2Bofficial%2Bmodules.%2Cp_Ii9jaGFuZ2Vsb2ci%2Cs_C2V2jNU2osskvozF.png",
+    "alt": "Nuxt 4.7.0——可提前试 Nitro v3，还能把页面功能直接开放给浏览器里的 AI Agent 的官方预览图",
+    "credit": "nuxt.com"
+  },
+  "i-1lvuogt": {
+    "src": "https://rgb.ir/media/2026/09/learn-half-built-glass-machine.webp",
+    "alt": "RGB 编程零基础路径——14 课 3 小时免费学编程，先懂原理再写代码 的官方预览图",
+    "credit": "rgb.ir"
+  },
+  "i-2j2hr6": {
+    "src": "https://ohhai.co/img/og-a.png",
+    "alt": "Ohhai——iPhone 上的 AI 键盘：打字再乱也能一键发出干净句子 的官方预览图",
+    "credit": "ohhai.co"
+  },
+  "i-dk64eb": {
+    "src": "https://s-cdn.xpeng.com/commoncms/prod/2026-11-24/78ea979b893e4d37aee7b8e0e2ac31a9.png?name=news261124",
+    "alt": "XPENG WorldGPT——小鹏发布世界动作模型：一套模型横跨汽车、机器人与无人机六类机器 的官方预览图",
+    "credit": "xpeng.com"
+  },
+  "i-1caxpc0": {
+    "src": "https://platform.kimi.com/og.png?v=1",
+    "alt": "Kimi 开放平台——大陆手机号实名领 ¥15 代金券：零充值调 K3.1 Pro 的官方预览图",
+    "credit": "platform.kimi.com"
+  },
+  "i-1069hmk": {
+    "src": "https://ampcode.com/og?_template=news&_version=7&title=Amp+for+Windows&date=November+17%2C+2026&tagline=Amp+on+your+desktop%2C+now+on+Windows.&backgroundImage=https%3A%2F%2Fstatic.ampcode.com%2Fnews%2Famp-for-windows-banner-v2.avif&sig=ab953378aa3d18ea2db5ce6286d233ef0bea24b5e84164d33d29962a49d345c5",
+    "alt": "Amp for Windows——Sourcegraph 的编程 Agent 终于有原生 Windows 客户端 的官方预览图",
+    "credit": "ampcode.com"
+  },
+  "i-1x8iwou": {
+    "src": "https://opengraph.githubassets.com/feeb3af28bdd32e4341aa9475739b64e454414efc429c2cca5c71049c487c482/nateherkai/herk-edit-kit",
+    "alt": "Herk Edit Kit——公开的剪辑技能包，让 Claude Code、Codex 按你的剪辑风格剪片 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-kkz57i": {
+    "src": "https://app.vinc.ai/og.jpg",
+    "alt": "VINC——浏览器里的 AI 电影工作室 的官方预览图",
+    "credit": "vinc.ai"
+  },
+  "i-lzn21c": {
+    "src": "https://assets.aihorde.net/promo/site.jpg",
+    "alt": "AI Horde——志愿者电脑凑成的免费 AI：图片和文字都能白嫖，不用注册不用绑卡 的官方预览图",
+    "credit": "aihorde.net"
+  },
+  "i-o8bk0h": {
+    "src": "https://viktor.com/assets/og/home-ai-employee.png",
+    "alt": "Viktor Code——不只懂你的代码库，还懂整个公司：Slack 里的 AI 员工 的官方预览图",
+    "credit": "viktor.com"
+  },
+  "i-minsvq": {
+    "src": "https://useclam.ai/og/home.jpg",
+    "alt": "Clam AI——把 Gmail 安全地交给 AI 助手：只给它看你允许的那部分 的官方预览图",
+    "credit": "useclam.ai"
+  },
+  "i-19x0pt2": {
+    "src": "https://opengraph.githubassets.com/4a4929a711ca0a1b0fd3c66ac1806e453c8c167d07d6cc7f9061ddce55650aa6/finktheartist/rubber-hose-ui",
+    "alt": "Rubber Hose UI——11 个控件全是 1930 年代卡通角色：点按钮会被揍出星星 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-14wgp9g": {
+    "src": "https://nightnabbers.com/press/og/cover.jpg",
+    "alt": "Night Nabbers——扮浣熊夜里偷蛋的免费 3D 潜行游戏：16 人同街联机 的官方预览图",
+    "credit": "nightnabbers.com"
+  },
+  "i-4tikrj": {
+    "src": "https://tday.com/og-image-demos.png",
+    "alt": "tday.com——让编程助手替你录带解说的产品演示视频 的官方预览图",
+    "credit": "tday.com"
+  },
+  "i-1w14yek": {
+    "src": "https://opengraph.githubassets.com/531b850e4c107be3377665fb99d9e83c53ab8543964f33583b7f453961ce2e9c/open-metric-fonts/open-metric-fonts",
+    "alt": "open-metric-fonts 1.1——392 款 Office 字体度量兼容替代，换字不断行 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1l11etw": {
+    "src": "https://cognition.com/images/swe-2-1/cover.jpg",
+    "alt": "SWE-2.1——Cognition 发布新一代编程模型，Terminal-Bench 翻倍还自带安全专长 的官方预览图",
+    "credit": "cognition.com"
+  },
+  "i-120ahfw": {
+    "src": "https://opengraph.githubassets.com/d299a70b01bceb6c48c3780e2dea9e5fb4785438065f67ff4423b0ef442c1727/siliconjungle/shapeshift-labs-ink-studio",
+    "alt": "Ink Studio——像素风高斯泼溅工具箱：捏模型、做木偶动画、跑物理 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-5djt6": {
+    "src": "https://superpowerdaily.com/posts/sakana-ai-introduces-a-30b-model-it-says-outperforms-nvidia-s-120b-rival/opengraph-image",
+    "alt": "Namazu Small——Sakana 发布 30B 推理模型：自称 25 项评测均值胜过英伟达 120B 的官方预览图",
+    "credit": "superpowerdaily.com"
+  },
+  "i-nfr2mv": {
+    "src": "https://font-revival.com/site/social-preview.png",
+    "alt": "Font Revival 0.5.0——48 款 19 世纪展示字体按真实印张复刻 的官方预览图",
+    "credit": "font-revival.com"
+  },
+  "i-1xapl18": {
+    "src": "https://processtypefoundry.com/_astro/index-hero.em4rvIpB.png",
+    "alt": "Process Type Foundry 的官方预览图",
+    "credit": "processtypefoundry.com"
+  },
+  "i-esdnr": {
+    "src": "https://www.imaginry.tech/og/home.png",
+    "alt": "Imaginry——浏览器里实时渲染的抽象背景工作室，56 种特效可叠加 的官方预览图",
+    "credit": "imaginry.tech"
+  },
+  "i-181s8h2": {
+    "src": "https://www.datocms-assets.com/169682/1795384326-claude-type-share-2400x1260.png?auto=format&fit=max&w=1200",
+    "alt": "Claude Type 的官方预览图",
+    "credit": "claudetype.com"
+  },
+  "i-1e2wuao": {
+    "src": "https://open.higgsfield.ai/social/open-higgsfield.webp",
+    "alt": "MAGI-2——Sand AI 发布 480B 视频大模型：30 秒 1080p 原生带音，每秒 8 美分 的官方预览图",
+    "credit": "open.higgsfield.ai"
+  },
+  "i-16uzhjw": {
+    "src": "https://res.cloudinary.com/doqselp4t/image/upload/v1696404925/Social-image-email_s6uhrl.png",
+    "alt": "Darden Studio 的官方预览图",
+    "credit": "dardenstudio.com"
+  },
+  "i-e0fr3f": {
+    "src": "https://www.arrowtype.com/arrowtype-thumbnail.png",
+    "alt": "Arrow Type 的官方预览图",
+    "credit": "arrowtype.com"
+  },
+  "i-cmw5ij": {
+    "src": "https://repository-images.githubusercontent.com/1453006141/75f31f17-76f4-4edb-90b9-240933a16c0b",
+    "alt": "MR Office——开源 Office 编辑器 + MCP：让 Claude、Cursor 直接改真实 Word/Excel/PPT 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1w6xyg7": {
+    "src": "https://physicssimulation.org/PhysicsSimulation%20%E2%80%94%20interactive%20simulations",
+    "alt": "PhysicsSimulation——842 个免费互动 STEM 模拟：物理化数生按课标编排 的官方预览图",
+    "credit": "physicssimulation.org"
+  },
+  "i-ihw7b4": {
+    "src": "https://repository-images.githubusercontent.com/1443186633/b37f603b-1346-40e2-a425-c96c9b52ccc3",
+    "alt": "kiri——Rust 写的轻量容器运行时：Docker Desktop 平替，还自带免费 ngrok 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-xlw007": {
+    "src": "https://recorder.video/og.png",
+    "alt": "recorder.video——免费免注册浏览器录屏：无水印不限时长 的官方预览图",
+    "credit": "recorder.video"
+  },
+  "i-2382do": {
+    "src": "https://repository-images.githubusercontent.com/1443186633/b37f603b-1346-40e2-a425-c96c9b52ccc3",
+    "alt": "kiri——Rust 写的轻量容器运行时：Docker Desktop 平替，还自带免费 ngrok 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-gf2s7u": {
+    "src": "https://standardebooks.org/images/logo.png",
+    "alt": "Standard Ebooks——1540+ 本免费公版电子书，按出版级标准精排 的官方预览图",
+    "credit": "standardebooks.org"
+  },
+  "i-s9cahi": {
+    "src": "https://www.savingplanets.com/assets/og/en/Intro_to_Programming.jpg?v=c1ffdf11",
+    "alt": "Intro to Programming for Engineers (ENGR 130)——免费工程师编程自学课：9 单元 + 4 实验，15 周零基础学 Python 的官方预览图",
+    "credit": "savingplanets.com"
+  },
+  "i-5a1oke": {
+    "src": "https://www.devoltapp.com/og-image.png",
+    "alt": "de:volt——浏览器里的面包板模拟器：105 种零件边搭边跑，单片机跑真固件 的官方预览图",
+    "credit": "sim.devoltapp.com"
+  },
+  "i-mpbv": {
+    "src": "https://recorder.video/og.png",
+    "alt": "recorder.video——免费免注册浏览器录屏：无水印不限时长 的官方预览图",
+    "credit": "recorder.video"
+  },
+  "i-1uhbwzo": {
+    "src": "https://sfxmint.com/og.png",
+    "alt": "SFXMint——1.2 万+ CC0 音效库：免注册免署名可商用 的官方预览图",
+    "credit": "sfxmint.com"
+  },
+  "i-2ot1nm": {
+    "src": "https://fleeep.app/og.png",
+    "alt": "Fleeep——全免费的灵感笔记 App：语音自动转文字、照片里的字也能搜 的官方预览图",
+    "credit": "fleeep.app"
+  },
+  "i-1kfcn5v": {
+    "src": "https://opentelemetry.io/img/social/logo-wordmark-001.png",
+    "alt": "OpenTelemetry JS SDK 3.0——日志信号正式稳定，Node 18/20 正式退场 的官方预览图",
+    "credit": "opentelemetry.io"
+  },
+  "i-kru9sf": {
+    "src": "https://opengraph.githubassets.com/f294c4b71205da9fe1f4812eaa2e1981cb5d722924703ff62f864ac109d2b9dd/BuilderIO/agent-native",
+    "alt": "BuilderIO Agent-Native——给 Agent 配专属 UI 的开源 TypeScript 框架，约 7,700 星 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1kmokmn": {
+    "src": "https://splatlabs.games/og/home.jpg",
+    "alt": "Cooper Academy——少儿免费学编程、画画与打字 的官方预览图",
+    "credit": "splatlabs.games"
+  },
+  "i-11ldw8b": {
+    "src": "https://repository-images.githubusercontent.com/1453006141/75f31f17-76f4-4edb-90b9-240933a16c0b",
+    "alt": "MR Office——开源 Office 编辑器 + MCP：让 Claude、Cursor 直接改真实 Word/Excel/PPT 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-eo2akm": {
+    "src": "https://prosoundeffects.blob.core.windows.net/library-art/PSE_ODE.webp",
+    "alt": "Odyssey Collection: Design Elements——149 美元电影音效库限时免费领 的官方预览图",
+    "credit": "prosoundeffects.com"
+  },
+  "i-if8m2o": {
+    "src": "https://pocketcmd.com/og.png",
+    "alt": "PocketCmd——免费 SSH 客户端：断网锁屏也不掉线，回来会话还在 的官方预览图",
+    "credit": "pocketcmd.com"
+  },
+  "i-1ch52nd": {
+    "src": "https://opengraph.githubassets.com/74c669be52d83b1366d21595b425815b2762c8c7282570d4b7aa6a4914b5ffe5/haziqahmedqasmi/PeakCut",
+    "alt": "PeakCut——直播边播边剪的开源 AI 切片器：本地转写、自己出竖屏短视频 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1fsnmba": {
+    "src": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more/opengraph-image/og",
+    "alt": "Skills over MCP——MCP 服务器现在能给 Claude 发技能了：11 月 24 日官宣公开 Beta 的官方预览图",
+    "credit": "claude.com"
+  },
+  "i-eotjrc": {
+    "src": "https://opengraph.githubassets.com/463f2ae42ea1d8ef35430c7c0f7e0386b36ab3417dd0cf42118edf898bb78872/xerj-org/xerj",
+    "alt": "XERJ Query-1——本地搜索新玩法：不问大模型，把问题编译成小程序在事实库上跑 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ld996y": {
+    "src": "https://raw.githubusercontent.com/bgbg108555/NeuralSpecOcean/main/docs/images/social_preview.jpg",
+    "alt": "NeuralSpecOcean——浏览器里的物理海洋模拟：三层光谱波浪 + GPU 浅水求解器 的官方预览图",
+    "credit": "bgbg108555.github.io"
+  },
+  "i-1uob7vu": {
+    "src": "https://themarkstudio.online/opengraph-image",
+    "alt": "TheMark Studio——浏览器里给产品贴牌的免费 3D 工作室 的官方预览图",
+    "credit": "themarkstudio.online"
+  },
+  "i-b0vz4i": {
+    "src": "https://opengraph.githubassets.com/c2c0dfd2f8a93d71f3aa3704f05ef205aa03fc06880e2880569fe6ebb3fa8946/fleetifydev/fleetify",
+    "alt": "Fleetify——开源多 Agent 指挥中心：Claude Code、Codex、OpenCode 同屏跑 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1216plq": {
+    "src": "https://bolt.new/static/social_preview_index-v2.png",
+    "alt": "Bolt.new 免费版——每月 100 万 tokens，免绑卡搭网站 的官方预览图",
+    "credit": "bolt.new"
+  },
+  "i-142vjl8": {
+    "src": "https://deskmagic.app/assets/shots/scene-sheet.webp",
+    "alt": "DeskMagic——晃一晃鼠标，就能问屏幕上的任何东西 的官方预览图",
+    "credit": "deskmagic.app"
+  },
+  "i-1ly6pr3": {
+    "src": "https://modem.ai/og/site?v=2026-09-24-single-logo&variant=homepage",
+    "alt": "Modem——客户反馈自动变成已修复的工单，还会回访客户 的官方预览图",
+    "credit": "modem.ai"
+  },
+  "i-1igyvxu": {
+    "src": "https://bolt.new/static/social_preview_index-v2.png",
+    "alt": "Bolt.new 免费版——每月 100 万 tokens，免绑卡搭网站 的官方预览图",
+    "credit": "bolt.new"
+  },
+  "i-xg73q2": {
+    "src": "https://kiro.dev/images/pages/pricing.png",
+    "alt": "Kiro Free——每月 50 credits，用 Claude Sonnet 4.5 写代码 的官方预览图",
+    "credit": "kiro.dev"
+  },
+  "i-1mjrajp": {
+    "src": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/1R5Z5o3JKUiGPhVNUYovLc/01b2bdf97e72fd4b6295c16196cdb51a/changlog-eve.png",
+    "alt": "Vercel eve 1.0——开源 Agent 框架正式 GA：百轮对话中位延迟 3 秒压到 414 毫秒 的官方预览图",
+    "credit": "vercel.com"
+  },
+  "i-1ev57gl": {
+    "src": "https://cdn.prod.website-files.com/69654e88dce9154b5f1206dd/69a49f8c704175852f725145_og-pricing.jpg",
+    "alt": "Ternary Bonsai 27B——Together AI 上架，输入输出全免费 的官方预览图",
+    "credit": "together.ai"
+  },
+  "i-1hgzl6j": {
+    "src": "https://teskooano.space/og/index.png",
+    "alt": "Teskooano——浏览器里的 3D N-body 天文台：37 个星系随便飞，还能着陆开车 的官方预览图",
+    "credit": "teskooano.space"
+  },
+  "i-n90n8q": {
+    "src": "https://opengraph.githubassets.com/9b63474929e0b66b280ae41f1de64289a165c987d212743560e9a66fbb322f41/cloudflare/kitesurf",
+    "alt": "Cloudflare 开源 Kitesurf——给 Agent 用的浏览器引擎，不用 Chromium 也能跑页面 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1ksz4p9": {
+    "src": "https://opengraph.githubassets.com/74c669be52d83b1366d21595b425815b2762c8c7282570d4b7aa6a4914b5ffe5/haziqahmedqasmi/PeakCut",
+    "alt": "PeakCut——直播边播边剪的开源 AI 切片器：本地转写、自己出竖屏短视频 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-uqzwmc": {
+    "src": "https://opengraph.githubassets.com/6c64fb00e7ad6f3602588c3dc55aa320f3a3e36657a2f3f64ad012e60421563d/reduxjs/redux-toolkit/releases/tag/v2.15.0",
+    "alt": "Redux Toolkit 2.15.0——每个 store 各有一套 RTK Query 运行时，SSR 与多 store 不再串味 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1w9o17g": {
+    "src": "https://opengraph.githubassets.com/c2c0dfd2f8a93d71f3aa3704f05ef205aa03fc06880e2880569fe6ebb3fa8946/fleetifydev/fleetify",
+    "alt": "Fleetify——开源多 Agent 指挥中心：Claude Code、Codex、OpenCode 同屏跑 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-w3aib9": {
+    "src": "https://launchloop.tech/media/og.jpg",
+    "alt": "LaunchLoop——Windows 版 Screen Studio 平替：一次录制变发布预告片 的官方预览图",
+    "credit": "launchloop.tech"
+  },
+  "i-1q90r9q": {
+    "src": "https://loupeapp.vercel.app/og.png",
+    "alt": "Loupe——免费无水印录屏器：边录边滚轮缩放，字幕本地生成 的官方预览图",
+    "credit": "loupe.akshatgg.in"
+  },
+  "i-1icmayy": {
+    "src": "https://repository-images.githubusercontent.com/1246738326/e0f03072-6a50-4835-823e-7e62baac71c3",
+    "alt": "WeftCut——Agent 直接开的开源桌面剪辑器：MCP 驱动整条时间线 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-bfnyiv": {
+    "src": "https://opengraph.githubassets.com/5ef43f97bb91d1a680d42c49df7c4639bf1b031f5a00894a3e0693e811f9363e/janestreet/agent_skills",
+    "alt": "Jane Street agent_skills——量化巨头开源内部 Agent 技能：苏格拉底式家教先问后教 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-q7gqvp": {
+    "src": "https://myshaky.com/img/3061.gif",
+    "alt": "SHAKY v2.0——怀旧 Flash 风的 3D WebGL 游乐场 的官方预览图",
+    "credit": "myshaky.com"
+  },
+  "i-11nd3s6": {
+    "src": "https://repository-images.githubusercontent.com/1211139949/3452b694-f45d-465c-9ef4-9632ea5582c9",
+    "alt": "Archify——让编程助手把代码库画成交互架构图：9.9 万星的 Agent 技能 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1ohzocs": {
+    "src": "https://opengraph.githubassets.com/7a7e29c6545daf81a6d5076ad151d93077b12179aa973a59f40050b1415aa8da/anthropics/formal-math",
+    "alt": "Claude 声称证明 VP ≠ VNP：P vs NP 代数版 47 年猜想，70 页论文 + 7.3 万行 Lean 证明 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-i8til1": {
+    "src": "https://opengraph.githubassets.com/275fb1ca4e39ce971965b9f24b5c879f4b0c3e66aa4552527c5df4e7847c799f/midrender/revideo",
+    "alt": "Revideo——用 TypeScript 写 2D 动效视频的开源框架 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ug5el7": {
+    "src": "https://dardo.studio/social/dardo-share-v31.jpg",
+    "alt": "Dardo——飞镖把一行字钉在布上的工作室官网 的官方预览图",
+    "credit": "dardo.studio"
+  },
+  "i-1dc9sde": {
+    "src": "https://granular.build/assets/og-image-v5.png",
+    "alt": "Granular——给非程序员的 AI 工作台：老板 Agent 带队，Claude/Codex/Gemini 一起干活 的官方预览图",
+    "credit": "granular.build"
+  },
+  "i-kp8bxv": {
+    "src": "https://raveo.jakubfoglar.com/og.png",
+    "alt": "Raveo 2.0——Inter 衍生的暖调可变无衬线，七档字重 × 三档宽度 的官方预览图",
+    "credit": "raveo.jakubfoglar.com"
+  },
+  "i-1dfd3v2": {
+    "src": "https://utf8.a3k.me/og-image.png",
+    "alt": "Open UTF-8 Icons——3965 个 Unicode 符号免注册即搜即拷 的官方预览图",
+    "credit": "utf8.a3k.me"
+  },
+  "i-19vaela": {
+    "src": "https://opengraph.githubassets.com/b6e805be3857918c4cac7453bd7471f2411b2ecdbb38bbc6adc3a58655e64596/AiFirstDevelopment/engineer-to-ai-engineer",
+    "alt": "From engineer to AI engineer——免费 AI 工程课：8 集搭出 RAG，7 集搭评估，每集一个 Git tag 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-a5j15f": {
+    "src": "https://opengraph.githubassets.com/976e95d3e489401a68ab27e8ba119401dd2acc002e8648987e8123bc467cb4fa/sergey-kurshev/AiPrepLab",
+    "alt": "AiPrepLab——免费 AI 研究员面试课：11 个模块，文章+可运行练习+检查，CPU 就能跑 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1hk85ud": {
+    "src": "https://hld.handbook.academy/static/og/site.png",
+    "alt": "HLD Handbook——159 章开源系统设计手册：从 TCP 到 LLM 服务，CC BY-SA 免注册可读 的官方预览图",
+    "credit": "hld.handbook.academy"
+  },
+  "i-1lhsguu": {
+    "src": "https://djr.com/assets/posts/map-roman-fotm.png",
+    "alt": "DJR 的官方预览图",
+    "credit": "djr.com"
+  },
+  "i-1tpwwqd": {
+    "src": "http://static1.squarespace.com/static/5a08b7fdf09ca475e60feb28/t/5d5ebb5be74dfd00016c6df9/1566489475472/vocal-home-02.png?format=1500w",
+    "alt": "Vocal Type 的官方预览图",
+    "credit": "vocaltype.co"
+  },
+  "i-1tgua27": {
+    "src": "https://codeberg.org/m-casanova/Garamontio/-/summary-card",
+    "alt": "Garamontio 1.334——可变 Garamond，带数学符号，今日更新 的官方预览图",
+    "credit": "codeberg.org"
+  },
+  "i-1yulz6a": {
+    "src": "https://ladybird.org/assets/img/logo-new.webp",
+    "alt": "Ladybird 浏览器首个 Alpha：四年磨一剑的自研引擎终于能下载了 的官方预览图",
+    "credit": "ladybird.org"
+  },
+  "i-kncgzi": {
+    "src": "https://www.schick-toikka.com/share-image.jpg",
+    "alt": "Schick Toikka 的官方预览图",
+    "credit": "schick-toikka.com"
+  },
+  "i-12yk9rf": {
+    "src": "https://aleph-alpha.com/_astro/00-cover.Cqyhjitl_Z1tJrF.jpeg",
+    "alt": "Kolibri 1.1——Aleph Alpha 开源英德模型，1M 上下文解码快 14 倍 的官方预览图",
+    "credit": "aleph-alpha.com"
+  },
+  "i-13h039s": {
+    "src": "https://fonts.shake.st/assets/og.png",
+    "alt": "Shake Sans 1.200——韩拉双语可变字体，粗细宽度双轴可调 的官方预览图",
+    "credit": "fonts.shake.st"
+  },
+  "i-1mda3qj": {
+    "src": "https://opengraph.githubassets.com/856effd98672ee63908e1acbe169147f5805f497e540381264e31f7dba75652a/AlexsJones/llmfit",
+    "alt": "一句话告诉你：这台电脑能跑哪些开源大模型 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1tdybvw": {
+    "src": "https://inrond.hairlineui.com/opengraph-image?649ac556683e6334",
+    "alt": "Inrond 1.0——Inter 加圆角轴，换字不重排 的官方预览图",
+    "credit": "inrond.hairlineui.com"
+  },
+  "i-13zqj8u": {
+    "src": "https://www.freestyle.sh/og/site/pricing.png?v=2026-05-04",
+    "alt": "Agent 沙箱每月免费额度：用完停机、不扣费 的官方预览图",
+    "credit": "freestyle.sh"
+  },
+  "i-14860ci": {
+    "src": "https://cdn.poweredby.snova.ai/sambacloud.jpg",
+    "alt": "免绑卡免费调开源大模型：SambaNova 免费档实测 的官方预览图",
+    "credit": "cloud.sambanova.ai"
+  },
+  "i-16qga5u": {
+    "src": "https://merget.ai/assets/merget/og.png",
+    "alt": "AI 并行写代码总撞车？免费合流队列帮你排队合并 的官方预览图",
+    "credit": "merget.ai"
+  },
+  "i-ogppw2": {
+    "src": "https://wallpaper.gripe/og.png",
+    "alt": "wallpaper.gripe——每天 5 张新壁纸，4K + iPhone 双尺寸 的官方预览图",
+    "credit": "wallpaper.gripe"
+  },
+  "i-gb3cuh": {
+    "src": "https://lettermatic.com/630",
+    "alt": "Lettermatic 的官方预览图",
+    "credit": "lettermatic.com"
+  },
+  "i-18o0soj": {
+    "src": "https://htmaa.clarkdinnison.com/htmaa-assets/og.gif",
+    "alt": "MIT《How to Make (Almost) Anything》100 天邮件课——每天 5 分钟学 CAD、3D 打印与电路板 的官方预览图",
+    "credit": "htmaa.clarkdinnison.com"
+  },
+  "i-eb1fqv": {
+    "src": "https://www.daltonmaag.com/img/3k/c5e8734c80/Home-Thumbnail.png",
+    "alt": "Dalton Maag 的官方预览图",
+    "credit": "daltonmaag.com"
+  },
+  "i-1rzb5uq": {
+    "src": "https://merget.ai/assets/merget/og.png",
+    "alt": "Merget——AI 并行写代码时代的语义合流队列：Git 发现不了的冲突它先拦下来 的官方预览图",
+    "credit": "merget.ai"
+  },
+  "i-vyxak0": {
+    "src": "https://opengraph.githubassets.com/702950590dc3063b7c217d6e43a0ddf2f8e85f69a55fae9e67bf55ca681abc05/sharukh01621/first-line-to-first-paper",
+    "alt": "From First Line to First Paper——860 页开源教材：从第一行 Python 写到能发论文的深度学习 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1wu4y67": {
+    "src": "https://termphin.dev/og-image.png",
+    "alt": "Termphin——免费开源的手机 SSH：锁屏断网也不掉线，Claude Code 在服务器上继续跑 的官方预览图",
+    "credit": "termphin.dev"
+  },
+  "i-126m0s1": {
+    "src": "https://dsa-in-depth.vedgupta.in/assets/og/home.png",
+    "alt": "DSA in Depth——硬件视角的数据结构交互教材：69 个可视化模拟器 + 22 个从零实现实验 的官方预览图",
+    "credit": "dsa-in-depth.vedgupta.in"
+  },
+  "i-1xpgh4h": {
+    "src": "https://a2-type.co.uk/media/img/_1200x630_crop_center-center_82_none_ns/A2-TYPE-og.png?mtime=1702470938",
+    "alt": "A2-Type 的官方预览图",
+    "credit": "a2-type.co.uk"
+  },
+  "i-en9muw": {
+    "src": "https://www.sciencemission.fun/images/home-sandbox.jpg",
+    "alt": "ScienceMission.fun——免费互动 3D 科学实验室合集 的官方预览图",
+    "credit": "sciencemission.fun"
+  },
+  "i-14fc7ib": {
+    "src": "https://cdn.poweredby.snova.ai/sambacloud.jpg",
+    "alt": "SambaNova SambaCloud 免费档——不绑卡免费调开源模型 的官方预览图",
+    "credit": "cloud.sambanova.ai"
+  },
+  "i-rervst": {
+    "src": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_6rn60bs09680199y6atwere192/a5e509d5d0244f4f0a483140bb584db2_1795669946775.png",
+    "alt": "VideoPhysics——1445 个免费科学模拟器，紧跟今年航天大事件 的官方预览图",
+    "credit": "videophysics.com"
+  },
+  "i-eygmod": {
+    "src": "https://storage.ghost.io/c/f9/d7/f9d78a80-56f8-4adc-8ba1-0e2d6ee72b16/content/images/2026/11/section.jpg",
+    "alt": "Storybook 11 beta——给 Agent 的组件库上下文 的官方预览图",
+    "credit": "storybook.js.org"
+  },
+  "i-145e1tr": {
+    "src": "https://sailresearch.com/og-image.png",
+    "alt": "Sail Research 创业计划——最高 $10,000 开源模型推理额度 的官方预览图",
+    "credit": "sailresearch.com"
+  },
+  "i-1gho6tw": {
+    "src": "https://www.kamatera.com/wp-content/uploads/logo.png",
+    "alt": "Kamatera——$100 云服务器 30 天试用 的官方预览图",
+    "credit": "kamatera.com"
+  },
+  "i-hv3h1z": {
+    "src": "https://opengraph.githubassets.com/edc53a823c0139829a1b93f5386bf21564c6be8b073a8b96e29524f3c805a541/66HEX/frame",
+    "alt": "Frame 0.35.0——Rust 写的 FFmpeg 图形界面：批量转码不用背命令 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1t1w69y": {
+    "src": "https://www.spectrum.security/threats/react2steal-actions-campaign/opengraph-image?230d88d9b58d09b7",
+    "alt": "React2STEAL 攻击行动：被劫持的 GitHub 账号在跑免费 CI 扫未打补丁的 React/Next.js 服务 的官方预览图",
+    "credit": "spectrum.security"
+  },
+  "i-b084ap": {
+    "src": "https://opengraph.githubassets.com/856effd98672ee63908e1acbe169147f5805f497e540381264e31f7dba75652a/AlexsJones/llmfit",
+    "alt": "llmfit——一句话告诉你：这台电脑能跑哪些开源大模型 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-169f34s": {
+    "src": "https://opengraph.githubassets.com/d258a28022c114d5e18ee5996382100fef7d8efb48b45db0bda23dbde3c8d923/JetBrains/thinkrail",
+    "alt": "ThinkRail——JetBrains 孵化的 Agent IDE：规格图让 Agent 越用越懂你的项目 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1j131i7": {
+    "src": "https://claude.com/resources/articles/introducing-claude-ship/opengraph-image/og",
+    "alt": "Claude Ship——Anthropic 11 月 23 日发布：三个 Agent 接管 PR，从审代码、修 CI 到按策略放行 的官方预览图",
+    "credit": "claude.com"
+  },
+  "i-1yj04q8": {
+    "src": "https://mathiasadolfsson.dev/images/og.jpg?v=3",
+    "alt": "Mathias Adolfsson 2026——弧形轮播 + 酒桶画廊，整个作品集是一个会呼吸的 WebGPU 场景 的官方预览图",
+    "credit": "mathiasadolfsson.dev"
+  },
+  "i-16w7k4m": {
+    "src": "https://repository-images.githubusercontent.com/520955562/cc460c06-142c-4559-bd70-5ed5a5a797e3",
+    "alt": "Motion Canvas——用 TypeScript 生成器写动画：3Blue1Brown 风格讲解动画的开源利器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-k5kn3m": {
+    "src": "https://www.dreamcoder.ai/assets/icons/moon/moon-1024.png",
+    "alt": "DreamCoder——浏览器里的平铺窗口编程 harness：多 Agent 聊天、终端、评审同屏跑 的官方预览图",
+    "credit": "dreamcoder.ai"
+  },
+  "i-9zveje": {
+    "src": "https://strandsagents.com/blog/introducing-strands-decider-v2/1200",
+    "alt": "Strands Decider v2——AWS 开源「系统一」决策模型：不写文章、只做选择题 的官方预览图",
+    "credit": "strandsagents.com"
+  },
+  "i-hd6rmh": {
+    "src": "https://iconfolk.com/og.jpg",
+    "alt": "Iconfolk——9300+ 免费手绘线条图标，11 月 18 日上线 的官方预览图",
+    "credit": "iconfolk.com"
+  },
+  "i-lwt8x6": {
+    "src": "https://wakamaifondue.com/wf-screenshot-square.jpg",
+    "alt": "Wakamai Fondue——丢一个字体文件进去，就告诉你它能干什么 的官方预览图",
+    "credit": "wakamaifondue.com"
+  },
+  "i-1it7bsz": {
+    "src": "https://ikalabgames.com/assets/tools/gradient-wallpaper.webp?v=07d3790c",
+    "alt": "Gradient Wallpaper Maker——免费渐变壁纸工具，手机电脑一次导出 的官方预览图",
+    "credit": "ikalabgames.com"
+  },
+  "i-1h7oqar": {
+    "src": "https://screentell.com/og.png",
+    "alt": "Screentell——浏览器里录屏加剪辑：免安装、本地处理，自动变焦与 3D 运镜 的官方预览图",
+    "credit": "screentell.com"
+  },
+  "i-rdp2k8": {
+    "src": "https://www.typemates.com/public/_1200x630_crop_center-center_82_none_ns/Typemates-Fonts-Team-Typedesigner-Potrait-AboutTheMates.jpg?mtime=1763541308",
+    "alt": "TypeMates——德国独立字库，站面利落、字体陈列带定制案例 的官方预览图",
+    "credit": "typemates.com"
+  },
+  "i-vdzbva": {
+    "src": "https://simutory.com/og/en/solar.jpg",
+    "alt": "Simutory——免费中小学科学模拟站：拖原子拼分子、把太阳缩成黑洞 的官方预览图",
+    "credit": "simutory.com"
+  },
+  "i-f13jq6": {
+    "src": "https://typofonderie.com/assets/seo/typofonderie-font-homepage-bedb0899e613e8fc567ff23233afe720feba60128b47b7942b466edd093100e0.png",
+    "alt": "Typofonderie——法国老牌字库，法式字体的大本营 的官方预览图",
+    "credit": "typofonderie.com"
+  },
+  "i-uy0ha3": {
+    "src": "https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/ddea2027-27b4-407e-83a5-d84bfd295627.png",
+    "alt": "freeCodeCamp shadcn/ui React Native 全手册——把 shadcn 的组件思路搬进移动端 的官方预览图",
+    "credit": "freecodecamp.org"
+  },
+  "i-2tyixo": {
+    "src": "https://opengraph.githubassets.com/760300762184518af22cdc4a3732b9b4872c94f2dafb7f9fddedfa34099d91a6/datawhalechina/hello-agents",
+    "alt": "Hello-Agents——Datawhale 8.7 万星中文智能体教程，从原理到多智能体实战 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-kor3ay": {
+    "src": "https://cdn.hashnode.com/uploads/covers/5f68e7df6dfc523d0a894e7c/644a1317-5022-4e1f-9a0a-6b115453d874.png",
+    "alt": "freeCodeCamp PostgreSQL 混合搜索课——1 小时在库里搭出 BM25 + 向量检索 的官方预览图",
+    "credit": "freecodecamp.org"
+  },
+  "i-1q2b4h0": {
+    "src": "https://fontwerk.com/media/pages/home/6b796a61fe-1733824515/fontwerk_home_social_media_preview.png",
+    "alt": "Fontwerk——汉堡精品字库，案例墙就是字体应用样本库 的官方预览图",
+    "credit": "fontwerk.com"
+  },
+  "i-kmfxr2": {
+    "src": "https://opengraph.githubassets.com/d1b197e408ca0d69b9ccb796a6c0e304ad94ade383e11265e778884faada6d4b/iamajmeena/neonclipping",
+    "alt": "免费把长视频切成竖屏短视频：本地跑、不用上传 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-cedutp": {
+    "src": "https://orbits.observer/og-image.png",
+    "alt": "ORBIT——免费 3D 太阳系漫游：1700–2200 任意日期，看日食影子扫过地球 的官方预览图",
+    "credit": "orbits.observer"
+  },
+  "i-1gmvh57": {
+    "src": "https://opengraph.githubassets.com/9edd245204452c4ca09dbd170945dbd39b9c429095e804ddffe13fa256eafa11/storytold/craft-anything",
+    "alt": "指着任何网站，让 AI 照着重做一个：GitHub 涨星第 2 的开源神器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-d7b0lj": {
+    "src": "https://opengraph.githubassets.com/f72e1b6831f55295e6ef14b6fb561d80c9d3f7e009b9ad172b96c210aedd9f0e/HKUDS/CLI-Anything",
+    "alt": "CLI-Anything——让任何软件都变成 Agent 能直接用的命令行 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-22hntz": {
+    "src": "https://opengraph.githubassets.com/9edd245204452c4ca09dbd170945dbd39b9c429095e804ddffe13fa256eafa11/storytold/craft-anything",
+    "alt": "Craft Anything——指着任何网站、App 或游戏，让 AI 照着重做一个自己的版本 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-8ysvso": {
+    "src": "https://opengraph.githubassets.com/dd4ae5bbc2033e3b43d2491b63665d578fdef0878b84f773bad4e34df3695d3f/tailscale/tailcat",
+    "alt": "Tailcat——不用注册账号的加密版 netcat 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-16fcbl5": {
+    "src": "https://opengraph.githubassets.com/f72e1b6831f55295e6ef14b6fb561d80c9d3f7e009b9ad172b96c210aedd9f0e/HKUDS/CLI-Anything",
+    "alt": "让 Blender、Obsidian 都听 Agent 使唤：港科大开源 CLI 生成器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1bwh0nm": {
+    "src": "https://opengraph.githubassets.com/d1b197e408ca0d69b9ccb796a6c0e304ad94ade383e11265e778884faada6d4b/iamajmeena/neonclipping",
+    "alt": "NeonClipping——免费本地长视频转竖屏切片 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-85jaao": {
+    "src": "https://www.freestyle.sh/og/site/pricing.png?v=2026-05-04",
+    "alt": "Freestyle——Agent 沙箱每月免费额度，用完停机不扣费 的官方预览图",
+    "credit": "freestyle.sh"
+  },
+  "i-1eh3gyu": {
+    "src": "https://altare.gg/og/en.png?v=15",
+    "alt": "免绑卡白嫖 VPS：免费开 4 台小服务器实测 的官方预览图",
+    "credit": "altare.gg"
+  },
+  "i-m415u": {
+    "src": "https://strict.ai/og/default.png",
+    "alt": "Strict——闲置 Mac/Linux 变成免费的 GitHub Actions 跑手 的官方预览图",
+    "credit": "strict.ai"
+  },
+  "i-1bfrkkl": {
+    "src": "https://blaxel.ai/og.png",
+    "alt": "Blaxel——新账号最高 $200 免费额度，给 Agent 的微型虚拟机沙箱 的官方预览图",
+    "credit": "blaxel.ai"
+  },
+  "i-17rqp03": {
+    "src": "https://opengraph.githubassets.com/5d3c5328203cf9c4f8ccb628b58ac2e94c0c256ae196a8e2ac9f3db435070665/0xsline/OpenChatCut",
+    "alt": "OpenChatCut——开源对话式剪辑器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1hwh00g": {
+    "src": "https://code.visualstudio.com/assets/updates/1_146/release-highlights.webp",
+    "alt": "VS Code 1.146——旧 Local harness 2027 年 2 月移除，Copilot harness 全面接管 的官方预览图",
+    "credit": "code.visualstudio.com"
+  },
+  "i-1ngbvlw": {
+    "src": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/size/w1200/2026/11/Claude-Code-settings.local.json--31-088-Secrets-on-GitHub--Copies-in-Docker-Hub.png",
+    "alt": "Claude Code 密钥泄露：点一次「Yes, and don't ask again」，密码可能进公开仓库 的官方预览图",
+    "credit": "blog.gitguardian.com"
+  },
+  "i-18tkr9l": {
+    "src": "https://altare.gg/og/en.png?v=15",
+    "alt": "Altare——免绑卡免费 VPS，最多开 4 台小服务器 的官方预览图",
+    "credit": "altare.gg"
+  },
+  "i-g72mog": {
+    "src": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png",
+    "alt": "Claude 技能/连接器/插件合进一个 Plugins 页，企业版 11 月 30 日默认启用 的官方预览图",
+    "credit": "support.claude.com"
+  },
+  "i-8v182": {
+    "src": "https://opengraph.githubassets.com/0af60356f53975ce95162c03fc9129a3c09630c2c188ca8b2ce93e475d9c68f5/mattpocock/skills",
+    "alt": "Matt Pocock skills——33 万星的真工程 Agent 技能：先问清楚再动手，27 个技能覆盖需求、TDD、查 bug 与代码评审 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-17uyoz": {
+    "src": "https://opengraph.githubassets.com/97eae80a64a890e030b1845cfb815270da7781840ba26b41df110e13a07d0e6b/emilkowalski/skills",
+    "alt": "Emil Kowalski skills——Vercel/Linear 设计工程师的动效品味技能包，近 20 个技能专治 Agent 的动效低级错误 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1m6jd4h": {
+    "src": "https://opengraph.githubassets.com/b9c04bd0c73e539186d51689765b0dd7a14c1873a99465663bbca80f9d3b4b92/Panniantong/Agent-Reach",
+    "alt": "Agent-Reach——给 Agent 装上全网眼睛：一个 CLI 读 X、Reddit、YouTube、B 站、小红书，不用买平台 API 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-lxnxbo": {
+    "src": "https://newsroom.cisco.com/c/dam/r/newsroom/en/us/assets/a/y2026/m11/Shirudo1.png",
+    "alt": "Shirudo——Cisco 与 OpenAI 联手开源的 Agent 安全运行时 的官方预览图",
+    "credit": "newsroom.cisco.com"
+  },
+  "i-1vduj2d": {
+    "src": "https://opengraph.githubassets.com/8f47c017af8cd26e193ae96a8dba76bb3aa39d601a9a6be711cac11dd0e6fb21/shadcn/improve",
+    "alt": "shadcn/improve——让最强模型审代码、便宜模型动手：9 类并行审计只出方案不改代码 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1xppdwh": {
+    "src": "https://motionflare.ai/og-image.png?v=2026-10-11",
+    "alt": "Motionflare——网址粘贴即生成品牌宣传视频 的官方预览图",
+    "credit": "motionflare.ai"
+  },
+  "i-1vwhrsx": {
+    "src": "https://lampjack.app/brand/social-card.png",
+    "alt": "Lampjack——浏览器里的 VJ 打碟台 的官方预览图",
+    "credit": "lampjack.app"
+  },
+  "i-6t36kg": {
+    "src": "https://opengraph.githubassets.com/f72e1b6831f55295e6ef14b6fb561d80c9d3f7e009b9ad172b96c210aedd9f0e/vercel-labs/agent-desktop",
+    "alt": "Agent Desktop——不用截屏，让 Agent 直接操作桌面应用 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-hju6im": {
+    "src": "https://www.prodiam.co.za/oldest/img/scene-2-mantle.png",
+    "alt": "Deep-Time Diamond——一颗钻石 30 亿年的滚动编年史 的官方预览图",
+    "credit": "prodiam.co.za"
+  },
+  "i-17hj4ea": {
+    "src": "https://opengraph.githubassets.com/b648fe8e080eed018d457267794b890487613b34771be101a98f1dd347d4f050/pithings/unkernel",
+    "alt": "unkernel——真正的 Linux 内核编译成 WebAssembly，浏览器里 1 秒不到开出一个 Linux 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1tfob6f": {
+    "src": "https://opengraph.githubassets.com/e2479b0b3cb989c027bccafca9d02addd0c6966396304768482dbb265a6fa0de/EL4CTEO/fast-anything",
+    "alt": "fast-anything——只把最慢的 5% 函数改写成 Rust，实录调用验算通过才启用 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1mnfpcs": {
+    "src": "https://opengraph.githubassets.com/619e1fb5d5b441dff1f12f466e4e57fd58c7e314295bad0d4a94005aadcfaad4/havenicec/google-qr-sms-helper",
+    "alt": "google-qr-sms-helper——把 Google 强制扫码验证一键降级回 6 位短信验证码的 Chrome 插件 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-6li34m": {
+    "src": "https://opengraph.githubassets.com/b648fe8e080eed018d457267794b890487613b34771be101a98f1dd347d4f050/pithings/unkernel",
+    "alt": "unkernel——真正的 Linux 内核编译成 WebAssembly，浏览器里 1 秒不到开出一个 Linux 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1w6k2bu": {
+    "src": "https://repository-images.githubusercontent.com/1460452633/e9e71cf3-4c59-4b76-bd47-c15c7010b355",
+    "alt": "mobile-agent-testers——20 个 AI 测试员同时在 20 台手机上测你的 App，用 GitHub 免费 Runner 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ihexsq": {
+    "src": "https://av.github.io/safe-sand/icons/icon-512.png",
+    "alt": "Sand——超写实沙粒模拟器 的官方预览图",
+    "credit": "av.github.io"
+  },
+  "i-s72y9i": {
+    "src": "https://veyloralab.tech/icon-512.png",
+    "alt": "Veylora——免费互动科学实验室 的官方预览图",
+    "credit": "veyloralab.tech"
+  },
+  "i-kjawfe": {
+    "src": "https://cdn.sanity.io/images/9r24npb8/production/36f28faf79be48575ca23d0539987fb68c1cc76e-2400x1350.png?w=1200&h=630&fit=crop&fm=webp&q=80&auto=format",
+    "alt": "Expo Simulators——让 Agent 自己验证移动端改动，云端 iOS/Android 模拟器上线 的官方预览图",
+    "credit": "expo.dev"
+  },
+  "i-1uk4p2s": {
+    "src": "https://physin.org/images/home.png",
+    "alt": "Phys-In——跟着费曼讲义玩物理 的官方预览图",
+    "credit": "physin.org"
+  },
+  "i-1cyxf9m": {
+    "src": "https://opengraph.githubassets.com/f72e1b6831f55295e6ef14b6fb561d80c9d3f7e009b9ad172b96c210aedd9f0e/vercel-labs/agent-desktop",
+    "alt": "Agent Desktop——不用截屏，让 Agent 直接操作桌面应用 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-quhjs4": {
+    "src": "https://uizze.com/landing/uizze-social-preview.png",
+    "alt": "Uizze UI Taste——给编程 Agent 补“审美”，专治千篇一律的 AI 味界面 的官方预览图",
+    "credit": "uizze.com"
+  },
+  "i-riw1o9": {
+    "src": "https://openside.pro/img/og.png",
+    "alt": "Openside——开源免费的浏览器录制工作室 的官方预览图",
+    "credit": "openside.pro"
+  },
+  "i-11hxr0o": {
+    "src": "https://pointerstudio.app/assets/og.jpg",
+    "alt": "PointerStudio 1.0.9——免费 Windows 录屏+剪辑一体工具 的官方预览图",
+    "credit": "pointerstudio.app"
+  },
+  "i-ceiz9e": {
+    "src": "https://aiagentupdate.com/assets/memes/aion-instruct-ga-2026-11-23.webp",
+    "alt": "Edge Prompt API 进入 origin trial：生产网站可直接调用内置 Aion 模型 的官方预览图",
+    "credit": "aiagentupdate.com"
+  },
+  "i-oxbmd0": {
+    "src": "https://opengraph.githubassets.com/bb3d61d40bc264ce5feb892bb95daf228f6a1e535ee0084f93f5a449c9cb4618/bradautomates/claude-video",
+    "alt": "Claude Video——给 Claude Code 装上看视频的能力，/watch 一句搞定 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ln1dwp": {
+    "src": "https://opengraph.githubassets.com/b1bb20c0897dedd892ca877ac9681a14b734f149da8178edafd7cb7d8124a952/ranxianglei/billion-context",
+    "alt": "Billion Context——一个会话跑几周、十万上下文就够的压缩代理 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-15ete9t": {
+    "src": "https://repository-images.githubusercontent.com/1406706284/9452a39e-6cc8-453b-99d2-2fc49fcf9e89",
+    "alt": "huashu-art-motion——用代码让画动起来的艺术动画 Skill 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-mh99ht": {
+    "src": "https://opengraph.githubassets.com/dbc6b789d0c1c567461fdc9366e933557105d62467e3e69e7a8d733e2bd1bd86/google-labs-code/stitch-skills",
+    "alt": "Stitch Skills——Google Stitch 官方技能包：设计稿与代码双向跑 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-oa2jsw": {
+    "src": "https://i0.wp.com/technode.com/wp-content/uploads/2026/11/media-370704.png?fit=2560%2C1113&ssl=1",
+    "alt": "GLM-5.4——智谱新一代编程旗舰模型上线，补上视觉能力、上下文 1M 的官方预览图",
+    "credit": "technode.com"
+  },
+  "i-29ar5a": {
+    "src": "https://youart.ai/imgs/desktop-app-share-v1.jpg",
+    "alt": "YouArt Desktop App——桌面端 AI 创作搭档 的官方预览图",
+    "credit": "youart.ai"
+  },
+  "i-uko1ls": {
+    "src": "https://musicvisualizer.co/image/music-visualizer-free-preview.jpg",
+    "alt": "Music Visualizer——10 种随音乐起舞的可视化风格 的官方预览图",
+    "credit": "musicvisualizer.co"
+  },
+  "i-rlrir0": {
+    "src": "https://leanprover-community.github.io/blog/meta-twitter.png",
+    "alt": "黎曼猜想证明获 Lean 与 Mathlib 联合声明认证通过 的官方预览图",
+    "credit": "leanprover-community.github.io"
+  },
+  "i-16fit5f": {
+    "src": "https://ourspecialworld.com/player/assets/site/brand-icon-512.png?v=6ecf724bd664d87c",
+    "alt": "Our Special World——开车穿过挂满照片的 3D 小城 的官方预览图",
+    "credit": "ourspecialworld.com"
+  },
+  "i-gedrrl": {
+    "src": "https://frustum.me/play/stovetop/assets/og.jpg",
+    "alt": "Stovetop——浏览器里真能做饭的 3D 厨房 的官方预览图",
+    "credit": "frustum.me"
+  },
+  "i-186mbhc": {
+    "src": "https://typestash.j47.in/og/typestash.png",
+    "alt": "Typestash 0.3.0——自托管字体库 的官方预览图",
+    "credit": "typestash.j47.in"
+  },
+  "i-1w7nims": {
+    "src": "https://opengraph.githubassets.com/4d12e31d2c7f09582d20d13dbbceaffc6931014a66ea64bbeaf673f48f8ec3d4/nathanmsolomon/christoffel-1768",
+    "alt": "Christoffel 1768 1.0——1768 年 Enschedé 印张复刻的 9 款 Van Dijck 字体 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1vg2njg": {
+    "src": "https://cdn.hashnode.com/res/hashnode/image/upload/v1770311427284/e63d5d11-e815-41e2-88c5-50c9ac969098.jpeg",
+    "alt": "哈佛 CS50 2026——25 小时免费上完哈佛计算机导论，新增 AI 专题 的官方预览图",
+    "credit": "freecodecamp.org"
+  },
+  "i-lswll3": {
+    "src": "https://opengraph.githubassets.com/7fb8ad5f3a5d4ee01c530bf989e3cce2f5dd459bc0ff7812370168f3787c3a96/hikariming/openkoto",
+    "alt": "OpenKoto——开源 AI 外语阅读器，拿自己喜欢的内容学语言 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-iyiqnj": {
+    "src": "https://cdn.hashnode.com/uploads/covers/5f68e7df6dfc523d0a894e7c/11abbf5e-47ed-46e1-8113-d379dd8cc076.png",
+    "alt": "freeCodeCamp 渗透测试速成课——2.5 小时学黑客怎么攻破系统 的官方预览图",
+    "credit": "freecodecamp.org"
+  },
+  "i-c24f89": {
+    "src": "https://i.ytimg.com/vi/lR931Iz8Z6U/maxresdefault.jpg",
+    "alt": "freeCodeCamp 向量数据库入门课——1.5 小时从数学讲到 ChromaDB 实战 的官方预览图",
+    "credit": "freecodecamp.org"
+  },
+  "i-pd1h8x": {
+    "src": "https://res.cloudinary.com/tdfoundry/image/upload/v1698767304/Screenshot_2023-10-31_at_8.46.32_AM_xzbevy.png",
+    "alt": "The Designers Foundry 的官方预览图",
+    "credit": "thedesignersfoundry.com"
+  },
+  "i-hx79yl": {
+    "src": "https://iconsaga.com/og/iconsaga-launch.png",
+    "alt": "IconSaga——5517 个免费图标 × 3 种风格 的官方预览图",
+    "credit": "iconsaga.com"
+  },
+  "i-11hj7dq": {
+    "src": "https://biocartoon.com/logo.png",
+    "alt": "BioCartoon——免费开源生物插画库 的官方预览图",
+    "credit": "biocartoon.com"
+  },
+  "i-1tq8y58": {
+    "src": "https://opengraph.githubassets.com/856effd98672ee63908e1acbe169147f5805f497e540381264e31f7dba75652a/shadcn-labs/goeist-font",
+    "alt": "Goeist 0.1.0——Shadcn Labs 发布的圆角版 Geist 字体 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1rm5985": {
+    "src": "https://localai.io/img/brand/og-card-1200x630.jpg",
+    "alt": "LocalAI 5.0——开源本地 AI 引擎大版本更新，桌面应用 + 原生 Windows 支持 的官方预览图",
+    "credit": "localai.io"
+  },
+  "i-1xm9tj1": {
+    "src": "https://opengraph.githubassets.com/cb9f69684f265be7e7ef1f4eb772f40ef4063cb3a0d473265858d4ff98128c8f/daikonic-org/transit-typeface",
+    "alt": "Daikonic Transit——伦敦地铁 Johnston 字体衍生的三族可变字体 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-8i1ix9": {
+    "src": "https://opengraph.githubassets.com/a1f5685b863ca1e749fb3697faf56b0eec1017088c3401da9d0201b13e541d3c/LostRuins/koboldcpp/releases/tag/v1.125.1",
+    "alt": "KoboldCpp v1.125——单文件本地跑模型新增原生音频模型与 MCP 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-as5lbu": {
+    "src": "https://gradientshub.com/og.png",
+    "alt": "GradientsHub——免费渐变背景与 AI 纹理图库 的官方预览图",
+    "credit": "gradientshub.com"
+  },
+  "i-kadwj": {
+    "src": "https://repository-images.githubusercontent.com/1195360525/645f0bc1-450d-4791-99b8-6102b4bb9f3d",
+    "alt": "OpenMontage——开源 Agent 视频制片系统，让编程助手变身视频工作室 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-17un95t": {
+    "src": "https://repository-images.githubusercontent.com/1389011744/04eb4278-1a5c-42b0-8a7e-be7c03f48516",
+    "alt": "Lemo-Opuscar——不用视频模型，Claude Code 写代码拍短片，99 种风格任选 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1ytzvq8": {
+    "src": "https://site.nizima-action.com/wp-content/uploads/2025/07/ogp_facebook.png",
+    "alt": "nizima ACTION!!——Live2D 官方出品的浏览器视频剪辑器，不用安装就能剪 VTuber 短视频 的官方预览图",
+    "credit": "site.nizima-action.com"
+  },
+  "i-14l2695": {
+    "src": "https://i.ytimg.com/vi/ybe6EGe_wjo/maxresdefault.jpg",
+    "alt": "freeCodeCamp 数据结构与算法 Python 可视化课——2.5 小时动画讲透 的官方预览图",
+    "credit": "freecodecamp.org"
+  },
+  "i-1wao1rf": {
+    "src": "https://i.ytimg.com/vi/ajfQWhGQGLE/maxresdefault.jpg",
+    "alt": "freeCodeCamp Agentic Coding with Codex——2 小时免费学用 AI 编程助手 的官方预览图",
+    "credit": "freecodecamp.org"
+  },
+  "i-1i291ra": {
+    "src": "https://cdn.hashnode.com/uploads/gql/5f68e7df6dfc523d0a894e7c/1bca1e16-d488-4afc-bc2f-ede5902092c4.jpg",
+    "alt": "freeCodeCamp Godot 4 Roguelike 完整游戏课——10 小时从空项目做到可导出 的官方预览图",
+    "credit": "freecodecamp.org"
+  },
+  "i-d45obe": {
+    "src": "https://www.nan.xyz/wp-content/uploads/Screenshot-2023-06-19-at-16.53.03-1.png",
+    "alt": "NaN 的官方预览图",
+    "credit": "nan.xyz"
+  },
+  "i-1c9ofvo": {
+    "src": "https://rshekhar.com/voyager/og.jpg",
+    "alt": "Voyager——把旅行者 1 号拆到单个存储芯片的互动 3D 探险 的官方预览图",
+    "credit": "rshekhar.com"
+  },
+  "i-1wd3yct": {
+    "src": "https://www.205.tf/images/og-image-205.png",
+    "alt": "205TF——法国独立字库，极简站面配字体实地应用 的官方预览图",
+    "credit": "205.tf"
+  },
+  "i-3o1f31": {
+    "src": "https://glidepathscience.org/_astro/rotational-dynamics-rolling.BzSPLhkb.png",
+    "alt": "Rotational Dynamics & Rolling——11 月 21 日发布的免费转动动力学模拟器 的官方预览图",
+    "credit": "glidepathscience.org"
+  },
+  "i-k34j3l": {
+    "src": "https://www.watched.earth/og-default.png",
+    "alt": "Watched——输入任意地点，看过去 7 天飞过头顶的每颗卫星和它拍的照片 的官方预览图",
+    "credit": "watched.earth"
+  },
+  "i-11z76z7": {
+    "src": "https://opengraph.githubassets.com/fa99fccc9d6387b15e0272ec462e4531872d3b903c5ceedf79c35162045a957b/Tencent/LoopForge",
+    "alt": "LoopForge——腾讯开源的编程 Agent 交付工作台，聊天定需求、SOP 固定流程 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-17j8r12": {
+    "src": "https://secure.gravatar.com/blavatar/fe7f5b0b83dba894afe26c42bcab33fe2d1246d9730ef182c72c0bff0dc26acb?s=200&#038;ts=1795692292",
+    "alt": "C++26 再次定稿——首个没通过 DIS 投票的 C++ 标准，改完重新送审 的官方预览图",
+    "credit": "herbsutter.com"
+  },
+  "i-1l9cqer": {
+    "src": "https://labs.bairavs.com/images/sketches/og-labs-mini.jpg",
+    "alt": "BAIRAVS Labs Mini——浏览器里开一台真机器人 的官方预览图",
+    "credit": "labs.bairavs.com"
+  },
+  "i-iydqx4": {
+    "src": "https://opengraph.githubassets.com/04831441dc52ca69e6de405493ad50c395e28556c3518d4bf2b74ea296236f49/FlashML-org/FreeToken",
+    "alt": "FreeToken——家用游戏 PC 跑 290B+ 大模型，本地推理不用租云 GPU 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-az2qu7": {
+    "src": "https://repository-images.githubusercontent.com/1195360525/645f0bc1-450d-4791-99b8-6102b4bb9f3d",
+    "alt": "OpenMontage——开源 Agent 视频制片系统，让编程助手变身视频工作室 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1s0rtzp": {
+    "src": "https://vercel.com/api/docs-og?title=Vercel%20Sandbox%20pricing%20and%20quotas&format=docs&sig=6d15e4d894fc044a538fe16c5a01e05e292e7123a648d9352b9e8f34ea30c265&category=Run%20agents%20and%20backends&subcategory=Sandbox",
+    "alt": "Vercel Sandbox 免费档——给 Agent 跑代码的隔离沙箱 的官方预览图",
+    "credit": "vercel.com"
+  },
+  "i-1f88kwc": {
+    "src": "https://site.nizima-action.com/wp-content/uploads/2025/07/ogp_facebook.png",
+    "alt": "nizima ACTION!!——Live2D 官方浏览器视频剪辑器，不用安装直接剪 VTuber 短视频 的官方预览图",
+    "credit": "site.nizima-action.com"
+  },
+  "i-n0qm9t": {
+    "src": "https://www.gradually.ai/images/og/default-og.webp",
+    "alt": "Codex CLI v0.171.0——终端工作区默认开启，并行会话一目了然 的官方预览图",
+    "credit": "gradually.ai"
+  },
+  "i-bvdhn0": {
+    "src": "https://imperial.pressbooks.pub/app/uploads/sites/8/2026/09/OER-Cover-Mock-Up-Cropped-Final.jpg",
+    "alt": "帝国理工首本开放教材——概率统计免费读，从贝叶斯讲到 Transformer 的官方预览图",
+    "credit": "imperial.pressbooks.pub"
+  },
+  "i-1fgjna9": {
+    "src": "https://cdn.prod.website-files.com/69ce570adca53340abab8376/69e08af826de248f8febd0dc_opengraph-cover-image.jpg",
+    "alt": "RunPod 创业计划——融资低于 $100 万的早期 AI 创业团队 的官方预览图",
+    "credit": "runpod.io"
+  },
+  "i-120kx8x": {
+    "src": "https://repository-images.githubusercontent.com/1389011744/04eb4278-1a5c-42b0-8a7e-be7c03f48516",
+    "alt": "Lemo-Opuscar——不用视频模型，Claude Code 写代码拍短片，99 种风格任选 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1tdkhs3": {
+    "src": "https://tensorlake.ai/pricing/opengraph-image?ee4bbf12d9694297",
+    "alt": "Tensorlake 免费档——$0 永久免费的 Agent 沙箱 的官方预览图",
+    "credit": "tensorlake.ai"
+  },
+  "i-emd7xe": {
+    "src": "https://repository-images.githubusercontent.com/1452175380/82670003-b765-410c-8566-9c1675720087",
+    "alt": "Linger——本机跑 125B 个人 Agent，记忆与主动提醒全在本地 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1z0boa9": {
+    "src": "https://opengraph.githubassets.com/0771eb0ba07b492c0524437126019843cef3575384221d481a8f7faaa103ccae/Ebony-Vinyl/dsh-our-free-model",
+    "alt": "dsh-our-free-model——给 DeepSeek Harness 装免费模型：DeepSeek V4.1 Flash、Kimi K3 免登录即用 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-5c2s5d": {
+    "src": "https://opengraph.githubassets.com/b0395fe8e8bcbd18c4fdb342c135e02f67a20978b25c1a920c37560aa5be7901/milind-soni/OpenMausBot",
+    "alt": "OpenMausBot——把 Claude/Codex/Grok 变成聊天列表里的机器人小队 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-178gg9y": {
+    "src": "https://fly.io/static/images/learn/og/sprites-for-ai-agents.jpg",
+    "alt": "Fly.io Sprites $30 试用金——给 Agent 的持久 Linux 电脑 的官方预览图",
+    "credit": "fly.io"
+  },
+  "i-er18mm": {
+    "src": "https://ocarina.thibaut-lefrancois.com/og-image.jpg",
+    "alt": "Songs of Hyrule——浏览器里吹响时之笛陶笛 的官方预览图",
+    "credit": "ocarina.thibaut-lefrancois.com"
+  },
+  "i-1uikya3": {
+    "src": "https://fontzie.app/share-fontzie.jpg",
+    "alt": "Fontzie 1.0——在任意真实网页上直接试字体、再导出 CSS 的 Chrome 扩展 的官方预览图",
+    "credit": "fontzie.app"
+  },
+  "i-llbgs5": {
+    "src": "https://dailywallpix.com/assets/img/winter-aurora-cabin.jpg",
+    "alt": "DailyWallPix——2200+ 张免费高清手机与桌面壁纸，每天上新 的官方预览图",
+    "credit": "dailywallpix.com"
+  },
+  "i-12vbmb5": {
+    "src": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/3X/d/7/d723c9265e304084fefc1cccdd987f2c959357f2.png",
+    "alt": "水墨武侠客栈——可走进去的 three.js 江湖小站 的官方预览图",
+    "credit": "discourse.threejs.org"
+  },
+  "i-rupf1b": {
+    "src": "https://generativeicons.com/og.png",
+    "alt": "Generative Icons——1161 个免费动画 UI 图标，描述一句话就能现生成同风格新图标 的官方预览图",
+    "credit": "generativeicons.com"
+  },
+  "i-qfg90k": {
+    "src": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+    "alt": "OpenAI 首席科学家长文：困惑度是衡量前沿模型的新标尺 的官方预览图",
+    "credit": "openai.com"
+  },
+  "i-iwcjog": {
+    "src": "https://assets.sarvam.ai/tr:w-1600,q-90,f-auto,dpr-auto/images/03117ysv/production/b1752012f4e3537eccb7e0f39b2da75c5e0e411d-1672x941.png",
+    "alt": "Sarvam-105B-1711——印度开源 105B 新检查点，工具调用大涨、4-bit 版单卡可跑 的官方预览图",
+    "credit": "sarvam.ai"
+  },
+  "i-128w8is": {
+    "src": "https://displaay.net/images/og-default.png",
+    "alt": "Displaay——捷克独立字库，站内可直接在线试字、拼自己的可变字体 的官方预览图",
+    "credit": "displaay.net"
+  },
+  "i-mxeo4h": {
+    "src": "https://underware.nl/about_us/general/underware-gutenberg.jpg",
+    "alt": "Underware——荷兰老牌实验字库，字体会写字、会动、会发光 的官方预览图",
+    "credit": "underware.nl"
+  },
+  "i-1osptq6": {
+    "src": "https://letterror.com/assets/cards/card-default.jpg",
+    "alt": "LettError——会自己乱动的“随机字体”鼻祖，三十年实验字库 的官方预览图",
+    "credit": "letterror.com"
+  },
+  "i-145dhxf": {
+    "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Notebook_EI_Textbooks.max-1440x810.png",
+    "alt": "Gemini Notebook 免费教材库——Google 官宣数百本教材免费加进笔记本 的官方预览图",
+    "credit": "blog.google"
+  },
+  "i-15hzxtu": {
+    "src": "https://esolab.co.jp/images/tools/og/black-hole.en.jpg",
+    "alt": "Black Hole Simulator——免费浏览器黑洞模拟器，逐像素算引力透镜 的官方预览图",
+    "credit": "esolab.co.jp"
+  },
+  "i-1w8qnxg": {
+    "src": "https://velxio.dev/og-image.png",
+    "alt": "Velxio——免费开源在线电路与单片机模拟器 的官方预览图",
+    "credit": "velxio.dev"
+  },
+  "i-d6m99m": {
+    "src": "https://repository-images.githubusercontent.com/931888694/1519efb0-ade3-433a-913a-ee7ddd8519a6",
+    "alt": "Handy——免费离线语音转文字，按快捷键说话就粘贴进任意输入框 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ejh6s3": {
+    "src": "https://lightning.ai/media/social-preview-2026.png",
+    "alt": "Lightning AI——免绑卡领 GPU 小时，免费档 1 个 Studio 全天候跑 的官方预览图",
+    "credit": "lightning.ai"
+  },
+  "i-ewnfxq": {
+    "src": "https://modal.com/assets/social-image-5.jpg",
+    "alt": "Modal Starter——每月 $30 免费算力跑 GPU/CPU 的官方预览图",
+    "credit": "modal.com"
+  },
+  "i-3ek9yg": {
+    "src": "https://repository-images.githubusercontent.com/1162099055/0a968964-fdca-4781-853b-84afc2bc2d31",
+    "alt": "taste-skill——给编程助手装审美，12 万星 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-18whzym": {
+    "src": "https://repository-images.githubusercontent.com/931888694/1519efb0-ade3-433a-913a-ee7ddd8519a6",
+    "alt": "Handy——免费离线语音转文字，按快捷键说话就粘贴进任意输入框 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-192ue2b": {
+    "src": "https://opengraph.githubassets.com/bcb16913cb306367daefed8bdcb2fe184a1466f696747666c76037b4ca134513/we-promise/sure",
+    "alt": "Sure——自己搭的免费个人记账：Maybe Finance 社区复活版，数据全在自己手里 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ihq2k7": {
+    "src": "https://www.syntaxcache.com/og-image.jpg",
+    "alt": "SyntaxCache——凭记忆默写代码语法的间隔重复练习 的官方预览图",
+    "credit": "syntaxcache.com"
+  },
+  "i-lualz7": {
+    "src": "https://modal.com/assets/social-image-5.jpg",
+    "alt": "Modal Starter 免费档——每月 $30 免费算力跑 GPU/CPU 的官方预览图",
+    "credit": "modal.com"
+  },
+  "i-q3vd56": {
+    "src": "https://browser-use.com/api/og?title=browser-use+1.0%3A+Why+We+Replaced+24+Agent+Tools+With+One&date=Nov+20%2C+2026&author=Magnus+M%C3%BCller",
+    "alt": "Browser Use 1.0——浏览器 Agent 推倒重来：24 个工具砍成 1 个 Python REPL，直连 CDP 的官方预览图",
+    "credit": "browser-use.com"
+  },
+  "i-r0j8zl": {
+    "src": "https://lightning.ai/media/social-preview-2026.png",
+    "alt": "Lightning AI 免费档——免绑卡领 GPU 小时，1 个免费 Studio 24/7 跑 的官方预览图",
+    "credit": "lightning.ai"
+  },
+  "i-r6a0th": {
+    "src": "http://assets.northflank.com/marketing/image/meta-1200.png",
+    "alt": "Northflank 免费沙箱——免绑卡，每月 $20 资源额度常驻不休眠 的官方预览图",
+    "credit": "northflank.com"
+  },
+  "i-5symkv": {
+    "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+    "alt": "Gemini 4 Hydrogen：给 Agent 干活的高速执行模型 的官方预览图",
+    "credit": "blog.google"
+  },
+  "i-2gg0rd": {
+    "src": "https://repository-images.githubusercontent.com/1162099055/0a968964-fdca-4781-853b-84afc2bc2d31",
+    "alt": "taste-skill——给编程助手装审美的 Agent Skill 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1a6ednt": {
+    "src": "https://opengraph.githubassets.com/64e8a3068e791511a679b1e137170dec9ca74cb9df4e19e23abe7cf48f7e7c7e/openai/openai-agents-python/releases/tag/v1.0.0-alpha.1",
+    "alt": "OpenAI Agents SDK v1.0.0-alpha.1：Codex 成了可选模型提供方 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1exya4h": {
+    "src": "https://kiro.dev/images/pages/changelog.png",
+    "alt": "Kiro IDE 1.5.11：远程 SSH、Dev Container 与云端会话 的官方预览图",
+    "credit": "kiro.dev"
+  },
+  "i-95l2qo": {
+    "src": "https://opengraph.githubassets.com/68484dadce2ce306a9aa66419a66d53d039a0fb89340bb891e96e670c48719de/gamedev-skills/awesome-gamedev-agent-skills",
+    "alt": "awesome-gamedev-agent-skills——让编程助手写游戏的 79 个技能包 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-11exezl": {
+    "src": "https://tellers.ai/images/tellers_ai_social_preview.webp",
+    "alt": "Tellers——免费给 Claude Code / Codex 用的视频剪辑 Skill，本地预览导出 MP4 的官方预览图",
+    "credit": "tellers.ai"
+  },
+  "i-xa6vq8": {
+    "src": "https://opengraph.githubassets.com/e853fc51be1ff524720e407696b2038d390ff92d7daea6c4e07a2b8db2b3b1a5/NVIDIA/SkillSpector",
+    "alt": "NVIDIA SkillSpector——装技能前先安检的扫描器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-p3e66m": {
+    "src": "https://repository-images.githubusercontent.com/1368596582/bafb1e15-6b0b-4c41-a95d-6183244a44ab",
+    "alt": "Elephant-Goldfish Model——先写设计、再让没参与讨论的 Agent 冷审的插件 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-5zdk4p": {
+    "src": "https://opengraph.githubassets.com/c3816282dd2eb26b6677810b837c2c8487210e2404fc48dcfc0009ea62608029/JuliusBrussee/caveman",
+    "alt": "caveman——12 万星开源神器，让 AI 编程助手少说废话 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1lskr6g": {
+    "src": "https://islandcn.dev/og?title=The+open-source+Dynamic+Island+for+React.&description=A+live+status+pill+for+the+top+of+any+web+app.",
+    "alt": "islandcn——开源 iOS 灵动岛 React 组件，活动状态收进顶部伸缩小药丸 的官方预览图",
+    "credit": "islandcn.dev"
+  },
+  "i-athfpo": {
+    "src": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/optimized/3X/a/8/a8ef3a02d42a6dabe5cbaf359e0ef7a186277ff8_2_576x1024.jpeg",
+    "alt": "Gargantua——浏览器里能玩的《星际穿越》黑洞 的官方预览图",
+    "credit": "discourse.threejs.org"
+  },
+  "i-192pm0x": {
+    "src": "https://www.cerebellumlabs.ai/opengraph-image.png?opengraph-image.0lwt5wljvvh07.png",
+    "alt": "Cerebellum Labs——新账号送 $5 额度，永不过期 的官方预览图",
+    "credit": "cerebellumlabs.ai"
+  },
+  "i-e99zyy": {
+    "src": "https://repository-images.githubusercontent.com/543101941/e14b70fa-fc46-4249-8bd8-399630941326",
+    "alt": "Univer——3.1 万星的开源 Office SDK：把表格文档幻灯片嵌进自己的产品 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-sd824p": {
+    "src": "https://opengraph.githubassets.com/9e225deecfc0bc418acb187c77cc2504cda9175dfcb591faa9e4e4037fc0c042/NVIDIA/auto-ontology",
+    "alt": "Auto Ontology——NVIDIA 开源的数据 Agent 语义层：问营收先对齐口径再给 SQL 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-15j84dn": {
+    "src": "https://opengraph.githubassets.com/6d4c13588c452eca96afcf7c4ce40fecfb9653ad03911a050a25e079b2d38cbc/GoogleChrome/modern-web-guidance-src",
+    "alt": "Modern Web Guidance——Chrome 官方的现代 Web 开发技能：让编程助手别再写过时代码 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-56opuh": {
+    "src": "https://cdn.prod.website-files.com/66b3765153a8a0c399c70981/6780cbb145ba2ada3ff1377b_image%20304249.webp",
+    "alt": "Murf 创业孵化计划——初创公司免费领 $1500 语音 API 额度 3 个月 的官方预览图",
+    "credit": "murf.ai"
+  },
+  "i-1d6ol53": {
+    "src": "https://openpith.com/og/home.jpg",
+    "alt": "OpenPith——浏览器里的科学实验室合集 的官方预览图",
+    "credit": "openpith.com"
+  },
+  "i-ykdqil": {
+    "src": "https://www.cerebellumlabs.ai/opengraph-image.png?opengraph-image.0lwt5wljvvh07.png",
+    "alt": "Cerebellum Labs——新账号送 $5 额度，永不过期 的官方预览图",
+    "credit": "cerebellumlabs.ai"
+  },
+  "i-k7plu6": {
+    "src": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+    "alt": "GitHub Event Streams 进入预览：Agent 不用再轮询等 PR 反馈 的官方预览图",
+    "credit": "github.blog"
+  },
+  "i-155i13x": {
+    "src": "https://repository-images.githubusercontent.com/1294637523/8a4687b2-1f84-493a-abaf-7c952903681e",
+    "alt": "Timeline Studio 1.0.9——免费开源浏览器 AI 剪辑器，字幕配音配乐人声分离全在本机 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-itc07b": {
+    "src": "https://cdn.wiro.ai/uploads/landingpages/student-landingpage-cover.jpg",
+    "alt": "Wiro 学生计划——在校生领 $200 额度，有效期 12 个月 的官方预览图",
+    "credit": "wiro.ai"
+  },
+  "i-5f3zxg": {
+    "src": "https://opengraph.githubassets.com/4e1aecf56d0c684374110990ddb6aaa89b27f5668965c631dd1380893d85b271/Ultranmus/video-ultra",
+    "alt": "VideoUltra v0.1——免费开源 React 剪辑器组件，浏览器里直接能试 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-omveg8": {
+    "src": "https://opengraph.githubassets.com/7b807dc6d889f3123189bc7ad75d40304490296b756f9aee9e68b680a4736dbf/SubtitleEdit/subtitleedit",
+    "alt": "Subtitle Edit 5.5.0 beta 1——免费开源字幕编辑器，新版能抹掉视频里烧死的硬字幕 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-mdpcpc": {
+    "src": "https://runway.com/opengraph-image.png?opengraph-image.1oltnwfb7pfkb.png",
+    "alt": "Runway Builders 计划——种子到 C 轮初创免费领最高 50 万 API 额度 的官方预览图",
+    "credit": "runway.com"
+  },
+  "i-1gyv254": {
+    "src": "https://openroll.dev/img/card.png",
+    "alt": "OpenRoll 0.2.1 beta——免费开源本地剪辑器，CapCut 风格还能让 Agent 帮你剪 的官方预览图",
+    "credit": "openroll.dev"
+  },
+  "i-mzwsx2": {
+    "src": "https://opengraph.githubassets.com/c3816282dd2eb26b6677810b837c2c8487210e2404fc48dcfc0009ea62608029/JuliusBrussee/caveman",
+    "alt": "caveman——让编程助手少说废话、少读冗余，整会话省 token 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1fp6z5w": {
+    "src": "https://opengraph.githubassets.com/2094ed00f85aa629781b6713f1960a74de1b00333eeb8a4c645c3f8761940945/obra/superpowers",
+    "alt": "Superpowers——给编程助手装一套完整开发方法论：先想清楚再动手 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-c9wop2": {
+    "src": "https://opengraph.githubassets.com/37193491ef4ba8b917aee05563c4b7baf3d88fa2dfa88ccaa3e68c5701c4a005/bvaughn/react-virtualized",
+    "alt": "React Virtualized 10.0——时隔多年的大版本，全面 TypeScript 化 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1f8585v": {
+    "src": "https://opengraph.githubassets.com/a524ec1ea6dcf3a853b55fc8786f3089af814df6b399700e400dd5c06dfca65d/sybil-solutions/inference-optimisation-skill",
+    "alt": "inference-optimisation-skill——手把手调快本地大模型推理的 Agent 技能 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-g5azcq": {
+    "src": "https://repository-images.githubusercontent.com/1235403234/a762853e-11a4-48c1-96a7-12c8e082f031",
+    "alt": "OpenMotion——开源版 Claude Motion：参考视频一键还原成可改的 HTML 动效 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1507og": {
+    "src": "https://opengraph.githubassets.com/e2d114b2a055ff53d6c61f6e3d43baceae4023d17172e64cb54f3a871bb1ccaf/Hada45/Open-Motion",
+    "alt": "Open-Motion——浏览器里跑的开源版 Alight Motion 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-nzag1i": {
+    "src": "https://developers.cloudflare.com/og-docs.png",
+    "alt": "Cloudflare Clairic——发票提取不用生成文本：按字段表直接返回带类型的数值 的官方预览图",
+    "credit": "developers.cloudflare.com"
+  },
+  "i-vcfsjx": {
+    "src": "https://opengraph.githubassets.com/5500efe91e7a9124305b6f400f25c056c6e303c26b6e657d1f94d591c2f5caa1/storytold/anicraft",
+    "alt": "AniCraft——纯 Rust 重写的开源版 Adobe Animate 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1d5htyw": {
+    "src": "https://repository-images.githubusercontent.com/1437869585/5541cbb6-36b4-4663-8f15-b1366dbde74b",
+    "alt": "SoduWork——团队多 Agent 引擎：一个干活、一个评审、最后人签收 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-2iiv0": {
+    "src": "https://hanshengchen.com/blog/pi-h3/teaser.jpg",
+    "alt": "pi-H3 1.0——2 步生成 MiniMax H3 视频，跳过 VAE 解码 的官方预览图",
+    "credit": "hanshengchen.com"
+  },
+  "i-aimm6n": {
+    "src": "https://meshgradientstudio.com/og-image.jpg?v=2026-11",
+    "alt": "Mesh Gradient Studio——11 月 3 日上线的动效渐变背景工具，15 种风格可导出视频或代码 的官方预览图",
+    "credit": "meshgradientstudio.com"
+  },
+  "i-1hzlqiy": {
+    "src": "https://rocm.blogs.amd.com/_images/artificial-intelligence-nitro-p-images-nitro-p-blog-thumbnail.webp",
+    "alt": "AMD Nitro-P——无 VAE 的像素空间文生图，一步出图每秒 90 张 的官方预览图",
+    "credit": "rocm.blogs.amd.com"
+  },
+  "i-y1gm8g": {
+    "src": "https://iconmcp.com/og-world.png",
+    "alt": "IconMCP——AI 智能体持续绘制的图标库，1.3 万+图标可逛着挑 的官方预览图",
+    "credit": "iconmcp.com"
+  },
+  "i-pehsl1": {
+    "src": "https://opengraph.githubassets.com/75e8f866ee6f734ddc75f07ac9fc5b18ae71ee148f1d34754a2673e2b13df241/walkinglabs/learn-harness-engineering",
+    "alt": "Learn Harness Engineering——免费开源（MIT）的 Harness 工程课 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-pzri3u": {
+    "src": "https://binarydose.in/coredose/Binary%20Dose%20-%20Master%20DSA,%20System%20Design%20&%20CS%20Fundamentals",
+    "alt": "Compiler Design Master Track——Binary Dose 11 月 1 日上线的免费编译原理课 的官方预览图",
+    "credit": "binarydose.in"
+  },
+  "i-1qnppc3": {
+    "src": "https://animdock.com/assets/og-image.png",
+    "alt": "Animdock——浏览器里的免费动效模板 + 免版税素材 + 59 个本地工具 的官方预览图",
+    "credit": "animdock.com"
+  },
+  "i-sysdmv": {
+    "src": "https://doodle.oreoui.com/opengraph-image?67e3eb31647c183b",
+    "alt": "Doodle Icons——203 个免费手绘动画 SVG 图标，笔画自己画出来还会抖 的官方预览图",
+    "credit": "doodle.oreoui.com"
+  },
+  "i-15jmhvo": {
+    "src": "https://opengraph.githubassets.com/38163164bc731ff0a319ccafc9a79ae5a74a2c04a890b14956f41eb112515d34/Joyouou/inter-mono",
+    "alt": "Inter Mono 1.611——Inter 的等宽版，代码与终端用，另有电视字幕风彩色版 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-16rtwm0": {
+    "src": "https://icons.kubai.design/assets/og.png",
+    "alt": "Kubai Icons——3573 个开源动画图标，配 Agent Skill 让 AI 按同一风格现画 的官方预览图",
+    "credit": "icons.kubai.design"
+  },
+  "i-1ph27ep": {
+    "src": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "alt": "K2-Horizon——阿布扎比 IFM 11 月 16 日开源的六模型舰队 的官方预览图",
+    "credit": "arxiv.org"
+  },
+  "i-v66vde": {
+    "src": "https://opengraph.githubassets.com/87c97bc3c6145e15f409cf2708c2c2cb367fdb6aa178fb128ad6eb13bb695289/nathanmsolomon/colines-1531",
+    "alt": "Colines Gros-romain 1.1——1531 年巴黎罗马体按真实印张复刻，OFL 免费 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-36cl84": {
+    "src": "https://repository-images.githubusercontent.com/1424671157/9e9abd4d-fcdd-4c35-993e-6e4eef1881d2",
+    "alt": "raea 0.1.6——让 AI 直接写 React/TypeScript 生成视频、动效、3D 与游戏的渲染引擎 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-f9k663": {
+    "src": "https://opengraph.githubassets.com/bc70eede7b835a50e4504747fe5ab61442b9a637ab188e90056c993d057417b5/affaan-m/ECC",
+    "alt": "ECC——30 万星开源神器，给 AI 编程助手装一套工程系统 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ej3b8c": {
+    "src": "https://www.coderabbit.ai/images/open-graph/default.bfe4f92351a3.png",
+    "alt": "CodeRabbit 开源赞助——公开仓库免费领 AI 代码评审，不用申请不用绑卡 的官方预览图",
+    "credit": "coderabbit.ai"
+  },
+  "i-kocv4d": {
+    "src": "https://maas.nbg1.your-objectstorage.com/251202-maas-open-foundry-preview-1200x630.jpg",
+    "alt": "Open Foundry——开源字体策展站，每款字体都是满屏大字试排 的官方预览图",
+    "credit": "open-foundry.com"
+  },
+  "i-o70s84": {
+    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fenyy8emnws11do69z27y.jpg",
+    "alt": "Echo——一段录音克隆你的声音，还能让 3D 数字人替你开口说话 的官方预览图",
+    "credit": "dev.to"
+  },
+  "i-1yy79aj": {
+    "src": "https://opengraph.githubassets.com/fed61af1041a0de4af8c0b598c24bd0cc634225f7d44a8f193de43347dcf6976/ChromeDevTools/chrome-devtools-mcp",
+    "alt": "chrome-devtools-mcp——Chrome 官方 MCP：让 AI 直接操控你的浏览器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-42lza8": {
+    "src": "https://blog.justfont.com/wp-content/uploads/2026/11/Blog_%E6%A1%8C%E9%9D%A2.png",
+    "alt": "justfont blog 的官方预览图",
+    "credit": "blog.justfont.com"
+  },
+  "i-1tni6bf": {
+    "src": "https://cdn.prod.website-files.com/685b7c6820c1eaaf38481863/685b7c6820c1eaaf384819c9_da6bb0779aa84e6696e644cfb5390861_Home%20Social%20Share%20Image%402x_2.jpg",
+    "alt": "Arcane Type 的官方预览图",
+    "credit": "arcanetype.com"
+  },
+  "i-quz34q": {
+    "src": "https://aiengineeringfromscratch.com/og/page/home.png?v=9a33e7cbec05",
+    "alt": "AI Engineering from Scratch：542 课免费开源 AI 工程课，从零手写反向传播与 Agent 的官方预览图",
+    "credit": "aiengineeringfromscratch.com"
+  },
+  "i-16mkd1b": {
+    "src": "https://cdn.hashnode.com/uploads/covers/5f68e7df6dfc523d0a894e7c/e9763073-fee0-4569-a772-13af7ce09553.png",
+    "alt": "freeCodeCamp MCP 安全课：2 小时免费视频，教 Agent 防提示词注入 的官方预览图",
+    "credit": "freecodecamp.org"
+  },
+  "i-se8nhs": {
+    "src": "https://toomuchtype.com/assets/meta/opengraph.jpg",
+    "alt": "Too Much Type 的官方预览图",
+    "credit": "toomuchtype.com"
+  },
+  "i-wzfjgd": {
+    "src": "https://369teslanaga.github.io/realityfork/assets/social-preview.png",
+    "alt": "RealityFork——改写物理定律的实验室：同一颗球，月球上怎么弹 的官方预览图",
+    "credit": "369teslanaga.github.io"
+  },
+  "i-y8m4gp": {
+    "src": "https://opengraph.githubassets.com/b82086e87c6195dfbdddaa813535eb6c24a8589272d63bfff8eb470c3647a029/vercel-labs/agent-browser",
+    "alt": "agent-browser——Vercel Labs 的 Agent 浏览器自动化 CLI：给 AI Agent 用的真浏览器命令行 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1frkinv": {
+    "src": "https://repository-images.githubusercontent.com/872119017/65c3a8e0-207a-4834-8b43-01119c0834ce",
+    "alt": "Scrapling——10.5 万星的 Python 爬虫框架：一次请求到全站爬取全包 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1jbksjv": {
+    "src": "https://opengraph.githubassets.com/e2b6f5fe8060ad0f44fca9990902c2ea66730fbaa4a2755fe6af84e64c120284/anomalyco/hex",
+    "alt": "hex——本机语音听写：按住快捷键说话，松开即粘贴 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-o60wz0": {
+    "src": "https://remix.run/newsletter/48/image/newsletter-48-header%2Ejpg",
+    "alt": "Remix 3.1/3.2 与 Shopify Editions——脱离 React 的 Remix 3 再进一步 的官方预览图",
+    "credit": "remix.run"
+  },
+  "i-142vydb": {
+    "src": "https://celestial.logicaleap.com/og.jpg",
+    "alt": "Celestial——互动引力井模拟器：恒星拖着弯曲的时空一起走 的官方预览图",
+    "credit": "celestial.logicaleap.com"
+  },
+  "i-1ggvefc": {
+    "src": "https://opengraph.githubassets.com/7312eccafb5642707f242ea982d6de784347b8df8cb1e804672460bb7d6a632a/sanskarIN/frametrellis/releases/tag/v1.5.1",
+    "alt": "FrameTrellis v1.5.1——免费开源本地剪辑器（GPL-3.0，11 月 20 日） 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-iyhx46": {
+    "src": "https://repository-images.githubusercontent.com/1292207035/9a9d6aa6-8b32-4b59-a16a-028e1a30793b",
+    "alt": "Drift 0.9.2——免费开源桌面剪辑器（GPL-3.0，11 月 14 日） 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-m04gav": {
+    "src": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png",
+    "alt": "Cursor Live Apps——编辑器里直接把应用做到上线 的官方预览图",
+    "credit": "cursor.com"
+  },
+  "i-p40s0x": {
+    "src": "https://getopenscreen.com/img/og-image.png",
+    "alt": "OpenScreen v2.3.0——免费开源录屏 + 演示剪辑器（MIT） 的官方预览图",
+    "credit": "getopenscreen.com"
+  },
+  "i-7je0p6": {
+    "src": "https://prized.dev/docs/og/free-sandbox-api",
+    "alt": "Prized 免费沙箱——给 AI Agent 跑代码的云端沙箱，免绑卡送 $30 额度 的官方预览图",
+    "credit": "prized.dev"
+  },
+  "i-132od1a": {
+    "src": "https://oumi.ai/og/pricing.jpg",
+    "alt": "Oumi 免费档——自己训模型，送最高 $50 额度 3 个月 的官方预览图",
+    "credit": "oumi.ai"
+  },
+  "i-1vesn94": {
+    "src": "https://opengraph.githubassets.com/cd3f3cce3c0c9c834ef11293e67490f54db1bbc7a9040d03708488387553e489/pbakaus/impeccable",
+    "alt": "impeccable——给编程助手装上设计品味：24 条命令治好“AI 味”界面 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-sxqcim": {
+    "src": "https://opengraph.githubassets.com/cc2605b53c6a4a774508ee3720865fe275d5a0fc5d0c748e4e776840a460998f/Nutlope/hallmark",
+    "alt": "hallmark——Together AI 的防“AI 味”设计技能：50 套主题 + 三档质量门 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-pcr6df": {
+    "src": "https://i10x.ai/news/wp-content/uploads/2026/11/cognition-devin-bots-persistent-coding-agents-title.webp",
+    "alt": "Cognition Devin Bots——持久化 AI 工程经理，44 天造出一个 Android 应用 的官方预览图",
+    "credit": "i10x.ai"
+  },
+  "i-zt61tv": {
+    "src": "https://reducto.ai/opengraph-image-pztefn.png?dad257abe5b90369",
+    "alt": "Reducto 免费额度——文档解析 API 新户送 $150 的官方预览图",
+    "credit": "reducto.ai"
+  },
+  "i-k1vdgm": {
+    "src": "https://opengraph.githubassets.com/84ce16328923aa57a768f03e48a9c8b82538958ee2fcac820cad83d50eea9ad9/openai/codex-security",
+    "alt": "Codex Security——OpenAI 官方代码安全扫描 CLI：扫漏洞、给补丁、验修复 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-19wtrt3": {
+    "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/frame_zjQlth4.width-1300.png",
+    "alt": "Google 发布 Stitch Loop：7×24 小时盯着你的产品自动修 bug（11-18） 的官方预览图",
+    "credit": "blog.google"
+  },
+  "i-l37utz": {
+    "src": "https://opengraph.githubassets.com/70b2a1416ae397975835b5999db35a72d8deabd85ff7794c22a36099ca84ce07/jingyaogong/minimind",
+    "alt": "MiniMind——两小时从 0 训出自己的 64M 大模型：预训练到 RLHF 全手写 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-p8h4du": {
+    "src": "https://blogs.microsoft.com/wp-content/uploads/2026/11/Nadella_11172026_Ignite_OMB_FrontierEcosystem_v01-1024x576.jpg",
+    "alt": "微软 MAI Code 2 与 Code 2 Flash 上线 GitHub Copilot（11-17） 的官方预览图",
+    "credit": "blogs.microsoft.com"
+  },
+  "i-bfg9qu": {
+    "src": "https://opengraph.githubassets.com/e05eac1f349ed95c6c5dbefb50b62816d0f78be8d9c6284ffe85e9b255b62986/truthofmatthew/vazirmatn-soft",
+    "alt": "Vazirmatn Soft 1.0：波斯/阿拉伯圆角可变字体，字宽不变直接替换 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1oftfql": {
+    "src": "https://opengraph.githubassets.com/7553cb0e85cc5357fa8879e95364726b20d0224a0c2fda3038fa101711593033/yang-yibinn/loci-font/releases/tag/v1.000",
+    "alt": "Loci 1.000：45° 倒角的硬朗大写展示字体 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-wsbqsi": {
+    "src": "https://www.iconmonks.co/og-image.png",
+    "alt": "Icon Monks：6054 个原创图标 × 6 种粗细，MIT 免费商用 的官方预览图",
+    "credit": "iconmonks.co"
+  },
+  "i-1iuc1rl": {
+    "src": "https://visionvix.world/og/home.jpg",
+    "alt": "VisionVix 3D DNA 模拟器：浏览器里拖着转、拉开看复制全过程 的官方预览图",
+    "credit": "visionvix.world"
+  },
+  "i-4prdgj": {
+    "src": "https://glidepathscience.org/_astro/lenses-mirrors-instruments.D_wKLQG5.png",
+    "alt": "Lenses, Mirrors & Optical Instruments：免费互动光学实验，逐条描三条主光线 的官方预览图",
+    "credit": "glidepathscience.org"
+  },
+  "i-5bznpv": {
+    "src": "https://repository-images.githubusercontent.com/1422597771/a2bbaf72-90cb-4815-a0fb-9f3e41a67183",
+    "alt": "LearnHarness：1.1 万星开源 AI 家教桌面应用，先测你懂多少再一步步教 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-5d3psh": {
+    "src": "https://cdn.sanity.io/images/1ygbk6d0/production/7e7920ee50b7e58a4a3a4a8045dfda2b478dbf80-3200x1600.png",
+    "alt": "Warp Learn：免费学造“软件工厂”，让 AI 编程助手组成自我改进的开发流水线 的官方预览图",
+    "credit": "warp.dev"
+  },
+  "i-1tchi5t": {
+    "src": "https://vibecodeschool.com/courses/Vibe%20Code%20School%20course",
+    "alt": "Vibe Coding for Beginners：零基础免费学 Vibe Coding，不用注册就能上 的官方预览图",
+    "credit": "vibecodeschool.com"
+  },
+  "i-er2373": {
+    "src": "https://repository-images.githubusercontent.com/1048065319/62ccff98-4c97-4bab-97b7-ed6e1995cfba",
+    "alt": "claude-mem——11.9 万星开源插件，让 Claude Code 记住你做的每个项目 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-6493dz": {
+    "src": "https://opengraph.githubassets.com/9194c132f47a0c6ef5cf5e0d9355609037e933357355863ba60960b57cd46912/NousResearch/hermes-agent",
+    "alt": "Hermes Agent——会自我进化的 AI Agent：做完任务自动生成技能，越用越懂你 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-h7m265": {
+    "src": "https://repository-images.githubusercontent.com/1048065319/62ccff98-4c97-4bab-97b7-ed6e1995cfba",
+    "alt": "claude-mem：给编程助手装上跨会话记忆 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-7wls8k": {
+    "src": "https://docs.railway.com/pricing/image/png",
+    "alt": "Railway 免费档——不用绑卡，每月 $1 额度部署应用，还能免注册开 2 核云主机 60 分钟 的官方预览图",
+    "credit": "docs.railway.com"
+  },
+  "i-18dglsq": {
+    "src": "https://opengraph.githubassets.com/fed61af1041a0de4af8c0b598c24bd0cc634225f7d44a8f193de43347dcf6976/ChromeDevTools/chrome-devtools-mcp",
+    "alt": "chrome-devtools-mcp：Chrome 官方的 DevTools MCP 服务器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1wnjroz": {
+    "src": "https://www.aalto.fi/sites/default/files/styles/1_91_1200w_630h_n/public/2026-11/PFSC26.png?h=80246cc8&itok=e25MRqbD",
+    "alt": "Aalto 大学 Python 科学计算免费课：11 月 24–26 日直播，NumPy 到 Pandas 三天讲透 的官方预览图",
+    "credit": "aalto.fi"
+  },
+  "i-z5zfut": {
+    "src": "https://opengraph.githubassets.com/1192924f4f8644ff6f492f5ba380e553cc76faa6cdcef6316997ff998c4be290/beenuar/AiSOC",
+    "alt": "AiSOC：零 API Key 的开源 AI 安全运营中心 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1ted1zo": {
+    "src": "https://repository-images.githubusercontent.com/1078528927/6196f2ac-248f-42f5-abb5-d18768111b3b",
+    "alt": "Worktrunk：让 git worktree 像分支一样好用的 CLI 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-53saeg": {
+    "src": "https://www.coderabbit.ai/images/open-graph/default.bfe4f92351a3.png",
+    "alt": "CodeRabbit 开源赞助——公开仓库免费 AI 代码评审 的官方预览图",
+    "credit": "coderabbit.ai"
+  },
+  "i-oggj11": {
+    "src": "https://docs.railway.com/pricing/image/png",
+    "alt": "Railway 免费档——每月 $1 额度部署应用，不用绑卡 的官方预览图",
+    "credit": "docs.railway.com"
+  },
+  "i-je6oel": {
+    "src": "https://nativescreen.app/assets/og.jpg",
+    "alt": "Native Screen——免费开源录屏神器：录完自动剪出带缩放和字幕的演示视频 的官方预览图",
+    "credit": "nativescreen.app"
+  },
+  "i-120ypoe": {
+    "src": "https://nativescreen.app/assets/og.jpg",
+    "alt": "Native Screen：免费开源录屏 + 演示剪辑器 的官方预览图",
+    "credit": "nativescreen.app"
+  },
+  "i-bu2gub": {
+    "src": "https://cdn.sanity.io/images/nhc04xln/production/d04631cbe3d63eedce660d4c2729baa17de8af94-600x340.png?rect=0,13,600,315&w=1200&h=630",
+    "alt": "TinyFish 联网搜索与抓取 API——永久免费档，创业计划每月 $100 的官方预览图",
+    "credit": "tinyfish.ai"
+  },
+  "i-hoiw27": {
+    "src": "https://kilo.ai/kilocode-social.png",
+    "alt": "Kilo Code 开源赞助计划——开源项目免费拿企业版席位与额度 的官方预览图",
+    "credit": "kilo.ai"
+  },
+  "i-1vbvf9a": {
+    "src": "https://bananav-editor.github.io/assets/img/social-preview.png",
+    "alt": "BananaV 0.3.0：免费开源 Rust 剪辑器 的官方预览图",
+    "credit": "bananav-editor.github.io"
+  },
+  "i-4kqt5": {
+    "src": "https://opengraph.githubassets.com/f6733835b9a150b49100fbf643b364b00e765a5dd97b2f6e57b65a1c90e5362f/igorls/comfyui-h3-editor",
+    "alt": "H3 Editor 0.13.0：ComfyUI 里的 MiniMax H3 时间线剪辑器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1u8tke9": {
+    "src": "https://opengraph.githubassets.com/9194c132f47a0c6ef5cf5e0d9355609037e933357355863ba60960b57cd46912/NousResearch/hermes-agent",
+    "alt": "Hermes Agent——会自我进化的 AI Agent 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-98jrqa": {
+    "src": "https://opengraph.githubassets.com/bc70eede7b835a50e4504747fe5ab61442b9a637ab188e90056c993d057417b5/affaan-m/ECC",
+    "alt": "ECC——Agent Harness 性能优化系统：72 个 Agent + 328 个技能 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-sq6zw4": {
+    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fenyy8emnws11do69z27y.jpg",
+    "alt": "Echo——自托管声音克隆工作室 + 会说话的 3D 数字人 的官方预览图",
+    "credit": "dev.to"
+  },
+  "i-97q72j": {
+    "src": "https://aifrontierpost.com/articles/flux-2-dev-cloudflare-workers-ai-tutorial/cover.webp",
+    "alt": "FLUX.2 [dev] 无 GPU 实战：Cloudflare Workers AI 上跑 320 亿参数生图模型 的官方预览图",
+    "credit": "aifrontierpost.com"
+  },
+  "i-1klt9bw": {
+    "src": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png",
+    "alt": "Claude Computer Use 进入 Team 与 Enterprise 测试 的官方预览图",
+    "credit": "support.claude.com"
+  },
+  "i-19h8aqk": {
+    "src": "https://gsfpv.flyreelstudio.eu/og.jpg",
+    "alt": "ShramkoGSFPV：开源浏览器 FPV 无人机模拟器，1300 多个真实扫描场景可飞 的官方预览图",
+    "credit": "gsfpv.flyreelstudio.eu"
+  },
+  "i-10xyq62": {
+    "src": "https://opengraph.githubassets.com/38858e6f6709dc8fb4912649acfce3d3999b278e410a7cf51c1085ce3abb484e/MengTo/sylva",
+    "alt": "Sylva 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1x9v9wg": {
+    "src": "https://cdn.mesh3d.gallery/previews/1795083751496-sn4madz-the-light.m01-lab.workers.dev.webp",
+    "alt": "The Light 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-q0xxyf": {
+    "src": "https://cdn.mesh3d.gallery/previews/1795083751496-zza8p51-wisp.ginrin.com.webp",
+    "alt": "Wisp — 会说话的粒子脸 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-ej7f1t": {
+    "src": "https://opengraph.githubassets.com/92fd188b644f48ac4c27d55bdbbb74c5d1863a1974ba44e67226a84ebfd4f035/lhlGitHub/threejs-architecture-effects",
+    "alt": "threejs-architecture-effects 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1ueex4y": {
+    "src": "https://djr.com/assets/press/png-small/fontofthemonth-sample.png",
+    "alt": "Font of the Month Club 的官方预览图",
+    "credit": "fontofthemonth.club"
+  },
+  "i-b6yjw1": {
+    "src": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "alt": "Kyutai AURA——一张照片加一段语音，AI 实时生成会说话的脸：开源流式数字人 的官方预览图",
+    "credit": "arxiv.org"
+  },
+  "i-9zkfgg": {
+    "src": "https://geopatternlab.com/og/gravity-sandbox.jpg",
+    "alt": "Gravity Sandbox 的官方预览图",
+    "credit": "geopatternlab.com"
+  },
+  "i-1xi1lo9": {
+    "src": "https://www.zohowebstatic.com/sites/zweb/images/ogimage/mail-logo.png",
+    "alt": "Zoho Mail Forever Free——永久免费的自定义域名邮箱：5 个用户、每人 5GB，不用绑卡 的官方预览图",
+    "credit": "zoho.com"
+  },
+  "i-kdzvi2": {
+    "src": "https://docs.github.com/assets/cb-345/images/social-cards/billing.png",
+    "alt": "GitHub Codespaces 免费档——GitHub 每月白送 120 小时云端电脑：浏览器里直接写代码 的官方预览图",
+    "credit": "docs.github.com"
+  },
+  "i-xfkd1k": {
+    "src": "https://docs.github.com/assets/cb-345/images/social-cards/billing.png",
+    "alt": "GitHub Codespaces 免费档——个人账号每月 120 core-hours 云端开发环境 的官方预览图",
+    "credit": "docs.github.com"
+  },
+  "i-mwjqhx": {
+    "src": "https://opengraph.githubassets.com/ecb18c896283d8b7037120fecc70f2a69a69bcaea79d08dc8a8df66ffe2b421e/Lemxy/WinRust",
+    "alt": "WinRust：Rust 重写的 Windows 外壳 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1rvrjxc": {
+    "src": "https://orreryspace.com/img/system.jpg",
+    "alt": "Orrery Space 的官方预览图",
+    "credit": "orreryspace.com"
+  },
+  "i-10fcl2t": {
+    "src": "https://www.zohowebstatic.com/sites/zweb/images/ogimage/mail-logo.png",
+    "alt": "Zoho Mail Forever Free——自定义域名企业邮箱永久免费 的官方预览图",
+    "credit": "zoho.com"
+  },
+  "i-8e15it": {
+    "src": "https://games.calcotools.com/thumbs/material-lab-wide.webp",
+    "alt": "Material Lab 的官方预览图",
+    "credit": "games.calcotools.com"
+  },
+  "i-3vajpt": {
+    "src": "https://www.context.dev/api/og?eyebrow=Pricing&title=Web+scraping+pricing+that+scales&description=Start+with+1%2C000+free+scrapes+a+month%2C+build+for+%2420%2C+and+scale+to+enterprise.+Web+scraping+API+pricing+with+JS+rendering%2C+anti-bot+bypass%2C+and%E2%80%A6",
+    "alt": "Context.dev 免费档——每月 1000 credits 网页抓取 API 的官方预览图",
+    "credit": "context.dev"
+  },
+  "i-hl2208": {
+    "src": "https://cratedb.com/hubfs/cr-featured-image-23.jpg",
+    "alt": "CrateDB CRFREE——2 核 2GB 免费云数据库集群 的官方预览图",
+    "credit": "cratedb.com"
+  },
+  "i-93igwm": {
+    "src": "https://opengraph.githubassets.com/4a07fda996d61e8caea7f4158e30905dff4c07df9759eea4fb9db55ef63fca89/storytold/filmcraft",
+    "alt": "FilmCraft：开源 Rust 非线性剪辑器，对标 Premiere Pro 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-idsyym": {
+    "src": "https://xyflow.com/opengraph-image.jpg?opengraph-image.16grqxg8oyxxd.jpg",
+    "alt": "React Flow 13——时隔两年的大版本 的官方预览图",
+    "credit": "xyflow.com"
+  },
+  "i-1xblyuo": {
+    "src": "https://opengraph.githubassets.com/36cdfa3e0e261fea47f3c008a9ca4132e27616c7c35ea179961fbcbfda96806b/Forward-Future/scarlet",
+    "alt": "Scarlet：免费开源 AI 剪辑器，专做访谈、播客与口播 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1too79g": {
+    "src": "https://opengraph.githubassets.com/3f64186eea9f94743d3b143e7e18995dbc5edc121720da62149d09be0725f51a/google/skills",
+    "alt": "Google 官方 Agent Skills 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-s6mcob": {
+    "src": "https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-400x400.png",
+    "alt": "Eclipse Enclave 1.0——给 AI 编程助手套上开源沙箱 的官方预览图",
+    "credit": "newsroom.eclipse.org"
+  },
+  "i-19vwqo9": {
+    "src": "https://opengraph.githubassets.com/5895c2cd10abbebf0bf85933e6e6c699b8482b094b04a47de6579835b0efe05c/Graphify-Labs/graphify",
+    "alt": "Graphify 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1suj04a": {
+    "src": "https://opengraph.githubassets.com/50780f75ea9b54753067368ae5d78c83249c5e22af5b31f34aed146575d5e00f/ybblab/Jiumi",
+    "alt": "揪咪 Jiumi：开源安卓应用行为监测与管理 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1g3o6as": {
+    "src": "https://opengraph.githubassets.com/6ff061e66ff9ecae11c7743a3ad2634e2c843b935dc399602f41eb2434610479/jamiepine/voicebox",
+    "alt": "Voicebox 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1k85p30": {
+    "src": "https://xyflow.com/opengraph-image.jpg?opengraph-image.16grqxg8oyxxd.jpg",
+    "alt": "Svelte Flow 2 与 Vue Flow 2——xyflow 同一周双重大版本 的官方预览图",
+    "credit": "xyflow.com"
+  },
+  "i-7lhdwq": {
+    "src": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "alt": "Kyutai AURA 的官方预览图",
+    "credit": "arxiv.org"
+  },
+  "i-6d6x10": {
+    "src": "https://opengraph.githubassets.com/fbbcde3db44200c17e05ff3446a614f83b8c2cff1afc4ea8883d11b88bb511d2/LukyVj/distortion-wave",
+    "alt": "distortion-wave 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-v9i7x": {
+    "src": "https://ttillberg.github.io/codevember-2026/12/screengrab.png",
+    "alt": "Feather 蜂鸟 的官方预览图",
+    "credit": "ttillberg.github.io"
+  },
+  "i-1o8p87v": {
+    "src": "https://repository-images.githubusercontent.com/1241960226/27bf01cb-17df-44d5-9b7b-bcf17c970c6d",
+    "alt": "阿里 Open Code Review 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1im3fie": {
+    "src": "https://rain.julienrenau.com/opengraph-image.jpg?opengraph-image.27zd5ryscu2g8.jpg",
+    "alt": "Raindrop 雨滴 的官方预览图",
+    "credit": "rain.julienrenau.com"
+  },
+  "i-16nyyja": {
+    "src": "https://gyroflow.xyz/src/images/feature_image.jpg",
+    "alt": "Gyroflow 1.7.1：免费开源视频防抖，无陀螺仪数据也能防抖 的官方预览图",
+    "credit": "gyroflow.xyz"
+  },
+  "i-1v63txr": {
+    "src": "https://opengraph.githubassets.com/82108f2f671f7d9e2a6f0b47c174faff3cd2dedb9a4bfd65feee6708d6b6072c/wmarklloyd/noto-serif-mono",
+    "alt": "Noto Serif Mono 2.502 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1pivah0": {
+    "src": "https://opengraph.githubassets.com/76d11d8ec806e36cfe73beb6f24165b26e0b1ddc229be1590142794e9d988678/markpaik/letterwell-fonts",
+    "alt": "Letterwell 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-udk9h5": {
+    "src": "https://skilled.dev/social-share.png",
+    "alt": "Skilled.dev：面试刷题课刚转完全免费开源 的官方预览图",
+    "credit": "skilled.dev"
+  },
+  "i-176hl3z": {
+    "src": "https://www.staffcoder.com/opengraph-image",
+    "alt": "Staffcoder：1000+ 真实框架实战挑战，浏览器里写代码 的官方预览图",
+    "credit": "staffcoder.com"
+  },
+  "i-1fn3kbr": {
+    "src": "https://www.wekos.app/ogimage.png",
+    "alt": "Wekos：完全免费、无上限的语言学习应用 的官方预览图",
+    "credit": "wekos.app"
+  },
+  "i-12gzwcm": {
+    "src": "https://withicons.com/og/default.png",
+    "alt": "with icons 的官方预览图",
+    "credit": "withicons.com"
+  },
+  "i-1nhk24c": {
+    "src": "https://uxuiopen.com/og.png",
+    "alt": "UX UI Open：边做真实项目边学 UX/UI 设计 的官方预览图",
+    "credit": "uxuiopen.com"
+  },
+  "i-ew12vm": {
+    "src": "https://apple-aiml-research.github.io/ml-depth-pro-2/assets/preview.jpg",
+    "alt": "苹果开源 Depth Pro 2 单目视频深度估计 的官方预览图",
+    "credit": "apple-aiml-research.github.io"
+  },
+  "i-gro87i": {
+    "src": "https://typefacts.com/media/site/3a95651d9e-1662375812/favicon.png",
+    "alt": "Typefacts 的官方预览图",
+    "credit": "typefacts.com"
+  },
+  "i-p024l7": {
+    "src": "https://sunday-serif.kkratter.com/og.png",
+    "alt": "Sunday Serif：带印刷做旧轴的可变衬线体 的官方预览图",
+    "credit": "sunday-serif.kkratter.com"
+  },
+  "i-1g4d108": {
+    "src": "https://prizmstudios.app/og-image.png",
+    "alt": "Prizm Studios：免费色彩工作室，OKLCH 渐变一键出 CSS 的官方预览图",
+    "credit": "prizmstudios.app"
+  },
+  "i-1vpfn9w": {
+    "src": "https://struq.app/og/photos?v=2",
+    "alt": "Struq Photos：480 张 CC0 照片按色调成套配好 的官方预览图",
+    "credit": "struq.app"
+  },
+  "i-13ffje7": {
+    "src": "https://caprocket.site/assets/img/og-image.jpg",
+    "alt": "选题：CapRocket——免费开源剪辑器今天更新，离线字幕+4K 导出 的官方预览图",
+    "credit": "caprocket.site"
+  },
+  "i-1klqemn": {
+    "src": "https://www.createthat.ai/covers/og-createthat.png",
+    "alt": "选题：createthat.ai 免费素材库——15900 个商用素材不用注册直接下 的官方预览图",
+    "credit": "createthat.ai"
+  },
+  "i-14k7lwu": {
+    "src": "https://arkivism.com/assets/og-image.jpg",
+    "alt": "Arkivism：400 万+公域图片，一句话描述就能搜到 的官方预览图",
+    "credit": "arkivism.com"
+  },
+  "i-tm6dki": {
+    "src": "https://opencode.ai/files/site/og/docs-e416d17432.png",
+    "alt": "选题：OpenCode 免费模型池——11 个编程模型限时白嫖 的官方预览图",
+    "credit": "opencode.ai"
+  },
+  "i-11povye": {
+    "src": "https://blazetype.eu/img/og/home-new/blzt-home.f4242b0d.jpg",
+    "alt": "Blaze Type 的官方预览图",
+    "credit": "blazetype.eu"
+  },
+  "i-1h9nuhg": {
+    "src": "https://opengraph.githubassets.com/c5ed3e43491c61d78479e0fd85fdcc682ef051fc135ff066d7ce4eed87d5f4bb/HKUDS/DeepTutor",
+    "alt": "DeepTutor：港大开源 AI 家教，记得你学过什么 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-e5hnd6": {
+    "src": "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc",
+    "alt": "REA：让 AI Agent 逆向任何软件，从应用行为一路挖到原生二进制 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-2v8el0": {
+    "src": "https://opengraph.githubassets.com/3831fd04ef520ebbcd9dfea8c8dc8cbd18326e9ed8350239efa576493896d83a/pingdotgg/t3code",
+    "alt": "T3 Code：手机上遥控家里的 Claude Code、Codex 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-kaqiyd": {
+    "src": "https://repository-images.githubusercontent.com/1437814166/bfb29eac-6095-4a3e-ad61-9ea44d84c7f1",
+    "alt": "Mister Download Manager：纯 Rust 写的免费 IDM 平替 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-eux471": {
+    "src": "https://repository-images.githubusercontent.com/1396526702/658767b9-580f-4428-a6e7-915b54101ed7",
+    "alt": "Filee：按住 Ctrl 拖文件，260 多种格式离线互转 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-8ooq2n": {
+    "src": "https://glidepathscience.org/_astro/rc-circuit-lab.DfDzi85B.png",
+    "alt": "RC Circuit Lab 的官方预览图",
+    "credit": "glidepathscience.org"
+  },
+  "i-1h397qq": {
+    "src": "https://webpack.js.org/icon-pwa-512x512.934507c816afbcdb.png",
+    "alt": "Webpack 5.109：CSS 与 HTML 正式内置 的官方预览图",
+    "credit": "webpack.js.org"
+  },
+  "i-2dcj1v": {
+    "src": "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/how-were-using-ai-to-make-nextjs-more-secure/twitter-card.png",
+    "alt": "Next.js 今年 51 个安全公告：AI 让找漏洞变便宜，也让升级交给 Agent 的官方预览图",
+    "credit": "nextjs.org"
+  },
+  "i-1z0l3rr": {
+    "src": "https://spacesimulator.online/og.jpg",
+    "alt": "Space Simulator Online 的官方预览图",
+    "credit": "spacesimulator.online"
+  },
+  "i-1cx7wns": {
+    "src": "https://opengraph.githubassets.com/c1008aacbda0019d082ecf8015a32d5a581254c7ac0d740233072143a4168b16/replit/amuse",
+    "alt": "Replit 开源 Amuse：跑在自己电脑上的个人 AI 助手 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1slsewg": {
+    "src": "https://opencode.ai/files/site/og/docs-e416d17432.png",
+    "alt": "OpenCode 免费模型池——开源编程助手限时免费模型 的官方预览图",
+    "credit": "opencode.ai"
+  },
+  "i-9hu3da": {
+    "src": "https://fate.technology/og-image.png",
+    "alt": "Fate 2.0：Relay 作者的现代数据客户端再进化 的官方预览图",
+    "credit": "fate.technology"
+  },
+  "i-tk13ef": {
+    "src": "https://www.createthat.ai/covers/og-createthat.png",
+    "alt": "createthat.ai 免费素材库：1.6 万+免注册可商用素材 的官方预览图",
+    "credit": "createthat.ai"
+  },
+  "i-1ffeece": {
+    "src": "https://caprocket.site/assets/img/og-image.jpg",
+    "alt": "CapRocket：免费开源桌面剪辑器，离线字幕+录屏+4K 导出 的官方预览图",
+    "credit": "caprocket.site"
+  },
+  "i-1ug3lyv": {
+    "src": "https://opengraph.githubassets.com/838c83acbd45902062e1e24cc7940d3834970d1381c8218e46affb4ecdfd6e70/stablyai/orca",
+    "alt": "Orca——开源并行多 Agent 编程环境 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1x4rbp6": {
+    "src": "https://repository-images.githubusercontent.com/1356077516/f66b5343-33ba-4d7f-b3cc-72c5eab733f0",
+    "alt": "ffmpeg-skill：给编程助手装一个本地 FFmpeg 剪辑器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-dlxgu9": {
+    "src": "https://opengraph.githubassets.com/5d89597df719182ea93ab52fdf433cfc59dfcf41fb4aad1fab3ab18c182594b9/cloudflare/security-audit-skill",
+    "alt": "Cloudflare security-audit-skill——一条命令把 Claude Code/Codex 变成安全审计员 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1qh7aoc": {
+    "src": "https://opengraph.githubassets.com/c4483d6fa22404f2aa31ac73216463c6762e698c929ee0d7abf69ec2eb57dab6/microsoft/VibeVoice",
+    "alt": "VibeVoice——微软开源语音 AI 家族 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-qrilwn": {
+    "src": "https://cc.sj-cdn.net/instructor/4hdejjwplbrm-anthropic/path/27vymqh42flzz/promo-image.1794533436.png",
+    "alt": "Claude Forward Deployed Engineer：Anthropic 的 FDE 学习路径 的官方预览图",
+    "credit": "anthropic-partners.skilljar.com"
+  },
+  "i-xmirl8": {
+    "src": "https://spite.github.io/codevember-2026/screenshots/3-social.jpg",
+    "alt": "Melt：正在融化的 3D 形态 的官方预览图",
+    "credit": "spite.github.io"
+  },
+  "i-y05sva": {
+    "src": "https://spite.github.io/codevember-2026/screenshots/9-social.jpg",
+    "alt": "Membrane：会呼吸的有机薄膜 的官方预览图",
+    "credit": "spite.github.io"
+  },
+  "i-3mmv8x": {
+    "src": "https://allo.joshpuckett.me/og.png",
+    "alt": "Allo：带圆角轴的新界面字体 的官方预览图",
+    "credit": "allo.joshpuckett.me"
+  },
+  "i-1j4mr68": {
+    "src": "https://aiblog.jasonead.com/wp-content/uploads/2026/11/featured-image-66.png",
+    "alt": "《Run LLMs Locally in November 2026》本地部署大模型实战教程（11 月 15 日） 的官方预览图",
+    "credit": "aiblog.jasonead.com"
+  },
+  "i-nttfmy": {
+    "src": "https://techcrunch.com/wp-content/uploads/2026/11/hero_header_CU_copy.width-2200.format-webp.jpeg?resize=1200,675",
+    "alt": "Gemini Mac 版上线 Computer Use 的官方预览图",
+    "credit": "techcrunch.com"
+  },
+  "i-19dnd03": {
+    "src": "https://facetypes.xyz/og/facetypes-share-6.jpg",
+    "alt": "FaceTypes：522 款免费商用字体人工精选库 的官方预览图",
+    "credit": "facetypes.xyz"
+  },
+  "i-1jikxdi": {
+    "src": "https://pimpmytype.com/wp-content/uploads/2022/01/mailchimp-header.png",
+    "alt": "Pimp my Type 的官方预览图",
+    "credit": "pimpmytype.com"
+  },
+  "i-16x2y9r": {
+    "src": "https://fontkind.com/og/home.png?v=3",
+    "alt": "FontKind 的官方预览图",
+    "credit": "fontkind.com"
+  },
+  "i-w7fp0y": {
+    "src": "https://sr-dash.github.io/heliofield/assets/og-image.png",
+    "alt": "HelioField — 太阳日冕磁场 3D 互动探索器 的官方预览图",
+    "credit": "sr-dash.github.io"
+  },
+  "i-13uignr": {
+    "src": "https://space.pointdynamics.com/api/og?v=20260923",
+    "alt": "Space Time — 真实天文数据 3D 宇宙探索器 的官方预览图",
+    "credit": "space.pointdynamics.com"
+  },
+  "i-1at4d23": {
+    "src": "https://opengraph.githubassets.com/5bad3442780ffb9e2a2fedccc491bc0501f07dcc0e716cd5c870cef56579a363/zhouxiaoka/autoclip",
+    "alt": "选题：AutoClip——一个链接剪出 10 条短视频 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-14qnaj1": {
+    "src": "https://repository-images.githubusercontent.com/1229774092/93703d75-077c-4a14-b580-e2374741fe3d",
+    "alt": "选题：Claude-BugHunter——让 Claude Code 变身漏洞赏金猎手 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-qvutlw": {
+    "src": "https://www.cs.cmu.edu/site-images/gates_web.jpg",
+    "alt": "CMU CS Learn：卡内基梅隆 13 门 CS 课免费上 YouTube 的官方预览图",
+    "credit": "cs.cmu.edu"
+  },
+  "i-ocqta7": {
+    "src": "https://repository-images.githubusercontent.com/1229774092/93703d75-077c-4a14-b580-e2374741fe3d",
+    "alt": "Claude-BugHunter 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-10xqz8l": {
+    "src": "https://opengraph.githubassets.com/5bad3442780ffb9e2a2fedccc491bc0501f07dcc0e716cd5c870cef56579a363/zhouxiaoka/autoclip",
+    "alt": "AutoClip 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-52e9gw": {
+    "src": "https://repository-images.githubusercontent.com/1206390571/fd6851a0-4e36-4541-a76c-2ad84935d0bc",
+    "alt": "选题：VoiceStudio——免费本地版 ElevenLabs 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-8plttu": {
+    "src": "https://opengraph.githubassets.com/464338827104cf73a569b968da1b5faa426dc385050b407f39e23904b8a87f5b/cathrynlavery/diagram-design",
+    "alt": "diagram-design 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-qw8a53": {
+    "src": "https://dgridai.mintlify.site/_mintlify/api/og/v2?division=AI+GATEWAY&title=Free+Models+Router&description=Use+DGrid%27s+free+intelligent+inference+gateway+for+everyday+AI+tasks+with+automatic+model+routing+and+fair-use+rate+limits.&theme=f0f1b22597a1147e39beb310&signature=5f941622f16c6160601ec466230d77b9d9958bfe09d71ac648e36ca5ed416674",
+    "alt": "DGrid 免费模型路由——每天 100 次免费 AI 调用，不用选模型 的官方预览图",
+    "credit": "docs.dgrid.ai"
+  },
+  "i-xl07xn": {
+    "src": "https://synap402.com/synap402-og.png?v=2",
+    "alt": "Synap 免费 API——每天免费调 Qwen3 Coder 30B 写代码 的官方预览图",
+    "credit": "synap402.com"
+  },
+  "i-asct6": {
+    "src": "https://synap402.com/synap402-og.png?v=2",
+    "alt": "选题：Synap 免费 API——注册就领 Key 直连 Qwen3 Coder 30B 的官方预览图",
+    "credit": "synap402.com"
+  },
+  "i-lf9ip1": {
+    "src": "https://repository-images.githubusercontent.com/1346499044/18d8e9c0-66eb-4459-80cf-27c0a4432094",
+    "alt": "Concat：免费开源本地剪辑器，AI Agent 也能替你剪 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1c3dfhh": {
+    "src": "https://lineto.com/api/front/page-capture?width=1440&height=960&scale=1&fullPath=/&v=1",
+    "alt": "Lineto 的官方预览图",
+    "credit": "lineto.com"
+  },
+  "i-6nhdm5": {
+    "src": "https://opengraph.githubassets.com/1b0f03ff3705cd1737550d54760efe5b4c5665e7bcd585fbd99981c43430051b/hormuz-labs/agentshot",
+    "alt": "AgentShot：开口说话就能剪视频的开源 AI 剪辑器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1sn1bjd": {
+    "src": "https://opengraph.githubassets.com/2beba67d462487d9c9782d6b1259f3964448d4f139bd709730e327287f192714/MagoStudio/MagoStudio",
+    "alt": "Mago Studio：本地跑 MiniMax H3 的 AI 视频工作室 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1a2gdnm": {
+    "src": "https://repository-images.githubusercontent.com/1206390571/fd6851a0-4e36-4541-a76c-2ad84935d0bc",
+    "alt": "VoiceStudio：免费本地版 ElevenLabs，声音克隆/配音/视频配音一站式 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1guvbp6": {
+    "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+    "alt": "Google Genie 4 向 AI Ultra 用户开放 的官方预览图",
+    "credit": "blog.google"
+  },
+  "i-15idmw7": {
+    "src": "https://liquidai.mintlify.site/_mintlify/api/og/v2?division=Get+started&title=Developer+quickstart&description=Go+from+zero+to+your+first+Liquid+API+call+in+minutes%3A+create+an+API+key%2C+install+an+SDK%2C+and+run+a+few+lines+of+code.&theme=163a94b2c7e20fa5bc820924&signature=522706f0746afec52a38b57e0f1f348227aca31f6fce3fd638ea97b8a3eee104",
+    "alt": "Liquid AI 新户限时 2 美元 API 额度 的官方预览图",
+    "credit": "docs.liquid.ai"
+  },
+  "i-109qyr0": {
+    "src": "https://opengraph.githubassets.com/6e2513d51374fa52e10e7a1d53533eba565e7ce82841c7cc327e9dee281c1dcb/Dani-Devlop/edit-master-skill",
+    "alt": "Edit Master Skill：给 AI Agent 的爆款视频剪辑 Skill 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-3kgpan": {
+    "src": "https://www.ibm.com/content/dam/worldwide-content/creative-assets/s-migr/ul/g/2c/6a/ai.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
+    "alt": "IBM watsonx.ai 免费档——每月 30 万 tokens 基础模型额度 的官方预览图",
+    "credit": "ibm.com"
+  },
+  "i-1kkgzdf": {
+    "src": "https://chromestatus.com/static/img/crstatus_192.png",
+    "alt": "Chrome 158 稳定版：Web Install API 与 <install> 元素 的官方预览图",
+    "credit": "chromestatus.com"
+  },
+  "i-12k1y8z": {
+    "src": "https://aifrontierpost.com/articles/pr-agent-ai-code-review-tutorial/cover.webp",
+    "alt": "PR-Agent 实战：让 AI 审你的 PR，本地 Ollama 零成本跑通 的官方预览图",
+    "credit": "aifrontierpost.com"
+  },
+  "i-vzbmab": {
+    "src": "https://ta.teleai.com.cn/og-image-ta-v2.png",
+    "alt": "选题：电信 TeleAgent 免费 4 核云电脑 的官方预览图",
+    "credit": "ta.teleai.com.cn"
+  },
+  "i-1wdhtrd": {
+    "src": "https://opengraph.githubassets.com/fee2f8cd427c6c3cad12b4fc37337248379754414d9be3db9cbc0654c2cfbe50/nilbuild/stick-scene",
+    "alt": "stick-scene：会呼吸眨眼的小火柴人 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1w4op23": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794995540331-54kotqw-cave.julienrenau.com.webp",
+    "alt": "Cave 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-15tzbwe": {
+    "src": "https://files.cwyz.com/file/cwyzcom/uploads/a1dafad1ef0663b2e1ad216120f6b472.jpg",
+    "alt": "OpenFilm：让 AI Agent 按网页写法做视频，错了只改一处 的官方预览图",
+    "credit": "cwyz.com"
+  },
+  "i-2tgfqq": {
+    "src": "https://static.scientificamerican.com/dam/asset/cee10388-a264-4ba7-b944-7f0a8daf537d/riemann.jpg?m=1795217260.215&w=1200",
+    "alt": "Claude 辅助证明黎曼猜想？尚未最终确认 的官方预览图",
+    "credit": "scientificamerican.com"
+  },
+  "i-1pfvtha": {
+    "src": "https://thinkingmachines.ai/news/inkling-2-mini/images/cover-social.png",
+    "alt": "Inkling 2 Mini 开源：264 亿参数 MoE，本地可跑 的官方预览图",
+    "credit": "thinkingmachines.ai"
+  },
+  "i-16vaju6": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794995710211-dk98nvp-flow.nrly.fun.webp",
+    "alt": "ParticleFlow 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-rluhrc": {
+    "src": "https://repository-images.githubusercontent.com/1266797999/b20d9cb8-11f0-4db8-965a-7e22ab2b6bb6",
+    "alt": "Ponytail 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1ojg8l8": {
+    "src": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/1JYJ9wk75kgyze16wuPDft/afc58a2c25240e39277e82324afe8e68/parallel_og_final.png",
+    "alt": "选题：Vercel AI Gateway——Parallel 联网搜索 fast 模式免费至 2027 年 1 月 31 日 的官方预览图",
+    "credit": "vercel.com"
+  },
+  "i-lbtut7": {
+    "src": "https://repository-images.githubusercontent.com/1459971684/45485be8-dd9b-4caa-9e29-35dbccff7519",
+    "alt": "rust-anything 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ekbh7e": {
+    "src": "https://ta.teleai.com.cn/og-image-ta-v2.png",
+    "alt": "电信 TeleAgent 免费 4 核云电脑 的官方预览图",
+    "credit": "ta.teleai.com.cn"
+  },
+  "i-4vioc6": {
+    "src": "https://www.requesty.ai/opengraph-image.png",
+    "alt": "选题：Requesty 免费档——每天 200 次免费模型调用 的官方预览图",
+    "credit": "requesty.ai"
+  },
+  "i-15erxqs": {
+    "src": "https://stemsplitter.app/og.png",
+    "alt": "选题：Stem Splitter——浏览器里免费把歌拆成 4 轨 的官方预览图",
+    "credit": "stemsplitter.app"
+  },
+  "i-wy0t89": {
+    "src": "https://eyes.nasa.gov/apps/exo/og_img.jpg",
+    "alt": "NASA Eyes on Exoplanets 的官方预览图",
+    "credit": "eyes.nasa.gov"
+  },
+  "i-buk5f0": {
+    "src": "https://graph-paper.io/og-hero.jpg",
+    "alt": "Graph Paper 的官方预览图",
+    "credit": "graph-paper.io"
+  },
+  "i-14lan51": {
+    "src": "https://images.ctfassets.net/kftzwdyauwt9/793p1h1iUmksoWkDep5NRR/580e87d687cea7ef8e8288bef51c7bd4/academic-researchers-seo-card.png?w=1600&h=900&fit=fill",
+    "alt": "OpenAI 科研人员免费 12 个月 ChatGPT Plus 的官方预览图",
+    "credit": "openai.com"
+  },
+  "i-qgfmhb": {
+    "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
+    "alt": "Gemini 4 Neon 登顶 Artificial Analysis 编程 Agent 榜 的官方预览图",
+    "credit": "blog.google"
+  },
+  "i-67kyo2": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794995752769-vumzr45-dasprinzip.com-codevember2026-17-kelp.html.webp",
+    "alt": "Kelp 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-tysxf6": {
+    "src": "https://www.solidjs.com/og/blog/solid-2-0-the-long-hold.png",
+    "alt": "Solid 2.0 正式版：异步进入响应式图谱 的官方预览图",
+    "credit": "solidjs.com"
+  },
+  "i-1lmgq7": {
+    "src": "https://www.articul8.ai/bivia/assets/bivia-share.png",
+    "alt": "Articul8 Bivia：前 1 万名早鸟免费领 10 亿 Tokens 的官方预览图",
+    "credit": "articul8.ai"
+  },
+  "i-18krv0s": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794994667198-6sg8zx4-farbound.fyi-fly-the-solar-system.webp",
+    "alt": "Fly the Solar System 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-1jzeq52": {
+    "src": "https://hsimonfroy.github.io/hollved/assets/desi_low.png",
+    "alt": "Hollved 的官方预览图",
+    "credit": "hsimonfroy.github.io"
+  },
+  "i-alsjij": {
+    "src": "https://framerusercontent.com/images/dbk8NXJZTDaQmlzEzM3pI1y98.png",
+    "alt": "Daytona 新用户 $200 沙箱算力 的官方预览图",
+    "credit": "daytona.io"
+  },
+  "i-5x1tpf": {
+    "src": "https://stemsplitter.app/og.png",
+    "alt": "Stem Splitter：浏览器里免费把歌拆成 4 轨 的官方预览图",
+    "credit": "stemsplitter.app"
+  },
+  "i-x7zs39": {
+    "src": "https://www.typographicposters.com/typographic-posters-new-website-2021-photo.jpg",
+    "alt": "typo/graphic posters 的官方预览图",
+    "credit": "typographicposters.com"
+  },
+  "i-135thph": {
+    "src": "https://developer.amd.com/images/og/ai-dev-program.jpg",
+    "alt": "AMD Token Lab 免费 API 的官方预览图",
+    "credit": "developer.amd.com"
+  },
+  "i-oyj4qj": {
+    "src": "https://opengraph.githubassets.com/726b50865565641c01714df0604add9ffb736399612dc4f5f36bfd7529729c6f/finktheartist/sakuga-vfx",
+    "alt": "Sakuga VFX 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1vtdwi9": {
+    "src": "https://us.v-cdn.net/5019405/uploads/8GVH2V70XJN7.png",
+    "alt": "TypeDrawers 的官方预览图",
+    "credit": "typedrawers.com"
+  },
+  "i-y08gvj": {
+    "src": "https://gregpuzzles1.github.io/codevember-2026/20/social-preview.png",
+    "alt": "Codevember 2026 Day 20：A Little Light Within 的官方预览图",
+    "credit": "gregpuzzles1.github.io"
+  },
+  "i-1inuj4f": {
+    "src": "https://glyphsapp.com/media/site/d052bea273-1785165125/glyphs4.png",
+    "alt": "Glyphs Learn 的官方预览图",
+    "credit": "glyphsapp.com"
+  },
+  "i-agsott": {
+    "src": "https://repository-images.githubusercontent.com/1444713861/bd1dec69-c393-4ece-9ea3-6372ad0e8d38",
+    "alt": "Effect Atlas 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-k77p4d": {
+    "src": "https://www.braintrust.dev/og?title=How+to+cut+LLM+costs+with+model+routing+without+hurting+quality&description=Learn+how+to+cut+LLM+costs+with+model+routing%3A+classify+query+types%2C+build+an+eval+per+class%2C+benchmark+candidate+models%2C+set+a+quality+floor+with+a+baseline+fallback%2C+and+monitor+routed+traffic+with+online+scoring.&template=blog&v=3",
+    "alt": "Braintrust Starter 免费档 的官方预览图",
+    "credit": "braintrust.dev"
+  },
+  "i-c6ko55": {
+    "src": "https://www.requesty.ai/opengraph-image.png",
+    "alt": "Requesty 免费档 — LLM 统一网关，每天 200 次免费模型调用，免绑卡 的官方预览图",
+    "credit": "requesty.ai"
+  },
+  "i-n53ffw": {
+    "src": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/1JYJ9wk75kgyze16wuPDft/afc58a2c25240e39277e82324afe8e68/parallel_og_final.png",
+    "alt": "Vercel AI Gateway：Parallel 联网搜索 fast 模式免费至 2027 年 1 月 31 日 的官方预览图",
+    "credit": "vercel.com"
+  },
+  "i-1s5tjzo": {
+    "src": "https://autoglm-api.zhipuai.cn/agentdr/v1/assistant/image-host-proxy/apple_fly/43f00fe1ccb9b10866924e379ed83bc7/fe695766-57d7-4c5d-85f3-1d1727835fa7.png",
+    "alt": "选题：智谱 AutoClaw 第三周 1 亿 Token——只剩 3 天，11 月 22 日 23:59 清零 的官方预览图",
+    "credit": "autoclaw.zhipuai.cn"
+  },
+  "i-16h89sr": {
+    "src": "https://asset-showroom.exaone.ai/image/showroom-logo.png",
+    "alt": "选题：LG K-EXAONE 2.5——750B 参数旗舰模型 API 免费调 的官方预览图",
+    "credit": "docs.exaone.ai"
+  },
+  "i-cojjbi": {
+    "src": "https://jidan.si/share/providers/envato.png",
+    "alt": "Envato 免费账号 24 小时不限次数生成 MiniMax H3 视频 的官方预览图",
+    "credit": "jidan.si"
+  },
+  "i-x6hbel": {
+    "src": "https://tympanus.net/codrops/wp-content/uploads/2026/08/datamoch_cover.png",
+    "alt": "Datamosh 实时故障艺术 的官方预览图",
+    "credit": "tympanus.net"
+  },
+  "i-lf4ydq": {
+    "src": "https://wisp-os.com/og-2026-11-06.png",
+    "alt": "选题：WispOS——免费 AI 游戏制作器，一句话做游戏 的官方预览图",
+    "credit": "wisp-os.com"
+  },
+  "i-m866xc": {
+    "src": "https://apify.com/og-image?title=Apify+pricing+-+flexible+plan+%2B+pay+as+you+go",
+    "alt": "选题：Apify——每月 $5 免费抓取/自动化额度，免绑卡 的官方预览图",
+    "credit": "apify.com"
+  },
+  "i-1mcac01": {
+    "src": "https://www.atipofoundry.com/assets/images/apple-touch-icon.png",
+    "alt": "Atipo Foundry 的官方预览图",
+    "credit": "atipofoundry.com"
+  },
+  "i-18g4fef": {
+    "src": "https://fontstand.com//_resources/themes/fontstand/images/apps.jpg?m=1795102900",
+    "alt": "Fontstand 的官方预览图",
+    "credit": "fontstand.com"
+  },
+  "i-1lcq61z": {
+    "src": "https://tympanus.net/codrops/wp-content/uploads/2026/02/snake.webp",
+    "alt": "Endless Procedural Snake 的官方预览图",
+    "credit": "tympanus.net"
+  },
+  "i-m3ccea": {
+    "src": "https://tympanus.net/codrops/wp-content/uploads/2026/03/GSAPThreeWebflow.webp",
+    "alt": "Webflow + GSAP + Three.js 无缝 3D 转场 的官方预览图",
+    "credit": "tympanus.net"
+  },
+  "i-11rvmhm": {
+    "src": "https://autoglm-api.zhipuai.cn/agentdr/v1/assistant/image-host-proxy/apple_fly/43f00fe1ccb9b10866924e379ed83bc7/fe695766-57d7-4c5d-85f3-1d1727835fa7.png",
+    "alt": "智谱 AutoClaw 第三周 1 亿 Token 的官方预览图",
+    "credit": "autoclaw.zhipuai.cn"
+  },
+  "i-13wrq1j": {
+    "src": "https://assets.futurefonts.com/images/FutureFonts-meta.png",
+    "alt": "Future Fonts 的官方预览图",
+    "credit": "futurefonts.xyz"
+  },
+  "i-1alc9zu": {
+    "src": "https://cdn.shopify.com/s/files/1/0568/7164/9450/files/MyFonts_Logo.png?v=1717746124",
+    "alt": "WhatTheFont 的官方预览图",
+    "credit": "myfonts.com"
+  },
+  "i-117xljs": {
+    "src": "https://typ.io/icons/typio-card.png",
+    "alt": "Typ.io 的官方预览图",
+    "credit": "typ.io"
+  },
+  "i-tbmfm1": {
+    "src": "https://asset-showroom.exaone.ai/image/showroom-logo.png",
+    "alt": "LG K-EXAONE 2.5 免费 API 的官方预览图",
+    "credit": "docs.exaone.ai"
+  },
+  "i-1r2qwum": {
+    "src": "https://ohno.sfo3.cdn.digitaloceanspaces.com/images/_transforms/Site/_thumbnail/foundry_banner.jpg",
+    "alt": "OH no Type Co 的官方预览图",
+    "credit": "ohnotype.co"
+  },
+  "i-jqnxeg": {
+    "src": "https://gregpuzzles1.github.io/codevember-2026/19/social-preview.png",
+    "alt": "Erosion 的官方预览图",
+    "credit": "gregpuzzles1.github.io"
+  },
+  "i-1qdnbzx": {
+    "src": "https://opengraph.githubassets.com/23513dbd29a6257f9c41c9826e8c494a1746a278b56153c4c864c79a32e39c38/isaacrowntree/romp",
+    "alt": "romp 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-7d93m2": {
+    "src": "https://apify.com/og-image?title=Apify+pricing+-+flexible+plan+%2B+pay+as+you+go",
+    "alt": "Apify 的官方预览图",
+    "credit": "apify.com"
+  },
+  "i-1len3xc": {
+    "src": "https://wisp-os.com/og-2026-11-06.png",
+    "alt": "WispOS 的官方预览图",
+    "credit": "wisp-os.com"
+  },
+  "i-1mhohnf": {
+    "src": "https://fontsource.org/og-image.png",
+    "alt": "Fontsource 的官方预览图",
+    "credit": "fontsource.org"
+  },
+  "i-ewt31y": {
+    "src": "https://gregpuzzles1.github.io/codevember-2026/18/social-preview.png",
+    "alt": "Newton's Cradle — Codevember Day 18 的官方预览图",
+    "credit": "gregpuzzles1.github.io"
+  },
+  "i-x3trj9": {
+    "src": "https://motion-primitives.com/image/jpeg",
+    "alt": "Motion Primitives 的官方预览图",
+    "credit": "motion-primitives.com"
+  },
+  "i-12nm2uz": {
+    "src": "https://www.ainews.tech/blog/chatgpt-pro-api-credits-pick-the-org-first/opengraph-image",
+    "alt": "ChatGPT Pro 每月 $100 API 调用额度 的官方预览图",
+    "credit": "ainews.tech"
+  },
+  "i-qzif1k": {
+    "src": "https://gregpuzzles1.github.io/codevember-2026/13/social-preview.jpg",
+    "alt": "Labyrinth — Codevember Day 13 的官方预览图",
+    "credit": "gregpuzzles1.github.io"
+  },
+  "i-47byf4": {
+    "src": "https://apinex.bond/brand/og-cover-1200x630.png",
+    "alt": "APInex 免费模型组 的官方预览图",
+    "credit": "apinex.bond"
+  },
+  "i-tc9ebj": {
+    "src": "https://gregpuzzles1.github.io/codevember-2026/16/social-preview.png",
+    "alt": "Spore — Codevember Day 16 的官方预览图",
+    "credit": "gregpuzzles1.github.io"
+  },
+  "i-1ggi56d": {
+    "src": "https://learn.microsoft.com/vi-vn/azure/foundry/openai/concepts/Microsoft%20Learn",
+    "alt": "Azure OpenAI 退役 o1/o3 等 7 个模型 的官方预览图",
+    "credit": "learn.microsoft.com"
+  },
+  "i-1knuc46": {
+    "src": "https://www.datocms-assets.com/75231/1794951224-threat-update-purple-wireframe_custom.jpeg?fm=webp",
+    "alt": "微软 agent-framework PyPI 投毒自查（1.26.1 / 1.26.2） 的官方预览图",
+    "credit": "wiz.io"
+  },
+  "i-5uowxe": {
+    "src": "https://pollinations.ai/og-image.png",
+    "alt": "选题：Pollinations.ai 的官方预览图",
+    "credit": "pollinations.ai"
+  },
+  "i-18qol6h": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794572816330-ifanl36-type.bizar.ro.webp",
+    "alt": "Type 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-h0kgpo": {
+    "src": "https://webscraping.ai/og-image.png",
+    "alt": "WebScraping.AI 的官方预览图",
+    "credit": "webscraping.ai"
+  },
+  "i-ni9dqp": {
+    "src": "https://microlink.io/images/og/text.png?v=111e2ed",
+    "alt": "Microlink 的官方预览图",
+    "credit": "microlink.io"
+  },
+  "i-2905j3": {
+    "src": "https://webscraping.ai/og-image.png",
+    "alt": "选题：WebScraping.AI 的官方预览图",
+    "credit": "webscraping.ai"
+  },
+  "i-1ydslch": {
+    "src": "https://ncase.me/sharing/thumb.png",
+    "alt": "Nicky Case 的官方预览图",
+    "credit": "ncase.me"
+  },
+  "i-1kcw46y": {
+    "src": "https://educative.io/static/imgs/educative_github_socialV2.png",
+    "alt": "Educative 的官方预览图",
+    "credit": "educative.io"
+  },
+  "i-10ampai": {
+    "src": "https://cdn.mesh3d.gallery/previews/1793181062424-qoq1q8t-longhoang-lyo.com.webp",
+    "alt": "Long Hoang 坦克作品集 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-x0n0x7": {
+    "src": "https://cdn.mesh3d.gallery/previews/1793094261053-moux53o-mosaic.flabbergast.agency.webp",
+    "alt": "Mosaic 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-1xuguvc": {
+    "src": "https://d31td5fkd89rr1.cloudfront.net/social/global.png",
+    "alt": "Hoefler&Co 的官方预览图",
+    "credit": "typography.com"
+  },
+  "i-8m5043": {
+    "src": "https://cdn.mesh3d.gallery/previews/1793287920971-5you1wt-clipo.one.webp",
+    "alt": "Clipo 贴纸吉祥物 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-1vqljjt": {
+    "src": "https://rsms.me/inter/res/share.png",
+    "alt": "Inter 的官方预览图",
+    "credit": "rsms.me"
+  },
+  "i-14zzc0m": {
+    "src": "https://klim.imgix.net/manual/klim-share.png?auto=format%2Ccompress&cs=srgb&q=90",
+    "alt": "Klim Type Foundry 的官方预览图",
+    "credit": "klim.co.nz"
+  },
+  "i-fhdm0n": {
+    "src": "https://us1.discourse-cdn.com/openai1/optimized/4X/e/b/0/eb010b111f193137520f06dc148808ec00e3ef5e_2_1024x576.jpeg",
+    "alt": "GPT-6.2 Astra 和 Sol 发布 的官方预览图",
+    "credit": "community.openai.com"
+  },
+  "i-1jw40m0": {
+    "src": "https://opengraph.githubassets.com/18cbd5e95c5d218a578419ea4df8e8a5b6ddbe7b57dc365de27b092248fd1264/ag-ui-protocol/ag-ui",
+    "alt": "AG-UI 1.0 发布 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-dhswlo": {
+    "src": "https://www.gradually.ai/images/og/default-og.webp",
+    "alt": "Codex CLI 0.170.0 的官方预览图",
+    "credit": "gradually.ai"
+  },
+  "i-5ohvn9": {
+    "src": "https://www.greptile.com/opengraph/pricing-og.png",
+    "alt": "Greptile Starter 免费版 的官方预览图",
+    "credit": "greptile.com"
+  },
+  "i-1t0kl8n": {
+    "src": "https://bonfx.com/images/font-combinations-header.jpg",
+    "alt": "BonFX 字体搭配完全指南 的官方预览图",
+    "credit": "bonfx.com"
+  },
+  "i-wxu3zg": {
+    "src": "https://files.buildwithfern.com/cohere.docs.buildwithfern.com/8ba30b46486ea7bfab24f3e8856d7411d1b745b26e9026abff3ee62af52ce268/assets/images/f1cc130-cohere_meta_image.jpg",
+    "alt": "Cohere 免费试用 API Key 的官方预览图",
+    "credit": "docs.cohere.com"
+  },
+  "i-1tzt3fk": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794220628368-jmr3gm5-vinyl-gl.vercel.app.webp",
+    "alt": "Record Player 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-rrhsxz": {
+    "src": "https://fontpair.co/social-image.png",
+    "alt": "Fontpair 的官方预览图",
+    "credit": "fontpair.co"
+  },
+  "i-1w02275": {
+    "src": "https://devin.ai/assets/images/devin-og-new-logo.jpg",
+    "alt": "Windsurf（现为 Devin）免费版 的官方预览图",
+    "credit": "windsurf.com"
+  },
+  "i-1uas61z": {
+    "src": "https://www.typotheque.com/api/og",
+    "alt": "Typotheque 文章 的官方预览图",
+    "credit": "typotheque.com"
+  },
+  "i-19rk506": {
+    "src": "https://utopia.fyi/Utopia",
+    "alt": "Utopia 的官方预览图",
+    "credit": "utopia.fyi"
+  },
+  "i-1m4ddlk": {
+    "src": "https://pollinations.ai/og-image.png",
+    "alt": "Pollinations.ai 的官方预览图",
+    "credit": "pollinations.ai"
+  },
+  "i-cevk9p": {
+    "src": "https://cdn.sanity.io/images/tbwz6awp/production/d755e410b0e0bcc7223acfa14eb537b79738fbc7-1200x630.png?w=1200&h=630&fm=jpg&q=80",
+    "alt": "Grilli Type 的官方预览图",
+    "credit": "grillitype.com"
+  },
+  "i-qa6fbx": {
+    "src": "https://gregpuzzles1.github.io/codevember-2026/17/social-preview.png",
+    "alt": "Kelp Courier 的官方预览图",
+    "credit": "gregpuzzles1.github.io"
+  },
+  "i-1nwl42f": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794397960830-nn5nghl-fojcikdominik.com.webp",
+    "alt": "Dominik Fojcik 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-1hecesp": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794824196788-3u3tbm9-neuroformtech.com.webp",
+    "alt": "Neuroform 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-1tmmlgb": {
+    "src": "https://img.alicdn.com/imgextra/i1/O1CN012QgtoH1c1Mu70xD3w_!!6000000003540-2-tps-640-640.png",
+    "alt": "阿里云 ESA 免费版 的官方预览图",
+    "credit": "aliyun.com"
+  },
+  "i-aauc4f": {
+    "src": "https://www.typetester.org/img/blog/blog-20161102-typetester-public-release.png",
+    "alt": "Typetester 的官方预览图",
+    "credit": "typetester.org"
+  },
+  "i-1ef0ogy": {
+    "src": "https://kiro.dev/images/pages/students.png",
+    "alt": "Kiro for Students 的官方预览图",
+    "credit": "kiro.dev"
+  },
+  "i-17hmd1k": {
+    "src": "https://llm7.io/api/og",
+    "alt": "LLM7.io 的官方预览图",
+    "credit": "llm7.io"
+  },
+  "i-1fc11zz": {
+    "src": "https://framerusercontent.com/images/ddcHn1sOejtC6gm8jwpnvWuxoM.png?width=1200&height=630",
+    "alt": "Inception Mercury 2 的官方预览图",
+    "credit": "inceptionlabs.ai"
+  },
+  "i-2uykra": {
+    "src": "https://mirages.nrly.fun/og.jpg",
+    "alt": "Mirages 的官方预览图",
+    "credit": "mirages.nrly.fun"
+  },
+  "i-7f7qbl": {
+    "src": "https://novita.ai/mainpage/media-logo.png",
+    "alt": "Novita Apodex 1.1 Mini 的官方预览图",
+    "credit": "novita.ai"
+  },
+  "i-1i0snlb": {
+    "src": "https://flipbook-foundry.pages.dev/og.png",
+    "alt": "Flipbook Foundry 的官方预览图",
+    "credit": "flipbook-foundry.pages.dev"
+  },
+  "i-1a9c4l4": {
+    "src": "https://synfield.space/og/synfield-en.jpg",
+    "alt": "Synfield 的官方预览图",
+    "credit": "synfield.space"
+  },
+  "i-1abezrm": {
+    "src": "https://cdn.mesh3d.gallery/email/render-025/1793708967713/hero-mosaic.png",
+    "alt": "EnduroSat Space Service 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-1qkrmiy": {
+    "src": "https://storage.ghost.io/c/89/e0/89e08557-681a-40be-8264-278bf46d6b25/content/images/2026/10/facebook-card.jpg",
+    "alt": "Felix Rieseberg 主页 的官方预览图",
+    "credit": "felixrieseberg.com"
+  },
+  "i-wxwvg5": {
+    "src": "https://cdn.prod.website-files.com/6a82f7ca23e97c6371bbf5c9/6aa10bd2872b16dbe1302dc8_6a7b8c140a49bea1efc417fd_67ebdb4fbabc9e7b8c3e38ac_1200x628.png",
+    "alt": "Nscale 的官方预览图",
+    "credit": "nscale.com"
+  },
+  "i-1qag3fq": {
+    "src": "https://opengraph.githubassets.com/07845a1a470882d1eb47db598fa7d3574f362e85a95a1976bbac374f06eac8b2/andrisgauracs/LiteRT.js-Mocap",
+    "alt": "LiteRT.js-Mocap 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1vnja52": {
+    "src": "https://cards.fontsinuse.com/cardshot?s=twitter&t=gallery&url=https://fontsinuse.com/&k=fea3b3b2f54abc640c7705b62dd465bd&v=3021114f",
+    "alt": "Fonts In Use 的官方预览图",
+    "credit": "fontsinuse.com"
+  },
+  "i-tx2zqp": {
+    "src": "https://betterwebtype.com/assets/img/course/lesson1.jpg",
+    "alt": "Better Web Type 的官方预览图",
+    "credit": "betterwebtype.com"
+  },
+  "i-1422lg3": {
+    "src": "https://www.chorono.com/blog/make-animations-with-claude.png",
+    "alt": "Chorono 的官方预览图",
+    "credit": "chorono.com"
+  },
+  "i-1c86mok": {
+    "src": "https://www.beautifulwebtype.com/assets/images/card.png",
+    "alt": "Beautiful Web Type 的官方预览图",
+    "credit": "beautifulwebtype.com"
+  },
+  "i-11ygfhr": {
+    "src": "https://letterformarchive.org/wp-content/uploads/2022/05/LetterformArchive01_Collection-on-table.jpg",
+    "alt": "Letterform Archive 的官方预览图",
+    "credit": "letterformarchive.org"
+  },
+  "i-f49ynk": {
+    "src": "https://framerusercontent.com/images/ddcHn1sOejtC6gm8jwpnvWuxoM.png?width=1200&height=630",
+    "alt": "选题：Inception Mercury 2 的官方预览图",
+    "credit": "inceptionlabs.ai"
+  },
+  "i-14gkach": {
+    "src": "https://img.alicdn.com/imgextra/i1/O1CN012QgtoH1c1Mu70xD3w_!!6000000003540-2-tps-640-640.png",
+    "alt": "选题：阿里云 ESA 免费版 的官方预览图",
+    "credit": "aliyun.com"
+  },
+  "i-10lxd86": {
+    "src": "http://type.method.ac/ogimage.png",
+    "alt": "Kern Type 的官方预览图",
+    "credit": "type.method.ac"
+  },
+  "i-ld814x": {
+    "src": "https://variablefonts.io/assets/img/a_texture.jpg",
+    "alt": "Variable Fonts 的官方预览图",
+    "credit": "variablefonts.io"
+  },
+  "i-ksesva": {
+    "src": "https://llm7.io/api/og",
+    "alt": "选题：LLM7.io 的官方预览图",
+    "credit": "llm7.io"
+  },
+  "i-ur3ayi": {
+    "src": "https://typescale.com/wp-content/uploads/2023/11/og-image.png",
+    "alt": "Type Scale 的官方预览图",
+    "credit": "type-scale.com"
+  },
+  "i-1k8e1po": {
+    "src": "https://akashml.com/og-image.png",
+    "alt": "AkashML 的官方预览图",
+    "credit": "akashml.com"
+  },
+  "i-b5e4uj": {
+    "src": "https://www.amd.com/content/dam/amd/en/images/logos/products/2058250-amd-rocm.jpg",
+    "alt": "AMD AI Developer Program 的官方预览图",
+    "credit": "amd.com"
+  },
+  "i-1nvs4b6": {
+    "src": "https://tavily.com/opengraph-image.png",
+    "alt": "Tavily 的官方预览图",
+    "credit": "tavily.com"
+  },
+  "i-j0pbf1": {
+    "src": "https://www.ycombinator.com/blog/content/images/2026/02/YC-AI-Stack.jpg",
+    "alt": "YC AI Stack 学生包 的官方预览图",
+    "credit": "ycombinator.com"
+  },
+  "i-1lfgy31": {
+    "src": "https://www.ai21.com/wp-content/uploads/2026/01/Website-share-1.png",
+    "alt": "AI21 Labs 的官方预览图",
+    "credit": "ai21.com"
+  },
+  "i-g2naij": {
+    "src": "https://www.perchai.app/Perch%20AI%20pricing:%20start%20free,%20no%20credit%20card",
+    "alt": "Perch AI Starter 的官方预览图",
+    "credit": "perchai.app"
+  },
+  "i-1uiypb5": {
+    "src": "https://cdn.readme.io/og-image/create?type=docs&title=Pricing&projectTitle=Voyage%20AI&description=Voyage%20model%20pricing%20is%20usage-based%2C%20with%20charges%20billed%20to%20the%20account%20linked%20to%20the%20API%20key%20used%20for%20access.%20Text%20Embeddings%20We%20charge%20for%20requests%20to%20the%20Voyage%20text%20embedding%20endpoint%20based%20on%20the%20number%20of%20tokens%20in%20the%20documents%2Fqueries.%20The%20first%20200%20million%20tokens%20for%20voyage-4-large%20%2C%20voyage%E2%80%A6&logoUrl=https%3A%2F%2Ffiles.readme.io%2F738edecbf2b96d5ca2faa0a816a528ab2d46943bcc632c7061c5be85d6a2099a-VoyageAI_by_MongoDB_-_Slate_Horizontal.svg&color=%23018ef5&variant=light",
+    "alt": "Voyage AI 的官方预览图",
+    "credit": "docs.voyageai.com"
+  },
+  "i-sigx3x": {
+    "src": "https://assets.nebius.com/assets/5d5645f4-5534-46d9-a461-7caddb7b469a/AI-builders-share.jpg?cache-buster=2026-09-09T16:42:46.023Z",
+    "alt": "Nebius AI Builder Program 的官方预览图",
+    "credit": "dev.nebius.com"
+  },
+  "i-1rxy1gk": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794572816330-udsm0q2-rain.julienrenau.com.webp",
+    "alt": "Rain Drop 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-18acik0": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794826719161-3eu2gvd-mohammadazad.com-labs-ocean-run-play.webp",
+    "alt": "Ocean Run 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-cmlks1": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794220628352-q9wd59s-mrdoob.github.io-codevember-2026-05.webp",
+    "alt": "Codevember 2026: Moss 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-10ozmz0": {
+    "src": "https://cdn.mesh3d.gallery/previews/1793959325002-q0kfahx-mrdoob.github.io-codevember-2026-04.webp",
+    "alt": "Codevember 2026: Tangle 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-15g5uz1": {
+    "src": "https://cdn.mesh3d.gallery/previews/1793959324910-bjo2box-pumpkin-webgpu.pages.dev.webp",
+    "alt": "WebGPU Pumpkin 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-rqzcv9": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794826719184-xzu169g-theinfinitycastle.site.webp",
+    "alt": "Infinity Castle 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-1ypvn4d": {
+    "src": "https://cdn.mesh3d.gallery/previews/1793959324910-psinq4g-dasprinzip.com-tinker-day51.webp",
+    "alt": "Obscurial 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-1yf64c7": {
+    "src": "https://cdn.mesh3d.gallery/previews/1793959325002-wphk2n0-utsubo-neural.utsubo.io.webp",
+    "alt": "Utsubo Neural Cheetah 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-gytttb": {
+    "src": "https://repository-images.githubusercontent.com/1177402105/22efe22c-0a60-4b45-90ef-316575d95375",
+    "alt": "HyperFrames 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-a093o3": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794572816330-lxtylbk-volumes.bizar.ro.webp",
+    "alt": "Volumes 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-vo8juo": {
+    "src": "https://cdn.mesh3d.gallery/previews/1794220628328-cfb9y9t-dandelion.luruke.com.webp",
+    "alt": "Dandelion 的官方预览图",
+    "credit": "mesh3d.gallery"
+  },
+  "i-29rw24": {
+    "src": "https://www.theleagueofmoveabletype.com/The%20League%20of%20Moveable%20Type",
+    "alt": "The League of Moveable Type 的官方预览图",
+    "credit": "theleagueofmoveabletype.com"
+  },
+  "i-7swib9": {
+    "src": "https://server.wordmark.it/assets/wordmark.png",
+    "alt": "Wordmark.it 的官方预览图",
+    "credit": "wordmark.it"
+  },
+  "i-9f3uqo": {
+    "src": "https://www.fontshare.com/assets/images/share.f415a558.jpg",
+    "alt": "Fontshare 的官方预览图",
+    "credit": "fontshare.com"
+  },
+  "i-7zypux": {
+    "src": "http://www.modularscale.com/twitter-share.png",
+    "alt": "Modular Scale 的官方预览图",
+    "credit": "modularscale.com"
+  },
+  "i-7egd8y": {
+    "src": "https://tavily.com/opengraph-image.png",
+    "alt": "选题：Tavily 的官方预览图",
+    "credit": "tavily.com"
+  },
+  "i-1w68hzm": {
+    "src": "https://cdn.readme.io/og-image/create?type=docs&title=Pricing&projectTitle=Voyage%20AI&description=Voyage%20model%20pricing%20is%20usage-based%2C%20with%20charges%20billed%20to%20the%20account%20linked%20to%20the%20API%20key%20used%20for%20access.%20Text%20Embeddings%20We%20charge%20for%20requests%20to%20the%20Voyage%20text%20embedding%20endpoint%20based%20on%20the%20number%20of%20tokens%20in%20the%20documents%2Fqueries.%20The%20first%20200%20million%20tokens%20for%20voyage-4-large%20%2C%20voyage%E2%80%A6&logoUrl=https%3A%2F%2Ffiles.readme.io%2F738edecbf2b96d5ca2faa0a816a528ab2d46943bcc632c7061c5be85d6a2099a-VoyageAI_by_MongoDB_-_Slate_Horizontal.svg&color=%23018ef5&variant=light",
+    "alt": "选题：Voyage AI 的官方预览图",
+    "credit": "docs.voyageai.com"
+  },
+  "i-11a1ipq": {
+    "src": "https://akashml.com/og-image.png",
+    "alt": "选题：AkashML 的官方预览图",
+    "credit": "akashml.com"
+  },
+  "i-12vnsmo": {
+    "src": "https://luzi-type.ch/image/opengraph/LuziType_OpenGraph_Blog.png",
+    "alt": "Luzi Type Blog 的官方预览图",
+    "credit": "luzi-type.ch"
+  }
+}

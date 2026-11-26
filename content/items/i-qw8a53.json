@@ -1,0 +1,51 @@
+{
+  "summary": "调用 dgridai/free 一个模型 ID，网关自动路由到可用免费算力，OpenAI 兼容；",
+  "cover": {
+    "src": "https://dgridai.mintlify.site/_mintlify/api/og/v2?division=AI+GATEWAY&title=Free+Models+Router&description=Use+DGrid%27s+free+intelligent+inference+gateway+for+everyday+AI+tasks+with+automatic+model+routing+and+fair-use+rate+limits.&theme=f0f1b22597a1147e39beb310&signature=5f941622f16c6160601ec466230d77b9d9958bfe09d71ac648e36ca5ed416674",
+    "alt": "DGrid 免费模型路由——每天 100 次免费 AI 调用，不用选模型 的官方预览图",
+    "credit": "docs.dgrid.ai"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "调用 dgridai/free 一个模型 ID，网关自动路由到可用免费算力，OpenAI 兼容；免费档每分钟 10 次、每天 100 次，不充值也能用。注意：每次请求的底层模型可能变化，不适合要求固定模型的场景；充 5 美元以上可提到每天 1000 次；官网文档未写明注册是否需要绑卡。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "免费档每分钟 10 次、每天 100 次，不充值也能用。",
+        "注意：每次请求的底层模型可能变化，不适合要求固定模型的场景；",
+        "归类在「免费资源 / 其他资源」，11-21 早收录。",
+        "原始入口在 docs.dgrid.ai，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这里收的是“现在打开还能用”的免费资源：模型额度、API 试用、开源软件、限时课程、设计工具与学生包。不是把“免费”当标题，而是把额度、期限、绑卡要求和失效状态一起写清楚。 这条具体落在「其他资源」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合想低成本试新工具、做副业验证或给学生项目找资源的人。看到“限时”先看截止日；看到“免费额度”先看用量上限；重要资料先导出，别把免费当永久。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先看截止日、是否自动续费、是否需要绑卡",
+        "02 核对免费额度、速率限制、商用条款与地区限制",
+        "03 优先选有官方定价页或文档可查的项目"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「免费资源」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

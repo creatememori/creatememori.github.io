@@ -1,0 +1,51 @@
+{
+  "summary": "TypeScript 名师 Matt Pocock 公开自己日常用的 27 个 Agent 技能（MIT，33.1 万星）：核心是 grill-me/grill-with-docs——动手前…",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/0af60356f53975ce95162c03fc9129a3c09630c2c188ca8b2ce93e475d9c68f5/mattpocock/skills",
+    "alt": "Matt Pocock skills——33 万星的真工程 Agent 技能：先问清楚再动手，27 个技能覆盖需求、TDD、查 bug 与代码评审 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "TypeScript 名师 Matt Pocock 公开自己日常用的 27 个 Agent 技能（MIT，33.1 万星）：核心是 grill-me/grill-with-docs——动手前先像面试官一样追问需求、对齐术语并沉淀进 GLOSSARY，再配 tdd、diagnosing-bugs、code-review 等技能，专治 Agent 理解偏差与越写越乱。安装：Claude Code 用 claude plugin install mattpocock-skills@claude-plugins-official，再跑 /setup-matt-pocock-skills；也支持 Codex、Copilot 与 Gemini CLI。注意：插件与 npx 两种装法二选一，混装会重复。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "安装：Claude Code 用 claude plugin install mattpocock-skills@claude-plugins-official，再跑 /setup-matt-pocock-skills；",
+        "也支持 Codex、Copilot 与 Gemini CLI。",
+        "归类在「AI 实战 / AI 编程助手」，11-24 早收录。",
+        "原始入口在 github.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这里收的是能动手的 AI：模型、API、Agent 框架、自动化工作流、提示词方法和本地部署方案。每一条尽量保留运行条件、额度、依赖和失败边界。 这条具体落在「AI 编程助手」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合独立开发者、内容创作者与小团队。先做最小验证，再谈规模化；涉及数据、隐私和付费调用时，先算清成本与权限，别让一次演示变成长期账单。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先用最小任务验证输入、输出和失败情况",
+        "02 核对额度、速率限制、数据去向与商用条款",
+        "03 把提示词、模型版本和依赖固定下来再复用"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「AI 实战」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

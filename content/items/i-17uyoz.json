@@ -1,0 +1,51 @@
+{
+  "summary": "Sonner 作者、曾在 Vercel 与 Linear 任职的 Emil Kowalski 把多年动效经验写成 Agent 技能：进场该用 ease-out 而非 ease-in、半透明阴…",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/97eae80a64a890e030b1845cfb815270da7781840ba26b41df110e13a07d0e6b/emilkowalski/skills",
+    "alt": "Emil Kowalski skills——Vercel/Linear 设计工程师的动效品味技能包，近 20 个技能专治 Agent 的动效低级错误 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Sonner 作者、曾在 Vercel 与 Linear 任职的 Emil Kowalski 把多年动效经验写成 Agent 技能：进场该用 ease-out 而非 ease-in、半透明阴影而非实色边框等细节都有规则，含审稿、审计、找动效机会、Apple 设计原则等技能，MIT 开源、5.9 万星。安装：npx skills@latest add emilkowalski/skills。注意：作者站内另有付费课程推广，技能本身免费；技能主要覆盖 Web 界面与动效。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "安装：npx skills@latest add emilkowalski/skills。",
+        "注意：作者站内另有付费课程推广，技能本身免费；",
+        "归类在「AI 实战 / AI 编程助手」，11-24 早收录。",
+        "原始入口在 github.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这里收的是能动手的 AI：模型、API、Agent 框架、自动化工作流、提示词方法和本地部署方案。每一条尽量保留运行条件、额度、依赖和失败边界。 这条具体落在「AI 编程助手」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合独立开发者、内容创作者与小团队。先做最小验证，再谈规模化；涉及数据、隐私和付费调用时，先算清成本与权限，别让一次演示变成长期账单。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先用最小任务验证输入、输出和失败情况",
+        "02 核对额度、速率限制、数据去向与商用条款",
+        "03 把提示词、模型版本和依赖固定下来再复用"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「AI 实战」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

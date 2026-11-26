@@ -1,0 +1,51 @@
+{
+  "summary": "11 月 21 日：Lean FRO 与 Mathlib Initiative 发布联合声明，认证 Anthropic 数学家 Levent Alpöge 在 Claude 协助下给出的黎曼…",
+  "cover": {
+    "src": "https://leanprover-community.github.io/blog/meta-twitter.png",
+    "alt": "黎曼猜想证明获 Lean 与 Mathlib 联合声明认证通过 的官方预览图",
+    "credit": "leanprover-community.github.io"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 21 日：Lean FRO 与 Mathlib Initiative 发布联合声明，认证 Anthropic 数学家 Levent Alpöge 在 Claude 协助下给出的黎曼猜想形式化证明正确——证明的定理与 Mathlib 中经专家审核的 RiemannHypothesis 表述一致，17 万模块编译通过、多方独立复现，多个独立证明检查器（含 Lean 官方内核）均接受。这是 11 月 21 日看板“尚未最终确认”条目的后续进展。注意：人类可读的经典证明重构仍在撰写中，另有一篇 PhilArchive 质疑待回应，尚非传统同行评审。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "这是 11 月 21 日看板“尚未最终确认”条目的后续进展。",
+        "注意：人类可读的经典证明重构仍在撰写中，另有一篇 PhilArchive 质疑待回应，尚非传统同行评审。",
+        "归类在「前沿追踪 / AI 资讯与技术周刊」，11-23 晚收录。",
+        "原始入口在 leanprover-community.github.io，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前沿更新最容易被“首发”“最强”“颠覆”带走。这个分类保留发布日期、来源和官方口径，把“已经发生的事实”和“厂商自报的数字”分开写。 这条具体落在「AI 资讯与技术周刊」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合开发者、研究者与内容创作者做趋势判断。先看论文、代码和可复现实验，再看二手解读；涉及跑分、价格和可用范围时，回到原始页面核对。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先看原始论文、仓库或官方博客，不看二手摘要",
+        "02 区分厂商自报、第三方复现与社区反馈",
+        "03 记录发布日期与版本，避免旧闻当新闻"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前沿追踪」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "summary": "AG-UI（Agent-User Interaction Protocol）：一套事件流协议，让任何 agent 后端把运行过程（流式文本、工具调用、共享状态、生成式 UI、人工确认、子 a…",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/18cbd5e95c5d218a578419ea4df8e8a5b6ddbe7b57dc365de27b092248fd1264/ag-ui-protocol/ag-ui",
+    "alt": "AG-UI 1.0 发布 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "AG-UI（Agent-User Interaction Protocol）：一套事件流协议，让任何 agent 后端把运行过程（流式文本、工具调用、共享状态、生成式 UI、人工确认、子 agent）以标准事件推给前端；MCP 管工具、A2A 管 agent 之间，AG-UI 管 agent 到用户。1.0 的关键是规范冻结：稳定版 spec + JSON Schema，TypeScript/Python/.NET 三个 SDK 由 spec 直接生成；0.x 与 1.0 双向兼容。GitHub 20,164 star（11 月 18 日抓取时）、MIT 协议；CopilotKit 团队发起，已有 LangChain、CrewAI、Google ADK、微软 Agent Framework、Mastra、Pydantic AI、Claude Agent SDK 等集成，客户端覆盖 React、Angular、Vue、React Native，npx create-ag-ui-app@latest 就能搭一个。Vue/Nuxt 也能用；做 Vibecoding 界面、给 LumenPress 这类站加 agent 功能时，这就是 agent 与前端之间的标准接线方式。热度见 https://blockchain.news/news/ag-ui-protocol-github-trending。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "MCP 管工具、A2A 管 agent 之间，AG-UI 管 agent 到用户。",
+        "1.0 的关键是规范冻结：稳定版 spec + JSON Schema，TypeScript/Python/.NET 三个 SDK 由 spec 直接生成；",
+        "归类在「前端·AI / 工具与框架动态」，11-18 晚收录。",
+        "原始入口在 github.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「工具与框架动态」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先定位它改变的是开发、构建、测试还是部署",
+        "02 看维护者、Issue 活跃度与最小可复现示例",
+        "03 生产接入前准备回滚、权限与成本边界"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

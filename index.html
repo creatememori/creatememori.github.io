@@ -319,6 +319,12 @@ svg{display:block;width:1.25em;height:1.25em;flex:none}
 .card-open{display:inline-flex;align-items:center;gap:3px;min-height:30px;padding:5px 6px;color:var(--dim);font-family:"Noto Sans SC",sans-serif;font-size:9px;transition:color .15s}
 .card-open:hover{color:var(--accent-strong)}
 .card-open svg{width:13px;height:13px}
+.archive-card h3 a{color:inherit;text-decoration:none}
+.archive-card h3 a:hover{color:var(--accent-strong)}
+.archive-desc a{color:inherit;text-decoration:none}
+.archive-desc a:hover{color:var(--accent-strong)}
+.card-open.detail-open{color:var(--accent-strong);font-weight:650}
+.card-open.source-open{opacity:.82}
 .archive-grid.is-list{grid-template-columns:1fr;max-height:620px}
 .is-list .archive-card{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:18px;padding:12px 14px}
 .is-list .archive-top{grid-column:1/-1;margin-bottom:5px}
@@ -965,18 +971,19 @@ footer{border-top:1px solid var(--line);padding:44px 0 26px;color:var(--dim)}
   function cardHTML(item){
     const status = liveStatus(item);
     const deadlineText = status.days !== null && status.days >= 0 ? ` · ${status.days === 0 ? '今天到期' : `D-${status.days}`}` : '';
-    const url = item.url || `${projectURL}#allHead`;
+    const detail = item.detail || `${projectURL}#allHead`;
+    const url = item.url || detail;
     return `<article class="archive-card">
       <div class="archive-top"><span class="archive-cat">${escapeHTML(item.cat)} · ${escapeHTML(item.sub)}</span><span class="status ${statusClass[status.status] || ''}">${escapeHTML(status.status)}</span></div>
-      <h3>${escapeHTML(item.title)}</h3>
-      <p class="archive-desc">${escapeHTML(item.desc)}</p>
-      <div class="archive-meta"><span>${escapeHTML(item.date)} · ${escapeHTML(item.period)} · 热度${escapeHTML(item.heat)}${deadlineText}</span><div class="card-actions"><button class="icon-btn copy-demo" type="button" data-title="${escapeHTML(item.title)}" aria-label="复制 ${escapeHTML(item.title)} 与创忆录入口"><svg aria-hidden="true"><use href="#i-copy"/></svg></button><a class="card-open" href="${escapeHTML(url)}" target="_blank" rel="noopener">源站<svg aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a></div></div>
+      <h3><a href="${escapeHTML(detail)}">${escapeHTML(item.title)}</a></h3>
+      <p class="archive-desc"><a href="${escapeHTML(detail)}">${escapeHTML(item.desc)}</a></p>
+      <div class="archive-meta"><span>${escapeHTML(item.date)} · ${escapeHTML(item.period)} · 热度${escapeHTML(item.heat)}${deadlineText}</span><div class="card-actions"><button class="icon-btn copy-demo" type="button" data-title="${escapeHTML(item.title)}" aria-label="复制 ${escapeHTML(item.title)} 与创忆录入口"><svg aria-hidden="true"><use href="#i-copy"/></svg></button><a class="card-open detail-open" href="${escapeHTML(detail)}">详情<svg aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a><a class="card-open source-open" href="${escapeHTML(url)}" target="_blank" rel="noopener">源站<svg aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a></div></div>
     </article>`;
   }
 
   function timelineHTML(item){
-    const url = item.url || `${projectURL}#allHead`;
-    return `<article class="timeline-item"><time class="timeline-time">${escapeHTML(item.date)}<br>${escapeHTML(item.period)}</time><div class="timeline-content"><h3><a href="${escapeHTML(url)}" target="_blank" rel="noopener">${escapeHTML(item.title)}</a></h3><p>${escapeHTML(item.cat)} · ${escapeHTML(item.sub)} · 热度${escapeHTML(item.heat)}</p></div></article>`;
+    const detail = item.detail || `${projectURL}#allHead`;
+    return `<article class="timeline-item"><time class="timeline-time">${escapeHTML(item.date)}<br>${escapeHTML(item.period)}</time><div class="timeline-content"><h3><a href="${escapeHTML(detail)}">${escapeHTML(item.title)}</a></h3><p>${escapeHTML(item.cat)} · ${escapeHTML(item.sub)} · 热度${escapeHTML(item.heat)}</p></div></article>`;
   }
 
   function setView(view){

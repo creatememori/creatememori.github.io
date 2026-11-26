@@ -1,0 +1,51 @@
+{
+  "summary": "11 月 23 日 Product Hunt 新品，官网称永久免费、无需账号：包一层 GitHub 官方 runner 而非代理构建，代码与密钥只在你的机器和 GitHub 之间走，Stri…",
+  "cover": {
+    "src": "https://strict.ai/og/default.png",
+    "alt": "Strict——闲置 Mac/Linux 变成免费的 GitHub Actions 跑手 的官方预览图",
+    "credit": "strict.ai"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 23 日 Product Hunt 新品，官网称永久免费、无需账号：包一层 GitHub 官方 runner 而非代理构建，代码与密钥只在你的机器和 GitHub 之间走，Strict 经 Tailscale 在旁边做负载均衡、磁盘自愈与缓存保温，改一行 runs-on 就能从云端 runner 切过来。注意：需 Apple Silicon Mac（macOS 15+）或 Linux 机器 + Tailscale，无 Windows；远程监控与告警是可选的 Strict Cloud。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "注意：需 Apple Silicon Mac（macOS 15+）或 Linux 机器 + Tailscale，无 Windows；",
+        "远程监控与告警是可选的 Strict Cloud。",
+        "归类在「黑科技工具 / 效率神器」，11-24 早收录。",
+        "原始入口在 strict.ai，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "“黑科技”不等于来路不明。这个分类收的是能解决具体小问题的工具：截图、搜索、窗口管理、文件处理、浏览器增强、快捷操作与自动化。 这条具体落在「效率神器」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合愿意折腾但不想踩坑的人。安装前看平台、权限、更新频率与开源情况；涉及账号、剪贴板和本地文件时，先确认数据去哪，再决定要不要长期用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先确认系统、浏览器与权限要求",
+        "02 看更新频率、开源情况和数据是否出本机",
+        "03 免费版够用再考虑买断，别先绑定长期订阅"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「黑科技工具」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

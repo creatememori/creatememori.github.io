@@ -1,0 +1,51 @@
+{
+  "summary": "11 月 16–17 日发 v0.1.298：开源 TypeScript 框架（MIT，约 7,700 星），Agent 与 React 界面共用同一套 action、数据与应用状态——Ag…",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/f294c4b71205da9fe1f4812eaa2e1981cb5d722924703ff62f864ac109d2b9dd/BuilderIO/agent-native",
+    "alt": "BuilderIO Agent-Native——给 Agent 配专属 UI 的开源 TypeScript 框架，约 7,700 星 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 16–17 日发 v0.1.298：开源 TypeScript 框架（MIT，约 7,700 星），Agent 与 React 界面共用同一套 action、数据与应用状态——Agent 把能力当工具调，界面直接调同一函数，另有聊天、认证权限、技能记忆、定时自动化、多 Agent 协作与 PostgreSQL 后端；Claude Code 里可用 /visual-edit 在画布上直改运行中的应用、/remix 把别站的效果搬进自己项目。注意：仍在 beta，API 可能变动。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "Claude Code 里可用 /visual-edit 在画布上直改运行中的应用、/remix 把别站的效果搬进自己项目。",
+        "注意：仍在 beta，API 可能变动。",
+        "归类在「前端·AI / 其他动态」，11-25 早收录。",
+        "原始入口在 github.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「其他动态」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先定位它改变的是开发、构建、测试还是部署",
+        "02 看维护者、Issue 活跃度与最小可复现示例",
+        "03 生产接入前准备回滚、权限与成本边界"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

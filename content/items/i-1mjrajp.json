@@ -1,0 +1,51 @@
+{
+  "summary": "11 月 17 日发布：6 月公开预览后 230+ 次发布，正式 GA；",
+  "cover": {
+    "src": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/1R5Z5o3JKUiGPhVNUYovLc/01b2bdf97e72fd4b6295c16196cdb51a/changlog-eve.png",
+    "alt": "Vercel eve 1.0——开源 Agent 框架正式 GA：百轮对话中位延迟 3 秒压到 414 毫秒 的官方预览图",
+    "credit": "vercel.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 17 日发布：6 月公开预览后 230+ 次发布，正式 GA；Agent 循环（模型调用、工具、子 Agent）+ 持久化执行（Workflow SDK 崩溃后续跑）、审批控制、多人会话、记忆、OpenTelemetry 追踪；Next.js、Nuxt、SvelteKit、TanStack Start、Vite 原生集成。注意：官方压测 100 轮对话中位延迟 3.036 秒→414 毫秒、50 轮会话成本降 76%（5.4¢→1.3¢）为 Vercel 自测口径（模拟模型、无工具调用），不含模型生成时间；需 Node.js 24+。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "Agent 循环（模型调用、工具、子 Agent）+ 持久化执行（Workflow SDK 崩溃后续跑）、审批控制、多人会话、记忆、OpenTelemetry 追踪；",
+        "Next.js、Nuxt、SvelteKit、TanStack Start、Vite 原生集成。",
+        "归类在「前端·AI / 其他动态」，11-24 晚收录。",
+        "原始入口在 vercel.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「其他动态」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先定位它改变的是开发、构建、测试还是部署",
+        "02 看维护者、Issue 活跃度与最小可复现示例",
+        "03 生产接入前准备回滚、权限与成本边界"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

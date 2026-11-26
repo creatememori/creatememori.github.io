@@ -1,0 +1,51 @@
+{
+  "summary": "一个模型白嫖 2 亿 Tokens，向量搜索 API 免绑卡；",
+  "cover": {
+    "src": "https://cdn.readme.io/og-image/create?type=docs&title=Pricing&projectTitle=Voyage%20AI&description=Voyage%20model%20pricing%20is%20usage-based%2C%20with%20charges%20billed%20to%20the%20account%20linked%20to%20the%20API%20key%20used%20for%20access.%20Text%20Embeddings%20We%20charge%20for%20requests%20to%20the%20Voyage%20text%20embedding%20endpoint%20based%20on%20the%20number%20of%20tokens%20in%20the%20documents%2Fqueries.%20The%20first%20200%20million%20tokens%20for%20voyage-4-large%20%2C%20voyage%E2%80%A6&logoUrl=https%3A%2F%2Ffiles.readme.io%2F738edecbf2b96d5ca2faa0a816a528ab2d46943bcc632c7061c5be85d6a2099a-VoyageAI_by_MongoDB_-_Slate_Horizontal.svg&color=%23018ef5&variant=light",
+    "alt": "选题：Voyage AI 的官方预览图",
+    "credit": "docs.voyageai.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "一个模型白嫖 2 亿 Tokens，向量搜索 API 免绑卡；建议标题《一个模型白嫖2亿Tokens！向量搜索 API 免绑卡实测》。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "建议标题《一个模型白嫖2亿Tokens！",
+        "向量搜索 API 免绑卡实测》。",
+        "归类在「YouTube 选题 / 向量 API 选题」，11-17 晚收录。",
+        "原始入口在 docs.voyageai.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这个分类不整理“新闻摘要”，而是把一条资源翻译成内容：观众为什么会点开、开头怎么证明、过程中要展示什么、哪里最容易翻车。每条都尽量附一个可用的标题方向。 这条具体落在「向量 API 选题」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合做工具测评、AI 教程、设计拆解与科技解释类内容的人。先验证再拍，别把厂商口径直接念成结论；涉及价格、额度和截止日时，拍前再核对一次。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先亲手跑通，再决定是测评、教程还是观点",
+        "02 开头给结果或冲突，中段展示过程与限制",
+        "03 价格、额度、截止日拍前复核，注明官方口径"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「YouTube 选题」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

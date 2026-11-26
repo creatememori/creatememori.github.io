@@ -1,0 +1,51 @@
+{
+  "summary": "开源编程助手 OpenCode 官方文档列出的限时免费模型：DeepSeek V4.1 Flash Free、MiMo-V2.6-Flash Free、Nemotron 3.5 Lightn…",
+  "cover": {
+    "src": "https://opencode.ai/files/site/og/docs-e416d17432.png",
+    "alt": "OpenCode 免费模型池——开源编程助手限时免费模型 的官方预览图",
+    "credit": "opencode.ai"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "开源编程助手 OpenCode 官方文档列出的限时免费模型：DeepSeek V4.1 Flash Free、MiMo-V2.6-Flash Free、Nemotron 3.5 Lightning Free、Nemotron 3.5 Super VL Free、Big Pickle、Iceman Free、Inkling 2 Small Free、Beam Free、Flint 40B Free、LongCat 2.5 Free（每天 100 次）、Hy4 flash Free、Jev 1.13 Free。领取：装 OpenCode，登录 Console 取 API Key 后在 OpenCode 内选用，免费模型仅限 OpenCode 内使用。注意：全部标注“限时免费”，官方页未写截止日（第三方速报称 11 月 23 日关窗，未经官方证实）；GLM-5.3-Flash Free 已于 11 月 18 日下线；按文档流程取 Key 需先登录 Console 并添加账单信息/充值，免费模型是否必须绑卡页面未单独说明，以控制台为准；部分免费模型会用数据改进模型或有地区限制。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "领取：装 OpenCode，登录 Console 取 API Key 后在 OpenCode 内选用，免费模型仅限 OpenCode 内使用。",
+        "注意：全部标注“限时免费”，官方页未写截止日（第三方速报称 11 月 23 日关窗，未经官方证实）；",
+        "归类在「免费资源 / 其他资源」，11-21 中午收录。",
+        "原始入口在 opencode.ai，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这里收的是“现在打开还能用”的免费资源：模型额度、API 试用、开源软件、限时课程、设计工具与学生包。不是把“免费”当标题，而是把额度、期限、绑卡要求和失效状态一起写清楚。 这条具体落在「其他资源」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合想低成本试新工具、做副业验证或给学生项目找资源的人。看到“限时”先看截止日；看到“免费额度”先看用量上限；重要资料先导出，别把免费当永久。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先看截止日、是否自动续费、是否需要绑卡",
+        "02 核对免费额度、速率限制、商用条款与地区限制",
+        "03 优先选有官方定价页或文档可查的项目"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「免费资源」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "summary": "11 月 25 日发布：新增 effort 参数调「省 token 还是拼能力」，中等 effort 下 SWE-bench Verified 追平 Sonnet 4.5 最好成绩、输出 t…",
+  "cover": {
+    "src": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+    "alt": "Claude Opus 4.5——Anthropic 新旗舰今日发布，编码/Agent/电脑使用自称地表最强 的官方预览图",
+    "credit": "anthropic.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 25 日发布：新增 effort 参数调「省 token 还是拼能力」，中等 effort 下 SWE-bench Verified 追平 Sonnet 4.5 最好成绩、输出 token 少 76%；定价降至 $5/$25 每百万 token，Claude Code 的 Plan Mode 更精准、桌面端可多会话并行，Chrome 与 Excel 扩展同步更新。注意：跑分均为官方口径。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "定价降至 $5/$25 每百万 token，Claude Code 的 Plan Mode 更精准、桌面端可多会话并行，Chrome 与 Excel 扩展同步更新。",
+        "注意：跑分均为官方口径。",
+        "归类在「前端·AI / 工具与框架动态」，11-25 晚收录。",
+        "原始入口在 anthropic.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「工具与框架动态」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先定位它改变的是开发、构建、测试还是部署",
+        "02 看维护者、Issue 活跃度与最小可复现示例",
+        "03 生产接入前准备回滚、权限与成本边界"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ]
+}
