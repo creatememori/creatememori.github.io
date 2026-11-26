@@ -671,8 +671,9 @@ const sectionHead = (title, note = '') => `<div class="section-head"><h2>${esc(t
 
 const detailImage = (image, className = 'detail-figure') => {
   if (!image?.src) return '';
+  const isCover = className === 'detail-cover';
   return `<figure class="${className}">
-  <img src="${esc(image.src)}" alt="${esc(image.alt || '资源预览图')}" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  <img src="${esc(image.src)}" alt="${esc(image.alt || '资源预览图')}" loading="${isCover ? 'eager' : 'lazy'}" fetchpriority="${isCover ? 'high' : 'auto'}" decoding="async" referrerpolicy="no-referrer">
   ${(image.caption || image.credit) ? `<figcaption>${image.caption ? esc(image.caption) : ''}${image.credit ? `<span>${esc(image.credit)}</span>` : ''}</figcaption>` : ''}
 </figure>`;
 };
