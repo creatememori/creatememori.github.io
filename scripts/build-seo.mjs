@@ -1298,6 +1298,10 @@ const updateTopicGrid = (data) => {
     .replace(/(<span class="range-chip">)[\s\S]*?(<\/span>)/, `$1${data.dates[data.dates.length - 1]?.date.short || '—'} → ${data.latest.date} · 持续更新$2`)
     .replace(/(<span id="footRange">)[\s\S]*?(<\/span>)/, `$1数据范围：${data.dates[data.dates.length - 1]?.date.short || '—'} ～ ${data.latest.date} 的实际分享记录$2`)
     .replace(/<title>创忆录资源库｜\d+ 条/, `<title>创忆录资源库｜${data.total} 条`)
+    /* 2026-11-27 滞后修复：og:title、twitter:title、JSON-LD name 里的条数也随构建更新（此前只更新 <title>，三处一直停在 949 条） */
+    .replace(/创忆录资源库｜\d+ 条/g, `创忆录资源库｜${data.total} 条`)
+    /* 同场发现：页眉品牌副标题「资源库 · 12 大类 · 900+ 条每日更新」也是写死数字，一并随构建更新 */
+    .replace(/12 大类 · \d+\+? 条/g, `12 大类 · ${data.total} 条`)
     .replace(/(<meta property="article:modified_time" content=")[^"]+(">)/, `$1${data.sourceUpdated}$2`)
     .replace(/(<meta property="og:updated_time" content=")[^"]+(">)/, `$1${data.sourceUpdated}$2`)
     .replace(/("dateModified": ")[^"]+(")/, `$1${data.sourceUpdated}$2`);
@@ -1332,6 +1336,9 @@ const updateLanding = (data) => {
     .replace(/("dateModified": ")[^"]+(")/, `$1${data.sourceUpdated}$2`)
     /* JSON-LD FAQ 文案里的「全站 N 条」（2 处），搜索引擎直接读它 */
     .replace(/全站 \d+ 条/g, `全站 ${data.total} 条`)
+    /* 2026-11-27 滞后修复：介绍页 description（meta/og/twitter/JSON-LD×2）与首屏 hero 文案里的「12 大类、900+ 条」
+       也随构建更新，否则 Bing 索引一直读到旧数；模式按任意数字匹配，下次构建仍有效 */
+    .replace(/12 大类、\d+\+? 条/g, `12 大类、${data.total} 条`)
     /* 首屏 SSR 数字（运行时 renderStats 会再覆盖一遍，构建先写对，爬虫不跑 JS 也能看到正确数字） */
     .replace(/(id="noticeTotal">)\d+</, `$1${data.total}<`)
     .replace(/(id="noticeActive">)\d+</, `$1${data.active}<`)
