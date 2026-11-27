@@ -1,46 +1,51 @@
 {
-  "summary": "11 月 26 日发布 v0.2.0：MIT 开源的 C++ 推理引擎，8 核 CPU + 8GB 内存跑 27B 模型约 17–20 tokens/s，自称比同类 CPU 引擎快约 4 倍；",
+  "summary": "MIT 开源的 C++ 推理引擎，8 核 CPU 加 8GB 内存就能跑 27B 模型，约 17–20 tokens/s，还自带聊天页与 OpenAI 兼容服务。",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/1f131b914dfbb7b0897cecca1098b019bd3227b9c74fe3b2757cd47ab045bedf/opensetlabs/openset-llm",
+    "alt": "openset-llm——普通 CPU 跑 27B 大模型：不用 GPU、8GB 内存，17–20 tokens/s，OpenAI 兼容 的官方预览图",
+    "credit": "github.com"
+  },
   "blocks": [
     {
       "type": "lead",
-      "text": "11 月 26 日发布 v0.2.0：MIT 开源的 C++ 推理引擎，8 核 CPU + 8GB 内存跑 27B 模型约 17–20 tokens/s，自称比同类 CPU 引擎快约 4 倍；自带聊天页与 OpenAI 兼容服务，现有 Agent 客户端不用改就能接。注意：满速需 AVX-512 CPU（Intel Ice Lake 及更新 / AMD Zen 4 及更新），Linux/WSL2，Apple Silicon 安装器暂不支持；约 1,700 星。"
+      "text": "11 月 26 日发布 v0.2.0：openset-llm 是 MIT 开源的 C++ 推理引擎，8 核 CPU 加 8GB 内存跑 27B 模型约 17–20 tokens/s，作者称比同类 CPU 引擎快约 4 倍。它自带聊天页与 OpenAI 兼容服务，现有 Agent 客户端不用改就能接。"
     },
     {
       "type": "highlights",
       "title": "先看这几点",
       "items": [
-        "自带聊天页与 OpenAI 兼容服务，现有 Agent 客户端不用改就能接。",
-        "注意：满速需 AVX-512 CPU（Intel Ice Lake 及更新 / AMD Zen 4 及更新），Linux/WSL2，Apple Silicon 安装器暂不支持；",
-        "归类在「前沿追踪 / Hugging Face 论文速递」，11-27 中午收录。",
-        "原始入口在 github.com，收录时标记为「有效」。"
+        "8 核 CPU、8GB 内存跑 27B，约 17–20 tokens/s",
+        "自带聊天页，OpenAI 兼容服务开箱即用",
+        "MIT 开源，约 1,700 星",
+        "11 月 26 日发布 v0.2.0"
       ]
     },
     {
       "type": "paragraph",
-      "text": "前沿更新最容易被“首发”“最强”“颠覆”带走。这个分类保留发布日期、来源和官方口径，把“已经发生的事实”和“厂商自报的数字”分开写。 这条具体落在「Hugging Face 论文速递」，不是单独的一条链接，而是放回主题脉络里一起看。"
+      "text": "没有 GPU 也想本地跑大模型的人，过去的选择是 llama.cpp 这类通用引擎。openset-llm 的卖点是把 CPU 推理这条线单独做深：同样的硬件，更高的 token 速度，而且服务接口直接兼容 OpenAI 协议，接 Cursor、Claude Code 这类客户端不用折腾适配层。"
     },
     {
       "type": "paragraph",
-      "text": "适合开发者、研究者与内容创作者做趋势判断。先看论文、代码和可复现实验，再看二手解读；涉及跑分、价格和可用范围时，回到原始页面核对。"
+      "text": "适合手头只有普通电脑、又想本地跑大模型做开发或试验的开发者；也适合想给团队搭一个内网模型服务、但不想买显卡的人。先确认自己的 CPU 型号，再决定要不要换引擎。"
     },
     {
       "type": "steps",
       "title": "怎么用",
       "items": [
-        "01 先看原始论文、仓库或官方博客，不看二手摘要",
-        "02 区分厂商自报、第三方复现与社区反馈",
-        "03 记录发布日期与版本，避免旧闻当新闻"
+        "确认 CPU 支持 AVX-512（Intel Ice Lake 及更新，或 AMD Zen 4 及更新）",
+        "在 Linux 或 WSL2 上按仓库说明安装并拉取模型",
+        "打开自带聊天页试对话，或把 OpenAI 兼容地址填进现有客户端"
       ]
     },
     {
       "type": "callout",
       "tone": "warn",
       "title": "别忽略这一条",
-      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+      "text": "满速需要 AVX-512 指令集，老 CPU 会明显慢下来；Apple Silicon 安装器暂不支持。4 倍这个数字是作者自报的口径，实际速度以自己的硬件实测为准。"
     },
     {
       "type": "paragraph",
-      "text": "如果这条和你的项目相关，建议先把它放进「前沿追踪」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+      "text": "openset-llm 的性能与兼容要看清：8 核 CPU、8GB 内存跑 27B 模型约 17–20 tokens/s，日常对话够用；自带聊天页与 OpenAI 兼容服务，能直接接现有工具。满速需 AVX-512，Linux 与 WSL2 可用，Apple Silicon 安装器暂不支持。4 倍速度是作者自报口径，没经过独立测试。"
     }
   ]
 }

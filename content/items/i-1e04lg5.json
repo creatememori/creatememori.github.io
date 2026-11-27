@@ -1,46 +1,51 @@
 {
-  "summary": "11 月 26 日 SemiAnalysis 发布 GDPx 评估：206 个芯片设计、金融、法律、软件工程等前沿领域长任务，GPT-6.2 Astra 以 19.3% 居首、Fable 5…",
+  "summary": "SemiAnalysis GDPx 新一轮结果：GPT-6.2 Astra 19.3% 登顶、Claude Fable 5.2 16.4% 第二，Gemini 4 Neon 仅 10.1% 第六。",
+  "cover": {
+    "src": "https://substackcdn.com/image/fetch/$s_!cRUS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.5!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c04cdba-7f7c-4b04-be7a-d50e882777dd_1536x1024.png",
+    "alt": "SemiAnalysis GDPx 新一轮结果——GPT-6.2 Astra 19.3% 登顶、Claude Fable 5.2 16.4% 第二，Gemini 4 Neon 仅 10.1% 第六 的官方预览图",
+    "credit": "newsletter.semianalysis.com"
+  },
   "blocks": [
     {
       "type": "lead",
-      "text": "11 月 26 日 SemiAnalysis 发布 GDPx 评估：206 个芯片设计、金融、法律、软件工程等前沿领域长任务，GPT-6.2 Astra 以 19.3% 居首、Fable 5.2 16.4% 第二；但 Astra 软件工程仅 13.3%，远低于 Fable 5.2 的 24.4%，且 Fable 单任务成本为 Astra 的 1.9 倍。注意：GDPx 由 SemiAnalysis 自建自评、无第三方复算，排名仅供参考。"
+      "text": "11 月 26 日 SemiAnalysis 发布 GDPx 评估：206 个芯片设计、金融、法律、软件工程等前沿领域长任务，GPT-6.2 Astra 以 19.3% 居首、Fable 5.2 16.4% 第二；但 Astra 软件工程仅 13.3%，远低于 Fable 5.2 的 24.4%，且 Fable 单任务成本为 Astra 的 1.9 倍。"
     },
     {
       "type": "highlights",
       "title": "先看这几点",
       "items": [
-        "但 Astra 软件工程仅 13.3%，远低于 Fable 5.2 的 24.4%，且 Fable 单任务成本为 Astra 的 1.9 倍。",
-        "注意：GDPx 由 SemiAnalysis 自建自评、无第三方复算，排名仅供参考。",
-        "归类在「前端·AI / 工具与框架动态」，11-27 中午收录。",
-        "原始入口在 newsletter.semianalysis.com，收录时标记为「有效」。"
+        "206 个前沿领域长任务评估",
+        "GPT-6.2 Astra 19.3% 居首，Fable 5.2 16.4% 第二",
+        "Astra 软件工程仅 13.3%，Fable 5.2 为 24.4%",
+        "Fable 单任务成本为 Astra 的 1.9 倍"
       ]
     },
     {
       "type": "paragraph",
-      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「工具与框架动态」，不是单独的一条链接，而是放回主题脉络里一起看。"
+      "text": "GDPx 的看点不在“谁第一”，而在拆分：Astra 总分居首，但软件工程一项只有 13.3%，远低于 Fable 5.2 的 24.4%；Fable 更强，但单任务成本是 Astra 的 1.9 倍。选模型这件事，排名要和任务类型、成本一起看，单看总分会选错。"
     },
     {
       "type": "paragraph",
-      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+      "text": "适合选模型、做技术决策的开发者与团队，以及跟踪大模型进展的人。注意 GDPx 由 SemiAnalysis 自建自评、无第三方复算，排名仅供参考。"
     },
     {
       "type": "steps",
       "title": "怎么用",
       "items": [
-        "01 先定位它改变的是开发、构建、测试还是部署",
-        "02 看维护者、Issue 活跃度与最小可复现示例",
-        "03 生产接入前准备回滚、权限与成本边界"
+        "打开 SemiAnalysis 的 GDPx 评估原文",
+        "按自己的任务类型看分项：芯片、金融、法律或软件工程",
+        "结合单任务成本，算总分之外的性价比"
       ]
     },
     {
       "type": "callout",
       "tone": "warn",
       "title": "别忽略这一条",
-      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+      "text": "GDPx 由 SemiAnalysis 自建自评、无第三方复算，排名仅供参考；Astra 与 Fable 的数字都出自同一份评估，引用时注明来源。"
     },
     {
       "type": "paragraph",
-      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+      "text": "读这份评估的正确姿势是看分项、看成本，而不是只看总分。206 个长任务覆盖芯片设计、金融、法律、软件工程等前沿领域，不同任务类型下各家模型的强弱并不相同；Fable 更强但单任务成本是 Astra 的 1.9 倍，选模型时要把任务类型与成本一起算。GDPx 由 SemiAnalysis 自建自评、无第三方复算，排名仅供参考。"
     }
   ]
 }

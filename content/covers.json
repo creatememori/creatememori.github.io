@@ -4053,5 +4053,210 @@
     "src": "https://nekos.best/api/v2/neko/bfe3d42b-ff69-4ea2-a088-f928b456681e.png",
     "alt": "二次元装饰插图",
     "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-1x8vsmo": {
+    "src": "https://opengraph.githubassets.com/af5e5996e1964142751248863b03b56ee09edf1a3c140bb11f56ca60030655fb/alesha-pro/llm.asm",
+    "alt": "llm.asm——纯汇编写的大模型：14KB 程序跑 Qwen3-0.6B，24KB 裸机系统 100 毫秒内开机进对话 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1wpfppp": {
+    "src": "https://ogkit.dev/img/q7mplkiy.jpeg?url=https%3A%2F%2Ftypethrive.com%2F",
+    "alt": "TypeThrive——免费练打字：测速、10 个小游戏与 8 节入门课，免注册就能练 的官方预览图",
+    "credit": "typethrive.com"
+  },
+  "i-az1jaa": {
+    "src": "https://repository-images.githubusercontent.com/1471624301/e913bd79-c296-47cb-a727-ff4124bedcf2",
+    "alt": "OpenGame——把 20+ 编程 Agent 变成游戏工作室：25 个可玩模板，小游戏直发微信/抖音/TikTok 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-wnjukn": {
+    "src": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "alt": "Statistical Foundations of Reinforcement Learning——六位学者免费放出的强化学习统计理论专著：讲清算法到底需要多少数据 的官方预览图",
+    "credit": "arxiv.org"
+  },
+  "i-ocgjra": {
+    "src": "https://opengraph.githubassets.com/1f131b914dfbb7b0897cecca1098b019bd3227b9c74fe3b2757cd47ab045bedf/opensetlabs/openset-llm",
+    "alt": "openset-llm——普通 CPU 跑 27B 大模型：不用 GPU、8GB 内存，17–20 tokens/s，OpenAI 兼容 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1a99f7e": {
+    "src": "https://opengraph.githubassets.com/22128de8d1743ce09017fbb1e8e73b7c7ebe2bed1d6a314ac25bd22134312956/sarpstar/cinecode",
+    "alt": "Cinecode——一句话想法，AI 剧组给你拍出 10 分钟以上的电影 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1gntx91": {
+    "src": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png",
+    "alt": "Reem Kufi 3.0——彩色可变 Kufi 字体：Ink 彩色版可变了，阿拉伯数字也能渐变 的官方预览图",
+    "credit": "fonts.google.com"
+  },
+  "i-wbif7r": {
+    "src": "https://syntax.energy/og-home.jpg",
+    "alt": "Syntax Energy Co.——27 个浏览器物理模拟器合集：开火箭回收着陆、调轨道沙盒、跑国家电网，还免费免注册无广告 的官方预览图",
+    "credit": "syntax.energy"
+  },
+  "i-1r4ve22": {
+    "src": "https://safeguards.anthropic.com/2026/siren/social-card.png",
+    "alt": "Anthropic Siren——1700+ 蜜罐场景测 Agent 沙箱逃逸，新模型越界滥用率 0.6–1.6%，六条提示规则可降 68–96% 的官方预览图",
+    "credit": "safeguards.anthropic.com"
+  },
+  "i-u12o0n": {
+    "src": "https://databasedmcp.com/icon-512.png",
+    "alt": "Database MCP——给编程 Agent 的免费云端记忆库：每周 100 次调用、10 个数据库，永久免费 的官方预览图",
+    "credit": "databasedmcp.com"
+  },
+  "i-1e04lg5": {
+    "src": "https://substackcdn.com/image/fetch/$s_!cRUS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.5!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c04cdba-7f7c-4b04-be7a-d50e882777dd_1536x1024.png",
+    "alt": "SemiAnalysis GDPx 新一轮结果——GPT-6.2 Astra 19.3% 登顶、Claude Fable 5.2 16.4% 第二，Gemini 4 Neon 仅 10.1% 第六 的官方预览图",
+    "credit": "newsletter.semianalysis.com"
+  },
+  "i-ffvsbx": {
+    "src": "https://curvg.com/og/curvg-social.png",
+    "alt": "CurvG——免费可拖拽的数学物理实验室：31 个互动实验免登录随便玩，傅里叶级数与曼德博集动画 + 60 条曲线百科可导出 的官方预览图",
+    "credit": "curvg.com"
+  },
+  "i-1anzzx1": {
+    "src": "https://axiomstory.com/og/axiomstory-home-2026-11.jpg",
+    "alt": "AxiomStory——免费写小说的工作室：250 积分一次性白嫖，自动建人物百科、抓前后矛盾 的官方预览图",
+    "credit": "axiomstory.com"
+  },
+  "i-1xpf466": {
+    "src": "https://editkitz.com/opengraph-image?5358bbc3839de6b4",
+    "alt": "EditKitz——浏览器里免费做小动效片段 的官方预览图",
+    "credit": "editkitz.com"
+  },
+  "i-15zfrhn": {
+    "src": "https://clarpex.ai/og-image.jpg",
+    "alt": "Clarpex——每天免费 10 积分修图：截图一键变 4K 清晰图，无水印、不用注册 的官方预览图",
+    "credit": "clarpex.ai"
+  },
+  "i-1xu309x": {
+    "src": "https://darksciencedocs.com/assets/maps/sagittarius-a-preview.jpg",
+    "alt": "Sagittarius A* 3D Explorer——银河系中心黑洞互动探索：跟 S2 恒星绕圈、放探测器试逃逸速度、第一人称穿越视界 的官方预览图",
+    "credit": "darksciencedocs.com"
+  },
+  "i-1ybxjot": {
+    "src": "https://www.clayzo.com/og-image.jpg",
+    "alt": "Clayzo——免费动效引擎：一句话让编程 Agent 写动画：Claude Code、Codex、Cursor 写好逐帧自查，成品能以 WebGL 在网页里直播出、也可导出视频 的官方预览图",
+    "credit": "clayzo.com"
+  },
+  "i-ppexbe": {
+    "src": "https://repository-images.githubusercontent.com/260117248/8e873ebb-fe50-48f2-8e62-e9ad9f85b3aa",
+    "alt": "auto-editor 31.10.0——命令行自动剪辑器 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-v6570h": {
+    "src": "https://storage.googleapis.com/gweb-cloudblog-publish/images/GettyImages-2231487616.max-2600x2600.jpg",
+    "alt": "Google Workspace MCP 服务器与 CLI 正式 GA——Agent 接 Gmail/Drive/日历改走官方 MCP，2027-02-01 起 REST 直连将被限流 的官方预览图",
+    "credit": "workspace.google.com"
+  },
+  "i-1gweyil": {
+    "src": "https://makeui.xyz/opengraph-image?6dc340938efc07e4",
+    "alt": "makeui——免费的 React 动效组件：给 Next.js + Tailwind + shadcn 用的复制粘贴组件，弹簧与减动效都已处理好 的官方预览图",
+    "credit": "makeui.xyz"
+  },
+  "i-8ad9kc": {
+    "src": "https://patch.gg/api/cards/block/blendi/watercolour?v=24c53835ceb3eb27",
+    "alt": "Watercolour：走过的地方才被水彩上色 的官方预览图",
+    "credit": "patch.gg"
+  },
+  "i-1erc19b": {
+    "src": "https://nekos.best/api/v2/neko/0a992389-9773-4f6f-a308-625e8908c169.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-7js982": {
+    "src": "https://nekos.best/api/v2/neko/fd547bfb-501a-4b40-bc19-503b1ce7c254.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-1g2szp4": {
+    "src": "https://nekos.best/api/v2/neko/0d544c4f-9095-4311-ac15-6f20101cd18d.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-82bzts": {
+    "src": "https://nekos.best/api/v2/neko/d3adff8c-d695-48f6-a5ac-365aaf21647b.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-1bcyub5": {
+    "src": "https://nekos.best/api/v2/neko/1c8acc53-ae9f-4120-9310-518b6f2cfdde.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-8x5e93": {
+    "src": "https://nekos.best/api/v2/neko/0ed21abc-c186-446c-98ce-b06d51ac918b.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-1gulfrd": {
+    "src": "https://nekos.best/api/v2/neko/876a7a67-d3de-405c-943f-11232e99f8c8.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-1x7gpig": {
+    "src": "https://nekos.best/api/v2/neko/c495ebd2-648c-4a7d-b682-2785d2ff1154.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-qer9rj": {
+    "src": "https://nekos.best/api/v2/neko/e50247c8-df4f-4229-88de-459c9351d3bd.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-13sxklw": {
+    "src": "https://nekos.best/api/v2/neko/946ae02c-b5bf-4908-9285-b6936e658f93.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-39ynlz": {
+    "src": "https://nekos.best/api/v2/neko/5bbb0b3c-a836-457a-8a6e-892aeb9dcea4.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-1va1fua": {
+    "src": "https://nekos.best/api/v2/neko/d33acb8c-b73a-4071-a4a8-1eecf53d222c.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-188vmyv": {
+    "src": "https://nekos.best/api/v2/neko/4a128c75-ac7f-4d12-a105-10bc6676ad76.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-167pbyk": {
+    "src": "https://nekos.best/api/v2/neko/1dcbaba2-8baa-4e23-83e7-d10b1f1f9436.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-15w9f7n": {
+    "src": "https://nekos.best/api/v2/neko/ced5c0d6-b7ed-4053-8142-b25166a1e12b.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-1w7xk7j": {
+    "src": "https://nekos.best/api/v2/neko/cc291271-6ecc-4967-9d17-7c581a0db0ce.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-15ocltv": {
+    "src": "https://nekos.best/api/v2/neko/0c9c8a16-992a-4592-816d-b5c9fda09cb2.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-15wuut6": {
+    "src": "https://nekos.best/api/v2/neko/7606f204-cfbb-4a0e-a6ec-7dd685da018f.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-t17m8t": {
+    "src": "https://nekos.best/api/v2/neko/474c9c0f-11ef-4c6f-9d7b-2407d971665d.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-1ue0yul": {
+    "src": "https://nekos.best/api/v2/neko/c0ec1aae-02b3-4958-9ae6-f3042161f84a.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
   }
 }

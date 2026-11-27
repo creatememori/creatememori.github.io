@@ -1,46 +1,51 @@
 {
-  "summary": "建议标题「一句话想法，AI 剧组给你拍出 10 分钟电影」。",
+  "summary": "一句话想法，AI 剧组给你拍出 10 分钟以上的电影：Agent 写剧本、逐帧代码绘制画面、设计音效，不用视频生成模型、不耗 credits。",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/22128de8d1743ce09017fbb1e8e73b7c7ebe2bed1d6a314ac25bd22134312956/sarpstar/cinecode",
+    "alt": "Cinecode——一句话想法，AI 剧组给你拍出 10 分钟以上的电影 的官方预览图",
+    "credit": "github.com"
+  },
   "blocks": [
     {
       "type": "lead",
-      "text": "建议标题「一句话想法，AI 剧组给你拍出 10 分钟电影」。GitHub 拉下 Cinecode（MIT 开源），接 Claude Code 或 Cursor，输一句话想法，Agent 写剧本、逐帧代码绘制画面、设计音效，不用视频生成模型、不耗 credits。注意：成本走自己的 Claude/Codex 订阅，Windows 端完整成片尚未验证。"
+      "text": "Cinecode 是 MIT 开源项目：接 Claude Code 或 Cursor，输一句话想法，Agent 写剧本、逐帧用代码绘制画面、设计音效，拍出 10 分钟以上的电影。不用视频生成模型、不耗 credits，成本走自己的 Claude 或 Codex 订阅。"
     },
     {
       "type": "highlights",
       "title": "先看这几点",
       "items": [
-        "GitHub 拉下 Cinecode（MIT 开源），接 Claude Code 或 Cursor，输一句话想法，Agent 写剧本、逐帧代码绘制画面、设计音效，不用视频生成模型、不耗 credits。",
-        "注意：成本走自己的 Claude/Codex 订阅，Windows 端完整成片尚未验证。",
-        "归类在「YouTube 选题 / 动画与演示工具」，11-27 中午收录。",
-        "原始入口在 github.com，收录时标记为「有效」。"
+        "一句话想法，AI 剧组拍出 10 分钟以上的电影",
+        "逐帧代码绘制画面，不用视频生成模型",
+        "Agent 写剧本、绘画面、设计音效一条龙",
+        "MIT 开源，成本走自己的 Claude/Codex 订阅"
       ]
     },
     {
       "type": "paragraph",
-      "text": "这个分类不整理“新闻摘要”，而是把一条资源翻译成内容：观众为什么会点开、开头怎么证明、过程中要展示什么、哪里最容易翻车。每条都尽量附一个可用的标题方向。 这条具体落在「动画与演示工具」，不是单独的一条链接，而是放回主题脉络里一起看。"
+      "text": "它和“文生视频”走的是两条路：不靠生成模型逐帧幻想画面，而是让 Agent 用代码把画面画出来。好处是风格稳定、可控、能改——剧本与画面都是代码与文本，改一句提示词就能改一场戏；代价是画面质感取决于代码绘制的上限，更像动态绘本而不是实拍。"
     },
     {
       "type": "paragraph",
-      "text": "适合做工具测评、AI 教程、设计拆解与科技解释类内容的人。先验证再拍，别把厂商口径直接念成结论；涉及价格、额度和截止日时，拍前再核对一次。"
+      "text": "适合想用 AI 做科普动画、解说视频或短片实验的创作者，尤其适合已经在用 Claude Code 或 Cursor 的人：不用另买视频额度，订阅本身就是成本。"
     },
     {
       "type": "steps",
       "title": "怎么用",
       "items": [
-        "01 先亲手跑通，再决定是测评、教程还是观点",
-        "02 开头给结果或冲突，中段展示过程与限制",
-        "03 价格、额度、截止日拍前复核，注明官方口径"
+        "从 GitHub 拉下 Cinecode，接 Claude Code 或 Cursor",
+        "输一句话想法，让 Agent 写剧本",
+        "Agent 逐帧代码绘制画面、设计音效，成片后检查调整"
       ]
     },
     {
       "type": "callout",
       "tone": "warn",
       "title": "别忽略这一条",
-      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+      "text": "Windows 端完整成片尚未验证，Windows 用户先跑一小段试试；成本走自己的 Claude/Codex 订阅，token 用量取决于片长与修改次数。"
     },
     {
       "type": "paragraph",
-      "text": "如果这条和你的项目相关，建议先把它放进「YouTube 选题」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+      "text": "Cinecode 的制作方式是：MIT 开源，接 Claude Code 或 Cursor；Agent 写剧本、逐帧代码绘制画面、设计音效。不用视频生成模型、不耗 credits，成本走订阅。支持中文提示词与 4K。Windows 端完整成片尚未验证，Mac 与 Linux 上先试；AI 生成的画面与真实摄影仍有差距，别拿它拍纪实片。"
     }
   ]
 }

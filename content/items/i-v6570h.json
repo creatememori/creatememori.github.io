@@ -1,46 +1,51 @@
 {
-  "summary": "11 月 25 日官方博客：Google Workspace MCP 服务器与官方 CLI（gwscli）正式 GA，覆盖 Gmail、Drive、Docs、Sheets、Slides、日历…",
+  "summary": "Google Workspace MCP 服务器与官方 CLI 正式 GA：Agent 接 Gmail、Drive、日历改走官方 MCP，2027 年 2 月 1 日起 REST 直连将被限流。",
+  "cover": {
+    "src": "https://storage.googleapis.com/gweb-cloudblog-publish/images/GettyImages-2231487616.max-2600x2600.jpg",
+    "alt": "Google Workspace MCP 服务器与 CLI 正式 GA——Agent 接 Gmail/Drive/日历改走官方 MCP，2027-02-01 起 REST 直连将被限流 的官方预览图",
+    "credit": "workspace.google.com"
+  },
   "blocks": [
     {
       "type": "lead",
-      "text": "11 月 25 日官方博客：Google Workspace MCP 服务器与官方 CLI（gwscli）正式 GA，覆盖 Gmail、Drive、Docs、Sheets、Slides、日历、Chat、Tasks；新版 AI 工具附加条款要求 AI Agent 改走 MCP/CLI 而非直接调 REST API，2027 年 2 月 1 日起技术强制执行，配套用量分级 4 月 1 日起按超额计费。注意：OAuth 客户端须标记为 Agent 用途，否则 MCP 会拒绝请求。"
+      "text": "11 月 25 日官方博客：Google Workspace MCP 服务器与官方 CLI（gwscli）正式 GA，覆盖 Gmail、Drive、Docs、Sheets、Slides、日历、Chat、Tasks；新版 AI 工具附加条款要求 AI Agent 改走 MCP/CLI 而非直接调 REST API，2027 年 2 月 1 日起技术强制执行，配套用量分级 4 月 1 日起按超额计费。"
     },
     {
       "type": "highlights",
       "title": "先看这几点",
       "items": [
-        "新版 AI 工具附加条款要求 AI Agent 改走 MCP/CLI 而非直接调 REST API，2027 年 2 月 1 日起技术强制执行，配套用量分级 4 月 1 日起按超额计费。",
-        "注意：OAuth 客户端须标记为 Agent 用途，否则 MCP 会拒绝请求。",
-        "归类在「前端·AI / 工具与框架动态」，11-27 中午收录。",
-        "原始入口在 workspace.google.com，收录时标记为「有效」。"
+        "MCP 服务器与官方 CLI 正式 GA",
+        "覆盖 Gmail、Drive、文档、日历、Chat、Tasks",
+        "2027-02-01 起 REST 直连将被限流",
+        "用量分级 2027-04-01 起按超额计费"
       ]
     },
     {
       "type": "paragraph",
-      "text": "前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「工具与框架动态」，不是单独的一条链接，而是放回主题脉络里一起看。"
+      "text": "这是一次“换路”通知：以前 Agent 可以直接调 Workspace 的 REST API，以后要走官方 MCP 服务器或 CLI。Google 给了过渡期——2027 年 2 月 1 日起技术强制执行，用量分级则从 4 月 1 日起按超额计费。对已经在用 Agent 读写 Gmail、日历与文档的团队来说，现在就该排期迁移。"
     },
     {
       "type": "paragraph",
-      "text": "适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。"
+      "text": "适合在用 AI Agent 接 Google Workspace 的开发者与团队，以及给客户搭 AI 办公自动化的服务商。先看官方博客里的迁移说明，再决定自己的 Agent 什么时候切。"
     },
     {
       "type": "steps",
       "title": "怎么用",
       "items": [
-        "01 先定位它改变的是开发、构建、测试还是部署",
-        "02 看维护者、Issue 活跃度与最小可复现示例",
-        "03 生产接入前准备回滚、权限与成本边界"
+        "读官方博客确认 GA 范围与时间表",
+        "把 Agent 的 Workspace 接入改走 MCP 服务器或 gwscli",
+        "检查 OAuth 客户端是否标记为 Agent 用途"
       ]
     },
     {
       "type": "callout",
       "tone": "warn",
       "title": "别忽略这一条",
-      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+      "text": "OAuth 客户端须标记为 Agent 用途，否则 MCP 会拒绝请求；2027 年 2 月 1 日后 REST 直连将被限流，别等到最后一刻。"
     },
     {
       "type": "paragraph",
-      "text": "如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+      "text": "这次迁移的实际影响分两层：一是已经在用 REST 直连的 Agent 要改接入，2027 年 2 月 1 日起技术强制执行，别等到最后一刻；二是用量分级从 2027 年 4 月 1 日起按超额计费，成本要重新算一遍。官方 CLI gwscli 是迁移的官方路径，OAuth 客户端须标记为 Agent 用途，否则 MCP 会拒绝请求。"
     }
   ]
 }

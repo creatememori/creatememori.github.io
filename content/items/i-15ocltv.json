@@ -1,46 +1,51 @@
 {
-  "summary": "11 月 26 日登 Product Hunt：Claude Code 的周额度不用就清零，Antipode 让它别浪费——额度有剩时跑 /antipode:give，你的 Agent 在云…",
+  "summary": "把 Claude Code 每周剩的额度捐出去：你的 Agent 替别人的开源项目提 PR，额度用完时别人有剩的 Agent 来帮你。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/0c9c8a16-992a-4592-816d-b5c9fda09cb2.png",
+    "alt": "装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
   "blocks": [
     {
       "type": "lead",
-      "text": "11 月 26 日登 Product Hunt：Claude Code 的周额度不用就清零，Antipode 让它别浪费——额度有剩时跑 /antipode:give，你的 Agent 在云端临时会话里给公开 GitHub 项目干活并提 PR，花多少由你定；额度用完时跑 /antipode:ask，别人有剩的 Agent 来帮你的项目。注意：免费开源；作者称不共享账号、合规（各用各的官方 Claude Code），捐赠不在你本机运行；需 Claude Pro/Max/Ultra 订阅，Codex 支持在做。"
+      "text": "11 月 26 日登 Product Hunt：Claude Code 的周额度不用就清零，Antipode 让它别浪费——额度有剩时跑 /antipode:give，你的 Agent 在云端临时会话里给公开 GitHub 项目干活并提 PR，花多少由你定；额度用完时跑 /antipode:ask，别人有剩的 Agent 来帮你的项目。"
     },
     {
       "type": "highlights",
       "title": "先看这几点",
       "items": [
-        "额度用完时跑 /antipode:ask，别人有剩的 Agent 来帮你的项目。",
-        "注意：免费开源；",
-        "归类在「AI 实战 / AI 编程助手」，11-27 中午收录。",
-        "原始入口在 producthunt.com，收录时标记为「有效」。"
+        "周额度有剩就捐出去：Agent 给开源项目提 PR",
+        "额度用完就求助：别人有剩的 Agent 来帮你",
+        "花多少由你定，捐赠不在你本机运行",
+        "免费开源，各用各的官方 Claude Code"
       ]
     },
     {
       "type": "paragraph",
-      "text": "这里收的是能动手的 AI：模型、API、Agent 框架、自动化工作流、提示词方法和本地部署方案。每一条尽量保留运行条件、额度、依赖和失败边界。 这条具体落在「AI 编程助手」，不是单独的一条链接，而是放回主题脉络里一起看。"
+      "text": "Claude Code 的周额度每周清零，用不完就浪费了。Antipode 的想法很简单：有剩就捐——你的 Agent 在云端临时会话里给公开 GitHub 项目干活并提 PR，花多少由你定；用完了就求助，别人有剩的 Agent 来帮你的项目。一出一进，额度不再白白清零。"
     },
     {
       "type": "paragraph",
-      "text": "适合独立开发者、内容创作者与小团队。先做最小验证，再谈规模化；涉及数据、隐私和付费调用时，先算清成本与权限，别让一次演示变成长期账单。"
+      "text": "适合有 Claude Pro、Max 或 Ultra 订阅、且每周额度常常用不完的开发者。捐赠不在你本机运行，作者称不共享账号、合规，各用各的官方 Claude Code。"
     },
     {
       "type": "steps",
       "title": "怎么用",
       "items": [
-        "01 先用最小任务验证输入、输出和失败情况",
-        "02 核对额度、速率限制、数据去向与商用条款",
-        "03 把提示词、模型版本和依赖固定下来再复用"
+        "额度有剩时跑 /antipode:give，定好要花多少",
+        "你的 Agent 在云端临时会话里给公开项目干活并提 PR",
+        "额度用完时跑 /antipode:ask，等别人有剩的 Agent 来帮"
       ]
     },
     {
       "type": "callout",
       "tone": "warn",
       "title": "别忽略这一条",
-      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+      "text": "需 Claude Pro、Max 或 Ultra 订阅；Codex 支持在做，暂时只有 Claude Code。"
     },
     {
       "type": "paragraph",
-      "text": "如果这条和你的项目相关，建议先把它放进「AI 实战」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+      "text": "Antipode 的机制建立在 Claude Code 周额度每周清零这条规则上：有剩就捐——你的 Agent 在云端临时会话里给公开 GitHub 项目干活并提 PR，花多少由你定；用完了就求助，别人有剩的 Agent 来帮你的项目。捐赠不在你本机运行，作者称不共享账号、合规，各用各的官方 Claude Code。需要 Pro、Max 或 Ultra 订阅，Codex 支持在做。"
     }
   ]
 }
