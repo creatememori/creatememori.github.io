@@ -1,0 +1,51 @@
+{
+  "summary": "11 月 25 日登 Product Hunt：手机浏览器里的远程桌面，专为看住编程 Agent 而生——Claude Code、Codex、Copilot、Cursor 等 Agent 卡…",
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 25 日登 Product Hunt：手机浏览器里的远程桌面，专为看住编程 Agent 而生——Claude Code、Codex、Copilot、Cursor 等 Agent 卡住、跑完或崩了都会自动提醒，还能排定时提示词、一键发常用指令；npm install -g whipdesk，扫码 30 秒连上。注意：两端均开源（AGPL-3.0）、端到端加密 WebRTC，局域网不用账号，远程中继靠捐赠维持、免费。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "npm install -g whipdesk，扫码 30 秒连上。",
+        "注意：两端均开源（AGPL-3.0）、端到端加密 WebRTC，局域网不用账号，远程中继靠捐赠维持、免费。",
+        "归类在「AI 实战 / AI 编程助手」，11-27 早收录。",
+        "原始入口在 producthunt.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这里收的是能动手的 AI：模型、API、Agent 框架、自动化工作流、提示词方法和本地部署方案。每一条尽量保留运行条件、额度、依赖和失败边界。 这条具体落在「AI 编程助手」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合独立开发者、内容创作者与小团队。先做最小验证，再谈规模化；涉及数据、隐私和付费调用时，先算清成本与权限，别让一次演示变成长期账单。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先用最小任务验证输入、输出和失败情况",
+        "02 核对额度、速率限制、数据去向与商用条款",
+        "03 把提示词、模型版本和依赖固定下来再复用"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「AI 实战」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ],
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/64ef525f-edf2-4c0f-b44a-9b781a9dee0e.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  }
+}

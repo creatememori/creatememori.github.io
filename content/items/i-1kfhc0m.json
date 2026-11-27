@@ -1,0 +1,51 @@
+{
+  "summary": "10 月 20 日建库、11 月 26 日登 Product Hunt：Windows 上的便携式 XAMPP 平替，Apache + 最新 PHP 8.5 + MariaDB + phpM…",
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "10 月 20 日建库、11 月 26 日登 Product Hunt：Windows 上的便携式 XAMPP 平替，Apache + 最新 PHP 8.5 + MariaDB + phpMyAdmin + Node.js 一键装好，每个项目自动得 name.localhost 地址，无需管理员权限，一键导入 XAMPP 的数据库与项目。注意：免费 MIT 开源、无遥测；仅限 Windows；安装包未签名，首次运行 SmartScreen 会弹警告。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "注意：免费 MIT 开源、无遥测；",
+        "仅限 Windows；",
+        "归类在「黑科技工具 / 系统优化与装机」，11-27 早收录。",
+        "原始入口在 github.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "“黑科技”不等于来路不明。这个分类收的是能解决具体小问题的工具：截图、搜索、窗口管理、文件处理、浏览器增强、快捷操作与自动化。 这条具体落在「系统优化与装机」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合愿意折腾但不想踩坑的人。安装前看平台、权限、更新频率与开源情况；涉及账号、剪贴板和本地文件时，先确认数据去哪，再决定要不要长期用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先确认系统、浏览器与权限要求",
+        "02 看更新频率、开源情况和数据是否出本机",
+        "03 免费版够用再考虑买断，别先绑定长期订阅"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「黑科技工具」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ],
+  "cover": {
+    "src": "https://repository-images.githubusercontent.com/1427556528/d1470686-2414-4675-9fac-bbe5b82804b3",
+    "alt": "ServNook——XAMPP 的现代平替：Windows 上一键跑 PHP 8.5 + MariaDB + Node.js，免费 MIT 开源 的官方预览图",
+    "credit": "github.com"
+  }
+}

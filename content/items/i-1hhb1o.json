@@ -1,0 +1,50 @@
+{
+  "summary": "11 月 25 日 Altman 在 X 宣布：OpenAI 开始与一小批客户测试 Private Inference，提示词与回答在模型处理期间走保密计算、连 OpenAI 人员也无法读取…",
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 25 日 Altman 在 X 宣布：OpenAI 开始与一小批客户测试 Private Inference，提示词与回答在模型处理期间走保密计算、连 OpenAI 人员也无法读取，属 9 月 DevDay 预告的 Private Intelligence 套件一部分。注意：目前仅 Alpha/API Preview，未公布支持模型、定价与全面开放时间，感兴趣的企业按 Altman 指引联系 @shekar4x。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "注意：目前仅 Alpha/API Preview，未公布支持模型、定价与全面开放时间，感兴趣的企业按 Altman 指引联系 @shekar4x。",
+        "归类在「前沿追踪 / AI 资讯与技术周刊」，11-27 早收录。",
+        "原始入口在 cnbctv18.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前沿更新最容易被“首发”“最强”“颠覆”带走。这个分类保留发布日期、来源和官方口径，把“已经发生的事实”和“厂商自报的数字”分开写。 这条具体落在「AI 资讯与技术周刊」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合开发者、研究者与内容创作者做趋势判断。先看论文、代码和可复现实验，再看二手解读；涉及跑分、价格和可用范围时，回到原始页面核对。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先看原始论文、仓库或官方博客，不看二手摘要",
+        "02 区分厂商自报、第三方复现与社区反馈",
+        "03 记录发布日期与版本，避免旧闻当新闻"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前沿追踪」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ],
+  "cover": {
+    "src": "https://images.cnbctv18.com/uploads/2026/05/sam-altman-2026-05-6f4c35c642d788a18a9e3966ee042fc4.jpg?im=FitAndFill,width=1200,height=675",
+    "alt": "OpenAI Private Inference——提示词在模型运行时也看不见：保密计算 Alpha 小范围开测 的官方预览图",
+    "credit": "cnbctv18.com"
+  }
+}

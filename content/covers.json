@@ -3843,5 +3843,215 @@
     "src": "https://trustloud.com/wp-content/uploads/2026/11/101-anthropic-ipo-date-featured-1.png",
     "alt": "Anthropic 预期今日纳斯达克上市（ANT） 的官方预览图",
     "credit": "trustloud.com"
+  },
+  "i-1bu3v47": {
+    "src": "https://typetrials.com/assets/images/typetrials-social.jpg",
+    "alt": "TypeTrials——可变字体在线试玩场 的官方预览图",
+    "credit": "typetrials.com"
+  },
+  "i-1j4mnd8": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ai-sage/GigaChat4-708B-A41B.png",
+    "alt": "GigaChat 4——俄罗斯最大银行开源 708B 旗舰模型：MIT 协议、1M 上下文，SWE-bench 80.9% 的官方预览图",
+    "credit": "huggingface.co"
+  },
+  "i-1erx1l2": {
+    "src": "https://fontdrop.info/assets/img/fb_image.png",
+    "alt": "FontDrop!——把字体文件拖进浏览器看个透 的官方预览图",
+    "credit": "fontdrop.info"
+  },
+  "i-18lladi": {
+    "src": "https://yourcomputer.com/news-images/2026-11-26-llama-cpp-v1-1-0.jpg",
+    "alt": "llama.cpp v1.1.0——本地跑模型的核心引擎大更新：新增 Inkling 2 全家、Hy4 flash 与一整批语音模型 的官方预览图",
+    "credit": "yourcomputer.com"
+  },
+  "i-endmou": {
+    "src": "https://howsmallarewe.com/og/main.jpg",
+    "alt": "Discover how small we are——按真实比例从地球一路飞到仙女座 的官方预览图",
+    "credit": "howsmallarewe.com"
+  },
+  "i-1fhnmjm": {
+    "src": "https://designdetails.io/brand/og-sticker.png",
+    "alt": "Design Details——免费设计灵感站：整站录屏看动效、字体配色可 remix 成 moodboard 的官方预览图",
+    "credit": "designdetails.io"
+  },
+  "i-1hhb1o": {
+    "src": "https://images.cnbctv18.com/uploads/2026/05/sam-altman-2026-05-6f4c35c642d788a18a9e3966ee042fc4.jpg?im=FitAndFill,width=1200,height=675",
+    "alt": "OpenAI Private Inference——提示词在模型运行时也看不见：保密计算 Alpha 小范围开测 的官方预览图",
+    "credit": "cnbctv18.com"
+  },
+  "i-1qufv5a": {
+    "src": "https://p22.com/assets/banner.png",
+    "alt": "P22 Type Foundry——专做历史字体复刻的字库 的官方预览图",
+    "credit": "p22.com"
+  },
+  "i-qik0zg": {
+    "src": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2025/02/AI-model-social-.png",
+    "alt": "Chariot-1——印度主权大模型首秀：11B MoE + 10 种印度语言 TTS，手机也能跑 的官方预览图",
+    "credit": "inc42.com"
+  },
+  "i-1lpkuci": {
+    "src": "https://repository-images.githubusercontent.com/591811101/d79bd741-101c-4460-8555-27882add6b73",
+    "alt": "Giphurs——免费开源可变无衬线：拉丁/希腊/西里尔三语、2500+ 字符 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-zym2mt": {
+    "src": "https://flashfeedlearningapp.com/assets/og.png",
+    "alt": "FlashFeed——碎片时间学点真东西：68 个免费知识包，短卡片+测验+小游戏 的官方预览图",
+    "credit": "flashfeedlearningapp.com"
+  },
+  "i-1c2wkmc": {
+    "src": "https://lingotello.com/img/og.png",
+    "alt": "LingoTello——听故事学语言：德英法葡 A1–C2 分级文本配母语者音频，点词查义音频不停 的官方预览图",
+    "credit": "lingotello.com"
+  },
+  "i-1ncdqn2": {
+    "src": "https://manoharys.github.io/paperwall/og.png",
+    "alt": "Paperwall——免费 MIT 单文件离线设计工具：397 模板做帖子/幻灯片/海报 的官方预览图",
+    "credit": "manoharys.github.io"
+  },
+  "i-1ofyjjb": {
+    "src": "https://cosmossian.com/og-image.png",
+    "alt": "Cosmossian——免费 3D 宇宙图谱：从火星表面一路飞到宇宙网 的官方预览图",
+    "credit": "cosmossian.com"
+  },
+  "i-qwiona": {
+    "src": "https://extraorbital.dev/art/patch-bay/launch-card.jpg",
+    "alt": "ExtraOrbital——一条命令白嫖 Agent 全套后端：数据库+存储+AI Key 全到手，免注册免绑卡 的官方预览图",
+    "credit": "extraorbital.dev"
+  },
+  "i-nlfkhx": {
+    "src": "https://repository-images.githubusercontent.com/1453132706/97e29410-2cc5-4b5b-9223-bcec6ec9ca4a",
+    "alt": "Yogurt——免费开源的本地 AI 会议记录：不用机器人进会，全程本机转写总结，免账号 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-txcvco": {
+    "src": "https://extraorbital.dev/art/patch-bay/launch-card.jpg",
+    "alt": "ExtraOrbital——免费给 Agent 配齐后端：一条命令，数据库+存储+AI Key 全到手，免注册免绑卡 的官方预览图",
+    "credit": "extraorbital.dev"
+  },
+  "i-y1aya2": {
+    "src": "https://vite.dev/og-image-announcing-vite8-4.webp",
+    "alt": "Vite 8.4——开发服务器改走白名单式文件检查，动态导入失败可重试 的官方预览图",
+    "credit": "vite.dev"
+  },
+  "i-r2rt7a": {
+    "src": "https://opengraph.githubassets.com/58ce0e4f63881034e10485774311acdd6ff4f76a268f37fd369fdfcc22dc2d15/sveltejs/kit/releases/tag/%40sveltejs/adapter-cloudflare%409.0.0",
+    "alt": "SvelteKit 适配器大改——adapter-cloudflare 9.0 彻底砍掉 Pages 支持，默认走 Workers 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1awhgfj": {
+    "src": "https://bandbloom-next.vercel.app/opengraph-image?bf07337d8c429e2f",
+    "alt": "BandBloom——免费备考雅思与 CELPIP：全套模考+AI 作文口语反馈，不用绑卡 的官方预览图",
+    "credit": "bandbloom-next.vercel.app"
+  },
+  "i-1scfl6b": {
+    "src": "https://opengraph.githubassets.com/798daed77405b20fa985156f76622d3b0988e35c3c3f4a02eb659163ba361fa2/Vincentwei1021/anything2explainer",
+    "alt": "Anything2Explainer——给个主题，AI 直接拍出带配音、逐词字幕的科普讲解视频 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-b09g0f": {
+    "src": "https://opengraph.githubassets.com/ee5f43c5808a43761aeb5102f4b25bd7fb5fbe5fd8c4a452a03ee477ad480ec4/gary23w/f-ck_data_brokers",
+    "alt": "f*ck_data_brokers.py——一个 Python 文件，让 600 多家数据经纪商删掉你的个人信息 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-mfiv13": {
+    "src": "https://repository-images.githubusercontent.com/1453132706/97e29410-2cc5-4b5b-9223-bcec6ec9ca4a",
+    "alt": "Yogurt——免费开源的本地 AI 会议记录：不用机器人进会，全程本机转写总结，免账号 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1kfhc0m": {
+    "src": "https://repository-images.githubusercontent.com/1427556528/d1470686-2414-4675-9fac-bbe5b82804b3",
+    "alt": "ServNook——XAMPP 的现代平替：Windows 上一键跑 PHP 8.5 + MariaDB + Node.js，免费 MIT 开源 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-12hmmbc": {
+    "src": "https://productrally.b-cdn.net/catalog/soundkit-cover.7ed64e95.jpg",
+    "alt": "SoundKit——给 Remotion 代码视频配的 250 个 CC0 音效与音乐床：一条 shadcn 命令装成 TypeScript 文件 的官方预览图",
+    "credit": "productrally.com"
+  },
+  "i-1hg3dqj": {
+    "src": "https://opengraph.githubassets.com/ee5f43c5808a43761aeb5102f4b25bd7fb5fbe5fd8c4a452a03ee477ad480ec4/gary23w/f-ck_data_brokers",
+    "alt": "f*ck_data_brokers.py——免费开源脚本：一个 Python 文件让 600 多家数据经纪商删掉你的个人信息 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-g8nhab": {
+    "src": "https://opengraph.githubassets.com/796c7a0543b8540abdbc67aa433b9ec9ca9628513d324105488ef0539386a80f/anomalyco/opencode/releases/tag/v2.4.0",
+    "alt": "OpenCode 2.4.0——内置桌面浏览器 + Automations 定时任务，Agent 自己排班干活 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1cahjul": {
+    "src": "https://opengraph.githubassets.com/798daed77405b20fa985156f76622d3b0988e35c3c3f4a02eb659163ba361fa2/Vincentwei1021/anything2explainer",
+    "alt": "Anything2Explainer——给 Claude Code / Codex 的科普讲解视频 Skill：给个主题就出带配音、逐词字幕与章节进度条的 Remotion 动态图解视频 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-13zay5l": {
+    "src": "https://opengraph.githubassets.com/858c87f8e23b60b8ceab3be9c11fed98a65afa5b3b9df6246e50a0a86331a9da/OpenDCAI/GameFactory-3A",
+    "alt": "3AGameFactory-Motion——Agent 给龙、载具、道具写骨骼动画：不用人形也能动 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-124ok1v": {
+    "src": "https://images.motion.dev/og/fresh/v1/site/changelog-0wcjs3oe7fmd4.png",
+    "alt": "Motion UI 5.0 FX——把真 HTML 活画进 WebGPU 画布：动效模糊、雾效、镜头模糊直接上网页 的官方预览图",
+    "credit": "motion.dev"
+  },
+  "i-lhjtz0": {
+    "src": "https://opengraph.githubassets.com/9ca580daffa4f2eb9697e893d3f795dd7443fc082902525e3eab5290b801d951/sarpstar/cinecode",
+    "alt": "Cinecode——让 Claude Code / Cursor 当电影剧组的开源 Skill：一句话想法出 10 分钟以上成片 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-8xis2t": {
+    "src": "https://nekos.best/api/v2/neko/d11f21da-9923-406a-af43-fadec48c9cdb.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-ox8t55": {
+    "src": "https://nekos.best/api/v2/neko/23f34adb-e83f-4b35-90bc-bb45527c6eba.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-1vkmppy": {
+    "src": "https://nekos.best/api/v2/neko/00c53e28-db60-43b0-b1a0-dd0727ee7929.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-1n8pmeh": {
+    "src": "https://nekos.best/api/v2/neko/5005b597-1181-4a23-8517-f5a6b0855b82.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-28519t": {
+    "src": "https://nekos.best/api/v2/neko/625f5be7-2e13-4391-ad25-67fd9a42ac49.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-197enqi": {
+    "src": "https://nekos.best/api/v2/neko/46a6f41b-586d-4419-88f5-c3caca2645bd.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-jiqsz": {
+    "src": "https://nekos.best/api/v2/neko/64ef525f-edf2-4c0f-b44a-9b781a9dee0e.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-u3r6i7": {
+    "src": "https://nekos.best/api/v2/neko/99ad8427-4737-4afd-ba46-74dffbe339ba.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-acflb4": {
+    "src": "https://nekos.best/api/v2/neko/c715e1f0-43ea-4340-822b-d081deb7dc55.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-14t0ous": {
+    "src": "https://nekos.best/api/v2/neko/d2746cc1-042f-429c-9472-04111478c196.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
+  },
+  "i-1osmq68": {
+    "src": "https://nekos.best/api/v2/neko/bfe3d42b-ff69-4ea2-a088-f928b456681e.png",
+    "alt": "二次元装饰插图",
+    "credit": "装饰插图（来源：nekos.best，SFW）"
   }
 }
