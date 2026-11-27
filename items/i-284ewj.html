@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="11 月 26 日官方安全公告 GHSA-w6f8-8qh4-h3j4（高危，CVSS 4.0 7.7）：n8n 内置 V8 引擎的字符串处理缺陷可让有工作流创建权限的用户逃出表达式沙箱、在…">
+<meta name="description" content="n8n 高危安全补丁：表达式沙箱逃逸可让有工作流创建权限的用户在主进程执行任意代码，自托管实例须尽快升级到修复版。">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#0C0B11">
 <link rel="canonical" href="https://creatememori.blog/items/i-284ewj.html">
@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="创忆录 MEMORI">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="n8n 表达式沙箱逃逸高危补丁——能写工作流就能在主进程执行代码｜前端·AI · 创忆录">
-<meta property="og:description" content="11 月 26 日官方安全公告 GHSA-w6f8-8qh4-h3j4（高危，CVSS 4.0 7.7）：n8n 内置 V8 引擎的字符串处理缺陷可让有工作流创建权限的用户逃出表达式沙箱、在…">
+<meta property="og:description" content="n8n 高危安全补丁：表达式沙箱逃逸可让有工作流创建权限的用户在主进程执行任意代码，自托管实例须尽快升级到修复版。">
 <meta property="og:url" content="https://creatememori.blog/items/i-284ewj.html">
 <meta property="og:image" content="https://opengraph.githubassets.com/f403d431ac311ecb18ba7b618d4c943ab194c4262a30bd28e4bb284608d02182/n8n-io/n8n/security/advisories/GHSA-w6f8-8qh4-h3j4">
 <meta property="og:image:width" content="1200">
@@ -25,9 +25,9 @@
 <meta property="article:published_time" content="2026-11-27T20:00:00+08:00"><meta property="article:modified_time" content="2026-11-27T20:00:00+08:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="n8n 表达式沙箱逃逸高危补丁——能写工作流就能在主进程执行代码｜前端·AI · 创忆录">
-<meta name="twitter:description" content="11 月 26 日官方安全公告 GHSA-w6f8-8qh4-h3j4（高危，CVSS 4.0 7.7）：n8n 内置 V8 引擎的字符串处理缺陷可让有工作流创建权限的用户逃出表达式沙箱、在…">
+<meta name="twitter:description" content="n8n 高危安全补丁：表达式沙箱逃逸可让有工作流创建权限的用户在主进程执行任意代码，自托管实例须尽快升级到修复版。">
 <meta name="twitter:image" content="https://opengraph.githubassets.com/f403d431ac311ecb18ba7b618d4c943ab194c4262a30bd28e4bb284608d02182/n8n-io/n8n/security/advisories/GHSA-w6f8-8qh4-h3j4">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://creatememori.blog/#organization","name":"创忆录 MEMORI","alternateName":"创忆录","url":"https://creatememori.blog/","logo":{"@type":"ImageObject","url":"https://creatememori.blog/logo.png","width":128,"height":128},"sameAs":["https://github.com/creatememori/creatememori.github.io"]},{"@type":"WebSite","@id":"https://creatememori.blog/#website","url":"https://creatememori.blog/","name":"创忆录 MEMORI","alternateName":"创忆录","inLanguage":"zh-CN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://creatememori.blog/library.html?q={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://creatememori.blog/#organization"}},{"@type":"Article","@id":"https://creatememori.blog/items/i-284ewj.html#article","headline":"n8n 表达式沙箱逃逸高危补丁——能写工作流就能在主进程执行代码","description":"11 月 26 日官方安全公告 GHSA-w6f8-8qh4-h3j4（高危，CVSS 4.0 7.7）：n8n 内置 V8 引擎的字符串处理缺陷可让有工作流创建权限的用户逃出表达式沙箱、在…","datePublished":"2026-11-27T20:00:00+08:00","dateModified":"2026-11-27T20:00:00+08:00","author":{"@id":"https://creatememori.blog/#organization"},"publisher":{"@id":"https://creatememori.blog/#organization"},"image":"https://opengraph.githubassets.com/f403d431ac311ecb18ba7b618d4c943ab194c4262a30bd28e4bb284608d02182/n8n-io/n8n/security/advisories/GHSA-w6f8-8qh4-h3j4","mainEntityOfPage":"https://creatememori.blog/items/i-284ewj.html","articleSection":"前端·AI","keywords":["前端·AI","安全与版本更新","高"],"isPartOf":{"@id":"https://creatememori.blog/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://creatememori.blog/"},{"@type":"ListItem","position":2,"name":"资源库","item":"https://creatememori.blog/library.html"},{"@type":"ListItem","position":3,"name":"前端·AI","item":"https://creatememori.blog/c/frontend-ai.html"},{"@type":"ListItem","position":4,"name":"n8n 表达式沙箱逃逸高危补丁——能写工作流就能在主进程执行代码","item":"https://creatememori.blog/items/i-284ewj.html"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://creatememori.blog/#organization","name":"创忆录 MEMORI","alternateName":"创忆录","url":"https://creatememori.blog/","logo":{"@type":"ImageObject","url":"https://creatememori.blog/logo.png","width":128,"height":128},"sameAs":["https://github.com/creatememori/creatememori.github.io"]},{"@type":"WebSite","@id":"https://creatememori.blog/#website","url":"https://creatememori.blog/","name":"创忆录 MEMORI","alternateName":"创忆录","inLanguage":"zh-CN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://creatememori.blog/library.html?q={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://creatememori.blog/#organization"}},{"@type":"Article","@id":"https://creatememori.blog/items/i-284ewj.html#article","headline":"n8n 表达式沙箱逃逸高危补丁——能写工作流就能在主进程执行代码","description":"n8n 高危安全补丁：表达式沙箱逃逸可让有工作流创建权限的用户在主进程执行任意代码，自托管实例须尽快升级到修复版。","datePublished":"2026-11-27T20:00:00+08:00","dateModified":"2026-11-27T20:00:00+08:00","author":{"@id":"https://creatememori.blog/#organization"},"publisher":{"@id":"https://creatememori.blog/#organization"},"image":"https://opengraph.githubassets.com/f403d431ac311ecb18ba7b618d4c943ab194c4262a30bd28e4bb284608d02182/n8n-io/n8n/security/advisories/GHSA-w6f8-8qh4-h3j4","mainEntityOfPage":"https://creatememori.blog/items/i-284ewj.html","articleSection":"前端·AI","keywords":["前端·AI","安全与版本更新","高"],"isPartOf":{"@id":"https://creatememori.blog/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://creatememori.blog/"},{"@type":"ListItem","position":2,"name":"资源库","item":"https://creatememori.blog/library.html"},{"@type":"ListItem","position":3,"name":"前端·AI","item":"https://creatememori.blog/c/frontend-ai.html"},{"@type":"ListItem","position":4,"name":"n8n 表达式沙箱逃逸高危补丁——能写工作流就能在主进程执行代码","item":"https://creatememori.blog/items/i-284ewj.html"}]}]}</script>
 </head>
 <body style="--accent:#2F8F83">
 <a class="skip-link" href="#main">跳到正文</a>
@@ -51,7 +51,7 @@
   <header class="detail-hero">
     <div class="detail-kicker"><a href="/c/frontend-ai.html">前端·AI</a><span>安全与版本更新</span><em>MEMORI DETAIL / 027</em></div>
     <h1>n8n 表达式沙箱逃逸高危补丁——能写工作流就能在主进程执行代码</h1>
-    <p class="detail-summary">11 月 26 日官方安全公告 GHSA-w6f8-8qh4-h3j4（高危，CVSS 4.0 7.7）：n8n 内置 V8 引擎的字符串处理缺陷可让有工作流创建权限的用户逃出表达式沙箱、在…</p>
+    <p class="detail-summary">n8n 高危安全补丁：表达式沙箱逃逸可让有工作流创建权限的用户在主进程执行任意代码，自托管实例须尽快升级到修复版。</p>
     <div class="detail-meta">
       <span class="status status-ok">有效</span>
       <span>11-27 · 晚</span>
@@ -65,22 +65,21 @@
   <figcaption><span>github.com</span></figcaption>
 </figure>
   <div class="detail-columns">
-    <div class="detail-content"><p class="detail-lead">11 月 26 日官方安全公告 GHSA-w6f8-8qh4-h3j4（高危，CVSS 4.0 7.7）：n8n 内置 V8 引擎的字符串处理缺陷可让有工作流创建权限的用户逃出表达式沙箱、在主进程执行任意代码；云端已自动修复，自托管须升级到 Docker 镜像 2.49.2/3.4.0，npm 各线最新修复版为 1.123.102/2.49.7/2.50.2。注意：同批还有一起无需登录的 WebSocket 文件描述符耗尽（中危 6.9），一并修复。</p>
+    <div class="detail-content"><p class="detail-lead">11 月 26 日官方安全公告 GHSA-w6f8-8qh4-h3j4，高危，CVSS 4.0 评分 7.7。n8n 内置 V8 引擎的字符串处理存在缺陷，有工作流创建权限的用户可以逃出表达式沙箱，在主进程执行任意代码。</p>
+<p>关键在于门槛并不高：不需要服务器权限，只要能写工作流就能触发。对多人共用的自托管实例来说，这意味着任何一个有编辑权限的成员都可能拿到主进程权限。云端用户不用动手，已经自动修复；自托管用户必须升级，Docker 镜像升到 2.49.2 或 3.4.0，npm 各条线的最新修复版是 1.123.102、2.49.7、2.50.2。</p>
 <section class="detail-block detail-highlights">
       <h2>先看这几点</h2>
-      <ul><li>云端已自动修复，自托管须升级到 Docker 镜像 2.49.2/3.4.0，npm 各线最新修复版为 1.123.102/2.49.7/2.50.2。</li><li>注意：同批还有一起无需登录的 WebSocket 文件描述符耗尽（中危 6.9），一并修复。</li><li>归类在「前端·AI / 安全与版本更新」，11-27 晚收录。</li><li>原始入口在 github.com，收录时标记为「有效」。</li></ul>
+      <ul><li>沙箱逃逸，可在主进程执行任意代码</li><li>触发条件只是工作流创建权限</li><li>云端已自动修复，自托管须手动升级</li><li>同批还有一起中危 WebSocket 文件描述符耗尽问题，一并修复</li></ul>
     </section>
-<p>前端和 AI 的交叉已经不只是在编辑器里补全一行代码。这个分类关注 Agent 如何接进构建、测试、预览和部署，也关注框架、运行时与浏览器能力的新变化。 这条具体落在「安全与版本更新」，不是单独的一条链接，而是放回主题脉络里一起看。</p>
-<p>适合前端工程师、独立开发者和技术负责人。先判断它解决的是哪一段流程，再看维护成本、团队迁移代价和失败回滚；演示很顺，不等于生产可用。</p>
 <section class="detail-block detail-steps">
-      <h2>怎么用</h2>
-      <ol><li>01 先定位它改变的是开发、构建、测试还是部署</li><li>02 看维护者、Issue 活跃度与最小可复现示例</li><li>03 生产接入前准备回滚、权限与成本边界</li></ol>
+      <h2>怎么处理</h2>
+      <ol><li>确认自己的部署方式是云端还是自托管</li><li>自托管按对应渠道升级到修复版</li><li>升级后检查实例版本与工作流权限分配</li><li>顺手收紧不必要的编辑权限</li></ol>
     </section>
+<p>适合谁：自托管 n8n 的运维者和多人团队最该马上处理，尤其是把实例开放给多位成员编辑的工作室和小团队。云端用户已经自动修复，不用动手；自托管用户要按自己的安装方式升级，Docker 镜像升到 2.49.2 或 3.4.0，npm 安装的按对应条线升到最新修复版。升级之后值得顺手做一次权限盘点：能写工作流的人默认就握着触发这个漏洞的钥匙，编辑权限只给真正需要的人，比事后补救更划算。同批修复的 WebSocket 文件描述符耗尽问题无需登录即可触发，同样不要漏掉。</p>
 <aside class="detail-callout callout-warn">
-      <small>别忽略这一条</small>
-      <p>原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。</p>
-    </aside>
-<p>如果这条和你的项目相关，建议先把它放进「前端·AI」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。</p></div>
+      <small>注意</small>
+      <p>同批还有一起无需登录的 WebSocket 文件描述符耗尽问题，中危 6.9，别只修高危那一项就以为完事。升级时按官方公告把两项修复一次覆盖。</p>
+    </aside></div>
     <aside class="detail-aside">
       <div class="detail-aside-card">
         <small>收录信息</small>
@@ -91,7 +90,7 @@
       <div class="detail-aside-card">
         <small>同主题继续看</small>
         <div class="detail-related"><a class="detail-related-card" href="/items/i-1utmvlz.html">
-    <small>前端·AI · AI 资讯与技术周刊</small>
+    <small>前端·AI · 工具与框架动态</small>
     <strong>OpenAI 承认 GPT-6.2 计费出错——Astra 用户额度消耗快 40%，Sol 快 25%</strong>
     <span>11-27 · 高热度</span>
   </a><a class="detail-related-card" href="/items/i-v6570h.html">

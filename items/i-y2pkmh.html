@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="11 月 26 日英伟达官方博客：0.631B 参数的文档解析模型 Nemotron 3.5 Parse 开源了训练家底——合成图表 998 万条、表格 100 万条、多语 OCR 790 …">
+<meta name="description" content="英伟达把文档解析模型的训练家底全开源了：1888 万条合成数据加微调配方，解析速度提到每秒 20 多页。">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#0C0B11">
 <link rel="canonical" href="https://creatememori.blog/items/i-y2pkmh.html">
@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="创忆录 MEMORI">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍｜前沿追踪 · 创忆录">
-<meta property="og:description" content="11 月 26 日英伟达官方博客：0.631B 参数的文档解析模型 Nemotron 3.5 Parse 开源了训练家底——合成图表 998 万条、表格 100 万条、多语 OCR 790 …">
+<meta property="og:description" content="英伟达把文档解析模型的训练家底全开源了：1888 万条合成数据加微调配方，解析速度提到每秒 20 多页。">
 <meta property="og:url" content="https://creatememori.blog/items/i-y2pkmh.html">
 <meta property="og:image" content="https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png">
 <meta property="og:image:width" content="1200">
@@ -25,9 +25,9 @@
 <meta property="article:published_time" content="2026-11-27T20:00:00+08:00"><meta property="article:modified_time" content="2026-11-27T20:00:00+08:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍｜前沿追踪 · 创忆录">
-<meta name="twitter:description" content="11 月 26 日英伟达官方博客：0.631B 参数的文档解析模型 Nemotron 3.5 Parse 开源了训练家底——合成图表 998 万条、表格 100 万条、多语 OCR 790 …">
+<meta name="twitter:description" content="英伟达把文档解析模型的训练家底全开源了：1888 万条合成数据加微调配方，解析速度提到每秒 20 多页。">
 <meta name="twitter:image" content="https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://creatememori.blog/#organization","name":"创忆录 MEMORI","alternateName":"创忆录","url":"https://creatememori.blog/","logo":{"@type":"ImageObject","url":"https://creatememori.blog/logo.png","width":128,"height":128},"sameAs":["https://github.com/creatememori/creatememori.github.io"]},{"@type":"WebSite","@id":"https://creatememori.blog/#website","url":"https://creatememori.blog/","name":"创忆录 MEMORI","alternateName":"创忆录","inLanguage":"zh-CN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://creatememori.blog/library.html?q={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://creatememori.blog/#organization"}},{"@type":"Article","@id":"https://creatememori.blog/items/i-y2pkmh.html#article","headline":"NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍","description":"11 月 26 日英伟达官方博客：0.631B 参数的文档解析模型 Nemotron 3.5 Parse 开源了训练家底——合成图表 998 万条、表格 100 万条、多语 OCR 790 …","datePublished":"2026-11-27T20:00:00+08:00","dateModified":"2026-11-27T20:00:00+08:00","author":{"@id":"https://creatememori.blog/#organization"},"publisher":{"@id":"https://creatememori.blog/#organization"},"image":"https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png","mainEntityOfPage":"https://creatememori.blog/items/i-y2pkmh.html","articleSection":"前沿追踪","keywords":["前沿追踪","Hugging Face 论文速递","高"],"isPartOf":{"@id":"https://creatememori.blog/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://creatememori.blog/"},{"@type":"ListItem","position":2,"name":"资源库","item":"https://creatememori.blog/library.html"},{"@type":"ListItem","position":3,"name":"前沿追踪","item":"https://creatememori.blog/c/frontier.html"},{"@type":"ListItem","position":4,"name":"NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍","item":"https://creatememori.blog/items/i-y2pkmh.html"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://creatememori.blog/#organization","name":"创忆录 MEMORI","alternateName":"创忆录","url":"https://creatememori.blog/","logo":{"@type":"ImageObject","url":"https://creatememori.blog/logo.png","width":128,"height":128},"sameAs":["https://github.com/creatememori/creatememori.github.io"]},{"@type":"WebSite","@id":"https://creatememori.blog/#website","url":"https://creatememori.blog/","name":"创忆录 MEMORI","alternateName":"创忆录","inLanguage":"zh-CN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://creatememori.blog/library.html?q={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://creatememori.blog/#organization"}},{"@type":"Article","@id":"https://creatememori.blog/items/i-y2pkmh.html#article","headline":"NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍","description":"英伟达把文档解析模型的训练家底全开源了：1888 万条合成数据加微调配方，解析速度提到每秒 20 多页。","datePublished":"2026-11-27T20:00:00+08:00","dateModified":"2026-11-27T20:00:00+08:00","author":{"@id":"https://creatememori.blog/#organization"},"publisher":{"@id":"https://creatememori.blog/#organization"},"image":"https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png","mainEntityOfPage":"https://creatememori.blog/items/i-y2pkmh.html","articleSection":"前沿追踪","keywords":["前沿追踪","Hugging Face 论文速递","高"],"isPartOf":{"@id":"https://creatememori.blog/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://creatememori.blog/"},{"@type":"ListItem","position":2,"name":"资源库","item":"https://creatememori.blog/library.html"},{"@type":"ListItem","position":3,"name":"前沿追踪","item":"https://creatememori.blog/c/frontier.html"},{"@type":"ListItem","position":4,"name":"NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍","item":"https://creatememori.blog/items/i-y2pkmh.html"}]}]}</script>
 </head>
 <body style="--accent:#4E5D78">
 <a class="skip-link" href="#main">跳到正文</a>
@@ -51,7 +51,7 @@
   <header class="detail-hero">
     <div class="detail-kicker"><a href="/c/frontier.html">前沿追踪</a><span>Hugging Face 论文速递</span><em>MEMORI DETAIL / 002</em></div>
     <h1>NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍</h1>
-    <p class="detail-summary">11 月 26 日英伟达官方博客：0.631B 参数的文档解析模型 Nemotron 3.5 Parse 开源了训练家底——合成图表 998 万条、表格 100 万条、多语 OCR 790 …</p>
+    <p class="detail-summary">英伟达把文档解析模型的训练家底全开源了：1888 万条合成数据加微调配方，解析速度提到每秒 20 多页。</p>
     <div class="detail-meta">
       <span class="status status-ok">有效</span>
       <span>11-27 · 晚</span>
@@ -65,22 +65,21 @@
   <figcaption><span>huggingface.co</span></figcaption>
 </figure>
   <div class="detail-columns">
-    <div class="detail-content"><p class="detail-lead">11 月 26 日英伟达官方博客：0.631B 参数的文档解析模型 Nemotron 3.5 Parse 开源了训练家底——合成图表 998 万条、表格 100 万条、多语 OCR 790 万条，附 SFT + RLVR 微调配方；DFlash2 推测解码让单张 H200 上的解析速度提到 20.44 页/秒。注意：模型本体 10 月 17 日发布，本次新的是数据与配方；OpenMDW 1.1 协议，商用可用。</p>
+    <div class="detail-content"><p class="detail-lead">Nemotron 3.5 Parse 是英伟达的文档解析模型，只有 0.631B 参数。11 月 26 日，英伟达在官方博客公开了它的训练家底：1888 万条合成数据，外加 SFT 与 RLVR 的微调配方。文档解析是 RAG 与智能文档处理的第一步，这个环节做得越好，后面的问答与检索才越可靠。</p>
+<p>这次开源的重点不是模型本身，而是数据与配方。合成图表 998 万条、表格 100 万条、多语 OCR 790 万条，合计 1888 万条，覆盖了文档解析里最难啃的几类内容：图表要读懂结构与数值，表格要还原行列关系，多语 OCR 要跨语言稳定识别。配方公开意味着别人可以照着同一条路复现甚至改进，而不是只拿到一个黑盒权重。</p>
 <section class="detail-block detail-highlights">
       <h2>先看这几点</h2>
-      <ul><li>DFlash2 推测解码让单张 H200 上的解析速度提到 20.44 页/秒。</li><li>注意：模型本体 10 月 17 日发布，本次新的是数据与配方；</li><li>归类在「前沿追踪 / Hugging Face 论文速递」，11-27 晚收录。</li><li>原始入口在 huggingface.co，收录时标记为「有效」。</li></ul>
+      <ul><li>0.631B 参数的小模型，专做文档解析</li><li>1888 万条合成数据：图表 998 万、表格 100 万、多语 OCR 790 万</li><li>附 SFT + RLVR 微调配方，可复现</li><li>DFlash2 推测解码，单张 H200 上 20.44 页/秒</li></ul>
     </section>
-<p>前沿更新最容易被“首发”“最强”“颠覆”带走。这个分类保留发布日期、来源和官方口径，把“已经发生的事实”和“厂商自报的数字”分开写。 这条具体落在「Hugging Face 论文速递」，不是单独的一条链接，而是放回主题脉络里一起看。</p>
-<p>适合开发者、研究者与内容创作者做趋势判断。先看论文、代码和可复现实验，再看二手解读；涉及跑分、价格和可用范围时，回到原始页面核对。</p>
 <section class="detail-block detail-steps">
       <h2>怎么用</h2>
-      <ol><li>01 先看原始论文、仓库或官方博客，不看二手摘要</li><li>02 区分厂商自报、第三方复现与社区反馈</li><li>03 记录发布日期与版本，避免旧闻当新闻</li></ol>
+      <ol><li>去 Hugging Face 博客文章读完整的技术说明</li><li>按配方准备自己的文档数据，做 SFT 微调</li><li>需要更快解析时，试 DFlash2 推测解码的配置</li><li>确认 OpenMDW 1.1 协议的条款后再商用</li></ol>
     </section>
-<aside class="detail-callout callout-warn">
-      <small>别忽略这一条</small>
-      <p>原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。</p>
+<aside class="detail-callout callout-info">
+      <small>注意时间线</small>
+      <p>模型本体早在 10 月 17 日就已发布，这次新公开的是训练数据与微调配方，别把两者混为一次发布。</p>
     </aside>
-<p>如果这条和你的项目相关，建议先把它放进「前沿追踪」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。</p></div>
+<p>适合做 RAG、智能文档处理、财报与论文解析的人，也适合想学小模型微调路线的工程师。坑也得说清楚：合成数据的质量决定微调效果，拿到配方不等于拿到同样的效果，自己的文档类型如果与合成数据分布差得远，仍需准备真实数据做补充验证。对普通开发者来说，最直接的收获可能是配方本身：小模型怎么做文档解析、合成数据怎么配比、推测解码怎么提速，这些经验放在别的文档任务上也能复用。先把博客文章通读一遍，再决定要不要动手复现。</p></div>
     <aside class="detail-aside">
       <div class="detail-aside-card">
         <small>收录信息</small>
@@ -95,16 +94,16 @@
     <strong>Sage-Med-Preview——上海 AI Lab 35B 医疗多模态模型：3B 激活参数，31 项医疗基准平均 58.26%</strong>
     <span>11-27 · 高热度</span>
   </a><a class="detail-related-card" href="/items/i-1wldsvf.html">
-    <small>前沿追踪 · AI 资讯与技术周刊</small>
+    <small>前沿追踪 · Hugging Face 论文速递</small>
     <strong>ShowNow——交互式世界模型先把 8 种未来都算好：输入到显示延迟 620ms 降到 208ms</strong>
     <span>11-27 · 高热度</span>
   </a><a class="detail-related-card" href="/items/i-14sff1n.html">
     <small>前沿追踪 · AI 资讯与技术周刊</small>
     <strong>Onset——AI 给 YouTube 创作者复盘：发布 48 小时后按你的数据写标题、画封面</strong>
     <span>11-27 · 高热度</span>
-  </a><a class="detail-related-card" href="/items/i-1x8vsmo.html">
-    <small>前沿追踪 · Hugging Face 论文速递</small>
-    <strong>llm.asm——纯汇编写的大模型：14KB 程序跑 Qwen3-0.6B，24KB 裸机系统 100 毫秒内开机进对话</strong>
+  </a><a class="detail-related-card" href="/items/i-1lmat0l.html">
+    <small>YouTube 选题 · Hugging Face 论文速递</small>
+    <strong>llm.asm——纯汇编写的大模型：14KB 程序跑 Qwen3，裸机 100 毫秒开机进对话</strong>
     <span>11-27 · 高热度</span>
   </a></div>
         <a class="all-link" href="/c/frontier.html">回到「前沿追踪」分类 <span aria-hidden="true">→</span></a>

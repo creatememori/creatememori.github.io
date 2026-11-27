@@ -1,5 +1,5 @@
 {
-  "summary": "11 月 17 日 Product Hunt 上线：@ds-gn/ui、@ds-gn/tokens、@ds-gn/motion 三个包都在 npm 公开，动效包 import { enter…",
+  "summary": "Web Components 加 tokens 加 motion 的设计系统：动效包可单独从 npm 安装，一行 import 即用，免账号。",
   "cover": {
     "src": "https://ds-gn.com/og-default.png",
     "alt": "DS-GN——Web Components + tokens + motion 的设计系统：动效包可单独 npm 装，免账号 的官方预览图",
@@ -8,44 +8,41 @@
   "blocks": [
     {
       "type": "lead",
-      "text": "11 月 17 日 Product Hunt 上线：@ds-gn/ui、@ds-gn/tokens、@ds-gn/motion 三个包都在 npm 公开，动效包 import { enter } from '@ds-gn/motion' 即用，不用账号、不用等 CLI；同一套组件换 token 就换整套品牌视觉。注意：免费包为 0.x 公开 beta，编排用的 CLI 还在付费候补名单。"
+      "text": "设计系统常常是全套照搬或完全不用的二选一。DS-GN 是 11 月 17 日在 Product Hunt 上线的设计系统，用 Web Components 加 tokens 加 motion 的组合：@ds-gn/ui、@ds-gn/tokens、@ds-gn/motion 三个包都在 npm 公开，动效包一行 import 就能用，不用账号，也不用等 CLI。"
+    },
+    {
+      "type": "paragraph",
+      "text": "它的思路是拆包使用：只想要动效就只装 motion 包，只想要视觉就只换 tokens，同一套组件换一套 token 就换整套品牌视觉。对多品牌、多站点的团队来说，tokens 换肤的价值在于改一套变量就能换一套视觉，不用逐个组件改样式。"
     },
     {
       "type": "highlights",
       "title": "先看这几点",
       "items": [
-        "同一套组件换 token 就换整套品牌视觉。",
-        "注意：免费包为 0.x 公开 beta，编排用的 CLI 还在付费候补名单。",
-        "归类在「网页动效 / 动效库与组件」，11-27 晚收录。",
-        "原始入口在 ds-gn.com，收录时标记为「有效」。"
+        "三个包都在 npm 公开，动效包可单独装",
+        "import 一行即用，不用账号、不用等 CLI",
+        "同一套组件换 token 就换整套品牌视觉",
+        "基于 Web Components，框架无关"
       ]
-    },
-    {
-      "type": "paragraph",
-      "text": "网页动效很容易停在“看起来很酷”。这个分类更关心另一件事：它能不能被拆成结构、看懂实现、放进自己的页面。包括 CSS 动画、滚动叙事、Three.js/WebGL、SVG 路径、Canvas 粒子与交互装置。 这条具体落在「动效库与组件」，不是单独的一条链接，而是放回主题脉络里一起看。"
-    },
-    {
-      "type": "paragraph",
-      "text": "适合前端、设计与创意开发一起看。先看性能与移动端降级，再决定要不要抄；商用前确认素材、字体与代码许可，别把演示当成可直接上线的成品。"
     },
     {
       "type": "steps",
       "title": "怎么用",
       "items": [
-        "01 先看移动端降级、性能和减少动态效果设置",
-        "02 把视觉拆成层级、时间轴与触发条件，再谈复刻",
-        "03 商用前核对代码、字体、模型与素材授权"
+        "按需安装需要的包，比如只装 @ds-gn/motion",
+        "按文档 import 动效函数并调用",
+        "需要换品牌视觉时改 tokens",
+        "组件层按需引入 @ds-gn/ui"
       ]
+    },
+    {
+      "type": "paragraph",
+      "text": "适合谁：多品牌、多站点的团队最值得关注，尤其是同一套产品要换多套视觉的场景。设计系统最常见的困境是全套照搬太重、完全不用又没规范；DS-GN 的做法是拆包使用，@ds-gn/ui、@ds-gn/tokens、@ds-gn/motion 三个包都在 npm 公开，只想要动效就只装 motion 包，一行 import 就能用，不用账号，也不用等 CLI。同一套组件换一套 token 就换整套品牌视觉，改变量就能换肤，不用逐个组件改样式。基于 Web Components，框架无关，不绑定 React 或 Vue。要注意免费包是 0.x 公开 beta，接口可能还会变；编排用的 CLI 还在付费候补名单，别把它当成已发布的免费功能。先从一个包试起最稳妥，比如只装 motion 包做几个动效，确认接口与团队习惯合拍，再决定要不要把 tokens 与组件层一起接进来。三包都已公开，试错成本低，先小范围验证，再决定是否全量接入。"
     },
     {
       "type": "callout",
       "tone": "warn",
-      "title": "别忽略这一条",
-      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
-    },
-    {
-      "type": "paragraph",
-      "text": "如果这条和你的项目相关，建议先把它放进「网页动效」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+      "title": "注意",
+      "text": "免费包是 0.x 公开 beta，接口可能还会变。编排用的 CLI 还在付费候补名单，别把它当成已发布的免费功能。"
     }
   ]
 }
