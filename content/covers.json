@@ -4258,5 +4258,145 @@
     "src": "https://nekos.best/api/v2/neko/c0ec1aae-02b3-4958-9ae6-f3042161f84a.png",
     "alt": "装饰插图",
     "credit": "nekos.best（装饰插图）"
+  },
+  "i-y2pkmh": {
+    "src": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
+    "alt": "NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍 的官方预览图",
+    "credit": "huggingface.co"
+  },
+  "i-1v1b1vn": {
+    "src": "https://opengraph.githubassets.com/89c8938de17135c5a92880fcf3754819c88e068e10b866bb1918b4140a326fc9/sebinsua/allomono",
+    "alt": "allomono 0.1——Allo 改成的等宽终端字体：输入 -> 与 => 自动变箭头且不占宽 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1wldsvf": {
+    "src": "https://opengraph.githubassets.com/f97fb954d9ee79678941da76ce90956273644a7793db18e186569ceac85c5df1/showlab/ShowNow",
+    "alt": "ShowNow——交互式世界模型先把 8 种未来都算好：输入到显示延迟 620ms 降到 208ms 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ijjaih": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/internlm/Sage-Med-Preview.png",
+    "alt": "Sage-Med-Preview——上海 AI Lab 35B 医疗多模态模型：3B 激活参数，31 项医疗基准平均 58.26% 的官方预览图",
+    "credit": "huggingface.co"
+  },
+  "i-1312m88": {
+    "src": "https://opengraph.githubassets.com/f6e53e627ea8ede96f2e1db977ad960d19824519752f718af19435ed055d2737/vincentsch/explainroo",
+    "alt": "explainroo——免费开源，AI 给你拍讲解视频：本地配音、逐词字幕，不用 API Key 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-nljdh8": {
+    "src": "https://wpos.ai/wp-content/uploads/2026/11/wpos-share-card-1200x630-2-1024x538.png",
+    "alt": "WPOS——黑五新账号白嫖 15,000 积分：WordPress AI 助手，免绑卡，积分永不过期 的官方预览图",
+    "credit": "wpos.ai"
+  },
+  "i-1mmjh5a": {
+    "src": "https://repository-images.githubusercontent.com/423600152/4ad6e36b-22e3-4de2-a1c6-fdac6775eb45",
+    "alt": "Cal Sans Text UI 2.020——Cal Sans 的界面专用切分：与 Inter、SF Pro 同占位，标签在按钮里光学居中 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1lmat0l": {
+    "src": "https://opengraph.githubassets.com/35841499c8b8f8bc249bd77d6659ab8205defcd95c2c1907942eded01ef7bf8c/alesha-pro/llm.asm",
+    "alt": "llm.asm——纯汇编写的大模型：14KB 程序跑 Qwen3，裸机 100 毫秒开机进对话 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ok8ndc": {
+    "src": "https://tightype.com/og.png",
+    "alt": "TIGHTYPE——站面本身就是字样网格：每款字体用自己的样子介绍自己 的官方预览图",
+    "credit": "tightype.com"
+  },
+  "i-1rh3u9l": {
+    "src": "https://findfreeapi.com/og-image.png",
+    "alt": "FreeAPI——1,047 个免费公开 API 一个站查完：免注册，浏览器里直接测 的官方预览图",
+    "credit": "findfreeapi.com"
+  },
+  "i-lav2o9": {
+    "src": "https://www.hoshizoradome.com/og.jpg",
+    "alt": "Hoshizora Dome——免费浏览器 3D 天文馆：打开即见所在城市此刻真实星空 的官方预览图",
+    "credit": "hoshizoradome.com"
+  },
+  "i-124hy73": {
+    "src": "https://a-foundry.com/wp-content/uploads/2024/05/Logo.jpg",
+    "alt": "a.Foundry——哥本哈根的北欧字体工作室：路牌传统里长出的当代字体 的官方预览图",
+    "credit": "a-foundry.com"
+  },
+  "i-oi443u": {
+    "src": "https://wpos.ai/wp-content/uploads/2026/11/wpos-share-card-1200x630-2-1024x538.png",
+    "alt": "WPOS——黑五新账号送 15,000 免费积分：WordPress AI 助手，免绑卡，积分永不过期 的官方预览图",
+    "credit": "wpos.ai"
+  },
+  "i-ekiuz": {
+    "src": "https://opengraph.githubassets.com/1710e1835db3fec0dc8f6e93563b104f5f0f07a93de4af81de357050e49b35d8/marioluciofjr/petricor",
+    "alt": "Petricor 1.000——作者手写体双家族：印刷体 + 真连笔草书 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1y8mb4t": {
+    "src": "https://opengraph.githubassets.com/d5e976decc71329782daba9734aa6d5814bff4c73a82277f1363fc26dda350a6/kunkundi/crossdesk",
+    "alt": "CrossDesk——免费开源的轻量远程桌面：浏览器直接控电脑，不用在控制端装软件，Windows/macOS/Linux/iOS/Android 全平台，还能局域网直连、自托管 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1utmvlz": {
+    "src": "https://www.infoworld.com/wp-content/uploads/2026/11/4253883-0-39344400-1795773640-shutterstock_2240464447.jpg?quality=50&strip=all&w=1024",
+    "alt": "OpenAI 承认 GPT-6.2 计费出错——Astra 用户额度消耗快 40%，Sol 快 25% 的官方预览图",
+    "credit": "infoworld.com"
+  },
+  "i-16bd1b1": {
+    "src": "https://olumino.app/opengraph-image",
+    "alt": "Olumino——免费的 Markdown 笔记 + 间隔重复闪卡：按 FSRS-7 在快忘掉之前把卡片推回来，免账号、无广告 的官方预览图",
+    "credit": "olumino.app"
+  },
+  "i-1rsmrbt": {
+    "src": "https://www.getperiscope.ai/opengraph-image?bde448f16d0ddc1c",
+    "alt": "Periscope——把任何重复工作变成一个 API：描述一次任务，Agent 在云端专属桌面上替你干完 的官方预览图",
+    "credit": "getperiscope.ai"
+  },
+  "i-1ej8l79": {
+    "src": "https://findfreeapi.com/og-image.png",
+    "alt": "FreeAPI——1,047 个免费公开 API 一个站查完：免注册，浏览器里直接测 的官方预览图",
+    "credit": "findfreeapi.com"
+  },
+  "i-1nnyuhe": {
+    "src": "https://queryra.com/blog/black-friday-six-months-free.webp",
+    "alt": "Queryra——黑五免费领 6 个月 AI 搜索：免费档每月多 1,000 次 AI 搜索，免绑卡 的官方预览图",
+    "credit": "queryra.com"
+  },
+  "i-284ewj": {
+    "src": "https://opengraph.githubassets.com/f403d431ac311ecb18ba7b618d4c943ab194c4262a30bd28e4bb284608d02182/n8n-io/n8n/security/advisories/GHSA-w6f8-8qh4-h3j4",
+    "alt": "n8n 表达式沙箱逃逸高危补丁——能写工作流就能在主进程执行代码 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-l1mmhv": {
+    "src": "https://contral.ai/og-image.png",
+    "alt": "Contral——边写代码边教你的 AI 编程环境：今天刚出 beta 的官方预览图",
+    "credit": "contral.ai"
+  },
+  "i-y6t7hs": {
+    "src": "https://ds-gn.com/og-default.png",
+    "alt": "DS-GN——Web Components + tokens + motion 的设计系统：动效包可单独 npm 装，免账号 的官方预览图",
+    "credit": "ds-gn.com"
+  },
+  "i-v9tqjk": {
+    "src": "https://avaraui.com/meta-image-v2.png",
+    "alt": "AvaraUI——190+ 个免费动效 shadcn 组件：GSAP 与 Motion 驱动的交互效果，shadcn CLI 一键装进项目 的官方预览图",
+    "credit": "avaraui.com"
+  },
+  "i-xqi8df": {
+    "src": "https://reelify.tech/og-image.png",
+    "alt": "Reelify——长视频一键变竖屏短视频：AI 找高光、说话人面部追踪竖裁、逐词动态字幕，1080×1920 60fps 导出 的官方预览图",
+    "credit": "reelify.tech"
+  },
+  "i-1r8abyn": {
+    "src": "https://opengraph.githubassets.com/f6e53e627ea8ede96f2e1db977ad960d19824519752f718af19435ed055d2737/vincentsch/explainroo",
+    "alt": "explainroo——给 Claude Code / Codex 的讲解视频 Skill：给个主题就出带本地配音、逐词字幕与运镜的 MP4，还能按词剪自己的录音 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1dy4rdb": {
+    "src": "https://pushary.com/og-ai-coding.webp?v=2",
+    "alt": "Pushary Calls——错过 Agent 的提醒就直接打电话来：电话里说 yes/no 就能批，覆盖 13 种 Agent 的官方预览图",
+    "credit": "pushary.com"
+  },
+  "i-98s153": {
+    "src": "https://regolo.ai/wp-content/uploads/2026/08/regolo-website-preview.png",
+    "alt": "Regolo——30 天免费试用：每天 100 万 tokens，全 Core 模型免绑卡随便调 的官方预览图",
+    "credit": "regolo.ai"
   }
 }
