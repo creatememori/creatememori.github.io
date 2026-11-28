@@ -1,0 +1,46 @@
+{
+  "blocks": [
+    {
+      "text": "11 月 27 日，Google Gemini 团队把此前只在演示里出现的两个 skill 放进了 demolab 仓库并开源。deep-research 负责调研：指挥多个并行子 Agent 从不同角度查资料，只认一手来源，结论附带引用；gemini-frontend-design 负责前端设计：从排版、配色到动效先定方向，做完还要经过一道视觉验收。两个 skill 都是 Apache-2.0 协议。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "deep-research：并行子 Agent 多角度调研，只认一手来源、附引用",
+        "gemini-frontend-design：排版、配色、动效先定方向，做完做视觉验收",
+        "Apache-2.0 开源，可装进 Claude Code、Cursor、Codex、Antigravity 等"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "这两个 skill 有意思的地方在于分工很干净：一个管“查得对不对”，一个管“做得好不好看”。调研类 skill 过去常被吐槽只会堆二手信息，deep-research 明确只认一手来源并附引用，至少在使用方式上先立了规矩；前端设计 skill 则把“先定方向、再做验收”写进流程，适合用 Agent 做页面时先对齐审美再动手。适合已经在用 Claude Code、Cursor、Codex 或 Antigravity 这类工具的开发者和独立创作者，直接装进自己的 Agent 工作流里试。",
+      "type": "paragraph"
+    },
+    {
+      "text": "对普通开发者来说，这类 skill 的意义不在功能本身，而在它提供了一份可照抄的写法：调研时怎么拆并行任务、怎么要求一手来源与引用，做页面时怎么先定方向再验收。把它们装进自己的 Agent 工具后，可以先在小任务上试效果，再决定是否写进常用流程；遇到不匹配的地方，照着仓库里的结构改一改，比从零写一份 skill 省事得多。",
+      "type": "paragraph"
+    },
+    {
+      "items": [
+        "打开 demolab 仓库，按说明把两个 skill 装进你用的 Agent 工具",
+        "做调研时调用 deep-research，让它并行查资料并给出带引用的结论",
+        "做页面时先让 gemini-frontend-design 定排版、配色与动效方向，再按验收结果迭代"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "这是 Google 演示用的 skill，不是官方产品承诺：实际效果取决于你用的模型与 Agent 工具，装之前先看仓库里的说明，确认与你当前工具的版本匹配。",
+      "title": "提示",
+      "tone": "tip",
+      "type": "callout"
+    }
+  ],
+  "cover": {
+    "alt": "Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design 的官方预览图",
+    "credit": "github.com",
+    "src": "https://opengraph.githubassets.com/91335f4b64a85ca90f48bd919266f491406d76e4ba413ba08ed6c6b04f4a13bd/google-gemini/demolab"
+  },
+  "summary": "Google 把内部演示用的两条 Agent Skill 开了源：一条做带引用的深度调研，一条定前端设计方向，都能直接装进主流编程 Agent 里用。"
+}

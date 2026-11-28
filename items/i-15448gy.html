@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="免费开源的 Claude Code 指挥室：多个会话一屏管理，状态一眼可见，还能组队并行干活、让 Agent 自己开浏览器测应用，全程本机运行。">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0C0B11">
+<link rel="canonical" href="https://creatememori.blog/items/i-15448gy.html">
+<link rel="icon" href="/logo.png">
+<link rel="apple-touch-icon" href="/logo.png">
+<link rel="alternate" type="application/rss+xml" title="创忆录更新日志" href="https://creatememori.blog/feed.xml">
+<link rel="stylesheet" href="/seo.css">
+<title>airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用｜AI 实战 · 创忆录</title>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="创忆录 MEMORI">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用｜AI 实战 · 创忆录">
+<meta property="og:description" content="免费开源的 Claude Code 指挥室：多个会话一屏管理，状态一眼可见，还能组队并行干活、让 Agent 自己开浏览器测应用，全程本机运行。">
+<meta property="og:url" content="https://creatememori.blog/items/i-15448gy.html">
+<meta property="og:image" content="https://nekos.best/api/v2/neko/c97d7d2f-e2d7-4ca8-a4e1-dc2410c88032.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用 的装饰插图">
+<meta property="article:published_time" content="2026-11-28T20:00:00+08:00"><meta property="article:modified_time" content="2026-11-28T20:00:00+08:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用｜AI 实战 · 创忆录">
+<meta name="twitter:description" content="免费开源的 Claude Code 指挥室：多个会话一屏管理，状态一眼可见，还能组队并行干活、让 Agent 自己开浏览器测应用，全程本机运行。">
+<meta name="twitter:image" content="https://nekos.best/api/v2/neko/c97d7d2f-e2d7-4ca8-a4e1-dc2410c88032.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://creatememori.blog/#organization","name":"创忆录 MEMORI","alternateName":"创忆录","url":"https://creatememori.blog/","logo":{"@type":"ImageObject","url":"https://creatememori.blog/logo.png","width":128,"height":128},"sameAs":["https://github.com/creatememori/creatememori.github.io"]},{"@type":"WebSite","@id":"https://creatememori.blog/#website","url":"https://creatememori.blog/","name":"创忆录 MEMORI","alternateName":"创忆录","inLanguage":"zh-CN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://creatememori.blog/library.html?q={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://creatememori.blog/#organization"}},{"@type":"Article","@id":"https://creatememori.blog/items/i-15448gy.html#article","headline":"airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用","description":"免费开源的 Claude Code 指挥室：多个会话一屏管理，状态一眼可见，还能组队并行干活、让 Agent 自己开浏览器测应用，全程本机运行。","datePublished":"2026-11-28T20:00:00+08:00","dateModified":"2026-11-28T20:00:00+08:00","author":{"@id":"https://creatememori.blog/#organization"},"publisher":{"@id":"https://creatememori.blog/#organization"},"image":"https://nekos.best/api/v2/neko/c97d7d2f-e2d7-4ca8-a4e1-dc2410c88032.png","mainEntityOfPage":"https://creatememori.blog/items/i-15448gy.html","articleSection":"AI 实战","keywords":["AI 实战","AI 编程助手","高"],"isPartOf":{"@id":"https://creatememori.blog/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://creatememori.blog/"},{"@type":"ListItem","position":2,"name":"资源库","item":"https://creatememori.blog/library.html"},{"@type":"ListItem","position":3,"name":"AI 实战","item":"https://creatememori.blog/c/ai-workflows.html"},{"@type":"ListItem","position":4,"name":"airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用","item":"https://creatememori.blog/items/i-15448gy.html"}]}]}</script>
+</head>
+<body style="--accent:#6B5BD6">
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="site-head">
+  <div class="shell head-in">
+    <a class="brand" href="/" aria-label="创忆录首页">
+      <img src="/logo.png" alt="创忆录标志" width="30" height="30">
+      <span><strong>创忆录</strong><small>MEMORI ARCHIVE</small></span>
+    </a>
+    <nav class="site-nav" aria-label="页面导航">
+      <a href="/library.html">资源库</a>
+      <a href="/c/">分类</a>
+      <a href="/updates/">更新日志</a>
+    </nav>
+    <a class="head-cta" href="/library.html">进入资源库 <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main id="main"><div class="shell detail-shell">
+<nav class="breadcrumbs" aria-label="面包屑"><a href="/">首页</a><span aria-hidden="true">/</span><a href="/library.html">资源库</a><span aria-hidden="true">/</span><a href="/c/ai-workflows.html">AI 实战</a><span aria-hidden="true">/</span><a href="/items/i-15448gy.html">airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用</a></nav>
+<article class="detail-wrap">
+  <header class="detail-hero">
+    <div class="detail-kicker"><a href="/c/ai-workflows.html">AI 实战</a><span>AI 编程助手</span><em>MEMORI DETAIL / 018</em></div>
+    <h1>airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用</h1>
+    <p class="detail-summary">免费开源的 Claude Code 指挥室：多个会话一屏管理，状态一眼可见，还能组队并行干活、让 Agent 自己开浏览器测应用，全程本机运行。</p>
+    <div class="detail-meta">
+      <span class="status status-ok">有效</span>
+      <span>11-28 · 晚</span>
+      <span>高热度</span>
+      
+      <a href="https://www.producthunt.com/products/airoom" target="_blank" rel="noopener noreferrer">原始来源 ↗</a>
+    </div>
+  </header>
+  <figure class="detail-cover">
+  <img src="https://nekos.best/api/v2/neko/c97d7d2f-e2d7-4ca8-a4e1-dc2410c88032.png" alt="airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用 的装饰插图" loading="eager" fetchpriority="high" decoding="async" referrerpolicy="no-referrer">
+  <figcaption><span>nekos.best（装饰插图）</span></figcaption>
+</figure>
+  <div class="detail-columns">
+    <div class="detail-content"><p class="detail-lead">airoom 是一个免费开源的 Claude Code 指挥室，Apache 2.0 协议，11 月 24 日登上 Product Hunt，11 月 28 日冲到当日第 9。它的界面像一间间房：每个项目一间房，每个会话一张桌，屏幕颜色一眼就能看出谁在干活、谁在等你、谁卡住了。点一张桌子就能跟那个 Agent 聊天、逐条批命令、一键叫停；还能组一支小队并行干活，每个成员各占一个 git worktree；跑顺的任务可以存成 Playbook 下次复用；内置浏览器让 Agent 自己打开应用点一点、测一测。</p>
+<section class="detail-block detail-highlights">
+      <h2>先看这几点</h2>
+      <ul><li>每个项目一间房、每个会话一张桌，状态颜色一眼可见</li><li>点桌子聊天、逐条批命令、一键叫停</li><li>可组小队并行干活，各占一个 git worktree；任务可存成 Playbook 复用</li><li>内置浏览器，Agent 可自己打开应用测试</li><li>完全免费、无账号、无遥测，全程本机运行</li></ul>
+    </section>
+<p>多会话并行是 Claude Code 重度用户的常态，但窗口一切换就容易乱：哪个在跑、哪个在等确认、哪个卡住了，全靠记忆。airoom 把这层状态做成了一张看板，管理成本一下子降了下来；Playbook 和 worktree 并行则让“跑顺的流程”能沉淀下来复用。适合同时开多个 Agent 会话做开发、或想把重复任务流程化的开发者。</p>
+<p>对同时带几个项目的开发者来说，这类工具省的是切换成本：不用在多个终端窗口之间来回找，哪个会话在等确认、哪个卡住了，看一眼颜色就知道。Playbook 则适合把重复流程固定下来，下次遇到同类任务直接复用，不用每次重新指挥。</p>
+<section class="detail-block detail-steps">
+      <h2>怎么用</h2>
+      <ol><li>安装 airoom，为每个项目开一间房、为每个会话开一张桌</li><li>看桌子颜色判断状态，点桌子聊天、批命令或一键叫停</li><li>把跑顺的任务存成 Playbook，需要并行时组小队、各占一个 worktree</li></ol>
+    </section>
+<aside class="detail-callout callout-info">
+      <small>平台与费用</small>
+      <p>完全免费、无账号、无遥测，全程本机；Mac 已有正式版，Windows 目前为 beta；模型走你自己的 Claude 订阅，airoom 本身不另收费。</p>
+    </aside></div>
+    <aside class="detail-aside">
+      <div class="detail-aside-card">
+        <small>收录信息</small>
+        <strong>AI 实战 · AI 编程助手</strong>
+        <p>11-28 晚批次收录。详情页由结构化内容生成，原始入口和最新限制以来源页为准。</p>
+        <a href="https://www.producthunt.com/products/airoom" target="_blank" rel="noopener noreferrer">打开原始来源 ↗</a>
+      </div>
+      <div class="detail-aside-card">
+        <small>同主题继续看</small>
+        <div class="detail-related"><a class="detail-related-card" href="/items/i-1g1b4ma.html">
+    <small>YouTube 选题 · AI 编程助手</small>
+    <strong>Design Lounge——免费给 AI 编程助手装设计品味：600+ 真实 UI 设计 + 免费 MCP</strong>
+    <span>11-28 · 高热度</span>
+  </a><a class="detail-related-card" href="/items/i-ob2n2l.html">
+    <small>AI 实战 · AI 编程助手</small>
+    <strong>gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做</strong>
+    <span>11-28 · 高热度</span>
+  </a><a class="detail-related-card" href="/items/i-6y5rfu.html">
+    <small>AI 实战 · AI 工作流自动化</small>
+    <strong>Oya Browser——给 AI Agent 一个真正登录好的浏览器：MFA 一键接管，录一次流程、之后零 token 回放</strong>
+    <span>11-28 · 高热度</span>
+  </a><a class="detail-related-card" href="/items/i-lri6eo.html">
+    <small>前沿追踪 · AI 编程助手</small>
+    <strong>DFly2——腾讯开源稀疏模型推理加速器：草稿不存 KV 缓存，64K 吞吐最高提升 81%</strong>
+    <span>11-28 · 高热度</span>
+  </a></div>
+        <a class="all-link" href="/c/ai-workflows.html">回到「AI 实战」分类 <span aria-hidden="true">→</span></a>
+      </div>
+    </aside>
+  </div>
+  <nav class="detail-bottom" aria-label="详情页导航">
+    <a href="/library.html">← 返回资源库</a>
+    <a href="/c/ai-workflows.html">继续看 AI 实战 →</a>
+  </nav>
+</article>
+</div></main>
+<footer class="site-foot">
+  <div class="shell">
+    <div class="foot-main">
+      <div>
+        <div class="foot-brand">
+          <img src="/logo-light.png" alt="创忆录标志" width="46" height="46">
+          <div><strong>创忆录</strong><small>MEMORI ARCHIVE</small></div>
+        </div>
+        <p>把今天的好资源，存成明天还能用的记忆。免费额度、AI 工具、网页动效、排版、设计、视频与前沿情报，按主题持续归档。</p>
+      </div>
+      <div class="foot-links">
+        <div><strong>站内</strong><a href="/">介绍页</a><a href="/library.html">资源库</a><a href="/c/">分类索引</a><a href="/updates/">更新日志</a><a href="https://creatememori.blog/feed.xml">RSS 订阅</a></div>
+        <div><strong>热门分类</strong><a href="/c/web-motion.html">网页动效</a><a href="/c/ai-workflows.html">AI 实战</a><a href="/c/design-assets.html">设计素材</a><a href="/c/free-resources.html">免费资源</a><a href="/c/frontier.html">前沿追踪</a><a href="/c/video-creation.html">视频创作</a></div>
+        <div><strong>关于</strong><a href="https://github.com/creatememori/creatememori.github.io" target="_blank" rel="noopener noreferrer">GitHub 仓库</a><a href="/library.html#aboutHeading">关于资源库</a><a href="/library.html#allHead">全部条目</a></div>
+      </div>
+    </div>
+    <div class="foot-cats" aria-label="全部分类"><a href="/c/free-resources.html">免费资源</a><a href="/c/web-motion.html">网页动效</a><a href="/c/typography.html">排版网站</a><a href="/c/youtube-topics.html">YouTube 选题</a><a href="/c/frontend-ai.html">前端·AI</a><a href="/c/ai-workflows.html">AI 实战</a><a href="/c/tools.html">黑科技工具</a><a href="/c/video-creation.html">视频创作</a><a href="/c/sci-vis.html">科学可视化</a><a href="/c/learning.html">学习成长</a><a href="/c/design-assets.html">设计素材</a><a href="/c/frontier.html">前沿追踪</a></div>
+    <div class="foot-base"><span>© 2026 创忆录 · MEMORI ARCHIVE</span><span>数据来自资源库 · 分类页与更新日志由构建脚本生成</span></div>
+  </div>
+</footer>
+</body>
+</html>

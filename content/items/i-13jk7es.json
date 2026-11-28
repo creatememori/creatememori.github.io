@@ -1,0 +1,55 @@
+{
+  "summary": "11 月 23 日登 Product Hunt：MIT 开源的 VS Code/VSCodium 扩展，住在 Activity Bar 里读项目、改文件、跑命令、联网搜索；",
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 23 日登 Product Hunt：MIT 开源的 VS Code/VSCodium 扩展，住在 Activity Bar 里读项目、改文件、跑命令、联网搜索；Analyze 模式下所有写操作先出 diff 预览、确认后再落盘，并行子 Agent 与防死循环护栏齐全。注意：完全免费；模型自备——接 OpenAI、Anthropic、OpenRouter，或本机 Ollama/LM Studio/llama.cpp，不走云端不花钱。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "Analyze 模式下所有写操作先出 diff 预览、确认后再落盘，并行子 Agent 与防死循环护栏齐全。",
+        "注意：完全免费；",
+        "归类在「AI 实战 / AI 编程助手」，11-28 中午收录。",
+        "原始入口在 harny.dev，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这里收的是能动手的 AI：模型、API、Agent 框架、自动化工作流、提示词方法和本地部署方案。每一条尽量保留运行条件、额度、依赖和失败边界。 这条具体落在「AI 编程助手」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合独立开发者、内容创作者与小团队。先做最小验证，再谈规模化；涉及数据、隐私和付费调用时，先算清成本与权限，别让一次演示变成长期账单。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先用最小任务验证输入、输出和失败情况",
+        "02 核对额度、速率限制、数据去向与商用条款",
+        "03 把提示词、模型版本和依赖固定下来再复用"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "住在 Activity Bar 里，意味着它不抢编辑器的主界面：读项目、改文件、跑命令、联网搜索都在侧栏完成，写代码的主区域不受打扰。Analyze 模式先出 diff 预览、确认后再落盘，是给自动改代码加的一道刹车；并行子 Agent 与防死循环护栏，则管的是多任务并行时不失控。模型自备是关键：接云端大模型或者本机 Ollama 都行，不走云端就不花钱，隐私也留在本地。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「AI 实战」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ],
+  "cover": {
+    "src": "https://harny.dev/assets/img/harny_wall.jpg",
+    "alt": "Harny——VS Code 里的免费开源编程 Agent：自带模型，云端或本机 Ollama 都行，先预览再动手 的官方预览图",
+    "credit": "harny.dev"
+  }
+}

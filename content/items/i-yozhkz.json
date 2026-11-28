@@ -1,0 +1,48 @@
+{
+  "blocks": [
+    {
+      "text": "Typejockeys 是 2008 年成立的维也纳小工作室，做的事不止卖字体：字体、lettering 与标志设计一把抓。Ingeborg、Henriette 等大字族以手写温度与技术精度见长，既有手写的松弛感，又保持了作为正文字体的可用性。网站把字体、lettering、标志重设计并排展示，适合看字体如何撑起一整套品牌视觉。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "2008 年成立的维也纳小工作室",
+        "Ingeborg、Henriette 等大字族，手写温度加技术精度",
+        "字体、lettering、标志重设计并排展示",
+        "全站字体都可免费试用、无限制"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "看独立字库时，只看单字展示很容易误判。Typejockeys 把字体放进 lettering 与标志重设计的真实案例里展示，能直接看到同一款字体在标题、标志、排版中的不同表现，这对做品牌视觉的人很有参考价值。Ingeborg、Henriette 这类大字族的优势在于字重与变体完整，从标题到正文都能用同一家族保持统一，又不失手写带来的温度。",
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "text": "对做品牌视觉的人来说，Typejockeys 的站面本身就是一份参考：字体、lettering 与标志放在一起看，能直观感受到同一家族在不同场景里的表现。选字时不妨先看案例，再试排自己的品牌文案，确认手写温度与技术精度是否都符合项目需要。先看案例再试排，确认气质合拍后再谈授权与使用范围。"
+    },
+    {
+      "items": [
+        "打开官网，先看字体、lettering、标志重设计的并排案例",
+        "挑选 Ingeborg、Henriette 等大字族，免费试用排版效果",
+        "用真实品牌文案试排标题与正文，看家族内搭配是否协调",
+        "确定商用前，按官网说明确认授权与使用范围"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "适合做品牌视觉、标志设计与编辑排版的设计师，也适合想系统了解字体如何支撑品牌的设计学习者。全站字体可免费试用、无限制，正式使用前仍要确认授权。",
+      "title": "适合谁",
+      "tone": "tip",
+      "type": "callout"
+    }
+  ],
+  "cover": {
+    "alt": "Typejockeys——维也纳字库，字体、lettering 与标志设计一把抓 的官方预览图",
+    "credit": "typejockeys.com",
+    "src": "https://www.typejockeys.com/media/pages/home/2e8c925a9b-1756806538/marie-teaser-og.png"
+  },
+  "summary": "2008 年成立的维也纳小工作室，Ingeborg、Henriette 等大字族兼具手写温度与技术精度；字体、lettering 与标志设计并排展示，全站字体可免费试用。"
+}

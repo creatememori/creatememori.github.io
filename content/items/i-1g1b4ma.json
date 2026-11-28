@@ -1,0 +1,50 @@
+{
+  "summary": "一个收了 600 多套真实 UI 设计的免费站，一条命令装上 MCP，就能让 Claude Code、Cursor 这些编程助手按现成配色与字体配方出图。",
+  "blocks": [
+    {
+      "text": "AI 编程助手写得出能跑的界面，写不出好看的界面，差的往往不是能力，是没有可参考的设计品味。Design Lounge 收了 600 多套真实 UI 设计，并提供免费 MCP：一装上，Agent 出图时就按设计库里的配色与字体配方来，而不是凭空拼一套。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "600+ 真实 UI 设计，可直接参考配色与字体配方。",
+        "一条命令装 MCP：npx -y design-lounge-mcp@latest。",
+        "接 Claude Code、Cursor、Codex 或 VS Code，Agent 按设计库出图。",
+        "完全免费，设计稿可商用。",
+        "先在站里挑一套顺眼的设计，再让助手照着配方落地。",
+        "没有设计参考时，助手只能凭空拼一套常见布局。"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "对用 AI 写界面的开发者来说，这个站解决的是「审美从哪来」的问题：先在站里挑一套顺眼的设计，再让助手照着它的配方落地，比空口说「好看一点」可靠得多。做选题的话，可以现场演示同一段需求在装 MCP 前后出的界面差别，效果直观。设计稿可商用，也意味着演示里用到的参考可以直接进自己的项目。",
+      "type": "paragraph"
+    },
+    {
+      "text": "适合谁很明确：用 AI 编程助手写界面、又总觉得成品差点意思的人。没有设计参考时，助手只能凭空拼一套常见的布局与配色，结果往往是能用但不好看。有了设计库，助手出图就有了具体的参照：配色怎么搭、字体怎么配、留白留多少，都有现成的配方可抄。做选题演示时，建议直接对比同一段需求在装 MCP 前后的出图差别，观众一眼就能看懂差距。设计稿可商用，演示里参考的设计可以直接进自己的项目，不用再单独找授权。",
+      "type": "paragraph"
+    },
+    {
+      "items": [
+        "打开 designlounge.live，挑一套喜欢的 UI 设计。",
+        "运行 npx -y design-lounge-mcp@latest 装上 MCP。",
+        "在 Claude Code、Cursor、Codex 或 VS Code 里接上，让 Agent 按设计库出图。",
+        "对比装 MCP 前后同一需求的出图差别，效果最直观。"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "完全免费，设计稿可商用。不过配方只是起点，落地后仍要按自己的产品调一调，别把参考设计原样照搬。",
+      "title": "提示",
+      "tone": "tip",
+      "type": "callout"
+    }
+  ],
+  "cover": {
+    "alt": "Design Lounge——免费给 AI 编程助手装设计品味：600+ 真实 UI 设计 + 免费 MCP 的官方预览图",
+    "credit": "designlounge.live",
+    "src": "https://www.designlounge.live/og/home.jpg"
+  }
+}

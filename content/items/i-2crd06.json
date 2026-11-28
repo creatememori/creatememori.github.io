@@ -1,0 +1,48 @@
+{
+  "blocks": [
+    {
+      "text": "Fontself 是一款字体制作工具，思路是让设计师不用另学字体软件：在 Illustrator 或 Photoshop 里画好字母，拖进面板就自动排字距、调字距、导出可安装的 OTF。它一次性买断，49 美元起，还出了 iPad 独立版，适合已经习惯在 AI 或 PS 里画字的人。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "在 Illustrator 或 Photoshop 里画好字母即可做字体",
+        "拖进面板自动排字距、调字距、导出可安装的 OTF",
+        "一次性买断，49 美元起",
+        "还出了 iPad 独立版"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "做字体的门槛往往不在画字本身，而在字体软件的学习成本与字距调整的繁琐流程。Fontself 把制作环节嵌进设计师已经熟悉的工具里，画完字母拖进去，字距与导出由工具接手，省掉了切换软件、重新学习的步骤。对想把手写字、标志字或一套标题字做成真正能安装使用的字体的设计师来说，这条路比从零学字体软件快得多。iPad 独立版则让手绘起稿到成字可以在同一台设备上完成。",
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "text": "对习惯在 Illustrator 或 Photoshop 里工作的设计师来说，Fontself 的吸引力在于不用换工具、不用学新软件，画字与做字体可以在同一个流程里完成。先拿几个字母做试验，确认自动排字距的效果符合预期，再投入时间画完整套字母。先拿几个字母做试验，确认自动排字距的效果再画完整套字母。"
+    },
+    {
+      "items": [
+        "在 AI 或 PS 里按字母逐个画好字形",
+        "拖进 Fontself 面板，自动排字距、调字距",
+        "检查每个字母的间距与整体节奏，逐字微调",
+        "导出可安装的 OTF，先装到系统里试排再正式使用"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "只做静态字体，不支持可变字体。如果项目需要可变字重或字宽调节，Fontself 满足不了，要另外选工具。购买前先确认 49 美元起的版本包含的功能是否够用。",
+      "title": "注意",
+      "tone": "warn",
+      "type": "callout"
+    }
+  ],
+  "cover": {
+    "alt": "Fontself——在 Illustrator/Photoshop 里把手写字做成字体 的官方预览图",
+    "credit": "fontself.com",
+    "src": "https://cdn.prod.website-files.com/59edc88457a3410001ed9208/678e5804d679a4bb83061ffb_e808e19454955e289998b9e39b7cda62_MBP.avif"
+  },
+  "summary": "在 Illustrator 或 Photoshop 里画好字母，拖进面板就自动排字距、导出可安装的 OTF，一次性买断 49 美元起，还出了 iPad 独立版。"
+}

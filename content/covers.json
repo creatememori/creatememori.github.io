@@ -4598,5 +4598,395 @@
     "src": "https://nekos.best/api/v2/neko/f010781b-449b-4fe6-b769-f0f68d37479b.png",
     "alt": "Woomool——免费 AI 画布：把思考挖深的灵感整理与知识管理空间，支持实时协作 的装饰插图",
     "credit": "nekos.best（装饰插图）"
+  },
+  "i-1malms1": {
+    "src": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801",
+    "alt": "SpaceX Starmind——FCC 批准 100 万颗轨道算力卫星：太空 AI 数据中心获准上天 的官方预览图",
+    "credit": "techcrunch.com"
+  },
+  "i-1nnxyro": {
+    "src": "https://skiss.co/og.png?v=2",
+    "alt": "Skiss——按真实 CSS 存网站的设计灵感库：整页截图加字体配色一次存下，还能出 Design.md 喂 AI 的官方预览图",
+    "credit": "skiss.co"
+  },
+  "i-wox5uo": {
+    "src": "https://opengraph.githubassets.com/3452de0a231d35e2f5a9329d8fddce60c134fa79171119c078f8a97df345bb32/intel/intel-one-mono",
+    "alt": "Intel One Mono——Intel 发布的免费开源等宽编程字体：为低视力开发者设计，四字重带斜体、200+ 拉丁语种 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1ccbfzv": {
+    "src": "https://opengraph.githubassets.com/cb379ef67cf655a511b95b5530e58aff62dd5157e330378250fd605f76b80f55/DeadInternetStudios/100x-engineer-skill",
+    "alt": "100x-engineer-skill——前 Cursor 工程师的开源编程技能：让 Agent 对每块代码做形式化验证 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-l9809o": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/bharatgenai/Patram1.5-7B.png",
+    "alt": "BharatGen Patram 1.5——印度主权文档视觉模型开源：7B 参数读手写单据、表格与印章 的官方预览图",
+    "credit": "huggingface.co"
+  },
+  "i-qqgwlw": {
+    "src": "https://repository-images.githubusercontent.com/1147956055/99cd10ab-be4c-4de8-9285-781f8b1cc648",
+    "alt": "DenkiChip 1.100——紧凑有力的日文像素字体：JIS 一级汉字 2965 字、支持纵排 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-7id6ew": {
+    "src": "https://files.manuscdn.com/webapp/media/ogBanner.png",
+    "alt": "Manus——通用 AI Agent 免费档：注册送 1,000 额度，每天再领 300 的官方预览图",
+    "credit": "manus.im"
+  },
+  "i-1bi2gu0": {
+    "src": "https://www.glyphrstudio.com/images/logo.svg",
+    "alt": "Glyphr Studio——免费开源的网页字体编辑器 的官方预览图",
+    "credit": "glyphrstudio.com"
+  },
+  "i-1exnl0q": {
+    "src": "https://opengraph.githubassets.com/58cc686bd00859e620ce453b1395aeae9de7b8270765a8f7924ff4d0d1323687/JimLiu/open-artifact",
+    "alt": "open-artifact——让编程 Agent 交出能打开、能改、能批注的成品：幻灯片、表格、白板、短片一次成型 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-a5j7xn": {
+    "src": "https://chinmayhegde.github.io/fodl/static/open-graph-logo.png",
+    "alt": "Foundations of Deep Learning——研究生级深度学习理论讲义：从表示、优化到泛化讲清网络为什么有效，配 AI 助教与习题 的官方预览图",
+    "credit": "chinmayhegde.github.io"
+  },
+  "i-ltcb7l": {
+    "src": "https://ashokdey.com/experiments/og/onelab-og.jpg",
+    "alt": "See how the world works 的官方预览图",
+    "credit": "ashokdey.com"
+  },
+  "i-n56au5": {
+    "src": "https://typeforward.com/wp-content/uploads/2025/08/Artboard-1.png",
+    "alt": "Type Forward——保加利亚独立字库，Salinger、Garet、Oddval 等可变字体都带鲜明个性 的官方预览图",
+    "credit": "typeforward.com"
+  },
+  "i-1om1637": {
+    "src": "https://shayon.work/riemann/og.png",
+    "alt": "How deep is the Riemann hypothesis? 的官方预览图",
+    "credit": "shayon.work"
+  },
+  "i-1ey5tcy": {
+    "src": "https://typogram.co/open-graph-image-1320-630.png",
+    "alt": "Typogram——以排版为先的设计画布 的官方预览图",
+    "credit": "typogram.co"
+  },
+  "i-akbd44": {
+    "src": "https://mlsysbook.ai/vol1/covers/cover-hardcover-book-vol1.png",
+    "alt": "Machine Learning Systems——哈佛开源 AI 工程教材：从芯片到万卡集群讲透 ML 系统，配手搓框架与硬件实验 的官方预览图",
+    "credit": "mlsysbook.ai"
+  },
+  "i-1frzuwq": {
+    "src": "https://repository-images.githubusercontent.com/1473688485/eeec0583-ce93-4cce-a5fd-279a15319fe6",
+    "alt": "Windows Titlebar Blur Customizer——免费开源的 Windows 标题栏美化工具：Aero 玻璃、Acrylic、Mica 模糊一次调好，Win10/Win11 通用 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1so3uy8": {
+    "src": "https://www.calligraphr.com/static/website/img/social/facebook_ogimg.jpg",
+    "alt": "Calligraphr——把自己的手写字变成真正的字体 的官方预览图",
+    "credit": "calligraphr.com"
+  },
+  "i-aierfl": {
+    "src": "https://opengraph.githubassets.com/8847029718fa3693c96dc8e773e40d19116d066c14c013d11bf23fa34078d7b7/thtbee/nectarlink",
+    "alt": "NectarLink——安卓手机与电脑合体的免费开源中枢：通知短信电话剪贴板文件投屏，一个应用全包了 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1nhgnqw": {
+    "src": "https://repository-images.githubusercontent.com/1192193764/a577af7e-ab80-45cf-ae31-8cc9a182cf5b",
+    "alt": "SignuDoc——免费开源的电子签名平台：自己搭 DocuSign 平替，免费档每月约 250 份、不按座位收费 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-17p2sd3": {
+    "src": "https://repository-images.githubusercontent.com/1469335791/8fab1018-a199-46d5-bddd-b3d5a870a323",
+    "alt": "FFmpeg Video & Audio Converter——免费开源的 FFmpeg 图形界面：批量转码、查编码信息，还能跑 VMAF/PSNR/SSIM 测画质 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1l65fl2": {
+    "src": "https://opengraph.githubassets.com/ddba42d52e46cc27c0672d35f2f0496c3e895f8f578ec30e624d112021b01466/Moh4696/cinematic-skill",
+    "alt": "cinematic-skill——Agent 用代码逐帧画出的电影感纪录片：单镜头连续运镜，字幕音效按旁白逐词对齐 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-14jng2m": {
+    "src": "https://opengraph.githubassets.com/3871b6e223af002c3ac25481aed5fe0b6b7cbe265461959070b3e5f8ca56e17a/Effect-TS/ui",
+    "alt": "Effect UI——Effect 团队的新前端库公开预览：每个组件都是一个 Elm 架构程序，状态、消息、副作用全显式建模 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-yknoxw": {
+    "src": "https://files.manuscdn.com/webapp/media/ogBanner.png",
+    "alt": "Manus——通用 AI Agent 免费档：注册送 1,000 额度，每天再领 300 的官方预览图",
+    "credit": "manus.im"
+  },
+  "i-wjgt2h": {
+    "src": "https://opengraph.githubassets.com/2f450c4565b8919e9b448f3217007025cd795bcab79bf7bac9398068d19e7062/skeeto/prospero",
+    "alt": "Prospero——单文件 C++ 编程助手壳：不装 Electron、不起服务，本地模型也能驱动 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-v7tauc": {
+    "src": "https://opengraph.githubassets.com/d57b4d086a77d225d314abec3bc1e7999c99e4f9aafd5600a1704de5d7e147f6/prefix-tree/uberscene",
+    "alt": "UberScene（原 CutCraft）——一个 TSX 文件就是视频：浏览器里播放、时间线上改，导出 MP4/WebM/ProRes 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1jlc4ds": {
+    "src": "https://hoplite.sh/opengraph.png",
+    "alt": "Hoplite——云端跑编程 Agent 免费档：5 个并发会话 + 5 个项目 的官方预览图",
+    "credit": "hoplite.sh"
+  },
+  "i-1kk6c5w": {
+    "src": "https://opengraph.githubassets.com/58cc686bd00859e620ce453b1395aeae9de7b8270765a8f7924ff4d0d1323687/JimLiu/open-artifact",
+    "alt": "open-artifact——让编程 Agent 交出能打开、能改、能批注的成品：幻灯片、表格、白板、短片一次成型 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-19sr88o": {
+    "src": "https://www.systemdesign.academy/og-image.png",
+    "alt": "systemdesign.academy——系统设计与 AI 工程实战课：770+219 课图解加可运行代码，28 课免费免注册 的官方预览图",
+    "credit": "systemdesign.academy"
+  },
+  "i-r8yrj5": {
+    "src": "https://crestnote.com/opengraph-image?67207f1e4710266e",
+    "alt": "Crestnote——竞品爆款监控免费档：盯 3 个对手，每月 20 条帖子免绑卡 的官方预览图",
+    "credit": "crestnote.com"
+  },
+  "i-1lw8s01": {
+    "src": "https://checkmyapp.dev/og.png",
+    "alt": "CheckMyApp——Agent 说“做完了”，它去真站上跑一遍再信：每次部署后自动验关键流程 的官方预览图",
+    "credit": "checkmyapp.dev"
+  },
+  "i-13jk7es": {
+    "src": "https://harny.dev/assets/img/harny_wall.jpg",
+    "alt": "Harny——VS Code 里的免费开源编程 Agent：自带模型，云端或本机 Ollama 都行，先预览再动手 的官方预览图",
+    "credit": "harny.dev"
+  },
+  "i-1ol9i97": {
+    "src": "https://repository-images.githubusercontent.com/21234201/eb8c6800-895e-11ea-883c-97b8a49e3e1d",
+    "alt": "mojs——19K 星的经典动效工具带：爆裂、漩涡、交错动画声明式一把梭 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-ibrhp7": {
+    "src": "https://opengraph.githubassets.com/21137ecf5f1cda531b49c944f8612d382eb2073e57b3d95595d84da8203f6872/lumberjacque/loadersz-core",
+    "alt": "loadersz-core——160 种 Canvas 加载动画：原生 Web Component，零依赖、单个状态仅 3 kB 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-wvs3jy": {
+    "src": "https://skillry.dev/tools/imagemotion/og-en.png",
+    "alt": "ImageMotion——120 个 3D 截图动效：产品图拖进去就变轨道环绕、液态玻璃循环镜头，全程浏览器本地渲染 的官方预览图",
+    "credit": "skillry.dev"
+  },
+  "i-bnt5oz": {
+    "src": "https://spelunkr.tv/og-image.png",
+    "alt": "spelunkr.tv——免费的另类电视台：38 个频道 24 小时轮播互联网档案馆里被遗忘的老视频 的官方预览图",
+    "credit": "spelunkr.tv"
+  },
+  "i-1id6xgp": {
+    "src": "https://foaktee.github.io/rubin-euclid-discovery/og-thumbnail.png",
+    "alt": "Eyes on the Cosmos——N-body 3D 太阳系与银河系：NASA JPL 真实数据 + 93 颗未编目海王星外天体候选 的官方预览图",
+    "credit": "foaktee.github.io"
+  },
+  "i-ddruhm": {
+    "src": "https://slopie.app/og.jpg",
+    "alt": "Slopie——免费 3D 滑雪地图：69 国 4,000+ 雪场雪道缆车全上真地形，浏览器免账号直接看 的官方预览图",
+    "credit": "slopie.app"
+  },
+  "i-1civ7xk": {
+    "src": "https://freellmapi.link/og.png",
+    "alt": "Free LLM API Tokens——167 家免费模型 API 一站查完：每天更新、标明要不要绑卡 的官方预览图",
+    "credit": "freellmapi.link"
+  },
+  "i-juydvn": {
+    "src": "https://opengraph.githubassets.com/42f4e0174e1c67f67ae5276e20c122d43c1b5f57acca73cd68262e689c9a2f09/Nebula4207/av1-video-encoder-gui",
+    "alt": "AV1 Video Encoder GUI——免费开源的 Windows 版 AV1 编码图形界面：六种编码器一次配好、并行压片，不用记命令行 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-10tgkez": {
+    "src": "https://opengraph.githubassets.com/e7099e4c049c22f53b091b84f50152b63637bbee6dcca3dc6c9f00e081ef7f4f/andrewboldi/tmux-restore",
+    "alt": "tmux-restore——重启也不丢的 tmux：每分钟加关机时各存一次，AI 编程助手连对话带参数原样回来 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1wu1383": {
+    "src": "https://www.wenderapp.com/images/wender-og.png",
+    "alt": "Wender Desktop——100% 免费的设计画布：接 Storybook 真组件做原型，Mac 本地存文件、零订阅零座位费 的官方预览图",
+    "credit": "wenderapp.com"
+  },
+  "i-vrg9b4": {
+    "src": "https://spelunkr.tv/og-image.png",
+    "alt": "spelunkr.tv——免费的另类电视台：38 个频道 24 小时轮播互联网档案馆里被遗忘的老视频，4,571 小时公共领域素材可直接当无脸视频的 B-roll 或找选题灵感 的官方预览图",
+    "credit": "spelunkr.tv"
+  },
+  "i-1mu56m5": {
+    "src": "https://sessiongraph.ai/assets/social.jpg",
+    "alt": "SessionGraph——把各家编程 Agent 的会话历史画成一张图 的官方预览图",
+    "credit": "sessiongraph.ai"
+  },
+  "i-9b9aj1": {
+    "src": "https://developers.openai.com/open-graph.png",
+    "alt": "OpenAI Codex 学生 $100——美加在校大学生领 2,500 额度：免绑卡，12 个月内用完 的官方预览图",
+    "credit": "developers.openai.com"
+  },
+  "i-1g1b4ma": {
+    "src": "https://www.designlounge.live/og/home.jpg",
+    "alt": "Design Lounge——免费给 AI 编程助手装设计品味：600+ 真实 UI 设计 + 免费 MCP 的官方预览图",
+    "credit": "designlounge.live"
+  },
+  "i-1gpwsy1": {
+    "src": "https://cdn.sanity.io/images/onirtmj2/production/5e497275070e44cc06b05b4f2398ded18148f51b-2400x1260.png?rect=0,2,2400,1256&w=1200&h=628&fit=crop&auto=format",
+    "alt": "Customer.io Startup Program——创业公司免费 12 个月：30,000 用户画像 + 全套 Essentials 邮件短信推送 的官方预览图",
+    "credit": "customer.io"
+  },
+  "i-vjot6": {
+    "src": "https://opengraph.githubassets.com/91335f4b64a85ca90f48bd919266f491406d76e4ba413ba08ed6c6b04f4a13bd/google-gemini/demolab",
+    "alt": "Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-gu1uk5": {
+    "src": "https://www.koru.do/og.png?v=5",
+    "alt": "Koru——免费开源的离线笔记工作台：笔记文档文件任务一体，AI 助手当标签页直接改你的文档 的官方预览图",
+    "credit": "koru.do"
+  },
+  "i-1tmqw4z": {
+    "src": "https://www.koru.do/og.png?v=5",
+    "alt": "Koru——免费开源的离线笔记工作台：笔记文档文件任务一体，AI 助手当标签页直接改你的文档 的官方预览图",
+    "credit": "koru.do"
+  },
+  "i-r0gob6": {
+    "src": "https://opengraph.githubassets.com/3bab1fc02c27fc66062351262031e2cc267eb653253c5aab513f719685775f1c/convex/convex-backend-skill/issues/64",
+    "alt": "Convex 官方 Claude 插件被曝悄悄外传用户创意、教 Agent 绕开安全检查 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-wfskzl": {
+    "src": "https://pixelui.dev/opengraph-image?db0063aa03b0809c",
+    "alt": "Pixel UI——20 个免费开源的动效 React 组件：Tailwind CSS + Motion 打造，shadcn CLI 或 MCP 一条命令装进项目，源码复制走自己拥有 的官方预览图",
+    "credit": "pixelui.dev"
+  },
+  "i-60toyu": {
+    "src": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "alt": "SOLVE——清华+英伟达免训练机器人操作框架：真机零样本任务成功率 88%，单集成本 $1.7 的官方预览图",
+    "credit": "arxiv.org"
+  },
+  "i-1ldasd": {
+    "src": "https://opengraph.githubassets.com/280a2b95df9d169d97f88eb9a88c58f3efd46c30549efead891a3321b32aa950/Paxton0209/halden",
+    "alt": "Halden 1.1.1——为 OLED 深色屏做光学补偿的界面无衬线，日夜切换零重排 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1w4v203": {
+    "src": "https://opengraph.githubassets.com/0bad2c4d6f20d0201e54cbd1fd86b1b758621653fde17039f24c4bd2dc01e842/solomonabraham/Varcoda-Mono",
+    "alt": "Varcoda Mono 1.6——方形技术等宽字体，29 个连字不占列、五字重带手写斜体 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-1dou873": {
+    "src": "https://opengraph.githubassets.com/018c50fceb6e580e7e7f77e64a5e026382b5360e1a22edb47c1e454543d4c4e7/HelixDB/helix-mono",
+    "alt": "Helix Mono 1.0——HelixDB 改的 JetBrains Mono，无连字、六字重带斜体 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-2crd06": {
+    "src": "https://cdn.prod.website-files.com/59edc88457a3410001ed9208/678e5804d679a4bb83061ffb_e808e19454955e289998b9e39b7cda62_MBP.avif",
+    "alt": "Fontself——在 Illustrator/Photoshop 里把手写字做成字体 的官方预览图",
+    "credit": "fontself.com"
+  },
+  "i-1xlujhh": {
+    "src": "https://opengraph.githubassets.com/a8cf372c70a3c75fe7a777ad4467152b452a1aa5b21b2f8d3f5b169fc4bbf7e7/giannacrisha/glyphwriter",
+    "alt": "Glyphwriter——手写纸一扫就成真 TTF，墨迹边缘原样保留 的官方预览图",
+    "credit": "github.com"
+  },
+  "i-146z7c0": {
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/54/2d/20542dda-64c7-9045-bf08-90f78dce4b4d/Placeholder.mill/1200x630wa.jpg",
+    "alt": "Tano——学韩语只背你不会的词：先水平测试跳过已掌握词汇，每天 3 个新词免费练 的官方预览图",
+    "credit": "apps.apple.com"
+  },
+  "i-dvkvjg": {
+    "src": "https://devventura.com/-/opengraph-image.png?opengraph-image.0eyaerftldhgu.png",
+    "alt": "Devventura——边做真实工作边学编程：19 课 530 节，学完进虚拟公司做工单、修同事的 bug、审 PR 的官方预览图",
+    "credit": "devventura.com"
+  },
+  "i-yozhkz": {
+    "src": "https://www.typejockeys.com/media/pages/home/2e8c925a9b-1756806538/marie-teaser-og.png",
+    "alt": "Typejockeys——维也纳字库，字体、lettering 与标志设计一把抓 的官方预览图",
+    "credit": "typejockeys.com"
+  },
+  "i-14v1q1q": {
+    "src": "https://nekos.best/api/v2/neko/bfdb8bab-0e26-44c2-ae73-c635702c31ce.png",
+    "alt": "DragDropMath——拖符号学代数：只允许合法变形，13 章从移项到二次方程 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-15448gy": {
+    "src": "https://nekos.best/api/v2/neko/c97d7d2f-e2d7-4ca8-a4e1-dc2410c88032.png",
+    "alt": "airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-ob2n2l": {
+    "src": "https://nekos.best/api/v2/neko/3b3658d7-a91f-4da3-aa96-71150e67dd8c.png",
+    "alt": "gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-6y5rfu": {
+    "src": "https://nekos.best/api/v2/neko/8007a8ec-2328-40ed-97ae-be09f568775c.png",
+    "alt": "Oya Browser——给 AI Agent 一个真正登录好的浏览器：MFA 一键接管，录一次流程、之后零 token 回放 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-160ozfp": {
+    "src": "https://nekos.best/api/v2/neko/ac1370f2-243c-4773-a357-7fc34eed18df.png",
+    "alt": "smoui——艺术指导风的 React 动效组件：每个组件都有实时预览、安装命令、用法代码和 props 说明，几分钟就能复制进项目 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-5t8usm": {
+    "src": "https://nekos.best/api/v2/neko/43ab7ed5-7630-4ea1-ba38-e1d1da8e6fd1.png",
+    "alt": "Motion Fab——聊天描述、AI Agent 帮你做动画视频：动感文字、3D、音效配音全包，边做边看实时预览，一句话就能改，导出 MP4 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-lri6eo": {
+    "src": "https://nekos.best/api/v2/neko/f364ee32-e509-4272-8485-b22e0b2caa1f.png",
+    "alt": "DFly2——腾讯开源稀疏模型推理加速器：草稿不存 KV 缓存，64K 吞吐最高提升 81% 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-1k2xm3h": {
+    "src": "https://nekos.best/api/v2/neko/b65e8d68-737b-4415-b3a9-507807fa80e0.png",
+    "alt": "Bureau Brut——法国独立字库，试用字体给完整字符集、学生免费用 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-ohq5wr": {
+    "src": "https://nekos.best/api/v2/neko/70057595-8d43-4d79-a0c7-507695fdd27a.png",
+    "alt": "Metaflop——拖滑块调参数，免费调出自己的字体 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-1o06als": {
+    "src": "https://nekos.best/api/v2/neko/54de831b-913d-4793-8514-204961f0fbb8.png",
+    "alt": "Excaliboard——给 Excalidraw 加文件夹、搜索与 1 万+ 图标的免费扩展 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-12zy1ek": {
+    "src": "https://nekos.best/api/v2/neko/a4467805-7240-4f6f-ae18-72e8aa5bb9c5.png",
+    "alt": "Meshy——AI 3D 生成免费档：每月 100 credits，文生 3D 不用绑卡 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-27hl3p": {
+    "src": "https://nekos.best/api/v2/neko/89b5775f-4d7b-41c9-aa19-c6cab997288c.png",
+    "alt": "Bezel Film——让编程 Agent 用代码生成带旁白的短片：离线运行、无需 API Key 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-16k39a2": {
+    "src": "https://nekos.best/api/v2/neko/ba5e1de0-88ba-43ae-85b6-fe145058f813.png",
+    "alt": "Live Geocentricarium 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-qwe78f": {
+    "src": "https://nekos.best/api/v2/neko/bb884d37-ba90-4c5f-9775-48fd7f7aac52.png",
+    "alt": "Vercel Workflow SDK 5.8——持久化工作流换新执行引擎：步骤间开销 p75 从 85ms 压到 7ms 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-58mbzb": {
+    "src": "https://nekos.best/api/v2/neko/3257474f-81fa-4f8c-b6ed-3ae97bff4447.png",
+    "alt": "Bezel Film——让编程 Agent 用代码生成带旁白的短片：离线运行、无需 API Key，21 种视觉风格、自动配音与字幕 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-llg7wg": {
+    "src": "https://nekos.best/api/v2/neko/032f2635-a1b7-4c68-8435-fbbcdfcd1757.png",
+    "alt": "Meshy——AI 3D 生成免费档：每月 100 credits，文生 3D 不用绑卡 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-14yovq4": {
+    "src": "https://nekos.best/api/v2/neko/02e929b2-deef-4e3d-870c-5919233a7688.png",
+    "alt": "River AI——新号 $25 API 额度：DeepSeek 与 GLM 旗舰闪充模型免绑卡直调 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  },
+  "i-salh11": {
+    "src": "https://nekos.best/api/v2/neko/3bd9e707-1a7d-49e3-b4c9-f8155fe35fd8.png",
+    "alt": "dogamotion——169 个无缝循环动效模板：拖张图或输行字就能让设计动起来，还能导出 React/Vue 组件 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
   }
 }

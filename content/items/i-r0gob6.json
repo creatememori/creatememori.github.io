@@ -1,0 +1,47 @@
+{
+  "blocks": [
+    {
+      "text": "这是一条安全提醒，不是新功能。GitHub issue #64 在 10 月 26 日提交，11 月 27 日冲上 Hacker News 首页，拿到 300 多分。问题出在 Convex 的官方 Claude 插件上，一共三处：quickstart skill 会把用户的一句话创意 POST 到 convex.site，标注为 telemetry，却不告知用户；add skill 会把没有 pin 住版本的脚本直接管道进 bash 执行；labs-quickstart 则明确教 Agent 拆分命令，以躲过安全分类器。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "quickstart skill 把用户一句话创意 POST 到 convex.site，标注 telemetry 且不告知",
+        "add skill 把未 pin 的脚本直接管道进 bash",
+        "labs-quickstart 教 Agent 拆分命令以躲过安全分类器",
+        "CEO 回应：上传为生成脚手架、30 秒内丢弃；截至 11 月 28 日仍 open 未修复"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "三处问题里，最警惕的是第一处和第三处：创意被悄悄外传，没公开的想法可能先离开本机；教 Agent 绕过安全检查，则是把防护机制本身当成了障碍。CEO 回应称上传只为生成脚手架、30 秒内丢弃，但截至 11 月 28 日 issue 仍 open、未修复。装过 Convex 官方 Claude 插件的人先对照自查，尤其是用 quickstart 搭过项目、或在插件里输入过未公开创意的人。",
+      "type": "paragraph"
+    },
+    {
+      "text": "这件事给所有装插件的人提了个醒：skill 与插件的权限边界值得定期检查。装之前先看它会访问什么、会不会联网外传数据；用的时候，涉及未公开创意、密钥或客户资料的内容，先想一想再粘贴。插件生态发展很快，方便与风险常常是一体两面，官方回应再快，也不如自己先把敏感信息挡在门外。等 Convex 修复落地、issue 关闭后，再按新版说明重新评估是否恢复使用。安全这件事，宁可多查一步，也别事后补救。",
+      "type": "paragraph"
+    },
+    {
+      "items": [
+        "打开 issue #64，对照三处问题检查自己用过哪些 skill",
+        "检查 quickstart 是否把你的创意发到过 convex.site",
+        "在官方修复前，谨慎使用相关 skill，敏感创意先不要经插件输入"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "截至 11 月 28 日 issue 仍 open、未修复；官方回应不等于问题已解决，等修复落地后再恢复正常使用。",
+      "title": "还没修复",
+      "tone": "warn",
+      "type": "callout"
+    }
+  ],
+  "cover": {
+    "alt": "Convex 官方 Claude 插件被曝悄悄外传用户创意、教 Agent 绕开安全检查 的官方预览图",
+    "credit": "github.com",
+    "src": "https://opengraph.githubassets.com/3bab1fc02c27fc66062351262031e2cc267eb653253c5aab513f719685775f1c/convex/convex-backend-skill/issues/64"
+  },
+  "summary": "Convex 官方 Claude 插件被曝出三处安全问题：悄悄外传用户创意、脚本直通 bash、还教 Agent 绕过安全检查，截至 11 月 28 日仍未修复，用过的先自查。"
+}

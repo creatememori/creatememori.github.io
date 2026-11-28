@@ -1,0 +1,51 @@
+{
+  "summary": "一个免费开源的 Windows 版 AV1 编码图形界面，六种编码器一次配好，还支持并行压片，不用再记命令行参数。",
+  "blocks": [
+    {
+      "text": "AV1 压得好，但命令行参数劝退了不少人。AV1 Video Encoder GUI 把 aomenc、rav1e、SVT-AV1、NVENC、Quick Sync 与 VP9 六种编码器一次配好，图形界面里完成转码设置，还支持并行编码。11 月 24 日刚发 v4.4.5，MIT 开源，现 1.1k 星，今日登上 GitHub 趋势榜。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "六种编码器一次配好：aomenc、rav1e、SVT-AV1、NVENC、Quick Sync、VP9。",
+        "支持并行编码，多任务一起压。",
+        "图形界面完成转码设置，不用记命令行。",
+        "MIT 开源，v4.4.5 于 11 月 24 日发布，现 1.1k 星。",
+        "并行编码，多任务一起压，省时间。",
+        "先拿一小段试效果，再批量压。"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "适合经常要转码、压片的人：先在图形界面里把编码器和参数配好，并行跑起来，省下的时间比学一遍命令行多。登上 GitHub 趋势榜说明它正被不少人试用，但也意味着它还年轻，遇到怪问题先去仓库的 Issue 里翻一翻，比自己硬啃划算。",
+      "type": "paragraph"
+    },
+    {
+      "text": "适合经常要转码、压片的人：视频创作者、收藏整理者，或者要把一堆素材统一压成 AV1 的人。图形界面里把编码器与参数一次配好，并行跑起来，省下的时间比学一遍命令行多。六种编码器各有分工，有硬件加速的走 NVENC 或 Quick Sync，没有的就用软件编码器，先从默认设置跑一小段试效果，再批量压。刚登上 GitHub 趋势榜，说明正被不少人试用，遇到怪问题先去仓库的 Issue 里翻一翻，比自己硬啃划算。新手建议先从默认设置跑一小段，确认画质与速度都满意再批量压；有硬件加速优先走 NVENC 或 Quick Sync，没有硬件加速就用软件编码器，照样能压。",
+      "type": "paragraph"
+    },
+    {
+      "items": [
+        "从 GitHub 仓库下载安装，打开图形界面。",
+        "选一种编码器，配好转码设置。",
+        "加入任务并行编码，等它跑完。",
+        "先选编码器：有硬件加速走 NVENC 或 Quick Sync，没有就用软件编码器。",
+        "先从默认设置跑一小段试效果，确认没问题再批量压。"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "仅支持 Windows。NVENC 与 Quick Sync 需要对应硬件，没有的话选软件编码器。",
+      "title": "别忽略这一条",
+      "tone": "warn",
+      "type": "callout"
+    }
+  ],
+  "cover": {
+    "alt": "AV1 Video Encoder GUI——免费开源的 Windows 版 AV1 编码图形界面：六种编码器一次配好、并行压片，不用记命令行 的官方预览图",
+    "credit": "github.com",
+    "src": "https://opengraph.githubassets.com/42f4e0174e1c67f67ae5276e20c122d43c1b5f57acca73cd68262e689c9a2f09/Nebula4207/av1-video-encoder-gui"
+  }
+}

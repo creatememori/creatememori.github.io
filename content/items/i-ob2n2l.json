@@ -1,0 +1,47 @@
+{
+  "blocks": [
+    {
+      "text": "gutcheck 是一个免费开源的 Claude Code 技能，MIT 协议，11 月 24 日登上 Product Hunt，11 月 28 日排到当日第 18。用法只有一句命令：输入 /gutcheck 加上你的想法，它先定一份研究计划，再拉 Google Trends、Google News、Hacker News、GitHub、App Store、Wikipedia 与全网的实时证据，最后给出结论与可信度、反方观点，以及本周就可以做的下一步。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "一句 /gutcheck + 想法，自动定研究计划并拉多方实时证据",
+        "证据来源：Google Trends、Google News、HN、GitHub、App Store、Wikipedia 与全网",
+        "输出结论与可信度、反方观点、本周可做的下一步",
+        "完全免费、无 API Key 就能起步，全程本机运行"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "做产品最怕的不是想法不够多，而是没验证就开干。gutcheck 把“先验证再动手”做成了一条命令：它不只给结论，还给可信度与反方观点，相当于先帮你把反对意见也想了一遍；“本周可做的下一步”则让验证结果直接落到行动上。适合有新点子想快速验证的独立开发者、创业者或内容创作者，动工前先花几分钟跑一次。",
+      "type": "paragraph"
+    },
+    {
+      "text": "它的价值不只在验证本身，还在验证的方式：先定研究计划，再分头取证，最后才给结论，这个顺序本身就值得借鉴。很多人做验证是先有结论再找证据，容易只挑支持自己的材料；gutcheck 把反方观点也写进输出，等于逼着你先看反对意见。可信度一栏同样有用：结论不是非黑即白，而是标明有多大把握，低可信度的结论就该再查一轮，而不是直接动手。动工前花几分钟跑一次，省下的可能是几周白干的时间。",
+      "type": "paragraph"
+    },
+    {
+      "items": [
+        "在 Claude Code 里装好 gutcheck 技能",
+        "输入 /gutcheck + 你的想法，等它完成研究计划与多方取证",
+        "看结论、可信度与反方观点，再按“本周可做的下一步”决定是否动手"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "需要 Claude Code 才能用，macOS 与 Linux 可用、Windows 未测试；Reddit 的免费源已经关闭，查 Reddit 须自备 Reddit API Key；用量走你自己的 Claude 套餐，gutcheck 本身不另收费。",
+      "title": "使用前注意",
+      "tone": "warn",
+      "type": "callout"
+    }
+  ],
+  "summary": "一个免费开源的 Claude Code 技能：输入一句想法，它就拉多方实时证据做验证，给出结论、可信度、反方观点和本周能做的下一步。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/3b3658d7-a91f-4da3-aa96-71150e67dd8c.png",
+    "alt": "gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  }
+}

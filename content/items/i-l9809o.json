@@ -1,0 +1,51 @@
+{
+  "summary": "11 月 26 日 IndiaAI Mission 支持的 BharatGen 发布 Patram 1.5，7.8B 参数视觉语言模型，直接把文档当图片读——手写、扫描件、表格、印章、印地语…",
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 26 日 IndiaAI Mission 支持的 BharatGen 发布 Patram 1.5，7.8B 参数视觉语言模型，直接把文档当图片读——手写、扫描件、表格、印章、印地语混排都能处理，新增 OCR 3.0（自然语言指定要抽什么字段）与“读不清就认错”的拒答机制；Apache 2.0 协议，权重已上 Hugging Face（需接受使用条件后下载），另有在线 Playground 可试。注意：49 项评测含自家 PatramBench，基准本身尚未公开，厂商分数仅供参考。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "Apache 2.0 协议，权重已上 Hugging Face（需接受使用条件后下载），另有在线 Playground 可试。",
+        "注意：49 项评测含自家 PatramBench，基准本身尚未公开，厂商分数仅供参考。",
+        "归类在「前沿追踪 / Hugging Face 论文速递」，11-28 中午收录。",
+        "原始入口在 huggingface.co，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "前沿更新最容易被“首发”“最强”“颠覆”带走。这个分类保留发布日期、来源和官方口径，把“已经发生的事实”和“厂商自报的数字”分开写。 这条具体落在「Hugging Face 论文速递」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合开发者、研究者与内容创作者做趋势判断。先看论文、代码和可复现实验，再看二手解读；涉及跑分、价格和可用范围时，回到原始页面核对。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先看原始论文、仓库或官方博客，不看二手摘要",
+        "02 区分厂商自报、第三方复现与社区反馈",
+        "03 记录发布日期与版本，避免旧闻当新闻"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「前沿追踪」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ],
+  "cover": {
+    "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/bharatgenai/Patram1.5-7B.png",
+    "alt": "BharatGen Patram 1.5——印度主权文档视觉模型开源：7B 参数读手写单据、表格与印章 的官方预览图",
+    "credit": "huggingface.co"
+  }
+}

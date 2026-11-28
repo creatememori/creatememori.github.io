@@ -1,0 +1,47 @@
+{
+  "blocks": [
+    {
+      "text": "Oya Browser 是一个免费桌面应用，支持 Mac 与 Windows，11 月 20 日登上 Product Hunt，11 月 28 日入选当日榜单。它解决的是 Agent 自动化里最别扭的一环：登录。Oya 给 Claude Code、Cursor、Codex 或任意 MCP 客户端提供一个真实的、已经登录好的浏览器——Agent 不用在提示词里放密码，登录态持久保留；流程跑到一半遇到 2FA 或 SSO，可以一键人工接管，处理完再交还给 Agent；录一次流程，之后可以零 LLM 调用直接回放，或者导出成标准 Playwright 代码，自己拥有。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "给 Agent 一个真实的已登录浏览器，登录态持久保留",
+        "Agent 不用在提示词里放密码",
+        "遇到 2FA/SSO 可一键人工接管再交还",
+        "录一次流程可零 LLM 调用回放，或导出标准 Playwright 代码"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "需要 Agent 操作已登录网站的人都遇到过同样的墙：验证码、二次验证、单点登录，每一步都可能卡住流程。Oya 的思路是把“登录态”和“人工接管”做成基础设施，而不是让 Agent 在提示词里硬凑密码或反复重试。适合用 Agent 做需要登录的自动化、测试或数据整理的人，也适合想把重复操作录下来复用的团队。",
+      "type": "paragraph"
+    },
+    {
+      "text": "对做自动化的人来说，它的价值在把登录这件脏活累活接了过去：不用再为每个网站写登录脚本，也不用把密码塞进提示词。录一次流程就能零 token 回放，重复操作越多，省下的调用成本越明显。遇到验证时人工接管一次，之后继续交给 Agent，流程不断档。",
+      "type": "paragraph"
+    },
+    {
+      "items": [
+        "安装 Oya Browser 桌面应用，接进 Claude Code、Cursor、Codex 或任意 MCP 客户端",
+        "在浏览器里完成一次登录，登录态会被持久保留",
+        "需要时录制流程，之后零 LLM 调用回放，或导出 Playwright 代码自己维护"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "费用要分清：桌面应用免费，开源社区版可自托管；但云端浏览器是另外计费的，起步只有 1 小时免费，Developer 套餐 500 美元/月起，按量付费、不是永久免费，用云端前先看清计费方式。",
+      "title": "云端浏览器另计费",
+      "tone": "warn",
+      "type": "callout"
+    }
+  ],
+  "summary": "一个免费桌面应用：给编程 Agent 一个真正登录好的浏览器，登录态持久保留，遇到验证可人工接管，录一次流程还能零 token 回放。",
+  "cover": {
+    "src": "https://nekos.best/api/v2/neko/8007a8ec-2328-40ed-97ae-be09f568775c.png",
+    "alt": "Oya Browser——给 AI Agent 一个真正登录好的浏览器：MFA 一键接管，录一次流程、之后零 token 回放 的装饰插图",
+    "credit": "nekos.best（装饰插图）"
+  }
+}

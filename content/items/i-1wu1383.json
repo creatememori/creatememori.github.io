@@ -1,0 +1,50 @@
+{
+  "summary": "一个 100% 免费的设计画布，接上项目的 Storybook 就能用真实组件拼界面，macOS 本地存文件、零订阅零座位费。",
+  "blocks": [
+    {
+      "text": "设计稿与真实组件之间总有一道缝：画布里拼得再好，落地还是另一套。Wender Desktop 是 macOS 15+ 原生应用，接上项目的 Storybook 就能用真实组件拼界面，也能直接改 HTML 帧、接 Claude Code 或 Codex 等 MCP 编程助手边设计边改码，11 月 28 日登上 Product Hunt。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "接上 Storybook，用真实组件拼界面做原型。",
+        "可直接改 HTML 帧，接 Claude Code 或 Codex 等 MCP 助手边设计边改码。",
+        "文件存本地 .wender，可进 Git。",
+        "下载与使用完全免费，无订阅无座位费。",
+        "原型用的就是项目里的真实组件，改完不用再翻译。",
+        "文件存本地 .wender，可进 Git，版本管理沿用老办法。"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "它瞄准的是设计师与开发者共用一套真实组件的场景：原型里用的就是项目里的组件，改完不用再翻译一遍给开发。文件存本地 .wender、可进 Git，版本管理沿用开发者的老办法。对个人或小团队来说，零订阅零座位费意味着先用起来没成本；团队协作要自备 Cloudflare 账号，托管存储费由 Cloudflare 直接收，这笔账要先算清楚。",
+      "type": "paragraph"
+    },
+    {
+      "text": "它瞄准的是设计师与开发者共用一套真实组件的场景：原型里用的就是项目里的组件，改完不用再翻译一遍给开发。对个人或小团队来说，零订阅零座位费意味着先用起来没成本，文件存本地 .wender、可进 Git，版本管理沿用开发者的老办法。团队协作要自备 Cloudflare 账号，托管存储费由 Cloudflare 直接收，这笔账动手前先算清楚。AI 助手走自己的订阅，没有额外的 Wender AI 点数要买。",
+      "type": "paragraph"
+    },
+    {
+      "items": [
+        "下载 Wender Desktop，打开自己的项目。",
+        "接上 Storybook，用真实组件拼界面做原型。",
+        "需要改码时接上 Claude Code 或 Codex 等 MCP 助手，边设计边改。",
+        "团队协作前先确认 Cloudflare 账号与托管费用。"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "下载与使用完全免费、无订阅无座位费。AI 助手走自己的订阅，另无 Wender AI 点数；团队协作须自备 Cloudflare 账号、托管存储费由 Cloudflare 直接收。",
+      "title": "注意",
+      "tone": "info",
+      "type": "callout"
+    }
+  ],
+  "cover": {
+    "alt": "Wender Desktop——100% 免费的设计画布：接 Storybook 真组件做原型，Mac 本地存文件、零订阅零座位费 的官方预览图",
+    "credit": "wenderapp.com",
+    "src": "https://www.wenderapp.com/images/wender-og.png"
+  }
+}

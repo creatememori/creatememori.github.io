@@ -1,0 +1,55 @@
+{
+  "summary": "Frere-Jones Type 联合 Intel 品牌团队设计，低视力与法定盲人开发者全程参与反馈；",
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Frere-Jones Type 联合 Intel 品牌团队设计，低视力与法定盲人开发者全程参与反馈；四字重 Light/Regular/Medium/Bold 各带斜体，支持编程连字（ss01）与多种 OpenType 特性，OTF/TTF/WOFF/WOFF2 全套、附可编辑 UFO 源文件；SIL OFL 1.1 免费商用。注意：11 月 26 日正式发布。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "四字重 Light/Regular/Medium/Bold 各带斜体，支持编程连字（ss01）与多种 OpenType 特性，OTF/TTF/WOFF/WOFF2 全套、附可编辑 UFO 源文件；",
+        "SIL OFL 1.1 免费商用。",
+        "归类在「设计素材 / 免费商用字体」，11-28 中午收录。",
+        "原始入口在 github.com，收录时标记为「有效」。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这里收的是能直接进入设计流程的素材：图标库、插画包、纹理、3D 模型、样机、版式模板与灵感参考。重点不是“好看”，而是拿下来之后能不能用。 这条具体落在「免费商用字体」，不是单独的一条链接，而是放回主题脉络里一起看。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合品牌、UI、电商与内容设计。先看授权、署名、再分发和商用限制；再好的素材，授权不清也不能进正式项目。用之前保留来源页和授权说明，方便后续核查。"
+    },
+    {
+      "type": "paragraph",
+      "text": "这款字体的来头值得多说一句：它由 Frere-Jones Type 与 Intel 品牌团队联合设计，设计过程里低视力与法定盲人开发者全程参与反馈，目标是让代码在屏幕上更好读。编程连字通过 ss01 开启，多种 OpenType 特性随字体文件一起提供；拿到手的是 OTF、TTF、WOFF 与 WOFF2 全套格式，另外附可编辑的 UFO 源文件，方便按项目需求再调整。授权是 SIL OFL 1.1，免费商用，装进编辑器或打包进项目都不用另外付费。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "01 先确认商用、署名、再分发与改作权限",
+        "02 检查格式、分辨率、分层与字体是否齐全",
+        "03 保留来源页与授权说明，方便项目交付核查"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "原站的额度、截止时间、可用地区或授权条款可能随时变化。收录状态只能代表整理时的判断，正式使用前请再核对一次原始页面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果这条和你的项目相关，建议先把它放进「设计素材」的待验证清单：先确认原始入口能打开，再用最小成本试一次。需要继续找同类资源时，从详情页右侧的同主题推荐或分类页继续浏览。"
+    }
+  ],
+  "cover": {
+    "src": "https://opengraph.githubassets.com/3452de0a231d35e2f5a9329d8fddce60c134fa79171119c078f8a97df345bb32/intel/intel-one-mono",
+    "alt": "Intel One Mono——Intel 发布的免费开源等宽编程字体：为低视力开发者设计，四字重带斜体、200+ 拉丁语种 的官方预览图",
+    "credit": "github.com"
+  }
+}

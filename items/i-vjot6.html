@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Google 把内部演示用的两条 Agent Skill 开了源：一条做带引用的深度调研，一条定前端设计方向，都能直接装进主流编程 Agent 里用。">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0C0B11">
+<link rel="canonical" href="https://creatememori.blog/items/i-vjot6.html">
+<link rel="icon" href="/logo.png">
+<link rel="apple-touch-icon" href="/logo.png">
+<link rel="alternate" type="application/rss+xml" title="创忆录更新日志" href="https://creatememori.blog/feed.xml">
+<link rel="stylesheet" href="/seo.css">
+<title>Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design｜前端·AI · 创忆录</title>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="创忆录 MEMORI">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design｜前端·AI · 创忆录">
+<meta property="og:description" content="Google 把内部演示用的两条 Agent Skill 开了源：一条做带引用的深度调研，一条定前端设计方向，都能直接装进主流编程 Agent 里用。">
+<meta property="og:url" content="https://creatememori.blog/items/i-vjot6.html">
+<meta property="og:image" content="https://opengraph.githubassets.com/91335f4b64a85ca90f48bd919266f491406d76e4ba413ba08ed6c6b04f4a13bd/google-gemini/demolab">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design 的官方预览图">
+<meta property="article:published_time" content="2026-11-28T20:00:00+08:00"><meta property="article:modified_time" content="2026-11-28T20:00:00+08:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design｜前端·AI · 创忆录">
+<meta name="twitter:description" content="Google 把内部演示用的两条 Agent Skill 开了源：一条做带引用的深度调研，一条定前端设计方向，都能直接装进主流编程 Agent 里用。">
+<meta name="twitter:image" content="https://opengraph.githubassets.com/91335f4b64a85ca90f48bd919266f491406d76e4ba413ba08ed6c6b04f4a13bd/google-gemini/demolab">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://creatememori.blog/#organization","name":"创忆录 MEMORI","alternateName":"创忆录","url":"https://creatememori.blog/","logo":{"@type":"ImageObject","url":"https://creatememori.blog/logo.png","width":128,"height":128},"sameAs":["https://github.com/creatememori/creatememori.github.io"]},{"@type":"WebSite","@id":"https://creatememori.blog/#website","url":"https://creatememori.blog/","name":"创忆录 MEMORI","alternateName":"创忆录","inLanguage":"zh-CN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://creatememori.blog/library.html?q={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://creatememori.blog/#organization"}},{"@type":"Article","@id":"https://creatememori.blog/items/i-vjot6.html#article","headline":"Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design","description":"Google 把内部演示用的两条 Agent Skill 开了源：一条做带引用的深度调研，一条定前端设计方向，都能直接装进主流编程 Agent 里用。","datePublished":"2026-11-28T20:00:00+08:00","dateModified":"2026-11-28T20:00:00+08:00","author":{"@id":"https://creatememori.blog/#organization"},"publisher":{"@id":"https://creatememori.blog/#organization"},"image":"https://opengraph.githubassets.com/91335f4b64a85ca90f48bd919266f491406d76e4ba413ba08ed6c6b04f4a13bd/google-gemini/demolab","mainEntityOfPage":"https://creatememori.blog/items/i-vjot6.html","articleSection":"前端·AI","keywords":["前端·AI","工具与框架动态","高"],"isPartOf":{"@id":"https://creatememori.blog/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://creatememori.blog/"},{"@type":"ListItem","position":2,"name":"资源库","item":"https://creatememori.blog/library.html"},{"@type":"ListItem","position":3,"name":"前端·AI","item":"https://creatememori.blog/c/frontend-ai.html"},{"@type":"ListItem","position":4,"name":"Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design","item":"https://creatememori.blog/items/i-vjot6.html"}]}]}</script>
+</head>
+<body style="--accent:#2F8F83">
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="site-head">
+  <div class="shell head-in">
+    <a class="brand" href="/" aria-label="创忆录首页">
+      <img src="/logo.png" alt="创忆录标志" width="30" height="30">
+      <span><strong>创忆录</strong><small>MEMORI ARCHIVE</small></span>
+    </a>
+    <nav class="site-nav" aria-label="页面导航">
+      <a href="/library.html">资源库</a>
+      <a href="/c/">分类</a>
+      <a href="/updates/">更新日志</a>
+    </nav>
+    <a class="head-cta" href="/library.html">进入资源库 <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main id="main"><div class="shell detail-shell">
+<nav class="breadcrumbs" aria-label="面包屑"><a href="/">首页</a><span aria-hidden="true">/</span><a href="/library.html">资源库</a><span aria-hidden="true">/</span><a href="/c/frontend-ai.html">前端·AI</a><span aria-hidden="true">/</span><a href="/items/i-vjot6.html">Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design</a></nav>
+<article class="detail-wrap">
+  <header class="detail-hero">
+    <div class="detail-kicker"><a href="/c/frontend-ai.html">前端·AI</a><span>工具与框架动态</span><em>MEMORI DETAIL / 014</em></div>
+    <h1>Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design</h1>
+    <p class="detail-summary">Google 把内部演示用的两条 Agent Skill 开了源：一条做带引用的深度调研，一条定前端设计方向，都能直接装进主流编程 Agent 里用。</p>
+    <div class="detail-meta">
+      <span class="status status-ok">有效</span>
+      <span>11-28 · 晚</span>
+      <span>高热度</span>
+      
+      <a href="https://github.com/google-gemini/demolab" target="_blank" rel="noopener noreferrer">原始来源 ↗</a>
+    </div>
+  </header>
+  <figure class="detail-cover">
+  <img src="https://opengraph.githubassets.com/91335f4b64a85ca90f48bd919266f491406d76e4ba413ba08ed6c6b04f4a13bd/google-gemini/demolab" alt="Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design 的官方预览图" loading="eager" fetchpriority="high" decoding="async" referrerpolicy="no-referrer">
+  <figcaption><span>github.com</span></figcaption>
+</figure>
+  <div class="detail-columns">
+    <div class="detail-content"><p class="detail-lead">11 月 27 日，Google Gemini 团队把此前只在演示里出现的两个 skill 放进了 demolab 仓库并开源。deep-research 负责调研：指挥多个并行子 Agent 从不同角度查资料，只认一手来源，结论附带引用；gemini-frontend-design 负责前端设计：从排版、配色到动效先定方向，做完还要经过一道视觉验收。两个 skill 都是 Apache-2.0 协议。</p>
+<section class="detail-block detail-highlights">
+      <h2>先看这几点</h2>
+      <ul><li>deep-research：并行子 Agent 多角度调研，只认一手来源、附引用</li><li>gemini-frontend-design：排版、配色、动效先定方向，做完做视觉验收</li><li>Apache-2.0 开源，可装进 Claude Code、Cursor、Codex、Antigravity 等</li></ul>
+    </section>
+<p>这两个 skill 有意思的地方在于分工很干净：一个管“查得对不对”，一个管“做得好不好看”。调研类 skill 过去常被吐槽只会堆二手信息，deep-research 明确只认一手来源并附引用，至少在使用方式上先立了规矩；前端设计 skill 则把“先定方向、再做验收”写进流程，适合用 Agent 做页面时先对齐审美再动手。适合已经在用 Claude Code、Cursor、Codex 或 Antigravity 这类工具的开发者和独立创作者，直接装进自己的 Agent 工作流里试。</p>
+<p>对普通开发者来说，这类 skill 的意义不在功能本身，而在它提供了一份可照抄的写法：调研时怎么拆并行任务、怎么要求一手来源与引用，做页面时怎么先定方向再验收。把它们装进自己的 Agent 工具后，可以先在小任务上试效果，再决定是否写进常用流程；遇到不匹配的地方，照着仓库里的结构改一改，比从零写一份 skill 省事得多。</p>
+<section class="detail-block detail-steps">
+      <h2>怎么用</h2>
+      <ol><li>打开 demolab 仓库，按说明把两个 skill 装进你用的 Agent 工具</li><li>做调研时调用 deep-research，让它并行查资料并给出带引用的结论</li><li>做页面时先让 gemini-frontend-design 定排版、配色与动效方向，再按验收结果迭代</li></ol>
+    </section>
+<aside class="detail-callout callout-tip">
+      <small>提示</small>
+      <p>这是 Google 演示用的 skill，不是官方产品承诺：实际效果取决于你用的模型与 Agent 工具，装之前先看仓库里的说明，确认与你当前工具的版本匹配。</p>
+    </aside></div>
+    <aside class="detail-aside">
+      <div class="detail-aside-card">
+        <small>收录信息</small>
+        <strong>前端·AI · 工具与框架动态</strong>
+        <p>11-28 晚批次收录。详情页由结构化内容生成，原始入口和最新限制以来源页为准。</p>
+        <a href="https://github.com/google-gemini/demolab" target="_blank" rel="noopener noreferrer">打开原始来源 ↗</a>
+      </div>
+      <div class="detail-aside-card">
+        <small>同主题继续看</small>
+        <div class="detail-related"><a class="detail-related-card" href="/items/i-1mu56m5.html">
+    <small>前端·AI · 工具与框架动态</small>
+    <strong>SessionGraph——把各家编程 Agent 的会话历史画成一张图</strong>
+    <span>11-28 · 高热度</span>
+  </a><a class="detail-related-card" href="/items/i-r0gob6.html">
+    <small>前端·AI · 安全与版本更新</small>
+    <strong>Convex 官方 Claude 插件被曝悄悄外传用户创意、教 Agent 绕开安全检查</strong>
+    <span>11-28 · 高热度</span>
+  </a><a class="detail-related-card" href="/items/i-14jng2m.html">
+    <small>前端·AI · 工具与框架动态</small>
+    <strong>Effect UI——Effect 团队的新前端库公开预览：每个组件都是一个 Elm 架构程序，状态、消息、副作用全显式建模</strong>
+    <span>11-28 · 高热度</span>
+  </a><a class="detail-related-card" href="/items/i-qwe78f.html">
+    <small>前端·AI · 工具与框架动态</small>
+    <strong>Vercel Workflow SDK 5.8——持久化工作流换新执行引擎：步骤间开销 p75 从 85ms 压到 7ms</strong>
+    <span>11-28 · 高热度</span>
+  </a></div>
+        <a class="all-link" href="/c/frontend-ai.html">回到「前端·AI」分类 <span aria-hidden="true">→</span></a>
+      </div>
+    </aside>
+  </div>
+  <nav class="detail-bottom" aria-label="详情页导航">
+    <a href="/library.html">← 返回资源库</a>
+    <a href="/c/frontend-ai.html">继续看 前端·AI →</a>
+  </nav>
+</article>
+</div></main>
+<footer class="site-foot">
+  <div class="shell">
+    <div class="foot-main">
+      <div>
+        <div class="foot-brand">
+          <img src="/logo-light.png" alt="创忆录标志" width="46" height="46">
+          <div><strong>创忆录</strong><small>MEMORI ARCHIVE</small></div>
+        </div>
+        <p>把今天的好资源，存成明天还能用的记忆。免费额度、AI 工具、网页动效、排版、设计、视频与前沿情报，按主题持续归档。</p>
+      </div>
+      <div class="foot-links">
+        <div><strong>站内</strong><a href="/">介绍页</a><a href="/library.html">资源库</a><a href="/c/">分类索引</a><a href="/updates/">更新日志</a><a href="https://creatememori.blog/feed.xml">RSS 订阅</a></div>
+        <div><strong>热门分类</strong><a href="/c/web-motion.html">网页动效</a><a href="/c/ai-workflows.html">AI 实战</a><a href="/c/design-assets.html">设计素材</a><a href="/c/free-resources.html">免费资源</a><a href="/c/frontier.html">前沿追踪</a><a href="/c/video-creation.html">视频创作</a></div>
+        <div><strong>关于</strong><a href="https://github.com/creatememori/creatememori.github.io" target="_blank" rel="noopener noreferrer">GitHub 仓库</a><a href="/library.html#aboutHeading">关于资源库</a><a href="/library.html#allHead">全部条目</a></div>
+      </div>
+    </div>
+    <div class="foot-cats" aria-label="全部分类"><a href="/c/free-resources.html">免费资源</a><a href="/c/web-motion.html">网页动效</a><a href="/c/typography.html">排版网站</a><a href="/c/youtube-topics.html">YouTube 选题</a><a href="/c/frontend-ai.html">前端·AI</a><a href="/c/ai-workflows.html">AI 实战</a><a href="/c/tools.html">黑科技工具</a><a href="/c/video-creation.html">视频创作</a><a href="/c/sci-vis.html">科学可视化</a><a href="/c/learning.html">学习成长</a><a href="/c/design-assets.html">设计素材</a><a href="/c/frontier.html">前沿追踪</a></div>
+    <div class="foot-base"><span>© 2026 创忆录 · MEMORI ARCHIVE</span><span>数据来自资源库 · 分类页与更新日志由构建脚本生成</span></div>
+  </div>
+</footer>
+</body>
+</html>

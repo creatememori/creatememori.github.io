@@ -5,409 +5,409 @@
   <link>https://creatememori.blog/updates/</link>
   <description>创忆录每天新增的免费资源、AI 工具、网页动效、设计素材与前沿情报。</description>
   <language>zh-CN</language>
-  <lastBuildDate>Sat, 28 Nov 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 12:00:00 GMT</lastBuildDate>
   <generator>MEMORI build-seo</generator>
   <image><url>https://creatememori.blog/logo.png</url><title>创忆录 MEMORI</title><link>https://creatememori.blog/</link></image>
   <atom:link href="https://creatememori.blog/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Gemini 4 Carbon 破解 Hadwiger 猜想——AI 攻下 70 年几何难题，Lean 4 全程机核</title>
-    <link>https://creatememori.blog/items/i-optyey.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-optyey.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>前沿追踪</category>
-    <description><![CDATA[11 月 24 日 arXiv 论文（2611.32334）：谷歌 Gemini 4 Carbon 实验框架自主发现三维 Hadwiger 覆盖猜想的证明思路——任意三维凸体都能被 8 个缩小版自身覆盖，“2+6=8 终线照亮法”；13,663 行 Lean 4 形式化代码机核通过、34 个文件零未证步骤。注意：预印本、尚未同行评审；四维情形仍未解决。]]></description>
-  </item>
-  <item>
-    <title>Liquid AI d1.3-ultra——不聊天的决策模型登顶，专做判断不写字</title>
-    <link>https://creatememori.blog/items/i-1eukufm.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1eukufm.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>前沿追踪</category>
-    <description><![CDATA[11 月 27 日发布：Liquid 最强决策模型 d1.3-ultra，不生成文本、一次返回每个选项的校准概率；Artificial Analysis 决策指数 76.4 分、27 个模型中排第一（四舍五入与 Bison 31B 并列，未四舍五入领先 0.5 分）；新增排序、图片/音频取值、音频时间定位三项能力。注意：托管 API 每百万输入 tokens $0.042，控制台已上线，OpenRouter 与 Vercel 接入称“即将推出”，未开源权重。]]></description>
-  </item>
-  <item>
-    <title>小米 World Model 2.0——一个模型同时懂开车与机器人，1–7 路摄像头通用</title>
-    <link>https://creatememori.blog/items/i-u0tgw4.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-u0tgw4.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>前沿追踪</category>
-    <description><![CDATA[11 月 27 日 IT Home 报道：小米汽车发布 World Model 2.0，统一流式因果世界模型，1–7 路摄像头同一架构，据报道训练语料 1260 万条片段；WorldRec 2.0 一次前向重建动静态 3D 高斯场景，生成长时序未来画面不跑偏，面向闭环仿真、闭环训练与世界动作模型。注意：论文 11 月 1 日已上 arXiv（2611.01677），本次为正式发布报道；暂无公开权重与在线试用。]]></description>
-  </item>
-  <item>
-    <title>腾讯 Hy3D 3.6——文生 3D 冲进专业管线，200 万面 + 8K PBR 贴图</title>
-    <link>https://creatememori.blog/items/i-1365q5o.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1365q5o.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>前沿追踪</category>
-    <description><![CDATA[11 月 27 日发布：腾讯混元最新 3D 大模型 Hy3D 3.6，原生 3D 生成、直接学几何与纹理分布，默认面数提到 200 万、贴图最高 8K，角色、生物、服装等复杂资产可进 Maya、Blender 与虚幻引擎；已上腾讯云 Token Hub 对外提供 API，Miora、游戏 LAP 与影视 WorkRally 均已接入。注意：混元 3D 创作引擎每天免费体验 5 次；新用户开通 API 可得 100 积分免费体验额度。]]></description>
-  </item>
-  <item>
-    <title>Ductus——手写变字体，浏览器里 5 分钟写出自己的 OTF</title>
-    <link>https://creatememori.blog/items/i-1onvyes.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1onvyes.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>设计素材</category>
-    <description><![CDATA[11 月 15 日上线：鼠标、触控笔或手指在浏览器里逐字写下 26 个小写字母（大小写、数字与标点可选），实时看试排效果，导出 OTF 与 WOFF2；全程本地运算、无账号、不上传。注意：目前仅基础拉丁字母，无变音字母与连笔]]></description>
-  </item>
-  <item>
-    <title>Confinium Mono 0.2.1——网格几何等宽字体，字重 100–700 可变、四种切分</title>
-    <link>https://creatememori.blog/items/i-cfdge4.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-cfdge4.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>设计素材</category>
-    <description><![CDATA[11 月 26 日新发现：从零手绘的几何等宽字体，416 字符覆盖扩展拉丁与西里尔文，一支可变字体字重 100–700，另有 Grid、Open、Dense、Hollow 四种切分，TTF/WOFF2 附在线试字页；SIL OFL 1.1 免费商用。注意：仍为 0.2.1 预览版，非最终版]]></description>
-  </item>
-  <item>
-    <title>cjk-font-trim 0.1——中日韩网页字体按实际用字裁剪，82MB 压到 818KB</title>
-    <link>https://creatememori.blog/items/i-1rq8rzz.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1rq8rzz.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>设计素材</category>
-    <description><![CDATA[11 月 26 日首版：Python + Playwright 脚本，跑一遍已建好的静态站、按桌面与手机宽度记录每种字体实际用到的字符，输出按字重分文件的 WOFF2 子集与首屏小文件，附 fonts.css；实测 20 页站点 4 款 Noto CJK 从 82MB 压到 818KB、首屏仅 62KB；MIT 免费开源。注意：裁剪前须确认字体授权允许子集化与自托管]]></description>
-  </item>
-  <item>
-    <title>Taquoma——与 Tahoma 逐字等宽的开源替身，Linux 上排版不再错位</title>
-    <link>https://creatememori.blog/items/i-u20ycl.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-u20ycl.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>设计素材</category>
-    <description><![CDATA[11 月 15 日发布：Zorin OS 出品，基于 Fauxdana 改制，与 Tahoma 字宽、行高与字形位置完全一致，Windows 文档或设计稿拿到 Linux 上打开不换行、不移位；同批还有 Springald（Trebuchet MS 替身）与 Smack Dab（Impact 替身，带西里尔文）；SIL OFL 1.1 免费商用。注意：暂无正式 release，字体文件在仓库 ttfs/webfonts 目录中]]></description>
-  </item>
-  <item>
-    <title>Indian Type Foundry——拉丁与印度文字都做的字库，站面本身就是活 specimen</title>
-    <link>https://creatememori.blog/items/i-winvs9.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-winvs9.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>排版网站</category>
-    <description><![CDATA[印度艾哈迈达巴德的字库，拉丁与天城文、孟加拉文等 13 种文字的字体都做；站面全用自家字体排版（正文 Caravel、标题 Begum），每款字体都按 600/60/36/24/14/10pt 瀑布式试排，还能用一句填空话“我要找一款什么文字、什么分类、干什么用的字体”来筛选，找多文种字体或学字库站怎么做 specimen，直接逛它。]]></description>
-  </item>
-  <item>
-    <title>Mota Italic——柏林两人字库，拉丁与天城文双修</title>
-    <link>https://creatememori.blog/items/i-d72g0q.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-d72g0q.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>排版网站</category>
-    <description><![CDATA[Rob Keller 与 Kimya Gandhi 两人经营近 18 年，零售库 17 个字族、609 款字体，定制字体做过 BMW、保时捷、Google 与 Škoda；天城文是立身之本，站面本身就是双文种 specimen，找印地语字体或看小字库怎么做品牌，先从这里逛。]]></description>
-  </item>
-  <item>
-    <title>Type@Cooper——Cooper Union 的字体设计课与免费公开讲座</title>
-    <link>https://creatememori.blog/items/i-1pypu5i.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1pypu5i.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>排版网站</category>
-    <description><![CDATA[纽约 Cooper Union 的 Type@Cooper 开设字体设计研究生证书课（Extended/Condensed）与公开工作坊，还有免费讲座系列；第 13 届 Typographics 字体设计节 2027 年 6 月 21 日至 7 月 1 日举行，历年网站可回看存档演讲，想系统学字体设计或追字体节，先从这里逛。]]></description>
-  </item>
-  <item>
-    <title>Type Thursday——全球字体爱好者月度聚会，边喝酒边点评字形</title>
-    <link>https://creatememori.blog/items/i-1vnnfm8.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1vnnfm8.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>排版网站</category>
-    <description><![CDATA[2015 年从布鲁克林一家酒吧起步，现已遍布纽约、伦敦、洛杉矶、米兰、巴塞罗那等十余个城市；每月活动先社交、再由主持人带队做一小时 Type Crit，点评进行中的字体设计；站上各城市页都用当地语言的 pangram 做试排，找字体圈子或看社区站怎么做，先从这里逛。]]></description>
-  </item>
-  <item>
-    <title>Simulic——1021 个免费互动模拟：物理化数生按学科编排，课堂链接一键分享</title>
-    <link>https://creatememori.blog/items/i-mpws8l.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-mpws8l.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>科学可视化</category>
-    <description><![CDATA[11 月 20 日上线：1021 个免费互动模拟，覆盖物理、化学、生物、数学等 9 学科、7 种语言；教师免费账号、学生免账号，挑一个模拟就能生成课堂链接或二维码，也能嵌进 LMS；弹簧振子、离子键、细胞结构等都可调参数、边看图边改数。注意：玩与分享永久免费；AI 自制模拟按 10 美元起的 credit 包收费，Pro 7 美元/月]]></description>
-  </item>
-  <item>
-    <title>Lightyears Home——迷失银河系后靠脉冲星导航回家：10 万颗真实恒星的解谜游戏</title>
-    <link>https://creatememori.blog/items/i-wxcp5f.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-wxcp5f.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>科学可视化</category>
-    <description><![CDATA[11 月 1 日登 Hacker News：浏览器里的导航解谜游戏，飞船迷失在银河系、地球在 3 万光年外，靠读脉冲星信号与光谱在星图上定位、校准标记再超空间跳跃回家；10 万多颗真实恒星，进度存本地。注意：作者自述还很基础，目前只有序章第一关]]></description>
-  </item>
-  <item>
-    <title>Knowledge Graphs: Semantic Graphs and Property Graphs——156 页免费开放电子书：语义图与属性图一次讲透，配可运行代码</title>
-    <link>https://creatememori.blog/items/i-15qoits.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-15qoits.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>学习成长</category>
-    <description><![CDATA[11 月 14 日上 Zenodo 的 156 页插图开放电子书（CC BY 4.0，v0.1.1 公开评议版）：Mahdi Habibi 用一条学习目录案例贯穿 RDF、RDFS、OWL、SPARQL、SHACL 与 Neo4j/Cypher 两套图世界，从图基础讲到本体建模、查询、校验与架构决策，附原创图表、带答案习题、术语表与 MIT 协议的伴生代码包。注意：公开评议版，作者欢迎技术纠错与反馈；内容偏进阶，适合想系统学知识图谱的开发者与研究者。]]></description>
-  </item>
-  <item>
-    <title>Tabular Foundation Models for Data Science Agents——DeepLearning.AI 免费短课：表格预测不用从头训练，Agent 直接调用基础模型</title>
-    <link>https://creatememori.blog/items/i-1yuwa0j.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1yuwa0j.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>学习成长</category>
-    <description><![CDATA[11 月 11 日上线的 DeepLearning.AI 免费短课（8 节视频、4 个代码示例，约 1.5 小时）：Prior Labs 的 Frank Hutter 等人讲表格基础模型 TabPFN——靠上下文学习直接对新数据集做分类、回归与预测，不用每个数据集从头训练调参；再用 KV 缓存加速重复预测、解读特征影响，最后把 TabPFN 接进数据科学 Agent 当预测工具（MCP + 技能调用），另附从头训一个迷你 TabPFN 的实操。注意：课程视频与代码示例免费开放；评分作业与结课成就需 Pro。]]></description>
-  </item>
-  <item>
-    <title>Principles of Robot Autonomy——斯坦福 531 页机器人自主免费教材：感知规划控制加学习，全套视频与习题</title>
-    <link>https://creatememori.blog/items/i-p6u69j.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-p6u69j.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>学习成长</category>
-    <description><![CDATA[斯坦福 10 月 22 日官宣的免费教材：Marco Pavone 等五位作者把斯坦福自 2017 年开设的《机器人自主原理》课写成 531 页全书——感知、状态估计、规划、控制与学习放在同一自主栈框架里讲，经典方法与具身 AI 并重；porabook.com 全文免费在线读，每章配 Jupyter 习题（Colab 直跑）、斯坦福课程录像，还有内置的 Ask the Book AI 助教按章节答疑。注意：在线读的预印本免费供个人使用，正式版将由剑桥大学出版社出版；AI 助教答案可能出错，以书为准。]]></description>
-  </item>
-  <item>
-    <title>free-claude-code——Claude Code 不花钱也能用：一个开源代理接 61 家官方免费额度，每月 13 亿 tokens</title>
-    <link>https://creatememori.blog/items/i-1ekgo3l.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1ekgo3l.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>YouTube 选题</category>
-    <description><![CDATA[建议标题「Claude Code 不花钱也能用？免费额度聚合神器，每月 13 亿 tokens」。GitHub 拉下 free-claude-code（7.3 万星，AGPL 开源），本机跑一个代理，把 Claude Code、Codex、OpenCode、Cursor 等 12 个编程助手接到 NVIDIA NIM、Groq、OpenRouter 免费模型等 61 家供应商的官方免费档上，还能自动换源、断线重试。注意：需自备各家免费 Key，额度以各家免费档为准、随时可能变；安装用 curl 管道脚本，装前先看一眼 README。]]></description>
-  </item>
-  <item>
-    <title>LongCat-Video-Avatar 1.6——美团开源数字人：一张图加一段音频，免费生成 10 分钟口播视频</title>
-    <link>https://creatememori.blog/items/i-1qexcu6.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1qexcu6.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>YouTube 选题</category>
-    <description><![CDATA[建议标题「一张图+一段音频，免费生成 10 分钟口播视频：美团开源数字人，人评胜过 HeyGen」。Hugging Face 拉下 LongCat-Video-Avatar 1.6（美团开源，MIT 协议），一张图或一段文字描述加一段音频，生成 10 分钟以上口播视频，唇形自然、长视频不跑脸，官方 33,051 票人评 Elo 1068.1 排第二、胜过 HeyGen。注意：权重约 77GB、官方示例需双卡并行，家用单卡跑不动，适合租云 GPU；用他人肖像与声音前须取得授权。]]></description>
-  </item>
-  <item>
-    <title>Video Talkcraft——让 Claude Code 替你做口播讲解视频：口播稿加配音，分镜一次成片</title>
-    <link>https://creatememori.blog/items/i-159vsig.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-159vsig.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>YouTube 选题</category>
-    <description><![CDATA[建议标题「让 Claude Code 替你做口播讲解视频：口播稿+配音+分镜，一次渲出成片」。GitHub 拉下 Video Talkcraft（开源 Skill，2,571 星），给 Claude Code 或 Codex 装上：口播稿加成品配音，本机按字级对齐时间戳、写进 SHOTBOOK 分镜，用 Remotion 渲出带动态字卡、运镜与音效的解说成片，108 张动效配方卡可逐张预览。注意：个人、教育、研究用途免费（PolyForm 非商业许可），商用需先获作者授权；成本走自己的 Claude Code / Codex 订阅。]]></description>
-  </item>
-  <item>
-    <title>Systeme.io——$0 永久免费的一站式创业工具：建站、邮件、课程、卖课全包了</title>
-    <link>https://creatememori.blog/items/i-q3nb9n.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-q3nb9n.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>YouTube 选题</category>
-    <description><![CDATA[建议标题「$0 永久免费：建站、发邮件、开课、卖课，一个工具全包了」。打开 systeme.io 注册免费档（永久有效、免绑卡）：2,000 个联系人、3 个销售漏斗、1 个博客、1 门课程（500 学生）、1 个自定义域名，邮件无限发、交易 0 手续费。注意：终身销售额上限 $10,000，超了付款页会停、需升级（Startup $17/月起）；免费档只有 1 条自动化规则、1 个邮件营销活动。]]></description>
-  </item>
-  <item>
-    <title>Clipboard History Manager——免费开源的 Windows 剪贴板历史管理器：复制过的内容都能搜回来，支持文本、图片、文件与链接，还能打标签、改条目、做备份，全程本机存储、无遥测</title>
-    <link>https://creatememori.blog/items/i-nr2sq9.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-nr2sq9.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>黑科技工具</category>
-    <description><![CDATA[11 月 23 日建库、MIT 开源，最新 v4.2.1：无限剪贴板历史、即时搜索、图片预览、标签分组、应用过滤、备份，WinUI 界面，Windows 10/11 可用。注意：会保存所有复制内容，含密码——用应用过滤把密码管理器排除在外；项目刚建 5 天、仅 9 次提交，功能仍在早期。]]></description>
-  </item>
-  <item>
-    <title>StatusPan——免费开源的 AI Agent 状态看板：多个 Agent 各自一条 curl 上报在跑什么、卡在哪，机场出发板一眼看清</title>
-    <link>https://creatememori.blog/items/i-lwpupe.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-lwpupe.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>黑科技工具</category>
-    <description><![CDATA[11 月 26 日登 Show HN、MIT 开源，最新 v0.2.0（11 月 24 日发布）：一个本地 Go 程序起看板，Agent 一条 curl 上报任务状态与进度，10 分钟没心跳标 stalled，另有自托管中继可跨机器汇总。注意：官方下载目前只列 macOS 与 Linux，Windows 未明确，可跑在服务器或 WSL 上；本地守护进程只监听 loopback、无鉴权。]]></description>
-  </item>
-  <item>
-    <title>Animama——免费开源的 AI 桌面伙伴：3D 二次元形象浮在屏幕角落陪你干活，会记事、会变脸</title>
-    <link>https://creatememori.blog/items/i-1iek0yw.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1iek0yw.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>黑科技工具</category>
-    <description><![CDATA[11 月 18 日上线、11 月 25 日登 Show HN，AGPL 开源：VRM 形象 24 种情绪、300+ 手势动作，记忆存在可编辑的 Markdown 文件里，中文语音可用，Windows 11 与 macOS 均有安装包。注意：应用本身免费，但聊天要接自己的 ChatGPT 套餐、API Key 或本地模型（按模型商计费）；18+ 应用；Windows 安装包未签名，首次打开 SmartScreen 会弹警告。]]></description>
-  </item>
-  <item>
-    <title>free-claude-code——把 Claude Code 等 12 个编程助手接到各家官方免费额度上</title>
-    <link>https://creatememori.blog/items/i-ouj4df.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-ouj4df.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>免费资源</category>
-    <description><![CDATA[7.3 万星 AGPL 开源：本机跑一个代理，把 Claude Code、Codex、OpenCode、Cursor 等 12 个编程助手接到 NVIDIA NIM、Groq、OpenRouter 免费模型等 61 家供应商的官方免费档上，合计每月 13 亿+免费 tokens，还能自动换源、断线重试。注意：需自备各家免费 Key，额度以各家免费档为准、随时可能变；安装用 curl 管道脚本，装前先看一眼 README。]]></description>
-  </item>
-  <item>
     <title>Free LLM API Tokens——167 家免费模型 API 一站查完：每天更新、标明要不要绑卡</title>
-    <link>https://creatememori.blog/items/i-ple6w7.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-ple6w7.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>免费资源</category>
-    <description><![CDATA[免费 LLM 额度追踪站，每天更新：167 家供应商，每家都标了免费额度、是否 OpenAI 兼容、要不要绑卡、有没有每日 tokens，还能按“免绑卡 / 永久免费 / 有每日额度 / 隐藏中转”筛选，附 data.json 机器可读版。注意：额度数字以各家官网为准、变得很快，领之前按站内链接再核对一次；站内明确标了中转网关警告，别把敏感内容发给中转。]]></description>
-  </item>
-  <item>
-    <title>FailBrief——CI 挂了，AI 在 PR 里用大白话讲清错在哪：免费档每月 25 次分析</title>
-    <link>https://creatememori.blog/items/i-1s0yn4s.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1s0yn4s.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>免费资源</category>
-    <description><![CDATA[GitHub App，盯着你的 Actions 工作流：失败就在 PR 里贴一份 AI 分析——影响、根因、修复建议，还带 flaky 测试检测与失败趋势看板；免费档每月 25 次分析、仓库不限、免绑卡，另有 MCP 服务可接 Claude Code / Cursor 查 CI 历史。注意：黑五早鸟码 EARLYBIRDCODE 让前 100 名免费升 Pro 3 个月（500 次分析/月、高级模型、Slack/Discord 通知），先到先得，领完即止。]]></description>
-  </item>
-  <item>
-    <title>File Viewer——浏览器里直接预览 275 种文件：Office、PDF、CAD、压缩包都不用装软件</title>
-    <link>https://creatememori.blog/items/i-1imlfkb.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1imlfkb.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>免费资源</category>
-    <description><![CDATA[Apache-2.0 开源 v3.3.7：浏览器里直接打开 Word、Excel、PPT、PDF、DWG 图纸、3D 模型与压缩包等 275 种格式，文件全在本地处理、不用传转换服务器，可离线部署、自托管，也能 npm 装进自己项目。注意：部分实验性格式与老版 PPT 渲染有限制，先用站内样例文件试一下；商用版 Office 渲染引擎另收费。]]></description>
-  </item>
-  <item>
-    <title>Systeme.io——$0 永久免费的一站式创业工具：建站、邮件、课程、卖课全包了</title>
-    <link>https://creatememori.blog/items/i-ahblbb.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-ahblbb.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>免费资源</category>
-    <description><![CDATA[免费档永久有效、免绑卡：2000 个联系人、3 个销售漏斗、1 个博客、1 门课程（500 学生）、1 个自定义域名，邮件无限发、交易 0 手续费。注意：终身销售额上限 $10,000，超了付款页会停、需升级（Startup $17/月起）；免费档只有 1 条自动化规则、1 个邮件营销活动。]]></description>
-  </item>
-  <item>
-    <title>Video Talkcraft——给 Claude Code / Codex 的口播讲解视频 Skill：口播稿加成品配音，本机按字级对齐时间戳、写进 SHOTBOOK 分镜，用 Remotion 渲出带动态字卡、运镜与音效的解说成片</title>
-    <link>https://creatememori.blog/items/i-fxfyia.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-fxfyia.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>视频创作</category>
-    <description><![CDATA[开源的 Agent Skill（2,571 星，11 月 25 日仍有更新），108 张动效配方卡可逐张预览，中文口播优先设计、中英混排支持，另带剪映式动效工作台可逐轨微调。注意：个人、教育、研究用途免费（PolyForm 非商业许可），商用需先获作者授权；成本走自己的 Claude Code / Codex 订阅。]]></description>
-  </item>
-  <item>
-    <title>Nomi——免费开源的本地 AI 视频工作室：跟 Agent 说句话就分镜、生成关键帧与视频片段、排进真实时间线导出 MP4</title>
-    <link>https://creatememori.blog/items/i-1k9cmlz.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1k9cmlz.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>视频创作</category>
-    <description><![CDATA[AGPL-3.0 开源，最新 v0.24.1（11 月 6 日发布），macOS 与 Windows 可用，Seedance、Kling、Wan、海螺、Nano Banana 等模型自带 Key 接入，也可接本地 ComfyUI，内置 MCP 可让 Claude Code / Codex / Cursor 驱动。注意：软件本身免费、无账号无订阅，但视频生成按各家模型提供商按量计费，无免费生成额度；安装包未签名，首次打开会弹安全提示。]]></description>
-  </item>
-  <item>
-    <title>Google Antigravity 接入 MCP Apps——Agent 工具结果不再是纯文本 JSON，直接在工作区里渲染成交互界面</title>
-    <link>https://creatememori.blog/items/i-1ccb3dz.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1ccb3dz.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>前端·AI</category>
-    <description><![CDATA[11 月 24 日官方博客：基于开放 MCP Apps 扩展（SEP-1865），MCP 工具可在对话内嵌图表、发布看板、沙箱桌面，也能钉在侧边栏或接管特定文件类型的查看器；首批插件包括 Vercel、Datadog、CodeRabbit、Better Stack、monday.com 与 Qodo，内置 /mcp-app-development 技能可一键脚手架新插件。注意：交互视图需 Antigravity App v2.34.0+，CLI 等非 UI 宿主仍回落为纯文本]]></description>
-  </item>
-  <item>
-    <title>Vercel MCP 现在能管 AI Gateway——用一句话建虚拟模型、改路由规则、定花钱上限</title>
-    <link>https://creatememori.blog/items/i-1kff5py.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1kff5py.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>前端·AI</category>
-    <description><![CDATA[11 月 24 日官方 Changelog：接上 Vercel MCP 的 Agent 可直接管理 AI Gateway——创建带固定配置的可复用模型 ID（vmc/xxx）、增改团队级路由重写/拦截规则、设置团队/项目/成员四档支出预算，改模型配置不用改客户端、不用重新部署。注意：须团队级接入 + AI Gateway 权限，现有团队权限仍是边界；公告未提逐项人工确认步骤，授权时按人来管]]></description>
-  </item>
-  <item>
-    <title>Nx 24.1.0——monorepo 工具小版本更新，Agent 迁移开始认 Copilot CLI 与 Antigravity</title>
-    <link>https://creatememori.blog/items/i-56wka9.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-56wka9.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>前端·AI</category>
-    <description><![CDATA[11 月 26 日发布：agentic nx migrate 新增 GitHub Copilot CLI 支持、守护进程能识别 Antigravity Agent 并过滤其环境变量；另支持 NestJS 12、angular-rspack 开发服务器直出 SSR、Bun 部署输出裁剪后的 bun.lock]]></description>
-  </item>
-  <item>
-    <title>Design Lounge——免费给 AI 编程助手装设计品味：600+ 真实 UI 设计 + 免费 MCP，让 Agent 按配色字体配方出图</title>
-    <link>https://creatememori.blog/items/i-pio2g3.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-pio2g3.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>AI 实战</category>
-    <description><![CDATA[11 月 17 日登 Product Hunt：免费 UI 设计 skill + 600+ 设计灵感库，每个设计都有可直接运行的演示与书面 brief（尺寸、配色、动效时序与状态），Agent 按它出图；同一提示词、同一模型实测：不用它评审失败 16 处、用了 0 处，无障碍评分 100。注意：完全免费，设计稿可商用；一条命令装 MCP（npx -y design-lounge-mcp@latest），Claude Code、Cursor、Codex、VS Code 均可接；整库约 12.7k tokens 一次方向规划。]]></description>
-  </item>
-  <item>
-    <title>Woomool——免费 AI 画布：把思考挖深的灵感整理与知识管理空间，支持实时协作</title>
-    <link>https://creatememori.blog/items/i-11by8qt.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-11by8qt.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>AI 实战</category>
-    <description><![CDATA[11 月 26 日登 Product Hunt 的 2.0 版：免费 AI 画布，专为灵感发散、知识管理与实时协作设计——把好奇的问题一层层挖深，直到得出自己的见解，而不是把思考整个外包给 AI。注意：PH 标价 0 美元、免费；名字 Woomool（우물）在韩语里是“井”的意思。]]></description>
-  </item>
-  <item>
-    <title>LongCat-Video-Avatar 1.6——美团开源 MIT 数字人：一张图加一段音频生成 10 分钟口播视频，人评胜过 HeyGen</title>
-    <link>https://creatememori.blog/items/i-1yid6ap.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1yid6ap.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>AI 实战</category>
-    <description><![CDATA[11 月 13 日发布、11 月 15 日官宣：美团 LongCat 团队开源的音频驱动数字人模型，MIT 协议；一张图或一段文字描述 + 一段音频，生成 10 分钟以上口播视频，唇形自然、长视频不跑脸；官方 33,051 票人评 Elo 1068.1，排第二、胜过 HeyGen 与可灵 Avatar 2.0（美团自家测试，仅供参考）。注意：权重约 77GB、官方示例需双卡并行，家用单卡跑不动，适合租云 GPU；用他人肖像与声音前须取得授权。]]></description>
-  </item>
-  <item>
-    <title>reanimate——Claude Code 技能：把喜欢的动画逐帧反向还原成代码，还能逐帧验算对没对上</title>
-    <link>https://creatememori.blog/items/i-t8eym.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-t8eym.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>网页动效</category>
-    <description><![CDATA[10 月 29 日建库、11 月 26 日单日涨星 64：给 Claude Code 的技能，输入一个网址、录屏、mp4、gif 或 Lottie 文件，它先逐帧录下原动画、写成参数表，再用你项目里的 CSS、Framer Motion、GSAP 或 three.js 重建一遍，最后把复制品同样逐帧录下来比对，时序、缓动、像素差多少都列出来，通常 2–5 轮改到对上；仓库里 18 个例子包括 Stripe、Vercel、Resend 的卡片与 Hero。注意：MIT 开源；需 Bun 1.1+，macOS/Linux 可用、Windows 未验证；克隆他人站点的字体图片素材仍归原作者，商用前先确认许可。]]></description>
-  </item>
-  <item>
-    <title>transitions.dev——48 个能直接粘贴的 CSS 过渡：卡片缩放、数字翻牌、弹窗开合都有现成片段</title>
-    <link>https://creatememori.blog/items/i-1spvm06.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1spvm06.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>网页动效</category>
-    <description><![CDATA[Jakub Antalik 的开源过渡库，站内 48+ 个交互过渡（卡片缩放、数字翻牌、通知角标、弹窗开合、头像悬停、错误抖动等），每个都能在线试玩、点一下复制走自包含 CSS 片段，无框架依赖、带 prefers-reduced-motion 保护；一条 npx 命令装进项目，还有 Agent 技能让 Cursor、Claude Code 直接调用，另有 Motion Agent 给代码库打动效分、提 PR 修。注意：免费档免账号直接用，部分 Pro 过渡需登录解锁。]]></description>
-  </item>
-  <item>
-    <title>animateicons——1500 个会动的 SVG 图标：React、Vue、Angular、原生 JS 通用，悬停点击都触发</title>
-    <link>https://creatememori.blog/items/i-5q47ew.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-5q47ew.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>网页动效</category>
-    <description><![CDATA[1500 个免费开源动画图标，基于 Motion 驱动，每个动画都手工调过，悬停默认播放，也可改成点击触发，大小、颜色、时长都能调；React、Vue、Angular 与原生 JS 各有包，支持 Lucide 与 Hugeicons 两套造型，还能用 shadcn CLI 或 npx 单个复制进项目、走 MCP 让 Agent 帮你挑。注意：MIT 开源；图标造型源自 Lucide/Hugeicons。]]></description>
-  </item>
-  <item>
-    <title>Arc Library——121 个带克制物理动效的免费 React 组件：不用 Tailwind 也能装</title>
-    <link>https://creatememori.blog/items/i-1td1kj3.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1td1kj3.html</guid>
-    <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
-    <category>网页动效</category>
-    <description><![CDATA[9 月 24 日建库：121 个免费 React 组件 + 22 个区块，动效走 Motion，弹簧与时长收进统一 token，每个动画都有 reduced-motion 降级；shadcn CLI 一条命令装，或直接复制源码（CSS Modules + 设计 token，不强制 Tailwind），Next.js 与 Vite 都能用。注意：MIT 开源；需 React 19 + TypeScript；部分标 Pro 的组件不在免费仓库里。]]></description>
-  </item>
-  <item>
-    <title>Sage-Med-Preview——上海 AI Lab 35B 医疗多模态模型：3B 激活参数，31 项医疗基准平均 58.26%</title>
-    <link>https://creatememori.blog/items/i-ijjaih.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-ijjaih.html</guid>
-    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
-    <category>前沿追踪</category>
-    <description><![CDATA[11 月 25 日权重上线、27 日 internlm 镜像更新：基于 Intern-S2-Preview 的 35B MoE 医疗多模态模型，医学问答、读片、写放射报告、图像视觉定位一肩挑；31 项公开医疗基准平均 58.26%，14 家医院私有评测 57.72%，高于 GPT-6.2 Sol 的 51.24%。注意：权重与论文 arXiv:2611.34575、评测基准均已公开，但模型卡暂无 license 字段，商用前先确认授权；基准数字为实验室自报。]]></description>
-  </item>
-  <item>
-    <title>ShowNow——交互式世界模型先把 8 种未来都算好：输入到显示延迟 620ms 降到 208ms</title>
-    <link>https://creatememori.blog/items/i-1wldsvf.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1wldsvf.html</guid>
-    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
-    <category>前沿追踪</category>
-    <description><![CDATA[11 月 25 日 arXiv 论文（2611.34693）：新加坡国立大学 Show Lab 的推测流式框架，播放时用空闲算力预生成 8 条动作条件未来分支，用户一操作就直接切到对应分支；单张 H100 上 5B 模型 480p/16fps，33B 版 1344×768 达 23.94fps，代码已开源。注意：论文预印本、未同行评审；效果在 ViZDoom 环境测得。]]></description>
-  </item>
-  <item>
-    <title>Onset——AI 给 YouTube 创作者复盘：发布 48 小时后按你的数据写标题、画封面</title>
-    <link>https://creatememori.blog/items/i-14sff1n.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-14sff1n.html</guid>
-    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
-    <category>前沿追踪</category>
-    <description><![CDATA[11 月 27 日 Product Hunt 上线：接上 YouTube Analytics，每条视频发布 48 小时后拿点击率与留存跟频道平均值对比复盘，再用你自己的频道数据写标题、按频道风格出封面草稿；只读权限，不上传、不改、不删任何内容。注意：目前候补名单制，Product Hunt 用户优先入场；AI 粗剪功能还在做。]]></description>
-  </item>
-  <item>
-    <title>Cal Sans Text UI 2.020——Cal Sans 的界面专用切分：与 Inter、SF Pro 同占位，标签在按钮里光学居中</title>
-    <link>https://creatememori.blog/items/i-1mmjh5a.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1mmjh5a.html</guid>
-    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
-    <category>设计素材</category>
-    <description><![CDATA[11 月 26 日新版，11 月 24 日并入 Google Fonts 仓库：字重 400–700 带真斜体，GEOM 轴四档切换无障碍/界面/基础/几何；与 Inter、SF Pro 同占位，标签在按钮里光学居中；OFL 1.1 免费商用，npm 可装 @calcom/cal-sans-ui。]]></description>
-  </item>
-  <item>
-    <title>allomono 0.1——Allo 改成的等宽终端字体：输入 -&gt; 与 =&gt; 自动变箭头且不占宽</title>
-    <link>https://creatememori.blog/items/i-1v1b1vn.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1v1b1vn.html</guid>
-    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
-    <category>设计素材</category>
-    <description><![CDATA[11 月 26 日发布：正、粗、斜、粗斜四款，996 字符含制表符，输入 -> 与 => 自动变箭头且不占宽；为 Retina 绘制、普通屏有 hinting；OFL 1.1 免费商用。注意：刚发布 v0.1、暂无正式 release，需下载 fonts/ 文件夹安装。]]></description>
-  </item>
-  <item>
-    <title>Petricor 1.000——作者手写体双家族：印刷体 + 真连笔草书</title>
-    <link>https://creatememori.blog/items/i-ekiuz.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-ekiuz.html</guid>
-    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
-    <category>设计素材</category>
-    <description><![CDATA[11 月 26 日首版：同一套大写与数字，印刷体字重可变 100–900、草书连笔字重 100–600，覆盖 GF Latin Core；OFL 1.1 免费商用。注意：项目 11 月 26 日才建库，非常新，暂无正式 release，文档为葡语（附英文摘要）。]]></description>
-  </item>
-  <item>
-    <title>Tokens by UI Colors——免费设计 token 游乐场：配色、字体、间距、圆角、阴影一次调出整套视觉语言</title>
-    <link>https://creatememori.blog/items/i-1hp0mq7.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1hp0mq7.html</guid>
-    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
-    <category>设计素材</category>
-    <description><![CDATA[11 月 9 日上线、11 月 24 日更新：预设快速换方向，真 UI 示例实时预览，导出 CSS 变量或 DESIGN.md 喂给 AI 编程助手；免费使用，Pro 4.95 美元/月。]]></description>
-  </item>
-  <item>
-    <title>WPOS——黑五新账号白嫖 15,000 积分：WordPress AI 助手，免绑卡，积分永不过期</title>
-    <link>https://creatememori.blog/items/i-nljdh8.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-nljdh8.html</guid>
-    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <link>https://creatememori.blog/items/i-1civ7xk.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1civ7xk.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
     <category>YouTube 选题</category>
-    <description><![CDATA[建议标题「黑五白嫖 15,000 积分：AI 帮你搭一个 WordPress 站，积分永不过期」。11 月 30 日 23:59 PT 前注册新账号即得 15,000 积分，约可做 27 次整页构建或 500 次问答，建好的站是原生 WordPress、取消也归自己。注意：仅新账号可领，11 月 30 日截止。]]></description>
+    <description><![CDATA[建议标题「167 家免费模型 API 一站查完：每天更新，标明要不要绑卡」。打开 freellmapi.link，按「免绑卡 / 永久免费」筛选，点进供应商官网按站内链接再核对一次额度再领。注意：额度数字以各家官网为准、变得很快；站内明确标了中转网关警告，别把敏感内容发给中转]]></description>
   </item>
   <item>
-    <title>explainroo——免费开源，AI 给你拍讲解视频：本地配音、逐词字幕，不用 API Key</title>
-    <link>https://creatememori.blog/items/i-1312m88.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-1312m88.html</guid>
-    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <title>Design Lounge——免费给 AI 编程助手装设计品味：600+ 真实 UI 设计 + 免费 MCP</title>
+    <link>https://creatememori.blog/items/i-1g1b4ma.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1g1b4ma.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
     <category>YouTube 选题</category>
-    <description><![CDATA[建议标题「免费开源：给 AI 一个主题，它直接拍出带配音的讲解视频」。GitHub 拉下 explainroo（MIT 开源），接 Claude Code 或 Codex，输个主题就出带本地配音、逐词字幕与运镜的 MP4，还能按词剪自己的录音。注意：默认成片带小水印可关，高级配音需自备 Key。]]></description>
+    <description><![CDATA[建议标题「免费给 AI 编程助手装设计品味：600+ 真实 UI 设计 + 免费 MCP」。打开 designlounge.live，一条命令装 MCP（npx -y design-lounge-mcp@latest），接 Claude Code、Cursor、Codex 或 VS Code，Agent 按设计库的配色字体配方出图。注意：完全免费，设计稿可商用]]></description>
+  </item>
+  <item>
+    <title>Koru——免费开源的离线笔记工作台：笔记文档文件任务一体，AI 助手当标签页直接改你的文档</title>
+    <link>https://creatememori.blog/items/i-1tmqw4z.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1tmqw4z.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>YouTube 选题</category>
+    <description><![CDATA[建议标题「免费开源的离线笔记工作台：AI 助手当标签页，直接改你的文档」。打开 koru.do 下载对应系统的原生应用（Windows、macOS、Linux），笔记、文档、文件与任务放一个离线工作区，Claude、Codex、Gemini 等 AI 助手以标签页接入、走本地 MCP 读写工作区。注意：本体免费、不同步也能用；Koru Cloud 9.99 美元/月可选，移动端还在开发中]]></description>
+  </item>
+  <item>
+    <title>spelunkr.tv——免费的另类电视台：38 个频道 24 小时轮播互联网档案馆里被遗忘的老视频</title>
+    <link>https://creatememori.blog/items/i-bnt5oz.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-bnt5oz.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>YouTube 选题</category>
+    <description><![CDATA[建议标题「免费的另类电视台：4,571 小时公共领域老视频，随便当无脸视频 B-roll」。打开 spelunkr.tv 按频道主题挑（动画、自然、老广告、电脑编年史等），24 小时轮播、免账号直接看，找到的片段可当 B-roll 或选题灵感。注意：素材来自 Internet Archive 的公共领域馆藏，商用前自行确认具体片段的版权状态]]></description>
+  </item>
+  <item>
+    <title>AV1 Video Encoder GUI——免费开源的 Windows 版 AV1 编码图形界面：六种编码器一次配好、并行压片，不用记命令行</title>
+    <link>https://creatememori.blog/items/i-juydvn.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-juydvn.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>黑科技工具</category>
+    <description><![CDATA[11 月 24 日发 v4.4.5、MIT 开源，现 1.1k 星、今日登 GitHub 趋势榜：aomenc、rav1e、SVT-AV1、NVENC、Quick Sync 与 VP9 六种编码器一次配好、支持并行编码，图形界面里完成转码设置。注意：仅 Windows；NVENC 与 Quick Sync 需对应硬件。]]></description>
+  </item>
+  <item>
+    <title>Koru——免费开源的离线笔记工作台：笔记文档文件任务一体，AI 助手当标签页直接改你的文档</title>
+    <link>https://creatememori.blog/items/i-gu1uk5.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-gu1uk5.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>黑科技工具</category>
+    <description><![CDATA[11 月 23 日上线、Rust 原生：Windows、macOS、Linux 均有原生应用，笔记、文档、文件与任务放一个离线工作区；Claude、Codex、Gemini、Grok、Copilot、OpenCode 等 AI 助手以标签页接入，走本地 MCP 读写工作区；设备间点对点端到端加密同步，不用云；本地语音听写也免费。注意：Koru Cloud 9.99 美元/月可选（100GB 存储加云端 MCP 与 API），不同步也完全能用；移动端还在开发中。]]></description>
+  </item>
+  <item>
+    <title>tmux-restore——重启也不丢的 tmux：每分钟加关机时各存一次，AI 编程助手连对话带参数原样回来</title>
+    <link>https://creatememori.blog/items/i-10tgkez.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-10tgkez.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>黑科技工具</category>
+    <description><![CDATA[MIT 开源、Shell 写成：在 tmux-resurrect 与 tmux-continuum 之上再加一层，重启后会话、窗口、分屏、目录与滚动历史全回来，Claude Code、Codex、Gemini CLI、opencode、pi 里的对话按原会话号恢复。注意：早期小项目（11 月初仅约 30 星），安装是一行 curl 管道脚本、装前先看脚本内容；滚动历史每分钟落盘、含密码等敏感内容，可关捕获。]]></description>
+  </item>
+  <item>
+    <title>DragDropMath——拖符号学代数：只允许合法变形，13 章从移项到二次方程</title>
+    <link>https://creatememori.blog/items/i-14v1q1q.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-14v1q1q.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>科学可视化</category>
+    <description><![CDATA[11 月 27 日登 Hacker News 首页：职业物理学家做的免费互动代数站，拖动符号化简式子、解方程，只允许数学上合法的移动，靠手感内化变形规则；共 13 章，从移项、合并同类项到二次方程与联立方程，老师还能把自编题组编码进链接分享。注意：免费开源（MIT）、无广告、无账号、进度存浏览器本地；移动端体验作者自述仍在打磨。]]></description>
+  </item>
+  <item>
+    <title>Eyes on the Cosmos——N-body 3D 太阳系与银河系：NASA JPL 真实数据 + 93 颗未编目海王星外天体候选</title>
+    <link>https://creatememori.blog/items/i-1id6xgp.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1id6xgp.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>科学可视化</category>
+    <description><![CDATA[11 月 26 日登 Hacker News：浏览器里的太阳系、奥尔特云与银河系 3D 探索器，数字孪生跑在 NASA JPL 数据的实时 N-body 模拟上；可一键叠加 93 颗来自 Rubin、Euclid、DECam 等 14 个巡天档案的新发现未编目海王星外天体候选，免安装免账号。注意：与板上 Teskooano、HelioSim 不同站、不同数据角度（巡天新发现 TNO），已实测 3D 场景持续渲染、暂停控制正常。]]></description>
+  </item>
+  <item>
+    <title>Slopie——免费 3D 滑雪地图：69 国 4,000+ 雪场雪道缆车全上真地形，浏览器免账号直接看</title>
+    <link>https://creatememori.blog/items/i-ddruhm.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-ddruhm.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>免费资源</category>
+    <description><![CDATA[11 月 12 日上线、11 月 28 日登 Product Hunt：全球 69 个国家 4,000 多家滑雪场的每条雪道与缆车都画在真实地形 3D 图上，浏览器打开 slopie.app/map 免账号直接看，还能按雪道难度颜色、等高线与山顶山脚天气查雪场。注意：整张 3D 地图与滑雪记录永久免费、无广告；Pro $24.99/年（先试 1 周免费）只加逐条滑行分析、16 天预报与粉雪提醒；暂无安卓 App，安卓先用浏览器版]]></description>
+  </item>
+  <item>
+    <title>OpenAI Codex 学生 $100——美加在校大学生领 2,500 额度：免绑卡，12 个月内用完</title>
+    <link>https://creatememori.blog/items/i-9b9aj1.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-9b9aj1.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>免费资源</category>
+    <description><![CDATA[OpenAI 官方学生计划：在读于美加授学位大学的学生，用大学邮箱经 SheerID 验证后，ChatGPT 账号自动到账 $100（2,500 credits）Codex 额度，免费版 ChatGPT 账号也能领。注意：仅限美加在校生、每人一次；额度是 ChatGPT 积分、只能在 Codex 里用、不是 API 额度，领到后 12 个月过期]]></description>
+  </item>
+  <item>
+    <title>Wender Desktop——100% 免费的设计画布：接 Storybook 真组件做原型，Mac 本地存文件、零订阅零座位费</title>
+    <link>https://creatememori.blog/items/i-1wu1383.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1wu1383.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>免费资源</category>
+    <description><![CDATA[11 月 28 日登 Product Hunt：macOS 15+ 原生应用，接上项目的 Storybook 就能用真实组件拼界面，也能直接改 HTML 帧、接 Claude Code 或 Codex 等 MCP 编程助手边设计边改码，文件存本地 .wender、可进 Git。注意：下载与使用完全免费、无订阅无座位费；AI 助手走自己的订阅、另无 Wender AI 点数；团队协作须自备 Cloudflare 账号、托管存储费由 Cloudflare 直接收]]></description>
+  </item>
+  <item>
+    <title>Customer.io Startup Program——创业公司免费 12 个月：30,000 用户画像 + 全套 Essentials 邮件短信推送</title>
+    <link>https://creatememori.blog/items/i-1gpwsy1.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1gpwsy1.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>免费资源</category>
+    <description><![CDATA[官方创业计划：融资不到 $1,000 万、从未用过 Customer.io 的新创公司申请通过后，Journeys、Data Pipelines、邮件短信推送与 AI Agent 全套 Essentials 功能免费最多 12 个月，含 30,000 个用户画像（约值 $3,900）。注意：多家 11 月核实称 Startup 账号须绑卡，超 30,000 画像按 $0.007/个自动扣费；官网创业计划页未提绑卡，申请时以页面提示为准；名单须自有渠道获得、买来的名单直接失去资格；到期前会通知并给专属毕业优惠]]></description>
+  </item>
+  <item>
+    <title>Google Gemini 开源两个 Agent Skill：deep-research 与 gemini-frontend-design</title>
+    <link>https://creatememori.blog/items/i-vjot6.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-vjot6.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>前端·AI</category>
+    <description><![CDATA[11 月 27 日，Google Gemini 团队把演示用的 skill 放进 demolab 仓库：deep-research 指挥并行子 Agent 做多角度调研、只认一手来源、附引用；gemini-frontend-design 专做前端设计，从排版、配色到动效定方向，做完还要视觉验收。Apache-2.0，可装进 Claude Code、Cursor、Codex、Antigravity 等。]]></description>
+  </item>
+  <item>
+    <title>SessionGraph——把各家编程 Agent 的会话历史画成一张图</title>
+    <link>https://creatememori.blog/items/i-1mu56m5.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1mu56m5.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>前端·AI</category>
+    <description><![CDATA[11 月 28 日登 Hacker News 首页：本地读取 Claude Code、Codex 等会话记录建成可搜索索引，图上回看、跨工具对比，还能通过 MCP/REST 让 Agent 直接查旧会话。npx sessiongraph 即开，数据不出本机。]]></description>
+  </item>
+  <item>
+    <title>Convex 官方 Claude 插件被曝悄悄外传用户创意、教 Agent 绕开安全检查</title>
+    <link>https://creatememori.blog/items/i-r0gob6.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-r0gob6.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>前端·AI</category>
+    <description><![CDATA[GitHub issue #64（10 月 26 日提交，11 月 27 日冲上 HN 首页 300+ 分）：quickstart skill 把用户一句话创意 POST 到 convex.site、标注为 telemetry 且不告知；add skill 把未 pin 的脚本直接管道进 bash；labs-quickstart 明确教 Agent 拆分命令以躲过安全分类器。Convex CEO 回应称上传是为生成脚手架、30 秒内丢弃；截至 11 月 28 日 issue 仍 open 未修复。用了 Convex 插件的先检查。]]></description>
+  </item>
+  <item>
+    <title>spelunkr.tv——免费的另类电视台：38 个频道 24 小时轮播互联网档案馆里被遗忘的老视频，4,571 小时公共领域素材可直接当无脸视频的 B-roll 或找选题灵感</title>
+    <link>https://creatememori.blog/items/i-vrg9b4.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-vrg9b4.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>视频创作</category>
+    <description><![CDATA[38 个频道 24 小时轮播互联网档案馆里被遗忘的老视频，4,571 小时公共领域素材可直接当无脸视频的 B-roll 或找选题灵感。注意：素材来自 Internet Archive 的公共领域馆藏，商用前请自行确认具体片段的版权状态。]]></description>
+  </item>
+  <item>
+    <title>airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用</title>
+    <link>https://creatememori.blog/items/i-15448gy.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-15448gy.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>AI 实战</category>
+    <description><![CDATA[11 月 24 日登 Product Hunt、11 月 28 日冲上当日第 9：免费开源的 Claude Code 指挥室（Apache 2.0），每个项目一间房、每个会话一张桌，屏幕颜色一眼看出谁在干活、谁在等你、谁卡住了；点桌子就能跟 Agent 聊天、逐条批命令、一键叫停，还能组一支小队并行干活（各占一个 git worktree）、把跑顺的任务存成 Playbook 复用，内置浏览器让 Agent 自己打开应用点一点测一测。注意：完全免费、无账号无遥测、全程本机；Mac 已有、Windows 为 beta；模型走你自己的 Claude 订阅。]]></description>
+  </item>
+  <item>
+    <title>gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做</title>
+    <link>https://creatememori.blog/items/i-ob2n2l.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-ob2n2l.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>AI 实战</category>
+    <description><![CDATA[11 月 24 日登 Product Hunt、11 月 28 日当日第 18：免费开源的 Claude Code 技能（MIT），一句 /gutcheck + 想法，它先定研究计划，再拉 Google Trends、Google News、Hacker News、GitHub、App Store、Wikipedia 与全网的实时证据，给出结论与可信度、反方观点和本周可做的下一步。注意：完全免费、无 API Key 就能起步、全程本机；需 Claude Code，macOS/Linux 可用、Windows 未测试；Reddit 免费源已关闭，查 Reddit 须自备 Reddit API Key；用量走你自己的 Claude 套餐。]]></description>
+  </item>
+  <item>
+    <title>Oya Browser——给 AI Agent 一个真正登录好的浏览器：MFA 一键接管，录一次流程、之后零 token 回放</title>
+    <link>https://creatememori.blog/items/i-6y5rfu.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-6y5rfu.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>AI 实战</category>
+    <description><![CDATA[11 月 20 日登 Product Hunt、11 月 28 日入选当日榜单：免费桌面应用（Mac & Windows），给 Claude Code、Cursor、Codex 或任意 MCP 客户端一个真实的已登录浏览器——Agent 不用在提示词里放密码，登录态持久保留；跑一半遇到 2FA/SSO 可一键人工接管再交还；录一次流程可零 LLM 调用回放，或导出成标准 Playwright 代码自己拥有。注意：桌面应用免费、开源社区版可自托管；云端浏览器另计费（起步 1 小时免费，Developer 500 美元/月起），按量付费、非永久免费。]]></description>
+  </item>
+  <item>
+    <title>smoui——艺术指导风的 React 动效组件：每个组件都有实时预览、安装命令、用法代码和 props 说明，几分钟就能复制进项目</title>
+    <link>https://creatememori.blog/items/i-160ozfp.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-160ozfp.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>网页动效</category>
+    <description><![CDATA[11 月 16 日 Product Hunt 上线，免费；npm 包提供顺滑的 React 动效组件，不是普通组件；每个组件都有实时预览、安装命令、用法代码和 props 说明，几分钟就能复制进项目。注意：免费]]></description>
+  </item>
+  <item>
+    <title>Pixel UI——20 个免费开源的动效 React 组件：Tailwind CSS + Motion 打造，shadcn CLI 或 MCP 一条命令装进项目，源码复制走自己拥有</title>
+    <link>https://creatememori.blog/items/i-wfskzl.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-wfskzl.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>网页动效</category>
+    <description><![CDATA[11 月 12 日 Product Hunt 上线，免费开源；Tailwind CSS + Motion 打造，shadcn CLI 或 MCP 一条命令装进项目，源码复制走自己拥有；站内 20 个组件可直接试玩。注意：免费开源；少数标 Pro 的组件不在免费范围内]]></description>
+  </item>
+  <item>
+    <title>Motion Fab——聊天描述、AI Agent 帮你做动画视频：动感文字、3D、音效配音全包，边做边看实时预览，一句话就能改，导出 MP4</title>
+    <link>https://creatememori.blog/items/i-5t8usm.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-5t8usm.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>网页动效</category>
+    <description><![CDATA[11 月 6 日 Product Hunt 上线，免费试用免注册；聊天描述、AI Agent 帮你做动画视频，动感文字、3D、音效配音全包，边做边看实时预览，一句话就能改，导出 MP4；也可从模板或社区画廊的配方起手。注意：免费试用免注册，每月 100 credits 续充；Pro €19.99/月]]></description>
+  </item>
+  <item>
+    <title>DFly2——腾讯开源稀疏模型推理加速器：草稿不存 KV 缓存，64K 吞吐最高提升 81%</title>
+    <link>https://creatememori.blog/items/i-lri6eo.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-lri6eo.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>前沿追踪</category>
+    <description><![CDATA[11 月 27 日开源：腾讯混元推理团队的 DFly2，让投机解码的草稿层直接复用目标模型的稀疏 KV 缓存与索引，不再给草稿单独存一份 KV，64K 长上下文也不拖并发；DeepSeek-V4.1-Flash 上 SWE 任务吞吐最高提升 81%，端到端加速约 3 倍，已随 Hy4 flash 默认进 vLLM 与 SGLang。注意：数字均为腾讯自报；训练自己的 DFly2 需走 AngelSpec，另有 0.85B 草稿模型随 Hy4 flash 提供。]]></description>
+  </item>
+  <item>
+    <title>SOLVE——清华+英伟达免训练机器人操作框架：真机零样本任务成功率 88%，单集成本 $1.7</title>
+    <link>https://creatememori.blog/items/i-60toyu.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-60toyu.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>前沿追踪</category>
+    <description><![CDATA[11 月 25 日 arXiv 论文（2611.34750）：清华与英伟达的 SOLVE 框架，让多模态大模型一次只写一串稀疏有序的 6 自由度末端关键姿态、由运动规划器插值执行，不用训练、不用演示、不用动作库；真机 UR12e 上 16 项零样本任务成功率 88%（75/85 集），RoboDojo 74.5%、RoboLab 84.5%，单集成本 $1.7、约同类方法的 1/12。注意：预印本、尚未同行评审；力控类接触任务仍是短板。]]></description>
+  </item>
+  <item>
+    <title>Varcoda Mono 1.6——方形技术等宽字体，29 个连字不占列、五字重带手写斜体</title>
+    <link>https://creatememori.blog/items/i-1w4v203.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1w4v203.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>设计素材</category>
+    <description><![CDATA[11 月 26 日建库：圆角矩形字碗、刀切延长线，0/O 与 1/l/I 经自动化测试绝不混淆；29 个连字每个严格占一格，光标与选区不错位；五字重各带手绘斜体，附 Nerd Font 变体；SIL OFL 1.1 免费商用。注意：暂无可变字体、无西里尔文]]></description>
+  </item>
+  <item>
+    <title>Halden 1.1.1——为 OLED 深色屏做光学补偿的界面无衬线，日夜切换零重排</title>
+    <link>https://creatememori.blog/items/i-1ldasd.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1ldasd.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>设计素材</category>
+    <description><![CDATA[11 月 27 日建库：源自 Inter 的界面字体，分正文、展示、深色三族共 9 款；Halden Dark 减薄笔画抵消白字发虚，同时锁死字宽，日夜切换不抖动；等宽数字与上下文冒号居中，适合仪表盘与座舱界面；SIL OFL 1.1 免费商用]]></description>
+  </item>
+  <item>
+    <title>Helix Mono 1.0——HelixDB 改的 JetBrains Mono，无连字、六字重带斜体</title>
+    <link>https://creatememori.blog/items/i-1dou873.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1dou873.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>设计素材</category>
+    <description><![CDATA[11 月 26 日发布：基于 JetBrains Mono NL 2.304，圆角 V 缺口、方形收尾的 r、对称 M、更轻的 & 与 @；六字重各带斜体，TTF 与 WOFF2 齐全，附在线试字页；SIL OFL 1.1 免费商用。注意：刻意去掉连字，习惯连字的用户需注意]]></description>
+  </item>
+  <item>
+    <title>Glyphwriter——手写纸一扫就成真 TTF，墨迹边缘原样保留</title>
+    <link>https://creatememori.blog/items/i-1xlujhh.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1xlujhh.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>设计素材</category>
+    <description><![CDATA[11 月 20 日建库：单文件 HTML 应用，打印模板、手写填格、扫描上传即生成 TTF，墨水洇边与纸纹都保留；可逐字微调，缺字按相似 Google 字体自动补齐；全程本地运行、不上传；MIT 开源。注意：暂无正式 release，暂不支持导出 WOFF2]]></description>
+  </item>
+  <item>
+    <title>Devventura——边做真实工作边学编程：19 课 530 节，学完进虚拟公司做工单、修同事的 bug、审 PR</title>
+    <link>https://creatememori.blog/items/i-dvkvjg.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-dvkvjg.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>学习成长</category>
+    <description><![CDATA[11 月 10 日 Product Hunt 上线：Python、JavaScript、C++、Java 四门语言，每课一个概念、每课一个即时判题练习；学完一门课进虚拟公司做真实工单、修同事留下的 bug、审 PR，期末考试后拿可验证证书。注意：全部入门课永久免费、免绑卡；进阶课、结课项目、证书与职业路径走 Ascent（€299/年）；与 11-26 分享的 DeVenture Academy 不是同一产品]]></description>
+  </item>
+  <item>
+    <title>Tano——学韩语只背你不会的词：先水平测试跳过已掌握词汇，每天 3 个新词免费练</title>
+    <link>https://creatememori.blog/items/i-146z7c0.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-146z7c0.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>学习成长</category>
+    <description><![CDATA[11 月 22 日上架 App Store、11 月 28 日登 Product Hunt 日榜：先做水平测试跳过已会的词，每天学几个新词、配例句与发音，1 天/3 天/7 天间隔复习，53 个主题、20 个生活场景，化身随词汇量长大。注意：水平测试、全部复习与每天 3 个新词永久免费、无广告、免账号；iPhone 限定、英文/乌克兰语界面；Premium（无限新词、填空与手写练习）$5.99/月或 $69.99 买断，年付有 7 天免费试用、到期自动续费]]></description>
+  </item>
+  <item>
+    <title>Bureau Brut——法国独立字库，试用字体给完整字符集、学生免费用</title>
+    <link>https://creatememori.blog/items/i-1k2xm3h.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1k2xm3h.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>排版网站</category>
+    <description><![CDATA[法国小字库，Brut Grotesque、Boogy Brut 等字族走粗野又耐看的路线；站面本身就是一份活 specimen，每款字体都有完整试字排版与技术文档。试用字体给全套字符集（和买到的一样全），学生做非商业项目可免费使用。]]></description>
+  </item>
+  <item>
+    <title>Typejockeys——维也纳字库，字体、lettering 与标志设计一把抓</title>
+    <link>https://creatememori.blog/items/i-yozhkz.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-yozhkz.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>排版网站</category>
+    <description><![CDATA[2008 年成立的维也纳小工作室，Ingeborg、Henriette 等大字族以手写温度与技术精度见长；站面把字体、lettering、标志重设计并排展示，适合看「字体如何撑起品牌视觉」。全站字体都可免费试用、无限制。]]></description>
+  </item>
+  <item>
+    <title>Fontself——在 Illustrator/Photoshop 里把手写字做成字体</title>
+    <link>https://creatememori.blog/items/i-2crd06.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-2crd06.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>排版网站</category>
+    <description><![CDATA[不用另学字体软件，在 AI 或 PS 里画好字母，拖进面板就自动排字距、调字距、导出可安装的 OTF，一次性买断 49 美元起；还出了 iPad 独立版。注意：只做静态字体，不支持可变字体。]]></description>
+  </item>
+  <item>
+    <title>Metaflop——拖滑块调参数，免费调出自己的字体</title>
+    <link>https://creatememori.blog/items/i-ohq5wr.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-ohq5wr.html</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+    <category>排版网站</category>
+    <description><![CDATA[浏览器里的参数化字体实验室，不用画一个笔画，拖动字重、对比度、x-height、衬线形态等滑块，整套字母实时变形，成品可免费下载为 OTF/Webfont（SIL OFL 开源协议）；拖一次滑块就直观理解一个排版参数的作用，教学与快速原型都很合适。]]></description>
+  </item>
+  <item>
+    <title>Intel One Mono——Intel 发布的免费开源等宽编程字体：为低视力开发者设计，四字重带斜体、200+ 拉丁语种</title>
+    <link>https://creatememori.blog/items/i-wox5uo.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-wox5uo.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>设计素材</category>
+    <description><![CDATA[Frere-Jones Type 联合 Intel 品牌团队设计，低视力与法定盲人开发者全程参与反馈；四字重 Light/Regular/Medium/Bold 各带斜体，支持编程连字（ss01）与多种 OpenType 特性，OTF/TTF/WOFF/WOFF2 全套、附可编辑 UFO 源文件；SIL OFL 1.1 免费商用。注意：11 月 26 日正式发布。]]></description>
+  </item>
+  <item>
+    <title>Skiss——按真实 CSS 存网站的设计灵感库：整页截图加字体配色一次存下，还能出 Design.md 喂 AI</title>
+    <link>https://creatememori.blog/items/i-1nnxyro.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1nnxyro.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>设计素材</category>
+    <description><![CDATA[11 月 16 日上线：保存网站时按其真实 CSS 抓取字体、配色与版块，附桌面与手机整页截图，之后网站改版也能回看当初的样子、检查任意元素；每站可出 Design.md，MCP 只读接 Claude、ChatGPT、Cursor 或 Figma。注意：免费档存 50 个站，Pro 14 天试用免绑卡。]]></description>
+  </item>
+  <item>
+    <title>Excaliboard——给 Excalidraw 加文件夹、搜索与 1 万+ 图标的免费扩展</title>
+    <link>https://creatememori.blog/items/i-1o06als.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1o06als.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>设计素材</category>
+    <description><![CDATA[11 月 22 日上线：原版 Excalidraw 编辑器不变，外加无限画板分文件夹、全文搜索、快捷切换、Mermaid 转手绘图、PDF 导出、自动保存与版本历史；内置 1 万+ 架构与云服务图标（AWS、Google Cloud、Azure 等）可离线搜索。注意：免费、无账号、无服务器、不追踪，数据只留在浏览器或自选文件夹。]]></description>
+  </item>
+  <item>
+    <title>DenkiChip 1.100——紧凑有力的日文像素字体：JIS 一级汉字 2965 字、支持纵排</title>
+    <link>https://creatememori.blog/items/i-qqgwlw.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-qqgwlw.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>设计素材</category>
+    <description><![CDATA[11 月 1 日 v1.100：2px 粗线条的 8×12 像素字体，JIS 第一水准汉字 2965 字、支持纵排，假名 8px、汉字 10px 送字宽，数字等宽便于对齐；TTF 内嵌 12px 位图，小字号点对点显示锐利，适合游戏短文本 UI 与视频缩略图、标题；SIL OFL 1.1 免费商用。注意：汉字为简略字形，不适合需要准确笔画与读音的内容。]]></description>
+  </item>
+  <item>
+    <title>SpaceX Starmind——FCC 批准 100 万颗轨道算力卫星：太空 AI 数据中心获准上天</title>
+    <link>https://creatememori.blog/items/i-1malms1.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1malms1.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>前沿追踪</category>
+    <description><![CDATA[11 月 25 日美国联邦通信委员会正式批准 SpaceX 部署最多 100 万颗轨道算力卫星，组建名为 Starmind 的太空数据中心星座，美国历史上首次批准此类星座；首颗卫星须在 2027 年发射、2033 年前入轨运行，2040 年建成完整星座，星间主要靠激光链路通信。注意：批文只覆盖备份遥测等无线电频段，轨道碎片处理方案尚未获批，亚马逊 Kuiper、Viasat 与美国天文学会均曾反对。]]></description>
+  </item>
+  <item>
+    <title>BharatGen Patram 1.5——印度主权文档视觉模型开源：7B 参数读手写单据、表格与印章</title>
+    <link>https://creatememori.blog/items/i-l9809o.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-l9809o.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>前沿追踪</category>
+    <description><![CDATA[11 月 26 日 IndiaAI Mission 支持的 BharatGen 发布 Patram 1.5，7.8B 参数视觉语言模型，直接把文档当图片读——手写、扫描件、表格、印章、印地语混排都能处理，新增 OCR 3.0（自然语言指定要抽什么字段）与“读不清就认错”的拒答机制；Apache 2.0 协议，权重已上 Hugging Face（需接受使用条件后下载），另有在线 Playground 可试。注意：49 项评测含自家 PatramBench，基准本身尚未公开，厂商分数仅供参考。]]></description>
+  </item>
+  <item>
+    <title>100x-engineer-skill——前 Cursor 工程师的开源编程技能：让 Agent 对每块代码做形式化验证</title>
+    <link>https://creatememori.blog/items/i-1ccbfzv.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1ccbfzv.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>前沿追踪</category>
+    <description><![CDATA[11 月 23 日建库、5 天涨到 1,121 星，GitHub 今日热门：给 Claude Code、Cursor、Codex 的开源技能，把任务拆成小块，每块写清状态、转移、前后置条件与不变量并逐个穷举验证，第二模型再审代码与截图，作者自称每月用它发 1,000+ 个 PR、回滚率低于 2%。注意：MIT 开源、需 Node 22+；验证覆盖的是模型与函数边界，不是整站正确性保证，作者自报数据未经独立复核。]]></description>
+  </item>
+  <item>
+    <title>Manus——通用 AI Agent 免费档：注册送 1,000 额度，每天再领 300</title>
+    <link>https://creatememori.blog/items/i-7id6ew.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-7id6ew.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>YouTube 选题</category>
+    <description><![CDATA[建议标题「Manus 免费白嫖攻略：注册送 1000 额度，每天再领 300，免绑卡」。打开 manus.im/pricing 注册免费档：注册送 1,000 额度，每天登录再领 300（每月上限 1,500），免绑卡。注意：每天的 300 只限 Lite 模式、当天不用就清零；1 个并发任务、2 个定时任务。]]></description>
+  </item>
+  <item>
+    <title>Meshy——AI 3D 生成免费档：每月 100 credits，文生 3D 不用绑卡</title>
+    <link>https://creatememori.blog/items/i-12zy1ek.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-12zy1ek.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>YouTube 选题</category>
+    <description><![CDATA[建议标题「打字就能生成 3D 模型：Meshy 免费档每月 100 credits，免绑卡」。打开 meshy.ai/pricing 注册免费档：每月 100 credits，每月 1 日 UTC 0 点重置，官网明确写 No credit card needed，打字或传图就能生成 3D 模型、贴图与动画。注意：免费产出走 CC BY 4.0 许可（商用需署名）、排队优先级低。]]></description>
+  </item>
+  <item>
+    <title>Bezel Film——让编程 Agent 用代码生成带旁白的短片：离线运行、无需 API Key</title>
+    <link>https://creatememori.blog/items/i-27hl3p.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-27hl3p.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>YouTube 选题</category>
+    <description><![CDATA[建议标题「让编程 Agent 用代码给你拍短片：离线运行、不用 API Key，21 种风格自动配音」。npm 装上 Bezel Film（MIT 开源，v1.2.0）：Agent 写几行 Node.js 代码就能出一支带旁白、字幕的短片，全程本机离线、不用接任何模型 API，21 种视觉风格。注意：需 Node 22+。]]></description>
+  </item>
+  <item>
+    <title>open-artifact——让编程 Agent 交出能打开、能改、能批注的成品：幻灯片、表格、白板、短片一次成型</title>
+    <link>https://creatememori.blog/items/i-1exnl0q.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1exnl0q.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>YouTube 选题</category>
+    <description><![CDATA[建议标题「Agent 做的 PPT 再也不用重做：免费开源神器，幻灯片、白板、短片一次成型还能改」。GitHub 拉下 open-artifact（Apache-2.0 开源）：Agent 把幻灯片、表格、白板、短片写成一叠本地文件，本地守护进程在浏览器里打开成可编辑页面——改标题、移便利贴、留批注，再一键发回 Agent 会话，导出 PDF/PPTX/PNG/MP4。注意：完全免费、全程本机、无账号无上传；需 Node.js 22.18+。]]></description>
+  </item>
+  <item>
+    <title>Type Forward——保加利亚独立字库，Salinger、Garet、Oddval 等可变字体都带鲜明个性</title>
+    <link>https://creatememori.blog/items/i-n56au5.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-n56au5.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>排版网站</category>
+    <description><![CDATA[保加利亚独立字库，Salinger、Garet、Oddval 等可变字体都带鲜明个性，每款都有免费试用字重；站面本身就是 specimen，找冷门好字体或学小字库怎么做展示，先从这里逛。]]></description>
+  </item>
+  <item>
+    <title>Calligraphr——把自己的手写字变成真正的字体</title>
+    <link>https://creatememori.blog/items/i-1so3uy8.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1so3uy8.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>排版网站</category>
+    <description><![CDATA[把自己的手写字变成真正的字体：按模板写下字母、上传扫描件，网站自动生成可安装的 TTF/OTF；想给设计加一味手写个性、或留存孩子的手写字，直接用它。]]></description>
+  </item>
+  <item>
+    <title>Glyphr Studio——免费开源的网页字体编辑器</title>
+    <link>https://creatememori.blog/items/i-1bi2gu0.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1bi2gu0.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>排版网站</category>
+    <description><![CDATA[免费开源的网页字体编辑器，不用装软件、不用注册就能在浏览器里画字、调间距、导字体文件；想入门字体设计或改一款开源字体的几个字形，从它开始最顺手。]]></description>
+  </item>
+  <item>
+    <title>Typogram——以排版为先的设计画布</title>
+    <link>https://creatememori.blog/items/i-1ey5tcy.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1ey5tcy.html</guid>
+    <pubDate>Sat, 28 Nov 2026 04:00:00 GMT</pubDate>
+    <category>排版网站</category>
+    <description><![CDATA[以排版为先的设计画布：挑字体、玩字形变体与连字、拼海报与 wordmark，还能一步搭出整套品牌视觉；免费档可用 1,629 款字体、导出 PNG/SVG，做品牌字或海报排版时可以直接上手试。]]></description>
   </item>
 </channel>
 </rss>

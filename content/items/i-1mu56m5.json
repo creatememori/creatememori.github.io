@@ -1,0 +1,47 @@
+{
+  "blocks": [
+    {
+      "text": "11 月 28 日登上 Hacker News 首页的 SessionGraph，解决的是一个很具体的痛点：编程 Agent 用得越多，散落在 Claude Code、Codex 等工具里的会话记录就越难找。它在本地读取这些会话记录，建成一个可搜索的索引，再把它们画成一张图：可以在图上回看某次对话，也能跨工具对比不同 Agent 的做法，还能通过 MCP 或 REST 接口，让 Agent 直接查询旧会话。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "本地读取 Claude Code、Codex 等会话记录，建成可搜索索引",
+        "图上回看、跨工具对比不同 Agent 的会话",
+        "支持 MCP/REST，让 Agent 直接查旧会话",
+        "npx sessiongraph 即开，数据不出本机"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "对重度使用编程 Agent 的人来说，旧会话往往比新对话更有价值：上次踩过的坑、试过的方案、被否掉的思路，都在历史里。SessionGraph 把这些记录变成可检索、可对比的资产，而不是每次换工具就丢掉。适合同时用多个编程 Agent、或者想把历史对话沉淀成经验的开发者；本地运行、数据不出本机这一点，也让它在隐私上比云端方案更让人放心。",
+      "type": "paragraph"
+    },
+    {
+      "text": "它还有一个容易被忽略的用法：跨工具对比。同一类任务交给不同 Agent 做，做法与结果常常不一样，图上并排一看，哪个更稳、哪个爱绕路就很清楚。长期下来，这些对比本身就是一份经验记录：下次遇到类似任务，先翻旧会话再动手，比每次从头试错省时间。索引全在本地，翻旧账也不用担心记录外流。旧会话用得上，才算真正沉淀下来。",
+      "type": "paragraph"
+    },
+    {
+      "items": [
+        "运行 npx sessiongraph，本地启动并读取各家 Agent 的会话记录",
+        "在图上搜索、回看某次对话，或跨工具对比不同会话",
+        "需要时接 MCP 或 REST 接口，让 Agent 在干活时直接查旧会话"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "先确认它支持你正在用的 Agent 工具与会话存储位置；本地索引会随着会话增多而变大，定期清理不再需要的旧记录更顺手。",
+      "title": "提示",
+      "tone": "tip",
+      "type": "callout"
+    }
+  ],
+  "cover": {
+    "alt": "SessionGraph——把各家编程 Agent 的会话历史画成一张图 的官方预览图",
+    "credit": "sessiongraph.ai",
+    "src": "https://sessiongraph.ai/assets/social.jpg"
+  },
+  "summary": "一个把各家编程 Agent 会话历史画成图的本地工具：旧对话可搜索、可对比，还能让 Agent 自己回查，数据全程不出本机。"
+}

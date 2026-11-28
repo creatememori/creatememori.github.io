@@ -1,0 +1,49 @@
+{
+  "blocks": [
+    {
+      "text": "Pixel UI 是一套免费开源的动效 React 组件库，11 月 12 日在 Product Hunt 上线。它用 Tailwind CSS 加 Motion 打造，站内 20 个组件都可以直接试玩；装进项目只要一条命令——走 shadcn CLI 或 MCP 都行，源码复制走、自己拥有，不用再回头依赖它。",
+      "type": "lead"
+    },
+    {
+      "items": [
+        "20 个动效 React 组件，站内可直接试玩",
+        "Tailwind CSS + Motion 打造",
+        "shadcn CLI 或 MCP 一条命令装进项目，源码复制走自己拥有",
+        "免费开源",
+        "源码复制走自己拥有，后续改样式改逻辑不受制于人",
+        "站内 20 个组件全部可试玩，先确认效果再装进项目"
+      ],
+      "title": "先看这几点",
+      "type": "highlights"
+    },
+    {
+      "text": "这类组件库的吸引力不在数量，而在“拿走就能用”：先在站内试玩确认效果，再一条命令装进项目，源码归自己，后续改样式、改逻辑都不受制于人。对用 Tailwind CSS 与 shadcn 体系的 React 开发者来说，接入门槛很低；Motion 的加持也让动效部分不用再手写关键帧。适合正在搭新项目、或想给现有页面快速加动效的前端开发者。",
+      "type": "paragraph"
+    },
+    {
+      "text": "对用 Tailwind CSS 与 shadcn 体系的开发者来说，接入门槛很低：先在站内试玩，确认动效与项目气质合拍，再一条命令装进项目，源码归自己所有，后续改样式、改逻辑都不用再回头依赖它。Motion 的加持也让动效部分不用再手写关键帧，省下不少调试时间。站内 20 个组件数量不算多，但每个都能直接试玩，挑中意的再装，比装一整套再慢慢挑更省事。对小团队来说，这种拿走即用的模式也省了选型时间：不用先评估一整套组件库，挑中意的装几个就能开工。",
+      "type": "paragraph"
+    },
+    {
+      "items": [
+        "在 pixelui.dev 上试玩 20 个组件，挑中意的",
+        "用 shadcn CLI 或 MCP 一条命令装进项目",
+        "源码复制走，按自己项目的需求改样式与逻辑"
+      ],
+      "title": "怎么用",
+      "type": "steps"
+    },
+    {
+      "text": "免费开源，但少数标 Pro 的组件不在免费范围内；用到 Pro 组件前先看清标注，别默认全部免费。",
+      "title": "少数 Pro 组件不在免费范围内",
+      "tone": "info",
+      "type": "callout"
+    }
+  ],
+  "cover": {
+    "alt": "Pixel UI——20 个免费开源的动效 React 组件：Tailwind CSS + Motion 打造，shadcn CLI 或 MCP 一条命令装进项目，源码复制走自己拥有 的官方预览图",
+    "credit": "pixelui.dev",
+    "src": "https://pixelui.dev/opengraph-image?db0063aa03b0809c"
+  },
+  "summary": "20 个免费开源的动效 React 组件：Tailwind CSS 加 Motion 打造，shadcn CLI 或 MCP 一条命令装进项目，源码复制走、自己拥有。"
+}

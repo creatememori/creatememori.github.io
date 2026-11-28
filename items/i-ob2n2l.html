@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="一个免费开源的 Claude Code 技能：输入一句想法，它就拉多方实时证据做验证，给出结论、可信度、反方观点和本周能做的下一步。">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0C0B11">
+<link rel="canonical" href="https://creatememori.blog/items/i-ob2n2l.html">
+<link rel="icon" href="/logo.png">
+<link rel="apple-touch-icon" href="/logo.png">
+<link rel="alternate" type="application/rss+xml" title="创忆录更新日志" href="https://creatememori.blog/feed.xml">
+<link rel="stylesheet" href="/seo.css">
+<title>gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做｜AI 实战 · 创忆录</title>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="创忆录 MEMORI">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做｜AI 实战 · 创忆录">
+<meta property="og:description" content="一个免费开源的 Claude Code 技能：输入一句想法，它就拉多方实时证据做验证，给出结论、可信度、反方观点和本周能做的下一步。">
+<meta property="og:url" content="https://creatememori.blog/items/i-ob2n2l.html">
+<meta property="og:image" content="https://nekos.best/api/v2/neko/3b3658d7-a91f-4da3-aa96-71150e67dd8c.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做 的装饰插图">
+<meta property="article:published_time" content="2026-11-28T20:00:00+08:00"><meta property="article:modified_time" content="2026-11-28T20:00:00+08:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做｜AI 实战 · 创忆录">
+<meta name="twitter:description" content="一个免费开源的 Claude Code 技能：输入一句想法，它就拉多方实时证据做验证，给出结论、可信度、反方观点和本周能做的下一步。">
+<meta name="twitter:image" content="https://nekos.best/api/v2/neko/3b3658d7-a91f-4da3-aa96-71150e67dd8c.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://creatememori.blog/#organization","name":"创忆录 MEMORI","alternateName":"创忆录","url":"https://creatememori.blog/","logo":{"@type":"ImageObject","url":"https://creatememori.blog/logo.png","width":128,"height":128},"sameAs":["https://github.com/creatememori/creatememori.github.io"]},{"@type":"WebSite","@id":"https://creatememori.blog/#website","url":"https://creatememori.blog/","name":"创忆录 MEMORI","alternateName":"创忆录","inLanguage":"zh-CN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://creatememori.blog/library.html?q={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://creatememori.blog/#organization"}},{"@type":"Article","@id":"https://creatememori.blog/items/i-ob2n2l.html#article","headline":"gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做","description":"一个免费开源的 Claude Code 技能：输入一句想法，它就拉多方实时证据做验证，给出结论、可信度、反方观点和本周能做的下一步。","datePublished":"2026-11-28T20:00:00+08:00","dateModified":"2026-11-28T20:00:00+08:00","author":{"@id":"https://creatememori.blog/#organization"},"publisher":{"@id":"https://creatememori.blog/#organization"},"image":"https://nekos.best/api/v2/neko/3b3658d7-a91f-4da3-aa96-71150e67dd8c.png","mainEntityOfPage":"https://creatememori.blog/items/i-ob2n2l.html","articleSection":"AI 实战","keywords":["AI 实战","AI 编程助手","高"],"isPartOf":{"@id":"https://creatememori.blog/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://creatememori.blog/"},{"@type":"ListItem","position":2,"name":"资源库","item":"https://creatememori.blog/library.html"},{"@type":"ListItem","position":3,"name":"AI 实战","item":"https://creatememori.blog/c/ai-workflows.html"},{"@type":"ListItem","position":4,"name":"gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做","item":"https://creatememori.blog/items/i-ob2n2l.html"}]}]}</script>
+</head>
+<body style="--accent:#6B5BD6">
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="site-head">
+  <div class="shell head-in">
+    <a class="brand" href="/" aria-label="创忆录首页">
+      <img src="/logo.png" alt="创忆录标志" width="30" height="30">
+      <span><strong>创忆录</strong><small>MEMORI ARCHIVE</small></span>
+    </a>
+    <nav class="site-nav" aria-label="页面导航">
+      <a href="/library.html">资源库</a>
+      <a href="/c/">分类</a>
+      <a href="/updates/">更新日志</a>
+    </nav>
+    <a class="head-cta" href="/library.html">进入资源库 <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main id="main"><div class="shell detail-shell">
+<nav class="breadcrumbs" aria-label="面包屑"><a href="/">首页</a><span aria-hidden="true">/</span><a href="/library.html">资源库</a><span aria-hidden="true">/</span><a href="/c/ai-workflows.html">AI 实战</a><span aria-hidden="true">/</span><a href="/items/i-ob2n2l.html">gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做</a></nav>
+<article class="detail-wrap">
+  <header class="detail-hero">
+    <div class="detail-kicker"><a href="/c/ai-workflows.html">AI 实战</a><span>AI 编程助手</span><em>MEMORI DETAIL / 019</em></div>
+    <h1>gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做</h1>
+    <p class="detail-summary">一个免费开源的 Claude Code 技能：输入一句想法，它就拉多方实时证据做验证，给出结论、可信度、反方观点和本周能做的下一步。</p>
+    <div class="detail-meta">
+      <span class="status status-ok">有效</span>
+      <span>11-28 · 晚</span>
+      <span>高热度</span>
+      
+      <a href="https://www.producthunt.com/products/gutcheck-2" target="_blank" rel="noopener noreferrer">原始来源 ↗</a>
+    </div>
+  </header>
+  <figure class="detail-cover">
+  <img src="https://nekos.best/api/v2/neko/3b3658d7-a91f-4da3-aa96-71150e67dd8c.png" alt="gutcheck——动工前先问 Claude Code：拉 Google 趋势、Reddit、新闻与 GitHub 的实证，判你的点子值不值得做 的装饰插图" loading="eager" fetchpriority="high" decoding="async" referrerpolicy="no-referrer">
+  <figcaption><span>nekos.best（装饰插图）</span></figcaption>
+</figure>
+  <div class="detail-columns">
+    <div class="detail-content"><p class="detail-lead">gutcheck 是一个免费开源的 Claude Code 技能，MIT 协议，11 月 24 日登上 Product Hunt，11 月 28 日排到当日第 18。用法只有一句命令：输入 /gutcheck 加上你的想法，它先定一份研究计划，再拉 Google Trends、Google News、Hacker News、GitHub、App Store、Wikipedia 与全网的实时证据，最后给出结论与可信度、反方观点，以及本周就可以做的下一步。</p>
+<section class="detail-block detail-highlights">
+      <h2>先看这几点</h2>
+      <ul><li>一句 /gutcheck + 想法，自动定研究计划并拉多方实时证据</li><li>证据来源：Google Trends、Google News、HN、GitHub、App Store、Wikipedia 与全网</li><li>输出结论与可信度、反方观点、本周可做的下一步</li><li>完全免费、无 API Key 就能起步，全程本机运行</li></ul>
+    </section>
+<p>做产品最怕的不是想法不够多，而是没验证就开干。gutcheck 把“先验证再动手”做成了一条命令：它不只给结论，还给可信度与反方观点，相当于先帮你把反对意见也想了一遍；“本周可做的下一步”则让验证结果直接落到行动上。适合有新点子想快速验证的独立开发者、创业者或内容创作者，动工前先花几分钟跑一次。</p>
+<p>它的价值不只在验证本身，还在验证的方式：先定研究计划，再分头取证，最后才给结论，这个顺序本身就值得借鉴。很多人做验证是先有结论再找证据，容易只挑支持自己的材料；gutcheck 把反方观点也写进输出，等于逼着你先看反对意见。可信度一栏同样有用：结论不是非黑即白，而是标明有多大把握，低可信度的结论就该再查一轮，而不是直接动手。动工前花几分钟跑一次，省下的可能是几周白干的时间。</p>
+<section class="detail-block detail-steps">
+      <h2>怎么用</h2>
+      <ol><li>在 Claude Code 里装好 gutcheck 技能</li><li>输入 /gutcheck + 你的想法，等它完成研究计划与多方取证</li><li>看结论、可信度与反方观点，再按“本周可做的下一步”决定是否动手</li></ol>
+    </section>
+<aside class="detail-callout callout-warn">
+      <small>使用前注意</small>
+      <p>需要 Claude Code 才能用，macOS 与 Linux 可用、Windows 未测试；Reddit 的免费源已经关闭，查 Reddit 须自备 Reddit API Key；用量走你自己的 Claude 套餐，gutcheck 本身不另收费。</p>
+    </aside></div>
+    <aside class="detail-aside">
+      <div class="detail-aside-card">
+        <small>收录信息</small>
+        <strong>AI 实战 · AI 编程助手</strong>
+        <p>11-28 晚批次收录。详情页由结构化内容生成，原始入口和最新限制以来源页为准。</p>
+        <a href="https://www.producthunt.com/products/gutcheck-2" target="_blank" rel="noopener noreferrer">打开原始来源 ↗</a>
+      </div>
+      <div class="detail-aside-card">
+        <small>同主题继续看</small>
+        <div class="detail-related"><a class="detail-related-card" href="/items/i-1g1b4ma.html">
+    <small>YouTube 选题 · AI 编程助手</small>
+    <strong>Design Lounge——免费给 AI 编程助手装设计品味：600+ 真实 UI 设计 + 免费 MCP</strong>
+    <span>11-28 · 高热度</span>
+  </a><a class="detail-related-card" href="/items/i-15448gy.html">
+    <small>AI 实战 · AI 编程助手</small>
+    <strong>airoom——免费开源的 Claude Code 指挥室：多会话一屏管，逐条批命令、还能让 Agent 自己测应用</strong>
+    <span>11-28 · 高热度</span>
+  </a><a class="detail-related-card" href="/items/i-6y5rfu.html">
+    <small>AI 实战 · AI 工作流自动化</small>
+    <strong>Oya Browser——给 AI Agent 一个真正登录好的浏览器：MFA 一键接管，录一次流程、之后零 token 回放</strong>
+    <span>11-28 · 高热度</span>
+  </a><a class="detail-related-card" href="/items/i-lri6eo.html">
+    <small>前沿追踪 · AI 编程助手</small>
+    <strong>DFly2——腾讯开源稀疏模型推理加速器：草稿不存 KV 缓存，64K 吞吐最高提升 81%</strong>
+    <span>11-28 · 高热度</span>
+  </a></div>
+        <a class="all-link" href="/c/ai-workflows.html">回到「AI 实战」分类 <span aria-hidden="true">→</span></a>
+      </div>
+    </aside>
+  </div>
+  <nav class="detail-bottom" aria-label="详情页导航">
+    <a href="/library.html">← 返回资源库</a>
+    <a href="/c/ai-workflows.html">继续看 AI 实战 →</a>
+  </nav>
+</article>
+</div></main>
+<footer class="site-foot">
+  <div class="shell">
+    <div class="foot-main">
+      <div>
+        <div class="foot-brand">
+          <img src="/logo-light.png" alt="创忆录标志" width="46" height="46">
+          <div><strong>创忆录</strong><small>MEMORI ARCHIVE</small></div>
+        </div>
+        <p>把今天的好资源，存成明天还能用的记忆。免费额度、AI 工具、网页动效、排版、设计、视频与前沿情报，按主题持续归档。</p>
+      </div>
+      <div class="foot-links">
+        <div><strong>站内</strong><a href="/">介绍页</a><a href="/library.html">资源库</a><a href="/c/">分类索引</a><a href="/updates/">更新日志</a><a href="https://creatememori.blog/feed.xml">RSS 订阅</a></div>
+        <div><strong>热门分类</strong><a href="/c/web-motion.html">网页动效</a><a href="/c/ai-workflows.html">AI 实战</a><a href="/c/design-assets.html">设计素材</a><a href="/c/free-resources.html">免费资源</a><a href="/c/frontier.html">前沿追踪</a><a href="/c/video-creation.html">视频创作</a></div>
+        <div><strong>关于</strong><a href="https://github.com/creatememori/creatememori.github.io" target="_blank" rel="noopener noreferrer">GitHub 仓库</a><a href="/library.html#aboutHeading">关于资源库</a><a href="/library.html#allHead">全部条目</a></div>
+      </div>
+    </div>
+    <div class="foot-cats" aria-label="全部分类"><a href="/c/free-resources.html">免费资源</a><a href="/c/web-motion.html">网页动效</a><a href="/c/typography.html">排版网站</a><a href="/c/youtube-topics.html">YouTube 选题</a><a href="/c/frontend-ai.html">前端·AI</a><a href="/c/ai-workflows.html">AI 实战</a><a href="/c/tools.html">黑科技工具</a><a href="/c/video-creation.html">视频创作</a><a href="/c/sci-vis.html">科学可视化</a><a href="/c/learning.html">学习成长</a><a href="/c/design-assets.html">设计素材</a><a href="/c/frontier.html">前沿追踪</a></div>
+    <div class="foot-base"><span>© 2026 创忆录 · MEMORI ARCHIVE</span><span>数据来自资源库 · 分类页与更新日志由构建脚本生成</span></div>
+  </div>
+</footer>
+</body>
+</html>
