@@ -1,0 +1,48 @@
+{
+  "summary": "DeepLearning.AI 的免费短课，1.5 小时讲清表格基础模型 TabPFN 如何直接预测新数据，以及怎么把它接进数据科学 Agent 当预测工具。",
+  "cover": {
+    "src": "https://assets.deeplearning.ai/landing-pages/tabular-foundation-models-for-data-science-agents/priorlabs-endcard-landscape.png",
+    "alt": "Tabular Foundation Models for Data Science Agents——DeepLearning.AI 免费短课：表格预测不用从头训练，Agent 直接调用基础模型 的官方预览图",
+    "credit": "deeplearning.ai"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 11 日上线的 DeepLearning.AI 免费短课，8 节视频加 4 个代码示例，总长约 1.5 小时。Prior Labs 的 Frank Hutter 等人主讲，核心是表格基础模型 TabPFN：靠上下文学习直接对新数据集做分类、回归与预测，不用每个数据集从头训练调参。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "TabPFN：新数据集来了直接预测，省掉从头训练与调参",
+        "KV 缓存加速重复预测，特征影响解读讲得明白",
+        "最后一步是把 TabPFN 接进数据科学 Agent（MCP + 技能调用）",
+        "另附从头训一个迷你 TabPFN 的实操"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "表格数据一直是机器学习的老大难：每个新数据集都要重新做特征工程、选模型、调参数。表格基础模型的做法是把“学习”前置到预训练里，推理时只看少量样本就能给出预测。这门课的价值在于把这套思路讲透——不是只给一个 API 调用示例，而是讲清楚它为什么能行、什么时候会失效。课程最后还讲了 KV 缓存加速与特征影响解读，这两节解决的是实际用起来的问题：重复预测别重复算，预测结果要能讲出道理。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合经常和表格数据打交道的数据分析师、数据科学家，以及正在给 Agent 接工具的开发者。课程节奏紧凑，1.5 小时能看完；有 Python 与机器学习基础会跟得更顺，完全没接触过表格建模的人可以先把它当概念课，再补代码示例。另外附了一个从头训迷你 TabPFN 的实操，想理解模型内部怎么工作的人可以跟着做一遍，比只看原理印象更深。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么学",
+      "items": [
+        "先看 TabPFN 原理两节，理解上下文学习怎么做预测",
+        "跑 4 个代码示例，拿自己的数据集对照试一次",
+        "看 KV 缓存与特征解读两节，学加速与排错",
+        "按最后一节把 TabPFN 接进 Agent 当预测工具"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "免费范围",
+      "text": "课程视频与代码示例免费开放；评分作业与结课成就需要 Pro。只想学思路的话，免费部分已经够用。"
+    }
+  ]
+}

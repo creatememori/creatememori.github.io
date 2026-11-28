@@ -1,0 +1,46 @@
+{
+  "summary": "121 个带克制物理动效的免费 React 组件：动效收进统一 token，每个动画都有减弱动效降级，不用 Tailwind 也能装。",
+  "cover": {
+    "src": "https://repository-images.githubusercontent.com/1385340891/22c7a75a-274f-4cb9-ad38-877da9fb903f",
+    "alt": "Arc Library——121 个带克制物理动效的免费 React 组件：不用 Tailwind 也能装 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Arc Library 在 9 月 24 日建库，提供 121 个免费 React 组件加 22 个区块。动效走 Motion，弹簧与时长收进统一 token，每个动画都有 reduced-motion 降级。安装方式很灵活：shadcn CLI 一条命令装，或者直接复制源码，CSS Modules 加设计 token 的做法不强制 Tailwind，Next.js 与 Vite 都能用。MIT 开源，需要 React 19 加 TypeScript。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "121 个免费 React 组件加 22 个区块，动效走 Motion。",
+        "弹簧与时长收进统一 token，每个动画都有 reduced-motion 降级。",
+        "shadcn CLI 一条命令装，或直接复制源码，不强制 Tailwind。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "它的思路和很多组件库不太一样：动效不是每个组件各写各的，而是收进统一的 token 里。弹簧、时长这些参数一旦统一，整个产品的动效就有了同样的手感，不会出现一个弹窗弹得快、一个抽屉滑得慢的割裂感。克制的物理动效也是亮点：动效的存在感刚好够提示状态变化，不会抢内容本身的注意力。对注重细节一致性的产品来说，这种统一比组件数量更重要。先小范围试用再推广，先挑一两个组件装进现有项目试手感，确认动效节奏合口味再继续往下接。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合用 React 19 加 TypeScript、正在搭新项目或给现有产品补组件的前端开发者，尤其适合不想被 Tailwind 绑定的团队。Next.js 与 Vite 都能用，覆盖了主流的搭建方式。要注意两点：部分标 Pro 的组件不在免费仓库里，选型前先确认；React 19 是硬性要求，老项目升级前先评估。如果团队已经在用别的组件库，可以先拿一两个组件对比动效手感，再决定要不要整体迁移。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "确认项目是 React 19 加 TypeScript，再挑需要的组件。",
+        "用 shadcn CLI 一条命令装，或直接复制源码进项目。",
+        "按统一 token 调整弹簧与时长，保持全站动效手感一致。"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "注意两个限制：需 React 19 加 TypeScript，老项目要先评估升级成本；部分标 Pro 的组件不在免费仓库里，选型前先确认目标组件是否免费。"
+    }
+  ]
+}

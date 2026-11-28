@@ -1,0 +1,47 @@
+{
+  "summary": "cjk-font-trim 按网站实际用字裁剪中日韩字体：实测 20 页站点 4 款 Noto CJK 从 82MB 压到 818KB，首屏仅 62KB，MIT 开源。",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/d2464d7d1ec8cbe086529b04dc8cf024d7cc70f131cc85dbf4a69ba2b5e1736a/rumu3fen-dev/cjk-font-trim/releases/tag/v0.1.0",
+    "alt": "cjk-font-trim 0.1——中日韩网页字体按实际用字裁剪，82MB 压到 818KB 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "中日韩网页字体动辄几十 MB，加载慢是老问题。cjk-font-trim 11 月 26 日发布首版：一个 Python 加 Playwright 脚本，跑一遍已建好的静态站，按桌面与手机宽度记录每种字体实际用到的字符，输出按字重分文件的 WOFF2 子集与首屏小文件，并附上 fonts.css。实测一个 20 页的站点，4 款 Noto CJK 从 82MB 压到 818KB，首屏仅 62KB。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "按实际用字裁剪 CJK 字体，不是按字符表一刀切。",
+        "实测 20 页站点：4 款 Noto CJK 从 82MB 压到 818KB，首屏仅 62KB。",
+        "输出按字重分文件的 WOFF2 子集与首屏小文件，附 fonts.css 即用。",
+        "MIT 免费开源，跑一遍已建好的静态站就能用。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "CJK 字体子集化的难点不在裁剪本身，而在“裁掉哪些字才安全”。按字符表硬裁容易漏掉动态内容里的生僻字；cjk-font-trim 的做法是让 Playwright 真跑一遍你的站，在桌面与手机两种宽度下记录实际出现的字符，再按这个清单裁剪。实测数据很有说服力：82MB 到 818KB，首屏 62KB，对中文站的首屏加载是实实在在的改善。按字重分文件的做法也很关键：页面只加载用到的字重，粗体与常规体不再互相拖累。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合维护中文、日文或韩文静态站的开发者，尤其是用了多款 Noto CJK 字重、首屏字体加载拖慢页面的项目。也适合对性能预算敏感的团队，把字体体积写进优化清单里。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "先确认所用字体的授权允许子集化与自托管，这是动手前必须过的一关。",
+        "在已建好的静态站上跑脚本，让 Playwright 在桌面与手机宽度下记录实际用字。",
+        "把输出的 WOFF2 子集与 fonts.css 接进站点，实测首屏加载与缺字情况。"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "裁剪前务必确认字体授权允许子集化与自托管，部分商用字体不允许；动态内容（如用户评论、搜索结果）可能出现站内未记录的字符，上线后要留出回退字体与缺字检查。"
+    }
+  ]
+}

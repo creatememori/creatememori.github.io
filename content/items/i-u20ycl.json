@@ -1,0 +1,48 @@
+{
+  "summary": "Taquoma 是与 Tahoma 逐字等宽的开源替身：Windows 文档拿到 Linux 上打开不再换行移位，同批还有 Trebuchet MS 与 Impact 的替身。",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/d43b92eebfc2e8428a01fedb290a852154adf74f3f2a3201c334ea6bc8e700eb/ZorinOS/taquoma",
+    "alt": "Taquoma——与 Tahoma 逐字等宽的开源替身，Linux 上排版不再错位 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "一份 Windows 文档拿到 Linux 上打开，字体一换就换行移位，是跨平台协作的老毛病。Zorin OS 11 月 15 日发布的 Taquoma 就是为了解决它：基于 Fauxdana 改制，与 Tahoma 的字宽、行高与字形位置完全一致，文档跨系统打开不再换行、不移位。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "与 Tahoma 字宽、行高与字形位置完全一致，跨平台排版不走样。",
+        "基于 Fauxdana 改制，由 Zorin OS 出品。",
+        "同批还有 Springald（Trebuchet MS 替身）与 Smack Dab（Impact 替身，带西里尔文）。",
+        "SIL OFL 1.1 免费商用。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "字体替身的价值不在好看，而在“像”。Taquoma 不追求自己的风格，追求的是与 Tahoma 逐字等宽：同一份文档在 Windows 与 Linux 上打开，行数、断行位置都不变。对经常收发 Office 文档、做跨平台设计稿的团队来说，这比换一套更好看的字体实际得多。同批的 Springald 与 Smack Dab 也是同一思路，分别对应 Trebuchet MS 与 Impact。对设计团队来说，逐字等宽还意味着设计稿与交付文档的版式可以一一对应，验收时不用再为几毫米的位移扯皮。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合在 Linux 上办公、经常处理 Windows 来文档的设计师与普通用户，也适合维护跨平台文档模板的团队。只想找一款有设计感的新字体的人，这支字体帮不上忙，它的任务就是“长得像 Tahoma”。如果团队里既有 Windows 用户也有 Linux 用户，统一装上这套替身字体，往来的文档都能保持原样，协作摩擦会少很多。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "到 GitHub 仓库的 ttfs 或 webfonts 目录找到字体文件，目前暂无正式 release。",
+        "在 Linux 系统上安装 Taquoma，打开一份 Tahoma 排版的文档核对断行。",
+        "装好后打开一份旧文档，逐页核对断行与分页是否与 Windows 上一致。",
+        "按需搭配同批的 Springald 与 Smack Dab，覆盖 Trebuchet MS 与 Impact 的场景。"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "暂无正式 release，字体文件在仓库的 ttfs 与 webfonts 目录中，需要自行取用；安装前确认系统字体缓存已刷新，文档比对时以实际打开效果为准。"
+    }
+  ]
+}

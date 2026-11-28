@@ -1,0 +1,46 @@
+{
+  "summary": "把口播讲解视频的整套流程交给 Agent：写稿、配音、对齐时间戳、排分镜，最后用 Remotion 渲出带动态字卡的成片。",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/b4c0728ac5f370e74afcf240eb8a35642426a3e78590001a497af2c28a6e7ae1/Vincentwei1021/video-talkcraft",
+    "alt": "Video Talkcraft——给 Claude Code / Codex 的口播讲解视频 Skill：口播稿加成品配音，本机按字级对齐时间戳、写进 SHOTBOOK 分镜，用 Remotion 渲出带动态字卡、运镜与音效的解说成片 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Video Talkcraft 是一个开源的 Agent Skill，专门做口播讲解视频：给 Claude Code 或 Codex 一份口播稿加成品配音，它会在本机按字级对齐时间戳，写进 SHOTBOOK 分镜，再用 Remotion 渲染出带动态字卡、运镜与音效的解说成片。仓库有 2571 星，11 月 25 日仍在更新，108 张动效配方卡可以逐张预览。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "108 张动效配方卡可逐张预览，中文口播优先设计，中英混排也支持。",
+        "另带剪映式动效工作台，可以逐轨微调时间轴。",
+        "个人、教育、研究用途免费，商用需先获作者授权。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "它的价值在于把讲解视频从手工剪辑变成了可复用的流程。以前做一期口播解说，要先写稿、录音、再一帧一帧对字幕和画面，改一句话就得重排时间轴。Talkcraft 让 Agent 按字级对齐音频和文本，时间戳直接写进分镜文档，画面、字卡和运镜都按分镜自动生成，改稿之后重新渲染就行。中文口播优先的设计对国内创作者尤其友好，中英混排的术语也不会被读错节奏。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合做技术讲解、产品演示、课程录制和知识类短视频的人，尤其适合已经在用 Claude Code 或 Codex 写代码、顺手想把讲解视频也交给 Agent 的开发者。剪映式的工作台则留给了想动手微调的人：自动生成之后还能逐轨改动效，不会被流程锁死。如果只是偶尔做一条视频、还没有用过这类 Agent 工具，上手成本会比直接打开剪映高一些。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "在 Claude Code 或 Codex 里装好这个 Skill，准备一份口播稿和配音。",
+        "让 Agent 按字级对齐时间戳，生成 SHOTBOOK 分镜，检查分镜里的画面与字卡。",
+        "用 Remotion 渲染成片，在动效工作台里逐轨微调后导出。"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "别忽略这一条",
+      "text": "许可和成本要先算清：个人、教育、研究用途免费，采用 PolyForm 非商业许可，商用必须先获得作者授权；生成成本走自己的 Claude Code 或 Codex 订阅，没有单独的免费额度。"
+    }
+  ]
+}

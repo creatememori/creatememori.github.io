@@ -1,0 +1,46 @@
+{
+  "summary": "MCP 工具的结果不再是纯文本：Antigravity 让它直接在工作区里变成可交互的图表、看板和桌面。",
+  "cover": {
+    "src": "https://antigravity.google/og/_fallbacks/blog.png",
+    "alt": "Google Antigravity 接入 MCP Apps——Agent 工具结果不再是纯文本 JSON，直接在工作区里渲染成交互界面 的官方预览图",
+    "credit": "antigravity.google"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Google 在 11 月 24 日的官方博客宣布，Antigravity 接入了 MCP Apps。基于开放的 MCP Apps 扩展（SEP-1865），MCP 工具返回的结果不再是纯文本 JSON，而是直接在工作区里渲染成交互界面：对话里内嵌图表、发布看板、打开沙箱桌面，也能钉在侧边栏，或者接管特定文件类型的查看器。首批插件包括 Vercel、Datadog、CodeRabbit、Better Stack、monday.com 与 Qodo。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "MCP 工具结果可渲染成交互界面，不再只是纯文本。",
+        "首批插件包括 Vercel、Datadog、CodeRabbit、Better Stack、monday.com 与 Qodo。",
+        "内置 /mcp-app-development 技能，可一键脚手架新插件。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这件事的意义在于 Agent 的输出形式变了。以前 Agent 调用工具后，你只能读一段 JSON 或文字摘要，再自己去别的界面核对；现在图表、看板和桌面可以直接嵌进对话里，看一眼就能判断结果对不对，顺手还能继续操作。对每天要看监控、部署状态和代码评审的开发者来说，少一次界面切换，就少一次上下文丢失。内置的脚手架技能也降低了开发新插件的门槛，不用从零拼 MCP 协议的细节。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合已经在用 Antigravity、并且日常依赖 Vercel、Datadog、CodeRabbit 这类工具的开发者和团队。交互视图需要 Antigravity App v2.34.0 以上版本，版本没跟上就看不到新界面；在 CLI 等非界面宿主里，工具结果仍会回落为纯文本，所以不要指望所有环境都有同样的体验。对习惯在终端里跑命令的人来说，界面渲染的收益有限，还是先看它在你常用的工作流里能不能省时间。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "把 Antigravity App 升级到 v2.34.0 或更高版本。",
+        "接上首批插件里的工具，在对话里直接调用并查看渲染出的界面。",
+        "想自己做插件时，用内置的 /mcp-app-development 技能生成脚手架。"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "别忽略这一条",
+      "text": "版本是硬门槛：交互视图需要 Antigravity App v2.34.0 以上版本，CLI 等非界面宿主仍回落为纯文本。升级前先确认团队成员的版本一致，避免同一份结果在不同人那里长得不一样。"
+    }
+  ]
+}

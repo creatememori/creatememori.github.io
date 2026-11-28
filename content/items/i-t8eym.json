@@ -1,0 +1,46 @@
+{
+  "summary": "给 Claude Code 的动画还原技能：把喜欢的动画逐帧录下来写成参数表，再用你自己的技术栈重建，最后逐帧验算到底对没对上。",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/7d89febe76d603efa44ab85b14c10ad0fe5fbec7001f7b61a39539fcf6d2aa78/NiazMorshed2007/reanimate",
+    "alt": "reanimate——Claude Code 技能：把喜欢的动画逐帧反向还原成代码，还能逐帧验算对没对上 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "reanimate 是一个给 Claude Code 的技能，10 月 29 日建库，11 月 26 日单日涨星 64。它的做法很直接：输入一个网址、录屏、mp4、gif 或 Lottie 文件，它先逐帧录下原动画、写成参数表，再用你项目里的 CSS、Framer Motion、GSAP 或 three.js 重建一遍，最后把复制品同样逐帧录下来比对，时序、缓动、像素差多少都列出来，通常 2 到 5 轮改到对上。仓库里有 18 个例子，包括 Stripe、Vercel、Resend 的卡片与 Hero。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "输入网址、录屏、mp4、gif 或 Lottie，就能逐帧还原动画。",
+        "重建后逐帧比对，时序、缓动、像素差都列出来，通常 2–5 轮改到对上。",
+        "仓库有 18 个例子，包括 Stripe、Vercel、Resend 的卡片与 Hero。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "它的价值在于把“抄动画”从凭感觉变成了可验证的工程。以前看到喜欢的动效，只能盯着屏幕猜缓动曲线和时间轴，改完也不知道像不像；reanimate 先把原动画拆成参数表，再把自己的实现同样录下来逐帧对比，差多少一目了然。2 到 5 轮的迭代也有了明确的收敛标准，不用再靠肉眼反复确认。对想提升动效还原能力的前端来说，这比看十篇教程更直接。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合前端开发者、动效设计师和创意开发，尤其适合正在复刻某个标杆站点动效的人。MIT 开源，需要 Bun 1.1 以上版本，macOS 和 Linux 可用，Windows 还没有验证过。要注意版权边界：克隆他人站点的字体图片素材仍归原作者，商用前先确认许可，学思路可以，搬素材不行。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "准备好要还原的动画：网址、录屏、mp4、gif 或 Lottie 文件。",
+        "让 reanimate 逐帧录制并写出参数表，再按参数表用项目技术栈重建。",
+        "把重建结果同样逐帧录下来比对，按差异清单迭代 2–5 轮。"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "环境与版权都要注意：需 Bun 1.1 以上版本，macOS 或 Linux 可用，Windows 未验证；克隆他人站点的字体图片素材仍归原作者，商用前先确认许可。"
+    }
+  ]
+}

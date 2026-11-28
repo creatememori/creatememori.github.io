@@ -1,0 +1,48 @@
+{
+  "summary": "开源 Skill，让 Claude Code 按口播稿加配音自动做分镜、用 Remotion 渲出带动态字卡与运镜的解说成片，适合想批量做口播讲解视频的创作者。",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/b4c0728ac5f370e74afcf240eb8a35642426a3e78590001a497af2c28a6e7ae1/Vincentwei1021/video-talkcraft",
+    "alt": "Video Talkcraft——让 Claude Code 替你做口播讲解视频：口播稿加配音，分镜一次成片 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "GitHub 上的 Video Talkcraft，一个开源 Skill，2,571 星。给 Claude Code 或 Codex 装上：口播稿加成品配音，本机按字级对齐时间戳、写进 SHOTBOOK 分镜，用 Remotion 渲出带动态字卡、运镜与音效的解说成片，108 张动效配方卡可逐张预览。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "口播稿加配音，自动对齐字级时间戳、生成分镜",
+        "Remotion 渲染成片，带动态字卡、运镜与音效",
+        "108 张动效配方卡，可逐张预览再挑",
+        "开源 Skill，接 Claude Code 或 Codex 即用"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "口播讲解视频最耗时间的是分镜与剪辑：哪句配哪张画面、字卡什么时候出、镜头怎么推，全是手工活。这个 Skill 把流程收进 Claude Code：稿子与配音进去，时间戳、分镜、成片一次出来。对已经用 Claude Code 做内容、想把口播视频做成固定栏目的创作者来说，它省掉的是每周重复的那几个小时。更实际的好处是成片风格可控：108 张动效配方卡能逐张预览，创作者可以先定一套固定风格，之后每期沿用，栏目感就是这样攒出来的。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合有 Claude Code 或 Codex 订阅、定期出解说视频的创作者，也适合想研究“AI 做视频”工作流的开发者。注意成本走自己的订阅，Skill 本身不另收费；108 张动效配方卡是亮点，选题演示时可以逐张预览，观众能直观看到风格范围。对还没用过 Claude Code 的观众，这条可能偏深：可以先讲清楚前置条件——需要订阅、需要口播稿与成品配音，再演示 Skill 本身做了什么。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "在 GitHub 确认 Skill 的安装方式与许可",
+        "给 Claude Code 或 Codex 装上，准备口播稿与成品配音",
+        "让它对齐时间戳、写 SHOTBOOK 分镜",
+        "用 Remotion 渲染成片，逐张预览 108 张动效配方卡再定风格"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "个人、教育、研究用途免费（PolyForm 非商业许可），商用需先获作者授权；成本走自己的 Claude Code / Codex 订阅。商用前务必先拿到作者授权，别等成片发出去了才补手续。"
+    }
+  ]
+}

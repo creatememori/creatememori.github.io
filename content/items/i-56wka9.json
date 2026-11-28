@@ -1,0 +1,46 @@
+{
+  "summary": "Nx 24.1.0 是个小版本更新，但方向很明确：Agent 迁移开始认 Copilot CLI 与 Antigravity，开发者的工具链正在向 Agent 友好靠拢。",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/ab73b6d430a502f978398c3bca7f9e1ec1fd2b564ac04c91511875e1f2681c9c/nrwl/nx/releases/tag/24.1.0",
+    "alt": "Nx 24.1.0——monorepo 工具小版本更新，Agent 迁移开始认 Copilot CLI 与 Antigravity 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Nx 24.1.0 在 11 月 26 日发布，这是一次 monorepo 工具的小版本更新。最值得留意的是 Agent 相关的两处变化：agentic nx migrate 新增了 GitHub Copilot CLI 支持，守护进程也能识别 Antigravity Agent 并过滤它的环境变量。除此之外还支持 NestJS 12、angular-rspack 开发服务器直出 SSR，以及 Bun 部署输出裁剪后的 bun.lock。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "agentic nx migrate 新增 GitHub Copilot CLI 支持。",
+        "守护进程能识别 Antigravity Agent，并过滤其环境变量。",
+        "另支持 NestJS 12、angular-rspack 开发服务器直出 SSR、Bun 部署输出裁剪后的 bun.lock。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "别看改动不大，它的信号很清楚：monorepo 工具正在把 Agent 当成一等公民。以前迁移和守护进程只认人类开发者的环境，Agent 跑进来容易踩到奇怪的环境变量或走不通的流程；现在 Copilot CLI 能直接参与迁移，Antigravity Agent 也会被守护进程正确识别，等于工具链开始为“人加 Agent 一起开发”做准备。对已经在用 Agent 做迁移和重构的团队，这类支持省掉的是一堆临时绕路。对团队而言，这类支持的意义在于减少手工适配，Agent 跑迁移时不用再为环境问题停下来问人。升级成本不高，用之前先确认团队的 Node 与 pnpm 版本是否符合要求，避免装到一半才发现环境对不上。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合正在用 Nx 管理 monorepo、并且已经让 Copilot CLI 或 Antigravity 参与日常开发的团队。如果你还在用 NestJS 12，或者用 angular-rspack 做 SSR、拿 Bun 做部署，顺带也能从这次更新里拿到对应的支持。只是做常规升级、还没有引入 Agent 的项目，这次更新带来的体感不会太明显，可以按自己的节奏跟进。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "先看发布说明里与自己栈相关的部分：NestJS 12、angular-rspack SSR 或 Bun 部署。",
+        "需要 Agent 参与迁移时，试一次 agentic nx migrate 的 Copilot CLI 支持。",
+        "升级后确认守护进程正常工作，再让团队统一版本。"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "别忽略这一条",
+      "text": "小版本更新适合先在分支上验证：重点确认守护进程识别 Antigravity Agent 后的行为是否符合预期，再合进主分支。升级前照例先看一遍发布说明里的破坏性变化。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "summary": "GitHub App：CI 挂了就在 PR 里用大白话讲清错在哪，免费档每月 25 次分析、仓库不限、免绑卡。",
+  "cover": {
+    "src": "https://failbrief.com/logo/og-image.png",
+    "alt": "FailBrief——CI 挂了，AI 在 PR 里用大白话讲清错在哪：免费档每月 25 次分析 的官方预览图",
+    "credit": "failbrief.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "FailBrief 是一款 GitHub App，盯着你的 Actions 工作流：失败就在 PR 里贴一份 AI 分析——影响、根因、修复建议，还带 flaky 测试检测与失败趋势看板。免费档每月 25 次分析、仓库不限、免绑卡，另有 MCP 服务可接 Claude Code / Cursor 查 CI 历史。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "CI 失败自动在 PR 里贴 AI 分析：影响、根因、修复建议",
+        "flaky 测试检测与失败趋势看板，偶发失败也能追踪",
+        "免费档每月 25 次分析、仓库不限、免绑卡",
+        "MCP 服务可接 Claude Code / Cursor 查 CI 历史"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "CI 红了最烦的不是修，而是先搞清错在哪：日志几百行，报错藏在中间，偶发失败下次又自己好了。FailBrief 把这一步自动化：失败就直接在 PR 里给一份大白话分析，告诉你影响范围、可能根因与修复建议。对每天都要看 CI 的小团队来说，省掉的是每次排错前那十几分钟的翻日志。对维护者来说，趋势看板是另一个实用功能：同一个测试反复失败、某类错误集中出现，看板上都能看出来，修起来有优先级，而不是每次都从头查。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合用 GitHub Actions 的个人开发者与小团队，尤其是仓库多、CI 跑得勤的人。免费档每月 25 次分析，对中小项目够用；如果失败频繁或想接 Slack/Discord 通知，再考虑付费档。注意黑五早鸟码 EARLYBIRDCODE 让前 100 名免费升 Pro 3 个月（500 次分析/月、高级模型、Slack/Discord 通知），先到先得，领完即止。MCP 服务的接入也值得一提：Claude Code 或 Cursor 可以直接查 CI 历史，排错时不用在浏览器与终端之间来回切，问一句就能拿到上下文。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "在官网把 FailBrief 装到自己的 GitHub 仓库",
+        "等一次 CI 失败，看 PR 里的 AI 分析是否说得明白",
+        "打开 flaky 测试检测与失败趋势看板，确认偶发失败有记录",
+        "需要时用 MCP 服务接 Claude Code / Cursor 查 CI 历史"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "免费与早鸟",
+      "text": "免费档每月 25 次分析、仓库不限、免绑卡；黑五早鸟码 EARLYBIRDCODE 前 100 名免费升 Pro 3 个月，先到先得，领之前先确认名额还在。"
+    }
+  ]
+}

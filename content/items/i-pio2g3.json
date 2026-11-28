@@ -1,0 +1,46 @@
+{
+  "summary": "给 AI 编程助手装上设计品味：600 多个真实 UI 设计，每个都有可运行的演示与书面 brief，Agent 照着出图，评审问题直接清零。",
+  "cover": {
+    "src": "https://www.designlounge.live/og/home.jpg",
+    "alt": "Design Lounge——免费给 AI 编程助手装设计品味：600+ 真实 UI 设计 + 免费 MCP，让 Agent 按配色字体配方出图 的官方预览图",
+    "credit": "designlounge.live"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Design Lounge 在 11 月 17 日登上 Product Hunt，它是一套免费的 UI 设计 skill 加 600 多个设计灵感库，目标是给 AI 编程助手装上设计品味。库里的每个设计都有可直接运行的演示和一份书面 brief，写明尺寸、配色、动效时序与状态，Agent 按它出图。同一提示词、同一模型的实测结果很直观：不用它时评审失败 16 处，用了之后是 0 处，无障碍评分 100。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "600 多个真实 UI 设计，每个都有可运行的演示与书面 brief。",
+        "同一提示词、同一模型实测：不用它评审失败 16 处，用了 0 处，无障碍评分 100。",
+        "完全免费，设计稿可商用；一条命令装 MCP，Claude Code、Cursor、Codex、VS Code 都能接。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "它解决的是 AI 出界面的老问题：功能都对，视觉却总差一口气。很多 Agent 生成的界面不是缺功能，而是配色、间距、动效时序这些细节没有章法，看起来像半成品。Design Lounge 的做法不是给模型更多自由发挥，而是给它一套有明确参数的参考：尺寸、配色、动效时序与状态都写在 brief 里，Agent 照着做，出图质量就有了下限。16 处评审失败降到 0 处，这个对比说明参考设计比单纯调提示词更管用。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合经常让 Agent 写界面、又对视觉有要求的前端开发者和独立开发者，也适合想快速验证产品原型的团队。整库约 12.7k tokens 一次方向规划，token 成本不算高。设计稿可以商用，拿来做正式产品也没问题。反过来，如果你已经有成熟的设计系统，Design Lounge 更适合当灵感来源，而不是替代现有的规范。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "用一条命令装 MCP：npx -y design-lounge-mcp@latest，接进 Claude Code、Cursor、Codex 或 VS Code。",
+        "在灵感库里挑一个接近目标的设计，把它的 brief 交给 Agent。",
+        "让 Agent 按 brief 出图，再按评审清单检查一遍细节。"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "别忽略这一条",
+      "text": "注意 token 成本：整库约 12.7k tokens 一次方向规划，不算高，但每次换方向都会重新花一遍。先定好设计方向再让 Agent 规划，比反复换参考更省。"
+    }
+  ]
+}

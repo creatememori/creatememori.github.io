@@ -1,0 +1,48 @@
+{
+  "summary": "开源代理把 Claude Code 等 12 个编程助手接到 61 家官方免费额度上，每月合计 13 亿 tokens，选题角度是「不花钱也能用 Claude Code」。",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/e906517ce9f9b63bc7eb8e0f8e379d7ad96305627606ce7ac19705e9969d32c6/Alishahryar1/free-claude-code",
+    "alt": "free-claude-code——Claude Code 不花钱也能用：一个开源代理接 61 家官方免费额度，每月 13 亿 tokens 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "GitHub 上 7.3 万星的 AGPL 开源项目 free-claude-code：本机跑一个代理，把 Claude Code、Codex、OpenCode、Cursor 等 12 个编程助手接到 NVIDIA NIM、Groq、OpenRouter 免费模型等 61 家供应商的官方免费档上，还能自动换源、断线重试。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "12 个编程助手，共用一套免费额度池",
+        "61 家供应商的官方免费档，每月合计 13 亿 tokens",
+        "自动换源、断线重试，额度用完不用手动切",
+        "AGPL 开源，本机跑代理，配置自己掌控"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这条适合做成一期「白嫖」选题：痛点清晰——Claude Code 好用但要付费；解法具体——一个开源代理接通各家官方免费档；数字有冲击力——每月 13 亿 tokens。演示时可以从安装、配 Key、跑一次真实编程任务三段拍，重点拍自动换源那一下，观众最能感知到价值。对观众来说，最直观的演示是真实任务：让助手写一段代码、改一个 bug，中间故意让某家额度耗尽，看代理自动换源接上，效果比念参数表好得多。"
+    },
+    {
+      "type": "paragraph",
+      "text": "拍之前要先想清楚边界：免费额度以各家免费档为准、随时可能变，视频里要把这句说在前面；安装用 curl 管道脚本，演示前自己先看一眼 README，别在镜头前照着不明脚本跑。适合已经用过 Claude Code 或同类助手、想省订阅费的开发者观众。还要提醒观众区分概念：这不是某家模型商的官方免费额度，而是一个把多家官方免费档聚合起来的开源代理，额度归各家所有、规则也归各家定。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么拍",
+      "items": [
+        "先读 README，确认支持的助手与供应商清单",
+        "按说明安装代理，逐家申请免费 Key",
+        "接一个常用编程助手，跑一次真实任务验证",
+        "演示自动换源与断线重试，再收尾讲清额度限制"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "需自备各家免费 Key，额度以各家免费档为准、随时可能变；curl 管道脚本装前先看一眼 README，确认来源再执行。装好之后先跑一次小任务验证，再决定要不要把它当日常主力。"
+    }
+  ]
+}

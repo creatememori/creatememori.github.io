@@ -1,0 +1,46 @@
+{
+  "summary": "48 个能直接粘贴的 CSS 过渡：每个都能在线试玩、点一下复制走自包含片段，无框架依赖，还带减弱动效保护。",
+  "cover": {
+    "src": "https://transitions.dev/assets/og-main.jpg",
+    "alt": "transitions.dev——48 个能直接粘贴的 CSS 过渡：卡片缩放、数字翻牌、弹窗开合都有现成片段 的官方预览图",
+    "credit": "transitions.dev"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "transitions.dev 是 Jakub Antalik 的开源过渡库，站内有 48 个以上的交互过渡：卡片缩放、数字翻牌、通知角标、弹窗开合、头像悬停、错误抖动都有现成片段。每个过渡都能在线试玩，点一下就复制走自包含的 CSS 片段，无框架依赖，还带 prefers-reduced-motion 保护。一条 npx 命令就能装进项目，还有 Agent 技能让 Cursor、Claude Code 直接调用，另有 Motion Agent 给代码库打动效分、提 PR 修。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "48 个以上交互过渡，每个都能在线试玩、点一下复制走。",
+        "自包含 CSS 片段，无框架依赖，带 prefers-reduced-motion 保护。",
+        "免费档免账号直接用，部分 Pro 过渡需登录解锁。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "它好在把动效的决策成本压到了最低。很多项目不是不想加过渡，而是不想为一个小交互引入一整个动效库、再花半天调参数。transitions.dev 的片段是自包含的，复制进来就能用，试玩页又能先看到效果再决定要不要，等于把“要不要加动效”变成了一次点击的事。Agent 技能和 Motion Agent 的组合也值得留意：前者让 AI 直接调用这些过渡，后者能给整个代码库的动效打分并提 PR 修，动效开始有了可维护的流程。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合想给产品加一点精致感、但不想引入重型动效库的前端开发者，也适合正在做细节打磨的独立开发者。免费档免账号直接用，门槛很低；部分 Pro 过渡需要登录解锁，正式用之前先确认自己要的效果在不在免费范围内。无框架依赖意味着 React、Vue 或原生项目都能用。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "在站内试玩 48 个过渡，挑中符合产品气质的那几个。",
+        "点一下复制自包含 CSS 片段，粘进项目里验证效果。",
+        "需要规模化时用 npx 装进项目，或让 Agent 技能直接调用。"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "别忽略这一条",
+      "text": "免费档够日常用，但部分 Pro 过渡需登录解锁。用之前先确认目标效果在免费范围内；另外记得保留 prefers-reduced-motion 的保护，不要为了效果关掉它。"
+    }
+  ]
+}

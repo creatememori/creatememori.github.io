@@ -1,0 +1,48 @@
+{
+  "summary": "免费开源的 AI Agent 状态看板：多个 Agent 各自一条 curl 上报在跑什么、卡在哪，像机场出发板一样一眼看清。",
+  "cover": {
+    "src": "https://opengraph.githubassets.com/246ced1bf64753798731572a99efdcaee80feb8c54030fa90c83b310a1dcaa77/kirillzubovsky/statuspan",
+    "alt": "StatusPan——免费开源的 AI Agent 状态看板：多个 Agent 各自一条 curl 上报在跑什么、卡在哪，机场出发板一眼看清 的官方预览图",
+    "credit": "github.com"
+  },
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "11 月 26 日登 Show HN、MIT 开源，最新 v0.2.0（11 月 24 日发布）。StatusPan 是一个本地 Go 程序起的看板：Agent 一条 curl 上报任务状态与进度，10 分钟没心跳标 stalled，另有自托管中继可跨机器汇总。"
+    },
+    {
+      "type": "highlights",
+      "title": "先看这几点",
+      "items": [
+        "多个 Agent 各自上报，像机场出发板一样一眼看清",
+        "一条 curl 就上报状态与进度，接入门槛低",
+        "10 分钟没心跳自动标 stalled，卡住的任务藏不住",
+        "自托管中继可跨机器汇总，多机协作也看得见"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "同时跑多个 Agent 时最难受的是不知道它们在干什么：哪个在跑、哪个卡住了、哪个早就悄悄退出了，只能一个个去翻日志。StatusPan 的做法很轻：不改 Agent 本身，只让它定时发一条 curl 上报，看板按出发板的方式汇总。对同时开多个并行任务、或用多台机器跑 Agent 的人来说，这块看板省掉的是反复巡查的注意力。心跳机制的设计也值得一提：10 分钟没上报就标 stalled，等于给每个 Agent 设了一个无声的闹钟。对小团队来说，另一个好处是交接成本低：新成员加入不用挨个问谁在跑什么，看板打开就是全员状态，卡住的任务一眼就能定位到负责人。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合在本地或服务器上并行跑多个 Agent 的开发者与小团队。注意官方下载目前只列 macOS 与 Linux，Windows 未明确，可跑在服务器或 WSL 上；本地守护进程只监听 loopback、无鉴权，别把它暴露到公网。部署方式也灵活：单机本地跑最简单，多台机器就用自托管中继汇总；Windows 用户可以先在服务器或 WSL 上试，确认好用再决定怎么长期部署。"
+    },
+    {
+      "type": "steps",
+      "title": "怎么用",
+      "items": [
+        "在 GitHub 确认最新版本 v0.2.0 与下载方式",
+        "本机或服务器上起一个看板服务",
+        "让每个 Agent 定时 curl 上报任务状态与进度",
+        "看板上确认 stalled 标记与跨机器汇总是否正常"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warn",
+      "title": "别忽略这一条",
+      "text": "官方下载目前只列 macOS 与 Linux，Windows 未明确；本地守护进程只监听 loopback、无鉴权，不要把它暴露到公网。只监听 loopback 是刻意设计，不是缺陷；需要远程访问时走中继，别直接暴露端口。"
+    }
+  ]
+}
