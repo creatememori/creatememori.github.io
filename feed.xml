@@ -18,14 +18,6 @@
     <description><![CDATA[11 月 25 日权重上线、27 日 internlm 镜像更新：基于 Intern-S2-Preview 的 35B MoE 医疗多模态模型，医学问答、读片、写放射报告、图像视觉定位一肩挑；31 项公开医疗基准平均 58.26%，14 家医院私有评测 57.72%，高于 GPT-6.2 Sol 的 51.24%。注意：权重与论文 arXiv:2611.34575、评测基准均已公开，但模型卡暂无 license 字段，商用前先确认授权；基准数字为实验室自报。]]></description>
   </item>
   <item>
-    <title>NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍</title>
-    <link>https://creatememori.blog/items/i-y2pkmh.html</link>
-    <guid isPermaLink="true">https://creatememori.blog/items/i-y2pkmh.html</guid>
-    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
-    <category>前沿追踪</category>
-    <description><![CDATA[11 月 26 日英伟达官方博客：0.631B 参数的文档解析模型 Nemotron 3.5 Parse 开源了训练家底——合成图表 998 万条、表格 100 万条、多语 OCR 790 万条，附 SFT + RLVR 微调配方；DFlash2 推测解码让单张 H200 上的解析速度提到 20.44 页/秒。注意：模型本体 10 月 17 日发布，本次新的是数据与配方；OpenMDW 1.1 协议，商用可用。]]></description>
-  </item>
-  <item>
     <title>ShowNow——交互式世界模型先把 8 种未来都算好：输入到显示延迟 620ms 降到 208ms</title>
     <link>https://creatememori.blog/items/i-1wldsvf.html</link>
     <guid isPermaLink="true">https://creatememori.blog/items/i-1wldsvf.html</guid>
@@ -408,6 +400,14 @@
     <pubDate>Fri, 27 Nov 2026 04:00:00 GMT</pubDate>
     <category>YouTube 选题</category>
     <description><![CDATA[建议标题「说句话就出一支完整视频：剧本配音分镜全包，上线期间免费」。打开 animix.studio/pricing 看免费档，一句话输想法就能生成带剧本、配音与分镜的成片，时间线里每层、每词、每帧都能改。注意：上线期间全免费免绑卡，之后免费档每月 50 credits、免费导出 1080p 带轻微角标。]]></description>
+  </item>
+  <item>
+    <title>Cinecode——一句话想法，AI 剧组给你拍出 10 分钟以上的电影</title>
+    <link>https://creatememori.blog/items/i-1a99f7e.html</link>
+    <guid isPermaLink="true">https://creatememori.blog/items/i-1a99f7e.html</guid>
+    <pubDate>Fri, 27 Nov 2026 04:00:00 GMT</pubDate>
+    <category>YouTube 选题</category>
+    <description><![CDATA[建议标题「一句话想法，AI 剧组给你拍出 10 分钟电影」。GitHub 拉下 Cinecode（MIT 开源），接 Claude Code 或 Cursor，输一句话想法，Agent 写剧本、逐帧代码绘制画面、设计音效，不用视频生成模型、不耗 credits。注意：成本走自己的 Claude/Codex 订阅，Windows 端完整成片尚未验证。]]></description>
   </item>
 </channel>
 </rss>

@@ -4259,11 +4259,6 @@
     "alt": "装饰插图",
     "credit": "nekos.best（装饰插图）"
   },
-  "i-y2pkmh": {
-    "src": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
-    "alt": "NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍 的官方预览图",
-    "credit": "huggingface.co"
-  },
   "i-1v1b1vn": {
     "src": "https://opengraph.githubassets.com/89c8938de17135c5a92880fcf3754819c88e068e10b866bb1918b4140a326fc9/sebinsua/allomono",
     "alt": "allomono 0.1——Allo 改成的等宽终端字体：输入 -> 与 => 自动变箭头且不占宽 的官方预览图",

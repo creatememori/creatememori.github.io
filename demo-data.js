@@ -2,8 +2,8 @@ window.MEMORI_DEMO = {
   "meta": {
     "sourceUrl": "https://creatememori.blog/library.html",
     "sourceUpdated": "2026-11-27T20:00:00+08:00",
-    "total": 1117,
-    "active": 1090,
+    "total": 1116,
+    "active": 1089,
     "activePct": 98,
     "subCount": 121,
     "categoryCount": 12,
@@ -65,7 +65,7 @@ window.MEMORI_DEMO = {
       },
       {
         "name": "前沿追踪",
-        "count": 80,
+        "count": 79,
         "slug": "frontier"
       }
     ],
@@ -149,14 +149,14 @@ window.MEMORI_DEMO = {
       },
       {
         "date": "11-27",
-        "count": 125,
+        "count": 124,
         "morning": 42,
         "noon": 41,
-        "evening": 42
+        "evening": 41
       }
     ],
     "statusCounts": {
-      "有效": 1090,
+      "有效": 1089,
       "未核实": 9,
       "已过期": 10,
       "即将过期": 7,
@@ -180,7 +180,7 @@ window.MEMORI_DEMO = {
       "desc": "11 月 23–30 日加入 Black Friday Club，免费档（每月 100 次）直接变每月 1,100 次、持续 6 个月，相当于 Essential 档免费；6 个月后自动回到原套餐，不扣费、不用取消。注意：11 月 30 日前要在控制台 Club 里加入（或填码 BF26）；面向 WooCommerce 等站内搜索，个人博客也能用。",
       "url": "https://queryra.com/blog/black-friday-six-months-free",
       "deadline": "2026-11-30",
-      "deadlineDays": 3,
+      "deadlineDays": 2,
       "detail": "/items/i-1nnyuhe.html"
     },
     {
@@ -360,7 +360,7 @@ window.MEMORI_DEMO = {
       "desc": "11 月 30 日 23:59 PT 前注册新账号即得 15,000 积分（平时 5,000），约可做 27 次整页构建或 500 次问答，积分永不过期；建好的站是原生 WordPress、取消也归自己。注意：仅新账号可领，老账号只能用 FRIDAY50 享前两月 5 折；11 月 30 日截止。",
       "url": "https://wpos.ai/black-friday/",
       "deadline": "2026-11-30",
-      "deadlineDays": 3,
+      "deadlineDays": 2,
       "detail": "/items/i-oi443u.html"
     },
     {
@@ -514,19 +514,19 @@ window.MEMORI_DEMO = {
       "detail": "/items/i-1v1b1vn.html"
     },
     {
-      "id": "i-y2pkmh",
-      "title": "NVIDIA Nemotron 3.5 Parse——文档解析的训练数据与微调配方全开源：1888 万条合成数据 + DFlash2 提速 7.62 倍",
+      "id": "i-1wldsvf",
+      "title": "ShowNow——交互式世界模型先把 8 种未来都算好：输入到显示延迟 620ms 降到 208ms",
       "cat": "前沿追踪",
       "sub": "Hugging Face 论文速递",
       "date": "11-27",
       "period": "晚",
       "heat": "高",
       "status": "有效",
-      "desc": "11 月 26 日英伟达官方博客：0.631B 参数的文档解析模型 Nemotron 3.5 Parse 开源了训练家底——合成图表 998 万条、表格 100 万条、多语 OCR 790 万条，附 SFT + RLVR 微调配方；DFlash2 推测解码让单张 H200 上的解析速度提到 20.44 页/秒。注意：模型本体 10 月 17 日发布，本次新的是数据与配方；OpenMDW 1.1 协议，商用可用。",
-      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "desc": "11 月 25 日 arXiv 论文（2611.34693）：新加坡国立大学 Show Lab 的推测流式框架，播放时用空闲算力预生成 8 条动作条件未来分支，用户一操作就直接切到对应分支；单张 H100 上 5B 模型 480p/16fps，33B 版 1344×768 达 23.94fps，代码已开源。注意：论文预印本、未同行评审；效果在 ViZDoom 环境测得。",
+      "url": "https://github.com/showlab/ShowNow",
       "deadline": "",
       "deadlineDays": null,
-      "detail": "/items/i-y2pkmh.html"
+      "detail": "/items/i-1wldsvf.html"
     },
     {
       "id": "i-98s153",
@@ -694,19 +694,19 @@ window.MEMORI_DEMO = {
       "detail": "/items/i-ekiuz.html"
     },
     {
-      "id": "i-1wldsvf",
-      "title": "ShowNow——交互式世界模型先把 8 种未来都算好：输入到显示延迟 620ms 降到 208ms",
+      "id": "i-14sff1n",
+      "title": "Onset——AI 给 YouTube 创作者复盘：发布 48 小时后按你的数据写标题、画封面",
       "cat": "前沿追踪",
-      "sub": "Hugging Face 论文速递",
+      "sub": "AI 资讯与技术周刊",
       "date": "11-27",
       "period": "晚",
       "heat": "高",
       "status": "有效",
-      "desc": "11 月 25 日 arXiv 论文（2611.34693）：新加坡国立大学 Show Lab 的推测流式框架，播放时用空闲算力预生成 8 条动作条件未来分支，用户一操作就直接切到对应分支；单张 H100 上 5B 模型 480p/16fps，33B 版 1344×768 达 23.94fps，代码已开源。注意：论文预印本、未同行评审；效果在 ViZDoom 环境测得。",
-      "url": "https://github.com/showlab/ShowNow",
+      "desc": "11 月 27 日 Product Hunt 上线：接上 YouTube Analytics，每条视频发布 48 小时后拿点击率与留存跟频道平均值对比复盘，再用你自己的频道数据写标题、按频道风格出封面草稿；只读权限，不上传、不改、不删任何内容。注意：目前候补名单制，Product Hunt 用户优先入场；AI 粗剪功能还在做。",
+      "url": "https://www.producthunt.com/products/onset",
       "deadline": "",
       "deadlineDays": null,
-      "detail": "/items/i-1wldsvf.html"
+      "detail": "/items/i-14sff1n.html"
     },
     {
       "id": "i-1ej8l79",
@@ -874,19 +874,19 @@ window.MEMORI_DEMO = {
       "detail": "/items/i-1hp0mq7.html"
     },
     {
-      "id": "i-14sff1n",
-      "title": "Onset——AI 给 YouTube 创作者复盘：发布 48 小时后按你的数据写标题、画封面",
+      "id": "i-1x8vsmo",
+      "title": "llm.asm——纯汇编写的大模型：14KB 程序跑 Qwen3-0.6B，24KB 裸机系统 100 毫秒内开机进对话",
       "cat": "前沿追踪",
-      "sub": "AI 资讯与技术周刊",
+      "sub": "Hugging Face 论文速递",
       "date": "11-27",
-      "period": "晚",
+      "period": "中午",
       "heat": "高",
       "status": "有效",
-      "desc": "11 月 27 日 Product Hunt 上线：接上 YouTube Analytics，每条视频发布 48 小时后拿点击率与留存跟频道平均值对比复盘，再用你自己的频道数据写标题、按频道风格出封面草稿；只读权限，不上传、不改、不删任何内容。注意：目前候补名单制，Product Hunt 用户优先入场；AI 粗剪功能还在做。",
-      "url": "https://www.producthunt.com/products/onset",
+      "desc": "11 月 25 日发布：1.7 万行纯 x86-64 汇编（NASM），零 C、零 libc、零依赖，推理程序仅 14,712 字节；另有 24,252 字节的裸机系统，不装 Linux/Windows 直接开机进聊天，74–94 毫秒出提示符；作者实测 CPU 解码比 llama.cpp 快 18–36%。注意：解码快、读提示词慢（逐 token 处理，不如 llama.cpp 的批量预填充）；仅 x86-64，MIT 开源，约 1,600 星。",
+      "url": "https://github.com/alesha-pro/llm.asm",
       "deadline": "",
       "deadlineDays": null,
-      "detail": "/items/i-14sff1n.html"
+      "detail": "/items/i-1x8vsmo.html"
     },
     {
       "id": "i-1anzzx1",
@@ -1054,19 +1054,19 @@ window.MEMORI_DEMO = {
       "detail": "/items/i-1erc19b.html"
     },
     {
-      "id": "i-1x8vsmo",
-      "title": "llm.asm——纯汇编写的大模型：14KB 程序跑 Qwen3-0.6B，24KB 裸机系统 100 毫秒内开机进对话",
+      "id": "i-ocgjra",
+      "title": "openset-llm——普通 CPU 跑 27B 大模型：不用 GPU、8GB 内存，17–20 tokens/s，OpenAI 兼容",
       "cat": "前沿追踪",
       "sub": "Hugging Face 论文速递",
       "date": "11-27",
       "period": "中午",
       "heat": "高",
       "status": "有效",
-      "desc": "11 月 25 日发布：1.7 万行纯 x86-64 汇编（NASM），零 C、零 libc、零依赖，推理程序仅 14,712 字节；另有 24,252 字节的裸机系统，不装 Linux/Windows 直接开机进聊天，74–94 毫秒出提示符；作者实测 CPU 解码比 llama.cpp 快 18–36%。注意：解码快、读提示词慢（逐 token 处理，不如 llama.cpp 的批量预填充）；仅 x86-64，MIT 开源，约 1,600 星。",
-      "url": "https://github.com/alesha-pro/llm.asm",
+      "desc": "11 月 26 日发布 v0.2.0：MIT 开源的 C++ 推理引擎，8 核 CPU + 8GB 内存跑 27B 模型约 17–20 tokens/s，自称比同类 CPU 引擎快约 4 倍；自带聊天页与 OpenAI 兼容服务，现有 Agent 客户端不用改就能接。注意：满速需 AVX-512 CPU（Intel Ice Lake 及更新 / AMD Zen 4 及更新），Linux/WSL2，Apple Silicon 安装器暂不支持；约 1,700 星。",
+      "url": "https://github.com/opensetlabs/openset-llm",
       "deadline": "",
       "deadlineDays": null,
-      "detail": "/items/i-1x8vsmo.html"
+      "detail": "/items/i-ocgjra.html"
     },
     {
       "id": "i-u12o0n",
@@ -1234,19 +1234,19 @@ window.MEMORI_DEMO = {
       "detail": "/items/i-7js982.html"
     },
     {
-      "id": "i-ocgjra",
-      "title": "openset-llm——普通 CPU 跑 27B 大模型：不用 GPU、8GB 内存，17–20 tokens/s，OpenAI 兼容",
+      "id": "i-az1jaa",
+      "title": "OpenGame——把 20+ 编程 Agent 变成游戏工作室：25 个可玩模板，小游戏直发微信/抖音/TikTok",
       "cat": "前沿追踪",
-      "sub": "Hugging Face 论文速递",
+      "sub": "AI 资讯与技术周刊",
       "date": "11-27",
       "period": "中午",
       "heat": "高",
       "status": "有效",
-      "desc": "11 月 26 日发布 v0.2.0：MIT 开源的 C++ 推理引擎，8 核 CPU + 8GB 内存跑 27B 模型约 17–20 tokens/s，自称比同类 CPU 引擎快约 4 倍；自带聊天页与 OpenAI 兼容服务，现有 Agent 客户端不用改就能接。注意：满速需 AVX-512 CPU（Intel Ice Lake 及更新 / AMD Zen 4 及更新），Linux/WSL2，Apple Silicon 安装器暂不支持；约 1,700 星。",
-      "url": "https://github.com/opensetlabs/openset-llm",
+      "desc": "11 月 25 日创建、今日 GitHub 日榜前三：开源游戏开发平台（Apache-2.0），一句指令把 Claude Code、Codex、DeepSeek 等 20 多个本地编程 Agent 接进本地 Game Studio，25 个 HTML5/Three.js 模板（3D 竞速、体素射击、像素平台等）可玩可改，成品可发微信、抖音、TikTok、Telegram、itch.io。注意：工作室需从源码运行（Node 22.18+），模板素材首次使用要联网下载；上线两天已 800+ 星。",
+      "url": "https://github.com/nexu-io/opengame",
       "deadline": "",
       "deadlineDays": null,
-      "detail": "/items/i-ocgjra.html"
+      "detail": "/items/i-az1jaa.html"
     },
     {
       "id": "i-15zfrhn",
@@ -1414,19 +1414,19 @@ window.MEMORI_DEMO = {
       "detail": "/items/i-1g2szp4.html"
     },
     {
-      "id": "i-az1jaa",
-      "title": "OpenGame——把 20+ 编程 Agent 变成游戏工作室：25 个可玩模板，小游戏直发微信/抖音/TikTok",
+      "id": "i-1j4mnd8",
+      "title": "GigaChat 4——俄罗斯最大银行开源 708B 旗舰模型：MIT 协议、1M 上下文，SWE-bench 80.9%",
       "cat": "前沿追踪",
-      "sub": "AI 资讯与技术周刊",
+      "sub": "Hugging Face 论文速递",
       "date": "11-27",
-      "period": "中午",
+      "period": "早",
       "heat": "高",
       "status": "有效",
-      "desc": "11 月 25 日创建、今日 GitHub 日榜前三：开源游戏开发平台（Apache-2.0），一句指令把 Claude Code、Codex、DeepSeek 等 20 多个本地编程 Agent 接进本地 Game Studio，25 个 HTML5/Three.js 模板（3D 竞速、体素射击、像素平台等）可玩可改，成品可发微信、抖音、TikTok、Telegram、itch.io。注意：工作室需从源码运行（Node 22.18+），模板素材首次使用要联网下载；上线两天已 800+ 星。",
-      "url": "https://github.com/nexu-io/opengame",
+      "desc": "11 月 26 日在莫斯科 AI Journey 大会发布：Sber 开源 GigaChat 4，708B 总参、每 token 激活 41B，MoE + DeepSeek 稀疏注意力 + Gated DeltaNet，1M 上下文，快慢双模式合进同一个权重；指令微调版 MIT 协议，FP8/BF16/GGUF 权重已上 Hugging Face。注意：厂商自报 SWE-bench Verified 80.89%、LiveCodeBench v6 88.82%，暂无独立复核；Sber 自 2022 年起受美欧制裁，合规敏感行业使用前先确认。",
+      "url": "https://huggingface.co/ai-sage/GigaChat4-708B-A41B",
       "deadline": "",
       "deadlineDays": null,
-      "detail": "/items/i-az1jaa.html"
+      "detail": "/items/i-1j4mnd8.html"
     },
     {
       "id": "i-txcvco",
@@ -1594,19 +1594,19 @@ window.MEMORI_DEMO = {
       "detail": "/items/i-1gntx91.html"
     },
     {
-      "id": "i-1j4mnd8",
-      "title": "GigaChat 4——俄罗斯最大银行开源 708B 旗舰模型：MIT 协议、1M 上下文，SWE-bench 80.9%",
+      "id": "i-qik0zg",
+      "title": "Chariot-1——印度主权大模型首秀：11B MoE + 10 种印度语言 TTS，手机也能跑",
       "cat": "前沿追踪",
       "sub": "Hugging Face 论文速递",
       "date": "11-27",
       "period": "早",
       "heat": "高",
       "status": "有效",
-      "desc": "11 月 26 日在莫斯科 AI Journey 大会发布：Sber 开源 GigaChat 4，708B 总参、每 token 激活 41B，MoE + DeepSeek 稀疏注意力 + Gated DeltaNet，1M 上下文，快慢双模式合进同一个权重；指令微调版 MIT 协议，FP8/BF16/GGUF 权重已上 Hugging Face。注意：厂商自报 SWE-bench Verified 80.89%、LiveCodeBench v6 88.82%，暂无独立复核；Sber 自 2022 年起受美欧制裁，合规敏感行业使用前先确认。",
-      "url": "https://huggingface.co/ai-sage/GigaChat4-708B-A41B",
+      "desc": "11 月 26 日印度电子信息技术部发布：IndiaAI Mission 首批主权模型之一，Chariot-1 套件含 11B MoE 大模型（每 token 激活 4B）与 10 种印度语言 TTS；三档尺寸 10.7B/1.7B/745M，同一套权重一次训练产出，可跑在数据中心、笔记本与手机上。注意：印度语 token 用量自称比 GPT 分词省 2.5 倍、训练提速 62%，均为厂商口径，暂无公开权重与独立评测。",
+      "url": "https://inc42.com/buzz/indiaai-mission-backed-chariot-ai-unveils-11-bn-parameter-llm-speech-models/",
       "deadline": "",
       "deadlineDays": null,
-      "detail": "/items/i-1j4mnd8.html"
+      "detail": "/items/i-qik0zg.html"
     }
   ]
 };
